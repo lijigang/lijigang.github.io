@@ -1,1 +1,14 @@
-* 个人读书方法IDEA
+#+TITLE: IDEA读书方法
+#+TAGS: 读书
+
+* 个人读书方法
+
+个人总结了一个读书方法, 感觉很实用, 起名叫做「IDEA读书法」!
+
+** I → Imagination
+
+** D → Draw
+
+** E → Experience
+
+** A → Action
