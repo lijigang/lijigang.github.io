@@ -11,7 +11,7 @@
 
 把书中描述的画面, 在你脑海中想象出来.
 
-[[../images/reading_thinking.jpg]]
+[[./images/reading_thinking.jpg]]
 
 ** D → Draw
 

@@ -17,7 +17,7 @@
 
 这书的核心内容就是下图, 书中主要是针对各部分进行了些介绍:
 
-[[../images/business_model_canvas.png]]
+[[./images/business_model_canvas.png]]
 
 
 但在实际应用过程中, 发现还是有些不太实用的地方, 比如「合作伙伴」这一条, 如果是一
@@ -26,9 +26,9 @@
 很显然, 有类似感觉的人远不止我一个, 国外有个叫Ash Maurya的就在商业画布
 的基础上做了一些改进, 做出了下图, 并命名为[[http://practicetrumpstheory.com/why-lean-canvas/][lean canvas]].
 
-[[../images/lean_canvas.png]]
+[[./images/lean_canvas.png]]
 
 
 我做了一个设想的项目商业画布做为试手, 结果如下图:
 
-[[../images/lean_canvas_example.png]]
+[[./images/lean_canvas_example.png]]
