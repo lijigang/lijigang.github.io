@@ -24,7 +24,7 @@
 个初创企业, 其实很多时候是没有什么合作伙伴的, 空着那栏总感觉有些浪费.
 
 很显然, 有类似感觉的人远不止我一个, 国外有个叫Ash Maurya的就在商业画布
-的基础上做了一些改进, 做出了下图, 并命名为 =[[http://practicetrumpstheory.com/why-lean-canvas/][lean canvas]]=.
+的基础上做了一些改进, 做出了下图, 并命名为 [[http://practicetrumpstheory.com/why-lean-canvas/][lean canvas]].
 
 [[../blog/images/lean_canvas.png]]
 
