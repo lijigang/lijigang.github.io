@@ -1,11 +1,5 @@
 #+TITLE: 「读书笔记」商业模式新生代
 
-<a
-href="http://www.amazon.cn/gp/product/B005A24L5S/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B005A24L5S&linkCode=as2&tag=lijigang-23">
-图书链接: 商业模式新生代</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t=lijigang-23&l=as2&o=28&a=B005A24L5S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-
----
-
 ** 什么是商业模式?
 
 #BEGIN_CENTER
