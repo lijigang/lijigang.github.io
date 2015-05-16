@@ -4,8 +4,8 @@
     <title>lijigang的首页</title>
     <link>http://lijigang.github.io</link>
     <description>=======内求诸己=======</description>
-    <pubDate>Sat, 16 May 2015 13:59:18 CST</pubDate>
-    <lastBuildDate>Sat, 16 May 2015 13:59:18 CST</lastBuildDate>
+    <pubDate>Sat, 16 May 2015 14:17:13 CST</pubDate>
+    <lastBuildDate>Sat, 16 May 2015 14:17:13 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -21,6 +21,13 @@
       <description>No Description</description>
       <pubDate>2015-05-16</pubDate>
       <guid>http://lijigang.github.io/blog/2015/05/16/「读书笔记」商业模式新生代/</guid>
+    </item>
+    <item>
+      <title>Shell, Terminal, Console区别</title>
+      <link>http://lijigang.github.io/blog/2015/05/16/shell,-terminal,-console区别/</link>
+      <description>No Description</description>
+      <pubDate>2015-05-16</pubDate>
+      <guid>http://lijigang.github.io/blog/2015/05/16/shell,-terminal,-console区别/</guid>
     </item>
   </channel>
 </rss>
