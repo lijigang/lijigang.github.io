@@ -109,3 +109,44 @@ Control+其它键时, 仍然发送Control, 跟之前使用完全一样.
 2. 把Control变成了单独按时, 发送Esc; 组合按时, 发送Control.
 
 即, 我们现在单独按Caps Lock时, 发送Esc; 按下Caps Lock和c时, 会发送Control-C.
+
+** 增加第四象限按键
+
+我们可以指定某个按键为多个按键的组合, 这样可以额外增加一个命名空间, 该键和其
+它键的组合就不会和其它按键冲突. 比如设置右Command键为「ctrl+shift+cmd+opt」,
+这样当我们按右command+F时, 相当于按了「ctrl+shift+cmd+opt+F」.
+
+这种给指定按键映射为多个按键的操作, 同样可以通过Karabiner完成.
+
+1. 打开Karabiner, 选择「Misc & Uninstall」
+2. 选择「Open private.xml」
+3. 输入以下内容
+
+#+BEGIN_SRC nxml
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>F19 to F19</name>
+        <appendix>(F19 to Hyper (ctrl+shift+cmd+opt) + F19 Only, F19)</appendix>
+        <identifier>private.f192f19</identifier>
+        <autogen>
+            --KeyOverlaidModifier--
+            KeyCode::F19,
+            KeyCode::COMMAND_L,
+            ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+            KeyCode::ESCAPE
+        </autogen>
+    </item>
+</root>
+
+#+END_SRC
+
+然后我们可以怎么玩这个键呢?
+
+最简单的使用办法就是把这个键做为激活应用程序快捷键, 右Cmd+F打开Firefox, 右
+Cmd+E打开Excel, 这些快捷键都是全局生效的, 你在任意程序中按下, 都可以激活你设
+置的应用程序.
+
+设置应用程序激活快捷键, 可以通过软件[[http://www.keyboardmaestro.com/main/][Keyboard Maestro]]完成.
+
+[[./images/maestro.png]]
