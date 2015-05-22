@@ -3,8 +3,8 @@
 
 作为一个学了七年CS的学渣, 一直没去了解过CS到底是什么意思. Computer Science与
 其它Science的本质区别在哪? 它与其它Science的共同点又在哪? 直到最近读了
-=Problem Solving with Algorithms and Data Structures= 这书的开头章节后, 才开
-始去了解CS到底是什么鬼.
+=Problem Solving with Algorithms and Data Structures= 这书后, 才开始去了解CS
+到底是什么鬼.
 
 ** What is CS?
 
