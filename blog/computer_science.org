@@ -1,4 +1,4 @@
-#+TITLE: Computer Science是什么鬼?
+#+TITLE: Computer Science是什么鬼
 #+TAGS: Programming, 概念
 
 作为一个学了七年CS的学渣, 一直没去了解过CS到底意味着什么. Computer Science与
