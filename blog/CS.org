@@ -1,5 +1,5 @@
-#+title: Computer Science是什么鬼?
-#+tags: Programming, 概念
+#+TITLE: Computer Science是什么鬼?
+#+TAGS: Programming, 概念
 
 作为一个学了七年CS的学渣, 一直没去了解过CS到底是什么意思. Computer Science与
 其它Science的本质区别在哪? 它与其它Science的共同点又在哪? 直到最近读了
