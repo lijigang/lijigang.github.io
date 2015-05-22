@@ -4,44 +4,51 @@
     <title>lijigang的首页</title>
     <link>http://lijigang.github.io</link>
     <description>待己当从无过中求有过, 待人当从有过中求无过</description>
-    <pubDate>Thu, 21 May 2015 16:48:56 CST</pubDate>
-    <lastBuildDate>Thu, 21 May 2015 16:48:56 CST</lastBuildDate>
+    <pubDate>Fri, 22 May 2015 17:11:16 CST</pubDate>
+    <lastBuildDate>Fri, 22 May 2015 17:11:16 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
+      <title>Computer Science是什么鬼?</title>
+      <link>http://lijigang.github.io/blog/2015/05/22/computer-science是什么鬼?/</link>
+      <description>No Description</description>
+      <pubDate>2015-05-22</pubDate>
+      <guid>http://lijigang.github.io/blog/2015/05/22/computer-science是什么鬼?/</guid>
+    </item>
+    <item>
       <title>键盘应该这样改键</title>
-      <link>http://lijigang.github.io/blog/2015/05/21/键盘应该这样改键/</link>
+      <link>http://lijigang.github.io/blog/2015/05/22/键盘应该这样改键/</link>
       <description>No Description</description>
       <pubDate>2015-05-21</pubDate>
-      <guid>http://lijigang.github.io/blog/2015/05/21/键盘应该这样改键/</guid>
+      <guid>http://lijigang.github.io/blog/2015/05/22/键盘应该这样改键/</guid>
     </item>
     <item>
       <title>商业模式新生代</title>
-      <link>http://lijigang.github.io/blog/2015/05/21/商业模式新生代/</link>
+      <link>http://lijigang.github.io/blog/2015/05/22/商业模式新生代/</link>
       <description>No Description</description>
       <pubDate>2015-05-17</pubDate>
-      <guid>http://lijigang.github.io/blog/2015/05/21/商业模式新生代/</guid>
+      <guid>http://lijigang.github.io/blog/2015/05/22/商业模式新生代/</guid>
     </item>
     <item>
       <title>你的知识需要管理</title>
-      <link>http://lijigang.github.io/blog/2015/05/21/你的知识需要管理/</link>
+      <link>http://lijigang.github.io/blog/2015/05/22/你的知识需要管理/</link>
       <description>No Description</description>
       <pubDate>2015-05-17</pubDate>
-      <guid>http://lijigang.github.io/blog/2015/05/21/你的知识需要管理/</guid>
+      <guid>http://lijigang.github.io/blog/2015/05/22/你的知识需要管理/</guid>
     </item>
     <item>
       <title>Shell, Terminal, Console区别</title>
-      <link>http://lijigang.github.io/blog/2015/05/21/shell,-terminal,-console区别/</link>
+      <link>http://lijigang.github.io/blog/2015/05/22/shell,-terminal,-console区别/</link>
       <description>No Description</description>
       <pubDate>2015-05-16</pubDate>
-      <guid>http://lijigang.github.io/blog/2015/05/21/shell,-terminal,-console区别/</guid>
+      <guid>http://lijigang.github.io/blog/2015/05/22/shell,-terminal,-console区别/</guid>
     </item>
     <item>
       <title>IDEA读书方法</title>
-      <link>http://lijigang.github.io/blog/2015/05/21/idea读书方法/</link>
+      <link>http://lijigang.github.io/blog/2015/05/22/idea读书方法/</link>
       <description>No Description</description>
       <pubDate>2015-05-16</pubDate>
-      <guid>http://lijigang.github.io/blog/2015/05/21/idea读书方法/</guid>
+      <guid>http://lijigang.github.io/blog/2015/05/22/idea读书方法/</guid>
     </item>
   </channel>
 </rss>
