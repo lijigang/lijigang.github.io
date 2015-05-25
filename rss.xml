@@ -4,8 +4,8 @@
     <title>lijigang的首页</title>
     <link>http://lijigang.github.io</link>
     <description>待己当从无过中求有过, 待人当从有过中求无过</description>
-    <pubDate>Mon, 25 May 2015 09:11:26 CST</pubDate>
-    <lastBuildDate>Mon, 25 May 2015 09:11:26 CST</lastBuildDate>
+    <pubDate>Mon, 25 May 2015 10:16:19 CST</pubDate>
+    <lastBuildDate>Mon, 25 May 2015 10:16:19 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -14,6 +14,13 @@
       <description>No Description</description>
       <pubDate>2015-05-25</pubDate>
       <guid>http://lijigang.github.io/blog/2015/05/25/computer-science是什么鬼/</guid>
+    </item>
+    <item>
+      <title>运营是什么鬼</title>
+      <link>http://lijigang.github.io/blog/2015/05/25/运营是什么鬼/</link>
+      <description>No Description</description>
+      <pubDate>2015-05-25</pubDate>
+      <guid>http://lijigang.github.io/blog/2015/05/25/运营是什么鬼/</guid>
     </item>
     <item>
       <title>键盘应该这样改键</title>
