@@ -1,0 +1,112 @@
+#+TITLE: VBA是什么鬼
+#+TAGS: 概念
+
+#+BEGIN_QUOTE
+Visual Basic for Applications (VBA) is an implementation of Microsoft's
+event-driven programming language, Visual Basic 6, and its associated
+integrated development environment (IDE).
+
+-- Wikipedia
+#+END_QUOTE
+
+看起来很厉害的样子, 到底是啥东东? 简单地说, VBA就是可以在微软Office软件里
+运行的代码, 这些代码可以操控Office软件, 包括菜单, 数据等等.
+
+本文主要针对在Excel中使用VBA进行介绍, 其它Word, PPT都类似, 主要区别就是各
+对象的数据类型不同, 这些如果需要可以查阅相关API接口信息.
+
+** 为什么需要VBA
+
+Excel本身有很多系统函数, 里面支持Excel各种功能.
+
+- VBA接口就是一种可以访问或操作这些功能的一种方式.
+- Excel把常用的一些函数给封装好, 提供给普通用户调用. (如vlookup函数等)
+- Excel把最经常使用的一些功能给封装好, 提供用户使用. (如Robbin菜单中的按钮)
+
+整个封装模型如下图所示:
+
+[[../blog/images/excel.png]]
+
+由此就很明显了, 要想成为Excel高手, 有两条路可走:
+
+1. 熟练掌握Excel提供的函数和功能, 组合各函数完成需要的操作.
+2. 掌握VBA编程, 直接编写代码完成需要的操作.
+
+第二条路, 使用VBA编程相对于第一条路来说, 有两点优势:
+
+1. 不需要去想办法拼凑各个函数, 函数嵌套层数一多, 容易犯晕.
+2. 针对用户函数无法完成的操作, 通过VBA一般可以轻松搞定.
+
+** VBA里有什么数据类型
+
+在之前的文章 [[./computer_science.org][计算机科学是什么鬼]] 中有讲过, 编程就是把现实世界中的问题, 用计
+算机编程语言(Control Structure)给描述出来, 再把对应的算法给表述出来.
+
+这两步过程中, =算法= 这一步算是通用能力, 与编程语言无关. 所以, 学任何编程
+语言, 都需要先了解下该语言都支持哪些数据类型, 具体的Control Structure是什
+么语法.
+
+VBA中的数据类型可以看作有两种:
+
+1. Primary Type Data (括号为字节数)
+   - Byte (1)
+   - Boolean (2)
+   - Integer (2)
+   - Long (4)
+   - Single (4)
+   - Double (8)
+   - Currency (8)
+   - Decimal (14)
+   - Date (8)
+   - String
+   - Object (4)
+
+2. Object Data
+   - Application
+   - Workbook
+   - Worksheet
+   - Range
+   - Names
+   - Comment
+
+其中, 各个Object Data还有各自的N多属性以及继承出来的对象, 这些可以在具体使
+用过程中, 查阅相关API接口文档.
+
+而VBA中的Control Structure 对应的语法如下:
+
+*** If...Then
+
+#+BEGIN_SRC
+If Range("A1") > 5 Then
+    Msgbox "Big"
+ElseIf Range("A1") > 3 Then
+    Msgbox "Middle"
+Else
+    Msgbox "Small"
+End If
+#+END_SRC
+
+*** Select Case
+
+#+BEGIN_SRC
+Select Case Range("A1")
+    Case Is > 5
+        Msgbox "Big"
+    Case Is > 3
+        Msgbox "Middle"
+    Case Else
+        Msgbox "Small"
+End Select
+#+END_SRC
+
+*** For...Next
+
+#+BEGIN_SRC
+For i=1 to 100
+    Cells(i, 1).value = i
+Next
+#+END_SRC
+
+** VBA有哪些应用
+
+TODO
