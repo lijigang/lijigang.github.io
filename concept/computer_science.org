@@ -31,7 +31,7 @@
 
 上述的过程, 可以用下图来表示:
 
-[[./images/cs.png]]
+[[../blog/images/cs.png]]
 
 ** What is Programming?
 
@@ -53,7 +53,7 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 
 把上面的步骤用图形化表示就是:
 
-[[./images/programming.png]]
+[[../blog/images/programming.png]]
 
 ** Programming Languages
 
