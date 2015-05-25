@@ -109,4 +109,27 @@ Next
 
 ** VBA有哪些应用
 
-TODO
+比如, 我们想对指定区域中的所有满足条件的数字进行一些格式设置, 可以通过如下的代码:
+
+#+BEGIN_SRC
+Sub fontSet()
+    Dim c As Range
+
+    For Each c In Range("A1").CurrentRegion
+
+        If c.Value > 80 Then
+            With c.Font
+                .Size = 18
+                .Color = RGB(255, 0, 0)
+                .Bold = True
+                .Underline = xlUnderlineStyleDouble
+             End With
+        End If
+    Next
+
+End Sub
+#+END_SRC
+
+效果如下图:
+
+[[../blog/images/fontSet.png]]
