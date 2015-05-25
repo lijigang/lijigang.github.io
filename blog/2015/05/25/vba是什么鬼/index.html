@@ -240,8 +240,37 @@ Next
 <h2 id="sec-3"><span class="section-number-2">3</span> VBA有哪些应用</h2>
 <div class="outline-text-2" id="text-3">
 <p>
-TODO
+比如, 我们想对指定区域中的所有满足条件的数字进行一些格式设置, 可以通过如下的代码:
 </p>
+
+<pre class="example">
+Sub fontSet()
+    Dim c As Range
+
+    For Each c In Range("A1").CurrentRegion
+
+        If c.Value &gt; 80 Then
+            With c.Font
+                .Size = 18
+                .Color = RGB(255, 0, 0)
+                .Bold = True
+                .Underline = xlUnderlineStyleDouble
+             End With
+        End If
+    Next
+
+End Sub
+</pre>
+
+<p>
+效果如下图:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/05/25/vba是什么鬼/fontSet.png" alt="fontSet.png" />
+</p>
+</div>
 </div>
 </div>
 
