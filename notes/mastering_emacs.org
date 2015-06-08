@@ -287,4 +287,82 @@ Other Movement Commands:
 | M-g TAB     | Go to column                            |
 | M-g c       | Go to character position                |
 
+
 ** The Theory of Edit
+
+*** Killing and Yanking Text
+
+| Key Binding     | Purpose                   |
+|-----------------+---------------------------|
+| C-d             | Delete character          |
+| <backspace>     | Delete previous character |
+| M-d             | Kill word                 |
+| C-k             | Kill rest of line         |
+| M-k             | Kill sentence             |
+| C-M-k           | Kill s-expression         |
+| C-S-<backspace> | Kill current line         |
+
+其它常用快捷键:
+
+| Key Binding | Kill Ring Purpose        | Clipboard |
+|-------------+--------------------------+-----------|
+| /           | /                        | /         |
+| C-w         | Kill active region       | cut       |
+| M-w         | Copy to kill ring        | copy      |
+| C-M-w       | Append kill              |           |
+| C-y         | Yank last kill           | paste     |
+| M-y         | Cycle through kill ring, |           |
+|             | replacing yanked text    |           |
+
+
+*** Transposing Text
+
+| Key Binding              | Purpose                 |
+|--------------------------+-------------------------|
+| C-t                      | Transpose characters    |
+| M-t                      | Transpose words         |
+| C-M-t                    | Transpose s-expressions |
+| C-x C-t                  | Transpose lines         |
+| M-x transpose-paragraphs | Transpose paragraphs    |
+| M-x transpose-sentences  | Transpose sentences     |
+
+*** Filling and Commenting
+
+Filling:
+
+| Key Binding        | Purpose                           |
+|--------------------+-----------------------------------|
+| M-q                | Refills the paragraph point is in |
+| C-x f              | Sets the fill column width        |
+| C-x .              | Sets the fill prefix              |
+| M-x auto-fill-mode | Toggles auto-filling              |
+
+Commenting:
+
+| Key Binding     | Purpose                                    |
+|-----------------+--------------------------------------------|
+| M-;             | Comment or uncomment DWIM (do what i mean) |
+| C-x C-;         | Comment or uncomment line                  |
+| M-x comment-box | Comments the region but as a box           |
+| M-j             | Inserts new line and continues             |
+|                 | with comment on a new line                 |
+
+*** Search and Replace
+
+| Key Binding        | Purpose                         |
+|--------------------+---------------------------------|
+| C-M-%              | Query regexp search and replace |
+| M-%                | Query search and replace        |
+| M-x replace-string | Search and replace              |
+| M-x replace-regexp | Regexp search and replace       |
+
+*** Changing Case
+
+| Key Binding                | Purpose                  |
+|----------------------------+--------------------------|
+| C-x C-u                    | Uppercase the region     |
+| C-x C-l                    | Lowercase the region     |
+| M-x upcase-initials-region | Capitalize the region    |
+| M-c                        | Capitalize the next word |
+| M-u                        | Uppercase the next word  |
+| M-l                        | Lowercase the next word  |
