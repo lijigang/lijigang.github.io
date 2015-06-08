@@ -29,7 +29,7 @@ Emacs中有几个 =Modifier keys=, 如下表所示:
 
 | Modifier | Full Name          |
 |----------+--------------------|
-| /        | /                  |
+| /        |                    |
 | C-       | Control            |
 | M-       | Meta               |
 | S-       | Shift              |
@@ -93,22 +93,22 @@ Emacs的手册是用TeXinfo写的, 可以通过 =C-h i= 或者 =M-x info= 打开
 
 在Emacs中, 移动光标分为三类: local, regional, or global.
 
-1. Local Movement
+- Local Movement
 
 最常见的一类移动, 平时编辑文本时, 按语法单元移动光标, 即为 =local
 movement=. 例如, 按字符、单词、行、句子、段落、balanced expression 等等进
 行移动.
 
-2. Regional Movement
+- Regional Movement
 
 和local movement类似, 但区域更大. 例如, 写代码时, 移动区域为函数或类. 写文
 章时, 移动区域为章节等等.
 
-3. Global Movement
+- Global Movement
 
 移动区域为从一个Buffer到另一个Buffer, 或者从一个Window到另一个Window.
 
-** Basic Movement Commands
+*** Basic Movement Commands
 
 The four basic movement commands are:
 
@@ -220,5 +220,35 @@ Scrolling:
 | C-x >       | Scroll right                        |
 | M-<         | Move to the beginning of the buffer |
 | M->         | Move to the end of the buffer       |
+
+
+*** Bookmarks and Registers
+
+Emacs中的bookmards是存储在一个文件中的, 文件位置由变量
+=bookmark-default-file= 控制.
+
+| Key Binding | Purpose          |
+|-------------+------------------|
+| C-x r m     | Set a bookmark   |
+| C-x r l     | List bookmarks   |
+| C-x r b     | Jump to bookmark |
+
+Emacs中的registers是临时性的, 一个register就是一个单独的字符.
+
+| Key Binding | Purpose                                |
+|-------------+----------------------------------------|
+| C-x r n     | Store number in register               |
+| C-x r s     | Store region in register               |
+| C-x r SPC   | Store point in register                |
+| C-x r +     | Increment number in register           |
+| C-x r j     | Jump to register                       |
+| C-x r i     | Insert content of register             |
+| C-x r w     | Store window configuration in register |
+| C-x r f     | Store frameset in register             |
+
+
+
+
+
 
 ** The Theory of Edit
