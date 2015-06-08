@@ -246,9 +246,45 @@ Emacs中的registers是临时性的, 一个register就是一个单独的字符.
 | C-x r w     | Store window configuration in register |
 | C-x r f     | Store frameset in register             |
 
+*** Selections and Regions
 
+在Emacs中, 一个Region的边界是由point和mark两者界定的.
 
+| Key Binding | Purpose                                       |
+|-------------+-----------------------------------------------|
+| C-<SPC>     | Set the mark, and toggles the region          |
+| C-u C-<SPC> | Jump to the mark, and repeated calls          |
+|             | go further back the mark ring                  |
+| C-x C-x     | Exchanges the point and mark, and reactivates |
+|             | your last region.                             |
 
+*** Searching and Indexing
 
+| Key Binding | Purpose                                    |
+|-------------+--------------------------------------------|
+| C-s         | Begin an incremental search                |
+| C-r         | Begin a backward incremental search        |
+| C-M-s       | Begin a regexp incremental search          |
+| C-M-r       | Begin a regexp backward incremental search |
+| RET         | Pick the selected match                    |
+| M-n         | Move to next item in search history        |
+| M-p         | Move to previous item in search history    |
+| C-s C-s     | Begin Isearch against last search string   |
+| C-r C-r     | Begin backward Isearch against last        |
+|             | search string                              |
+
+Other Movement Commands:
+
+| Key Binding | Purpose                                 |
+|-------------+-----------------------------------------|
+| M-r         | Re-position the point to the top left,  |
+|             | middle left, or bottom left             |
+| C-l         | Re-center the point to the middle, top, |
+|             | or bottom in the buffer                 |
+| C-M-l       | Re-position the comment or definition   |
+|             | so it is in view in the buffer          |
+| M-g M-g     | Go to line                              |
+| M-g TAB     | Go to column                            |
+| M-g c       | Go to character position                |
 
 ** The Theory of Edit
