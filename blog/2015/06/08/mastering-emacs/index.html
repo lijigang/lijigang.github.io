@@ -48,6 +48,8 @@
 <ul>
 <li><a href="#sec-3-1">3.1. Basic Movement Commands</a></li>
 <li><a href="#sec-3-2">3.2. Bookmarks and Registers</a></li>
+<li><a href="#sec-3-3">3.3. Selections and Regions</a></li>
+<li><a href="#sec-3-4">3.4. Searching and Indexing</a></li>
 </ul>
 </li>
 <li><a href="#sec-4">4. The Theory of Edit</a></li>
@@ -938,12 +940,196 @@ Emacs中的registers是临时性的, 一个register就是一个单独的字符.
 </table>
 </div>
 </div>
+
+<div id="outline-container-sec-3-3" class="outline-3">
+<h3 id="sec-3-3"><span class="section-number-3">3.3</span> Selections and Regions</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+在Emacs中, 一个Region的边界是由point和mark两者界定的.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">C-&lt;SPC&gt;</td>
+<td class="left">Set the mark, and toggles the region</td>
+</tr>
+
+<tr>
+<td class="left">C-u C-&lt;SPC&gt;</td>
+<td class="left">Jump to the mark, and repeated calls</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">go further back the mark ring</td>
+</tr>
+
+<tr>
+<td class="left">C-x C-x</td>
+<td class="left">Exchanges the point and mark, and reactivates</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">your last region.</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 
+<div id="outline-container-sec-3-4" class="outline-3">
+<h3 id="sec-3-4"><span class="section-number-3">3.4</span> Searching and Indexing</h3>
+<div class="outline-text-3" id="text-3-4">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">C-s</td>
+<td class="left">Begin an incremental search</td>
+</tr>
+
+<tr>
+<td class="left">C-r</td>
+<td class="left">Begin a backward incremental search</td>
+</tr>
+
+<tr>
+<td class="left">C-M-s</td>
+<td class="left">Begin a regexp incremental search</td>
+</tr>
+
+<tr>
+<td class="left">C-M-r</td>
+<td class="left">Begin a regexp backward incremental search</td>
+</tr>
+
+<tr>
+<td class="left">RET</td>
+<td class="left">Pick the selected match</td>
+</tr>
+
+<tr>
+<td class="left">M-n</td>
+<td class="left">Move to next item in search history</td>
+</tr>
+
+<tr>
+<td class="left">M-p</td>
+<td class="left">Move to previous item in search history</td>
+</tr>
+
+<tr>
+<td class="left">C-s C-s</td>
+<td class="left">Begin Isearch against last search string</td>
+</tr>
+
+<tr>
+<td class="left">C-r C-r</td>
+<td class="left">Begin backward Isearch against last</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">search string</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Other Movement Commands:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">M-r</td>
+<td class="left">Re-position the point to the top left,</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">middle left, or bottom left</td>
+</tr>
+
+<tr>
+<td class="left">C-l</td>
+<td class="left">Re-center the point to the middle, top,</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">or bottom in the buffer</td>
+</tr>
+
+<tr>
+<td class="left">C-M-l</td>
+<td class="left">Re-position the comment or definition</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">so it is in view in the buffer</td>
+</tr>
+
+<tr>
+<td class="left">M-g M-g</td>
+<td class="left">Go to line</td>
+</tr>
+
+<tr>
+<td class="left">M-g TAB</td>
+<td class="left">Go to column</td>
+</tr>
+
+<tr>
+<td class="left">M-g c</td>
+<td class="left">Go to character position</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 
 <div id="outline-container-sec-4" class="outline-2">
 <h2 id="sec-4"><span class="section-number-2">4</span> The Theory of Edit</h2>
