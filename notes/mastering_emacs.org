@@ -366,3 +366,70 @@ Commenting:
 | M-c                        | Capitalize the next word |
 | M-u                        | Uppercase the next word  |
 | M-l                        | Lowercase the next word  |
+
+*** Counting Things
+
+| Command                     | Description                    |
+|-----------------------------+--------------------------------|
+| M-x count-lines-region      | Counts number of lines         |
+|                             | in the region                  |
+| M-x count-matches           | Counts number of patterns      |
+|                             | that match in a region         |
+| M-x count-words             | Counts words, lines, and chars |
+|                             | in the buffer                  |
+| M-x count-words-region, M-= | Counts words, lines, and chars |
+|                             | in the region                  |
+
+*** Text Manipulation
+
+| Command                       | Description                        |
+|-------------------------------+------------------------------------|
+| M-x delete-duplicate-lines    | Delete the first duplicate         |
+|                               | line it encounters, starting       |
+|                               | from the top                       |
+| M-x flush-lines               | Flush (delete) all lines in a      |
+|                               | region that match a pattern        |
+| M-x keep-lines                | Keep all lines in a region that    |
+|                               | match a pattern and removes all    |
+|                               | non-matches                        |
+| C-o                           | Insert a blank line after point    |
+| C-x C-o                       | Delete all blank lines after point |
+| C-M-o                         | Split a line after point, keeping  |
+|                               | the indentation                    |
+| M-^                           | Join the line the point is on with |
+|                               | the one above                      |
+| M-SPC                         | Delete all but one space or tab to |
+|                               | the left and right of the point    |
+| M-\\                          | Delete all spaces and tabs around  |
+|                               | the point                          |
+| M-x whitespace-mode           | Minor mode that highlights all     |
+|                               | whitespace characters              |
+| M-x whitespace-newline-mode   | Minor mode that displays newline   |
+|                               | character with a $                 |
+| M-x whitespace-toggle-options | Display a toggle menu of all       |
+|                               | whitespace-mode options            |
+| M-x whitespace-report         | Show whitespace issues             |
+| M-x whitespace-clean-up       | Attemp automatic cleanup           |
+
+*** Keyboard Macros
+
+| Key Binding | Description           |
+|-------------+-----------------------|
+| C-x (       | Start macro recording |
+| C-x )       | Stop macro recording  |
+| C-x e       | Play last macro       |
+
+*** Sorting and Aligning
+
+| Command                 | Description                        |
+|-------------------------+------------------------------------|
+| M-x sort-lines          | Sort alphabetically                |
+| M-x sort-fields         | Sort field lexicographically       |
+| M-x sort-numeric-fields | Sort field numerically             |
+| M-x sort-columns        | Sort column alphabetically         |
+| M-x sort-paragraphs     | Sort paragraphs alphabetically     |
+| M-x sort-regexp-fields  | Sort by regexp-defined fields      |
+|                         | lexicographically                  |
+| M-x align               | Align region based on align rules  |
+| M-x align-current       | Align section based on align rules |
+| M-x align-regexp        | Align region based on regexp       |
