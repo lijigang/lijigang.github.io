@@ -14,6 +14,85 @@
 #+END_QUOTE
 
 ** Todo items
+
+按照GTD的思想, 需要使用一个系统来记录需要处理的事情, 该系统可以定期review,
+适时提醒, 解放大脑的压力, 让你可以以「Flow」的状态进行工作.
+
+[[../blog/images/gtd.png]]
+
+为了完成以上wordflow, 首先要支持方便地添加「stuff」到「basket」中.
+
+这里的「stuff」就是 =TODO=. 在Orgmode中, 任意一个以「TODO」字样开头的
+Headline都是待办事项.
+
+常用的一些命令包括:
+
+C-c C-t (M-x org-todo)
+
+,-> (unmarked) -> TODO -> DONE --.
+,________________________________,
+
+S-M-RET (M-x org-insert-todo-heading)
+
+在当前行下方插入一个待办事项.
+
+Q: 默认的TODO状态只有两个: TODO 和 DONE. 怎么自定义?
+
+A: 设置变量 org-todo-keywords, 例如:
+#+BEGIN_SRC
+(setq org-todo-keywords
+'((sequence "TODO" "FEEDBACK" "VERIFY" "|" "DONE" "DELEGATED")))
+#+END_SRC
+
+上面的"|"作用是, 把需要后续「Action」的TODO状态和不需要后续「Action」的
+DONE状态分隔开. 如果没有"|", 那么最后一个状态就是DONE状态.
+
+
+Q: 我想把任务分配给团队中的成员, 怎么设置TODO?
+
+A: 可以将TODO关键词设置为type类型. 例如:
+
+#+BEGIN_SRC
+(setq org-todo-keywords
+'((type "Arthur" "Baby" "Coywat" "Lucy" "|" "DONE")))
+#+END_SRC
+
+
+Q: 我想同时使用多组TODO关键词, 怎么设置?
+
+A: 可以同时设置:
+
+#+BEGIN_SRC
+(setq org-todo-keywords
+'((sequence "TODO" "|" "DONE")
+(sequence "REPORT" "BUG" "KNOWNCAUSE" "|" "FIXED")
+(sequence "|" "CANCELED")))
+#+END_SRC
+
+Q: 一个个的在状态间切换太麻烦了, 有没有便捷的方法?
+
+A: 有的. 像下面这样:
+
+#+BEGIN_SRC
+(setq org-todo-keywords
+'((sequence "TODO(t)" "|" "DONE(d)")
+(sequence "REPORT(r)" "BUG(b)" "KNOWNCAUSE(k)" "|" "FIXED(f)")
+(sequence "|" "CANCELED(c)")))
+#+END_SRC
+
+Q: 想要在某一个文件中, 使用单独的TODO关键词设置, 怎么操作?
+
+A: 在文件中加入这么一行即可:
+
+#+BEGIN_SRC
+#+TODO: TODO FEEDBACK VERIFY | DONE CANCELED
+
+#+TYP_TODO: Arthur Bob Lucy | DONE
+#+END_SRC
+
+如果使用过程中, 又修改了上面的设置行, 只需要在该设置行上, 按C-c C-c即可刷
+新设置.
+
 ** Hyperlinks
 ** Tags
 ** Tables
