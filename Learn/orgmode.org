@@ -37,8 +37,6 @@ Q: 临时有待做事项进来, 如何快速添加该事项到GTD系统中?
 
 A: 使用Org-capture, 一键打开临时添加窗口, 添加后, 可以立即返回原操作界面.
 
------
-
 
 Q: 如何快速先体验下capture功能?
 
@@ -50,21 +48,13 @@ A: 添加下面的配置, 指定capture默认保存的文件和快速打开captu
 (define-key global-map "\C-co" 'org-capture)
 #+END_SRC
 
------
-
-
 Q: 在Capture中输入完事项后, 如何保存以及回到原来的操作界面?
 
 A: C-c C-c (M-x org-capture-finalize)
 
------
-
-
 Q: 要是想把在Capture中输入的事项, 保存在另外一个文件中怎么办?
 
 A: C-c C-w (M-x org-capture-refile)
-
------
 
 
 Q: 我想在capture中插入不同类型的任务, 怎么办?
@@ -80,7 +70,7 @@ A: 可以通过定制变量 org-capture-templates 实现, 比如:
 上面templates包含的元素有:
 
 | keys | description | type  | target             | template    |
-|------+-------------+-------+--------------------+-------------|
+|-+---+--++---|
 | /    | /           | /     | /                  | /           |
 | "t"  | "Todo"      | entry | (file+headline ..) | "* TODO .." |
 
@@ -98,8 +88,6 @@ refile v.
 
 顾名思义, 把文档中的内容再次放到合适的文件中去.
 #+END_QUOTE
-
------
 
 
 Q: 某一文件中的事项, 需要「移植」到其它文件中, 该如何快速操作?
@@ -127,12 +115,12 @@ GTD中的事项分散在各个不同的文件中, 如果方便地从不同的维
 
 Org提供了七种查看方式:
 
-1. agenda view
-2. TODO list
-3. match view
-4. timeline view
-5. text search view
-6. stuck projects view
+1. agenda view (C-c a a)
+2. TODO list (C-c a t)
+3. match view (C-c a m)
+4. timeline view (C-c a L)
+5. text search view (C-c a s)
+6. stuck projects view (C-c a #)
 7. custom view
 #+END_QUOTE
 
@@ -143,25 +131,24 @@ A: 设置一个全局快捷键如下
 (global-set-key "\C-ca" 'org-agenda)
 #+END_SRC
 
------
-
 
 Q: 我有好多的GTD文件, 如果只想在agenda中查看某些文件的事项, 怎么设置?
 
 A: agenda会从变量 org-agenda-files 指定的文件列表中, 抽取事项进行展示.
-
------
 
 
 Q: 如何快速将当前GTD文件添加到org-agenda-files中?
 
 A: C-c [ (M-x org-agenda-file-to-front)
 
------
-
 
 Q: 如何快速将当前GTD文件从org-agenda-files中删除?
 
 A: C-c ] (M-x org-remove-file)
+
+
+Q: 显示的Agenda中默认的是两周时间, 这个显示天数可以改吗?
+
+A: 可以设置变量org-agenda-span
 
 ** Exporting
