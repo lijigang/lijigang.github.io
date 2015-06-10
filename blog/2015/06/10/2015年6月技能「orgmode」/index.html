@@ -110,6 +110,8 @@ Q: 临时有待做事项进来, 如何快速添加该事项到GTD系统中?
 A: 使用Org-capture, 一键打开临时添加窗口, 添加后, 可以立即返回原操作界面.
 </p>
 
+<hr  />
+
 <p>
 Q: 如何快速先体验下capture功能?
 </p>
@@ -124,6 +126,8 @@ A: 添加下面的配置, 指定capture默认保存的文件和快速打开captu
 (define-key global-map "\C-co" 'org-capture)
 </pre>
 
+<hr  />
+
 <p>
 Q: 在Capture中输入完事项后, 如何保存以及回到原来的操作界面?
 </p>
@@ -132,6 +136,8 @@ Q: 在Capture中输入完事项后, 如何保存以及回到原来的操作界�
 A: C-c C-c (M-x org-capture-finalize)
 </p>
 
+<hr  />
+
 <p>
 Q: 要是想把在Capture中输入的事项, 保存在另外一个文件中怎么办?
 </p>
@@ -139,6 +145,8 @@ Q: 要是想把在Capture中输入的事项, 保存在另外一个文件中怎�
 <p>
 A: C-c C-w (M-x org-capture-refile)
 </p>
+
+<hr  />
 
 <p>
 Q: 我想在capture中插入不同类型的任务, 怎么办?
@@ -150,7 +158,6 @@ A: 可以通过定制变量 org-capture-templates 实现, 比如:
 
 <pre class="example">
 (setq org-capture-templates
-
 '(("t" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
 "* TODO %?\n %i\n %a")))
 </pre>
@@ -221,6 +228,8 @@ refile v.
 </p>
 </blockquote>
 
+<hr  />
+
 <p>
 Q: 某一文件中的事项, 需要「移植」到其它文件中, 该如何快速操作?
 </p>
@@ -247,12 +256,16 @@ Q: 在GTD中已经完成的事项, 想从文件中删除, 但又想后续可以�
 </p>
 
 <p>
-A: 使用Org-archive, 可以将这些已完成事项保存在指定的archive文件中.
+A: 使用Org-archive-subtree, 可以将这些已完成事项保存在指定的archive文件中.
+</p>
+
+<p>
+C-c $ (M-x org-archive-subtree) 把当前光标所在处的subtree存档到
+org-archive-location指定的位置去.
 </p>
 </div>
 </div>
 </div>
-
 
 <div id="outline-container-sec-8" class="outline-2">
 <h2 id="sec-8"><span class="section-number-2">8</span> Agenda views</h2>
