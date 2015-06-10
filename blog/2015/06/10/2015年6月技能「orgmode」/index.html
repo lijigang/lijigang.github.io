@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2015年6月技能「Orgmode」 - lijigang的首页</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="lijigang" />
+    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  </head>
+  <body class="container">
+    <div>
+      <header class="masthead">
+        <h1 class="masthead-title"><a href="/">lijigang的首页</a></h1>
+        <p>待己当从无过中求有过, 待人当从有过中求无过</p>
+        <ul>
+          <li><a href="/learn/">Learn</a></li>
+          <li><a href="/reposted/">Reposted</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/concept/">Concept</a></li>
+          <li><a href="/notes/">Notes</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+        </ul>
+        <form method="get" id="searchform" action="http://www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="as_sitesearch" value="lijigang.github.io">
+        </form>
+      </header>
+    </div>
+
+<div>
+<div class="post">
+<h1>2015年6月技能「Orgmode」</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Todo items</a></li>
+<li><a href="#sec-2">2. Hyperlinks</a></li>
+<li><a href="#sec-3">3. Tags</a></li>
+<li><a href="#sec-4">4. Tables</a></li>
+<li><a href="#sec-5">5. Properties and columns</a></li>
+<li><a href="#sec-6">6. Dates and times</a></li>
+<li><a href="#sec-7">7. Capture-Refile-Archive</a>
+<ul>
+<li><a href="#sec-7-1">7.1. Capture</a></li>
+<li><a href="#sec-7-2">7.2. Refile</a></li>
+<li><a href="#sec-7-3">7.3. Archive</a></li>
+</ul>
+</li>
+<li><a href="#sec-8">8. Agenda views</a></li>
+<li><a href="#sec-9">9. Exporting</a></li>
+</ul>
+</div>
+</div>
+<blockquote>
+<p>
+每月学项新技能!
+</p>
+
+<p>
+15年6月要学的技术是Emacs里的Orgmode.
+</p>
+
+<p>
+整体学习思路:
+</p>
+
+<ol class="org-ol">
+<li>边用边学
+</li>
+<li>参看手册和Emacs help, 以及同好Blog
+</li>
+<li>分解学习目标, 每天学习一项
+</li>
+</ol>
+</blockquote>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Todo items</h2>
+</div>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Hyperlinks</h2>
+</div>
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Tags</h2>
+</div>
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Tables</h2>
+</div>
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> Properties and columns</h2>
+</div>
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> Dates and times</h2>
+</div>
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7"><span class="section-number-2">7</span> Capture-Refile-Archive</h2>
+<div class="outline-text-2" id="text-7">
+</div><div id="outline-container-sec-7-1" class="outline-3">
+<h3 id="sec-7-1"><span class="section-number-3">7.1</span> Capture</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+Q: 临时有待做事项进来, 如何快速添加该事项到GTD系统中?
+A: 使用Org-capture, 一键打开临时添加窗口, 添加后, 可以立即返回原操作界面.
+</p>
+
+<p>
+Q: 如何快速先体验下capture功能?
+A: 添加下面的配置, 指定capture默认保存的文件和快速打开capture功能的快捷键.
+</p>
+<pre class="example">
+(setq org-default-notes-file (concat org-directory "~/org/notes.org"))
+
+(define-key global-map "\C-co" 'org-capture)
+</pre>
+
+<p>
+Q: 在Capture中输入完事项后, 如何保存以及回到原来的操作界面?
+A: C-c C-c (M-x org-capture-finalize)
+</p>
+
+<p>
+Q: 要是想把在Capture中输入的事项, 保存在另外一个文件中怎么办?
+A: C-c C-w (M-x org-capture-refile)
+</p>
+
+<p>
+Q: 我想在capture中插入不同类型的任务, 怎么办?
+A: 可以通过定制变量 org-capture-templates 实现, 比如:
+</p>
+
+<pre class="example">
+(setq org-capture-templates
+
+'(("t" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
+"* TODO %?\n %i\n %a")))
+</pre>
+
+<p>
+上面templates包含的元素有:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">keys</th>
+<th scope="col" class="left">description</th>
+<th scope="col" class="left">type</th>
+<th scope="col" class="left">target</th>
+<th scope="col" class="left">template</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">"t"</td>
+<td class="left">"Todo"</td>
+<td class="left">entry</td>
+<td class="left">(file+headline ..)</td>
+<td class="left">"* TODO .."</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+具体各项的含义, 以及template字段包含的转义符含义, 可以通过C-h v
+org-capture-templates 查看帮助文档.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-7-2" class="outline-3">
+<h3 id="sec-7-2"><span class="section-number-3">7.2</span> Refile</h3>
+<div class="outline-text-3" id="text-7-2">
+<blockquote>
+<p>
+file v.
+</p>
+
+<p>
+If you file a document, you put it in the correct file.
+</p>
+
+<p>
+refile v.
+</p>
+
+<p>
+顾名思义, 把文档中的内容再次放到合适的文件中去.
+</p>
+</blockquote>
+
+<p>
+Q: 某一文件中的事项, 需要「移植」到其它文件中, 该如何快速操作?
+A: 使用Org-refile, 很方便的可以实现上述目标.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-7-3" class="outline-3">
+<h3 id="sec-7-3"><span class="section-number-3">7.3</span> Archive</h3>
+<div class="outline-text-3" id="text-7-3">
+<p>
+Q: 在GTD中已经完成的事项, 想从文件中删除, 但又想后续可以查看, 怎么办?
+A: 使用Org-archive, 可以将这些已完成事项保存在指定的archive文件中.
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-sec-8" class="outline-2">
+<h2 id="sec-8"><span class="section-number-2">8</span> Agenda views</h2>
+</div>
+<div id="outline-container-sec-9" class="outline-2">
+<h2 id="sec-9"><span class="section-number-2">9</span> Exporting</h2>
+</div>
+
+</div>
+</div>
+    <div>
+      <div class="post-meta">
+        <span title="post date" class="post-info">2015-06-10</span>
+        <span title="last modification date" class="post-info">2015-06-10</span>
+        <span title="tags" class="post-info"><a href="/tags/emacs/">Emacs</a> <a href="/tags/org/">Org</a></span>
+        <span title="author" class="post-info">lijigang</span>
+      </div>
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          //var disqus_developer = 1;
+          var disqus_identifier = "/blog/2015/06/10/2015年6月技能「orgmode」/";
+          var disqus_url = "http://lijigang.github.io/blog/2015/06/10/2015年6月技能「orgmode」/";
+          var disqus_shortname = 'lijigang';
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </section>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="/media/js/main.js"></script>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-49533446-2']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+      <div class="footer">
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.x (<a href="http://orgmode.org">Org mode</a> 8.x)</p>
+        <p>
+          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:lijigang &lt;at&gt; lijigangdeMacBook-Pro &lt;dot&gt; local">lijigang</a>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
