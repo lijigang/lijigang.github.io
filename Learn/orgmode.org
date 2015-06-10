@@ -1,16 +1,16 @@
-#+TITLE: 2015年6月技能「Orgmode」
+#+TITLE: 2015年6月技能「Org-mode」
 #+TAGS: Emacs, Org
 
 #+BEGIN_QUOTE
 每月学项新技能!
 
-15年6月要学的技术是Emacs里的Orgmode.
+2015年6月要学的技能是Emacs里的Org-mode.
 
 整体学习思路:
 
-1. 边用边学
-2. 参看手册和Emacs help, 以及同好Blog
-3. 分解学习目标, 每天学习一项
+- 边用边学
+- 参看手册和Emacs help, 以及同好Blog
+- 分解学习目标, 每天学习一项
 #+END_QUOTE
 
 ** Todo items
@@ -123,6 +123,14 @@ A: 可以的. Org有个叫「habits」的功能. 它就是一个特殊的TODO. �
 #+END_SRC
 
 ** Hyperlinks
+
+#+BEGIN_QUOTE
+在文档中经常需要引用其它的文档或者是超链接地址, Org中的Link格式如下:
+
+[[link] [description]] or [ [link]]
+
+你可以直接输入上面的格式, 或者按C-c C-l来交互式的插入链接.
+#+END_QUOTE
 ** Tags
 ** Tables
 
@@ -174,6 +182,16 @@ A: 可以通过下面的函数, 在鼠标所在列左侧插入一列:
 M-S-right (M-x org-table-insert-column)
 #+END_SRC
 
+Q: Org的表格编辑太爽了, 能在其它Mode下使用吗?
+
+#+BEGIN_SRC
+A: 可以的. Org有一个Orgtbl的minor mode. 你只需要在你想要使用orgtbl的时候,
+开启该命令即可: M-x orgtbl-mode
+
+如果想在某一mode下默认启用它, 例如message mode下自动开启, 那可以:
+
+(add-hook 'message-mode-hook 'turn-on-orgtbl)
+#+END_SRC
 ** Properties and columns
 ** Dates and times
 ** Capture-Refile-Archive
@@ -231,8 +249,7 @@ A: 可以通过定制变量 org-capture-templates 实现, 比如:
 上面templates包含的元素有:
 
 | keys | description | type  | target             | template    |
-|-+---+--++---|
-| /    | /           | /     | /                  | /           |
+|------+-------------+-------+--------------------+-------------|
 | "t"  | "Todo"      | entry | (file+headline ..) | "* TODO .." |
 
 具体各项的含义, 以及template字段包含的转义符含义, 可以通过C-h v
