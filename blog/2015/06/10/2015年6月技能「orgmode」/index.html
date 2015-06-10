@@ -99,7 +99,24 @@
 <div id="outline-container-sec-7" class="outline-2">
 <h2 id="sec-7"><span class="section-number-2">7</span> Capture-Refile-Archive</h2>
 <div class="outline-text-2" id="text-7">
-</div><div id="outline-container-sec-7-1" class="outline-3">
+<blockquote>
+<p>
+在工作中, 时不时地会有新的待办事项突然出现, 如何快速地将这些待办事项加入到
+GTD系统中?
+</p>
+
+<p>
+添加到GTD系统中的待办事项, 有可能分布在多个文件中, 如何快速地将某事项从一
+个文件移植到另一个文件中?
+</p>
+
+<p>
+已完成的待办事项, 如何存档?
+</p>
+</blockquote>
+</div>
+
+<div id="outline-container-sec-7-1" class="outline-3">
 <h3 id="sec-7-1"><span class="section-number-3">7.1</span> Capture</h3>
 <div class="outline-text-3" id="text-7-1">
 <p>
@@ -111,6 +128,7 @@ A: 使用Org-capture, 一键打开临时添加窗口, 添加后, 可以立即返
 </p>
 
 <hr  />
+
 
 <p>
 Q: 如何快速先体验下capture功能?
@@ -128,6 +146,7 @@ A: 添加下面的配置, 指定capture默认保存的文件和快速打开captu
 
 <hr  />
 
+
 <p>
 Q: 在Capture中输入完事项后, 如何保存以及回到原来的操作界面?
 </p>
@@ -138,6 +157,7 @@ A: C-c C-c (M-x org-capture-finalize)
 
 <hr  />
 
+
 <p>
 Q: 要是想把在Capture中输入的事项, 保存在另外一个文件中怎么办?
 </p>
@@ -147,6 +167,7 @@ A: C-c C-w (M-x org-capture-refile)
 </p>
 
 <hr  />
+
 
 <p>
 Q: 我想在capture中插入不同类型的任务, 怎么办?
@@ -230,6 +251,7 @@ refile v.
 
 <hr  />
 
+
 <p>
 Q: 某一文件中的事项, 需要「移植」到其它文件中, 该如何快速操作?
 </p>
@@ -269,7 +291,81 @@ org-archive-location指定的位置去.
 
 <div id="outline-container-sec-8" class="outline-2">
 <h2 id="sec-8"><span class="section-number-2">8</span> Agenda views</h2>
+<div class="outline-text-2" id="text-8">
+<blockquote>
+<p>
+GTD中的事项分散在各个不同的文件中, 如果方便地从不同的维度或视角来查看所有
+事项?
+</p>
+
+<p>
+Org提供了七种查看方式:
+</p>
+
+<ol class="org-ol">
+<li>agenda view
+</li>
+<li>TODO list
+</li>
+<li>match view
+</li>
+<li>timeline view
+</li>
+<li>text search view
+</li>
+<li>stuck projects view
+</li>
+<li>custom view
+</li>
+</ol>
+</blockquote>
+
+<p>
+Q: 如何快速调出agenda?
+</p>
+
+<p>
+A: 设置一个全局快捷键如下
+</p>
+<pre class="example">
+(global-set-key "\C-ca" 'org-agenda)
+</pre>
+
+<hr  />
+
+
+<p>
+Q: 我有好多的GTD文件, 如果只想在agenda中查看某些文件的事项, 怎么设置?
+</p>
+
+<p>
+A: agenda会从变量 org-agenda-files 指定的文件列表中, 抽取事项进行展示.
+</p>
+
+<hr  />
+
+
+<p>
+Q: 如何快速将当前GTD文件添加到org-agenda-files中?
+</p>
+
+<p>
+A: C-c [ (M-x org-agenda-file-to-front)
+</p>
+
+<hr  />
+
+
+<p>
+Q: 如何快速将当前GTD文件从org-agenda-files中删除?
+</p>
+
+<p>
+A: C-c ] (M-x org-remove-file)
+</p>
 </div>
+</div>
+
 <div id="outline-container-sec-9" class="outline-2">
 <h2 id="sec-9"><span class="section-number-2">9</span> Exporting</h2>
 </div>
