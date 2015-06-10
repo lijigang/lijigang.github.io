@@ -96,6 +96,30 @@ A: 在文件中加入这么一行即可:
 如果使用过程中, 又修改了上面的设置行, 只需要在该设置行上, 按C-c C-c即可刷
 新设置.
 
+
+Q: 我想在完成某项任务时, 记录下完成时间. 怎么操作?
+
+A: 通过设置变量 org-log-done 即可. 例如
+
+#+BEGIN_SRC
+(setq org-log-done 'time)
+#+END_SRC
+每次待办事项从TODO状态到完成状态时, 都会自动添加完成时间. 当你再将该事项从
+完成状态切换到TODO状态时, 添加的时间会自动删除.
+
+
+Q: 我有一些定期执行的任务, 可以循环设置吗?
+
+A: 可以的. Org有个叫「habits」的功能. 它就是一个特殊的TODO. 需要满足一些特
+定条件:
+
+1. customize org-modules 选中 habits
+2. TODO事项中要设置属性STYLE为habit
+3. 该TODO事项需要有scheduled date
+4. 必须开启log-done状态.
+
+在agenda中, 按K键可以临时 「不显示/显示」 habit的事项.
+
 ** Hyperlinks
 ** Tags
 ** Tables
