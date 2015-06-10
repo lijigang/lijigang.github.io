@@ -20,19 +20,22 @@
 
 [[../blog/images/gtd.png]]
 
-为了完成以上wordflow, 首先要支持方便地添加「stuff」到「basket」中.
+为了完成以上workflow, 首先要支持方便地添加「stuff」到「basket」中.
 
 这里的「stuff」就是 =TODO=. 在Orgmode中, 任意一个以「TODO」字样开头的
 Headline都是待办事项.
 
 常用的一些命令包括:
-
+#+BEGIN_SRC
 C-c C-t (M-x org-todo)
+#+END_SRC
 
 ,-> (unmarked) -> TODO -> DONE --.
-,________________________________,
+,_______________________________,
 
+#+BEGIN_SRC
 S-M-RET (M-x org-insert-todo-heading)
+#+END_SRC
 
 在当前行下方插入一个待办事项.
 
