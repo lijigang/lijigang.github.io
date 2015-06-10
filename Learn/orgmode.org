@@ -248,9 +248,9 @@ A: 可以通过定制变量 org-capture-templates 实现, 比如:
 
 上面templates包含的元素有:
 
-| keys | description | type  | target             | template    |
-|------+-------------+-------+--------------------+-------------|
-| "t"  | "Todo"      | entry | (file+headline ..) | "* TODO .." |
+| keys | desc   | type  | target             | template    |
+|------+--------+-------+--------------------+-------------|
+| "t"  | "Todo" | entry | (file+headline ..) | "* TODO .." |
 
 具体各项的含义, 以及template字段包含的转义符含义, 可以通过C-h v
 org-capture-templates 查看帮助文档.
