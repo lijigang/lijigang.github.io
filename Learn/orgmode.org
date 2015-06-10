@@ -21,6 +21,16 @@
 ** Dates and times
 ** Capture-Refile-Archive
 
+#+BEGIN_QUOTE
+在工作中, 时不时地会有新的待办事项突然出现, 如何快速地将这些待办事项加入到
+GTD系统中?
+
+添加到GTD系统中的待办事项, 有可能分布在多个文件中, 如何快速地将某事项从一
+个文件移植到另一个文件中?
+
+已完成的待办事项, 如何存档?
+#+END_QUOTE
+
 *** Capture
 
 Q: 临时有待做事项进来, 如何快速添加该事项到GTD系统中?
@@ -70,17 +80,7 @@ A: 可以通过定制变量 org-capture-templates 实现, 比如:
 上面templates包含的元素有:
 
 | keys | description | type  | target             | template    |
-|-----
--+-----
------
----+-----
---+-----
------
------
------
-+-----
------
----|
+|------+-------------+-------+--------------------+-------------|
 | /    | /           | /     | /                  | /           |
 | "t"  | "Todo"      | entry | (file+headline ..) | "* TODO .." |
 
@@ -120,4 +120,48 @@ C-c $ (M-x org-archive-subtree) 把当前光标所在处的subtree存档到
 org-archive-location指定的位置去.
 
 ** Agenda views
+
+#+BEGIN_QUOTE
+GTD中的事项分散在各个不同的文件中, 如果方便地从不同的维度或视角来查看所有
+事项?
+
+Org提供了七种查看方式:
+
+1. agenda view
+2. TODO list
+3. match view
+4. timeline view
+5. text search view
+6. stuck projects view
+7. custom view
+#+END_QUOTE
+
+Q: 如何快速调出agenda?
+
+A: 设置一个全局快捷键如下
+#+BEGIN_SRC
+(global-set-key "\C-ca" 'org-agenda)
+#+END_SRC
+
+-----
+
+
+Q: 我有好多的GTD文件, 如果只想在agenda中查看某些文件的事项, 怎么设置?
+
+A: agenda会从变量 org-agenda-files 指定的文件列表中, 抽取事项进行展示.
+
+-----
+
+
+Q: 如何快速将当前GTD文件添加到org-agenda-files中?
+
+A: C-c [ (M-x org-agenda-file-to-front)
+
+-----
+
+
+Q: 如何快速将当前GTD文件从org-agenda-files中删除?
+
+A: C-c ] (M-x org-remove-file)
+
 ** Exporting
