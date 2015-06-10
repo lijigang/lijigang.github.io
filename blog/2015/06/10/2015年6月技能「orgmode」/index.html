@@ -104,13 +104,20 @@
 <div class="outline-text-3" id="text-7-1">
 <p>
 Q: 临时有待做事项进来, 如何快速添加该事项到GTD系统中?
+</p>
+
+<p>
 A: 使用Org-capture, 一键打开临时添加窗口, 添加后, 可以立即返回原操作界面.
 </p>
 
 <p>
 Q: 如何快速先体验下capture功能?
+</p>
+
+<p>
 A: 添加下面的配置, 指定capture默认保存的文件和快速打开capture功能的快捷键.
 </p>
+
 <pre class="example">
 (setq org-default-notes-file (concat org-directory "~/org/notes.org"))
 
@@ -119,16 +126,25 @@ A: 添加下面的配置, 指定capture默认保存的文件和快速打开captu
 
 <p>
 Q: 在Capture中输入完事项后, 如何保存以及回到原来的操作界面?
+</p>
+
+<p>
 A: C-c C-c (M-x org-capture-finalize)
 </p>
 
 <p>
 Q: 要是想把在Capture中输入的事项, 保存在另外一个文件中怎么办?
+</p>
+
+<p>
 A: C-c C-w (M-x org-capture-refile)
 </p>
 
 <p>
 Q: 我想在capture中插入不同类型的任务, 怎么办?
+</p>
+
+<p>
 A: 可以通过定制变量 org-capture-templates 实现, 比如:
 </p>
 
@@ -207,7 +223,18 @@ refile v.
 
 <p>
 Q: 某一文件中的事项, 需要「移植」到其它文件中, 该如何快速操作?
+</p>
+
+<p>
 A: 使用Org-refile, 很方便的可以实现上述目标.
+</p>
+
+<p>
+C-c M-w (M-x org-copy) 把事项拷贝到其它文件, 原文件中事项仍在.
+</p>
+
+<p>
+C-c C-w (M-x org-refile) 把事项移动到新文件, 原文件中事项不在.
 </p>
 </div>
 </div>
@@ -217,6 +244,9 @@ A: 使用Org-refile, 很方便的可以实现上述目标.
 <div class="outline-text-3" id="text-7-3">
 <p>
 Q: 在GTD中已经完成的事项, 想从文件中删除, 但又想后续可以查看, 怎么办?
+</p>
+
+<p>
 A: 使用Org-archive, 可以将这些已完成事项保存在指定的archive文件中.
 </p>
 </div>
