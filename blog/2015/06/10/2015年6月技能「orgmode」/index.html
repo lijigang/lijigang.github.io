@@ -253,7 +253,67 @@ A: 可以的. Org有个叫「habits」的功能. 它就是一个特殊的TODO. �
 </div>
 <div id="outline-container-sec-4" class="outline-2">
 <h2 id="sec-4"><span class="section-number-2">4</span> Tables</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+Q: 如何在Org-mode中编辑表格数据?
+</p>
+
+<pre class="example">
+A: 在Org-mode中, 任何以"|"为首个非空字符的行, 都被看作是表格中的行.例如:
+
+| Name    |   ID | Age |
+|---------+------+-----|
+| Arthur  | 1234 |  28 |
+| Lionnas | 1235 |  24 |
+
+在编辑表格中内容时, 按TAB会跳转到下一个field, 按RET会跳转到下一行, 并且同
+时会将表格重新对齐(相当智能). 如果不想跳转到其它地方, 只是想重新对齐表格,
+可以按C-c C-c
+</pre>
+
+<p>
+Q: 如果已经有csv的数据, 想转换成表格, 怎么操作?
+</p>
+
+<pre class="example">
+A: 选中需要转换成表格的区域按C-c |
+(M-x org-table-create-or-convert-from-region)
+</pre>
+
+<p>
+Q: 如果想改变表格中的列顺序怎么操作?
+</p>
+
+<pre class="example">
+A: 可以通过下面的两个函数:
+
+M-left (M-x org-table-move-column-left)
+
+M-right (M-x org-table-move-clumn-right)
+</pre>
+
+<p>
+Q: 如果想删除表格中某一列怎么操作?
+</p>
+
+<pre class="example">
+A: 可以通过下面的函数, 删除光标所在列:
+
+M-S-left (M-x org-table-delete-column)
+</pre>
+
+<p>
+Q: 如果想在表格中间插入一列怎么操作?
+</p>
+
+<pre class="example">
+A: 可以通过下面的函数, 在鼠标所在列左侧插入一列:
+
+M-S-right (M-x org-table-insert-column)
+</pre>
 </div>
+</div>
+
 <div id="outline-container-sec-5" class="outline-2">
 <h2 id="sec-5"><span class="section-number-2">5</span> Properties and columns</h2>
 </div>
