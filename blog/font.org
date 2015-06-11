@@ -26,16 +26,16 @@
 比如 *宋体* 全部是等宽字体, 所有排版英文时很不自然. *微软雅黑* 字体中, 半
 角英文字符是 *比例字体*, 全角字符是 *等宽字体*.
 
-| 常见的等宽字体 | 常见的比例字体  |
-|----------------+-----------------|
-| /              | <               |
-| DejaVuSansMono | Bitstream       |
-| Monospace      | Century         |
-| 文泉驿等宽正黑 | Helvetica       |
-| Courier        | Times           |
-| Monaco         | Arial           |
-| 细明体         | Times New Roman |
-| 宋体           |                 |
+| 常见的等宽字体   | 常见的比例字体  |
+|------------------+-----------------|
+| /                | <               |
+| DejaVu Sans Mono | Bitstream       |
+| Monospace        | Century         |
+| 文泉驿等宽正黑   | Helvetica       |
+| Courier          | Times           |
+| Monaco           | Arial           |
+| 细明体           | Times New Roman |
+| 宋体             |                 |
 
 
 ** 什么是衬线体
