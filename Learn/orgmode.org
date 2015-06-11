@@ -8,9 +8,9 @@
 
 整体学习思路:
 
-- 边用边学
-- 参看手册和Emacs help, 以及同好Blog
-- 分解学习目标, 每天学习一项
+- 边用边学, 以遇到的问题为引子, 找到对应的解决方案
+- 参看手册和Emacs help, 以及各Blog内容
+- 分解学习目标, 每天学习一点点
 #+END_QUOTE
 
 ** Todo items
@@ -132,6 +132,8 @@ A: 可以的. Org有个叫「habits」的功能. 它就是一个特殊的TODO. �
 你可以直接输入上面的格式, 或者按C-c C-l来交互式的插入链接.
 #+END_QUOTE
 ** Tags
+
+
 ** Tables
 
 Q: 如何在Org-mode中编辑表格数据?
@@ -343,4 +345,17 @@ Q: 显示的Agenda中默认的是两周时间, 这个显示天数可以改吗?
 A: 可以设置变量org-agenda-span
 #+END_SRC
 
+Q:显示的Agenda中默认有Dairy的东西, 比如Flag Day, 怎么去掉?
+
+#+BEGIN_SRC
+A: 通过设置org-agenda-include-diary变量
+
+(setq org-agenda-include-diary nil)
+#+END_SRC
+
+Q: 如何快速查看Org-capture的存储文件?
+
+#+BEGIN_SRC
+C-u C-u C-c c
+#+END_SRC
 ** Exporting
