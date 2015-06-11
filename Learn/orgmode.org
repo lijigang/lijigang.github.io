@@ -228,6 +228,51 @@ A: 可以的. Org有一个Orgtbl的minor mode. 你只需要在你想要使用org
 (add-hook 'message-mode-hook 'turn-on-orgtbl)
 #+END_SRC
 ** Properties and columns
+
+当你有一个项目, 一个月发个版本, 除了用 :Release_1: :Release_2: 这种tag的形
+式以外, 你还可以使用 =Properties= 的方式, 来记录某Headline相关的属性.
+
+在Org-mode中, Property就是一个Entry的Key-value pair.
+
+Property除了可以在某些时候替代tag的功能以外, 还可以当作Database来使用. 想
+想如果你在记录读书的文件中, 把每本书的作者, 出版时间, 阅读时间等等信息都写
+在Properties里.
+
+[[../blog/images/property.png]]
+
+Q: 如何快速插入Property?
+
+#+BEGIN_SRC
+A: C-c C-x p (M-x org-set-property)
+
+会提示你输入property name 和 value.
+#+END_SRC
+
+Q: 各项属性不同, 有什么办法可以统一查看?
+
+#+BEGIN_SRC
+A: 可以使用 =Column view=. 格式如下:
+
+%[width]property[(title)][{summary-type}]
+
+如果想针对当前文件生效, 在文件中加入类似下面的行:
+
+#+COLUMNS: %25ITEM %TAGS %PRIORITY %TODO
+
+如果想只在指定的tree下面查看, 可以加一个 :COLUMNS: 属性:
+
+#+END_SRC
+[[../blog/images/columns_property.png]]
+
+Q: 如何启用org-columns?
+
+#+BEGIN_SRC
+A: C-c C-x C-c  (M-x org-columns) 打开column view
+
+r (M-x org-columns-redo) Recreate the column view.
+
+q (M-x org-columns-quit) Exit column view.
+#+END_SRC
 ** Dates and times
 ** Capture-Refile-Archive
 
