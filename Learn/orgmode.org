@@ -273,6 +273,7 @@ r (M-x org-columns-redo) Recreate the column view.
 
 q (M-x org-columns-quit) Exit column view.
 #+END_SRC
+
 ** Dates and times
 ** Capture-Refile-Archive
 
