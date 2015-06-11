@@ -28,6 +28,7 @@
 
 | 常见的等宽字体 | 常见的比例字体  |
 |----------------+-----------------|
+| /              | <               |
 | DejaVuSansMono | Bitstream       |
 | Monospace      | Century         |
 | 文泉驿等宽正黑 | Helvetica       |
