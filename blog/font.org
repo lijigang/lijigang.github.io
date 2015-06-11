@@ -74,7 +74,8 @@
 解决办法就是分别设置中文和英文的字体大小, 目标是让一个中文字符所占的宽度等
 于两个英文字符的宽度.
 
-Emacs微信群里的 =@求其= 同学写了个函数可以方便的分别设置中文和英文字体大小:
+Emacs微信群里的 =@求其= 同学收藏的一个函数可以方便的分别设置中文和英文字体
+大小:
 
 #+BEGIN_SRC
 (defun set-font (english chinese english-size chinese-size)
