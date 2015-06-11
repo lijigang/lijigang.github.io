@@ -359,6 +359,71 @@ A: 可以的. Org有一个Orgtbl的minor mode. 你只需要在你想要使用org
 </div>
 <div id="outline-container-sec-5" class="outline-2">
 <h2 id="sec-5"><span class="section-number-2">5</span> Properties and columns</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+当你有一个项目, 一个月发个版本, 除了用 :Release<sub>1</sub>: :Release<sub>2</sub>: 这种tag的形
+式以外, 你还可以使用 <code>Properties</code> 的方式, 来记录某Headline相关的属性.
+</p>
+
+<p>
+在Org-mode中, Property就是一个Entry的Key-value pair.
+</p>
+
+<p>
+Property除了可以在某些时候替代tag的功能以外, 还可以当作Database来使用. 想
+想如果你在记录读书的文件中, 把每本书的作者, 出版时间, 阅读时间等等信息都写
+在Properties里.
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/06/11/2015年6月技能「org-mode」/property.png" alt="property.png" />
+</p>
+</div>
+
+<p>
+Q: 如何快速插入Property?
+</p>
+
+<pre class="example">
+A: C-c C-x p (M-x org-set-property)
+
+会提示你输入property name 和 value.
+</pre>
+
+<p>
+Q: 各项属性不同, 有什么办法可以统一查看?
+</p>
+
+<pre class="example">
+A: 可以使用 =Column view=. 格式如下:
+
+%[width]property[(title)][{summary-type}]
+
+如果想针对当前文件生效, 在文件中加入类似下面的行:
+
+#+COLUMNS: %25ITEM %TAGS %PRIORITY %TODO
+
+如果想只在指定的tree下面查看, 可以加一个 :COLUMNS: 属性:
+</pre>
+
+<div class="figure">
+<p><img src="/assets/blog/2015/06/11/2015年6月技能「org-mode」/columns_property.png" alt="columns_property.png" />
+</p>
+</div>
+
+<p>
+Q: 如何启用org-columns?
+</p>
+
+<pre class="example">
+A: C-c C-x C-c  (M-x org-columns) 打开column view
+
+r (M-x org-columns-redo) Recreate the column view.
+
+q (M-x org-columns-quit) Exit column view.
+</pre>
+</div>
 </div>
 <div id="outline-container-sec-6" class="outline-2">
 <h2 id="sec-6"><span class="section-number-2">6</span> Dates and times</h2>
