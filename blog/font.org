@@ -64,3 +64,33 @@
 
 在计算机领域倾向使用无衬线字体, 以方便在显示器上显示. 因为衬线字体在笔划上
 有过多的点缀, 在屏幕上阅读时, 很容易引起视觉疲劳.
+
+** Org-table中英文混合时对齐问题
+
+在Emacs里使用org-table时, 若同时存在中文和英文, 表格效果如下图:
+
+[[./images/orgtable-unaligned.jpg]]
+
+解决办法就是分别设置中文和英文的字体大小, 目标是让一个中文字符所占的宽度等
+于两个英文字符的宽度.
+
+Emacs微信群里的 =@求其= 同学写了个函数可以方便的分别设置中文和英文字体大小:
+
+#+BEGIN_SRC
+(defun set-font (english chinese english-size chinese-size)
+  (set-face-attribute 'default nil :font
+                      (format   "%s:pixelsize=%d"  english english-size))
+  (dolist (charset '(kana han symbol cjk-misc bopomofo))
+    (set-fontset-font (frame-parameter nil 'font) charset
+                      (font-spec :family chinese :size chinese-size))))
+
+(set-font   "Source Code Pro" "Hiragino Sans GB" 16 20)
+#+END_SRC
+
+执行后的效果如下图:
+
+[[./images/orgtable-aligned.png]]
+
+好处是中英文混合时, 终于可以对齐了.
+
+缺点是中文字体比英文字体大的比较多, 看起来有点怪.
