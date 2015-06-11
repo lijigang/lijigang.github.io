@@ -163,7 +163,7 @@ A: Org-mode中有 =Group tag= 的概念, 不光可以满足在group中的tag只�
 
 #+TAGS: { @read : @read_book @read_ebook }
 
-请注册上面的 *「空格」*, 是必需的. 上面例子中 @read 就是group tag, 这个
+请注意上面的 *「空格」*, 是必需的. 上面例子中 @read 就是group tag, 这个
 group中包含了三个tag: @read, @read_book, @read_ebook
 #+END_SRC
 
