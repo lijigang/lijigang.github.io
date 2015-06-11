@@ -45,7 +45,7 @@
 - Arial
 - Times New Roman
 
-**　什么是衬线体
+** 什么是衬线体
 
 #+BEGIN_QUOTE
 衬线体 (Serif) 指的是 *有衬线的字体*.
