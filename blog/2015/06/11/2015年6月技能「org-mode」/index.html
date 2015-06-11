@@ -237,8 +237,50 @@ A: 可以的. Org有个叫「habits」的功能. 它就是一个特殊的TODO. �
 </div>
 <div id="outline-container-sec-3" class="outline-2">
 <h2 id="sec-3"><span class="section-number-2">3</span> Tags</h2>
-</div>
+<div class="outline-text-2" id="text-3">
+<p>
+在Org-mode中, 每个Headline都可以包含多个tag, 它的格式为在Headline行末尾,
+前后以冒号包围, 比如 :Work: . 多个tag显示为 :Work:Urgent:
+</p>
 
+<p>
+可以手动在行末输入上面的tag, 也可以使用快捷键:
+</p>
+
+<pre class="example">
+当光标在Headline上时, 可以用下面的快捷键:
+
+C-c C-c org-set-tags-command
+</pre>
+
+<p>
+Q: 我有一些固定常用的Tag, 能不能把它们存储下来, 使用的时候从里面选?
+</p>
+
+<pre class="example">
+A: 可以设置变量 org-tag-alist
+
+也可以给某文件中使用特定的tags, 只需要在该文件中加上:
+
+#+TAGS: @work @home @coffee
+#+TAGS: laptop pc macbook
+</pre>
+
+<p>
+Q: 有些tags只想在里面三选一, 不想同时选多个. 怎么设置?
+</p>
+
+<pre class="example">
+A: Org-mode中有 =Group tag= 的概念, 不光可以满足在group中的tag只能选一个的
+需求, 而且在agenda中筛选tag显示的时候, 只要是group中的成员, 都会被筛选出来.
+
+#+TAGS: { @read : @read_book @read_ebook }
+
+请注册上面的 *「空格」*, 是必需的. 上面例子中 @read 就是group tag, 这个
+group中包含了三个tag: @read, @read_book, @read_ebook
+</pre>
+</div>
+</div>
 
 <div id="outline-container-sec-4" class="outline-2">
 <h2 id="sec-4"><span class="section-number-2">4</span> Tables</h2>
