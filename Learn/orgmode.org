@@ -275,6 +275,63 @@ q (M-x org-columns-quit) Exit column view.
 #+END_SRC
 
 ** Dates and times
+
+为了更好地安排事项, 需要给各个事项指定时间. 在Org-mode中, 使用的是
+timestamp . 你可以直接手动输入timestamp, 就像普通文本一样, 也可以通过
+calenda输入timestamp, 效果都一样.
+
+Q: 想设置明天上午10:00-10:30的会议事项, 怎么弄?
+
+#+BEGIN_SRC
+
+A: 可以在事项下方, 手动输入时间:
+
+ * Meeting
+   <2015-06-12 Fri 10:00-10:30>
+
+也可以通过Calenda的方式:
+
+C-c . (M-x org-time-stamp)
+
+在新出现的calenda buffer中选中日期.
+#+END_SRC
+
+Q: 想设置每周五上午10:00发送周报, 怎么弄?
+
+#+BEGIN_SRC
+A: timestamp可以包含repeater interval, 重复间隔可以是天(d),周(w), 月(m)或
+者年(y).
+
+ * 交周报
+   <2015-06-12 Fri 10:00 +1w>
+#+END_SRC
+
+Q: 有一个外出会议要持续三天进行, 怎么设置?
+
+#+BEGIN_SRC
+A: 可以设置Data Range, 日期之间使用「--」分隔开即可:
+
+ * Meeting aboard
+   <2015-06-12 Fri>--<2015-06-15 Mon>
+#+END_SRC
+
+Q: 有一事项需要在下周二启动, 怎么提前设置?
+
+#+BEGIN_SRC
+A: 可以通过Schedule这个Keyword来设置:
+
+C-c C-s (M-x org-schedule)
+
+意思就是说, 在schedule的那一天, 这个事项才会启动.
+#+END_SRC
+
+Q: 有一事项需要在下周二截止(deadline), 怎么设置?
+
+#+BEGIN_SRC
+A: 可以通过Deadline来设置:
+
+C-c C-d (M-x org-deadline)
+#+END_SRC
 ** Capture-Refile-Archive
 
 #+BEGIN_QUOTE
