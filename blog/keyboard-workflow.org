@@ -80,7 +80,7 @@ knowledge management)]], 如果在Maestro中设置像下面的操作, 可以直�
 
 *** Emacs
 
-Emacs党自己会有自己的按键操作习惯, 这个见仁见智. 我总结的Org-mode的[[http://www.lijigang.com/blog/2015/06/12/2015%25E5%25B9%25B46%25E6%259C%2588%25E6%258A%2580%25E8%2583%25BD%25E3%2580%258Corg-mode%25E3%2580%258D/][笔记见此]].
+Emacs党自己会有自己的按键操作习惯, 这个见仁见智. 我总结的Org-mode的[[http://t.cn/R2jUo3R][笔记见此]].
 
 *** QQ
 
