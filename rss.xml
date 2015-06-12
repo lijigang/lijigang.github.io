@@ -4,8 +4,8 @@
     <title>lijigang的首页</title>
     <link>http://lijigang.github.io</link>
     <description>待己当从无过中求有过, 待人当从有过中求无过</description>
-    <pubDate>Fri, 12 Jun 2015 11:03:04 CST</pubDate>
-    <lastBuildDate>Fri, 12 Jun 2015 11:03:04 CST</lastBuildDate>
+    <pubDate>Fri, 12 Jun 2015 12:38:48 CST</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2015 12:38:48 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -14,6 +14,13 @@
       <description>No Description</description>
       <pubDate>2015-06-12</pubDate>
       <guid>http://lijigang.github.io/blog/2015/06/12/2015年6月技能「org-mode」/</guid>
+    </item>
+    <item>
+      <title>键盘流的Workflow</title>
+      <link>http://lijigang.github.io/blog/2015/06/12/键盘流的workflow/</link>
+      <description>No Description</description>
+      <pubDate>2015-06-12</pubDate>
+      <guid>http://lijigang.github.io/blog/2015/06/12/键盘流的workflow/</guid>
     </item>
     <item>
       <title>字体知识</title>
@@ -70,13 +77,6 @@
       <description>No Description</description>
       <pubDate>2015-05-25</pubDate>
       <guid>http://lijigang.github.io/blog/2015/06/12/vba是什么鬼/</guid>
-    </item>
-    <item>
-      <title>键盘应该这样改键</title>
-      <link>http://lijigang.github.io/blog/2015/06/12/键盘应该这样改键/</link>
-      <description>No Description</description>
-      <pubDate>2015-05-21</pubDate>
-      <guid>http://lijigang.github.io/blog/2015/06/12/键盘应该这样改键/</guid>
     </item>
   </channel>
 </rss>
