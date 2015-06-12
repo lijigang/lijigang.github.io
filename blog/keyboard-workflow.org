@@ -1,0 +1,35 @@
+#+TITLE: 键盘流的Workflow
+#+TAGS:效率, Workflow
+
+** 为什么要走键盘流
+
+** 电脑环境
+
+| 系统     | 软件             | 硬件                                     |
+|----------+------------------+------------------------------------------|
+| Mac OS X | Alfred 2         | Macbook Pro (Retina, 13-inch, Late 2013) |
+|          | Hazel            | HHKB Pro 2                               |
+|          | Karabiner        |                                          |
+|          | Seil             |                                          |
+|          | Keyboard Maestro |                                          |
+|          | WhatPulse        |                                          |
+
+** 常用系统级操作
+
+*** 应用间切换
+
+** 常用软件级操作
+
+*** Emacs
+
+*** QQ
+
+*** WeChat
+
+*** Firefox
+
+*** Outlook
+
+*** iTerm
+
+*** Alfred
