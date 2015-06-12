@@ -7,10 +7,11 @@
 
 | 系统     | 软件             | 硬件                         |
 |----------+------------------+------------------------------|
+| /        | <                | <                            |
 | Mac OS X | Alfred 2         | Macbook Pro                  |
 |          | Hazel            | (Retina, 13-inch, Late 2013) |
-|          | Karabiner        |                              |
-|          | Seil             | HHKB Pro 2                   |
+|          | Karabiner        | HHKB Pro 2                   |
+|          | Seil             |                              |
 |          | Keyboard Maestro |                              |
 |          | WhatPulse        |                              |
 
