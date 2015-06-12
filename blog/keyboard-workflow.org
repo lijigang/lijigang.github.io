@@ -5,14 +5,14 @@
 
 ** 电脑环境
 
-| 系统     | 软件             | 硬件                                     |
-|----------+------------------+------------------------------------------|
-| Mac OS X | Alfred 2         | Macbook Pro (Retina, 13-inch, Late 2013) |
-|          | Hazel            | HHKB Pro 2                               |
-|          | Karabiner        |                                          |
-|          | Seil             |                                          |
-|          | Keyboard Maestro |                                          |
-|          | WhatPulse        |                                          |
+| 系统     | 软件             | 硬件                         |
+|----------+------------------+------------------------------|
+| Mac OS X | Alfred 2         | Macbook Pro                  |
+|          | Hazel            | (Retina, 13-inch, Late 2013) |
+|          | Karabiner        |                              |
+|          | Seil             | HHKB Pro 2                   |
+|          | Keyboard Maestro |                              |
+|          | WhatPulse        |                              |
 
 ** 常用系统级操作
 
