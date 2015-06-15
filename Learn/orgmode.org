@@ -495,3 +495,13 @@ Q: 如何快速查看Org-capture的存储文件?
 C-u C-u C-c c
 #+END_SRC
 ** Exporting
+
+Q: 如何把Org文件导出成其它格式的?
+
+#+BEGIN_SRC
+A: 调用Export dispatcher:
+
+C-c C-e (M-x: org-export-dispatch)
+
+然后根据menu上的提示, 选择你需要导出的格式对应的字母即可.
+#+END_SRC
