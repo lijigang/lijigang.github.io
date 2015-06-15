@@ -1,4 +1,4 @@
-#+TITLE: 2015年6月技能「Org-mode」
+#+TITLE: 2015年6月上旬技能「Org-mode」
 #+TAGS: Emacs, Org
 
 #+BEGIN_QUOTE
