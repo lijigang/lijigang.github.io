@@ -1,0 +1,104 @@
+#+TITLE: 2015年六月下旬技能「LaTeX」
+#+TAGS: LaTeX, Emacs
+
+本文为学习 =@刘海洋= 的「LaTeX入门」一书的笔记, 后续如有其它相关学习内容,
+也会合并至此, 聊作记录.
+
+** 组织文本
+
+*** 文字与符号
+
+Q: 什么是字体?
+
+#+BEGIN_SRC
+A: 字体包含三个性质: font family, font shape, font series.
+
+font family: 一般对应一组风格相似, 适于一起使用的成套字体.
+
+LaTeX中预定义的Font family有三种, 正文默认使用Roman:
+
+| Font family | 带参数命令    | 声明命令  |
+|-------------+---------------+-----------|
+| Roman       | \textrm{文字} | \rmfamily |
+| Sans serif  | \textsf{文字} | \sffamily |
+| Typerwriter | \texttt{文字} | \ttfamily |
+
+LaTeX中预定义的Font shape有四种, 正文默认使用upright shape.
+
+| Font shape     | 带参数命令    | 声明命令 |
+|----------------+---------------+----------|
+| upright        | \textup{文字} | \upshape |
+| italic         | \textit{文字} | \itshape |
+| slanted        | \textsl{文字} | \slshape |
+| small capitals | \textsc       | \scshape |
+
+LaTeX中预定义的Font series有两种, 正文默认使用medium:
+
+| series        | 带参数命令    | 声明命令  |
+|---------------+---------------+-----------|
+| medium        | \textmd{文字} | \mdseries |
+| bold extended | \textbf{文字} | \bfseries |
+#+END_SRC
+
+*** 段落与文本环境
+
+*** 文档结构层次
+
+*** 文档类与整体格式设计
+
+
+** 自动化工具
+
+*** 目录
+
+*** 交叉引用
+
+*** 文献数据库
+
+*** 索引
+
+** 数学公式
+
+*** 数学模式
+
+*** 数学结构
+
+*** 符号与类型
+
+*** 多行公式
+
+*** 精调与杂项
+
+** 绘制图表
+
+*** 表格
+
+*** 插图与变换
+
+*** 浮动体与标题控制
+
+*** 使用颜色
+
+** 幻灯片演示
+
+*** 组织内容
+
+*** 风格的要素
+
+*** 动态展示
+
+** 错误信息
+
+*** 理解错误信息
+
+*** 调试
+
+*** 提问的智慧
+
+** LaTeX无极限
+
+*** 宏编辑
+
+*** 外部工具
+
+*** 其它资源
