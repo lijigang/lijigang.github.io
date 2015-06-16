@@ -1,4 +1,4 @@
-#+TITLE: 2015年六月下旬技能「LaTeX」
+#+TITLE: 2015年6月下旬技能「LaTeX」
 #+TAGS: LaTeX, Emacs
 
 本文为学习 =@刘海洋= 的「LaTeX入门」一书的笔记, 后续如有其它相关学习内容,
@@ -30,7 +30,7 @@ LaTeX中预定义的Font shape有四种, 正文默认使用upright shape.
 | upright        | \textup{文字} | \upshape |
 | italic         | \textit{文字} | \itshape |
 | slanted        | \textsl{文字} | \slshape |
-| small capitals | \textsc       | \scshape |
+| small capitals | \textsc{文字} | \scshape |
 
 LaTeX中预定义的Font series有两种, 正文默认使用medium:
 
@@ -38,6 +38,74 @@ LaTeX中预定义的Font series有两种, 正文默认使用medium:
 |---------------+---------------+-----------|
 | medium        | \textmd{文字} | \mdseries |
 | bold extended | \textbf{文字} | \bfseries |
+
+中文字体通常各字体之间都是独立的, 很少成套. 一般只使用family进行区分.
+
+xeCJK和CJK宏包机制下, 中文字体与西文字体是分享的, 选择中文字体family使用
+\CJKfamily命令.
+
+#+END_SRC
+
+Q: 如何使用预定义字体以外的字体?
+
+#+BEGIN_SRC
+A: 选择非默认的字体有两类方法:
+
+当不使用XeTeX引擎时, 可以通过字体宏包或LaTeX底层字体命令调用在TeX系统中预
+先安装好的字体.
+
+使用字体宏包非常简单, 通常只要导入此宏包即可.
+
+\documentclass{article}
+\usepackage{txfonts}
+\begin{document}
+Test Text.
+\end{document}
+
+当使用XeTeX引擎时, 可以调用操作系统安装的中西文字体.
+
+在XeTeX中, 主要使用fontspec宏包的机制来调用字体, 如:
+
+\setmainfont[option]{font-name}
+\setsansfont[option]{font-name}
+\setmonofont[option]{font-name}
+
+使用时, 在Preamble区域设置全文字体
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Verdana}
+\setmonofont{Courier New}
+
+XeTeX下中文字体的设置可以使用xeCJK宏包, 其提供了与fontspec对应的中文字体设
+置命令:
+
+\setCJKmainfont[option]{font-name}
+\setCJKsansfont[option]{font-name}
+\setCJKmonofont[option]{font-name}
+\setCJKfamilyfont{family}[option]{font-name}
+
+如可以设置正文字体为宋体, 其粗体为黑体、斜体为楷体、粗斜体为隶书, 以弥补中
+文字体一般没有一族成套变体的问题:
+
+\setCJKmainfont[BoldFont=SimHei, ItalicFont=KaiTi,
+BoldItalicFont=LiSu]{SimSun}
+#+END_SRC
+
+Q: 如何强调文字?
+
+#+BEGIN_SRC
+A: 可以使用\emph命令, 会将直立体改为意大利体, 将意大利体改为直立体.
+
+如果不想使用斜体强调, 想使用粗体强调, 可以定义一个新的命令:
+
+\newcommand\Emph{\textbf}
+
+This is \Emph{emphasized} text.
+
+也可以通过给文字加下画线:
+
+\underline{Emphasized} text.
 #+END_SRC
 
 *** 段落与文本环境
