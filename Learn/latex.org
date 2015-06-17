@@ -208,12 +208,135 @@ A: LaTeX标准文档类提供了三种列表环境: 编号和enumerate环境、�
 
 [[../blog/images/latex_list.png]]
 
-
 *** 文档结构层次
+
+Q: 如何声明标题?
+
+#+BEGIN_SRC
+A: 在LaTeX中, 使用标题通常分为两个部分: 声明标题内容和实际输出标题.
+
+每个标题则由标题、作者、日期等部分组成. 分别使用\title 、\author、\date命
+令. 它们都带有一个参数, 里面可以使用\\进行换行.
+
+使用\maketitle命令可以输出前面声明的标题, 通常\maketitle是文档中document环
+境后面的第一个命令.
+#+END_SRC
+
+Q: 有哪些章节层次可以使用?
+
+#+BEGIN_SRC
+A: 在LaTeX中可以使用6到7个层次的章节:
+
+| 层次 | 名称          | 命令           | 说明                              |
+|------+---------------+----------------+-----------------------------------|
+|   -1 | part          | \part          | 可选的最高层                      |
+|    0 | chapter       | \chapter       | report, book 或 ctexrep, ctexbook |
+|      |               |                | 文档类的最高层                    |
+|    1 | section       | \section       | article或ctexart类最高层          |
+|    2 | subsection    | \subsection    |                                   |
+|    3 | subsubsection | \subsubsection | report, book 或                   |
+|      |               |                | ctexrep, ctexbook类               |
+|    4 | paragraph     | \paragraph     | 默认不编号, 不编目录              |
+|    5 | subparagraph  | \subparagraph  | 默认不编号, 不编目录                                   |
+#+END_SRC
 
 *** 文档类与整体格式设计
 
+这一部分主要讨论在Preamble区域的代码, 涉及一些全局设置, 特别是版面设计的相
+关内容.
 
+Q: 什么是Document class?
+
+#+BEGIN_SRC
+A: Document class是LaTeX中基本的格式组织方式. ctex文档类是由CTeX中文社区组
+织编写的LaTeX基本文档类的中文对应物. 它是在LaTeX基本文档类基础上编写的.
+
+LaTeX基本文档类主要有三个: article、report 和 book.　这三个分别设计用来编
+写小篇幅的文章、中篇幅的报告和长篇幅的书籍.
+
+ctex宏包提供了三个文档类: ctexart, ctexrep 和 ctexbook. 分别与三个标准文档
+类对应, 用来编写中文短文、中文报告和中文书籍.
+#+END_SRC
+
+Q: 如何设置版面?
+
+#+BEGIN_SRC
+A: 使用geometry宏包, 它支持方便的 <参数>=<值> 的语法:
+
+\usepackage{geometry}
+\geometry{a4paper, left=3cm, right=3cm}
+#+END_SRC
+
+Q: 如何设置页眉, 页脚, 页码等内容?
+
+#+BEGIN_SRC
+A: LaTeX提供了一个简单的命令\pagenumbering{style} 来设置页码的编号方式:
+
+\pagenumbering{roman}
+
+还提供了多种预定义的page style, 它们控制页眉页脚的整体风格设置:
+
+| page style | description                            |
+|------------+----------------------------------------|
+| empty      | 没有页眉页脚                           |
+| plain      | 没有页眉, 页脚是居中的页码             |
+| headings   | 没有页脚, 页眉是章节名称和页码         |
+| myheadings | 没有页脚, 页眉是页码和用户自定义的内容 |
+
+可以用\pagestyle{style} 整体设置页面风格, 也可以用 \thispagestyle{style}单
+独设置当前面的风格.
+
+LaTeX提供的页面风格非常相互, 而且不能做进一步的格式修改. 可以使用fancyhdr
+宏包, 它提供了新的页面风格fancy, 以及一系列设置的命令.
+
+fancyhdr的fancy页面风格把页面的页眉和页脚部分给分成了左中右三个部分, 因而,
+一个页面就有6个部分. 对于双面文档, 还分奇偶页, 即有12个部分.
+
+| Command         | description |
+|-----------------+-------------|
+| \lhead{content} | 设置页眉左  |
+| \chead{content} | 设置页眉中  |
+| \rhead{content} | 设置页面右  |
+| \lfoot{content} | 设置页脚左  |
+| \cfoot{content} | 设置页脚中  |
+| \rfoot{content} | 设置页脚右  |
+
+使用示例如下:
+
+\usepackage{fancyhdr}
+\pagestyle{fancy} % 使用fancy风格
+\fancyhf{}        % 清除所有页眉页脚
+\lhead{$\heartsuit$}
+#+END_SRC
+
+Q: 如何使用分栏功能?
+
+#+BEGIN_SRC
+A: 给文档类加twocolumn选项就可以全文档双栏排版.
+
+分栏也可以在正文中使用命令切换. \twocolumn 进入双栏模式, \onecolumn 进入单
+栏模式, 两个命令都会先使用\clearpage 命令进行换页.
+#+END_SRC
+
+Q: 什么是Macro?
+
+#+BEGIN_SRC
+A: 在LaTeX中, 宏通常分为两类: command 和 environment.
+
+可以使用\newcommand 来新定义一个命令, 其语法为:
+
+\newcommand<command>[<参数个数>][<首参数默认值>]{<具体定义>}
+
+比如:
+
+\newcommand\PRC{People's Republic of \emph{China}}
+
+定义了一个宏, PRC, 使用时会替换成后面的定义内容.
+
+可以使用\renewcommand 来重新定义一个已有命令.
+
+定义新环境可以用 \newenvironment, 重新定义已有环境可以用\renewenvironment
+#+END_SRC
 ** 自动化工具
 
 *** 目录
