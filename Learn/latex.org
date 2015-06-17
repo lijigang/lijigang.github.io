@@ -227,17 +227,17 @@ Q: 有哪些章节层次可以使用?
 #+BEGIN_SRC
 A: 在LaTeX中可以使用6到7个层次的章节:
 
-| 层次 | 名称          | 命令           | 说明                              |
-|------+---------------+----------------+-----------------------------------|
-|   -1 | part          | \part          | 可选的最高层                      |
-|    0 | chapter       | \chapter       | report, book 或 ctexrep, ctexbook |
-|      |               |                | 文档类的最高层                    |
-|    1 | section       | \section       | article或ctexart类最高层          |
-|    2 | subsection    | \subsection    |                                   |
-|    3 | subsubsection | \subsubsection | report, book 或                   |
-|      |               |                | ctexrep, ctexbook类               |
-|    4 | paragraph     | \paragraph     | 默认不编号, 不编目录              |
-|    5 | subparagraph  | \subparagraph  | 默认不编号, 不编目录                                   |
+| 名称          | 命令           | 说明                     |
+|---------------+----------------+--------------------------|
+| part          | \part          | 可选的最高层             |
+| chapter       | \chapter       | report, book 或 ctexrep, |
+|               |                | ctexbook 文档类的最高层  |
+| section       | \section       | article或ctexart类最高层 |
+| subsection    | \subsection    |                          |
+| subsubsection | \subsubsection | report, book 或          |
+|               |                | ctexrep, ctexbook类      |
+| paragraph     | \paragraph     | 默认不编号, 不编目录     |
+| subparagraph  | \subparagraph  | 默认不编号, 不编目录     |
 #+END_SRC
 
 *** 文档类与整体格式设计
@@ -337,22 +337,16 @@ A: 在LaTeX中, 宏通常分为两类: command 和 environment.
 
 定义新环境可以用 \newenvironment, 重新定义已有环境可以用\renewenvironment
 #+END_SRC
-** 自动化工具
-
-*** 目录
-
-*** 交叉引用
-
-*** 文献数据库
-
-*** 索引
 
 ** 数学公式
 
-*** 数学模式
-
 *** 数学结构
 
+Q: 如何输入上下标?
+
+#+BEGIN_SRC
+A: 在TeX中, 上标用符号^表示, 下标用符号_表示.
+#+END_SRC
 *** 符号与类型
 
 *** 多行公式
