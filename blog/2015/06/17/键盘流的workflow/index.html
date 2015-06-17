@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>键盘流的Workflow - lijigang的首页</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="lijigang" />
+    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  </head>
+  <body class="container">
+    <div>
+      <header class="masthead">
+        <h1 class="masthead-title"><a href="/">lijigang的首页</a></h1>
+        <p>待己当从无过中求有过, 待人当从有过中求无过</p>
+        <ul>
+          <li><a href="/learn/">Learn</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/concept/">Concept</a></li>
+          <li><a href="/notes/">Notes</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+        </ul>
+        <form method="get" id="searchform" action="http://www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="as_sitesearch" value="lijigang.github.io">
+        </form>
+      </header>
+    </div>
+
+<div>
+<div class="post">
+<h1>键盘流的Workflow</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. 什么是键盘流</a></li>
+<li><a href="#sec-2">2. 为什么要走键盘流</a></li>
+<li><a href="#sec-3">3. 电脑环境</a></li>
+<li><a href="#sec-4">4. 常用系统级操作</a>
+<ul>
+<li><a href="#sec-4-1">4.1. 应用间切换</a></li>
+<li><a href="#sec-4-2">4.2. 直接使用Org-capture</a></li>
+</ul>
+</li>
+<li><a href="#sec-5">5. 常用软件级操作</a>
+<ul>
+<li><a href="#sec-5-1">5.1. Emacs</a></li>
+<li><a href="#sec-5-2">5.2. QQ</a></li>
+<li><a href="#sec-5-3">5.3. WeChat</a></li>
+<li><a href="#sec-5-4">5.4. Firefox</a></li>
+<li><a href="#sec-5-5">5.5. Outlook</a></li>
+<li><a href="#sec-5-6">5.6. iTerm</a></li>
+<li><a href="#sec-5-7">5.7. Alfred</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> 什么是键盘流</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+我自己的定义是: 尽可能地减少鼠标和键盘的频繁切换操作, 能用键盘完成的操作,
+就尽量不要使用鼠标.
+</p>
+
+<p>
+使用键盘的主要原则有两条:
+</p>
+
+<ol class="org-ol">
+<li>尽量让手指在Home Row上
+</li>
+<li>尽量让左右手指击键次数平均
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> 为什么要走键盘流</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+为了提高效率.
+</p>
+
+<p>
+一个常用操作, 键盘流和鼠标流的差异可能只有一两秒钟, 但要是把每天的操作次数
+汇总在一起, 这里省下的时间相当可观. 这里的「可观」到底是多可观? 使用
+<code>WhatPulse</code> 软件可以记录你的所有击键.
+</p>
+
+<p>
+了解你自己的按键使用习惯, 有针对性地进行改进, 不断地提高工作效率, 这就是选
+键盘流的初衷.
+</p>
+
+<p>
+键盘击键Heatmap:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/06/17/键盘流的workflow/heatmap.png" alt="heatmap.png" />
+</p>
+</div>
+
+<p>
+组合键的次数统计:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/06/17/键盘流的workflow/combination.png" alt="combination.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> 电脑环境</h2>
+<div class="outline-text-2" id="text-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+</colgroup>
+
+<colgroup>
+<col  class="left" />
+</colgroup>
+
+<colgroup>
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">系统</th>
+<th scope="col" class="left">软件</th>
+<th scope="col" class="left">硬件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">Mac OS X</td>
+<td class="left">Alfred 2</td>
+<td class="left">Macbook Pro</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Hazel</td>
+<td class="left">(Retina, 13-inch, Late 2013)</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Seil</td>
+<td class="left">Dell U2412M</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Karabiner</td>
+<td class="left">HHKB Pro 2</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Keyboard Maestro</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">WhatPulse</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> 常用系统级操作</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> 应用间切换</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+如果你有对自己的日常使用电脑操作进行过记录的话, 很可能会发现「应用切换」这
+个操作的频率远比你想象中的要高的多.
+</p>
+
+<p>
+比如, 你正在使用微信和朋友聊天(微信 Hyper+w), 想约时间去看电影, 这时候你会
+想查下附近的影院有什么电影及相应的排期 (Firefox Hyper+f). 打开浏览器后, 进
+入你常用的查影院排期的网站, 截图(QQ截图 C-M-E)排期界面, 切换回微信
+(Hyper+w), 粘贴给对方.
+</p>
+
+<p>
+这里的每个操作, 用鼠标在Dock上点下图标, 或者点下状态栏上的截图图标都用不了
+几秒钟. 但考虑下如果全部操作都可以在你手放在键盘上, 和朋友聊天的过程中, 顺
+手按了几下就搞定的感觉吧, 真的会有「行云流水」的味道.
+</p>
+
+<p>
+我使用 <code>Keyboard Maestro</code> 这个软件来自定义「应用切换」的相应快捷键.
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/06/17/键盘流的workflow/app-switch.png" alt="app-switch.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-4-2" class="outline-3">
+<h3 id="sec-4-2"><span class="section-number-3">4.2</span> 直接使用Org-capture</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+正在刷知乎的时候, 看到一个很有意思的回答, 想收藏该回答到本地 <a href="http://www.lijigang.com/blog/2015/06/12/%25E4%25BD%25A0%25E7%259A%2584%25E7%259F%25A5%25E8%25AF%2586%25E9%259C%2580%25E8%25A6%2581%25E7%25AE%25A1%25E7%2590%2586/">PKM (Personal
+knowledge management)</a>, 如果在Maestro中设置像下面的操作, 可以直接按Hyper+q,
+它会完成:
+</p>
+
+<ol class="org-ol">
+<li>打开Emacs
+</li>
+<li>按下 C-c c (我把C和O做了对换映射)
+</li>
+<li>直接可以在Org-capture里存储了.
+</li>
+</ol>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/06/17/键盘流的workflow/org-capture.png" alt="org-capture.png" />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> 常用软件级操作</h2>
+<div class="outline-text-2" id="text-5">
+
+<div class="figure">
+<p><img src="/assets/blog/2015/06/17/键盘流的workflow/application.png" alt="application.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1"><span class="section-number-3">5.1</span> Emacs</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+Emacs党自己会有自己的按键操作习惯, 这个见仁见智. 我总结的Org-mode的<a href="http://t.cn/R2jUo3R">笔记见此</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-5-2" class="outline-3">
+<h3 id="sec-5-2"><span class="section-number-3">5.2</span> QQ</h3>
+<div class="outline-text-3" id="text-5-2">
+<p>
+可以使用QQ本身的设置, 指定三个快捷键:
+</p>
+
+<ol class="org-ol">
+<li>调出主窗口 C-M-i
+</li>
+<li>定位查找输入框 M-f
+</li>
+<li>截图 C-M-e
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-5-3" class="outline-3">
+<h3 id="sec-5-3"><span class="section-number-3">5.3</span> WeChat</h3>
+<div class="outline-text-3" id="text-5-3">
+<p>
+前面已经说过使用Maestro设置了Hyper+w, 调用WeChat主窗口.
+</p>
+
+<p>
+比较常用的还有 M-f 定位查找框.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-5-4" class="outline-3">
+<h3 id="sec-5-4"><span class="section-number-3">5.4</span> Firefox</h3>
+<div class="outline-text-3" id="text-5-4">
+<p>
+使用Maestro设置 Hyper+F 打开Firefox.
+</p>
+
+<p>
+安装 <code>Pentadactyl</code> 插件, 把Firefox变身Vim.
+</p>
+
+<p>
+好处有:
+</p>
+
+<ol class="org-ol">
+<li>常用的上网操作都可以使用键盘轻松完成
+</li>
+<li>显示界面最大化, 地址栏, 收藏栏通通隐藏, 需要的时候一键调出
+</li>
+<li>可以自定义配置, 像Vimrc一样的东东.
+</li>
+</ol>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+</colgroup>
+
+<colgroup>
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">操作</th>
+<th scope="col" class="left">快捷键</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">回到页面首部</td>
+<td class="left">gg</td>
+</tr>
+
+<tr>
+<td class="left">回到页面底部</td>
+<td class="left">G</td>
+</tr>
+
+<tr>
+<td class="left">在当前页面查找string</td>
+<td class="left">/string</td>
+</tr>
+
+<tr>
+<td class="left">把光标定位在第一个文本输入框(比如登陆)</td>
+<td class="left">gi</td>
+</tr>
+
+<tr>
+<td class="left">在当前页面输入网址</td>
+<td class="left">o</td>
+</tr>
+
+<tr>
+<td class="left">在新标签页输入网址</td>
+<td class="left">t</td>
+</tr>
+
+<tr>
+<td class="left">编辑当前页面网址</td>
+<td class="left">O</td>
+</tr>
+
+<tr>
+<td class="left">复制当前页面网址</td>
+<td class="left">y</td>
+</tr>
+
+<tr>
+<td class="left">在当前页面打开复制的网址</td>
+<td class="left">p</td>
+</tr>
+
+<tr>
+<td class="left">在新标签页面打开复制的网址</td>
+<td class="left">P</td>
+</tr>
+
+<tr>
+<td class="left">给当前页面设置书签</td>
+<td class="left">M[a-zA-Z]</td>
+</tr>
+
+<tr>
+<td class="left">在当前页面打开书签a</td>
+<td class="left">goa</td>
+</tr>
+
+<tr>
+<td class="left">在新标签页打开书签a</td>
+<td class="left">gna</td>
+</tr>
+
+<tr>
+<td class="left">增大当前页面的字体大小</td>
+<td class="left">zm</td>
+</tr>
+
+<tr>
+<td class="left">恢复当前页面的字体大小</td>
+<td class="left">zz</td>
+</tr>
+
+<tr>
+<td class="left">点击页面中某个超链接</td>
+<td class="left">f[num]&lt;cr&gt;</td>
+</tr>
+
+<tr>
+<td class="left">关闭当前页面</td>
+<td class="left">d</td>
+</tr>
+
+<tr>
+<td class="left">恢复关闭的页面</td>
+<td class="left">u</td>
+</tr>
+
+<tr>
+<td class="left">跳转到下一个标签页</td>
+<td class="left">C-n</td>
+</tr>
+
+<tr>
+<td class="left">跳转到前一个标签页</td>
+<td class="left">C-p</td>
+</tr>
+
+<tr>
+<td class="left">&#x2026;</td>
+<td class="left">&#x2026;</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+其它的操作, 需要的时候可以直接在页面中按 :help 查看帮助文档.
+</p>
+
+<p>
+对了, 还可以设置editor变量, 这样可以在光标定位到输入框内时, 直接按C-i调用
+editor进行编辑. 比如想在知乎上回答问题, 光标在回答框内时, 按C-i, 直接进入
+Emacs编辑答案.
+</p>
+
+<pre class="example">
+set editor="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-5-5" class="outline-3">
+<h3 id="sec-5-5"><span class="section-number-3">5.5</span> Outlook</h3>
+<div class="outline-text-3" id="text-5-5">
+<p>
+只是设置了一个切换应用的快捷键 Hyper-o
+</p>
+
+<p>
+其它的熟悉下Outlook自身的快捷键即可.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-5-6" class="outline-3">
+<h3 id="sec-5-6"><span class="section-number-3">5.6</span> iTerm</h3>
+<div class="outline-text-3" id="text-5-6">
+<p>
+可以设置切换应用的快捷键, 熟悉下iTerm自带的快捷键.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-5-7" class="outline-3">
+<h3 id="sec-5-7"><span class="section-number-3">5.7</span> Alfred</h3>
+<div class="outline-text-3" id="text-5-7">
+<p>
+神器! 用Maestro之前都是用Alfred进行的应用切换. 现在主要用Alfred切换没有设
+置应用调起快捷键的应用, 以及使用Alfred的workflow功能.
+</p>
+
+<p>
+为了更方便的呼出Alfred, 我把 M-SPC 给了Alfred, 把切换输入法给了 C-8.
+</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+    <div>
+      <div class="post-meta">
+        <span title="post date" class="post-info">2015-06-17</span>
+        <span title="last modification date" class="post-info">2015-06-12</span>
+        <span title="tags" class="post-info"><a href="/tags/效率/">效率</a> <a href="/tags/workflow/">Workflow</a></span>
+        <span title="author" class="post-info">lijigang</span>
+      </div>
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          //var disqus_developer = 1;
+          var disqus_identifier = "/blog/2015/06/17/键盘流的workflow/";
+          var disqus_url = "http://lijigang.github.io/blog/2015/06/17/键盘流的workflow/";
+          var disqus_shortname = 'lijigang';
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </section>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="/media/js/main.js"></script>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-49533446-2']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+      <div class="footer">
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.x (<a href="http://orgmode.org">Org mode</a> 8.x)</p>
+        <p>
+          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:lijigang &lt;at&gt; lijigangdeMacBook-Pro &lt;dot&gt; local">lijigang</a>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
