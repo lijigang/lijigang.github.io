@@ -45,50 +45,41 @@
 <li><a href="#sec-2-4">2.4. 文档类与整体格式设计</a></li>
 </ul>
 </li>
-<li><a href="#sec-3">3. 自动化工具</a>
+<li><a href="#sec-3">3. 数学公式</a>
 <ul>
-<li><a href="#sec-3-1">3.1. 目录</a></li>
-<li><a href="#sec-3-2">3.2. 交叉引用</a></li>
-<li><a href="#sec-3-3">3.3. 文献数据库</a></li>
-<li><a href="#sec-3-4">3.4. 索引</a></li>
+<li><a href="#sec-3-1">3.1. 数学结构</a></li>
+<li><a href="#sec-3-2">3.2. 符号与类型</a></li>
+<li><a href="#sec-3-3">3.3. 多行公式</a></li>
+<li><a href="#sec-3-4">3.4. 精调与杂项</a></li>
 </ul>
 </li>
-<li><a href="#sec-4">4. 数学公式</a>
+<li><a href="#sec-4">4. 绘制图表</a>
 <ul>
-<li><a href="#sec-4-1">4.1. 数学模式</a></li>
-<li><a href="#sec-4-2">4.2. 数学结构</a></li>
-<li><a href="#sec-4-3">4.3. 符号与类型</a></li>
-<li><a href="#sec-4-4">4.4. 多行公式</a></li>
-<li><a href="#sec-4-5">4.5. 精调与杂项</a></li>
+<li><a href="#sec-4-1">4.1. 表格</a></li>
+<li><a href="#sec-4-2">4.2. 插图与变换</a></li>
+<li><a href="#sec-4-3">4.3. 浮动体与标题控制</a></li>
+<li><a href="#sec-4-4">4.4. 使用颜色</a></li>
 </ul>
 </li>
-<li><a href="#sec-5">5. 绘制图表</a>
+<li><a href="#sec-5">5. 幻灯片演示</a>
 <ul>
-<li><a href="#sec-5-1">5.1. 表格</a></li>
-<li><a href="#sec-5-2">5.2. 插图与变换</a></li>
-<li><a href="#sec-5-3">5.3. 浮动体与标题控制</a></li>
-<li><a href="#sec-5-4">5.4. 使用颜色</a></li>
+<li><a href="#sec-5-1">5.1. 组织内容</a></li>
+<li><a href="#sec-5-2">5.2. 风格的要素</a></li>
+<li><a href="#sec-5-3">5.3. 动态展示</a></li>
 </ul>
 </li>
-<li><a href="#sec-6">6. 幻灯片演示</a>
+<li><a href="#sec-6">6. 错误信息</a>
 <ul>
-<li><a href="#sec-6-1">6.1. 组织内容</a></li>
-<li><a href="#sec-6-2">6.2. 风格的要素</a></li>
-<li><a href="#sec-6-3">6.3. 动态展示</a></li>
+<li><a href="#sec-6-1">6.1. 理解错误信息</a></li>
+<li><a href="#sec-6-2">6.2. 调试</a></li>
+<li><a href="#sec-6-3">6.3. 提问的智慧</a></li>
 </ul>
 </li>
-<li><a href="#sec-7">7. 错误信息</a>
+<li><a href="#sec-7">7. LaTeX无极限</a>
 <ul>
-<li><a href="#sec-7-1">7.1. 理解错误信息</a></li>
-<li><a href="#sec-7-2">7.2. 调试</a></li>
-<li><a href="#sec-7-3">7.3. 提问的智慧</a></li>
-</ul>
-</li>
-<li><a href="#sec-8">8. LaTeX无极限</a>
-<ul>
-<li><a href="#sec-8-1">8.1. 宏编辑</a></li>
-<li><a href="#sec-8-2">8.2. 外部工具</a></li>
-<li><a href="#sec-8-3">8.3. 其它资源</a></li>
+<li><a href="#sec-7-1">7.1. 宏编辑</a></li>
+<li><a href="#sec-7-2">7.2. 外部工具</a></li>
+<li><a href="#sec-7-3">7.3. 其它资源</a></li>
 </ul>
 </li>
 </ul>
@@ -376,17 +367,17 @@ Q: 有哪些章节层次可以使用?
 <pre class="example">
 A: 在LaTeX中可以使用6到7个层次的章节:
 
-| 层次 | 名称          | 命令           | 说明                              |
-|------+---------------+----------------+-----------------------------------|
-|   -1 | part          | \part          | 可选的最高层                      |
-|    0 | chapter       | \chapter       | report, book 或 ctexrep, ctexbook |
-|      |               |                | 文档类的最高层                    |
-|    1 | section       | \section       | article或ctexart类最高层          |
-|    2 | subsection    | \subsection    |                                   |
-|    3 | subsubsection | \subsubsection | report, book 或                   |
-|      |               |                | ctexrep, ctexbook类               |
-|    4 | paragraph     | \paragraph     | 默认不编号, 不编目录              |
-|    5 | subparagraph  | \subparagraph  | 默认不编号, 不编目录                                   |
+| 名称          | 命令           | 说明                     |
+|---------------+----------------+--------------------------|
+| part          | \part          | 可选的最高层             |
+| chapter       | \chapter       | report, book 或 ctexrep, |
+|               |                | ctexbook 文档类的最高层  |
+| section       | \section       | article或ctexart类最高层 |
+| subsection    | \subsection    |                          |
+| subsubsection | \subsubsection | report, book 或          |
+|               |                | ctexrep, ctexbook类      |
+| paragraph     | \paragraph     | 默认不编号, 不编目录     |
+| subparagraph  | \subparagraph  | 默认不编号, 不编目录     |
 </pre>
 </div>
 </div>
@@ -504,115 +495,100 @@ A: 在LaTeX中, 宏通常分为两类: command 和 environment.
 </div>
 </div>
 </div>
+
 <div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3"><span class="section-number-2">3</span> 自动化工具</h2>
+<h2 id="sec-3"><span class="section-number-2">3</span> 数学公式</h2>
 <div class="outline-text-2" id="text-3">
 </div><div id="outline-container-sec-3-1" class="outline-3">
-<h3 id="sec-3-1"><span class="section-number-3">3.1</span> 目录</h3>
-</div>
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> 数学结构</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Q: 如何输入上下标?
+</p>
 
+<pre class="example">
+A: 在TeX中, 上标用符号^表示, 下标用符号_表示.
+</pre>
+</div>
+</div>
 <div id="outline-container-sec-3-2" class="outline-3">
-<h3 id="sec-3-2"><span class="section-number-3">3.2</span> 交叉引用</h3>
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> 符号与类型</h3>
 </div>
 
 <div id="outline-container-sec-3-3" class="outline-3">
-<h3 id="sec-3-3"><span class="section-number-3">3.3</span> 文献数据库</h3>
+<h3 id="sec-3-3"><span class="section-number-3">3.3</span> 多行公式</h3>
 </div>
 
 <div id="outline-container-sec-3-4" class="outline-3">
-<h3 id="sec-3-4"><span class="section-number-3">3.4</span> 索引</h3>
+<h3 id="sec-3-4"><span class="section-number-3">3.4</span> 精调与杂项</h3>
 </div>
 </div>
 
 <div id="outline-container-sec-4" class="outline-2">
-<h2 id="sec-4"><span class="section-number-2">4</span> 数学公式</h2>
+<h2 id="sec-4"><span class="section-number-2">4</span> 绘制图表</h2>
 <div class="outline-text-2" id="text-4">
 </div><div id="outline-container-sec-4-1" class="outline-3">
-<h3 id="sec-4-1"><span class="section-number-3">4.1</span> 数学模式</h3>
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> 表格</h3>
 </div>
 
 <div id="outline-container-sec-4-2" class="outline-3">
-<h3 id="sec-4-2"><span class="section-number-3">4.2</span> 数学结构</h3>
+<h3 id="sec-4-2"><span class="section-number-3">4.2</span> 插图与变换</h3>
 </div>
 
 <div id="outline-container-sec-4-3" class="outline-3">
-<h3 id="sec-4-3"><span class="section-number-3">4.3</span> 符号与类型</h3>
+<h3 id="sec-4-3"><span class="section-number-3">4.3</span> 浮动体与标题控制</h3>
 </div>
 
 <div id="outline-container-sec-4-4" class="outline-3">
-<h3 id="sec-4-4"><span class="section-number-3">4.4</span> 多行公式</h3>
-</div>
-
-<div id="outline-container-sec-4-5" class="outline-3">
-<h3 id="sec-4-5"><span class="section-number-3">4.5</span> 精调与杂项</h3>
+<h3 id="sec-4-4"><span class="section-number-3">4.4</span> 使用颜色</h3>
 </div>
 </div>
 
 <div id="outline-container-sec-5" class="outline-2">
-<h2 id="sec-5"><span class="section-number-2">5</span> 绘制图表</h2>
+<h2 id="sec-5"><span class="section-number-2">5</span> 幻灯片演示</h2>
 <div class="outline-text-2" id="text-5">
 </div><div id="outline-container-sec-5-1" class="outline-3">
-<h3 id="sec-5-1"><span class="section-number-3">5.1</span> 表格</h3>
+<h3 id="sec-5-1"><span class="section-number-3">5.1</span> 组织内容</h3>
 </div>
 
 <div id="outline-container-sec-5-2" class="outline-3">
-<h3 id="sec-5-2"><span class="section-number-3">5.2</span> 插图与变换</h3>
+<h3 id="sec-5-2"><span class="section-number-3">5.2</span> 风格的要素</h3>
 </div>
 
 <div id="outline-container-sec-5-3" class="outline-3">
-<h3 id="sec-5-3"><span class="section-number-3">5.3</span> 浮动体与标题控制</h3>
-</div>
-
-<div id="outline-container-sec-5-4" class="outline-3">
-<h3 id="sec-5-4"><span class="section-number-3">5.4</span> 使用颜色</h3>
+<h3 id="sec-5-3"><span class="section-number-3">5.3</span> 动态展示</h3>
 </div>
 </div>
 
 <div id="outline-container-sec-6" class="outline-2">
-<h2 id="sec-6"><span class="section-number-2">6</span> 幻灯片演示</h2>
+<h2 id="sec-6"><span class="section-number-2">6</span> 错误信息</h2>
 <div class="outline-text-2" id="text-6">
 </div><div id="outline-container-sec-6-1" class="outline-3">
-<h3 id="sec-6-1"><span class="section-number-3">6.1</span> 组织内容</h3>
+<h3 id="sec-6-1"><span class="section-number-3">6.1</span> 理解错误信息</h3>
 </div>
 
 <div id="outline-container-sec-6-2" class="outline-3">
-<h3 id="sec-6-2"><span class="section-number-3">6.2</span> 风格的要素</h3>
+<h3 id="sec-6-2"><span class="section-number-3">6.2</span> 调试</h3>
 </div>
 
 <div id="outline-container-sec-6-3" class="outline-3">
-<h3 id="sec-6-3"><span class="section-number-3">6.3</span> 动态展示</h3>
+<h3 id="sec-6-3"><span class="section-number-3">6.3</span> 提问的智慧</h3>
 </div>
 </div>
 
 <div id="outline-container-sec-7" class="outline-2">
-<h2 id="sec-7"><span class="section-number-2">7</span> 错误信息</h2>
+<h2 id="sec-7"><span class="section-number-2">7</span> LaTeX无极限</h2>
 <div class="outline-text-2" id="text-7">
 </div><div id="outline-container-sec-7-1" class="outline-3">
-<h3 id="sec-7-1"><span class="section-number-3">7.1</span> 理解错误信息</h3>
+<h3 id="sec-7-1"><span class="section-number-3">7.1</span> 宏编辑</h3>
 </div>
 
 <div id="outline-container-sec-7-2" class="outline-3">
-<h3 id="sec-7-2"><span class="section-number-3">7.2</span> 调试</h3>
+<h3 id="sec-7-2"><span class="section-number-3">7.2</span> 外部工具</h3>
 </div>
 
 <div id="outline-container-sec-7-3" class="outline-3">
-<h3 id="sec-7-3"><span class="section-number-3">7.3</span> 提问的智慧</h3>
-</div>
-</div>
-
-<div id="outline-container-sec-8" class="outline-2">
-<h2 id="sec-8"><span class="section-number-2">8</span> LaTeX无极限</h2>
-<div class="outline-text-2" id="text-8">
-</div><div id="outline-container-sec-8-1" class="outline-3">
-<h3 id="sec-8-1"><span class="section-number-3">8.1</span> 宏编辑</h3>
-</div>
-
-<div id="outline-container-sec-8-2" class="outline-3">
-<h3 id="sec-8-2"><span class="section-number-3">8.2</span> 外部工具</h3>
-</div>
-
-<div id="outline-container-sec-8-3" class="outline-3">
-<h3 id="sec-8-3"><span class="section-number-3">8.3</span> 其它资源</h3>
+<h3 id="sec-7-3"><span class="section-number-3">7.3</span> 其它资源</h3>
 </div>
 </div>
 
