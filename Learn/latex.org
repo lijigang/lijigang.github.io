@@ -4,6 +4,10 @@
 本文为学习 =@刘海洋= 的「LaTeX入门」一书的笔记, 后续如有其它相关学习内容,
 也会合并至此, 聊作记录.
 
+** 安装
+
+在Mac OS X下可以安装MacTex, 最新的版本为2015, 下载地址为[[http://pan.baidu.com/s/1mg9qQPq][百度云盘下载]]
+
 ** 组织文本
 
 *** 文字与符号
@@ -123,6 +127,87 @@ ulem宏包提供了一些额外的强调功能, 如:
 [[../blog/images/emph.jpg]]
 
 *** 段落与文本环境
+
+Q: 有没有好玩的排版?
+
+#+BEGIN_SRC
+A: shapepar宏包提供了\parshape命令的一个较为方便的语法接口, 特别是定义了一
+些预定义的形状,比如heart形状:
+
+\usepackage{shapepar}
+
+\begin{document}
+\heartpar{
+  蒹葭苍苍，白露为霜。所谓伊人，在水一方，溯洄从之，道阻且长。溯游从之，宛
+  在水中央。
+　　蒹葭萋萋，白露未晞。所谓伊人，在水之湄。溯洄从之，道阻且跻。溯游从之，
+宛在水中坻。
+　　蒹葭采采，白露未已。所谓伊人，在水之涘。溯洄从之，道阻且右。溯游从之，
+宛在水中沚。}
+\end{document}
+#+END_SRC
+
+效果如下图:
+
+[[../blog/images/heartpar.png]]
+
+Q: 如何实现首字下沉效果?
+
+#+BEGIN_SRC
+A: lettrine宏包支持该效果:
+
+\usepackage{lettrine}
+
+\begin{document}
+\lettrine{蒹}葭苍苍，白露为霜。所谓伊人，在水一方，溯洄从之，道阻且长。溯
+游从之，宛在水中央。　　蒹葭萋萋，白露未晞。所谓伊人，在水之湄。溯洄从之，
+道阻且跻。溯游从之，宛在水中坻。　　蒹葭采采，白露未已。所谓伊人，在水之涘。
+溯洄从之，道阻且右。溯游从之，宛在水中沚。
+\end{document}
+#+END_SRC
+
+效果如下图:
+
+[[../blog/images/trine.png]]
+
+Q: 如何引用某段文本?
+
+#+BEGIN_SRC
+A: 引用环境有两种, 分别是quote环境和quotation环境.
+
+quote环境在段前没有首行的缩进, 左右边距比正文要大一些, 通常用于小段内容的
+引用.
+
+quotation环境则在每段前有首行缩进, 因而适用于多段的文字引用.
+#+END_SRC
+
+Q: 如何使用列表?
+
+#+BEGIN_SRC
+A: LaTeX标准文档类提供了三种列表环境: 编号和enumerate环境、不编号的itemize
+环境和使用关键字的description环境. 在列表环境内部使用\item命令开始一个列表
+项, 它可以带一个可选参数表示手动编号或关键字.
+
+\begin{enumerate}
+    \item 中文
+    \item English
+\end{enumerate}
+
+\begin{itemize}
+    \item 中文
+    \item English
+\end{itemize}
+
+\begin{description}
+    \item[中文] 中国文字
+    \item[English] The language of England
+\end{description}
+#+END_SRC
+
+效果如下图所示:
+
+[[../blog/images/latex_list.png]]
+
 
 *** 文档结构层次
 
