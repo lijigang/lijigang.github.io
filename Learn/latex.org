@@ -106,7 +106,21 @@ This is \Emph{emphasized} text.
 也可以通过给文字加下画线:
 
 \underline{Emphasized} text.
+
+ulem宏包提供了一些额外的强调功能, 如:
+
+\usepackage{ulem}
+
+\begin{document}
+\uuline{urgent}\qquad \uwave{boat加上中文效果咋样?}\qquad
+\sout{wrong}\qquad \xout{removed}\qquad
+
+\end{document}
 #+END_SRC
+
+效果如下图:
+
+[[../blog/images/emph.jpg]]
 
 *** 段落与文本环境
 
