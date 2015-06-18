@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2015年6月下旬技能「LaTeX」 - lijigang的首页</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="lijigang" />
+    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  </head>
+  <body class="container">
+    <div>
+      <header class="masthead">
+        <h1 class="masthead-title"><a href="/">lijigang的首页</a></h1>
+        <p>待己当从无过中求有过, 待人当从有过中求无过</p>
+        <ul>
+          <li><a href="/learn/">Learn</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/concept/">Concept</a></li>
+          <li><a href="/notes/">Notes</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+        </ul>
+        <form method="get" id="searchform" action="http://www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="as_sitesearch" value="lijigang.github.io">
+        </form>
+      </header>
+    </div>
+
+<div>
+<div class="post">
+<h1>2015年6月下旬技能「LaTeX」</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. 安装</a></li>
+<li><a href="#sec-2">2. 组织文本</a>
+<ul>
+<li><a href="#sec-2-1">2.1. 文字与符号</a></li>
+<li><a href="#sec-2-2">2.2. 段落与文本环境</a></li>
+<li><a href="#sec-2-3">2.3. 文档结构层次</a></li>
+<li><a href="#sec-2-4">2.4. 文档类与整体格式设计</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. 数学公式</a>
+<ul>
+<li><a href="#sec-3-1">3.1. 数学结构</a></li>
+<li><a href="#sec-3-2">3.2. 符号与类型</a></li>
+<li><a href="#sec-3-3">3.3. 多行公式</a></li>
+<li><a href="#sec-3-4">3.4. 精调与杂项</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4. 绘制图表</a>
+<ul>
+<li><a href="#sec-4-1">4.1. 表格</a></li>
+<li><a href="#sec-4-2">4.2. 插图与变换</a></li>
+<li><a href="#sec-4-3">4.3. 浮动体与标题控制</a></li>
+<li><a href="#sec-4-4">4.4. 使用颜色</a></li>
+</ul>
+</li>
+<li><a href="#sec-5">5. 幻灯片演示</a>
+<ul>
+<li><a href="#sec-5-1">5.1. 组织内容</a></li>
+<li><a href="#sec-5-2">5.2. 风格的要素</a></li>
+<li><a href="#sec-5-3">5.3. 动态展示</a></li>
+</ul>
+</li>
+<li><a href="#sec-6">6. 错误信息</a>
+<ul>
+<li><a href="#sec-6-1">6.1. 理解错误信息</a></li>
+<li><a href="#sec-6-2">6.2. 调试</a></li>
+<li><a href="#sec-6-3">6.3. 提问的智慧</a></li>
+</ul>
+</li>
+<li><a href="#sec-7">7. LaTeX无极限</a>
+<ul>
+<li><a href="#sec-7-1">7.1. 宏编辑</a></li>
+<li><a href="#sec-7-2">7.2. 外部工具</a></li>
+<li><a href="#sec-7-3">7.3. 其它资源</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+本文为学习 <code>@刘海洋</code> 的「LaTeX入门」一书的笔记, 后续如有其它相关学习内容,
+也会合并至此, 聊作记录.
+</p>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> 安装</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+在Mac OS X下可以安装MacTex, 最新的版本为2015, 下载地址为<a href="http://pan.baidu.com/s/1mg9qQPq">百度云盘下载</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> 组织文本</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> 文字与符号</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Q: 什么是字体?
+</p>
+
+<pre class="example">
+A: 字体包含三个性质: font family, font shape, font series.
+
+font family: 一般对应一组风格相似, 适于一起使用的成套字体.
+
+LaTeX中预定义的Font family有三种, 正文默认使用Roman:
+
+| Font family | 带参数命令    | 声明命令  |
+|-------------+---------------+-----------|
+| Roman       | \textrm{文字} | \rmfamily |
+| Sans serif  | \textsf{文字} | \sffamily |
+| Typerwriter | \texttt{文字} | \ttfamily |
+
+LaTeX中预定义的Font shape有四种, 正文默认使用upright shape.
+
+| Font shape     | 带参数命令    | 声明命令 |
+|----------------+---------------+----------|
+| upright        | \textup{文字} | \upshape |
+| italic         | \textit{文字} | \itshape |
+| slanted        | \textsl{文字} | \slshape |
+| small capitals | \textsc{文字} | \scshape |
+
+LaTeX中预定义的Font series有两种, 正文默认使用medium:
+
+| series        | 带参数命令    | 声明命令  |
+|---------------+---------------+-----------|
+| medium        | \textmd{文字} | \mdseries |
+| bold extended | \textbf{文字} | \bfseries |
+
+中文字体通常各字体之间都是独立的, 很少成套. 一般只使用family进行区分.
+
+xeCJK和CJK宏包机制下, 中文字体与西文字体是分享的, 选择中文字体family使用
+\CJKfamily命令.
+</pre>
+
+<p>
+Q: 如何使用预定义字体以外的字体?
+</p>
+
+<pre class="example">
+A: 选择非默认的字体有两类方法:
+
+当不使用XeTeX引擎时, 可以通过字体宏包或LaTeX底层字体命令调用在TeX系统中预
+先安装好的字体.
+
+使用字体宏包非常简单, 通常只要导入此宏包即可.
+
+\documentclass{article}
+\usepackage{txfonts}
+\begin{document}
+Test Text.
+\end{document}
+
+当使用XeTeX引擎时, 可以调用操作系统安装的中西文字体.
+
+在XeTeX中, 主要使用fontspec宏包的机制来调用字体, 如:
+
+\setmainfont[option]{font-name}
+\setsansfont[option]{font-name}
+\setmonofont[option]{font-name}
+
+使用时, 在Preamble区域设置全文字体
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Verdana}
+\setmonofont{Courier New}
+
+XeTeX下中文字体的设置可以使用xeCJK宏包, 其提供了与fontspec对应的中文字体设
+置命令:
+
+\setCJKmainfont[option]{font-name}
+\setCJKsansfont[option]{font-name}
+\setCJKmonofont[option]{font-name}
+\setCJKfamilyfont{family}[option]{font-name}
+
+如可以设置正文字体为宋体, 其粗体为黑体、斜体为楷体、粗斜体为隶书, 以弥补中
+文字体一般没有一族成套变体的问题:
+
+\setCJKmainfont[BoldFont=SimHei, ItalicFont=KaiTi,
+BoldItalicFont=LiSu]{SimSun}
+</pre>
+
+<p>
+Q: 如何强调文字?
+</p>
+
+<pre class="example">
+A: 可以使用\emph命令, 会将直立体改为意大利体, 将意大利体改为直立体.
+
+如果不想使用斜体强调, 想使用粗体强调, 可以定义一个新的命令:
+
+\newcommand\Emph{\textbf}
+
+This is \Emph{emphasized} text.
+
+也可以通过给文字加下画线:
+
+\underline{Emphasized} text.
+
+ulem宏包提供了一些额外的强调功能, 如:
+
+\usepackage{ulem}
+
+\begin{document}
+\uuline{urgent}\qquad \uwave{boat加上中文效果咋样?}\qquad
+\sout{wrong}\qquad \xout{removed}\qquad
+
+\end{document}
+</pre>
+
+<p>
+效果如下图:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/06/18/2015年6月下旬技能「latex」/emph.jpg" alt="emph.jpg" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> 段落与文本环境</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Q: 有没有好玩的排版?
+</p>
+
+<pre class="example">
+A: shapepar宏包提供了\parshape命令的一个较为方便的语法接口, 特别是定义了一
+些预定义的形状,比如heart形状:
+
+\usepackage{shapepar}
+
+\begin{document}
+\heartpar{
+  蒹葭苍苍，白露为霜。所谓伊人，在水一方，溯洄从之，道阻且长。溯游从之，宛
+  在水中央。
+　　蒹葭萋萋，白露未晞。所谓伊人，在水之湄。溯洄从之，道阻且跻。溯游从之，
+宛在水中坻。
+　　蒹葭采采，白露未已。所谓伊人，在水之涘。溯洄从之，道阻且右。溯游从之，
+宛在水中沚。}
+\end{document}
+</pre>
+
+<p>
+效果如下图:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/06/18/2015年6月下旬技能「latex」/heartpar.png" alt="heartpar.png" />
+</p>
+</div>
+
+<p>
+Q: 如何实现首字下沉效果?
+</p>
+
+<pre class="example">
+A: lettrine宏包支持该效果:
+
+\usepackage{lettrine}
+
+\begin{document}
+\lettrine{蒹}葭苍苍，白露为霜。所谓伊人，在水一方，溯洄从之，道阻且长。溯
+游从之，宛在水中央。　　蒹葭萋萋，白露未晞。所谓伊人，在水之湄。溯洄从之，
+道阻且跻。溯游从之，宛在水中坻。　　蒹葭采采，白露未已。所谓伊人，在水之涘。
+溯洄从之，道阻且右。溯游从之，宛在水中沚。
+\end{document}
+</pre>
+
+<p>
+效果如下图:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/06/18/2015年6月下旬技能「latex」/trine.png" alt="trine.png" />
+</p>
+</div>
+
+<p>
+Q: 如何引用某段文本?
+</p>
+
+<pre class="example">
+A: 引用环境有两种, 分别是quote环境和quotation环境.
+
+quote环境在段前没有首行的缩进, 左右边距比正文要大一些, 通常用于小段内容的
+引用.
+
+quotation环境则在每段前有首行缩进, 因而适用于多段的文字引用.
+</pre>
+
+<p>
+Q: 如何使用列表?
+</p>
+
+<pre class="example">
+A: LaTeX标准文档类提供了三种列表环境: 编号和enumerate环境、不编号的itemize
+环境和使用关键字的description环境. 在列表环境内部使用\item命令开始一个列表
+项, 它可以带一个可选参数表示手动编号或关键字.
+
+\begin{enumerate}
+    \item 中文
+    \item English
+\end{enumerate}
+
+\begin{itemize}
+    \item 中文
+    \item English
+\end{itemize}
+
+\begin{description}
+    \item[中文] 中国文字
+    \item[English] The language of England
+\end{description}
+</pre>
+
+<p>
+效果如下图所示:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/06/18/2015年6月下旬技能「latex」/latex_list.png" alt="latex_list.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> 文档结构层次</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Q: 如何声明标题?
+</p>
+
+<pre class="example">
+A: 在LaTeX中, 使用标题通常分为两个部分: 声明标题内容和实际输出标题.
+
+每个标题则由标题、作者、日期等部分组成. 分别使用\title 、\author、\date命
+令. 它们都带有一个参数, 里面可以使用\\进行换行.
+
+使用\maketitle命令可以输出前面声明的标题, 通常\maketitle是文档中document环
+境后面的第一个命令.
+</pre>
+
+<p>
+Q: 有哪些章节层次可以使用?
+</p>
+
+<pre class="example">
+A: 在LaTeX中可以使用6到7个层次的章节:
+
+| 名称          | 命令           | 说明                     |
+|---------------+----------------+--------------------------|
+| part          | \part          | 可选的最高层             |
+| chapter       | \chapter       | report, book 或 ctexrep, |
+|               |                | ctexbook 文档类的最高层  |
+| section       | \section       | article或ctexart类最高层 |
+| subsection    | \subsection    |                          |
+| subsubsection | \subsubsection | report, book 或          |
+|               |                | ctexrep, ctexbook类      |
+| paragraph     | \paragraph     | 默认不编号, 不编目录     |
+| subparagraph  | \subparagraph  | 默认不编号, 不编目录     |
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-2-4" class="outline-3">
+<h3 id="sec-2-4"><span class="section-number-3">2.4</span> 文档类与整体格式设计</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+这一部分主要讨论在Preamble区域的代码, 涉及一些全局设置, 特别是版面设计的相
+关内容.
+</p>
+
+<p>
+Q: 什么是Document class?
+</p>
+
+<pre class="example">
+A: Document class是LaTeX中基本的格式组织方式. ctex文档类是由CTeX中文社区组
+织编写的LaTeX基本文档类的中文对应物. 它是在LaTeX基本文档类基础上编写的.
+
+LaTeX基本文档类主要有三个: article、report 和 book.　这三个分别设计用来编
+写小篇幅的文章、中篇幅的报告和长篇幅的书籍.
+
+ctex宏包提供了三个文档类: ctexart, ctexrep 和 ctexbook. 分别与三个标准文档
+类对应, 用来编写中文短文、中文报告和中文书籍.
+</pre>
+
+<p>
+Q: 如何设置版面?
+</p>
+
+<pre class="example">
+A: 使用geometry宏包, 它支持方便的 &lt;参数&gt;=&lt;值&gt; 的语法:
+
+\usepackage{geometry}
+\geometry{a4paper, left=3cm, right=3cm}
+</pre>
+
+<p>
+Q: 如何设置页眉, 页脚, 页码等内容?
+</p>
+
+<pre class="example">
+A: LaTeX提供了一个简单的命令\pagenumbering{style} 来设置页码的编号方式:
+
+\pagenumbering{roman}
+
+还提供了多种预定义的page style, 它们控制页眉页脚的整体风格设置:
+
+| page style | description                            |
+|------------+----------------------------------------|
+| empty      | 没有页眉页脚                           |
+| plain      | 没有页眉, 页脚是居中的页码             |
+| headings   | 没有页脚, 页眉是章节名称和页码         |
+| myheadings | 没有页脚, 页眉是页码和用户自定义的内容 |
+
+可以用\pagestyle{style} 整体设置页面风格, 也可以用 \thispagestyle{style}单
+独设置当前面的风格.
+
+LaTeX提供的页面风格非常相互, 而且不能做进一步的格式修改. 可以使用fancyhdr
+宏包, 它提供了新的页面风格fancy, 以及一系列设置的命令.
+
+fancyhdr的fancy页面风格把页面的页眉和页脚部分给分成了左中右三个部分, 因而,
+一个页面就有6个部分. 对于双面文档, 还分奇偶页, 即有12个部分.
+
+| Command         | description |
+|-----------------+-------------|
+| \lhead{content} | 设置页眉左  |
+| \chead{content} | 设置页眉中  |
+| \rhead{content} | 设置页面右  |
+| \lfoot{content} | 设置页脚左  |
+| \cfoot{content} | 设置页脚中  |
+| \rfoot{content} | 设置页脚右  |
+
+使用示例如下:
+
+\usepackage{fancyhdr}
+\pagestyle{fancy} % 使用fancy风格
+\fancyhf{}        % 清除所有页眉页脚
+\lhead{$\heartsuit$}
+</pre>
+
+<p>
+Q: 如何使用分栏功能?
+</p>
+
+<pre class="example">
+A: 给文档类加twocolumn选项就可以全文档双栏排版.
+
+分栏也可以在正文中使用命令切换. \twocolumn 进入双栏模式, \onecolumn 进入单
+栏模式, 两个命令都会先使用\clearpage 命令进行换页.
+</pre>
+
+<p>
+Q: 什么是Macro?
+</p>
+
+<pre class="example">
+A: 在LaTeX中, 宏通常分为两类: command 和 environment.
+
+可以使用\newcommand 来新定义一个命令, 其语法为:
+
+\newcommand&lt;command&gt;[&lt;参数个数&gt;][&lt;首参数默认值&gt;]{&lt;具体定义&gt;}
+
+比如:
+
+\newcommand\PRC{People's Republic of \emph{China}}
+
+定义了一个宏, PRC, 使用时会替换成后面的定义内容.
+
+可以使用\renewcommand 来重新定义一个已有命令.
+
+定义新环境可以用 \newenvironment, 重新定义已有环境可以用\renewenvironment
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> 数学公式</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> 数学结构</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Q: 如何输入上下标?
+</p>
+
+<pre class="example">
+A: 在TeX中, 上标用符号^表示, 下标用符号_表示.
+</pre>
+</div>
+</div>
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> 符号与类型</h3>
+</div>
+
+<div id="outline-container-sec-3-3" class="outline-3">
+<h3 id="sec-3-3"><span class="section-number-3">3.3</span> 多行公式</h3>
+</div>
+
+<div id="outline-container-sec-3-4" class="outline-3">
+<h3 id="sec-3-4"><span class="section-number-3">3.4</span> 精调与杂项</h3>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> 绘制图表</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> 表格</h3>
+</div>
+
+<div id="outline-container-sec-4-2" class="outline-3">
+<h3 id="sec-4-2"><span class="section-number-3">4.2</span> 插图与变换</h3>
+</div>
+
+<div id="outline-container-sec-4-3" class="outline-3">
+<h3 id="sec-4-3"><span class="section-number-3">4.3</span> 浮动体与标题控制</h3>
+</div>
+
+<div id="outline-container-sec-4-4" class="outline-3">
+<h3 id="sec-4-4"><span class="section-number-3">4.4</span> 使用颜色</h3>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> 幻灯片演示</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1"><span class="section-number-3">5.1</span> 组织内容</h3>
+</div>
+
+<div id="outline-container-sec-5-2" class="outline-3">
+<h3 id="sec-5-2"><span class="section-number-3">5.2</span> 风格的要素</h3>
+</div>
+
+<div id="outline-container-sec-5-3" class="outline-3">
+<h3 id="sec-5-3"><span class="section-number-3">5.3</span> 动态展示</h3>
+</div>
+</div>
+
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> 错误信息</h2>
+<div class="outline-text-2" id="text-6">
+</div><div id="outline-container-sec-6-1" class="outline-3">
+<h3 id="sec-6-1"><span class="section-number-3">6.1</span> 理解错误信息</h3>
+</div>
+
+<div id="outline-container-sec-6-2" class="outline-3">
+<h3 id="sec-6-2"><span class="section-number-3">6.2</span> 调试</h3>
+</div>
+
+<div id="outline-container-sec-6-3" class="outline-3">
+<h3 id="sec-6-3"><span class="section-number-3">6.3</span> 提问的智慧</h3>
+</div>
+</div>
+
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7"><span class="section-number-2">7</span> LaTeX无极限</h2>
+<div class="outline-text-2" id="text-7">
+</div><div id="outline-container-sec-7-1" class="outline-3">
+<h3 id="sec-7-1"><span class="section-number-3">7.1</span> 宏编辑</h3>
+</div>
+
+<div id="outline-container-sec-7-2" class="outline-3">
+<h3 id="sec-7-2"><span class="section-number-3">7.2</span> 外部工具</h3>
+</div>
+
+<div id="outline-container-sec-7-3" class="outline-3">
+<h3 id="sec-7-3"><span class="section-number-3">7.3</span> 其它资源</h3>
+</div>
+</div>
+
+</div>
+</div>
+    <div>
+      <div class="post-meta">
+        <span title="post date" class="post-info">2015-06-18</span>
+        <span title="last modification date" class="post-info">2015-06-17</span>
+        <span title="tags" class="post-info"><a href="/tags/latex/">LaTeX</a> <a href="/tags/emacs/">Emacs</a></span>
+        <span title="author" class="post-info">lijigang</span>
+      </div>
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          //var disqus_developer = 1;
+          var disqus_identifier = "/blog/2015/06/18/2015年6月下旬技能「latex」/";
+          var disqus_url = "http://lijigang.github.io/blog/2015/06/18/2015年6月下旬技能「latex」/";
+          var disqus_shortname = 'lijigang';
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </section>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="/media/js/main.js"></script>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-49533446-2']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+      <div class="footer">
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.x (<a href="http://orgmode.org">Org mode</a> 8.x)</p>
+        <p>
+          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:lijigang &lt;at&gt; lijigangdeMacBook-Pro &lt;dot&gt; local">lijigang</a>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
