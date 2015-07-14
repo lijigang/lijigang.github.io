@@ -11,11 +11,11 @@ Spacemacs uses the evil integration of ace-jump mode which enables the invocatio
 It is useful for deleting visually a set of lines, try the following sequence in a buffer containing some text: d SPC l
 #+END_QUOTE
 
-| Key Binding | Description                                        |
-|-------------+----------------------------------------------------|
-| SPC SPC     | initiate ace jump word mode                        |
-| SPC l       | initiate ace jump line mode                        |
-| SPC `       | go back to the previous location (before the jump) |
+| Key     Binding | Description                                        |
+|-----------------+----------------------------------------------------|
+| SPC SPC         | initiate ace jump word mode                        |
+| SPC l           | initiate ace jump line mode                        |
+| SPC `           | go back to the previous location (before the jump) |
 
 
 #+BEGIN_QUOTE
@@ -32,7 +32,7 @@ Similar to ace-jump-mode, ace-link allows one to jump to any link in help-mode a
 #+BEGIN_QUOTE
 Every window has a number displayed at the start of the mode-line and can be quickly accessed using SPC number.
 #+END_QUOTE
-   
+
 | Key Binding | Description           |
 |-------------+-----------------------|
 | SPC 1       | go to window number 1 |
@@ -97,7 +97,7 @@ Every window has a number displayed at the start of the mode-line and can be qui
 
 ** Searching
 
-   
+
 *Searching in current file*
 
 | Key Binding | Description                      |
