@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>org-page</title>
+    <title>喜欢写代码的PM</title>
     <link>http://lijigang.github.io/</link>
-    <description>static site generator</description>
-    <pubDate>Tue, 14 Jul 2015 13:15:55 CST</pubDate>
-    <lastBuildDate>Tue, 14 Jul 2015 13:15:55 CST</lastBuildDate>
+    <description>行有不得, 反求诸己</description>
+    <pubDate>Tue, 14 Jul 2015 13:29:50 CST</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2015 13:29:50 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -19,7 +19,7 @@
       <title>经济学原理</title>
       <link>http://lijigang.github.io/blog/2015/07/14/经济学原理/</link>
       <description>No Description</description>
-      <pubDate>2015-07-01</pubDate>
+      <pubDate>2015-07-14</pubDate>
       <guid>http://lijigang.github.io/blog/2015/07/14/经济学原理/</guid>
     </item>
     <item>
