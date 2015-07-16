@@ -1,0 +1,33 @@
+#+title: Orgmode中如何在折叠时显示空行
+#+tags: Org, HowTo
+
+Orgmode的手册里是这么解释的：
+
+#+BEGIN_QUOTE
+An empty line after the end of a subtree is considered part of it and will be
+hidden when the subtree is folded. However, if you leave at least two empty
+lines, one empty line will remain visible after folding the subtree, in order to
+structure the collapsed view. See the variable org-cycle-separator-lines to
+modify this behavior.
+#+END_QUOTE
+
+即， 当一个 subtree 与下个文本只有一个空行时， 这个空行是被考虑成该subtree的一部
+分的。当该subtree被折叠时， 该空行就会被折叠。 而当你在一个subtree与下面文本之间
+有至少两个空行时，该subtree会显示一个空行。
+
+实际效果就是, 当你写这样的Org文件时:
+
+[[./images/org-source.png]]
+
+注意 *Lable A* 这个subtree和 *Label B* 这个subtree中间有一个空行（第4行）
+
+*Lable B* 这个subtree和 *Label C* 这个subtree中间有两个空行（第7行和第8行）
+
+此时， 按Shift＋Tab来折叠到Content级别， 效果如下：
+
+[[./images/org-content.png]]
+
+即达到了折叠状态时， 仍可显示空行的目的。
+
+手册里说的 *org-cycle-separator-lines* 是一个变量, 控制多少个空行才会在折叠时显
+示一个空行. 默认的值是2, 即手册中说的 *至少两个空行*. 该变量值可以自己定义.
