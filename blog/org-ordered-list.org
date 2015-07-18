@@ -28,8 +28,8 @@ test normal ordered list
 
 #+BEGIN_QUOTE
 test ordered list
-5. test start from other number
-6. test continue
+  '5. test start from other number
+  '6. test continue
 #+END_QUOTE
 
 导出的PDF效果跟预想的不一样咯, 编号被自动处理成了从1开始:
