@@ -28,7 +28,9 @@ test normal ordered list
 
 #+BEGIN_QUOTE
 test ordered list
+
   '5. test start from other number
+
   '6. test continue
 #+END_QUOTE
 
