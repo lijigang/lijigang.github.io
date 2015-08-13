@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Spacemacs入门 - 喜欢写代码的PM</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="李继刚" />
+    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  </head>
+  <body class="container">
+    <div>
+      <header class="masthead">
+        <h1 class="masthead-title"><a href="/">喜欢写代码的PM</a></h1>
+        <p>行有不得, 反求诸己</p>
+        <ul>
+          <li><a href="/learn/">Learn</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/concept/">Concept</a></li>
+          <li><a href="/notes/">Notes</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+        </ul>
+        <form method="get" id="searchform" action="http://www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="as_sitesearch" value="lijigang.github.io">
+        </form>
+      </header>
+    </div>
+
+<div>
+<div class="post">
+<h1>Spacemacs入门</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Movement</a>
+<ul>
+<li><a href="#sec-1-1">1.1. Basics</a></li>
+<li><a href="#sec-1-2">1.2. Windows Management</a></li>
+<li><a href="#sec-1-3">1.3. Buffers and Files</a></li>
+<li><a href="#sec-1-4">1.4. Searching</a></li>
+</ul>
+</li>
+<li><a href="#sec-2">2. Editing</a>
+<ul>
+<li><a href="#sec-2-1">2.1. Region selection</a></li>
+<li><a href="#sec-2-2">2.2. Commenting</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. Compiling</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Movement</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Basics</h3>
+<div class="outline-text-3" id="text-1-1">
+<blockquote>
+<p>
+Spacemacs uses the evil integration of ace-jump mode which enables the invocation of ace-jump-mode during motions.
+</p>
+
+<p>
+It is useful for deleting visually a set of lines, try the following sequence in a buffer containing some text: d SPC l
+</p>
+</blockquote>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key     Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC SPC</td>
+<td class="left">initiate ace jump word mode</td>
+</tr>
+
+<tr>
+<td class="left">SPC l</td>
+<td class="left">initiate ace jump line mode</td>
+</tr>
+
+<tr>
+<td class="left">SPC `</td>
+<td class="left">go back to the previous location (before the jump)</td>
+</tr>
+</tbody>
+</table>
+
+
+<blockquote>
+<p>
+Similar to ace-jump-mode, ace-link allows one to jump to any link in help-mode and info-mode with two key strokes.
+</p>
+</blockquote>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">o</td>
+<td class="left">initiate ace link mode in help-mode and info-mode</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Windows Management</h3>
+<div class="outline-text-3" id="text-1-2">
+<blockquote>
+<p>
+Every window has a number displayed at the start of the mode-line and can be quickly accessed using SPC number.
+</p>
+</blockquote>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC 1</td>
+<td class="left">go to window number 1</td>
+</tr>
+
+<tr>
+<td class="left">SPC 2</td>
+<td class="left">go to window number 2</td>
+</tr>
+
+<tr>
+<td class="left">SPC 3</td>
+<td class="left">go to window number 3</td>
+</tr>
+</tbody>
+</table>
+
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC w =</td>
+<td class="left">balance split windows</td>
+</tr>
+
+<tr>
+<td class="left">SPC w c</td>
+<td class="left">close a window</td>
+</tr>
+
+<tr>
+<td class="left">SPC w h</td>
+<td class="left">move to window on the left</td>
+</tr>
+
+<tr>
+<td class="left">SPC w H</td>
+<td class="left">move window to the left</td>
+</tr>
+
+<tr>
+<td class="left">SPC w s or SPC w /</td>
+<td class="left">horizontal split</td>
+</tr>
+
+<tr>
+<td class="left">SPC w v or SPC w -</td>
+<td class="left">vertical split</td>
+</tr>
+
+<tr>
+<td class="left">SPC w b</td>
+<td class="left">force the focus back to the minibuffer (usefull with helm popups)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Buffers and Files</h3>
+<div class="outline-text-3" id="text-1-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC TAB</td>
+<td class="left">switch to alternate buffer (switch back and forth)</td>
+</tr>
+
+<tr>
+<td class="left">SPC b b</td>
+<td class="left">switch to a buffer using helm</td>
+</tr>
+
+<tr>
+<td class="left">SPC b d</td>
+<td class="left">kill the current buffer (does not delete the visited file)</td>
+</tr>
+
+<tr>
+<td class="left">SPC b e</td>
+<td class="left">erase the content of the buffer (ask for confirmation)</td>
+</tr>
+
+<tr>
+<td class="left">SPC b h</td>
+<td class="left">open <b>spacemacs</b> home buffer</td>
+</tr>
+
+<tr>
+<td class="left">SPC b k</td>
+<td class="left">kill a buffer</td>
+</tr>
+
+<tr>
+<td class="left">SPC b K</td>
+<td class="left">kill all buffers except the current one</td>
+</tr>
+
+<tr>
+<td class="left">SPC b m h</td>
+<td class="left">move a buffer to the left</td>
+</tr>
+
+<tr>
+<td class="left">SPC b P</td>
+<td class="left">copy clipboard and replace buffer (useful when pasting from a browser)</td>
+</tr>
+
+<tr>
+<td class="left">SPC b R</td>
+<td class="left">revert the current buffer (reload from disk)</td>
+</tr>
+
+<tr>
+<td class="left">SPC b w</td>
+<td class="left">toggle read-only (writable state)</td>
+</tr>
+
+<tr>
+<td class="left">SPC b Y</td>
+<td class="left">copy whole buffer to clipboard (useful when copying to a browser)</td>
+</tr>
+
+<tr>
+<td class="left">z f</td>
+<td class="left">Make current function or comments visible in buffer as much as possible</td>
+</tr>
+</tbody>
+</table>
+
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC f D</td>
+<td class="left">delete a file and the associated buffer (ask for confirmation)</td>
+</tr>
+
+<tr>
+<td class="left">SPC f f</td>
+<td class="left">open file with helm (or ido)</td>
+</tr>
+
+<tr>
+<td class="left">SPC f j</td>
+<td class="left">jump to the current buffer file in dired</td>
+</tr>
+
+<tr>
+<td class="left">SPC f o</td>
+<td class="left">open a file using the default external program</td>
+</tr>
+
+<tr>
+<td class="left">SPC f R</td>
+<td class="left">rename the current file</td>
+</tr>
+
+<tr>
+<td class="left">SPC f s</td>
+<td class="left">save a file</td>
+</tr>
+
+<tr>
+<td class="left">SPC f S</td>
+<td class="left">save all files</td>
+</tr>
+
+<tr>
+<td class="left">SPC f r</td>
+<td class="left">open a recent file with helm</td>
+</tr>
+
+<tr>
+<td class="left">SPC f t</td>
+<td class="left">toggle file tree side bar using NeoTree</td>
+</tr>
+
+<tr>
+<td class="left">SPC f y</td>
+<td class="left">show current file absolute path in the minibuffer</td>
+</tr>
+</tbody>
+</table>
+
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC f e c</td>
+<td class="left">open ido in the contrib folder</td>
+</tr>
+
+<tr>
+<td class="left">SPC f e d</td>
+<td class="left">open the spacemacs dotfile (~/.spacemacs)</td>
+</tr>
+
+<tr>
+<td class="left">SPC f e D</td>
+<td class="left">open ediff buffer of ~/.spacemacs and .spacemacs.template</td>
+</tr>
+
+<tr>
+<td class="left">SPC f e h</td>
+<td class="left">discover Spacemacs documentation, layers and packages using helm</td>
+</tr>
+
+<tr>
+<td class="left">SPC f e i</td>
+<td class="left">open the all mighty init.el</td>
+</tr>
+
+<tr>
+<td class="left">SPC f e R</td>
+<td class="left">resync the dotfile with spacemacs</td>
+</tr>
+
+<tr>
+<td class="left">SPC f e s</td>
+<td class="left">open ido in the spacemacs layer folder</td>
+</tr>
+
+<tr>
+<td class="left">SPC f e v</td>
+<td class="left">display and copy the spacemacs version</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4"><span class="section-number-3">1.4</span> Searching</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+<b>Searching in current file</b>
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC s s</td>
+<td class="left">search with the first found tool</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+<b>Searching in all open buffers visiting files</b>
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC s b</td>
+<td class="left">search with the first found tool</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+<b>Searching for files in an arbitrary directory</b>
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC s f</td>
+<td class="left">search with the first found tool</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+<b>Searching in a project</b>
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC s p</td>
+<td class="left">search with the first found tool</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+<b>Searching the web</b>
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC s w g</td>
+<td class="left">Get Google suggestions in emacs. Opens Google results in Browser.</td>
+</tr>
+
+<tr>
+<td class="left">SPC s w w</td>
+<td class="left">Get Wikipedia suggestions in emacs. Opens Wikipedia page in Browser.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Editing</h2>
+<div class="outline-text-2" id="text-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC x u</td>
+<td class="left">set the selected text to lower case</td>
+</tr>
+
+<tr>
+<td class="left">SPC x U</td>
+<td class="left">set the selected text to upper case</td>
+</tr>
+
+<tr>
+<td class="left">SPC x a ;</td>
+<td class="left">align region at ;</td>
+</tr>
+
+<tr>
+<td class="left">SPC x a =</td>
+<td class="left">align region at =</td>
+</tr>
+
+<tr>
+<td class="left">SPC x d w</td>
+<td class="left">delete trailing whitespaces</td>
+</tr>
+
+<tr>
+<td class="left">SPC x w c</td>
+<td class="left">count the number of words in the selection region</td>
+</tr>
+
+<tr>
+<td class="left">SPC x w C</td>
+<td class="left">count the number of occurrences per word in the select region</td>
+</tr>
+
+<tr>
+<td class="left">SPC z x +</td>
+<td class="left">scale up the font and initiate the font scaling micro-state</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Region selection</h3>
+<div class="outline-text-3" id="text-2-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC v</td>
+<td class="left">initiate expand-region mode then…</td>
+</tr>
+
+<tr>
+<td class="left">v</td>
+<td class="left">expand the region by one semantic unit</td>
+</tr>
+
+<tr>
+<td class="left">V</td>
+<td class="left">contract the region by one semantic unit</td>
+</tr>
+
+<tr>
+<td class="left">r</td>
+<td class="left">reset the region to initial selection</td>
+</tr>
+
+<tr>
+<td class="left">ESC</td>
+<td class="left">leave expand-region mode</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Commenting</h3>
+<div class="outline-text-3" id="text-2-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC ;</td>
+<td class="left">comment operator</td>
+</tr>
+
+<tr>
+<td class="left">SPC c i</td>
+<td class="left">comment invert</td>
+</tr>
+
+<tr>
+<td class="left">SPC c l</td>
+<td class="left">comment lines</td>
+</tr>
+
+<tr>
+<td class="left">SPC c p</td>
+<td class="left">comment paragraphs</td>
+</tr>
+
+<tr>
+<td class="left">SPC c r</td>
+<td class="left">comment region</td>
+</tr>
+
+<tr>
+<td class="left">SPC c t</td>
+<td class="left">comment to line</td>
+</tr>
+
+<tr>
+<td class="left">SPC c y</td>
+<td class="left">comment and yank</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Compiling</h2>
+<div class="outline-text-2" id="text-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key Binding</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">SPC c c</td>
+<td class="left">use helm-make via projectile</td>
+</tr>
+
+<tr>
+<td class="left">SPC c C</td>
+<td class="left">compile</td>
+</tr>
+
+<tr>
+<td class="left">SPC c r</td>
+<td class="left">recompile</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+</div>
+</div>
+    <div>
+      <div class="post-meta">
+        <span title="post date" class="post-info">2015-08-13</span>
+        <span title="last modification date" class="post-info">2015-07-14</span>
+        <span title="tags" class="post-info"><a href="/tags/editor/">Editor</a> <a href="/tags/emacs/">Emacs</a></span>
+        <span title="author" class="post-info">李继刚</span>
+      </div>
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          //var disqus_developer = 1;
+          var disqus_identifier = "/blog/2015/08/13/spacemacs入门/";
+          var disqus_url = "http://lijigang.github.io/blog/2015/08/13/spacemacs入门/";
+          var disqus_shortname = 'lijigang';
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </section>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="/media/js/main.js"></script>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-49533446-2']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+      <div class="footer">
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.x (<a href="http://orgmode.org">Org mode</a> 8.x)</p>
+        <p>
+          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:lijigang &lt;at&gt; 360 &lt;dot&gt; cn">李继刚</a>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
