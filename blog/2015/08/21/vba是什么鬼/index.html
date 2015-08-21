@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>VBA是什么鬼 - 喜欢写代码的PM</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="李继刚" />
+    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  </head>
+  <body class="container">
+    <div>
+      <header class="masthead">
+        <h1 class="masthead-title"><a href="/">喜欢写代码的PM</a></h1>
+        <p>行有不得, 反求诸己</p>
+        <ul>
+          <li><a href="/learn/">Learn</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/concept/">Concept</a></li>
+          <li><a href="/notes/">Notes</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+        </ul>
+        <form method="get" id="searchform" action="http://www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="as_sitesearch" value="lijigang.github.io">
+        </form>
+      </header>
+    </div>
+
+<div>
+<div class="post">
+<h1>VBA是什么鬼</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. 为什么需要VBA</a></li>
+<li><a href="#sec-2">2. VBA里有什么数据类型</a>
+<ul>
+<li><a href="#sec-2-1">2.1. If&#x2026;Then</a></li>
+<li><a href="#sec-2-2">2.2. Select Case</a></li>
+<li><a href="#sec-2-3">2.3. For&#x2026;Next</a></li>
+<li><a href="#sec-2-4">2.4. For Each &#x2026; Next</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. VBA有哪些应用</a></li>
+</ul>
+</div>
+</div>
+<blockquote>
+<p>
+Visual Basic for Applications (VBA) is an implementation of Microsoft's
+event-driven programming language, Visual Basic 6, and its associated
+integrated development environment (IDE).
+</p>
+
+<p>
+&#x2013; Wikipedia
+</p>
+</blockquote>
+
+<p>
+看起来很厉害的样子, 到底是啥东东? 简单地说, VBA就是可以在微软Office软件里
+运行的代码, 这些代码可以操控Office软件, 包括菜单, 数据等等.
+</p>
+
+<p>
+本文主要针对在Excel中使用VBA进行介绍, 其它Word, PPT都类似, 主要区别就是各
+对象的数据类型不同, 这些如果需要可以查阅相关API接口信息.
+</p>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> 为什么需要VBA</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Excel本身有很多系统函数, 里面支持Excel各种功能.
+</p>
+
+<ul class="org-ul">
+<li>VBA接口就是一种可以访问或操作这些功能的一种方式.
+</li>
+<li>Excel把常用的一些函数给封装好, 提供给普通用户调用. (如vlookup函数等)
+</li>
+<li>Excel把最经常使用的一些功能给封装好, 提供用户使用. (如Robbin菜单中的按钮)
+</li>
+</ul>
+
+<p>
+整个封装模型如下图所示:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/08/21/vba是什么鬼/excel.png" alt="excel.png" />
+</p>
+</div>
+
+<p>
+由此就很明显了, 要想成为Excel高手, 有两条路可走:
+</p>
+
+<ol class="org-ol">
+<li>熟练掌握Excel提供的函数和功能, 组合各函数完成需要的操作.
+</li>
+<li>掌握VBA编程, 直接编写代码完成需要的操作.
+</li>
+</ol>
+
+<p>
+第二条路, 使用VBA编程相对于第一条路来说, 有两点优势:
+</p>
+
+<ol class="org-ol">
+<li>不需要去想办法拼凑各个函数, 函数嵌套层数一多, 容易犯晕.
+</li>
+<li>针对用户函数无法完成的操作, 通过VBA一般可以轻松搞定.
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> VBA里有什么数据类型</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+在之前的文章 <a href="http://t.cn/R25cYjA">计算机科学是什么鬼</a> 中有讲过, 编程就是把现实世界中的问题, 用计
+算机编程语言(Control Structure)给描述出来, 再把对应的算法给表述出来.
+</p>
+
+<p>
+这两步过程中, <code>算法</code> 这一步算是通用能力, 与编程语言无关. 所以, 学任何编程
+语言, 都需要先了解下该语言都支持哪些数据类型, 具体的Control Structure是什
+么语法.
+</p>
+
+<p>
+VBA中的数据类型可以看作有两种:
+</p>
+
+<ol class="org-ol">
+<li>Primary Type Data (括号为字节数)
+<ul class="org-ul">
+<li>Byte (1)
+</li>
+<li>Boolean (2)
+</li>
+<li>Integer (2)
+</li>
+<li>Long (4)
+</li>
+<li>Single (4)
+</li>
+<li>Double (8)
+</li>
+<li>Currency (8)
+</li>
+<li>Decimal (14)
+</li>
+<li>Date (8)
+</li>
+<li>String
+</li>
+<li>Object (4)
+</li>
+</ul>
+</li>
+
+<li>Object Data
+<ul class="org-ul">
+<li>Application
+</li>
+<li>Workbook
+</li>
+<li>Worksheet
+</li>
+<li>Range
+</li>
+<li>Names
+</li>
+<li>Comment
+</li>
+</ul>
+</li>
+</ol>
+
+<p>
+其中, 各个Object Data还有各自的N多属性以及继承出来的对象, 这些可以在具体使
+用过程中, 查阅相关API接口文档.
+</p>
+
+<p>
+而VBA中的Control Structure 对应的语法如下:
+</p>
+</div>
+
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> If&#x2026;Then</h3>
+<div class="outline-text-3" id="text-2-1">
+<pre class="example">
+If Range("A1") &gt; 5 Then
+    Msgbox "Big"
+ElseIf Range("A1") &gt; 3 Then
+    Msgbox "Middle"
+Else
+    Msgbox "Small"
+End If
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Select Case</h3>
+<div class="outline-text-3" id="text-2-2">
+<pre class="example">
+Select Case Range("A1")
+    Case Is &gt; 5
+        Msgbox "Big"
+    Case Is &gt; 3
+        Msgbox "Middle"
+    Case Else
+        Msgbox "Small"
+End Select
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> For&#x2026;Next</h3>
+<div class="outline-text-3" id="text-2-3">
+<pre class="example">
+For i=1 to 100
+    Cells(i, 1).value = i
+Next
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-2-4" class="outline-3">
+<h3 id="sec-2-4"><span class="section-number-3">2.4</span> For Each &#x2026; Next</h3>
+<div class="outline-text-3" id="text-2-4">
+<pre class="example">
+For Each sht In Worksheets
+    Cells(i, 1) = sht.Name
+    i = i + 1
+Next sht
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> VBA有哪些应用</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+比如, 我们想对指定区域中的所有满足条件的数字进行一些格式设置, 可以通过如下的代码:
+</p>
+
+<pre class="example">
+Sub fontSet()
+    Dim c As Range
+
+    For Each c In Range("A1").CurrentRegion
+
+        If c.Value &gt; 80 Then
+            With c.Font
+                .Size = 18
+                .Color = RGB(255, 0, 0)
+                .Bold = True
+                .Underline = xlUnderlineStyleDouble
+             End With
+        End If
+    Next
+
+End Sub
+</pre>
+
+<p>
+效果如下图:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/08/21/vba是什么鬼/fontSet.png" alt="fontSet.png" />
+</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+    <div>
+      <div class="post-meta">
+        <span title="post date" class="post-info">2015-08-21</span>
+        <span title="last modification date" class="post-info">2015-05-25</span>
+        <span title="tags" class="post-info"><a href="/tags/概念/">概念</a></span>
+        <span title="author" class="post-info">李继刚</span>
+      </div>
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          //var disqus_developer = 1;
+          var disqus_identifier = "/blog/2015/08/21/vba是什么鬼/";
+          var disqus_url = "http://lijigang.github.io/blog/2015/08/21/vba是什么鬼/";
+          var disqus_shortname = 'lijigang';
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </section>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="/media/js/main.js"></script>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-49533446-2']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+      <div class="footer">
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.x (<a href="http://orgmode.org">Org mode</a> 8.x)</p>
+        <p>
+          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:lijigang &lt;at&gt; 360 &lt;dot&gt; cn">李继刚</a>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>

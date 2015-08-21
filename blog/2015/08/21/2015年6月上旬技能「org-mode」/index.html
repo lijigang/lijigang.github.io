@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2015年6月上旬技能「Org-mode」 - 喜欢写代码的PM</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="李继刚" />
+    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  </head>
+  <body class="container">
+    <div>
+      <header class="masthead">
+        <h1 class="masthead-title"><a href="/">喜欢写代码的PM</a></h1>
+        <p>行有不得, 反求诸己</p>
+        <ul>
+          <li><a href="/learn/">Learn</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/concept/">Concept</a></li>
+          <li><a href="/notes/">Notes</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+        </ul>
+        <form method="get" id="searchform" action="http://www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="as_sitesearch" value="lijigang.github.io">
+        </form>
+      </header>
+    </div>
+
+<div>
+<div class="post">
+<h1>2015年6月上旬技能「Org-mode」</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Todo items</a></li>
+<li><a href="#sec-2">2. Hyperlinks</a></li>
+<li><a href="#sec-3">3. Tags</a></li>
+<li><a href="#sec-4">4. Tables</a></li>
+<li><a href="#sec-5">5. Properties and columns</a></li>
+<li><a href="#sec-6">6. Dates and times</a></li>
+<li><a href="#sec-7">7. Capture-Refile-Archive</a>
+<ul>
+<li><a href="#sec-7-1">7.1. Capture</a></li>
+<li><a href="#sec-7-2">7.2. Refile</a></li>
+<li><a href="#sec-7-3">7.3. Archive</a></li>
+</ul>
+</li>
+<li><a href="#sec-8">8. Agenda views</a></li>
+<li><a href="#sec-9">9. Exporting</a></li>
+</ul>
+</div>
+</div>
+<blockquote>
+<p>
+每月学项新技能!
+</p>
+
+<p>
+2015年6月要学的技能是Emacs里的Org-mode.
+</p>
+
+<p>
+整体学习思路:
+</p>
+
+<ul class="org-ul">
+<li>边用边学, 以遇到的问题为引子, 找到对应的解决方案
+</li>
+<li>参看手册和Emacs help, 以及各Blog内容
+</li>
+<li>分解学习目标, 每天学习一点点
+</li>
+</ul>
+</blockquote>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Todo items</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+按照GTD的思想, 需要使用一个系统来记录需要处理的事情, 该系统可以定期review,
+适时提醒, 解放大脑的压力, 让你可以以「Flow」的状态进行工作.
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/08/21/2015年6月上旬技能「org-mode」/gtd.png" alt="gtd.png" />
+</p>
+</div>
+
+<p>
+为了完成以上workflow, 首先要支持方便地添加「stuff」到「basket」中.
+</p>
+
+<p>
+这里的「stuff」就是 <code>TODO</code>. 在Orgmode中, 任意一个以「TODO」字样开头的
+Headline都是待办事项.
+</p>
+
+<p>
+常用的一些命令包括:
+</p>
+<pre class="example">
+C-c C-t (M-x org-todo)
+</pre>
+
+<p>
+,-&gt; (unmarked) -&gt; TODO -&gt; DONE &#x2013;.
+,_______________________________,
+</p>
+
+<pre class="example">
+S-M-RET (M-x org-insert-todo-heading)
+</pre>
+
+<p>
+在当前行下方插入一个待办事项.
+</p>
+
+<p>
+Q: 默认的TODO状态只有两个: TODO 和 DONE. 怎么自定义?
+</p>
+
+<pre class="example">
+A: 设置变量 org-todo-keywords, 例如:
+
+(setq org-todo-keywords
+'((sequence "TODO" "FEEDBACK" "VERIFY" "|" "DONE" "DELEGATED")))
+
+上面的"|"作用是, 把需要后续「Action」的TODO状态和不需要后续「Action」的
+DONE状态分隔开. 如果没有"|", 那么最后一个状态就是DONE状态.
+</pre>
+
+<p>
+Q: 我想把任务分配给团队中的成员, 怎么设置TODO?
+</p>
+
+<pre class="example">
+A: 可以将TODO关键词设置为type类型. 例如:
+
+(setq org-todo-keywords
+'((type "Arthur" "Baby" "Coywat" "Lucy" "|" "DONE")))
+</pre>
+
+<p>
+Q: 我想同时使用多组TODO关键词, 怎么设置?
+</p>
+
+<pre class="example">
+A: 可以同时设置:
+
+(setq org-todo-keywords
+'((sequence "TODO" "|" "DONE")
+(sequence "REPORT" "BUG" "KNOWNCAUSE" "|" "FIXED")
+(sequence "|" "CANCELED")))
+</pre>
+
+<p>
+Q: 一个个的在状态间切换太麻烦了, 有没有便捷的方法?
+</p>
+
+<pre class="example">
+A: 有的. 像下面这样:
+
+(setq org-todo-keywords
+'((sequence "TODO(t)" "|" "DONE(d)")
+(sequence "REPORT(r)" "BUG(b)" "KNOWNCAUSE(k)" "|" "FIXED(f)")
+(sequence "|" "CANCELED(c)")))
+</pre>
+
+<p>
+Q: 想要在某一个文件中, 使用单独的TODO关键词设置, 怎么操作?
+</p>
+
+<pre class="example">
+A: 在文件中加入这么一行即可:
+
+#+TODO: TODO FEEDBACK VERIFY | DONE CANCELED
+
+#+TYP_TODO: Arthur Bob Lucy | DONE
+
+如果使用过程中, 又修改了上面的设置行, 只需要在该设置行上, 按C-c C-c即可刷
+新设置.
+</pre>
+
+<p>
+Q: 我想在完成某项任务时, 记录下完成时间. 怎么操作?
+</p>
+
+<pre class="example">
+A: 通过设置变量 org-log-done 即可. 例如
+
+(setq org-log-done 'time)
+
+每次待办事项从TODO状态到完成状态时, 都会自动添加完成时间. 当你再将该事项从
+完成状态切换到TODO状态时, 添加的时间会自动删除.
+</pre>
+
+<p>
+Q: 我有一些定期执行的任务, 可以循环设置吗?
+</p>
+
+<pre class="example">
+A: 可以的. Org有个叫「habits」的功能. 它就是一个特殊的TODO. 需要满足一些特
+定条件:
+
+1. customize org-modules 选中 habits
+2. TODO事项中要设置属性STYLE为habit
+3. 该TODO事项需要有scheduled date
+4. 必须开启log-done状态.
+
+在agenda中, 按K键可以临时 「不显示/显示」 habit的事项.
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Hyperlinks</h2>
+<div class="outline-text-2" id="text-2">
+<blockquote>
+<p>
+在文档中经常需要引用其它的文档或者是超链接地址, Org中的Link格式如下:
+</p>
+
+<p>
+[[link] [description]] or [ [link]]
+</p>
+
+<p>
+你可以直接输入上面的格式, 或者按C-c C-l来交互式的插入链接.
+</p>
+</blockquote>
+</div>
+</div>
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Tags</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+在Org-mode中, 每个Headline都可以包含多个tag, 它的格式为在Headline行末尾,
+前后以冒号包围, 比如 :Work: . 多个tag显示为 :Work:Urgent:
+</p>
+
+<p>
+可以手动在行末输入上面的tag, 也可以使用快捷键:
+</p>
+
+<pre class="example">
+当光标在Headline上时, 可以用下面的快捷键:
+
+C-c C-c org-set-tags-command
+</pre>
+
+<p>
+Q: 我有一些固定常用的Tag, 能不能把它们存储下来, 使用的时候从里面选?
+</p>
+
+<pre class="example">
+A: 可以设置变量 org-tag-alist
+
+也可以给某文件中使用特定的tags, 只需要在该文件中加上:
+
+#+TAGS: @work @home @coffee
+#+TAGS: laptop pc macbook
+</pre>
+
+<p>
+Q: 有些tags只想在里面三选一, 不想同时选多个. 怎么设置?
+</p>
+
+<pre class="example">
+A: Org-mode中有 =Group tag= 的概念, 不光可以满足在group中的tag只能选一个的
+需求, 而且在agenda中筛选tag显示的时候, 只要是group中的成员, 都会被筛选出来.
+
+#+TAGS: { @read : @read_book @read_ebook }
+
+请注意上面的 *「空格」*, 是必需的. 上面例子中 @read 就是group tag, 这个
+group中包含了三个tag: @read, @read_book, @read_ebook
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Tables</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+Q: 如何在Org-mode中编辑表格数据?
+</p>
+
+<pre class="example">
+A: 在Org-mode中, 任何以"|"为首个非空字符的行, 都被看作是表格中的行.例如:
+
+| Name    |   ID | Age |
+|---------+------+-----|
+| Arthur  | 1234 |  28 |
+| Lionnas | 1235 |  24 |
+
+在编辑表格中内容时, 按TAB会跳转到下一个field, 按RET会跳转到下一行, 并且同
+时会将表格重新对齐(相当智能). 如果不想跳转到其它地方, 只是想重新对齐表格,
+可以按C-c C-c
+</pre>
+
+<p>
+Q: 如果已经有csv的数据, 想转换成表格, 怎么操作?
+</p>
+
+<pre class="example">
+A: 选中需要转换成表格的区域按C-c |
+(M-x org-table-create-or-convert-from-region)
+</pre>
+
+<p>
+Q: 如果想改变表格中的列顺序怎么操作?
+</p>
+
+<pre class="example">
+A: 可以通过下面的两个函数:
+
+M-left (M-x org-table-move-column-left)
+
+M-right (M-x org-table-move-clumn-right)
+</pre>
+
+<p>
+Q: 如果想删除表格中某一列怎么操作?
+</p>
+
+<pre class="example">
+A: 可以通过下面的函数, 删除光标所在列:
+
+M-S-left (M-x org-table-delete-column)
+</pre>
+
+<p>
+Q: 如果想在表格中间插入一列怎么操作?
+</p>
+
+<pre class="example">
+A: 可以通过下面的函数, 在鼠标所在列左侧插入一列:
+
+M-S-right (M-x org-table-insert-column)
+</pre>
+
+<p>
+Q: Org的表格编辑太爽了, 能在其它Mode下使用吗?
+</p>
+
+<pre class="example">
+A: 可以的. Org有一个Orgtbl的minor mode. 你只需要在你想要使用orgtbl的时候,
+开启该命令即可: M-x orgtbl-mode
+
+如果想在某一mode下默认启用它, 例如message mode下自动开启, 那可以:
+
+(add-hook 'message-mode-hook 'turn-on-orgtbl)
+</pre>
+</div>
+</div>
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> Properties and columns</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+当你有一个项目, 一个月发个版本, 除了用 :Release<sub>1</sub>: :Release<sub>2</sub>: 这种tag的形
+式以外, 你还可以使用 <code>Properties</code> 的方式, 来记录某Headline相关的属性.
+</p>
+
+<p>
+在Org-mode中, Property就是一个Entry的Key-value pair.
+</p>
+
+<p>
+Property除了可以在某些时候替代tag的功能以外, 还可以当作Database来使用. 想
+想如果你在记录读书的文件中, 把每本书的作者, 出版时间, 阅读时间等等信息都写
+在Properties里.
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/08/21/2015年6月上旬技能「org-mode」/property.png" alt="property.png" />
+</p>
+</div>
+
+<p>
+Q: 如何快速插入Property?
+</p>
+
+<pre class="example">
+A: C-c C-x p (M-x org-set-property)
+
+会提示你输入property name 和 value.
+</pre>
+
+<p>
+Q: 各项属性不同, 有什么办法可以统一查看?
+</p>
+
+<pre class="example">
+A: 可以使用 =Column view=. 格式如下:
+
+%[width]property[(title)][{summary-type}]
+
+如果想针对当前文件生效, 在文件中加入类似下面的行:
+
+#+COLUMNS: %25ITEM %TAGS %PRIORITY %TODO
+
+如果想只在指定的tree下面查看, 可以加一个 :COLUMNS: 属性:
+</pre>
+
+<div class="figure">
+<p><img src="/assets/blog/2015/08/21/2015年6月上旬技能「org-mode」/columns_property.png" alt="columns_property.png" />
+</p>
+</div>
+
+<p>
+Q: 如何启用org-columns?
+</p>
+
+<pre class="example">
+A: C-c C-x C-c  (M-x org-columns) 打开column view
+
+r (M-x org-columns-redo) Recreate the column view.
+
+q (M-x org-columns-quit) Exit column view.
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> Dates and times</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+为了更好地安排事项, 需要给各个事项指定时间. 在Org-mode中, 使用的是
+timestamp . 你可以直接手动输入timestamp, 就像普通文本一样, 也可以通过
+calenda输入timestamp, 效果都一样.
+</p>
+
+<p>
+Q: 想设置明天上午10:00-10:30的会议事项, 怎么弄?
+</p>
+
+<pre class="example">
+A: 可以在事项下方, 手动输入时间:
+
+ * Meeting
+   &lt;2015-06-12 Fri 10:00-10:30&gt;
+
+也可以通过Calenda的方式:
+
+C-c . (M-x org-time-stamp)
+
+在新出现的calenda buffer中选中日期.
+</pre>
+
+<p>
+Q: 想设置每周五上午10:00发送周报, 怎么弄?
+</p>
+
+<pre class="example">
+A: timestamp可以包含repeater interval, 重复间隔可以是天(d),周(w), 月(m)或
+者年(y).
+
+ * 交周报
+   &lt;2015-06-12 Fri 10:00 +1w&gt;
+</pre>
+
+<p>
+Q: 有一个外出会议要持续三天进行, 怎么设置?
+</p>
+
+<pre class="example">
+A: 可以设置Data Range, 日期之间使用「--」分隔开即可:
+
+ * Meeting aboard
+   &lt;2015-06-12 Fri&gt;--&lt;2015-06-15 Mon&gt;
+</pre>
+
+<p>
+Q: 有一事项需要在下周二启动, 怎么提前设置?
+</p>
+
+<pre class="example">
+A: 可以通过Schedule这个Keyword来设置:
+
+C-c C-s (M-x org-schedule)
+
+意思就是说, 在schedule的那一天, 这个事项才会启动.
+</pre>
+
+<p>
+Q: 有一事项需要在下周二截止(deadline), 怎么设置?
+</p>
+
+<pre class="example">
+A: 可以通过Deadline来设置:
+
+C-c C-d (M-x org-deadline)
+</pre>
+</div>
+</div>
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7"><span class="section-number-2">7</span> Capture-Refile-Archive</h2>
+<div class="outline-text-2" id="text-7">
+<blockquote>
+<p>
+在工作中, 时不时地会有新的待办事项突然出现, 如何快速地将这些待办事项加入到
+GTD系统中?
+</p>
+
+<p>
+添加到GTD系统中的待办事项, 有可能分布在多个文件中, 如何快速地将某事项从一
+个文件移植到另一个文件中?
+</p>
+
+<p>
+已完成的待办事项, 如何存档?
+</p>
+</blockquote>
+</div>
+
+<div id="outline-container-sec-7-1" class="outline-3">
+<h3 id="sec-7-1"><span class="section-number-3">7.1</span> Capture</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+Q: 临时有待做事项进来, 如何快速添加该事项到GTD系统中?
+</p>
+
+<pre class="example">
+A: 使用Org-capture, 一键打开临时添加窗口, 添加后, 可以立即返回原操作界面.
+</pre>
+
+<p>
+Q: 如何快速先体验下capture功能?
+</p>
+
+<pre class="example">
+A: 添加下面的配置, 指定capture默认保存的文件和快速打开capture功能的快捷键.
+
+(setq org-default-notes-file (concat org-directory "~/org/notes.org"))
+
+(define-key global-map "\C-co" 'org-capture)
+</pre>
+
+<p>
+Q: 在Capture中输入完事项后, 如何保存以及回到原来的操作界面?
+</p>
+
+<pre class="example">
+A: C-c C-c (M-x org-capture-finalize)
+</pre>
+
+<p>
+Q: 要是想把在Capture中输入的事项, 保存在另外一个文件中怎么办?
+</p>
+
+<pre class="example">
+A: C-c C-w (M-x org-capture-refile)
+</pre>
+
+<p>
+Q: 我想在capture中插入不同类型的任务, 怎么办?
+</p>
+
+<pre class="example">
+A: 可以通过定制变量 org-capture-templates 实现, 比如:
+
+(setq org-capture-templates
+'(("t" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
+"* TODO %?\n %i\n %a")))
+
+
+上面templates包含的元素有:
+
+| keys | desc   | type  | target             | template    |
+|------+--------+-------+--------------------+-------------|
+| "t"  | "Todo" | entry | (file+headline ..) | "* TODO .." |
+
+具体各项的含义, 以及template字段包含的转义符含义, 可以通过C-h v
+org-capture-templates 查看帮助文档.
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-7-2" class="outline-3">
+<h3 id="sec-7-2"><span class="section-number-3">7.2</span> Refile</h3>
+<div class="outline-text-3" id="text-7-2">
+<blockquote>
+<p>
+file v.
+</p>
+
+<p>
+If you file a document, you put it in the correct file.
+</p>
+
+<p>
+refile v.
+</p>
+
+<p>
+顾名思义, 把文档中的内容再次放到合适的文件中去.
+</p>
+</blockquote>
+
+
+<p>
+Q: 某一文件中的事项, 需要「移植」到其它文件中, 该如何快速操作?
+</p>
+
+<pre class="example">
+A: 使用Org-refile, 很方便的可以实现上述目标.
+
+C-c M-w (M-x org-copy) 把事项拷贝到其它文件, 原文件中事项仍在.
+
+C-c C-w (M-x org-refile) 把事项移动到新文件, 原文件中事项不在.
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-7-3" class="outline-3">
+<h3 id="sec-7-3"><span class="section-number-3">7.3</span> Archive</h3>
+<div class="outline-text-3" id="text-7-3">
+<p>
+Q: 在GTD中已经完成的事项, 想从文件中删除, 但又想后续可以查看, 怎么办?
+</p>
+
+<pre class="example">
+A: 使用Org-archive-subtree, 可以将这些已完成事项保存在指定的archive文件中.
+
+C-c $ (M-x org-archive-subtree) 把当前光标所在处的subtree存档到
+org-archive-location指定的位置去.
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-8" class="outline-2">
+<h2 id="sec-8"><span class="section-number-2">8</span> Agenda views</h2>
+<div class="outline-text-2" id="text-8">
+<blockquote>
+<p>
+GTD中的事项分散在各个不同的文件中, 如果方便地从不同的维度或视角来查看所有
+事项?
+</p>
+
+<p>
+Org提供了七种查看方式:
+</p>
+
+<ol class="org-ol">
+<li>agenda view (C-c a a)
+</li>
+<li>TODO list (C-c a t)
+</li>
+<li>match view (C-c a m)
+</li>
+<li>timeline view (C-c a L)
+</li>
+<li>text search view (C-c a s)
+</li>
+<li>stuck projects view (C-c a #)
+</li>
+<li>custom view
+</li>
+</ol>
+</blockquote>
+
+<p>
+Q: 如何快速调出agenda?
+</p>
+
+<pre class="example">
+A: 设置一个全局快捷键如下
+
+(global-set-key "\C-ca" 'org-agenda)
+</pre>
+
+
+<p>
+Q: 我有好多的GTD文件, 如果只想在agenda中查看某些文件的事项, 怎么设置?
+</p>
+
+<pre class="example">
+A: agenda会从变量 org-agenda-files 指定的文件列表中, 抽取事项进行展示.
+</pre>
+
+<p>
+Q: 如何快速将当前GTD文件添加到org-agenda-files中?
+</p>
+
+<pre class="example">
+A: C-c [ (M-x org-agenda-file-to-front)
+</pre>
+
+<p>
+Q: 如何快速将当前GTD文件从org-agenda-files中删除?
+</p>
+
+<pre class="example">
+A: C-c ] (M-x org-remove-file)
+</pre>
+
+<p>
+Q: 显示的Agenda中默认的是两周时间, 这个显示天数可以改吗?
+</p>
+
+<pre class="example">
+A: 可以设置变量org-agenda-span
+</pre>
+
+<p>
+Q:显示的Agenda中默认有Dairy的东西, 比如Flag Day, 怎么去掉?
+</p>
+
+<pre class="example">
+A: 通过设置org-agenda-include-diary变量
+
+(setq org-agenda-include-diary nil)
+</pre>
+
+<p>
+Q: 如何快速查看Org-capture的存储文件?
+</p>
+
+<pre class="example">
+C-u C-u C-c c
+</pre>
+</div>
+</div>
+<div id="outline-container-sec-9" class="outline-2">
+<h2 id="sec-9"><span class="section-number-2">9</span> Exporting</h2>
+<div class="outline-text-2" id="text-9">
+<p>
+Q: 如何把Org文件导出成其它格式的?
+</p>
+
+<pre class="example">
+A: 调用Export dispatcher:
+
+C-c C-e (M-x: org-export-dispatch)
+
+然后根据menu上的提示, 选择你需要导出的格式对应的字母即可.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+    <div>
+      <div class="post-meta">
+        <span title="post date" class="post-info">2015-08-21</span>
+        <span title="last modification date" class="post-info">2015-06-15</span>
+        <span title="tags" class="post-info"><a href="/tags/emacs/">Emacs</a> <a href="/tags/org/">Org</a></span>
+        <span title="author" class="post-info">李继刚</span>
+      </div>
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          //var disqus_developer = 1;
+          var disqus_identifier = "/blog/2015/08/21/2015年6月上旬技能「org-mode」/";
+          var disqus_url = "http://lijigang.github.io/blog/2015/08/21/2015年6月上旬技能「org-mode」/";
+          var disqus_shortname = 'lijigang';
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </section>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="/media/js/main.js"></script>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-49533446-2']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+      <div class="footer">
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.x (<a href="http://orgmode.org">Org mode</a> 8.x)</p>
+        <p>
+          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:lijigang &lt;at&gt; 360 &lt;dot&gt; cn">李继刚</a>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>

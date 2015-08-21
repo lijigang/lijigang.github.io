@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>你的知识需要管理 - 喜欢写代码的PM</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="李继刚" />
+    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  </head>
+  <body class="container">
+    <div>
+      <header class="masthead">
+        <h1 class="masthead-title"><a href="/">喜欢写代码的PM</a></h1>
+        <p>行有不得, 反求诸己</p>
+        <ul>
+          <li><a href="/learn/">Learn</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/concept/">Concept</a></li>
+          <li><a href="/notes/">Notes</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+        </ul>
+        <form method="get" id="searchform" action="http://www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="as_sitesearch" value="lijigang.github.io">
+        </form>
+      </header>
+    </div>
+
+<div>
+<div class="post">
+<h1>你的知识需要管理</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. <b>数据</b>, <b>信息</b>, <b>知识</b> 三者区别</a></li>
+<li><a href="#sec-2">2. 「显性知识」与「隐性知识」</a></li>
+<li><a href="#sec-3">3. 个人知识管理模型</a>
+<ul>
+<li><a href="#sec-3-1">3.1. 学习知识</a>
+<ul>
+<li><a href="#sec-3-1-1">3.1.1. 学什么?</a></li>
+<li><a href="#sec-3-1-2">3.1.2. 怎么学?</a></li>
+</ul>
+</li>
+<li><a href="#sec-3-2">3.2. 保存知识</a></li>
+<li><a href="#sec-3-3">3.3. 共享知识</a></li>
+<li><a href="#sec-3-4">3.4. 使用知识</a></li>
+<li><a href="#sec-3-5">3.5. 创新知识</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="figure">
+<p><img src="/assets/blog/2015/08/21/你的知识需要管理/pkm.jpg" alt="pkm.jpg" />
+</p>
+</div>
+
+<p>
+我们现在可以随时接入互联网, 随手获得海量的信息, 但这些信息是你的 <code>知识</code>
+吗? 每天上网, 各种新闻资讯, 小道八卦你都在第一时间了解到了, 为什么你还
+是没有感觉到什么进步?
+</p>
+
+<p>
+因为你看到的是信息, 这些信息甚至是各位小编给你精心编排过的, 你连整理这
+些信息的操作都没有, 更别提转换成自己的知识了. 这个过程就像是你总吃别人
+喂到嘴边的食物一样, 逐渐地习惯了这种吸收信息的方式之后, 你连主动思考,
+判别信息真伪的能力都慢慢丧失了.
+</p>
+
+<p>
+要想不断地增加自己的知识, 增强自己竞争力, 可以试着先从了解知识入手.
+</p>
+
+<p>
+这本书主要讲的就是个人知识管理的整个过程模型, 中间穿插着讲解了一些知识
+相关的概念.
+</p>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> <b>数据</b>, <b>信息</b>, <b>知识</b> 三者区别</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li><code>数据</code> 只是单纯的数字, 没有语境环境, 纯粹的数据没有任何意义.
+</li>
+<li><code>信息</code> 在一定语境环境下, 对事物的描述, 里面可能包含数据, 也可能不包含.
+</li>
+<li><code>知识</code> 也是一种信息, 是那种经过实践证明的, 可以用来决策和指导行动的信息.
+</li>
+</ul>
+
+<p>
+例如:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">类型</th>
+<th scope="col" class="left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">数据</td>
+<td class="left">478, 1600</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">信息</td>
+<td class="left">昨天微信公众号关注人数478人, 今天是1600人</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">知识</td>
+<td class="left">微信公众号关注人数突然猛涨, 说明昨天发表的内容比较受欢迎,</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">可以总结下昨天写作内容的精华, 后续可以参照.</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+通过上面对数据, 信息和知识的总结, 可以看出来三点:
+</p>
+
+<ol class="org-ol">
+<li>如果知识没有信息的输入, 将毫无用武之地.
+<ul class="org-ul">
+<li>知道「微信公众号关注人数猛涨, 说明文章受欢迎」这个知识, 但如果没
+有「昨天微信公共号关注人数猛涨」这条信息, 知识也将没什么用处.
+</li>
+
+<li>医生知道各种病理知识, 但如果没有病人找他看病, 他的知识也毫无用处.
+</li>
+</ul>
+</li>
+
+<li>如果只有数据和信息, 没有知识来判断, 数据和信息也将毫无用处.
+</li>
+
+<li>在当今这个时代, 数据和信息的获取十分容易, 相对来说, 知识的获取需要沉淀.
+</li>
+</ol>
+</div>
+</div>
+
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> 「显性知识」与「隐性知识」</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+知识可以分为「显性知识」与「隐性知识」.
+</p>
+
+<ul class="org-ul">
+<li><code>显性知识</code> 能够用语言, 文字, 肢体动作等方式来表达清楚的知识.
+</li>
+<li><code>隐性知识</code> 虽然知识如何做, 但却很难传达给其他人明白的知识.
+</li>
+</ul>
+
+<p>
+人的知识, 大部分其实都是隐性知识, 能显性化的部分较少. 「书不尽言, 言不
+尽意」指的就是这种情况. 你感觉到自己懂了, 张嘴却说不出来; 免强说出来了,
+也不是你真正想要表达的意思.
+</p>
+
+<p>
+隐性知识和显性知识之间可以互相转换. 你从书里或者课堂上尝到的显性知识,
+通过你在生活中的实践, 以及不断地总结反思, 可以转换成隐性知识. 你之前生
+活经验的一些体会, 也可以通过不断地提炼总结, 清楚地表达出来, 转换成显性
+知识.
+</p>
+
+<p>
+整体来看, 人应该主动增强自己隐性知识显性化的能力. 中医和西医, 就是很明
+显的隐性知识和显性知识分别做为主导的方向. 中医除了现成医书上写的那部分
+显性知识以外, 更多地是经验性地隐性知识. 这也就是为什么人们去找中医看病
+的时候, 普遍更喜欢找「老中医」的原因.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> 个人知识管理模型</h2>
+<div class="outline-text-2" id="text-3">
+<ol class="org-ol">
+<li>学习知识: 到底要学什么知识?
+</li>
+<li>保存知识: 看过的一些关键信息如何保存.
+</li>
+<li>知识共享: 让别人知道你知道
+</li>
+<li>知识使用: 让知识带来价值
+</li>
+<li>知识创新: 用创新来超越竞争
+</li>
+</ol>
+</div>
+
+<div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> 学习知识</h3>
+<div class="outline-text-3" id="text-3-1">
+</div><div id="outline-container-sec-3-1-1" class="outline-4">
+<h4 id="sec-3-1-1"><span class="section-number-4">3.1.1</span> 学什么?</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<p>
+根据你的价值观, 你的兴趣, 来选一个你的优势方向进行钻研.
+</p>
+
+<p>
+通过 <b>时间</b> 和 <b>价值</b> 组成的2*2矩阵, 针对不同象限使用不同的策略:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/08/21/你的知识需要管理/time_value.png" alt="time_value.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3-1-2" class="outline-4">
+<h4 id="sec-3-1-2"><span class="section-number-4">3.1.2</span> 怎么学?</h4>
+<div class="outline-text-4" id="text-3-1-2">
+<ol class="org-ol">
+<li>打好基础 : 行业经典书籍, 引用最多论文
+</li>
+<li>了解行业 : 与同行交流, 获取隐性知识
+</li>
+<li>跟进发展 : 行业博客, 会议.
+</li>
+<li>实践创新 : 实践后进行复盘.
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> 保存知识</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+不要做收藏帝!
+不要做收藏帝!
+不要做收藏帝!
+</p>
+
+<p>
+你收藏的东西, 你看过几次? 把你真正需要的东西, 用你自己的话进行表达; 把
+你需要依存在本地的文件, 按个人风格进行命名, 保证可以随时方便地找到它.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-3" class="outline-3">
+<h3 id="sec-3-3"><span class="section-number-3">3.3</span> 共享知识</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+知识需要数据和信息才能得到用武之地!
+</p>
+
+<p>
+要想得到数据和信息, 需要让别人知道你有这些知识.
+</p>
+
+<p>
+要想让别人知道你有这些知识, 你需要不断地进行分享, 让别人对你产生信任.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-4" class="outline-3">
+<h3 id="sec-3-4"><span class="section-number-3">3.4</span> 使用知识</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+<b>才华</b> 和 <b>知识</b> 本身毫无用处, 把它们应用到实践中的时候, 才真正有用.
+</p>
+
+<p>
+如何把知识应用到实践中? 大致有三种路线:
+</p>
+
+<ol class="org-ol">
+<li>把知识与项目相关联, 提供知识服务.
+</li>
+<li>把知识表现为专利形式, 销售专利服务.
+</li>
+<li>把知识产品化, 直接提供显性的产品.
+</li>
+</ol>
+
+<p>
+你有什么比别人都强的地方? 你会说三国外语?
+</p>
+
+<p>
+试着找翻译机构做些兼职服务!
+试着将你快速学外语的方法申请专利!
+试着将你学外语的方法产品化, 做成网站, 做成APP, 提供给需要的人使用!
+</p>
+
+<p>
+不同人所拥有的知识不一样, 哪些更有价值?
+</p>
+
+<p>
+用 <b>知识独特性</b> 和 <b>社会需求</b> 做一个2*2矩阵:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/08/21/你的知识需要管理/unique_requirement.png" alt="unique_requirement.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3-5" class="outline-3">
+<h3 id="sec-3-5"><span class="section-number-3">3.5</span> 创新知识</h3>
+<div class="outline-text-3" id="text-3-5">
+<blockquote>
+<p>
+创新就是要「建立一种新的生产函数」, 即「生产要素的重新组合」
+</p>
+</blockquote>
+
+<p>
+试着用 <b>新旧问题</b> 和 <b>新旧解决方案</b> 做一个2*2矩阵:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/08/21/你的知识需要管理/innovation.png" alt="innovation.png" />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+    <div>
+      <div class="post-meta">
+        <span title="post date" class="post-info">2015-08-21</span>
+        <span title="last modification date" class="post-info">2015-05-17</span>
+        <span title="tags" class="post-info"><a href="/tags/读书笔记/">读书笔记</a></span>
+        <span title="author" class="post-info">李继刚</span>
+      </div>
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          //var disqus_developer = 1;
+          var disqus_identifier = "/blog/2015/08/21/你的知识需要管理/";
+          var disqus_url = "http://lijigang.github.io/blog/2015/08/21/你的知识需要管理/";
+          var disqus_shortname = 'lijigang';
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </section>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="/media/js/main.js"></script>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-49533446-2']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+      <div class="footer">
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.x (<a href="http://orgmode.org">Org mode</a> 8.x)</p>
+        <p>
+          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:lijigang &lt;at&gt; 360 &lt;dot&gt; cn">李继刚</a>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
