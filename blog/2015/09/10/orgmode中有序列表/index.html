@@ -6,9 +6,8 @@
   <meta name="author" content="李继刚" />
 
   <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
-
   <link rel="stylesheet" href="/media/css/main.css" type="text/css">
-  <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
 </head>
 
   <body class="container">
@@ -39,8 +38,7 @@
 <section id="content" role="main">
     <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
-        <div class="col-md-8 col-sm-12">
-            <h2>Orgmode中有序列表</h2>
+            <h1>Orgmode中有序列表</h1>
             <p>
 在Org手册中， 关于 <code>ordered list</code> 功能是这么描述的：
 </p>
@@ -91,19 +89,20 @@ test normal ordered list
 <blockquote>
 <p>
 test ordered list
+\5. test start from other number
+\6. test continue
 </p>
-<ol class="org-ol">
-<li>test start from other number
-</li>
-<li>test continue
-</li>
-</ol>
 </blockquote>
 
 <p>
 导出的PDF效果跟预想的不一样咯, 编号被自动处理成了从1开始:
-<img src="/assets/blog/2015/09/10/orgmode中有序列表/org-ol-surprise.png" alt="org-ol-surprise.png" />
 </p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/09/10/orgmode中有序列表/org-ol-surprise.png" alt="org-ol-surprise.png" />
+</p>
+</div>
 
 <p>
 这时候按手册中所说, 应该这么写org:
@@ -224,18 +223,12 @@ Watch this line. indention deeper than the list.
 </p>
 </div>
 
-        </div>
     </div>
 </section>
 
 
 <footer id="footer">
-
-    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
-        <div class="col-md-2"></div>
-        Send comments, critique and suggestions to <a href="mailto:lijigang &lt;at&gt; 360 &lt;dot&gt; cn">李继刚</a>.
-        Powered by <a href="https://github.com/kelvinh/org-page">org-page</a>
-    </div>
+    <br />
 </footer>
 
   </body>

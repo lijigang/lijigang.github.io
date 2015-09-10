@@ -1,8 +1,11 @@
 body {
     font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     font-size: 18px;
-    margin: 5% 20% 5% 20%;
-    padding: 2% 5% 5% 5%;
+}
+
+post-wy {
+    margin: 10% 30% 10% 30%;
+    padding: 4% 10% 10% 10%;
     width: 50%;
     line-height: 150%;
     border: 1px solid LightGrey;
@@ -10,6 +13,7 @@ body {
 
 H1 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    text-align: center;
 }
 
 H2 {
@@ -28,7 +32,6 @@ H3 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
     margin-top: 40px;
     margin-bottom: 30px;
-    border-bottom: 1px LightGrey solid;
     width: 98%;
     line-height: 150%;
     color: #666666;
@@ -74,16 +77,6 @@ code {
     font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
     font-size: 90%;
 }
-
-
-a {
-    text-decoration: none;
-    cursor: crosshair;
-    border-bottom: 1px dashed Red;
-    padding: 1px;
-    color: black;
-}
-
 
 a:hover {
 	background-color: LightGrey;
