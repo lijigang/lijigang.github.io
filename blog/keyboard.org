@@ -1,5 +1,6 @@
 #+TITLE: 键盘应该这样改键
 #+TAGS: 效率, Hack
+#+options: toc:nil
 
 ** 为什么要改键
 
