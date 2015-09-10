@@ -1,0 +1,116 @@
+#+title: 「宗师」成长路线
+#+author: 李继刚
+
+当我们去回顾任何一个行业的 *大牛* 是如何从零基础开始入门学习, 到他成长为一
+代宗师的整个学习成长路线, 经常会发现现在的路径图:
+
+[[./images/mastery.png]]
+
+* 学习者类型
+
+我们就先以 *盲打* 这个技能来举例吧. 回想下你刚开始学习打字的时候, 看着键盘
+上的字母, 你好奇为什么26个英文字母没有从上往下顺序排列, 而是这样杂乱无章地
+分布. 但不管怎样, 键盘就是这样了, 你需要去学习它, 适应它. 你想打个 Hello,
+你眼在整个键盘上找H键, 右食指按下去, 看了下屏幕, 嗯, 屏幕上显示了 *H*, 继
+续低头在键盘上找e键, 然后抬头看屏幕验证是否正确. 接着继续低头找l,然后找o,
+抬头看屏幕上显示了 *Hello*, 长舒一口气, 原来打字就是这么一个过程啊.
+
+然后你看了下旁边的小伙在那对着屏幕上的聊天窗口, 手指飞快地在键盘上击打, 无
+比潇洒帅气. 你下定决心也想像他那样打字. 你开始找人去问, 你开始网上找教程,
+你知道了这种打字方式叫做 *盲打*, 你也知道了练盲打的基本指法, 左小指按QAZ,
+左无名指按WSX, 你开始试着不看键盘, 心中默默背着键位, 手指笨拙地击键, 打字
+速度比你低头找键竟然还要慢!
+
+这时候就出现了选择空间:
+
+有的人选择放弃练习盲打, 继续原来的低头找键的打字方式. 兴趣转向其它技能上了,
+这种人暂且称作 *浅尝辄止型* (dabbler).
+
+[[./images/dabbler.png]]
+
+有的人选择加倍的投入精力练习盲打, 一定要突破这个难题. 有可能很快就见效果了,
+打字速度确实比原来快了很多, 但也有可能没有很快见效, 持续了一段时间, 发现打
+字速度没有什么长进, 还有原来差不多. 这种人会感到极大的挫败, 转而放弃继续练
+习. 暂且称这种人为 *偏执狂型* (obsessive)
+
+[[./images/obsessive.png]]
+
+有的人选择无视这个难题, 适应了当前的打字速度, 既不努力练习, 想着提升自己,
+也不转身放弃, 不再坚持. 而是安于当下, 随遇而安. 姑且称这种人为 *随遇而安
+型* (hacker)
+
+[[./images/hacker.png]]
+
+有的人选择正视平台期, 热爱平台期, 在平台期努力练习, 掌握这个阶段自己还比较
+生疏的技巧, 直到下一个突飞猛进的到来. 这种人就是我们说的 *宗师型* (mastery)
+
+[[./images/mastery.png]]
+
+做这些选择, 可能跟个人的性格, 成长环境, 教育背景等等方面有关, 正是这些选择,
+造就了同样起跑线上的同学, 在一段时间后, 成就差异会那么的大.
+
+* 如何成为宗师型学习者
+
+人与其它动物的最大区别就在于, *人是学习型动物*.
+
+在儿童时期, 整个世界都是你的指导者. 你从身边的人的表情, 语言, 来学习和了解这个世界.
+
+步入学生时代以后, 有很多东西的学习路径需要你自己来摸索.
+
+[[http://book.douban.com/subject/1461005/][「Mastery」]] 这本书中, 作者给出了五个宗师成长路线的关键点.
+
+** Instruction
+
+自学在很大程度上是撞大运式的学习. 确实也会有些时候, 因为你不知道现有框架的
+限制, 会有一些天马行空的做法, 但更大的可能性是在重复的制造轮子.
+
+找一个好的指导者, 一个可以跟你互动, 有耐心, 有经验的指导者, 是成为「宗师」
+的第一个关键点.
+
+** Practice
+
+练习, 对其它三类学习者来说都是一个 *动词* , 是实现目标, 达到目的的手段.
+
+练习, 对于 *宗师型* 学习者来说, 是一个 *名词* , 它就是你要掌握的技能本身,
+无关其它.
+
+#+BEGIN_QUOTE
+What is mastery?
+
+At the heart of it, mastery is practice.
+
+Mastery is staying on the path.
+#+END_QUOTE
+
+** Surrender
+放空自己, 对自己选定的老师和所选技能的基础动作保持崇敬, 向他们低头.
+
+如果你学游泳, 面对刚学游泳时在岸边踩水的指令, 不要怀疑, 听从它.
+
+如果你学盲打, 面对需要熟记每根手指击键内容的教程, 不要怀疑, 听从它.
+
+#+BEGIN_QUOTE
+The essence of boredom is to be found in the obsessive search for novelty.
+#+END_QUOTE
+
+=For the master, surrender means there are no experts. There are only learners.=
+
+** Intentionality
+
+意念, 在你做技能练习的时候, 除了身体力行地锻炼以外, 在头脑中想象下动作的完
+成, 精神集中在某些部位上, 都会产生不一样的训练效果.
+
+#+BEGIN_QUOTE
+The first step is to create the vision, because when you see the vision
+there -- the beautiful vision -- that creates the "want power".
+#+END_QUOTE
+
+** The Edge
+
+超越自己的极限, 不断地挑战自己.
+
+#+BEGIN_QUOTE
+Most of the people we know as masters share her stupid, heroic desire to
+use herself to the limit, to finish at all cost, to attain the
+unattainable.
+#+END_QUOTE
