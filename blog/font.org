@@ -8,7 +8,7 @@
 
 与此相对, 字符宽度不尽相同的电脑字体称为 *比例字体* (Proportional Font)
 
---Wikipedia
+                        --Wikipedia
 #+END_QUOTE
 
 上面的定义对应到实例如下:
