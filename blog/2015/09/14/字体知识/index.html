@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>字体知识 - 喜欢写代码的PM</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="李继刚" />
+
+  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
+</head>
+
+  <body class="container">
+<header id="header">
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
+        <div class="container-fluid">
+<div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">喜欢写代码的PM</a>
+        </div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/">Blog</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+        </ul>
+</div>
+</div>
+    </nav>
+</body>
+</header>
+
+<section id="content" role="main">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
+        <div class="col-md-2"></div>
+            <h1>字体知识</h1>
+            <div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. 什么是等宽字体</a></li>
+<li><a href="#sec-2">2. 什么是衬线体</a></li>
+<li><a href="#sec-3">3. Org-table中英文混合时对齐问题</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> 什么是等宽字体</h2>
+<div class="outline-text-2" id="text-1">
+<blockquote>
+<p>
+等宽字体 (Monospaced Font) 是指字符宽度相同的电脑字体.
+</p>
+
+<p>
+与此相对, 字符宽度不尽相同的电脑字体称为 <b>比例字体</b> (Proportional Font)
+</p>
+
+<p>
+&#x2013;Wikipedia
+</p>
+</blockquote>
+
+<p>
+上面的定义对应到实例如下:
+</p>
+
+<p>
+(上)比例字体
+(下)等宽字体
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/09/14/字体知识/monospace.png" alt="monospace.png" />
+</p>
+</div>
+
+<p>
+由定义可知, 在等宽字体中, 字母i,j 显得两侧余白较多, 字母w,m则相对拥挤.
+</p>
+
+<p>
+中文字体基本上都作为等宽字体处理, 但有些中文字体中, 由于同时包含英文的半角
+字符, 因此也含有比例字体, 形成一个字体中两种类型混杂的情况.
+</p>
+
+<p>
+比如 <b>宋体</b> 全部是等宽字体, 所以排版英文时会显得很不自然. <b>微软雅黑</b> 字体
+中, 半角英文字符是 <b>比例字体</b>, 全角字符是 <b>等宽字体</b>.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+</colgroup>
+
+<colgroup>
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">常见的等宽字体</th>
+<th scope="col" class="left">常见的比例字体</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">DejaVu Sans Mono</td>
+<td class="left">Bitstream</td>
+</tr>
+
+<tr>
+<td class="left">Monospace</td>
+<td class="left">Century</td>
+</tr>
+
+<tr>
+<td class="left">文泉驿等宽正黑</td>
+<td class="left">Helvetica</td>
+</tr>
+
+<tr>
+<td class="left">Courier</td>
+<td class="left">Times</td>
+</tr>
+
+<tr>
+<td class="left">Monaco</td>
+<td class="left">Arial</td>
+</tr>
+
+<tr>
+<td class="left">细明体</td>
+<td class="left">Times New Roman</td>
+</tr>
+
+<tr>
+<td class="left">宋体</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> 什么是衬线体</h2>
+<div class="outline-text-2" id="text-2">
+<blockquote>
+<p>
+衬线体 (Serif) 指的是 <b>有衬线的字体</b>.
+</p>
+
+<p>
+<b>衬线</b> 指的是字形笔画末端的装饰细节部分.
+</p>
+
+<p>
+与之相对的则是 无衬线体 (Sans-serif)
+</p>
+</blockquote>
+
+<p>
+实际效果如下图 (注意看字母A的底部):
+</p>
+
+<p>
+无衬线字体:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/09/14/字体知识/sans-serif.png" alt="sans-serif.png" />
+</p>
+</div>
+
+<p>
+有衬线字体:
+<img src="/assets/blog/2015/09/14/字体知识/serif.png" alt="serif.png" />
+</p>
+
+
+<p>
+在印刷作品中, 衬线字体更多用于正文印刷, 因为它被认为比无衬线体更易于阅读,
+是比较正统的. 无衬线体更多用于标题等, 可以引起读者注意.
+</p>
+
+
+<p>
+在计算机领域倾向使用无衬线字体, 以方便在显示器上显示. 因为衬线字体在笔划上
+有过多的点缀, 在屏幕上阅读时, 很容易引起视觉疲劳.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Org-table中英文混合时对齐问题</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+在Emacs里使用org-table时, 若同时存在中文和英文, 表格效果如下图:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/09/14/字体知识/orgtable-unaligned.jpg" alt="orgtable-unaligned.jpg" />
+</p>
+</div>
+
+<p>
+解决办法就是分别设置中文和英文的字体大小, 目标是让一个中文字符所占的宽度等
+于两个英文字符的宽度.
+</p>
+
+<p>
+Emacs微信群里的 <code>@求其</code> 同学收藏的一个函数可以方便的分别设置中文和英文字体
+大小:
+</p>
+
+<pre class="example">
+(defun set-font (english chinese english-size chinese-size)
+  (set-face-attribute 'default nil :font
+                      (format   "%s:pixelsize=%d"  english english-size))
+  (dolist (charset '(kana han symbol cjk-misc bopomofo))
+    (set-fontset-font (frame-parameter nil 'font) charset
+                      (font-spec :family chinese :size chinese-size))))
+
+(set-font   "Source Code Pro" "Hiragino Sans GB" 16 20)
+</pre>
+
+<p>
+执行后的效果如下图:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/09/14/字体知识/orgtable-aligned.png" alt="orgtable-aligned.png" />
+</p>
+</div>
+
+<p>
+好处是中英文混合时, 终于可以对齐了.
+</p>
+
+<p>
+缺点是中文字体比英文字体大的比较多, 看起来有点怪.
+</p>
+</div>
+</div>
+
+    </div>
+</section>
+
+
+<footer id="footer">
+    <br />
+</footer>
+
+  </body>
+</html>
