@@ -4,7 +4,7 @@
 Shell, Terminal, Console.
 
 计算机相关专业的同学应该不会对这三个名词感到陌生, 但真要说明白这三者的
-区别与联系, 还真不一定有几个人能做到.
+区别与联系, 估计就不一定有几个人能做到.
 
 在 [[http://superuser.com/questions/144666/what-is-the-difference-between-shell-console-and-terminal][superuser]] 上高票回答说清楚了一部分:
 
