@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Orgmode中有序列表 - 人丑就该多读书</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="李继刚" />
+
+  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
+</head>
+
+  <body class="container">
+<header id="header">
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
+        <div class="container-fluid">
+<div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">人丑就该多读书</a>
+        </div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/">Blog</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="http://www.zhihu.com/people/lijigang.com">知乎</a></li>
+        </ul>
+</div>
+</div>
+    </nav>
+</body>
+</header>
+
+<section id="content" role="main">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
+        <div class="col-md-2"></div>
+            <h1>Orgmode中有序列表</h1>
+            <p>
+在Org手册中， 关于 <code>ordered list</code> 功能是这么描述的：
+</p>
+
+<blockquote>
+<p>
+Ordered list items start with a numeral followed by either a period or a
+right paren- thesis, such as ‘1.’ or ‘1)’. If you want a list to start
+with a different value (e.g., 20), start the <b>text</b> of the item with [@20].
+</p>
+</blockquote>
+
+<p>
+这里主要说明了如何使用Orgmode中的有序列表编号功能：
+</p>
+
+<ol class="org-ol">
+<li>只要是以数字后面紧跟着一个点或者右括号， 就算是在使用有序列表了
+</li>
+<li>如果你想指定序号，那就需要在那个项的描述文本的开头部分加上[@你想开始的数字]
+</li>
+</ol>
+
+<p>
+第一点很好理解， 直接使用下面的Org内容:
+</p>
+<blockquote>
+<p>
+test normal ordered list
+</p>
+<ol class="org-ol">
+<li>normal ordered list started from 1
+</li>
+<li>test continue
+</li>
+</ol>
+</blockquote>
+
+<p>
+导出的PDF效果跟预想的完全一样:
+<img src="/assets/blog/2015/09/19/orgmode中有序列表/org-ol-normal.png" alt="org-ol-normal.png" />
+</p>
+
+<p>
+但第二点就值得注意下了，比如你想要列表不要从1开始， 而是从5开始， 你写了下面这样的Org文本：
+</p>
+
+<blockquote>
+<p>
+test ordered list
+\5. test start from other number
+\6. test continue
+</p>
+</blockquote>
+
+<p>
+导出的PDF效果跟预想的不一样咯, 编号被自动处理成了从1开始:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/09/19/orgmode中有序列表/org-ol-surprise.png" alt="org-ol-surprise.png" />
+</p>
+</div>
+
+<p>
+这时候按手册中所说, 应该这么写org:
+</p>
+
+<blockquote>
+<p>
+test ordered list not start from 1
+</p>
+<ol class="org-ol">
+<li value="5">start list from 5
+</li>
+<li>guess what number is this?
+</li>
+</ol>
+</blockquote>
+
+<p>
+这时候的效果就是下面这样了:
+<img src="/assets/blog/2015/09/19/orgmode中有序列表/org-ol-want.png" alt="org-ol-want.png" />
+</p>
+
+<p>
+关于有序列表， 手册中还有一点需要注意：
+</p>
+<blockquote>
+<p>
+An item ends before the next line that is less or equally indented than
+its bullet/number.
+</p>
+
+<p>
+A list ends whenever every item has ended, which means before any line
+less or equally indented than items at top level.
+</p>
+
+<p>
+ It also ends before two blank lines15. In that case, all items are
+closed.
+</p>
+</blockquote>
+
+<p>
+这里主要讨论了列表和列表项各自在什么情况下算是结束状态.
+</p>
+
+<p>
+如果你在使用Orgmode的有序列表时, 遇到过编号1, 编号2, 写了一段文本, 编号3,
+但导出的结果却是编号1, 编号2, 一段文本, 编号1..
+</p>
+
+<p>
+那上面这三句话就是解释这种情况的~
+</p>
+
+<p>
+一个列表项, 也就是我们写的1. bala 2. bala 这些, 当下面的文本的 <b>缩进</b> 和数
+字编号相同, 或者比数字编号还要少的时候, 就算是结束了. 这时候后面再插入3.
+bala 这种编号, 即会从头开始计数, 即又变成了1. bala.
+</p>
+
+<p>
+也就是说, 你在写完1. bala这个有序项内容, 如果想在下面写一段文字的话, 需要
+把这段文本的缩进更深一层, 让其大于数字标号所在缩进位置.
+</p>
+
+<p>
+例如下面的Org文本:
+</p>
+<blockquote>
+<p>
+test continue numbering
+</p>
+<ol class="org-ol">
+<li>test
+</li>
+<li>test
+</li>
+</ol>
+
+<p>
+watch this line. indention equal the list.
+</p>
+
+<ol class="org-ol">
+<li>watch this list item.
+</li>
+</ol>
+</blockquote>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2015/09/19/orgmode中有序列表/org-ol-oh-no.png" alt="org-ol-oh-no.png" />
+</p>
+</div>
+
+<blockquote>
+<p>
+test continue numbering
+</p>
+<ol class="org-ol">
+<li>test
+</li>
+<li>test
+
+<p>
+Watch this line. indention deeper than the list.
+</p>
+</li>
+
+<li>watch this list item.
+</li>
+</ol>
+</blockquote>
+
+<div class="figure">
+<p><img src="/assets/blog/2015/09/19/orgmode中有序列表/org-ol-oh-yes.png" alt="org-ol-oh-yes.png" />
+</p>
+</div>
+
+    </div>
+</section>
+
+
+<footer id="footer">
+    <br />
+</footer>
+
+  </body>
+</html>
