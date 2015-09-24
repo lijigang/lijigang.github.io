@@ -1,5 +1,6 @@
 #+TITLE: IDEA读书方法
 #+TAGS: 读书
+#+options: toc:nil
 
 * 个人读书方法
 
