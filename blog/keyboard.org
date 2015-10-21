@@ -92,7 +92,6 @@
 现在你单独按键盘左边的control键时, 发送的是Esc. (使用Vim的同学笑了~~). 按下
 Control+其它键时, 仍然发送Control, 跟之前使用完全一样.
 
-
 ** Caps Lock改到Control
 
 在Mac OS下, 把Caps Lock键映射到Control键, 系统设置就可以了.
@@ -118,10 +117,18 @@ Control+其它键时, 仍然发送Control, 跟之前使用完全一样.
 它键的组合就不会和其它按键冲突. 比如设置右Command键为「ctrl+shift+cmd+opt」,
 这样当我们按右command+F时, 相当于按了「ctrl+shift+cmd+opt+F」.
 
-这种给指定按键映射为多个按键的操作, 同样可以通过Karabiner完成.
+这种给指定按键映射为多个按键的操作, 同样可以通过Seil 和 Karabiner完成.
 
-1. 打开Karabiner, 选择「Misc & Uninstall」
-2. 选择「Open private.xml」
+首先, 我们需要在Seil这个软件中, 把右Cmd键改成F19的码值.
+
+1. 勾选「Change Command_R」
+2. 在右侧的keycode中填入F19的码值 80
+
+
+接着, 我们打开Karabiner:
+
+1. 选择「Misc & Uninstall」
+2. 点击「Open private.xml」
 3. 输入以下内容
 
 #+BEGIN_SRC nxml
@@ -143,7 +150,9 @@ Control+其它键时, 仍然发送Control, 跟之前使用完全一样.
 
 #+END_SRC
 
-然后我们可以怎么玩这个键呢?
+现在我们按键盘右侧的Command键, 其实就是发送的F19的码值. 而我们又设置了按
+F19的时候, 就发送「Command+Option+Shift+Control」, 这个组合键很少会和其它
+的快捷键有冲突. 然后我们可以怎么玩这个键呢?
 
 最简单的使用办法就是把这个键做为激活应用程序快捷键, 右Cmd+F打开Firefox, 右
 Cmd+E打开Excel, 这些快捷键都是全局生效的, 你在任意程序中按下, 都可以激活你设
