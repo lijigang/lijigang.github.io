@@ -102,4 +102,5 @@ hr {
 #outline-container-sec- {
     margin: 0 auto;
     max-width: 700px;
+    text-align: justify;
 }
