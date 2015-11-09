@@ -106,6 +106,6 @@ hr {
     text-align: justify;
     margin: 0px auto;
     padding: 5px 30px;
-    max-width: 780px;
-    border: 1px solid LightGrey;
+    max-width: 800px;
+    /* border: 1px solid LightGrey; */
 }
