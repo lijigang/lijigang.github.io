@@ -101,7 +101,11 @@ hr {
 }
 
 #outline-container-sec- {
-    margin: 0 auto;
-    max-width: 700px;
+    /* margin: 0 auto; */
+    /* max-width: 700px; */
     text-align: justify;
+    margin: 70px auto 0;
+    padding: 5px 30px;
+    max-width: 780px;
+    border: 1px solid LightGrey;
 }
