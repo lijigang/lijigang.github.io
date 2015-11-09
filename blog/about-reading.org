@@ -40,17 +40,17 @@
 读 =The 80-20 Principle= 一书 ([[http://pan.baidu.com/s/1dDARhSH][下载地址]]), 看到80/20原则的定义如下:
 
 #+BEGIN_QUOTE
-The 80/20 Principle asserts that a minority of causes, inputs or effort
-usually lead to a majority of the results, outputs or rewards.
+The 80/20 Principle asserts that a minority of causes, inputs or effort usually
+lead to a majority of the results, outputs or rewards.
 #+END_QUOTE
 
-80(%) 与 20(%) 只是作者为了形象化表示 majority 和 minority 这两个概念而举
-的数字罢了, 并不代表一定是这个数值. 实际数值可能是 99/1 、90/10 等等.
+80(%) 与 20(%) 只是作者为了形象化表示 majority 和 minority 这两个概念而举的数字
+罢了, 并不代表一定是这个数值. 实际数值可能是 99/1 、90/10 等等.
 
 ** Imagination
 
-读到这一句后, 头脑中首先会把这里面的抽象名词给具象化, 就像作者用80和20两个
-数值来具象 majority 和 minority 一样.
+读到这一句后, 头脑中首先会把这里面的抽象名词给具象化, 就像作者用80和20两个数值来
+具象 majority 和 minority 一样.
 
 好好读下定义, 该原则应用于两组数据中间, 一组是输入, 另一组是输出.
 
@@ -60,15 +60,15 @@ usually lead to a majority of the results, outputs or rewards.
 
 ** Draw
 
-把头脑中的具象化后的东西, 用笔在纸上画出来. 随着不断地阅读后面的内容, 把相
-关的东西在这个具象化的图画上进行添加.
+把头脑中的具象化后的东西, 用笔在纸上画出来. 随着不断地阅读后面的内容, 把相关的东
+西在这个具象化的图画上进行添加.
 
 [[./images/inputs-outputs.png]]
 
 ** Experience
 
-对着画出来的图画, 开始尝试联想之前的生活经历, 看看哪些可以经历可以用这个原
-理来解释说明.
+对着画出来的图画, 开始尝试联想之前的生活经历, 看看哪些可以经历可以用这个原理来解
+释说明.
 
 - 一天上班8个小时, 但只有2个小时的精力投入产生了80%的工作产出?
 - 上学时的奖学金, 绝大部分都被20%的人给拿走了, 而且是everytime?
@@ -86,11 +86,11 @@ usually lead to a majority of the results, outputs or rewards.
 因为它 =反直觉=
 #+END_SRC
 
-我们通常认为「汗水不会骗人」、「一分耕耘, 一分收获」, 也就是50%的投入差不
-多就会收获50%的产出.
+我们通常认为「汗水不会骗人」、「一分耕耘, 一分收获」, 也就是50%的投入差不多就会
+收获50%的产出.
 
-80/20原则明确指出这个世界是不平衡的 (unbalanced), 有些东西虽然很少, 但确实
-比其它的同类更为重要. 即:
+80/20原则明确指出这个世界是不平衡的 (unbalanced), 有些东西虽然很少, 但确实比其它
+的同类更为重要. 即:
 
 - 不是每个用户都是同等重要, 有些人比其它人要重要的多. (联想 「引爆点」 书
   中内容, 知乎大V, 微博大V, ...)
@@ -101,6 +101,6 @@ usually lead to a majority of the results, outputs or rewards.
 
 *** 后续需要做出哪些改变?
 
-遇到事情, 先找大头. 什么是那最重要的20%? 找到它, 优化它, 其它的80%, 如果可
-以delegate就转出去, 如果必须自己操作, 就尝试优化资源配置, 试下重排资源, 提
-升这部分的资源利用率.
+遇到事情, 先找大头. 什么是那最重要的20%? 找到它, 优化它, 其它的80%, 如果可以
+delegate就转出去, 如果必须自己操作, 就尝试优化资源配置, 试下重排资源, 提升这部分
+的资源利用率.
