@@ -37,7 +37,6 @@
 </header>
 
 <section id="content" role="main">
-    # <div id="outline-container-sec-" class="row" style="padding-top: 70px">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
             <h1>字体知识</h1>
@@ -74,8 +73,7 @@
 </p>
 
 <p>
-(上)比例字体
-(下)等宽字体
+(上)比例字体(下)等宽字体
 </p>
 
 
@@ -89,13 +87,13 @@
 </p>
 
 <p>
-中文字体基本上都作为等宽字体处理, 但有些中文字体中, 由于同时包含英文的半角
-字符, 因此也含有比例字体, 形成一个字体中两种类型混杂的情况.
+中文字体基本上都作为等宽字体处理, 但有些中文字体中, 由于同时包含英文的半角字符,
+因此也含有比例字体, 形成一个字体中两种类型混杂的情况.
 </p>
 
 <p>
-比如 <b>宋体</b> 全部是等宽字体, 所以排版英文时会显得很不自然. <b>微软雅黑</b> 字体
-中, 半角英文字符是 <b>比例字体</b>, 全角字符是 <b>等宽字体</b>.
+比如 <b>宋体</b> 全部是等宽字体, 所以排版英文时会显得很不自然. <b>微软雅黑</b> 字体中, 半
+角英文字符是 <b>比例字体</b>, 全角字符是 <b>等宽字体</b>.
 </p>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -187,20 +185,19 @@
 </div>
 
 <p>
-有衬线字体:
-<img src="/assets/blog/2015/11/09/字体知识/serif.png" alt="serif.png" />
+有衬线字体: <img src="/assets/blog/2015/11/09/字体知识/serif.png" alt="serif.png" />
 </p>
 
 
 <p>
-在印刷作品中, 衬线字体更多用于正文印刷, 因为它被认为比无衬线体更易于阅读,
-是比较正统的. 无衬线体更多用于标题等, 可以引起读者注意.
+在印刷作品中, 衬线字体更多用于正文印刷, 因为它被认为比无衬线体更易于阅读,是比较
+正统的. 无衬线体更多用于标题等, 可以引起读者注意.
 </p>
 
 
 <p>
-在计算机领域倾向使用无衬线字体, 以方便在显示器上显示. 因为衬线字体在笔划上
-有过多的点缀, 在屏幕上阅读时, 很容易引起视觉疲劳.
+在计算机领域倾向使用无衬线字体, 以方便在显示器上显示. 因为衬线字体在笔划上有过多
+的点缀, 在屏幕上阅读时, 很容易引起视觉疲劳.
 </p>
 </div>
 </div>
@@ -219,24 +216,22 @@
 </div>
 
 <p>
-解决办法就是分别设置中文和英文的字体大小, 目标是让一个中文字符所占的宽度等
-于两个英文字符的宽度.
+解决办法就是分别设置中文和英文的字体大小, 目标是让一个中文字符所占的宽度等于两个
+英文字符的宽度.
 </p>
 
 <p>
-Emacs微信群里的 <code>@求其</code> 同学收藏的一个函数可以方便的分别设置中文和英文字体
-大小:
+Emacs微信群里的 <code>@求其</code> 同学收藏的一个函数可以方便的分别设置中文和英文字体大小:
 </p>
 
 <pre class="example">
-(defun set-font (english chinese english-size chinese-size)
-  (set-face-attribute 'default nil :font
-                      (format   "%s:pixelsize=%d"  english english-size))
-  (dolist (charset '(kana han symbol cjk-misc bopomofo))
-    (set-fontset-font (frame-parameter nil 'font) charset
-                      (font-spec :family chinese :size chinese-size))))
+(defun set-font (english chinese english-size chinese-size) (set-face-attribute
+  'default nil :font (format "%s:pixelsize=%d" english english-size)) (dolist
+  (charset '(kana han symbol cjk-misc bopomofo)) (set-fontset-font
+  (frame-parameter nil 'font) charset (font-spec :family chinese :size
+  chinese-size))))
 
-(set-font   "Source Code Pro" "Hiragino Sans GB" 16 20)
+(set-font "Source Code Pro" "Hiragino Sans GB" 16 20)
 </pre>
 
 <p>
