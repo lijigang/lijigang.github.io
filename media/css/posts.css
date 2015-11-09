@@ -84,6 +84,7 @@ a:hover {
 
 
 img {
+    width: 100%;
     display: block;
     box-shadow: 0 0 10px #555;
     border-radius: 6px;
