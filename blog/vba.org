@@ -4,17 +4,17 @@
 
 #+BEGIN_QUOTE
 Visual Basic for Applications (VBA) is an implementation of Microsoft's
-event-driven programming language, Visual Basic 6, and its associated
-integrated development environment (IDE).
+event-driven programming language, Visual Basic 6, and its associated integrated
+development environment (IDE).
 
 -- Wikipedia
 #+END_QUOTE
 
-看起来很厉害的样子, 到底是啥东东? 简单地说, VBA就是可以在微软Office软件里
-运行的代码, 这些代码可以操控Office软件, 包括菜单, 数据等等.
+看起来很厉害的样子, 到底是啥东东? 简单地说, VBA就是可以在微软Office软件里运行的代
+码, 这些代码可以操控Office软件, 包括菜单, 数据等等.
 
-本文主要针对在Excel中使用VBA进行介绍, 其它Word, PPT都类似, 主要区别就是各
-对象的数据类型不同, 这些如果需要可以查阅相关API接口信息.
+本文主要针对在Excel中使用VBA进行介绍, 其它Word, PPT都类似, 主要区别就是各对象的数
+据类型不同, 这些如果需要可以查阅相关API接口信息.
 
 ** 为什么需要VBA
 
@@ -40,12 +40,12 @@ Excel本身有很多系统函数, 里面支持Excel各种功能.
 
 ** VBA里有什么数据类型
 
-在之前的文章 [[http://t.cn/R25cYjA][计算机科学是什么鬼]] 中有讲过, 编程就是把现实世界中的问题, 用计
-算机编程语言(Control Structure)给描述出来, 再把对应的算法给表述出来.
+在之前的文章 [[http://t.cn/R25cYjA][计算机科学是什么鬼]] 中有讲过, 编程就是把现实
+世界中的问题, 用计算机编程语言(Control Structure)给描述出来, 再把对应的算法给表述
+出来.
 
-这两步过程中, =算法= 这一步算是通用能力, 与编程语言无关. 所以, 学任何编程
-语言, 都需要先了解下该语言都支持哪些数据类型, 具体的Control Structure是什
-么语法.
+这两步过程中, =算法= 这一步算是通用能力, 与编程语言无关. 所以, 学任何编程语言, 都
+需要先了解下该语言都支持哪些数据类型, 具体的Control Structure是什么语法.
 
 VBA中的数据类型可以看作有两种:
 
@@ -70,51 +70,35 @@ VBA中的数据类型可以看作有两种:
    - Names
    - Comment
 
-其中, 各个Object Data还有各自的N多属性以及继承出来的对象, 这些可以在具体使
-用过程中, 查阅相关API接口文档.
+其中, 各个Object Data还有各自的N多属性以及继承出来的对象, 这些可以在具体使用过程中,
+查阅相关API接口文档.
 
 而VBA中的Control Structure 对应的语法如下:
 
 *** If...Then
 
 #+BEGIN_SRC
-If Range("A1") > 5 Then
-    Msgbox "Big"
-ElseIf Range("A1") > 3 Then
-    Msgbox "Middle"
-Else
-    Msgbox "Small"
-End If
+If Range("A1") > 5 Then Msgbox "Big" ElseIf Range("A1") > 3 Then Msgbox "Middle"
+    Else Msgbox "Small" End If
 #+END_SRC
 
 *** Select Case
 
 #+BEGIN_SRC
-Select Case Range("A1")
-    Case Is > 5
-        Msgbox "Big"
-    Case Is > 3
-        Msgbox "Middle"
-    Case Else
-        Msgbox "Small"
-End Select
+Select Case Range("A1") Case Is > 5 Msgbox "Big" Case Is > 3 Msgbox "Middle" Case
+    Else Msgbox "Small" End Select
 #+END_SRC
 
 *** For...Next
 
 #+BEGIN_SRC
-For i=1 to 100
-    Cells(i, 1).value = i
-Next
+For i=1 to 100 Cells(i, 1).value = i Next
 #+END_SRC
 
 *** For Each ... Next
 
 #+BEGIN_SRC
-For Each sht In Worksheets
-    Cells(i, 1) = sht.Name
-    i = i + 1
-Next sht
+For Each sht In Worksheets Cells(i, 1) = sht.Name i = i + 1 Next sht
 #+END_SRC
 
 ** VBA有哪些应用
@@ -122,20 +106,12 @@ Next sht
 比如, 我们想对指定区域中的所有满足条件的数字进行一些格式设置, 可以通过如下的代码:
 
 #+BEGIN_SRC
-Sub fontSet()
-    Dim c As Range
+Sub fontSet() Dim c As Range
 
     For Each c In Range("A1").CurrentRegion
 
-        If c.Value > 80 Then
-            With c.Font
-                .Size = 18
-                .Color = RGB(255, 0, 0)
-                .Bold = True
-                .Underline = xlUnderlineStyleDouble
-             End With
-        End If
-    Next
+        If c.Value > 80 Then With c.Font .Size = 18 .Color = RGB(255, 0, 0) .Bold
+            = True .Underline = xlUnderlineStyleDouble End With End If Next
 
 End Sub
 #+END_SRC
