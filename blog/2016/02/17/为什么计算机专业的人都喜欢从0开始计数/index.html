@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>为什么计算机专业的人都喜欢从0开始计数 - 物有本末, 事有终始</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="李继刚" />
+
+  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
+</head>
+
+  <body class="container">
+<header id="header">
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
+        <div class="container-fluid">
+<div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">物有本末, 事有终始</a>
+        </div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/">Blog</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="http://www.zhihu.com/people/lijigang.com">知乎</a></li>
+        </ul>
+</div>
+</div>
+    </nav>
+</body>
+</header>
+
+<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>为什么计算机专业的人都喜欢从0开始计数</h1>
+            <p>
+考虑下你现在要表示 <code>2, 3, 4, 5, 6</code> 这几个数字, 你有几种表示方式:
+</p>
+
+<ol class="org-ol">
+<li>[2, 7)
+</li>
+<li>(1, 6]
+</li>
+<li>[2, 6]
+</li>
+<li>(1, 7)
+</li>
+</ol>
+
+<p>
+哪种方式更好? 让我们考虑下边际条件:
+</p>
+
+<p>
+当左边界是最小的非负整数时(0), 左开区间需要表示 <b>负数</b> 了, Ugly! 左闭区间就可以直接
+表示成非负整数, 所以, 左边界最小时 <code>左闭区间</code> 的表示方法胜出. 排除 2和4.
+</p>
+
+<p>
+1和3哪个更好? 让我们再考虑下一种极端情况. 当只有一个数时, 即需要表示 <code>2</code> 这个数字区
+间时, 右闭区间就表示成了[2, 2], Ugly! 右开区间表示成 [2, 3). 右开区间表示方法胜出.
+排除3.
+</p>
+
+<p>
+所以, 我们选择第1种表示方法, 即 <code>左闭右开</code> 的表示方法.
+</p>
+
+<p>
+在计算机编程里, 经常需要表示数组下标, 第一个位置到底是从0开始好, 还是从1开始好?
+</p>
+
+<p>
+使用 <code>左闭右开</code> 的表示方法:
+</p>
+
+<ul class="org-ul">
+<li>如果是从1开始计数, 则表示成 [1, N+1)
+</li>
+<li>如果是从0开始计数, 则表示成 [0, N)
+</li>
+</ul>
+
+<p>
+显然, 使用从0开始计数的时候, 表示起来更美观和实用, 右侧数字直接减去左侧数字, 即为整
+个区间的数字个数.
+</p>
+
+    </div>
+</section>
+
+
+<footer id="footer">
+    <br />
+</footer>
+
+  </body>
+</html>
