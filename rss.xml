@@ -4,28 +4,467 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Fri, 20 May 2016 10:31:54 CST</pubDate>
-    <lastBuildDate>Fri, 20 May 2016 10:31:54 CST</lastBuildDate>
+    <pubDate>Tue, 31 May 2016 16:06:36 CST</pubDate>
+    <lastBuildDate>Tue, 31 May 2016 16:06:36 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
-      <title>互联网广告</title>
-      <link>http://lijigang.github.io/blog/2016/05/20/互联网广告/</link>
+      <title>神逻辑</title>
+      <link>http://lijigang.github.io/blog/2016/05/31/神逻辑/</link>
       <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
-            <h1>互联网广告</h1>
-            <p>
-互联网发展至今, 主要的商业模式主要有三类: 广告, 游戏和电商. 很多互联网内容之所以
-可以免费访问, 除了边际成本极低这个特点以外, 主要原因就是这三类商业模式在支撑. 今
-天主要记录下广告这种模式的相关内容.
+            <h1>神逻辑</h1>
+            <div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. 形式谬误</a>
+<ul>
+<li><a href="#sec-1-1">1.1. 肯定后件谬误</a></li>
+<li><a href="#sec-1-2">1.2. 否定前件谬误</a></li>
+</ul>
+</li>
+<li><a href="#sec-2">2. 无关转移</a>
+<ul>
+<li><a href="#sec-2-1">2.1. 诉诸结果谬误</a></li>
+<li><a href="#sec-2-2">2.2. 诉诸恐惧谬误</a></li>
+<li><a href="#sec-2-3">2.3. 诉诸潮流谬误</a></li>
+<li><a href="#sec-2-4">2.4. 罪恶关联谬误</a></li>
+<li><a href="#sec-2-5">2.5. 稻草人谬误</a></li>
+<li><a href="#sec-2-6">2.6. 起源谬误</a></li>
+<li><a href="#sec-2-7">2.7. 诉诸无关权威谬误</a></li>
+<li><a href="#sec-2-8">2.8. 人身攻击谬误</a></li>
+<li><a href="#sec-2-9">2.9. 诉诸虚伪谬误</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. 非形式谬误</a>
+<ul>
+<li><a href="#sec-3-1">3.1. 词义模糊谬误</a></li>
+<li><a href="#sec-3-2">3.2. 修改定义谬误</a></li>
+<li><a href="#sec-3-3">3.3. 乱赋因果谬误</a></li>
+<li><a href="#sec-3-4">3.4. 滑坡谬误</a></li>
+<li><a href="#sec-3-5">3.5. 虚假两难谬误</a></li>
+<li><a href="#sec-3-6">3.6. 合成&amp;分解 谬误</a></li>
+<li><a href="#sec-3-7">3.7. 循环论证谬误</a></li>
+<li><a href="#sec-3-8">3.8. 轻率归纳谬误</a></li>
+<li><a href="#sec-3-9">3.9. 诉诸无知谬误</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<blockquote>
+<p>
+「You can you up, no can no bb」.
 </p>
 
 <p>
-假设你是一个游戏达人, 有自己的网站, 平时主要分享一些游戏攻略和游戏介绍等信息. 你
-统计了一下自己网站的访问数据, 平均每个月有10000个人访问网站(UV, Unique Vistor),
-一共访问了100000个页面(PV, Page View), 即UV = 1,0000; PV = 100,000; 这时你每天都
-在支付流量费, 机房服务器的费用, 但并没有任何收入.
+「你知道他有多努力吗?」
+</p>
+
+<p>
+「还说我不支持正版, 你就没有在网上下载过电影?」
+</p>
+
+<p>
+&#x2026;&#x2026;
+</p>
+</blockquote>
+
+<p>
+如果你听到这些话, 总感觉哪里不对, 但又说出来个所以然的话, 推荐你读下<a href="https://book.douban.com/subject/26753478/">「神逻辑」</a> 这本书.
+</p>
+
+<p>
+这书总共就 50 来页, 一共讲了 19 个常见的「逻辑谬误」, 每个谬误都用一页纸来说清楚, 并配一张插图说明.
+</p>
+
+<p>
+需要先了解下逻辑学中的三个基本概念:
+</p>
+
+<p>
+<code>命题</code>: 一个陈述, 或为真, 或为假, 但不能亦真亦假.
+</p>
+
+<p>
+<code>论证</code>: 一组 <b>命题</b>  集合, 其目的是以推理说服他人.
+</p>
+
+<p>
+<code>逻辑谬误</code>: 从一个 <b>命题</b>  推衍至下一个命题的过程中发生的错误, 最终导致错误的 <b>论证</b>.
+</p>
+
+<p>
+书中介绍的 19 个逻辑谬误可以分为三大类:
+</p>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> 形式谬误</h2>
+<div class="outline-text-2" id="text-1">
+<blockquote>
+<p>
+因结构缺陷而导致论证不合逻辑的错误.
+</p>
+
+<p>
+对于这类谬误, 只需要分析论证的形式, 就能发现错误. 不需要分析其内容.
+</p>
+</blockquote>
+</div>
+
+<div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> 肯定后件谬误</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+常用的论证形式之一是: 如果 A 则 C; A 成立, 因此 C 成立.
+</p>
+
+<p>
+这里 A 被称为「前件」, C 被称为「后件」.
+</p>
+
+<p>
+而 <code>肯定后件</code> 的形式谬误表现为: 如果 A 则 C; C 成立, 因此 A 成立.
+</p>
+
+<pre class="example">
+如果那人是男人, 那人可以结婚.
+
+但因那人可以结婚, 而推断那人是男人.  这就犯了肯定后件谬误.
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> 否定前件谬误</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+该谬误表现为: 如果 A 则 C; A 不成立, 因此 C 也不成立.
+</p>
+
+<pre class="example">
+如果那人是男人, 那人可以结婚.
+
+但因那人不是男人, 而推断那人不可能结婚, 这就犯了否定前件谬误.
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> 无关转移</h2>
+<div class="outline-text-2" id="text-2">
+<blockquote>
+<p>
+使论证偏离了最初的命题.
+</p>
+</blockquote>
+</div>
+
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> 诉诸结果谬误</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+该谬误是指住所某观点 <b>如果</b> 成立(或不成立)所产生的结果好坏, 来判断一个观点是否正确.
+</p>
+
+<p>
+但一个命题导致不利的结果, 并不意味着该命题就是假的. 因一个命题导致有利的结果, 也不意味着该命题就是真的.
+</p>
+
+<pre class="example">
+上帝若不存在, 人们便能为所欲为.
+</pre>
+
+<p>
+且不说人们是否真的会为所欲为, 就算果真如此, 也不能用来说明上帝的存在.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> 诉诸恐惧谬误</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+该谬误是指利用听众的恐惧, 设想某命题若被接受将产生一个可怕的未来.
+</p>
+
+<pre class="example">
+如果他当选了, 你们所有人都将失业.
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> 诉诸潮流谬误</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+该谬误是指以许多人均相信某命题的事实为依据, 来证明该命题一定是真的.
+</p>
+
+<pre class="example">
+太阳是地球转? 还是地球绕太阳转?
+</pre>
+</div>
+</div>
+<div id="outline-container-sec-2-4" class="outline-3">
+<h3 id="sec-2-4"><span class="section-number-3">2.4</span> 罪恶关联谬误</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+该谬误是指通过指出某个被社会妖魔化的个人或群体也认同某观点, 以诋毁该观点.
+</p>
+
+<pre class="example">
+我的对手主张, 应该在教育上投入更多的钱.
+
+你们知道还有谁这么认为吗? 这个独裁者!
+</pre>
+</div>
+</div>
+<div id="outline-container-sec-2-5" class="outline-3">
+<h3 id="sec-2-5"><span class="section-number-3">2.5</span> 稻草人谬误</h3>
+<div class="outline-text-3" id="text-2-5">
+<p>
+该谬误是指有意地滑稽模仿他人论点, 以达到攻击模仿出来的论点而非实际论点的目的.
+</p>
+
+<p>
+稻草人论点通常是歪曲、错误引用、曲解或将对方立场过分简单化, 更容易攻击这个修改后的论点.
+</p>
+
+<pre class="example">
+达尔文说我们是从那些在树上摇来荡去的黑猩猩变过来的, 这真太可笑了.
+</pre>
+
+<p>
+这是对进化生物学的一种扭曲, 进化论的实际陈述是: 人类和黑猩猩在数百万年前拥有共同的祖先.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-6" class="outline-3">
+<h3 id="sec-2-6"><span class="section-number-3">2.6</span> 起源谬误</h3>
+<div class="outline-text-3" id="text-2-6">
+<p>
+该谬误是指仅仅因为某观点的起源就贬低或维护它.
+</p>
+
+<pre class="example">
+他当然支持那些罢工的工人, 说到底, 他们都是一个村子里的人.
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-2-7" class="outline-3">
+<h3 id="sec-2-7"><span class="section-number-3">2.7</span> 诉诸无关权威谬误</h3>
+<div class="outline-text-3" id="text-2-7">
+<p>
+该谬误是指以其它领域无关权威的观点做为论据.
+</p>
+
+<pre class="example">
+「风水盛行于古中国, 集合了古代中国人的智慧.」
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-2-8" class="outline-3">
+<h3 id="sec-2-8"><span class="section-number-3">2.8</span> 人身攻击谬误</h3>
+<div class="outline-text-3" id="text-2-8">
+<p>
+该谬误是指通过攻击一个人本身, 而不是攻击其论点, 以转移讨论话题, 最终达到诋毁其论点的目的.
+</p>
+
+<pre class="example">
+你又不是真正关心降低城市犯罪率, 你只是想要人们投票给你!
+</pre>
+</div>
+</div>
+<div id="outline-container-sec-2-9" class="outline-3">
+<h3 id="sec-2-9"><span class="section-number-3">2.9</span> 诉诸虚伪谬误</h3>
+<div class="outline-text-3" id="text-2-9">
+<p>
+该谬误是指通过指出某人的观点与其本人的行为或以往陈述相矛盾来反驳该观点.
+</p>
+
+<p>
+也就是: 用指控来回答指挥, 把注意力从观点本身转移到提出观点的人身上.
+</p>
+
+<pre class="example">
+A: 你干吗一直偷吃我的粥?
+
+B: 你不也一直偷吃妈妈的蜂蜜?
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> 非形式谬误</h2>
+<div class="outline-text-2" id="text-3">
+<blockquote>
+<p>
+因内容和语境而非形式, 导致论证不合逻辑的错误.
+</p>
+</blockquote>
+</div>
+
+<div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> 词义模糊谬误</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+该谬误是指利用语言的歧义, 在论证过程中通过改变词义来支持一个无事实根据的结论.
+</p>
+
+<pre class="example">
+你隔天可以吃一次果酱, 但今天绝对不行, 因为「今天」不是「隔天」.
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> 修改定义谬误</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+该谬误是指 A 对一组事物下了一般性的断言, B 提出证据质疑该断言, A 就通过修改该组事物成员的资格来回避该质疑.
+</p>
+
+<pre class="example">
+A: 程序员都有社交障碍!
+B: John 就是一个程序员, 他一点没有社交障碍.
+A: John 并不是一个 *真正的程序员*
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-3-3" class="outline-3">
+<h3 id="sec-3-3"><span class="section-number-3">3.3</span> 乱赋因果谬误</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+该谬误是指「后此即因此」以及「伴此即因此」.
+</p>
+
+<p>
+后此即因此: 只因为事件 A 在事件 B 之前发生, 就被认为是 B 发生的原因.
+</p>
+
+<p>
+伴此即因此: 只因为事件 A 和 B 同时发生, 就被认为是 B 发生的原因.
+</p>
+
+<pre class="example">
+每当长夜将尽、破晓之前, 我在山顶呼唤太阳出现. 太阳总是如约而至.
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-3-4" class="outline-3">
+<h3 id="sec-3-4"><span class="section-number-3">3.4</span> 滑坡谬误</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+该谬误是指: 试图证明接受某命题将无可避免地导致一系列事件, 且其中的一个或多个事件是不受欢迎的, 以此来诋毁该命题.
+</p>
+
+<p>
+但实际上, 尽量这一系列事件 <b>有可能</b> 会发生, 但该论证假设每一步都是 <b>不可避免</b> 的, 却没有提供证据证明.
+</p>
+
+<pre class="example">
+如果你允许一个陌生人进入你的前院, 第二天他就会登堂入室, 第三天他就会偷光你所有东西.
+</pre>
+</div>
+</div>
+<div id="outline-container-sec-3-5" class="outline-3">
+<h3 id="sec-3-5"><span class="section-number-3">3.5</span> 虚假两难谬误</h3>
+<div class="outline-text-3" id="text-3-5">
+<p>
+该谬误是指给出一个由两种范畴组成的有限集合, 并假设讨论范围内的一切事物都必须属于该集合. 因此, 拒绝其中一个范畴, 便只好接受另一个.
+</p>
+
+<pre class="example">
+在这场战争中, 谁都不能置身事外. 你若不站在我这边, 就在敌人那边.
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-3-6" class="outline-3">
+<h3 id="sec-3-6"><span class="section-number-3">3.6</span> 合成&amp;分解 谬误</h3>
+<div class="outline-text-3" id="text-3-6">
+<p>
+合成谬误是指从所有局部拥有某属性就推断出总体也一定具有该属性.
+</p>
+
+<p>
+分解谬误是指只因总体拥有某属性, 就推断某局部也一定拥有该属性.
+</p>
+
+<pre class="example">
+我们队所向披靡, 因此我们队的任何一名队员都能单挑赢另一队的任一球员!
+</pre>
+</div>
+</div>
+<div id="outline-container-sec-3-7" class="outline-3">
+<h3 id="sec-3-7"><span class="section-number-3">3.7</span> 循环论证谬误</h3>
+<div class="outline-text-3" id="text-3-7">
+<p>
+该谬误是指待证明的结论被含蓄或明白地置入了一个或多个前提中.
+</p>
+
+<pre class="example">
+你完全错了, 因为你说的没有道理.
+</pre>
+</div>
+</div>
+<div id="outline-container-sec-3-8" class="outline-3">
+<h3 id="sec-3-8"><span class="section-number-3">3.8</span> 轻率归纳谬误</h3>
+<div class="outline-text-3" id="text-3-8">
+<p>
+访谬误是指当论证者从某样本得出结论, 而该样本太小或太特殊, 以至于缺乏代表性.
+</p>
+
+<pre class="example">
+在大街上问题了十个人, 对国家税收的看法, 就评估说国家税收较轻.
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-3-9" class="outline-3">
+<h3 id="sec-3-9"><span class="section-number-3">3.9</span> 诉诸无知谬误</h3>
+<div class="outline-text-3" id="text-3-9">
+<p>
+该谬误是指仅仅因为没有证据证明某命题是假的, 就认为它是真的.
+</p>
+
+<pre class="example">
+没有令人信服的证据表明 UFO 从未拜访过地球, 因此, UFO 是存在的.
+</pre>
+</div>
+</div>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2016-05-31</pubDate>
+      <guid>http://lijigang.github.io/blog/2016/05/31/神逻辑/</guid>
+    </item>
+    <item>
+      <title>互联网广告</title>
+      <link>http://lijigang.github.io/blog/2016/05/31/互联网广告/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
+        <div class="col-md-2"></div>
+            <h1>互联网广告</h1>
+            <p>
+互联网发展至今, 主要的商业模式主要有三类: 广告, 游戏和电商. 很多互联网内容之所以可以免费访问, 除了边际成本极低这个特点以外, 主要原因就是这三类商业模式在支撑. 今天主要记录下广告这种模式的相关内容.
+</p>
+
+<p>
+假设你是一个游戏达人, 有自己的网站, 平时主要分享一些游戏攻略和游戏介绍等信息. 你统计了一下自己网站的访问数据, 平均每个月有10000个人访问网站(UV, Unique Vistor),
+一共访问了100000个页面(PV, Page View), 即UV = 1,0000; PV = 100,000; 这时你每天都在支付流量费, 机房服务器的费用, 但并没有任何收入.
 </p>
 
 <p>
@@ -40,9 +479,7 @@
 
 <blockquote>
 <p>
-这种按时间定价的结算方式即为CPT(Cost per Time), 如果这里的时间是天计算的,可细化
-为CPD(Cost per Day). 这种方式简单粗暴, 广告主和媒体方直接商定好每天价格和包断时
-长, 不管谁来访问网站都能在这个时间段内看到广告主指定的广告内容.
+这种按时间定价的结算方式即为CPT(Cost per Time), 如果这里的时间是天计算的,可细化为CPD(Cost per Day). 这种方式简单粗暴, 广告主和媒体方直接商定好每天价格和包断时长, 不管谁来访问网站都能在这个时间段内看到广告主指定的广告内容.
 </p>
 
 <p>
@@ -55,10 +492,7 @@ Revenue(收入) = Value(每时间价格) * Time(包断时长)
 </blockquote>
 
 <p>
-但做为网站主, 你觉得可以再多挣些钱, 你与广告主沟通说, 我们再换一种结算方式吧. 不
-按点击次数来计费, 我们按展示次数来计费, 每展示1次页面就付费0.05元. 业内一般定价
-时使用每千次展示的价格, 在这个例子里, 即为每展示1000次页面就付费50元. 这样仍以之
-前的数据来算, 你将获得收入:
+但做为网站主, 你觉得可以再多挣些钱, 你与广告主沟通说, 我们再换一种结算方式吧. 不按点击次数来计费, 我们按展示次数来计费, 每展示1次页面就付费0.05元. 业内一般定价时使用每千次展示的价格, 在这个例子里, 即为每展示1000次页面就付费50元. 这样仍以之前的数据来算, 你将获得收入:
 </p>
 
 <div class="center">
@@ -74,17 +508,12 @@ Revenue = CPM * PV / 1000 = 50元 * 100,000 / 1000 = 5000元
 </blockquote>
 
 <p>
-上面两种CPT和CPM的结算方式, 与没有互联网之前的传统线下媒体广告结算方式类似,都属
-于是「合约广告」.
+上面两种CPT和CPM的结算方式, 与没有互联网之前的传统线下媒体广告结算方式类似,都属于是「合约广告」.
 </p>
 
 <p>
 但上面这类的结算方式, 广告主是有意见的, 他们只知道广告费花出去了, 也给用户看到了,
-但里面有多少生效了, 这些数据是无法统计到的. 他们提出要按效果计费,即当有人点击广
-告时, 才支付你费用, 如果只是展示给某个用户, 但该用户没有点击广告, 广告主是不需要
-支付任何费用的. 你也想尝试下该方式能不能多给你带来点收入. 于是就又签了一个月, 按
-点击次数计费. 每点击一次广告主支付你0.5元. 假如说访问人数和页面访问次数和之前统
-计数据保持不变, 广告一共被点击了5000次, 即
+但里面有多少生效了, 这些数据是无法统计到的. 他们提出要按效果计费,即当有人点击广告时, 才支付你费用, 如果只是展示给某个用户, 但该用户没有点击广告, 广告主是不需要支付任何费用的. 你也想尝试下该方式能不能多给你带来点收入. 于是就又签了一个月, 按点击次数计费. 每点击一次广告主支付你0.5元. 假如说访问人数和页面访问次数和之前统计数据保持不变, 广告一共被点击了5000次, 即
 </p>
 
 <p>
@@ -105,40 +534,32 @@ Revenue = Clicks * CPC = 5000 次点击 * 0.5元/每次点击 = 2500元
 <blockquote>
 <p>
 这种按点击效果计费的结算方式即为CPC(Cost per click), 在这个例子里, CPC = 0.5元.
-相比于CPT, 这种方式对广告主来说明显更为靠谱些, 广告费都花在了对广告感兴趣的人群
-身上.
+相比于CPT, 这种方式对广告主来说明显更为靠谱些, 广告费都花在了对广告感兴趣的人群身上.
 </p>
 </blockquote>
 
 <p>
-随着移动互联网的蓬勃发展, 广告主从一开始的购买「曝光」, 到后来的购买「点击」, 越
-来越关注最核心的指标「ROI」, 即最终的转化率. 广告主又找到你沟通, 在CPC的基础上,
+随着移动互联网的蓬勃发展, 广告主从一开始的购买「曝光」, 到后来的购买「点击」, 越来越关注最核心的指标「ROI」, 即最终的转化率. 广告主又找到你沟通, 在CPC的基础上,
 他们要再换一种更接近ROI指标的计费方式: CPA/CPS.
 </p>
 
 <blockquote>
 <p>
 CPA(Cost Per Action): 每次操作行为的价格. 「操作行为」各广告主可能会有不同的定义,
-一般为「注册」, 「验证信息」等等. 即每当有一个用户从你网站的广告位下载了APP, 并
-进行了「注册」行为, 广告主将给你支付一定金额.
+一般为「注册」, 「验证信息」等等. 即每当有一个用户从你网站的广告位下载了APP, 并进行了「注册」行为, 广告主将给你支付一定金额.
 </p>
 
 <p>
-CPS(Cost Per Sale): 每次交易行为的价格. 「交易行为」比如说每当有一个用户从你网站
-进入电商广告主网站购买了一件商品, 广告主会分你5%. 再比如每当有一个游戏用户从你网
-站的广告位下载了游戏APP, 如果他在里面进行了充值, 你将获得充值金额的5%分成.
+CPS(Cost Per Sale): 每次交易行为的价格. 「交易行为」比如说每当有一个用户从你网站进入电商广告主网站购买了一件商品, 广告主会分你5%. 再比如每当有一个游戏用户从你网站的广告位下载了游戏APP, 如果他在里面进行了充值, 你将获得充值金额的5%分成.
 </p>
 </blockquote>
 
 <p>
-对你这个网站主来说, 这么多的结算方式, 看起来很复杂, 而且广告的点击次数还需要到统
-计平台去看报表数据, 很是麻烦. 你想用一个统一的指标来估算自己网站流量的价值, 后续
-再有新的广告主过来, 你也知道该要多少价钱.
+对你这个网站主来说, 这么多的结算方式, 看起来很复杂, 而且广告的点击次数还需要到统计平台去看报表数据, 很是麻烦. 你想用一个统一的指标来估算自己网站流量的价值, 后续再有新的广告主过来, 你也知道该要多少价钱.
 </p>
 
 <p>
-于是有了eCPM (Effective cost per mille)这个指标, 可以用来统一的估量自己流量的商
-业价值:
+于是有了eCPM (Effective cost per mille)这个指标, 可以用来统一的估量自己流量的商业价值:
 </p>
 
 <blockquote>
@@ -160,21 +581,20 @@ eCPM = CPC * CTR * 1000
 </blockquote>
 
 <p>
-CPC在一定时期内整个广告界内比较稳定, 要想提升广告收入, 就需要针对不同的人群, 做
-到精准展示广告, 提升CTR, 从而提升eCPM, 获得更多收益.
+CPC在一定时期内整个广告界内比较稳定, 要想提升广告收入, 就需要针对不同的人群, 做到精准展示广告, 提升CTR, 从而提升eCPM, 获得更多收益.
 </p>
 
     </div>
 </section>
 ]]></description>
       <pubDate>2016-05-20</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/20/互联网广告/</guid>
+      <guid>http://lijigang.github.io/blog/2016/05/31/互联网广告/</guid>
     </item>
     <item>
       <title>商业模式新生代</title>
-      <link>http://lijigang.github.io/blog/2016/05/20/商业模式新生代/</link>
+      <link>http://lijigang.github.io/blog/2016/05/31/商业模式新生代/</link>
       <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
             <h1>商业模式新生代</h1>
             <div id="table-of-contents">
@@ -191,15 +611,12 @@ CPC在一定时期内整个广告界内比较稳定, 要想提升广告收入, �
 <div class="outline-text-2" id="text-1">
 <blockquote>
 <p>
-商业模型是一个理论工具，它包含大量的商业元素及它们之间的关系，并且能够描述特定公
-司的商业模式。它能显示一个公司在以下一个或多个方面的价值所在：客户，公司结构，以
-及，以营利和可持续性盈利为目的，用以生产，销售，传递价值及关系资本的客户网。
+商业模型是一个理论工具，它包含大量的商业元素及它们之间的关系，并且能够描述特定公司的商业模式。它能显示一个公司在以下一个或多个方面的价值所在：客户，公司结构，以及，以营利和可持续性盈利为目的，用以生产，销售，传递价值及关系资本的客户网。
 </p>
 </blockquote>
 
 <p>
-商业模式是工商业创造收入和利润的计划. 具体中间的各个环节之间是什么样的关系, 这些
-环节之间哪些更重要些, 这些问题都在这本书里找到了答案.
+商业模式是工商业创造收入和利润的计划. 具体中间的各个环节之间是什么样的关系, 这些环节之间哪些更重要些, 这些问题都在这本书里找到了答案.
 </p>
 
 <p>
@@ -212,24 +629,22 @@ CPC在一定时期内整个广告界内比较稳定, 要想提升广告收入, �
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/商业模式新生代/business_model_canvas.png" alt="business_model_canvas.png" />
+<p><img src="/assets/blog/2016/05/31/商业模式新生代/business_model_canvas.png" alt="business_model_canvas.png" />
 </p>
 </div>
 
 
 <p>
-但在实际应用过程中, 发现还是有些不太实用的地方, 比如「合作伙伴」这一条, 如果是一
-个初创企业, 其实很多时候是没有什么合作伙伴的, 空着那栏总感觉有些浪费.
+但在实际应用过程中, 发现还是有些不太实用的地方, 比如「合作伙伴」这一条, 如果是一个初创企业, 其实很多时候是没有什么合作伙伴的, 空着那栏总感觉有些浪费.
 </p>
 
 <p>
-很显然, 有类似感觉的人远不止我一个, 国外有个叫Ash Maurya的就在商业画布的基础上做
-了一些改进, 做出了下图, 并命名为 <a href="http://practicetrumpstheory.com/why-lean-canvas/">lean canvas</a>.
+很显然, 有类似感觉的人远不止我一个, 国外有个叫Ash Maurya的就在商业画布的基础上做了一些改进, 做出了下图, 并命名为 <a href="http://practicetrumpstheory.com/why-lean-canvas/">lean canvas</a>.
 </p>
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/商业模式新生代/lean_canvas.png" alt="lean_canvas.png" />
+<p><img src="/assets/blog/2016/05/31/商业模式新生代/lean_canvas.png" alt="lean_canvas.png" />
 </p>
 </div>
 
@@ -240,7 +655,7 @@ CPC在一定时期内整个广告界内比较稳定, 要想提升广告收入, �
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/商业模式新生代/lean_canvas_example.png" alt="lean_canvas_example.png" />
+<p><img src="/assets/blog/2016/05/31/商业模式新生代/lean_canvas_example.png" alt="lean_canvas_example.png" />
 </p>
 </div>
 </div>
@@ -250,13 +665,13 @@ CPC在一定时期内整个广告界内比较稳定, 要想提升广告收入, �
 </section>
 ]]></description>
       <pubDate>2016-05-20</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/20/商业模式新生代/</guid>
+      <guid>http://lijigang.github.io/blog/2016/05/31/商业模式新生代/</guid>
     </item>
     <item>
       <title>Computer Science是什么鬼</title>
-      <link>http://lijigang.github.io/blog/2016/05/20/computer-science是什么鬼/</link>
+      <link>http://lijigang.github.io/blog/2016/05/31/computer-science是什么鬼/</link>
       <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
             <h1>Computer Science是什么鬼</h1>
             <div id="table-of-contents">
@@ -289,13 +704,11 @@ Solving with Algorithms and Data Structures= 这书后, 才开始去了解CS到�
 </p>
 
 <p>
-面对一个 <code>问题</code>, 一个 <code>Computer Sciencist</code> 的目标就是找出一个 <code>算法</code> (即解决方
-案),明确指示出如何一步步地解决该问题.
+面对一个 <code>问题</code>, 一个 <code>Computer Sciencist</code> 的目标就是找出一个 <code>算法</code> (即解决方案),明确指示出如何一步步地解决该问题.
 </p>
 
 <p>
-当然, 这里还会涉及到 <b>可计算性</b> 的问题(P与NP), 面对不可计算的问题, 设计什么样的
-算法来满足解决问题的目标, 也是一个CS的研究内容.
+当然, 这里还会涉及到 <b>可计算性</b> 的问题(P与NP), 面对不可计算的问题, 设计什么样的算法来满足解决问题的目标, 也是一个CS的研究内容.
 </p>
 
 <p>
@@ -308,8 +721,7 @@ Solving with Algorithms and Data Structures= 这书后, 才开始去了解CS到�
 </ul>
 
 <p>
-现实世界里的问题一般都会包含比较多的条件, 把现实世界里的问题明确表示的过程中,不
-可避免地要进行一次抽象, 去掉无关的边缘条件, 保留该问题最核心的内容.
+现实世界里的问题一般都会包含比较多的条件, 把现实世界里的问题明确表示的过程中,不可避免地要进行一次抽象, 去掉无关的边缘条件, 保留该问题最核心的内容.
 </p>
 
 <ul class="org-ul">
@@ -318,9 +730,7 @@ Solving with Algorithms and Data Structures= 这书后, 才开始去了解CS到�
 </ul>
 
 <p>
-我们开车的时候, 踩一脚油门车就动了, 我们不需要去了解车是怎么打火的, 发动机是怎么
-运作的. 这种对解决方案的包装, 展示给最终用户的界面, CS里叫Interface, 现在互联网
-圈叫用户体验.
+我们开车的时候, 踩一脚油门车就动了, 我们不需要去了解车是怎么打火的, 发动机是怎么运作的. 这种对解决方案的包装, 展示给最终用户的界面, CS里叫Interface, 现在互联网圈叫用户体验.
 </p>
 
 <p>
@@ -329,7 +739,7 @@ Solving with Algorithms and Data Structures= 这书后, 才开始去了解CS到�
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/computer-science是什么鬼/cs.png" alt="cs.png" />
+<p><img src="/assets/blog/2016/05/31/computer-science是什么鬼/cs.png" alt="cs.png" />
 </p>
 </div>
 </div>
@@ -373,7 +783,7 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/computer-science是什么鬼/programming.png" alt="programming.png" />
+<p><img src="/assets/blog/2016/05/31/computer-science是什么鬼/programming.png" alt="programming.png" />
 </p>
 </div>
 </div>
@@ -401,20 +811,16 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 </blockquote>
 
 <p>
-相信每个CS都听过上面这句, 所有Data对应到计算机执行指令的时候都是0和1, 但各个编程
-语言会对这些01串进行「包装」, 这样我们在使用这些语言的时候, 就可以从包装后的「砖
-块」层级来考虑如何把算法用该语言表述出来, 而不需要以01串的角度来思考.
+相信每个CS都听过上面这句, 所有Data对应到计算机执行指令的时候都是0和1, 但各个编程语言会对这些01串进行「包装」, 这样我们在使用这些语言的时候, 就可以从包装后的「砖块」层级来考虑如何把算法用该语言表述出来, 而不需要以01串的角度来思考.
 </p>
 
 <p>
-各编程语言本身自带的这些对01串的「包装」叫做 <code>Primitive Data Types</code>. 可以理解为
-天赋属性. 语言好坏, 很多时候从这里就可以做一个区分了.
+各编程语言本身自带的这些对01串的「包装」叫做 <code>Primitive Data Types</code>. 可以理解为天赋属性. 语言好坏, 很多时候从这里就可以做一个区分了.
 </p>
 
 <p>
 对于复杂的现实世界问题, 所有编程语言都不可能出厂时都「包装」好「砖块」让你砌墙.
-所以后来才会有了 <code>Abstract Data Type</code> 的概念. 通过支持自定义类, 你可以自己去「包
-装」现实世界, 抽象数据类型出来, 想怎么玩就怎么玩.
+所以后来才会有了 <code>Abstract Data Type</code> 的概念. 通过支持自定义类, 你可以自己去「包装」现实世界, 抽象数据类型出来, 想怎么玩就怎么玩.
 </p>
 </div>
 </div>
@@ -441,8 +847,7 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 </ol>
 
 <p>
-只要有了这三类语句控制, 我们就可以表述算法了. 剩下的工作就是把 <code>算法</code> 给翻译成
-这些语句的工作了, 也就是 <code>编程</code>.
+只要有了这三类语句控制, 我们就可以表述算法了. 剩下的工作就是把 <code>算法</code> 给翻译成这些语句的工作了, 也就是 <code>编程</code>.
 </p>
 </div>
 </div>
@@ -461,13 +866,13 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 </section>
 ]]></description>
       <pubDate>2016-05-20</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/20/computer-science是什么鬼/</guid>
+      <guid>http://lijigang.github.io/blog/2016/05/31/computer-science是什么鬼/</guid>
     </item>
     <item>
       <title>互联网思维</title>
-      <link>http://lijigang.github.io/blog/2016/05/20/互联网思维/</link>
+      <link>http://lijigang.github.io/blog/2016/05/31/互联网思维/</link>
       <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
             <h1>互联网思维</h1>
             <p>
@@ -484,10 +889,7 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 </ol>
 
 <p>
-前两个阶段的讨论已经太多, 这里不再做什么总结. 但抛开热炒概念, 投机忽悠的因素, 回
-过头来冷静地看, 小米的手机和传统手机是不是有些不一样? 小米后来的一系列硬件的做法
-是不是和传统企业有些不一样? 滴滴打车是不是改变了人们传统打车难的现状? 那么他们的
-做法是不是有些共性? 这些共性总结下来是不是就是互联网思维?
+前两个阶段的讨论已经太多, 这里不再做什么总结. 但抛开热炒概念, 投机忽悠的因素, 回过头来冷静地看, 小米的手机和传统手机是不是有些不一样? 小米后来的一系列硬件的做法是不是和传统企业有些不一样? 滴滴打车是不是改变了人们传统打车难的现状? 那么他们的做法是不是有些共性? 这些共性总结下来是不是就是互联网思维?
 </p>
 
 <p>
@@ -499,19 +901,16 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 <div class="outline-text-2" id="text-1">
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/互联网思维/traditional.png" alt="traditional.png" />
+<p><img src="/assets/blog/2016/05/31/互联网思维/traditional.png" alt="traditional.png" />
 </p>
 </div>
 
 <p>
-如上图, 传统生产企业, 生产出商品之后, 会找全国各地的经销商, 由他们负责在该区域的
-产品销售. 批发价优惠, 返点返利, 这些手段是经销商的兴趣所在.
+如上图, 传统生产企业, 生产出商品之后, 会找全国各地的经销商, 由他们负责在该区域的产品销售. 批发价优惠, 返点返利, 这些手段是经销商的兴趣所在.
 </p>
 
 <p>
-这种模式我们都已经很熟悉了, 我们之前购买的家电, 家具, 都是在商场或当地的「专卖店」
-买回家, 我们和「厂家」的距离感觉有一光年那么远, 我们和其它地区购买同样产品的用户
-之间的距离, 感觉也不比一光年近多少. 那时候的强势方是「渠道」, 谁所在地区销售量大,
+这种模式我们都已经很熟悉了, 我们之前购买的家电, 家具, 都是在商场或当地的「专卖店」买回家, 我们和「厂家」的距离感觉有一光年那么远, 我们和其它地区购买同样产品的用户之间的距离, 感觉也不比一光年近多少. 那时候的强势方是「渠道」, 谁所在地区销售量大,
 谁掌握了好的渠道, 说的话语权就大.
 </p>
 </div>
@@ -522,27 +921,21 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 <div class="outline-text-2" id="text-2">
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/互联网思维/both_channel.png" alt="both_channel.png" />
+<p><img src="/assets/blog/2016/05/31/互联网思维/both_channel.png" alt="both_channel.png" />
 </p>
 </div>
 
 <p>
-如上图, 后来「互联网」来了. 有了「百度」, 有了「hao123」, 有了「360导航」,有了
-「淘宝」, 这时候生产企业除了维持原来的线下销售渠道和网络以外, 也开始慢慢往线上流
-量开始投入预算. 线上流量和线下流量的区别在于, 它没有地域限制, 一个网站可以接触到
-全国各地的所有人群, 只要访问量大就可以.
+如上图, 后来「互联网」来了. 有了「百度」, 有了「hao123」, 有了「360导航」,有了「淘宝」, 这时候生产企业除了维持原来的线下销售渠道和网络以外, 也开始慢慢往线上流量开始投入预算. 线上流量和线下流量的区别在于, 它没有地域限制, 一个网站可以接触到全国各地的所有人群, 只要访问量大就可以.
 </p>
 
 <p>
 但这里的模式, 其实本质和「传统时代」是一样的. 只不过是增加了一个新的「渠道」而已.
-线上流量企业也不过是另一个新的更有话语权的渠道方罢了. 以前的返点, 返利, 减返等等
-玩法, 原方不动地被搬到了这些线上渠道. 这里仍然是「渠道为王」的时代, 用户仍然没有
-太多的话语权.
+线上流量企业也不过是另一个新的更有话语权的渠道方罢了. 以前的返点, 返利, 减返等等玩法, 原方不动地被搬到了这些线上渠道. 这里仍然是「渠道为王」的时代, 用户仍然没有太多的话语权.
 </p>
 
 <p>
-从这个意义上说, 「凤巢」, 「点睛」, 甚至「阿里妈妈」, 这些都不能算是「互联网产
-品」, 只不过是线下流程线上化罢了.
+从这个意义上说, 「凤巢」, 「点睛」, 甚至「阿里妈妈」, 这些都不能算是「互联网产品」, 只不过是线下流程线上化罢了.
 </p>
 </div>
 </div>
@@ -552,39 +945,29 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 <div class="outline-text-2" id="text-3">
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/互联网思维/internet.png" alt="internet.png" />
+<p><img src="/assets/blog/2016/05/31/互联网思维/internet.png" alt="internet.png" />
 </p>
 </div>
 
 <p>
-如上图, 后来有一些企业开始尝试新的思路了, 不再经由那些线上流量渠道接触客户,而是
-自己直接建立网站, 建立渠道直接跟客户面对面. 并且随着社交网络的不断成熟,使用产品
-的客户之间, 尽管所在地域不同, 但也可以随时进行沟通讨论. 有什么不满意的地方, 或者
-说有新的产品建议, 也可以很方便地直接跟「厂商」进行反馈.
+如上图, 后来有一些企业开始尝试新的思路了, 不再经由那些线上流量渠道接触客户,而是自己直接建立网站, 建立渠道直接跟客户面对面. 并且随着社交网络的不断成熟,使用产品的客户之间, 尽管所在地域不同, 但也可以随时进行沟通讨论. 有什么不满意的地方, 或者说有新的产品建议, 也可以很方便地直接跟「厂商」进行反馈.
 </p>
 
 <p>
-这也就是小米公司宣扬的「参与感」. 但这只是外在表现而已. 这种模式的核心, 并不是企
-业花几千块钱做个网站, 找个人在微博上处理反馈就可以了. 而是需要从经营理念上做出转
-变, 从「渠道为王」转入「以人为本」这才是互联网思维.
+这也就是小米公司宣扬的「参与感」. 但这只是外在表现而已. 这种模式的核心, 并不是企业花几千块钱做个网站, 找个人在微博上处理反馈就可以了. 而是需要从经营理念上做出转变, 从「渠道为王」转入「以人为本」这才是互联网思维.
 </p>
 
 <p>
 为什么要「以人为本」? 还是看上图. 因为「用户」之间可以沟通交流了, 如果你产品坏,
-很快大家都会知道, 没人会再用你产品. 如果你产品好, 大家会自愿进行分享,不用你去买
-流量就可以给你带来新的用户群体. 也就是说「互联网思维」要求, 做产品的时候需要超出
-用户预期, 需要让用户「尖叫」, 并且要引导和分享这种「尖叫」,从而形成粉丝效应.
+很快大家都会知道, 没人会再用你产品. 如果你产品好, 大家会自愿进行分享,不用你去买流量就可以给你带来新的用户群体. 也就是说「互联网思维」要求, 做产品的时候需要超出用户预期, 需要让用户「尖叫」, 并且要引导和分享这种「尖叫」,从而形成粉丝效应.
 </p>
 
 <p>
-那要怎么才能「让用户尖叫」? 重视「用户反馈」. 一线用户的反馈是产品迭代改进的重要
-来源, 这也是为什么互联网公司都在宣扬「小步快跑」, 「精益创业」的原因.
+那要怎么才能「让用户尖叫」? 重视「用户反馈」. 一线用户的反馈是产品迭代改进的重要来源, 这也是为什么互联网公司都在宣扬「小步快跑」, 「精益创业」的原因.
 </p>
 
 <p>
-以前打车, 出租车司机其实是把人当货在拉, 对接到乘客称为「接到活了」. 互联网时代的
-打车, 不管是专车还是快车, 司机都是为了给你带来好的体验, 这样你才会给他好评, 你的
-好评比你花的几十块钱要更重要.
+以前打车, 出租车司机其实是把人当货在拉, 对接到乘客称为「接到活了」. 互联网时代的打车, 不管是专车还是快车, 司机都是为了给你带来好的体验, 这样你才会给他好评, 你的好评比你花的几十块钱要更重要.
 </p>
 
 <p>
@@ -598,13 +981,13 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 </section>
 ]]></description>
       <pubDate>2016-05-20</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/20/互联网思维/</guid>
+      <guid>http://lijigang.github.io/blog/2016/05/31/互联网思维/</guid>
     </item>
     <item>
       <title>键盘应该这样改键</title>
-      <link>http://lijigang.github.io/blog/2016/05/20/键盘应该这样改键/</link>
+      <link>http://lijigang.github.io/blog/2016/05/31/键盘应该这样改键/</link>
       <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
             <h1>键盘应该这样改键</h1>
             
@@ -612,8 +995,7 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 <h2 id="sec-1"><span class="section-number-2">1</span> 为什么要改键</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-现在每天大约要使用电脑10个小时, 这中间至少有5个小时以上的时间, 是需要使用键盘打
-字的. 所以对于打字速度的提升, 哪怕是只有一点, 对于整体效率也是一个极大的促进.
+现在每天大约要使用电脑10个小时, 这中间至少有5个小时以上的时间, 是需要使用键盘打字的. 所以对于打字速度的提升, 哪怕是只有一点, 对于整体效率也是一个极大的促进.
 </p>
 
 <p>
@@ -626,8 +1008,7 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 </ul>
 
 <p>
-一边盯着键盘一边打字, 打了半天发现中间打错了, 再返回去修改, 这种打字方法严重影响
-效率. 解决办法很简单, 练习盲打. 把键位给背熟, 形成肌肉记忆, 当你想按某个键的时候,
+一边盯着键盘一边打字, 打了半天发现中间打错了, 再返回去修改, 这种打字方法严重影响效率. 解决办法很简单, 练习盲打. 把键位给背熟, 形成肌肉记忆, 当你想按某个键的时候,
 不需经过你的思考, 手指已经条件反射地按到了那个键.
 </p>
 
@@ -638,10 +1019,7 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 
 <p>
 最开始上网的时候, 只有「智能ABC」和「王码五笔」可以选择. 当时的「智能ABC」输入法,
-打字时重码特别多, 想要打准某个字, 需要翻好几页来选中目标项. 为了解决这个问题, 当
-时就去学习了「五笔」输入法, 基本上不存在重码的问题. 当然, 现在的「搜狗输入法」已
-经做到了词频智能调整, 你输入拼音后目标项一般都在前面, 如果不是对五笔特别喜欢, 可
-以现代的拼音输入法, 也完全可以解决该问题.
+打字时重码特别多, 想要打准某个字, 需要翻好几页来选中目标项. 为了解决这个问题, 当时就去学习了「五笔」输入法, 基本上不存在重码的问题. 当然, 现在的「搜狗输入法」已经做到了词频智能调整, 你输入拼音后目标项一般都在前面, 如果不是对五笔特别喜欢, 可以现代的拼音输入法, 也完全可以解决该问题.
 </p>
 
 <ul class="org-ul">
@@ -650,10 +1028,7 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 </ul>
 
 <p>
-现在绝大部分键盘的键位布局, 在 <code>Home Row</code> 上A键左边的键都设置为「Caps Lock」,但
-我平时输入大写字母时, 都用的Shift键, 极少使用大写锁定键. 这么重要的一个位置的键
-就这么被闲置浪费了. 而大部分键盘的 <code>Control</code> 键却又在左下角这么一个难以在「盲打」
-情况下被精准按到的尴尬位置. 有尴尬就有解决的办法.
+现在绝大部分键盘的键位布局, 在 <code>Home Row</code> 上A键左边的键都设置为「Caps Lock」,但我平时输入大写字母时, 都用的Shift键, 极少使用大写锁定键. 这么重要的一个位置的键就这么被闲置浪费了. 而大部分键盘的 <code>Control</code> 键却又在左下角这么一个难以在「盲打」情况下被精准按到的尴尬位置. 有尴尬就有解决的办法.
 </p>
 
 <p>
@@ -666,13 +1041,12 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 <h2 id="sec-2"><span class="section-number-2">2</span> 键盘知识</h2>
 <div class="outline-text-2" id="text-2">
 <p>
-键盘我们每天都在使用, 但你知道键盘上的按键都有哪些分类吗? 如果按 <b>单独按</b> 与*组
-合按* 这一维度, 和 <b>短按</b> 与 <b>长按</b> 这一维度做个2*2矩阵:
+键盘我们每天都在使用, 但你知道键盘上的按键都有哪些分类吗? 如果按 <b>单独按</b> 与*组合按* 这一维度, 和 <b>短按</b> 与 <b>长按</b> 这一维度做个2*2矩阵:
 </p>
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/键盘应该这样改键/keymaps.png" alt="keymaps.png" />
+<p><img src="/assets/blog/2016/05/31/键盘应该这样改键/keymaps.png" alt="keymaps.png" />
 </p>
 </div>
 
@@ -738,13 +1112,11 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 </p>
 
 <p>
-第二象限和第三象限, 可以组合起来使用, 即单独按某一按键时, 发送第二象限功能;组合
-该键和第一象限键位时, 发送第三象限功能.
+第二象限和第三象限, 可以组合起来使用, 即单独按某一按键时, 发送第二象限功能;组合该键和第一象限键位时, 发送第三象限功能.
 </p>
 
 <p>
-第四象限的按键可以通过软件设置, 将平时不太使用的键给映射为其它键. 相当于是增加了
-一个额外的命名空间.
+第四象限的按键可以通过软件设置, 将平时不太使用的键给映射为其它键. 相当于是增加了一个额外的命名空间.
 </p>
 </div>
 </div>
@@ -753,8 +1125,7 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 <h2 id="sec-3"><span class="section-number-2">3</span> 组合第二象限和第三象限</h2>
 <div class="outline-text-2" id="text-3">
 <p>
-组合第二象限和第三象限的功能, 在Mac OS下只需要使用现在的软件, 勾选一下鼠标就可以
-实现.
+组合第二象限和第三象限的功能, 在Mac OS下只需要使用现在的软件, 勾选一下鼠标就可以实现.
 </p>
 
 <ol class="org-ol">
@@ -769,7 +1140,7 @@ send Escape)」
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/键盘应该这样改键/karabiner.png" alt="karabiner.png" />
+<p><img src="/assets/blog/2016/05/31/键盘应该这样改键/karabiner.png" alt="karabiner.png" />
 </p>
 </div>
 
@@ -803,7 +1174,7 @@ Control+其它键时, 仍然发送Control, 跟之前使用完全一样.
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/键盘应该这样改键/system_preference.png" alt="system_preference.png" />
+<p><img src="/assets/blog/2016/05/31/键盘应该这样改键/system_preference.png" alt="system_preference.png" />
 </p>
 </div>
 
@@ -828,9 +1199,7 @@ Control+其它键时, 仍然发送Control, 跟之前使用完全一样.
 <h2 id="sec-5"><span class="section-number-2">5</span> 增加第四象限按键</h2>
 <div class="outline-text-2" id="text-5">
 <p>
-我们可以指定某个按键为多个按键的组合, 这样可以额外增加一个命名空间, 该键和其它键
-的组合就不会和其它按键冲突. 比如设置右Command键为「ctrl+shift+cmd+opt」,这样当我
-们按右command+F时, 相当于按了「ctrl+shift+cmd+opt+F」.
+我们可以指定某个按键为多个按键的组合, 这样可以额外增加一个命名空间, 该键和其它键的组合就不会和其它按键冲突. 比如设置右Command键为「ctrl+shift+cmd+opt」,这样当我们按右command+F时, 相当于按了「ctrl+shift+cmd+opt+F」.
 </p>
 
 <p>
@@ -874,15 +1243,13 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 </div>
 
 <p>
-现在我们按键盘右侧的Command键, 其实就是发送的F19的码值. 而我们又设置了按F19的时
-候, 就发送「Command+Option+Shift+Control」, 这个组合键很少会和其它的快捷键有冲突.
+现在我们按键盘右侧的Command键, 其实就是发送的F19的码值. 而我们又设置了按F19的时候, 就发送「Command+Option+Shift+Control」, 这个组合键很少会和其它的快捷键有冲突.
 然后我们可以怎么玩这个键呢?
 </p>
 
 <p>
 最简单的使用办法就是把这个键做为激活应用程序快捷键, 右Cmd+F打开Firefox, 右Cmd+E
-打开Excel, 这些快捷键都是全局生效的, 你在任意程序中按下, 都可以激活你设置的应用
-程序.
+打开Excel, 这些快捷键都是全局生效的, 你在任意程序中按下, 都可以激活你设置的应用程序.
 </p>
 
 <p>
@@ -892,7 +1259,7 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/键盘应该这样改键/maestro.png" alt="maestro.png" />
+<p><img src="/assets/blog/2016/05/31/键盘应该这样改键/maestro.png" alt="maestro.png" />
 </p>
 </div>
 </div>
@@ -902,13 +1269,13 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 </section>
 ]]></description>
       <pubDate>2016-05-20</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/20/键盘应该这样改键/</guid>
+      <guid>http://lijigang.github.io/blog/2016/05/31/键盘应该这样改键/</guid>
     </item>
     <item>
       <title>「宗师」成长路线</title>
-      <link>http://lijigang.github.io/blog/2016/05/20/「宗师」成长路线/</link>
+      <link>http://lijigang.github.io/blog/2016/05/31/「宗师」成长路线/</link>
       <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
             <h1>「宗师」成长路线</h1>
             <div id="table-of-contents">
@@ -929,13 +1296,12 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 </div>
 </div>
 <p>
-当我们去回顾任何一个行业的 <b>大牛</b> 是如何从零基础开始入门学习, 到他成长为一代宗师
-的整个学习成长路线, 经常会发现现在的路径图:
+当我们去回顾任何一个行业的 <b>大牛</b> 是如何从零基础开始入门学习, 到他成长为一代宗师的整个学习成长路线, 经常会发现现在的路径图:
 </p>
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/「宗师」成长路线/mastery.png" alt="mastery.png" />
+<p><img src="/assets/blog/2016/05/31/「宗师」成长路线/mastery.png" alt="mastery.png" />
 </p>
 </div>
 
@@ -943,19 +1309,12 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 <h2 id="sec-1"><span class="section-number-2">1</span> 学习者类型</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-我们就先以 <b>盲打</b> 这个技能来举例吧. 回想下你刚开始学习打字的时候, 看着键盘上的字
-母, 你好奇为什么26个英文字母没有从上往下顺序排列, 而是这样杂乱无章地分布. 但不管
-怎样, 键盘就是这样了, 你需要去学习它, 适应它. 你想打个 Hello,你眼在整个键盘上找H
-键, 右食指按下去, 看了下屏幕, 嗯, 屏幕上显示了 <b>H</b>, 继续低头在键盘上找e键, 然后
-抬头看屏幕验证是否正确. 接着继续低头找l,然后找o,抬头看屏幕上显示了 <b>Hello</b>, 长舒
-一口气, 原来打字就是这么一个过程啊.
+我们就先以 <b>盲打</b> 这个技能来举例吧. 回想下你刚开始学习打字的时候, 看着键盘上的字母, 你好奇为什么26个英文字母没有从上往下顺序排列, 而是这样杂乱无章地分布. 但不管怎样, 键盘就是这样了, 你需要去学习它, 适应它. 你想打个 Hello,你眼在整个键盘上找H
+键, 右食指按下去, 看了下屏幕, 嗯, 屏幕上显示了 <b>H</b>, 继续低头在键盘上找e键, 然后抬头看屏幕验证是否正确. 接着继续低头找l,然后找o,抬头看屏幕上显示了 <b>Hello</b>, 长舒一口气, 原来打字就是这么一个过程啊.
 </p>
 
 <p>
-然后你看了下旁边的小伙在那对着屏幕上的聊天窗口, 手指飞快地在键盘上击打, 无比潇洒
-帅气. 你下定决心也想像他那样打字. 你开始找人去问, 你开始网上找教程,你知道了这种
-打字方式叫做 <b>盲打</b>, 你也知道了练盲打的基本指法, 左小指按QAZ,左无名指按WSX, 你开
-始试着不看键盘, 心中默默背着键位, 手指笨拙地击键, 打字速度比你低头找键竟然还要慢!
+然后你看了下旁边的小伙在那对着屏幕上的聊天窗口, 手指飞快地在键盘上击打, 无比潇洒帅气. 你下定决心也想像他那样打字. 你开始找人去问, 你开始网上找教程,你知道了这种打字方式叫做 <b>盲打</b>, 你也知道了练盲打的基本指法, 左小指按QAZ,左无名指按WSX, 你开始试着不看键盘, 心中默默背着键位, 手指笨拙地击键, 打字速度比你低头找键竟然还要慢!
 </p>
 
 <p>
@@ -963,54 +1322,47 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 </p>
 
 <p>
-有的人选择放弃练习盲打, 继续原来的低头找键的打字方式. 兴趣转向其它技能上了,这种
-人暂且称作 <b>浅尝辄止型</b> (dabbler).
+有的人选择放弃练习盲打, 继续原来的低头找键的打字方式. 兴趣转向其它技能上了,这种人暂且称作 <b>浅尝辄止型</b> (dabbler).
 </p>
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/「宗师」成长路线/dabbler.png" alt="dabbler.png" />
+<p><img src="/assets/blog/2016/05/31/「宗师」成长路线/dabbler.png" alt="dabbler.png" />
 </p>
 </div>
 
 <p>
-有的人选择加倍的投入精力练习盲打, 一定要突破这个难题. 有可能很快就见效果了,打字
-速度确实比原来快了很多, 但也有可能没有很快见效, 持续了一段时间, 发现打字速度没有
-什么长进, 还有原来差不多. 这种人会感到极大的挫败, 转而放弃继续练习. 暂且称这种人
-为 <b>偏执狂型</b> (obsessive)
+有的人选择加倍的投入精力练习盲打, 一定要突破这个难题. 有可能很快就见效果了,打字速度确实比原来快了很多, 但也有可能没有很快见效, 持续了一段时间, 发现打字速度没有什么长进, 还有原来差不多. 这种人会感到极大的挫败, 转而放弃继续练习. 暂且称这种人为 <b>偏执狂型</b> (obsessive)
 </p>
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/「宗师」成长路线/obsessive.png" alt="obsessive.png" />
+<p><img src="/assets/blog/2016/05/31/「宗师」成长路线/obsessive.png" alt="obsessive.png" />
 </p>
 </div>
 
 <p>
-有的人选择无视这个难题, 适应了当前的打字速度, 既不努力练习, 想着提升自己,也不转
-身放弃, 不再坚持. 而是安于当下, 随遇而安. 姑且称这种人为 <b>随遇而安型</b> (hacker)
+有的人选择无视这个难题, 适应了当前的打字速度, 既不努力练习, 想着提升自己,也不转身放弃, 不再坚持. 而是安于当下, 随遇而安. 姑且称这种人为 <b>随遇而安型</b> (hacker)
 </p>
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/「宗师」成长路线/hacker.png" alt="hacker.png" />
+<p><img src="/assets/blog/2016/05/31/「宗师」成长路线/hacker.png" alt="hacker.png" />
 </p>
 </div>
 
 <p>
-有的人选择正视平台期, 热爱平台期, 在平台期努力练习, 掌握这个阶段自己还比较生疏的
-技巧, 直到下一个突飞猛进的到来. 这种人就是我们说的 <b>宗师型</b> (mastery)
+有的人选择正视平台期, 热爱平台期, 在平台期努力练习, 掌握这个阶段自己还比较生疏的技巧, 直到下一个突飞猛进的到来. 这种人就是我们说的 <b>宗师型</b> (mastery)
 </p>
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/「宗师」成长路线/mastery.png" alt="mastery.png" />
+<p><img src="/assets/blog/2016/05/31/「宗师」成长路线/mastery.png" alt="mastery.png" />
 </p>
 </div>
 
 <p>
-做这些选择, 可能跟个人的性格, 成长环境, 教育背景等等方面有关, 正是这些选择,造就
-了同样起跑线上的同学, 在一段时间后, 成就差异会那么的大.
+做这些选择, 可能跟个人的性格, 成长环境, 教育背景等等方面有关, 正是这些选择,造就了同样起跑线上的同学, 在一段时间后, 成就差异会那么的大.
 </p>
 </div>
 </div>
@@ -1023,8 +1375,7 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 </p>
 
 <p>
-在儿童时期, 整个世界都是你的指导者. 你从身边的人的表情, 语言, 来学习和了解这个世
-界.
+在儿童时期, 整个世界都是你的指导者. 你从身边的人的表情, 语言, 来学习和了解这个世界.
 </p>
 
 <p>
@@ -1032,8 +1383,7 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 </p>
 
 <p>
-<a href="http://book.douban.com/subject/1461005/">「Mastery」</a> 这本书中, 作者给出了五
-个宗师成长路线的关键点.
+<a href="http://book.douban.com/subject/1461005/">「Mastery」</a> 这本书中, 作者给出了五个宗师成长路线的关键点.
 </p>
 </div>
 
@@ -1046,8 +1396,7 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 </p>
 
 <p>
-找一个好的指导者, 一个可以跟你互动, 有耐心, 有经验的指导者, 是成为「宗师」的第一
-个关键点.
+找一个好的指导者, 一个可以跟你互动, 有耐心, 有经验的指导者, 是成为「宗师」的第一个关键点.
 </p>
 </div>
 </div>
@@ -1060,8 +1409,7 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 </p>
 
 <p>
-练习, 对于 <b>宗师型</b> 学习者来说, 是一个 <b>名词</b> , 它就是你要掌握的技能本身,无关其
-它.
+练习, 对于 <b>宗师型</b> 学习者来说, 是一个 <b>名词</b> , 它就是你要掌握的技能本身,无关其它.
 </p>
 
 <blockquote>
@@ -1111,8 +1459,7 @@ The essence of boredom is to be found in the obsessive search for novelty.
 <h3 id="sec-2-4"><span class="section-number-3">2.4</span> Intentionality</h3>
 <div class="outline-text-3" id="text-2-4">
 <p>
-意念, 在你做技能练习的时候, 除了身体力行地锻炼以外, 在头脑中想象下动作的完成, 精
-神集中在某些部位上, 都会产生不一样的训练效果.
+意念, 在你做技能练习的时候, 除了身体力行地锻炼以外, 在头脑中想象下动作的完成, 精神集中在某些部位上, 都会产生不一样的训练效果.
 </p>
 
 <blockquote>
@@ -1145,31 +1492,27 @@ herself to the limit, to finish at all cost, to attain the unattainable.
 </section>
 ]]></description>
       <pubDate>2016-05-20</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/20/「宗师」成长路线/</guid>
+      <guid>http://lijigang.github.io/blog/2016/05/31/「宗师」成长路线/</guid>
     </item>
     <item>
       <title>移动互联网入口</title>
-      <link>http://lijigang.github.io/blog/2016/05/20/移动互联网入口/</link>
+      <link>http://lijigang.github.io/blog/2016/05/31/移动互联网入口/</link>
       <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
             <h1>移动互联网入口</h1>
             <p>
-互联网的移动化发展趋势, 现在基本已经被业内公认了. 大家都在急着寻找移动互联网的入
-口, 各种布局, 但大多都在APP层级在找机会, 现在也有些公司已经在硬件层级开始寻找机
-会, 智能家居的概念大家也都在摸索. 但说到「移动互联网入口」, 还有一个离它更近的入
-口, 现在没有太多人在做, 那就是「移动端网络」.
+互联网的移动化发展趋势, 现在基本已经被业内公认了. 大家都在急着寻找移动互联网的入口, 各种布局, 但大多都在APP层级在找机会, 现在也有些公司已经在硬件层级开始寻找机会, 智能家居的概念大家也都在摸索. 但说到「移动互联网入口」, 还有一个离它更近的入口, 现在没有太多人在做, 那就是「移动端网络」.
 </p>
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/移动互联网入口/mobile-gate.png" alt="mobile-gate.png" />
+<p><img src="/assets/blog/2016/05/31/移动互联网入口/mobile-gate.png" alt="mobile-gate.png" />
 </p>
 </div>
 
 <p>
-现在APP端已经拼成了血海, 基本上是个方向都有人在尝试, 大家都想把自己拼成入口: 微
-信, 大众点评, 百度搜索, 微博, 滴滴打车, 手机淘宝&#x2026;
+现在APP端已经拼成了血海, 基本上是个方向都有人在尝试, 大家都想把自己拼成入口: 微信, 大众点评, 百度搜索, 微博, 滴滴打车, 手机淘宝&#x2026;
 </p>
 
 <p>
@@ -1178,21 +1521,18 @@ herself to the limit, to finish at all cost, to attain the unattainable.
 </p>
 
 <p>
-手机系统, 因Android的开放, 有做硬件实力的几大公司, 基本上都是在这上面做些二次开
-发, 内嵌一些APP, 把自己的服务集成在系统层中&#x2026;
+手机系统, 因Android的开放, 有做硬件实力的几大公司, 基本上都是在这上面做些二次开发, 内嵌一些APP, 把自己的服务集成在系统层中&#x2026;
 </p>
 
 <p>
-但单论离互联网入口的远近程度, 「网络」, 这个离移动互联网最近的入口, 现在反而没有
-太大的巨头出现. 而这块领域, 可以玩的东西就太多了. 衣食住行, 除了「衣」可能跟wifi
+但单论离互联网入口的远近程度, 「网络」, 这个离移动互联网最近的入口, 现在反而没有太大的巨头出现. 而这块领域, 可以玩的东西就太多了. 衣食住行, 除了「衣」可能跟wifi
 关系不大, 其它的几个:
 </p>
 
 <ul class="org-ul">
 <li>食: 餐厅免费wifi, 连接挣积分, 积分换饮料, 等等.
 </li>
-<li>住: 家里网络白天上班时闲置, 是不是可以做分享挣积分? 分享挣现金? 这些分享
-再吸引更多的用户进来.
+<li>住: 家里网络白天上班时闲置, 是不是可以做分享挣积分? 分享挣现金? 这些分享再吸引更多的用户进来.
 </li>
 <li>行: 长途大巴, 高铁, 飞机, 这些封闭场景内如果提供免费wifi你会不会连?
 </li>
@@ -1200,7 +1540,7 @@ herself to the limit, to finish at all cost, to attain the unattainable.
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/移动互联网入口/wifi.png" alt="wifi.png" />
+<p><img src="/assets/blog/2016/05/31/移动互联网入口/wifi.png" alt="wifi.png" />
 </p>
 </div>
 
@@ -1208,18 +1548,17 @@ herself to the limit, to finish at all cost, to attain the unattainable.
 </section>
 ]]></description>
       <pubDate>2016-05-20</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/20/移动互联网入口/</guid>
+      <guid>http://lijigang.github.io/blog/2016/05/31/移动互联网入口/</guid>
     </item>
     <item>
       <title>O2O与电子商务</title>
-      <link>http://lijigang.github.io/blog/2016/05/20/o2o与电子商务/</link>
+      <link>http://lijigang.github.io/blog/2016/05/31/o2o与电子商务/</link>
       <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
             <h1>O2O与电子商务</h1>
             <p>
-O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对两者的定义与区别, 一直没搞明
-白. 最近几天看了点书, 也做了些思考, 在这里做个总结.
+O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对两者的定义与区别, 一直没搞明白. 最近几天看了点书, 也做了些思考, 在这里做个总结.
 </p>
 
 <p>
@@ -1240,9 +1579,7 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 </p>
 
 <p>
-后来互联网产生, 首先出现了互联网营销这个新型的渠道, 给线下商家增加了一个新的增加流量
-的入口. 紧接着就是线上出现了很多的体验, 诸如在线视频(对应线下影院), 在线新闻(对应线
-下纸媒) 等等. 后来终于出现了电子支付功能, 线下的交易也被搬到线上.
+后来互联网产生, 首先出现了互联网营销这个新型的渠道, 给线下商家增加了一个新的增加流量的入口. 紧接着就是线上出现了很多的体验, 诸如在线视频(对应线下影院), 在线新闻(对应线下纸媒) 等等. 后来终于出现了电子支付功能, 线下的交易也被搬到线上.
 </p>
 
 <p>
@@ -1250,9 +1587,7 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 </p>
 
 <p>
-但发展到这里, 线上的虚拟世界和线下的现实世界的两种商业活动, 基本上还是隔离状态. 后来
-随着互联网越来越成熟, 线上和线下发生了不可避免的融合, 出现了一些诸如线上交易, 线下体
-验(团购)的新型商业模式.
+但发展到这里, 线上的虚拟世界和线下的现实世界的两种商业活动, 基本上还是隔离状态. 后来随着互联网越来越成熟, 线上和线下发生了不可避免的融合, 出现了一些诸如线上交易, 线下体验(团购)的新型商业模式.
 </p>
 
 <p>
@@ -1267,9 +1602,7 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 </ol>
 
 <p>
-从现实世界到虚拟世界, 需要一个手段, 可以将实物的相关信息对应到虚拟世界中, 最佳方式为
-增强现实(AR)技术和NFC技术, 但因这种技术现在仍为普及, 目前可用技术中, 最为常用的手段
-即为 <b>二维码</b>.
+从现实世界到虚拟世界, 需要一个手段, 可以将实物的相关信息对应到虚拟世界中, 最佳方式为增强现实(AR)技术和NFC技术, 但因这种技术现在仍为普及, 目前可用技术中, 最为常用的手段即为 <b>二维码</b>.
 </p>
 
 <p>
@@ -1307,13 +1640,13 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 </section>
 ]]></description>
       <pubDate>2016-05-20</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/20/o2o与电子商务/</guid>
+      <guid>http://lijigang.github.io/blog/2016/05/31/o2o与电子商务/</guid>
     </item>
     <item>
       <title>经济学原理</title>
-      <link>http://lijigang.github.io/blog/2016/05/20/经济学原理/</link>
+      <link>http://lijigang.github.io/blog/2016/05/31/经济学原理/</link>
       <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
             <h1>经济学原理</h1>
             <div id="table-of-contents">
@@ -1383,8 +1716,7 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 <h3 id="sec-1-2"><span class="section-number-3">1.2</span> 原理二: 机会成本</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
-人们面临权衡取舍, 做决策时就要比较各方案的成本与收益. 但行动的成本并不是一
-目了然. 这里涉及到 <b>机会成本</b> 的概念:
+人们面临权衡取舍, 做决策时就要比较各方案的成本与收益. 但行动的成本并不是一目了然. 这里涉及到 <b>机会成本</b> 的概念:
 </p>
 
 <blockquote>
@@ -1404,15 +1736,12 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 
 <blockquote>
 <p>
-在机会成本为既定的条件下, 理性人(rational people) 系统而有目的地尽最大努力
-去实现其目标.
+在机会成本为既定的条件下, 理性人(rational people) 系统而有目的地尽最大努力去实现其目标.
 </p>
 </blockquote>
 
 <p>
-理性人知道, 生活中的决策很少是非黑即白式的选择, 而往往是介于其间.  经济学
-家用 <b>边际变动(marginal change)</b> 来描述对现有行动计划的微小增量调整. 理性
-人通常通过比较 <b>边际利益</b> 与 <b>边际成本</b> 来做出决策.
+理性人知道, 生活中的决策很少是非黑即白式的选择, 而往往是介于其间.  经济学家用 <b>边际变动(marginal change)</b> 来描述对现有行动计划的微小增量调整. 理性人通常通过比较 <b>边际利益</b> 与 <b>边际成本</b> 来做出决策.
 </p>
 
 <p>
@@ -1474,8 +1803,7 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 <h3 id="sec-2-1"><span class="section-number-3">2.1</span> 原理五: 贸易可以使每个人的状况都变得更好</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
-虽然在贸易过程中, 会有各种竞争存在. 但贸易使每个人都可以专门从事自己最擅长
-的活动. 通过与他人交易, 人们可以按较低的成本获得各种各样的物品与劳务.
+虽然在贸易过程中, 会有各种竞争存在. 但贸易使每个人都可以专门从事自己最擅长的活动. 通过与他人交易, 人们可以按较低的成本获得各种各样的物品与劳务.
 </p>
 </div>
 </div>
@@ -1489,14 +1817,12 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 </p>
 
 <p>
-当许多企业和家庭在物品与劳务市场上相互交易时, 通过它们的分散决策配置资源的
-经济.
+当许多企业和家庭在物品与劳务市场上相互交易时, 通过它们的分散决策配置资源的经济.
 </p>
 </blockquote>
 
 <p>
-市场经济由一只「看不见的手」通过「价格」这个工具来指引, 最终结果在大多数情
-况下会实现整个社会福利的最大化.
+市场经济由一只「看不见的手」通过「价格」这个工具来指引, 最终结果在大多数情况下会实现整个社会福利的最大化.
 </p>
 
 <blockquote>
@@ -1510,8 +1836,7 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 </blockquote>
 
 <p>
-经济参与者受利己心驱动, 而市场上这只「看不见的手」指引这种利己心去促进总体
-的经济福利.
+经济参与者受利己心驱动, 而市场上这只「看不见的手」指引这种利己心去促进总体的经济福利.
 </p>
 </div>
 </div>
@@ -1538,8 +1863,7 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 </blockquote>
 
 <p>
-如果你今天挣到的钱, 明天就会被别人抢走, 你也就不会有动力去挣钱了. 只有在保
-证个人可以拥有资源的情况下, 市场才能发挥作用.
+如果你今天挣到的钱, 明天就会被别人抢走, 你也就不会有动力去挣钱了. 只有在保证个人可以拥有资源的情况下, 市场才能发挥作用.
 </p>
 
 <p>
@@ -1566,8 +1890,7 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 </p>
 
 <p>
-比如一个小镇上只有一家纯净水供应商, 价格完全由它来定. 市场平时是靠竞争来约
-束个人和利己行为的, 但这种垄断的情况, 市场显然失灵了.
+比如一个小镇上只有一家纯净水供应商, 价格完全由它来定. 市场平时是靠竞争来约束个人和利己行为的, 但这种垄断的情况, 市场显然失灵了.
 </p>
 </blockquote>
 
@@ -1587,8 +1910,7 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 </p>
 
 <p>
-现在的很多公共政策, 比如个人所得税和福利制度, 目标就是为了实现更平等的经济
-福利分配.
+现在的很多公共政策, 比如个人所得税和福利制度, 目标就是为了实现更平等的经济福利分配.
 </p>
 
 
@@ -1627,13 +1949,11 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 </pre>
 
 <p>
-在考虑任何一项政策如何影响生活水平时, 关键问题是这项政策如何影响我们生产物
-品与劳务的能力.
+在考虑任何一项政策如何影响生活水平时, 关键问题是这项政策如何影响我们生产物品与劳务的能力.
 </p>
 
 <p>
-为了提升生活水平, 决策者需要通过让工人受到良好的教育、拥有生产物品与劳务需
-要的工具, 以及获取最好的技术, 来提高生产率.
+为了提升生活水平, 决策者需要通过让工人受到良好的教育、拥有生产物品与劳务需要的工具, 以及获取最好的技术, 来提高生产率.
 </p>
 </div>
 </div>
@@ -1684,7 +2004,7 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/20/经济学原理/ten_principles.png" alt="ten_principles.png" />
+<p><img src="/assets/blog/2016/05/31/经济学原理/ten_principles.png" alt="ten_principles.png" />
 </p>
 </div>
 </div>
@@ -1695,239 +2015,7 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 </section>
 ]]></description>
       <pubDate>2016-05-20</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/20/经济学原理/</guid>
-    </item>
-    <item>
-      <title>产品经理</title>
-      <link>http://lijigang.github.io/blog/2016/05/20/产品经理/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>产品经理</h1>
-            <p>
-本文主要是个人做产品经验总结, 包含了相关书籍和个人经历的汇总.
-</p>
-
-<p>
-做产品过程中, 有三个tips要知晓:
-</p>
-
-<blockquote>
-<p>
-<code>tip一</code> 产品存在的意义就在于满足用户需求, 首先要为用户提供「使用价值」, 然后再考虑从
-这过程中获取「商业价值」. 从长远看, 「使用价值」要大于「商业价值」.
-</p>
-</blockquote>
-
-<p>
-该tip主要是当面对用户第一还是客户第一(收入第一)这个问题时, 需要坚守的底线.
-</p>
-
-<hr  />
-
-
-<blockquote>
-<p>
-<code>tip二</code> 产品复杂度守恒定律: 用户使用起来越容易, PM和RD的工作难度相应越大.
-</p>
-</blockquote>
-
-<p>
-该tip主要在设计用户功能满足目标用户需求的过程中, 当面对「使用简单方式实现勉强能用的
-功能」还是「通过反复思考尝试做出不让用户思考的功能」时考虑.
-</p>
-
-<hr  />
-
-
-<blockquote>
-<p>
-<code>tip三</code> 诺威格定律: 当公司的市场占有率大于50%时, 市场占有率就无法再翻番了.
-</p>
-</blockquote>
-
-<p>
-该定律主要在你的产品做大了以后, 已经站在了行业主导地位, 这时候该怎么办?
-</p>
-
-<p>
-为保证「基业常青」, 占市场主导地位的公司需要开拓新的商业利益渠道, 方法有二:
-</p>
-
-<ol class="org-ol">
-<li>转型
-</li>
-<li>横向业务拓展
-</li>
-</ol>
-
-<p>
-绝大部分占主导地位的公司都选择了第二种办法, 这也是BAT三巨头业务线众多的原因.
-</p>
-
-<hr  />
-
-<p>
-说完个人做产品要坚持的三个tip之后, 下面主要讨论下, 如何从零开始做产品.
-</p>
-
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> 如何制定产品战略</h2>
-<div class="outline-text-2" id="text-1">
-
-<div class="figure">
-<p><img src="/assets/blog/2016/05/20/产品经理/leancanvas.png" alt="leancanvas.png" />
-</p>
-</div>
-</div>
-
-
-<div id="outline-container-sec-1-1" class="outline-3">
-<h3 id="sec-1-1"><span class="section-number-3">1.1</span> 确认细分用户群体</h3>
-<div class="outline-text-3" id="text-1-1">
-
-<div class="figure">
-<p><img src="/assets/blog/2016/05/20/产品经理/divide_user.png" alt="divide_user.png" />
-</p>
-</div>
-
-<p>
-可以根据上图所示的不同角度, 来细分群体. 但细分手, 如何定位你的目标用户?
-</p>
-
-<ol class="org-ol">
-<li>分析不同的细分用户的高频痛点
-</li>
-<li>分析手上的资源情况和解决方案的满足能力(投入产出比)
-</li>
-<li>形成目标用户吸引力矩阵(满足用户需求的能力和目标用户吸引力两个维度)
-</li>
-</ol>
-</div>
-</div>
-
-
-<div id="outline-container-sec-1-2" class="outline-3">
-<h3 id="sec-1-2"><span class="section-number-3">1.2</span> 挖掘用户需求(高频痛点)</h3>
-<div class="outline-text-3" id="text-1-2">
-<p>
-什么是需求? 需求即为用户想要实现的一个目标. 产品经理经常会收到很多的用户反馈, 最经典
-的一个例子就是「我想要一匹更快的马」, 但这种反馈中, 用户不只是说了自己的需求「更快的」
-而且说出了自己的解决方案「马」. 产品经理需要从这些用户反馈中筛选和提炼, 找出用户真正
-的需求, 并提出更好的解决方案.
-</p>
-
-<p>
-另外产品经理很鲜明的一个特点是经常变产品需求. 之前提的功能还没开发完成, 就又提出新的
-想法, 要对之前的功能进行改变. 很多时候是因为产品经理后面突出发现或者了解到了之前不知
-道的一些信息, 需要改变解决方案才能更好地满足用户需求. 但这种改变, 其实并不是用户的需
-求变了, 而是产品经理对用户的需求理解改变了. 用户的需求很少变更, 但用户对需求的解决方
-案的期待度和兴奋度会随着时间而改变. 现在的一些兴奋功能, 可能后面就变成了行业标配功能,
-产品经理需要不断地提出更好地解决方案去满足用户.
-</p>
-
-<p>
-说到用户需求, 就不得不涉及到人性. 好的产品经理一定有着很好的同理心, 对心理学和社会学
-都需要有自己的理解. 美国心理学家马斯洛提出的人类需求金字塔模型是最为产品经理所熟知的:
-</p>
-
-<ol class="org-ol">
-<li>生理需求
-</li>
-<li>安全需求
-</li>
-<li>归属感和爱的需求
-</li>
-<li>尊重的需求
-</li>
-<li>认知需求(好奇心)
-</li>
-<li>审美需求
-</li>
-<li>自我实现的需求
-</li>
-<li>超越的需求
-</li>
-</ol>
-</div>
-</div>
-
-
-<div id="outline-container-sec-1-3" class="outline-3">
-<h3 id="sec-1-3"><span class="section-number-3">1.3</span> 提出解决方案(市场验证)</h3>
-<div class="outline-text-3" id="text-1-3">
-<p>
-可参考<a href="http://www.lijigang.com/blog/2016/01/26/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E8%A6%81%E7%B4%A0/">用户体验要素</a>
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-1-4" class="outline-3">
-<h3 id="sec-1-4"><span class="section-number-3">1.4</span> 分阶段的核心风险指标</h3>
-<div class="outline-text-3" id="text-1-4">
-<p>
-产品的各个阶段关注的核心风险指标不同, 如果选错关注指标, 很有可能导致做出错误决策.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-1-5" class="outline-3">
-<h3 id="sec-1-5"><span class="section-number-3">1.5</span> 产品差异化(细分市场的第一)</h3>
-<div class="outline-text-3" id="text-1-5">
-<p>
-当选好用户群体, 找好用户痛点需求后, 经常会发现该领域已经有了竞品存在. 这时候需要找准
-差异点, 换个切入点, 做到那个切入点的第一. 比如在Youku这种巨头存在的条件下, 爱奇艺, A
-站, B站仍有很多忠实用户.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-1-6" class="outline-3">
-<h3 id="sec-1-6"><span class="section-number-3">1.6</span> 行业壁垒(无法被抄袭的点)</h3>
-<div class="outline-text-3" id="text-1-6">
-<p>
-大部分公司在开始时都没有自己的行业壁垒, 随着业务的不断深入, 会逐渐形成一些其它公司无
-法抄袭的点, 这些点即为该公司的行业壁垒. 比如某些资源的独家经营权, 比如某些外卖团队的
-搭建, 比如独家知识产权或发明专利, 等等.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-1-7" class="outline-3">
-<h3 id="sec-1-7"><span class="section-number-3">1.7</span> 产品到达用户的渠道(线上市场, SEM, 线下地推)</h3>
-<div class="outline-text-3" id="text-1-7">
-<p>
-找好了痛点, 也终于开发完成完美的解决方案, 你的产品怎么到达用户手中. 需要根据目标细分
-用户群体的特点, 选取相应的推广渠道.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-1-8" class="outline-3">
-<h3 id="sec-1-8"><span class="section-number-3">1.8</span> 成本组成</h3>
-<div class="outline-text-3" id="text-1-8">
-<p>
-在开发产品的过程中, 各项成本的汇总, 公司的现金流能否支持到产品盈利.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-1-9" class="outline-3">
-<h3 id="sec-1-9"><span class="section-number-3">1.9</span> 收入流</h3>
-<div class="outline-text-3" id="text-1-9">
-<p>
-在满足了用户需求基础上, 对获取的用户或流量进行变现, 不同的变现结果的汇总, 能否支付成
-本.
-</p>
-</div>
-</div>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2016-05-20</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/20/产品经理/</guid>
+      <guid>http://lijigang.github.io/blog/2016/05/31/经济学原理/</guid>
     </item>
   </channel>
 </rss>
