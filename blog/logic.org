@@ -1,5 +1,6 @@
 #+title: 神逻辑
 #+author: 李继刚
+#+options: toc:nil
 
 #+BEGIN_QUOTE
 「You can you up, no can no bb」.
