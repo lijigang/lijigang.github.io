@@ -84,6 +84,7 @@ a:hover {
 
 
 img {
+    width: 100%;
     display: block;
     box-shadow: 0 0 10px #555;
     border-radius: 6px;
@@ -97,4 +98,12 @@ img {
 
 hr {
     color: LightGrey;
+}
+
+.post-content {
+    margin: 50px auto 0;
+    padding: 5px 50px;
+    max-width: 840px;
+    text-align: justify;
+    border: 1px solid LightGrey;
 }
