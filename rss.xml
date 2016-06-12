@@ -4,13 +4,82 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Tue, 31 May 2016 16:10:20 CST</pubDate>
-    <lastBuildDate>Tue, 31 May 2016 16:10:20 CST</lastBuildDate>
+    <pubDate>Sun, 12 Jun 2016 17:57:15 CST</pubDate>
+    <lastBuildDate>Sun, 12 Jun 2016 17:57:15 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
+      <title>商业模式新生代</title>
+      <link>http://lijigang.github.io/blog/2016/06/12/商业模式新生代/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>商业模式新生代</h1>
+            
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> 什么是商业模式?</h2>
+<div class="outline-text-2" id="text-1">
+<blockquote>
+<p>
+商业模型是一个理论工具，它包含大量的商业元素及它们之间的关系，并且能够描述特定公司的商业模式。它能显示一个公司在以下一个或多个方面的价值所在：客户，公司结构，以及，以营利和可持续性盈利为目的，用以生产，销售，传递价值及关系资本的客户网。
+</p>
+</blockquote>
+
+<p>
+商业模式是工商业创造收入和利润的计划. 具体中间的各个环节之间是什么样的关系, 这些环节之间哪些更重要些, 这些问题都在这本书里找到了答案.
+</p>
+
+<p>
+作者只用一张纸的内容, 把商业模式中最重要的几个部分给描述的一清二楚.
+</p>
+
+<p>
+这书的核心内容就是下图, 书中主要是针对各部分进行了些介绍:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2016/06/12/商业模式新生代/business_model_canvas.png" alt="business_model_canvas.png" />
+</p>
+</div>
+
+
+<p>
+但在实际应用过程中, 发现还是有些不太实用的地方, 比如「合作伙伴」这一条, 如果是一个初创企业, 其实很多时候是没有什么合作伙伴的, 空着那栏总感觉有些浪费.
+</p>
+
+<p>
+很显然, 有类似感觉的人远不止我一个, 国外有个叫 Ash Maurya 的就在商业画布的基础上做了一些改进, 做出了下图, 并命名为 <a href="http://practicetrumpstheory.com/why-lean-canvas/">lean canvas</a>.
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2016/06/12/商业模式新生代/lean_canvas.png" alt="lean_canvas.png" />
+</p>
+</div>
+
+
+<p>
+我做了一个设想的项目商业画布做为试手, 结果如下图:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2016/06/12/商业模式新生代/lean_canvas_example.png" alt="lean_canvas_example.png" />
+</p>
+</div>
+</div>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2016-06-12</pubDate>
+      <guid>http://lijigang.github.io/blog/2016/06/12/商业模式新生代/</guid>
+    </item>
+    <item>
       <title>互联网广告</title>
-      <link>http://lijigang.github.io/blog/2016/05/31/互联网广告/</link>
+      <link>http://lijigang.github.io/blog/2016/06/12/互联网广告/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -145,88 +214,11 @@ CPC在一定时期内整个广告界内比较稳定, 要想提升广告收入, �
 </section>
 ]]></description>
       <pubDate>2016-05-31</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/31/互联网广告/</guid>
-    </item>
-    <item>
-      <title>商业模式新生代</title>
-      <link>http://lijigang.github.io/blog/2016/05/31/商业模式新生代/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>商业模式新生代</h1>
-            <div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#sec-1">1. 什么是商业模式?</a></li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> 什么是商业模式?</h2>
-<div class="outline-text-2" id="text-1">
-<blockquote>
-<p>
-商业模型是一个理论工具，它包含大量的商业元素及它们之间的关系，并且能够描述特定公司的商业模式。它能显示一个公司在以下一个或多个方面的价值所在：客户，公司结构，以及，以营利和可持续性盈利为目的，用以生产，销售，传递价值及关系资本的客户网。
-</p>
-</blockquote>
-
-<p>
-商业模式是工商业创造收入和利润的计划. 具体中间的各个环节之间是什么样的关系, 这些环节之间哪些更重要些, 这些问题都在这本书里找到了答案.
-</p>
-
-<p>
-作者只用一张纸的内容, 把商业模式中最重要的几个部分给描述的一清二楚.
-</p>
-
-<p>
-这书的核心内容就是下图, 书中主要是针对各部分进行了些介绍:
-</p>
-
-
-<div class="figure">
-<p><img src="/assets/blog/2016/05/31/商业模式新生代/business_model_canvas.png" alt="business_model_canvas.png" />
-</p>
-</div>
-
-
-<p>
-但在实际应用过程中, 发现还是有些不太实用的地方, 比如「合作伙伴」这一条, 如果是一个初创企业, 其实很多时候是没有什么合作伙伴的, 空着那栏总感觉有些浪费.
-</p>
-
-<p>
-很显然, 有类似感觉的人远不止我一个, 国外有个叫Ash Maurya的就在商业画布的基础上做了一些改进, 做出了下图, 并命名为 <a href="http://practicetrumpstheory.com/why-lean-canvas/">lean canvas</a>.
-</p>
-
-
-<div class="figure">
-<p><img src="/assets/blog/2016/05/31/商业模式新生代/lean_canvas.png" alt="lean_canvas.png" />
-</p>
-</div>
-
-
-<p>
-我做了一个设想的项目商业画布做为试手, 结果如下图:
-</p>
-
-
-<div class="figure">
-<p><img src="/assets/blog/2016/05/31/商业模式新生代/lean_canvas_example.png" alt="lean_canvas_example.png" />
-</p>
-</div>
-</div>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2016-05-31</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/31/商业模式新生代/</guid>
+      <guid>http://lijigang.github.io/blog/2016/06/12/互联网广告/</guid>
     </item>
     <item>
       <title>Computer Science是什么鬼</title>
-      <link>http://lijigang.github.io/blog/2016/05/31/computer-science是什么鬼/</link>
+      <link>http://lijigang.github.io/blog/2016/06/12/computer-science是什么鬼/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -296,7 +288,7 @@ Solving with Algorithms and Data Structures= 这书后, 才开始去了解CS到�
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/31/computer-science是什么鬼/cs.png" alt="cs.png" />
+<p><img src="/assets/blog/2016/06/12/computer-science是什么鬼/cs.png" alt="cs.png" />
 </p>
 </div>
 </div>
@@ -340,7 +332,7 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/31/computer-science是什么鬼/programming.png" alt="programming.png" />
+<p><img src="/assets/blog/2016/06/12/computer-science是什么鬼/programming.png" alt="programming.png" />
 </p>
 </div>
 </div>
@@ -423,126 +415,11 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 </section>
 ]]></description>
       <pubDate>2016-05-31</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/31/computer-science是什么鬼/</guid>
-    </item>
-    <item>
-      <title>互联网思维</title>
-      <link>http://lijigang.github.io/blog/2016/05/31/互联网思维/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>互联网思维</h1>
-            <p>
-「互联网思维」这个词在中国互联网界可算是经历了三个阶段:
-</p>
-
-<ol class="org-ol">
-<li>全民讨论, 疯狂追捧
-</li>
-<li>过街老鼠, 人人喊打
-</li>
-<li>繁华落尽, 返朴归真
-</li>
-</ol>
-
-<p>
-前两个阶段的讨论已经太多, 这里不再做什么总结. 但抛开热炒概念, 投机忽悠的因素, 回过头来冷静地看, 小米的手机和传统手机是不是有些不一样? 小米后来的一系列硬件的做法是不是和传统企业有些不一样? 滴滴打车是不是改变了人们传统打车难的现状? 那么他们的做法是不是有些共性? 这些共性总结下来是不是就是互联网思维?
-</p>
-
-<p>
-在总结这些互联网企业的共性之前, 先来回顾下互联网之前的传统商业时代是怎么玩的.
-</p>
-
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> 传统时代</h2>
-<div class="outline-text-2" id="text-1">
-
-<div class="figure">
-<p><img src="/assets/blog/2016/05/31/互联网思维/traditional.png" alt="traditional.png" />
-</p>
-</div>
-
-<p>
-如上图, 传统生产企业, 生产出商品之后, 会找全国各地的经销商, 由他们负责在该区域的产品销售. 批发价优惠, 返点返利, 这些手段是经销商的兴趣所在.
-</p>
-
-<p>
-这种模式我们都已经很熟悉了, 我们之前购买的家电, 家具, 都是在商场或当地的「专卖店」买回家, 我们和「厂家」的距离感觉有一光年那么远, 我们和其它地区购买同样产品的用户之间的距离, 感觉也不比一光年近多少. 那时候的强势方是「渠道」, 谁所在地区销售量大,
-谁掌握了好的渠道, 说的话语权就大.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2"><span class="section-number-2">2</span> 网络连接时代</h2>
-<div class="outline-text-2" id="text-2">
-
-<div class="figure">
-<p><img src="/assets/blog/2016/05/31/互联网思维/both_channel.png" alt="both_channel.png" />
-</p>
-</div>
-
-<p>
-如上图, 后来「互联网」来了. 有了「百度」, 有了「hao123」, 有了「360导航」,有了「淘宝」, 这时候生产企业除了维持原来的线下销售渠道和网络以外, 也开始慢慢往线上流量开始投入预算. 线上流量和线下流量的区别在于, 它没有地域限制, 一个网站可以接触到全国各地的所有人群, 只要访问量大就可以.
-</p>
-
-<p>
-但这里的模式, 其实本质和「传统时代」是一样的. 只不过是增加了一个新的「渠道」而已.
-线上流量企业也不过是另一个新的更有话语权的渠道方罢了. 以前的返点, 返利, 减返等等玩法, 原方不动地被搬到了这些线上渠道. 这里仍然是「渠道为王」的时代, 用户仍然没有太多的话语权.
-</p>
-
-<p>
-从这个意义上说, 「凤巢」, 「点睛」, 甚至「阿里妈妈」, 这些都不能算是「互联网产品」, 只不过是线下流程线上化罢了.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3"><span class="section-number-2">3</span> 互联网时代</h2>
-<div class="outline-text-2" id="text-3">
-
-<div class="figure">
-<p><img src="/assets/blog/2016/05/31/互联网思维/internet.png" alt="internet.png" />
-</p>
-</div>
-
-<p>
-如上图, 后来有一些企业开始尝试新的思路了, 不再经由那些线上流量渠道接触客户,而是自己直接建立网站, 建立渠道直接跟客户面对面. 并且随着社交网络的不断成熟,使用产品的客户之间, 尽管所在地域不同, 但也可以随时进行沟通讨论. 有什么不满意的地方, 或者说有新的产品建议, 也可以很方便地直接跟「厂商」进行反馈.
-</p>
-
-<p>
-这也就是小米公司宣扬的「参与感」. 但这只是外在表现而已. 这种模式的核心, 并不是企业花几千块钱做个网站, 找个人在微博上处理反馈就可以了. 而是需要从经营理念上做出转变, 从「渠道为王」转入「以人为本」这才是互联网思维.
-</p>
-
-<p>
-为什么要「以人为本」? 还是看上图. 因为「用户」之间可以沟通交流了, 如果你产品坏,
-很快大家都会知道, 没人会再用你产品. 如果你产品好, 大家会自愿进行分享,不用你去买流量就可以给你带来新的用户群体. 也就是说「互联网思维」要求, 做产品的时候需要超出用户预期, 需要让用户「尖叫」, 并且要引导和分享这种「尖叫」,从而形成粉丝效应.
-</p>
-
-<p>
-那要怎么才能「让用户尖叫」? 重视「用户反馈」. 一线用户的反馈是产品迭代改进的重要来源, 这也是为什么互联网公司都在宣扬「小步快跑」, 「精益创业」的原因.
-</p>
-
-<p>
-以前打车, 出租车司机其实是把人当货在拉, 对接到乘客称为「接到活了」. 互联网时代的打车, 不管是专车还是快车, 司机都是为了给你带来好的体验, 这样你才会给他好评, 你的好评比你花的几十块钱要更重要.
-</p>
-
-<p>
-看一家公司有没有互联网思维, 就看他们有没有做到「以人为本」. 有没有做到让用户尖叫,
-并且引导和疏导这些「尖叫」, 形成粉丝效应.
-</p>
-</div>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2016-05-31</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/31/互联网思维/</guid>
+      <guid>http://lijigang.github.io/blog/2016/06/12/computer-science是什么鬼/</guid>
     </item>
     <item>
       <title>键盘应该这样改键</title>
-      <link>http://lijigang.github.io/blog/2016/05/31/键盘应该这样改键/</link>
+      <link>http://lijigang.github.io/blog/2016/06/12/键盘应该这样改键/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -603,7 +480,7 @@ CS不是研究如何编程的学科, 但编程, 却是一个Computer Scientist�
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/31/键盘应该这样改键/keymaps.png" alt="keymaps.png" />
+<p><img src="/assets/blog/2016/06/12/键盘应该这样改键/keymaps.png" alt="keymaps.png" />
 </p>
 </div>
 
@@ -697,7 +574,7 @@ send Escape)」
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/31/键盘应该这样改键/karabiner.png" alt="karabiner.png" />
+<p><img src="/assets/blog/2016/06/12/键盘应该这样改键/karabiner.png" alt="karabiner.png" />
 </p>
 </div>
 
@@ -731,7 +608,7 @@ Control+其它键时, 仍然发送Control, 跟之前使用完全一样.
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/31/键盘应该这样改键/system_preference.png" alt="system_preference.png" />
+<p><img src="/assets/blog/2016/06/12/键盘应该这样改键/system_preference.png" alt="system_preference.png" />
 </p>
 </div>
 
@@ -816,7 +693,7 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/31/键盘应该这样改键/maestro.png" alt="maestro.png" />
+<p><img src="/assets/blog/2016/06/12/键盘应该这样改键/maestro.png" alt="maestro.png" />
 </p>
 </div>
 </div>
@@ -826,11 +703,11 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 </section>
 ]]></description>
       <pubDate>2016-05-31</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/31/键盘应该这样改键/</guid>
+      <guid>http://lijigang.github.io/blog/2016/06/12/键盘应该这样改键/</guid>
     </item>
     <item>
       <title>神逻辑</title>
-      <link>http://lijigang.github.io/blog/2016/05/31/神逻辑/</link>
+      <link>http://lijigang.github.io/blog/2016/06/12/神逻辑/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -1230,11 +1107,11 @@ A: John 并不是一个 *真正的程序员*
 </section>
 ]]></description>
       <pubDate>2016-05-31</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/31/神逻辑/</guid>
+      <guid>http://lijigang.github.io/blog/2016/06/12/神逻辑/</guid>
     </item>
     <item>
       <title>「宗师」成长路线</title>
-      <link>http://lijigang.github.io/blog/2016/05/31/「宗师」成长路线/</link>
+      <link>http://lijigang.github.io/blog/2016/06/12/「宗师」成长路线/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -1262,7 +1139,7 @@ A: John 并不是一个 *真正的程序员*
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/31/「宗师」成长路线/mastery.png" alt="mastery.png" />
+<p><img src="/assets/blog/2016/06/12/「宗师」成长路线/mastery.png" alt="mastery.png" />
 </p>
 </div>
 
@@ -1288,7 +1165,7 @@ A: John 并不是一个 *真正的程序员*
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/31/「宗师」成长路线/dabbler.png" alt="dabbler.png" />
+<p><img src="/assets/blog/2016/06/12/「宗师」成长路线/dabbler.png" alt="dabbler.png" />
 </p>
 </div>
 
@@ -1298,7 +1175,7 @@ A: John 并不是一个 *真正的程序员*
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/31/「宗师」成长路线/obsessive.png" alt="obsessive.png" />
+<p><img src="/assets/blog/2016/06/12/「宗师」成长路线/obsessive.png" alt="obsessive.png" />
 </p>
 </div>
 
@@ -1308,7 +1185,7 @@ A: John 并不是一个 *真正的程序员*
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/31/「宗师」成长路线/hacker.png" alt="hacker.png" />
+<p><img src="/assets/blog/2016/06/12/「宗师」成长路线/hacker.png" alt="hacker.png" />
 </p>
 </div>
 
@@ -1318,7 +1195,7 @@ A: John 并不是一个 *真正的程序员*
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/31/「宗师」成长路线/mastery.png" alt="mastery.png" />
+<p><img src="/assets/blog/2016/06/12/「宗师」成长路线/mastery.png" alt="mastery.png" />
 </p>
 </div>
 
@@ -1453,67 +1330,11 @@ herself to the limit, to finish at all cost, to attain the unattainable.
 </section>
 ]]></description>
       <pubDate>2016-05-31</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/31/「宗师」成长路线/</guid>
-    </item>
-    <item>
-      <title>移动互联网入口</title>
-      <link>http://lijigang.github.io/blog/2016/05/31/移动互联网入口/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>移动互联网入口</h1>
-            <p>
-互联网的移动化发展趋势, 现在基本已经被业内公认了. 大家都在急着寻找移动互联网的入口, 各种布局, 但大多都在APP层级在找机会, 现在也有些公司已经在硬件层级开始寻找机会, 智能家居的概念大家也都在摸索. 但说到「移动互联网入口」, 还有一个离它更近的入口, 现在没有太多人在做, 那就是「移动端网络」.
-</p>
-
-
-<div class="figure">
-<p><img src="/assets/blog/2016/05/31/移动互联网入口/mobile-gate.png" alt="mobile-gate.png" />
-</p>
-</div>
-
-<p>
-现在APP端已经拼成了血海, 基本上是个方向都有人在尝试, 大家都想把自己拼成入口: 微信, 大众点评, 百度搜索, 微博, 滴滴打车, 手机淘宝&#x2026;
-</p>
-
-<p>
-硬件端现在也已经成为了几大巨头的血拼红海, 小米的智能家居, 小米手机; 360的手机,
-智能wifi, 智能摄像头; 腾迅也在做智能硬件平台&#x2026;
-</p>
-
-<p>
-手机系统, 因Android的开放, 有做硬件实力的几大公司, 基本上都是在这上面做些二次开发, 内嵌一些APP, 把自己的服务集成在系统层中&#x2026;
-</p>
-
-<p>
-但单论离互联网入口的远近程度, 「网络」, 这个离移动互联网最近的入口, 现在反而没有太大的巨头出现. 而这块领域, 可以玩的东西就太多了. 衣食住行, 除了「衣」可能跟wifi
-关系不大, 其它的几个:
-</p>
-
-<ul class="org-ul">
-<li>食: 餐厅免费wifi, 连接挣积分, 积分换饮料, 等等.
-</li>
-<li>住: 家里网络白天上班时闲置, 是不是可以做分享挣积分? 分享挣现金? 这些分享再吸引更多的用户进来.
-</li>
-<li>行: 长途大巴, 高铁, 飞机, 这些封闭场景内如果提供免费wifi你会不会连?
-</li>
-</ul>
-
-
-<div class="figure">
-<p><img src="/assets/blog/2016/05/31/移动互联网入口/wifi.png" alt="wifi.png" />
-</p>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2016-05-31</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/31/移动互联网入口/</guid>
+      <guid>http://lijigang.github.io/blog/2016/06/12/「宗师」成长路线/</guid>
     </item>
     <item>
       <title>O2O与电子商务</title>
-      <link>http://lijigang.github.io/blog/2016/05/31/o2o与电子商务/</link>
+      <link>http://lijigang.github.io/blog/2016/06/12/o2o与电子商务/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -1601,11 +1422,11 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 </section>
 ]]></description>
       <pubDate>2016-05-31</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/31/o2o与电子商务/</guid>
+      <guid>http://lijigang.github.io/blog/2016/06/12/o2o与电子商务/</guid>
     </item>
     <item>
       <title>经济学原理</title>
-      <link>http://lijigang.github.io/blog/2016/05/31/经济学原理/</link>
+      <link>http://lijigang.github.io/blog/2016/06/12/经济学原理/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -1965,7 +1786,7 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/05/31/经济学原理/ten_principles.png" alt="ten_principles.png" />
+<p><img src="/assets/blog/2016/06/12/经济学原理/ten_principles.png" alt="ten_principles.png" />
 </p>
 </div>
 </div>
@@ -1976,7 +1797,270 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 </section>
 ]]></description>
       <pubDate>2016-05-31</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/05/31/经济学原理/</guid>
+      <guid>http://lijigang.github.io/blog/2016/06/12/经济学原理/</guid>
+    </item>
+    <item>
+      <title>产品经理</title>
+      <link>http://lijigang.github.io/blog/2016/06/12/产品经理/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>产品经理</h1>
+            <p>
+本文主要是个人做产品经验总结, 包含了相关书籍和个人经历的汇总.
+</p>
+
+<p>
+做产品过程中, 有三个tips要知晓:
+</p>
+
+<blockquote>
+<p>
+<code>tip一</code> 产品存在的意义就在于满足用户需求, 首先要为用户提供「使用价值」, 然后再考虑从这过程中获取「商业价值」. 从长远看, 「使用价值」要大于「商业价值」.
+</p>
+</blockquote>
+
+<p>
+该tip主要是当面对用户第一还是客户第一(收入第一)这个问题时, 需要坚守的底线.
+</p>
+
+<hr  />
+
+
+<blockquote>
+<p>
+<code>tip二</code> 产品复杂度守恒定律: 用户使用起来越容易, PM和RD的工作难度相应越大.
+</p>
+</blockquote>
+
+<p>
+该tip主要在设计用户功能满足目标用户需求的过程中, 当面对「使用简单方式实现勉强能用的功能」还是「通过反复思考尝试做出不让用户思考的功能」时考虑.
+</p>
+
+<hr  />
+
+
+<blockquote>
+<p>
+<code>tip三</code> 诺威格定律: 当公司的市场占有率大于50%时, 市场占有率就无法再翻番了.
+</p>
+</blockquote>
+
+<p>
+该定律主要在你的产品做大了以后, 已经站在了行业主导地位, 这时候该怎么办?
+</p>
+
+<p>
+为保证「基业常青」, 占市场主导地位的公司需要开拓新的商业利益渠道, 方法有二:
+</p>
+
+<ol class="org-ol">
+<li>转型
+</li>
+<li>横向业务拓展
+</li>
+</ol>
+
+<p>
+绝大部分占主导地位的公司都选择了第二种办法, 这也是BAT三巨头业务线众多的原因.
+</p>
+
+<hr  />
+
+<p>
+说完个人做产品要坚持的三个tip之后, 下面主要讨论下, 如何从零开始做产品.
+</p>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> 如何制定产品战略</h2>
+<div class="outline-text-2" id="text-1">
+
+<div class="figure">
+<p><img src="/assets/blog/2016/06/12/产品经理/leancanvas.png" alt="leancanvas.png" />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> 确认细分用户群体</h3>
+<div class="outline-text-3" id="text-1-1">
+
+<div class="figure">
+<p><img src="/assets/blog/2016/06/12/产品经理/divide_user.png" alt="divide_user.png" />
+</p>
+</div>
+
+<p>
+可以根据上图所示的不同角度, 来细分群体. 但细分手, 如何定位你的目标用户?
+</p>
+
+<ol class="org-ol">
+<li>分析不同的细分用户的高频痛点
+</li>
+<li>分析手上的资源情况和解决方案的满足能力(投入产出比)
+</li>
+<li>形成目标用户吸引力矩阵(满足用户需求的能力和目标用户吸引力两个维度)
+</li>
+</ol>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> 挖掘用户需求(高频痛点)</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+什么是需求? 需求即为用户想要实现的一个目标. 产品经理经常会收到很多的用户反馈, 最经典的一个例子就是「我想要一匹更快的马」, 但这种反馈中, 用户不只是说了自己的需求「更快的」而且说出了自己的解决方案「马」. 产品经理需要从这些用户反馈中筛选和提炼, 找出用户真正的需求, 并提出更好的解决方案.
+</p>
+
+<p>
+另外产品经理很鲜明的一个特点是经常变产品需求. 之前提的功能还没开发完成, 就又提出新的想法, 要对之前的功能进行改变. 很多时候是因为产品经理后面突出发现或者了解到了之前不知道的一些信息, 需要改变解决方案才能更好地满足用户需求. 但这种改变, 其实并不是用户的需求变了, 而是产品经理对用户的需求理解改变了. 用户的需求很少变更, 但用户对需求的解决方案的期待度和兴奋度会随着时间而改变. 现在的一些兴奋功能, 可能后面就变成了行业标配功能,
+产品经理需要不断地提出更好地解决方案去满足用户.
+</p>
+
+<p>
+说到用户需求, 就不得不涉及到人性. 好的产品经理一定有着很好的同理心, 对心理学和社会学都需要有自己的理解. 美国心理学家马斯洛提出的人类需求金字塔模型是最为产品经理所熟知的:
+</p>
+
+<ol class="org-ol">
+<li>生理需求
+</li>
+<li>安全需求
+</li>
+<li>归属感和爱的需求
+</li>
+<li>尊重的需求
+</li>
+<li>认知需求(好奇心)
+</li>
+<li>审美需求
+</li>
+<li>自我实现的需求
+</li>
+<li>超越的需求
+</li>
+</ol>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> 提出解决方案(市场验证)</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+可参考<a href="http://www.lijigang.com/blog/2016/01/26/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E8%A6%81%E7%B4%A0/">用户体验要素</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4"><span class="section-number-3">1.4</span> 分阶段的核心风险指标</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+产品的各个阶段关注的核心风险指标不同, 如果选错关注指标, 很有可能导致做出错误决策.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-5" class="outline-3">
+<h3 id="sec-1-5"><span class="section-number-3">1.5</span> 产品差异化(细分市场的第一)</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+当选好用户群体, 找好用户痛点需求后, 经常会发现该领域已经有了竞品存在. 这时候需要找准差异点, 换个切入点, 做到那个切入点的第一. 比如在Youku这种巨头存在的条件下, 爱奇艺, A
+站, B站仍有很多忠实用户.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-6" class="outline-3">
+<h3 id="sec-1-6"><span class="section-number-3">1.6</span> 行业壁垒(无法被抄袭的点)</h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+大部分公司在开始时都没有自己的行业壁垒, 随着业务的不断深入, 会逐渐形成一些其它公司无法抄袭的点, 这些点即为该公司的行业壁垒. 比如某些资源的独家经营权, 比如某些外卖团队的搭建, 比如独家知识产权或发明专利, 等等.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-7" class="outline-3">
+<h3 id="sec-1-7"><span class="section-number-3">1.7</span> 产品到达用户的渠道(线上市场, SEM, 线下地推)</h3>
+<div class="outline-text-3" id="text-1-7">
+<p>
+找好了痛点, 也终于开发完成完美的解决方案, 你的产品怎么到达用户手中. 需要根据目标细分用户群体的特点, 选取相应的推广渠道.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-8" class="outline-3">
+<h3 id="sec-1-8"><span class="section-number-3">1.8</span> 成本组成</h3>
+<div class="outline-text-3" id="text-1-8">
+<p>
+在开发产品的过程中, 各项成本的汇总, 公司的现金流能否支持到产品盈利.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-9" class="outline-3">
+<h3 id="sec-1-9"><span class="section-number-3">1.9</span> 收入流</h3>
+<div class="outline-text-3" id="text-1-9">
+<p>
+在满足了用户需求基础上, 对获取的用户或流量进行变现, 不同的变现结果的汇总, 能否支付成本.
+</p>
+</div>
+</div>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2016-05-31</pubDate>
+      <guid>http://lijigang.github.io/blog/2016/06/12/产品经理/</guid>
+    </item>
+    <item>
+      <title>科学是什么鬼</title>
+      <link>http://lijigang.github.io/blog/2016/06/12/科学是什么鬼/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>科学是什么鬼</h1>
+            <p>
+我们总是会听到「这不科学」的说法, 那到底什么是「<a href="http://www.wikiwand.com/zh/%25E7%25A7%2591%25E5%25AD%25A6">科学</a>」?
+</p>
+
+<p>
+在这里要先区分下 <code>科学</code> 与 <code>科学研究方法</code> 两个概念:
+</p>
+
+<ol class="org-ol">
+<li>科学是探寻事物运作之明确规律的学科
+</li>
+<li>科学研究方法用胡适的话来说, 就是「大胆假设, 小心求证」.
+</li>
+</ol>
+
+<p>
+整个科学的发展史就是一部人类使用科学研究方法, 在现有基础上, 不断摸索着接近真理的纠正史. 也就是说, 科学从来不是一个「正确」的同意词, 它本身要求对科学理论要保持一定的怀疑态度.
+</p>
+
+<p>
+这也从根本上导致了科学是一门动态发展的学科, 科学方法是一门不断优化人类认知这个世界的优良工具.
+</p>
+
+<p>
+我试着用图表的形式展现这种科学发展方式:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2016/06/12/科学是什么鬼/science.png" alt="science.png" />
+</p>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2016-05-31</pubDate>
+      <guid>http://lijigang.github.io/blog/2016/06/12/科学是什么鬼/</guid>
     </item>
   </channel>
 </rss>
