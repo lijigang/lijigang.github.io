@@ -1,5 +1,6 @@
 #+TITLE: 商业模式新生代
 #+TAGS: 读书笔记, 商业
+#+options: toc:nil
 
 ** 什么是商业模式?
 
@@ -22,7 +23,7 @@
 但在实际应用过程中, 发现还是有些不太实用的地方, 比如「合作伙伴」这一条, 如果是一
 个初创企业, 其实很多时候是没有什么合作伙伴的, 空着那栏总感觉有些浪费.
 
-很显然, 有类似感觉的人远不止我一个, 国外有个叫Ash Maurya的就在商业画布的基础上做
+很显然, 有类似感觉的人远不止我一个, 国外有个叫 Ash Maurya 的就在商业画布的基础上做
 了一些改进, 做出了下图, 并命名为 [[http://practicetrumpstheory.com/why-lean-canvas/][lean canvas]].
 
 [[./images/lean_canvas.png]]
