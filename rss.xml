@@ -4,13 +4,32 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Mon, 04 Jul 2016 13:15:44 CST</pubDate>
-    <lastBuildDate>Mon, 04 Jul 2016 13:15:44 CST</lastBuildDate>
+    <pubDate>Sat, 09 Jul 2016 17:44:27 CST</pubDate>
+    <lastBuildDate>Sat, 09 Jul 2016 17:44:27 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
+      <title>图解|读书: 技术简史</title>
+      <link>http://lijigang.github.io/blog/2016/07/09/图解|读书-技术简史/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
+        <div class="col-md-2"></div>
+            <h1>图解|读书: 技术简史</h1>
+            
+<div class="figure">
+<p><img src="/assets/blog/2016/07/09/图解|读书-技术简史/rulingwaves.png" alt="rulingwaves.png" />
+</p>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2016-07-09</pubDate>
+      <guid>http://lijigang.github.io/blog/2016/07/09/图解|读书-技术简史/</guid>
+    </item>
+    <item>
       <title>图解|读书: 游戏化实战</title>
-      <link>http://lijigang.github.io/blog/2016/07/04/图解|读书-游戏化实战/</link>
+      <link>http://lijigang.github.io/blog/2016/07/09/图解|读书-游戏化实战/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
@@ -21,7 +40,7 @@
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/07/04/图解|读书-游戏化实战/gamefication.png" alt="gamefication.png" />
+<p><img src="/assets/blog/2016/07/09/图解|读书-游戏化实战/gamefication.png" alt="gamefication.png" />
 </p>
 </div>
 
@@ -29,18 +48,18 @@
 </section>
 ]]></description>
       <pubDate>2016-07-04</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/04/图解|读书-游戏化实战/</guid>
+      <guid>http://lijigang.github.io/blog/2016/07/09/图解|读书-游戏化实战/</guid>
     </item>
     <item>
       <title>图解|概念: 逻辑</title>
-      <link>http://lijigang.github.io/blog/2016/07/04/图解|概念-逻辑/</link>
+      <link>http://lijigang.github.io/blog/2016/07/09/图解|概念-逻辑/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
             <h1>图解|概念: 逻辑</h1>
             
 <div class="figure">
-<p><img src="/assets/blog/2016/07/04/图解|概念-逻辑/logic.jpg" alt="logic.jpg" />
+<p><img src="/assets/blog/2016/07/09/图解|概念-逻辑/logic.jpg" alt="logic.jpg" />
 </p>
 </div>
 
@@ -48,18 +67,18 @@
 </section>
 ]]></description>
       <pubDate>2016-06-29</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/04/图解|概念-逻辑/</guid>
+      <guid>http://lijigang.github.io/blog/2016/07/09/图解|概念-逻辑/</guid>
     </item>
     <item>
       <title>图解|概念: 学习</title>
-      <link>http://lijigang.github.io/blog/2016/07/04/图解|概念-学习/</link>
+      <link>http://lijigang.github.io/blog/2016/07/09/图解|概念-学习/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
             <h1>图解|概念: 学习</h1>
             
 <div class="figure">
-<p><img src="/assets/blog/2016/07/04/图解|概念-学习/imgconcept-learn.jpg" alt="imgconcept-learn.jpg" />
+<p><img src="/assets/blog/2016/07/09/图解|概念-学习/imgconcept-learn.jpg" alt="imgconcept-learn.jpg" />
 </p>
 </div>
 
@@ -67,11 +86,11 @@
 </section>
 ]]></description>
       <pubDate>2016-06-28</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/04/图解|概念-学习/</guid>
+      <guid>http://lijigang.github.io/blog/2016/07/09/图解|概念-学习/</guid>
     </item>
     <item>
       <title>Computer Science 是什么鬼</title>
-      <link>http://lijigang.github.io/blog/2016/07/04/computer-science-是什么鬼/</link>
+      <link>http://lijigang.github.io/blog/2016/07/09/computer-science-是什么鬼/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
@@ -125,7 +144,7 @@ Solving with Algorithms and Data Structures= 这书后, 才开始去了解 CS �
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/07/04/computer-science-是什么鬼/cs.png" alt="cs.png" />
+<p><img src="/assets/blog/2016/07/09/computer-science-是什么鬼/cs.png" alt="cs.png" />
 </p>
 </div>
 </div>
@@ -169,7 +188,7 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/07/04/computer-science-是什么鬼/programming.png" alt="programming.png" />
+<p><img src="/assets/blog/2016/07/09/computer-science-是什么鬼/programming.png" alt="programming.png" />
 </p>
 </div>
 </div>
@@ -252,11 +271,11 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 </section>
 ]]></description>
       <pubDate>2016-06-13</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/04/computer-science-是什么鬼/</guid>
+      <guid>http://lijigang.github.io/blog/2016/07/09/computer-science-是什么鬼/</guid>
     </item>
     <item>
       <title>商业模式新生代</title>
-      <link>http://lijigang.github.io/blog/2016/07/04/商业模式新生代/</link>
+      <link>http://lijigang.github.io/blog/2016/07/09/商业模式新生代/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
@@ -285,7 +304,7 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/07/04/商业模式新生代/business_model_canvas.png" alt="business_model_canvas.png" />
+<p><img src="/assets/blog/2016/07/09/商业模式新生代/business_model_canvas.png" alt="business_model_canvas.png" />
 </p>
 </div>
 
@@ -300,7 +319,7 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/07/04/商业模式新生代/lean_canvas.png" alt="lean_canvas.png" />
+<p><img src="/assets/blog/2016/07/09/商业模式新生代/lean_canvas.png" alt="lean_canvas.png" />
 </p>
 </div>
 
@@ -311,7 +330,7 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/07/04/商业模式新生代/lean_canvas_example.png" alt="lean_canvas_example.png" />
+<p><img src="/assets/blog/2016/07/09/商业模式新生代/lean_canvas_example.png" alt="lean_canvas_example.png" />
 </p>
 </div>
 </div>
@@ -321,11 +340,11 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 </section>
 ]]></description>
       <pubDate>2016-06-12</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/04/商业模式新生代/</guid>
+      <guid>http://lijigang.github.io/blog/2016/07/09/商业模式新生代/</guid>
     </item>
     <item>
       <title>神逻辑</title>
-      <link>http://lijigang.github.io/blog/2016/07/04/神逻辑/</link>
+      <link>http://lijigang.github.io/blog/2016/07/09/神逻辑/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
@@ -725,11 +744,11 @@ A: John 并不是一个 *真正的程序员*
 </section>
 ]]></description>
       <pubDate>2016-05-31</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/04/神逻辑/</guid>
+      <guid>http://lijigang.github.io/blog/2016/07/09/神逻辑/</guid>
     </item>
     <item>
       <title>互联网广告</title>
-      <link>http://lijigang.github.io/blog/2016/07/04/互联网广告/</link>
+      <link>http://lijigang.github.io/blog/2016/07/09/互联网广告/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
@@ -864,11 +883,11 @@ CPC在一定时期内整个广告界内比较稳定, 要想提升广告收入, �
 </section>
 ]]></description>
       <pubDate>2016-05-20</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/04/互联网广告/</guid>
+      <guid>http://lijigang.github.io/blog/2016/07/09/互联网广告/</guid>
     </item>
     <item>
       <title>科学是什么鬼</title>
-      <link>http://lijigang.github.io/blog/2016/07/04/科学是什么鬼/</link>
+      <link>http://lijigang.github.io/blog/2016/07/09/科学是什么鬼/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
@@ -902,7 +921,7 @@ CPC在一定时期内整个广告界内比较稳定, 要想提升广告收入, �
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/07/04/科学是什么鬼/science.png" alt="science.png" />
+<p><img src="/assets/blog/2016/07/09/科学是什么鬼/science.png" alt="science.png" />
 </p>
 </div>
 
@@ -910,11 +929,11 @@ CPC在一定时期内整个广告界内比较稳定, 要想提升广告收入, �
 </section>
 ]]></description>
       <pubDate>2016-02-17</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/04/科学是什么鬼/</guid>
+      <guid>http://lijigang.github.io/blog/2016/07/09/科学是什么鬼/</guid>
     </item>
     <item>
       <title>O2O与电子商务</title>
-      <link>http://lijigang.github.io/blog/2016/07/04/o2o与电子商务/</link>
+      <link>http://lijigang.github.io/blog/2016/07/09/o2o与电子商务/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row" style="padding-top: 70px">
         <div class="col-md-2"></div>
@@ -1002,71 +1021,7 @@ O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对
 </section>
 ]]></description>
       <pubDate>2016-01-26</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/04/o2o与电子商务/</guid>
-    </item>
-    <item>
-      <title>为什么计算机专业的人都喜欢从0开始计数</title>
-      <link>http://lijigang.github.io/blog/2016/07/04/为什么计算机专业的人都喜欢从0开始计数/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
-        <div class="col-md-2"></div>
-            <h1>为什么计算机专业的人都喜欢从0开始计数</h1>
-            <p>
-考虑下你现在要表示 <code>2, 3, 4, 5, 6</code> 这几个数字, 你有几种表示方式:
-</p>
-
-<ol class="org-ol">
-<li>[2, 7)
-</li>
-<li>(1, 6]
-</li>
-<li>[2, 6]
-</li>
-<li>(1, 7)
-</li>
-</ol>
-
-<p>
-哪种方式更好? 让我们考虑下边际条件:
-</p>
-
-<p>
-当左边界是最小的非负整数时(0), 左开区间需要表示 <b>负数</b> 了, Ugly! 左闭区间就可以直接表示成非负整数, 所以, 左边界最小时 <code>左闭区间</code> 的表示方法胜出. 排除 2和4.
-</p>
-
-<p>
-1和3哪个更好? 让我们再考虑下一种极端情况. 当只有一个数时, 即需要表示 <code>2</code> 这个数字区间时, 右闭区间就表示成了[2, 2], Ugly! 右开区间表示成 [2, 3). 右开区间表示方法胜出.
-排除3.
-</p>
-
-<p>
-所以, 我们选择第1种表示方法, 即 <code>左闭右开</code> 的表示方法.
-</p>
-
-<p>
-在计算机编程里, 经常需要表示数组下标, 第一个位置到底是从0开始好, 还是从1开始好?
-</p>
-
-<p>
-使用 <code>左闭右开</code> 的表示方法:
-</p>
-
-<ul class="org-ul">
-<li>如果是从1开始计数, 则表示成 [1, N+1)
-</li>
-<li>如果是从0开始计数, 则表示成 [0, N)
-</li>
-</ul>
-
-<p>
-显然, 使用从0开始计数的时候, 表示起来更美观和实用, 右侧数字直接减去左侧数字, 即为整个区间的数字个数.
-</p>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2015-11-30</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/04/为什么计算机专业的人都喜欢从0开始计数/</guid>
+      <guid>http://lijigang.github.io/blog/2016/07/09/o2o与电子商务/</guid>
     </item>
   </channel>
 </rss>
