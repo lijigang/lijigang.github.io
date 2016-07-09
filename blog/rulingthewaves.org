@@ -1,0 +1,5 @@
+#+title: 图解|读书: 技术简史
+#+author: 李继刚
+#+options: toc:nil
+
+[[./images/rulingwaves.png]]
