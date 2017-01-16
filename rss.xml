@@ -4,59 +4,17 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Mon, 16 Jan 2017 20:17:24 CST</pubDate>
-    <lastBuildDate>Mon, 16 Jan 2017 20:17:24 CST</lastBuildDate>
+    <pubDate>Mon, 16 Jan 2017 20:21:22 CST</pubDate>
+    <lastBuildDate>Mon, 16 Jan 2017 20:21:22 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
-      <title>读书笔记: 技术简史</title>
-      <link>http://lijigang.github.io/blog/2017/01/16/读书笔记-技术简史/</link>
+      <title>什么是「计算机科学」</title>
+      <link>http://lijigang.github.io/blog/2017/01/16/什么是「计算机科学」/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
-            <h1>读书笔记: 技术简史</h1>
-            
-<div class="figure">
-<p><img src="/assets/blog/2017/01/16/读书笔记-技术简史/rulingwaves.png" alt="rulingwaves.png" />
-</p>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2017-01-16</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/01/16/读书笔记-技术简史/</guid>
-    </item>
-    <item>
-      <title>图解|读书: 游戏化实战</title>
-      <link>http://lijigang.github.io/blog/2017/01/16/图解|读书-游戏化实战/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>图解|读书: 游戏化实战</h1>
-            <p>
-游戏中让人「欲罢不能」的元素如何应用在我们的工作和生活中?
-</p>
-
-
-<div class="figure">
-<p><img src="/assets/blog/2017/01/16/图解|读书-游戏化实战/gamefication.png" alt="gamefication.png" />
-</p>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2016-07-04</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/01/16/图解|读书-游戏化实战/</guid>
-    </item>
-    <item>
-      <title>Computer Science 是什么鬼</title>
-      <link>http://lijigang.github.io/blog/2017/01/16/computer-science-是什么鬼/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>Computer Science 是什么鬼</h1>
+            <h1>什么是「计算机科学」</h1>
             <p>
 作为一个学了七年 CS 的学渣, 一直没去了解过 CS 到底意味着什么. Computer Science 与其它
 Science 的本质区别在哪? 它与其它 Science 的共同点又在哪? 直到最近读了=Problem
@@ -106,7 +64,7 @@ Solving with Algorithms and Data Structures= 这书后, 才开始去了解 CS �
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/01/16/computer-science-是什么鬼/cs.png" alt="cs.png" />
+<p><img src="/assets/blog/2017/01/16/什么是「计算机科学」/cs.png" alt="cs.png" />
 </p>
 </div>
 </div>
@@ -150,7 +108,7 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/01/16/computer-science-是什么鬼/programming.png" alt="programming.png" />
+<p><img src="/assets/blog/2017/01/16/什么是「计算机科学」/programming.png" alt="programming.png" />
 </p>
 </div>
 </div>
@@ -232,8 +190,50 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
     </div>
 </section>
 ]]></description>
-      <pubDate>2016-06-13</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/01/16/computer-science-是什么鬼/</guid>
+      <pubDate>2017-01-16</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/01/16/什么是「计算机科学」/</guid>
+    </item>
+    <item>
+      <title>读书笔记: 技术简史</title>
+      <link>http://lijigang.github.io/blog/2017/01/16/读书笔记-技术简史/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>读书笔记: 技术简史</h1>
+            
+<div class="figure">
+<p><img src="/assets/blog/2017/01/16/读书笔记-技术简史/rulingwaves.png" alt="rulingwaves.png" />
+</p>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2017-01-16</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/01/16/读书笔记-技术简史/</guid>
+    </item>
+    <item>
+      <title>图解|读书: 游戏化实战</title>
+      <link>http://lijigang.github.io/blog/2017/01/16/图解|读书-游戏化实战/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>图解|读书: 游戏化实战</h1>
+            <p>
+游戏中让人「欲罢不能」的元素如何应用在我们的工作和生活中?
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/01/16/图解|读书-游戏化实战/gamefication.png" alt="gamefication.png" />
+</p>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2016-07-04</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/01/16/图解|读书-游戏化实战/</guid>
     </item>
     <item>
       <title>科学是什么鬼</title>
@@ -280,98 +280,6 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 ]]></description>
       <pubDate>2016-02-17</pubDate>
       <guid>http://lijigang.github.io/blog/2017/01/16/科学是什么鬼/</guid>
-    </item>
-    <item>
-      <title>O2O与电子商务</title>
-      <link>http://lijigang.github.io/blog/2017/01/16/o2o与电子商务/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>O2O与电子商务</h1>
-            <p>
-O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对两者的定义与区别, 一直没搞明白. 最近几天看了点书, 也做了些思考, 在这里做个总结.
-</p>
-
-<p>
-在整个商业活动过程中, 可以分为三个阶段:
-</p>
-
-<ol class="org-ol">
-<li>营销
-</li>
-<li>交易
-</li>
-<li>服务体验
-</li>
-</ol>
-
-<p>
-在没有电子商务这种模式之前, 这三个阶段的活动在现实世界中, 被无数的商业钻研和实践着.
-</p>
-
-<p>
-后来互联网产生, 首先出现了互联网营销这个新型的渠道, 给线下商家增加了一个新的增加流量的入口. 紧接着就是线上出现了很多的体验, 诸如在线视频(对应线下影院), 在线新闻(对应线下纸媒) 等等. 后来终于出现了电子支付功能, 线下的交易也被搬到线上.
-</p>
-
-<p>
-在互联网这个虚拟世界里, 也有着独立的一套「营销→交易→服务体验」的商业活动.
-</p>
-
-<p>
-但发展到这里, 线上的虚拟世界和线下的现实世界的两种商业活动, 基本上还是隔离状态. 后来随着互联网越来越成熟, 线上和线下发生了不可避免的融合, 出现了一些诸如线上交易, 线下体验(团购)的新型商业模式.
-</p>
-
-<p>
-虚拟世界和现实世界的交互, 主要包含两个交界点:
-</p>
-
-<ol class="org-ol">
-<li>现实世界 → 虚拟世界  (电子标签)
-</li>
-<li>虚拟世界 → 现实世界  (电子凭证)
-</li>
-</ol>
-
-<p>
-从现实世界到虚拟世界, 需要一个手段, 可以将实物的相关信息对应到虚拟世界中, 最佳方式为增强现实(AR)技术和NFC技术, 但因这种技术现在仍为普及, 目前可用技术中, 最为常用的手段即为 <b>二维码</b>.
-</p>
-
-<p>
-从虚拟世界到现实世界, 也需要一个手段, 可以将支付后的这种状态真实可靠的告知到现实世界.
-目前最为常用的手段也是 <b>二维码</b>.
-</p>
-
-<p>
-这种新型商业模式, 即为O2O. 它有几种很鲜明的特点:
-</p>
-
-<ol class="org-ol">
-<li>支付方式为在线支付
-</li>
-<li>服务体验一般为线下体验
-</li>
-<li>支付环节和服务体验环节一般不连续, 即先支付, 后在约定日期到店享受服务.
-</li>
-<li>当前阶段主要领域为「生活消费领域」, 一般涉及「客流」
-</li>
-</ol>
-
-
-<p>
-而电子商务的特点:
-</p>
-<ol class="org-ol">
-<li>泛指电子支付的商业活动
-</li>
-<li>一般涉及「物流」
-</li>
-</ol>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2016-01-26</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/01/16/o2o与电子商务/</guid>
     </item>
     <item>
       <title>键盘应该这样改键</title>
