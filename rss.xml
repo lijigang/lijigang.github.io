@@ -4,312 +4,32 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Fri, 22 Jul 2016 15:34:59 CST</pubDate>
-    <lastBuildDate>Fri, 22 Jul 2016 15:34:59 CST</lastBuildDate>
+    <pubDate>Mon, 16 Jan 2017 20:17:24 CST</pubDate>
+    <lastBuildDate>Mon, 16 Jan 2017 20:17:24 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
-      <title>如何进行商业分析</title>
-      <link>http://lijigang.github.io/blog/2016/07/22/如何进行商业分析/</link>
+      <title>读书笔记: 技术简史</title>
+      <link>http://lijigang.github.io/blog/2017/01/16/读书笔记-技术简史/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
-            <h1>如何进行商业分析</h1>
-            <p>
-商业分析九字诀: 问行市, 竞钱道, 团资产.
-</p>
-
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> 问(问题)</h2>
-<div class="outline-text-2" id="text-1">
-<p>
-所有商业行为都是为了解决特定人群的特定问题, 通过提供使用价值从而获得商业价值. 在进行商业分析的第一步, 首先要知道该公司或者该产品到底是解决了用户的什么问题.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2"><span class="section-number-2">2</span> 行(行业)</h2>
-<div class="outline-text-2" id="text-2">
-<p>
-理解了该公司或产品解决的特定问题后, 下一步就需要去了解该问题的解决方案所涉及到的 <code>产业链</code>. 具体包括:
-</p>
-
-<ol class="org-ol">
-<li>企业链
-</li>
-<li>供需链
-</li>
-<li>空间链
-</li>
-<li>价值链
-</li>
-</ol>
-</div>
-</div>
-
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3"><span class="section-number-2">3</span> 市(市场)</h2>
-<div class="outline-text-2" id="text-3">
-<p>
-了解产业链之后, 下一步需要确定该需求所涉及的市场大小及阶段.
-</p>
-
-<p>
-市场大小通常由该需求的人数多少来评估, 而市场阶段, 按「云梦秘叶」这本古书中的说法, 可以分为「生、长、成、藏」四个阶段.
-</p>
-
-<blockquote>
-<p>
-生: 刚刚诞生的市场(前期布局)
-长: 迅速增长的市场(全力攻取)
-成: 已经成熟的市场(巨头坚守)
-藏: 不断衰退的市场(尽快撤离)
-</p>
-</blockquote>
-
-<p>
-或者按<a href="http://t.cn/Rt2LnuG">「技术简史」</a> 这书所分的「创新」、「商业化」、「混乱」、「规则」四个阶段, 异曲同工.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-4" class="outline-2">
-<h2 id="sec-4"><span class="section-number-2">4</span> 竞(竞品)</h2>
-<div class="outline-text-2" id="text-4">
-<p>
-即便你找到了一个很强的需求, 一个很大的市场, 产业链也很清晰, 但如果有一个已经强大到垄断地位的竞品, 那最好在杀入该市场之前, 三思再三思.
-</p>
-
-<p>
-竞品现在的市场份额为多少? 竞品现在有什么优势, 又有什么劣势? 是不是还有机会从中找到一个突破点, 可以入局分羹?
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-5" class="outline-2">
-<h2 id="sec-5"><span class="section-number-2">5</span> 钱(收支)</h2>
-<div class="outline-text-2" id="text-5">
-<p>
-公司的成本结构是什么样的, 有限的现金资源是投入到了人力支出, 还是销售业务拓展? 烧掉的钱是否换来了竞争门槛?
-</p>
-
-<p>
-公司的收入模式是什么样的, 是通过免费做平台, 聚焦流量之后, 再导入到其它变现业务, 还是直接通过前向收费?
-</p>
-</div>
-</div>
-<div id="outline-container-sec-6" class="outline-2">
-<h2 id="sec-6"><span class="section-number-2">6</span> 道(渠道)</h2>
-<div class="outline-text-2" id="text-6">
-<p>
-公司是如何接触用户的? 是通过自建销售和代理商渠道? 还是通过购买互联网流量? 还是通过与线下渠道合作?
-</p>
-</div>
-</div>
-<div id="outline-container-sec-7" class="outline-2">
-<h2 id="sec-7"><span class="section-number-2">7</span> 团(团队)</h2>
-<div class="outline-text-2" id="text-7">
-<p>
-再好的战略规划都要靠人去实施, 互联网上从来不缺少好的 <code>idea</code>, 缺少的是令行禁止, 雷厉风行的 <code>特种部队</code>.
-</p>
-
-<p>
-同样的团购需求, 面对同样的市场, 最终活下来的也就一两家.
-</p>
-
-<p>
-同样的直播需求, 面对同样的市场, 现在国内的 200+ 直播平台又有几家能活到最后.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-8" class="outline-2">
-<h2 id="sec-8"><span class="section-number-2">8</span> 资(资源)</h2>
-<div class="outline-text-2" id="text-8">
-<p>
-公司有什么独特资源优势, 是否形成了进入门槛?
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-9" class="outline-2">
-<h2 id="sec-9"><span class="section-number-2">9</span> 产(产品)</h2>
-<div class="outline-text-2" id="text-9">
-<p>
-了解上述的所有方面之后, 公司对该问题的解决方案是什么? 该产品的使用价值是否有竞争优势?
-</p>
-</div>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2016-07-22</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/22/如何进行商业分析/</guid>
-    </item>
-    <item>
-      <title>互联网广告</title>
-      <link>http://lijigang.github.io/blog/2016/07/22/互联网广告/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>互联网广告</h1>
-            <p>
-互联网发展至今, 主要的商业模式主要有三类: 广告, 游戏和电商. 很多互联网内容之所以可以免费访问, 除了边际成本极低这个特点以外, 主要原因就是这三类商业模式在支撑. 今天主要记录下广告这种模式的相关内容.
-</p>
-
-<p>
-假设你是一个游戏达人, 有自己的网站, 平时主要分享一些游戏攻略和游戏介绍等信息. 你统计了一下自己网站的访问数据, 平均每个月有 10000 个人访问网站(UV, Unique Vistor),
-一共访问了 100000 个页面(PV, Page View), 即 UV = 1,0000; PV = 100,000; 这时你每天都在支付流量费, 机房服务器的费用, 但并没有任何收入.
-</p>
-
-<p>
-有一天, 广告主找过来, 想在你网站首部放一个 Banner, 展示广告主的产品信息, 每天给你
-100 块钱, 先包一个月试试效果. 你接了下来, 这样你一个月就可以收入:
-</p>
-
-<div class="center">
-<p>
-100 元/天 * 30 天 = 3000 元
-</p>
-</div>
-
-<blockquote>
-<p>
-这种按时间定价的结算方式即为 CPT(Cost per Time), 如果这里的时间是天计算的,可细化为 CPD(Cost per Day). 这种方式简单粗暴, 广告主和媒体方直接商定好每天价格和包断时长, 不管谁来访问网站都能在这个时间段内看到广告主指定的广告内容.
-</p>
-
-<p>
-计算方式也很简单:
-</p>
-
-<p>
-Revenue(收入) = Value(每时间价格) * Time(包断时长)
-</p>
-</blockquote>
-
-<p>
-但做为网站主, 你觉得可以再多挣些钱, 你与广告主沟通说, 我们再换一种结算方式吧. 不按点击次数来计费, 我们按展示次数来计费, 每展示 1 次页面就付费 0.05 元. 业内一般定价时使用每千次展示的价格, 在这个例子里, 即为每展示 1000 次页面就付费 50 元. 这样仍以之前的数据来算, 你将获得收入:
-</p>
-
-<div class="center">
-<p>
-Revenue = CPM * PV / 1000 = 50 元 * 100,000 / 1000 = 5000 元
-</p>
-</div>
-
-<blockquote>
-<p>
-这种结算方式即为 CPM(Cost per Mille). 即每展示 1000 次页面, 能获得多少收入.
-</p>
-</blockquote>
-
-<p>
-上面两种 CPT 和 CPM 的结算方式, 与没有互联网之前的传统线下媒体广告结算方式类似,都属于是「合约广告」.
-</p>
-
-<p>
-但上面这类的结算方式, 广告主是有意见的, 他们只知道广告费花出去了, 也给用户看到了,
-但里面有多少生效了, 这些数据是无法统计到的. 他们提出要按效果计费,即当有人点击广告时, 才支付你费用, 如果只是展示给某个用户, 但该用户没有点击广告, 广告主是不需要支付任何费用的. 你也想尝试下该方式能不能多给你带来点收入. 于是就又签了一个月, 按点击次数计费. 每点击一次广告主支付你 0.5 元. 假如说访问人数和页面访问次数和之前统计数据保持不变, 广告一共被点击了 5000 次, 即
-</p>
-
-<p>
-Clicks = 5000; UV = 1,0000; PV = 100,000; CTR = 5% (CTR, Click through Rate =
-clicks / PV).
-</p>
-
-<p>
-按之前的约定, 广告主共支付你:
-</p>
-
-<div class="center">
-<p>
-Revenue = Clicks * CPC = 5000 次点击 * 0.5 元/每次点击 = 2500 元
-</p>
-</div>
-
-<blockquote>
-<p>
-这种按点击效果计费的结算方式即为 CPC(Cost per click), 在这个例子里, CPC = 0.5 元.
-相比于 CPT, 这种方式对广告主来说明显更为靠谱些, 广告费都花在了对广告感兴趣的人群身上.
-</p>
-</blockquote>
-
-<p>
-随着移动互联网的蓬勃发展, 广告主从一开始的购买「曝光」, 到后来的购买「点击」, 越来越关注最核心的指标「ROI」, 即最终的转化率. 广告主又找到你沟通, 在 CPC 的基础上,
-他们要再换一种更接近 ROI 指标的计费方式: CPA/CPS.
-</p>
-
-<blockquote>
-<p>
-CPA(Cost Per Action): 每次操作行为的价格. 「操作行为」各广告主可能会有不同的定义,
-一般为「注册」, 「验证信息」等等. 即每当有一个用户从你网站的广告位下载了 APP, 并进行了「注册」行为, 广告主将给你支付一定金额.
-</p>
-
-<p>
-CPS(Cost Per Sale): 每次交易行为的价格. 「交易行为」比如说每当有一个用户从你网站进入电商广告主网站购买了一件商品, 广告主会分你 5%. 再比如每当有一个游戏用户从你网站的广告位下载了游戏 APP, 如果他在里面进行了充值, 你将获得充值金额的 5%分成.
-</p>
-</blockquote>
-
-<p>
-对你这个网站主来说, 这么多的结算方式, 看起来很复杂, 而且广告的点击次数还需要到统计平台去看报表数据, 很是麻烦. 你想用一个统一的指标来估算自己网站流量的价值, 后续再有新的广告主过来, 你也知道该要多少价钱.
-</p>
-
-<p>
-于是有了 eCPM (Effective cost per mille)这个指标, 可以用来统一的估量自己流量的商业价值:
-</p>
-
-<blockquote>
-<p>
-eCPM = (Revenue / PV) * 1000
-</p>
-
-<p>
-Revenue = CPC * Clicks = CPC * (PV * CTR)
-</p>
-
-<p>
-所以:
-</p>
-
-<p>
-eCPM = CPC * CTR * 1000
-</p>
-</blockquote>
-
-<p>
-CPC 在一定时期内整个广告界内比较稳定, 要想提升广告收入, 就需要针对不同的人群, 做到精准展示广告, 提升 CTR, 从而提升 eCPM, 获得更多收益.
-</p>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2016-07-19</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/22/互联网广告/</guid>
-    </item>
-    <item>
-      <title>图解|读书: 技术简史</title>
-      <link>http://lijigang.github.io/blog/2016/07/22/图解|读书-技术简史/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>图解|读书: 技术简史</h1>
+            <h1>读书笔记: 技术简史</h1>
             
 <div class="figure">
-<p><img src="/assets/blog/2016/07/22/图解|读书-技术简史/rulingwaves.png" alt="rulingwaves.png" />
+<p><img src="/assets/blog/2017/01/16/读书笔记-技术简史/rulingwaves.png" alt="rulingwaves.png" />
 </p>
 </div>
 
     </div>
 </section>
 ]]></description>
-      <pubDate>2016-07-09</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/22/图解|读书-技术简史/</guid>
+      <pubDate>2017-01-16</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/01/16/读书笔记-技术简史/</guid>
     </item>
     <item>
       <title>图解|读书: 游戏化实战</title>
-      <link>http://lijigang.github.io/blog/2016/07/22/图解|读书-游戏化实战/</link>
+      <link>http://lijigang.github.io/blog/2017/01/16/图解|读书-游戏化实战/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -320,7 +40,7 @@ CPC 在一定时期内整个广告界内比较稳定, 要想提升广告收入, 
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/07/22/图解|读书-游戏化实战/gamefication.png" alt="gamefication.png" />
+<p><img src="/assets/blog/2017/01/16/图解|读书-游戏化实战/gamefication.png" alt="gamefication.png" />
 </p>
 </div>
 
@@ -328,49 +48,11 @@ CPC 在一定时期内整个广告界内比较稳定, 要想提升广告收入, 
 </section>
 ]]></description>
       <pubDate>2016-07-04</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/22/图解|读书-游戏化实战/</guid>
-    </item>
-    <item>
-      <title>图解|概念: 逻辑</title>
-      <link>http://lijigang.github.io/blog/2016/07/22/图解|概念-逻辑/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>图解|概念: 逻辑</h1>
-            
-<div class="figure">
-<p><img src="/assets/blog/2016/07/22/图解|概念-逻辑/logic.jpg" alt="logic.jpg" />
-</p>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2016-06-29</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/22/图解|概念-逻辑/</guid>
-    </item>
-    <item>
-      <title>图解|概念: 学习</title>
-      <link>http://lijigang.github.io/blog/2016/07/22/图解|概念-学习/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>图解|概念: 学习</h1>
-            
-<div class="figure">
-<p><img src="/assets/blog/2016/07/22/图解|概念-学习/imgconcept-learn.jpg" alt="imgconcept-learn.jpg" />
-</p>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2016-06-28</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/22/图解|概念-学习/</guid>
+      <guid>http://lijigang.github.io/blog/2017/01/16/图解|读书-游戏化实战/</guid>
     </item>
     <item>
       <title>Computer Science 是什么鬼</title>
-      <link>http://lijigang.github.io/blog/2016/07/22/computer-science-是什么鬼/</link>
+      <link>http://lijigang.github.io/blog/2017/01/16/computer-science-是什么鬼/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -424,7 +106,7 @@ Solving with Algorithms and Data Structures= 这书后, 才开始去了解 CS �
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/07/22/computer-science-是什么鬼/cs.png" alt="cs.png" />
+<p><img src="/assets/blog/2017/01/16/computer-science-是什么鬼/cs.png" alt="cs.png" />
 </p>
 </div>
 </div>
@@ -468,7 +150,7 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/07/22/computer-science-是什么鬼/programming.png" alt="programming.png" />
+<p><img src="/assets/blog/2017/01/16/computer-science-是什么鬼/programming.png" alt="programming.png" />
 </p>
 </div>
 </div>
@@ -551,484 +233,11 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 </section>
 ]]></description>
       <pubDate>2016-06-13</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/22/computer-science-是什么鬼/</guid>
-    </item>
-    <item>
-      <title>商业模式新生代</title>
-      <link>http://lijigang.github.io/blog/2016/07/22/商业模式新生代/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>商业模式新生代</h1>
-            
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> 什么是商业模式?</h2>
-<div class="outline-text-2" id="text-1">
-<blockquote>
-<p>
-商业模型是一个理论工具，它包含大量的商业元素及它们之间的关系，并且能够描述特定公司的商业模式。它能显示一个公司在以下一个或多个方面的价值所在：客户，公司结构，以及，以营利和可持续性盈利为目的，用以生产，销售，传递价值及关系资本的客户网。
-</p>
-</blockquote>
-
-<p>
-商业模式是工商业创造收入和利润的计划. 具体中间的各个环节之间是什么样的关系, 这些环节之间哪些更重要些, 这些问题都在这本书里找到了答案.
-</p>
-
-<p>
-作者只用一张纸的内容, 把商业模式中最重要的几个部分给描述的一清二楚.
-</p>
-
-<p>
-这书的核心内容就是下图, 书中主要是针对各部分进行了些介绍:
-</p>
-
-
-<div class="figure">
-<p><img src="/assets/blog/2016/07/22/商业模式新生代/business_model_canvas.png" alt="business_model_canvas.png" />
-</p>
-</div>
-
-
-<p>
-但在实际应用过程中, 发现还是有些不太实用的地方, 比如「合作伙伴」这一条, 如果是一个初创企业, 其实很多时候是没有什么合作伙伴的, 空着那栏总感觉有些浪费.
-</p>
-
-<p>
-很显然, 有类似感觉的人远不止我一个, 国外有个叫 Ash Maurya 的就在商业画布的基础上做了一些改进, 做出了下图, 并命名为 <a href="http://practicetrumpstheory.com/why-lean-canvas/">lean canvas</a>.
-</p>
-
-
-<div class="figure">
-<p><img src="/assets/blog/2016/07/22/商业模式新生代/lean_canvas.png" alt="lean_canvas.png" />
-</p>
-</div>
-
-
-<p>
-我做了一个设想的项目商业画布做为试手, 结果如下图:
-</p>
-
-
-<div class="figure">
-<p><img src="/assets/blog/2016/07/22/商业模式新生代/lean_canvas_example.png" alt="lean_canvas_example.png" />
-</p>
-</div>
-</div>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2016-06-12</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/22/商业模式新生代/</guid>
-    </item>
-    <item>
-      <title>神逻辑</title>
-      <link>http://lijigang.github.io/blog/2016/07/22/神逻辑/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>神逻辑</h1>
-            <blockquote>
-<p>
-「You can you up, no can no bb」.
-</p>
-
-<p>
-「你知道他有多努力吗?」
-</p>
-
-<p>
-「还说我不支持正版, 你就没有在网上下载过电影?」
-</p>
-
-<p>
-&#x2026;&#x2026;
-</p>
-</blockquote>
-
-<p>
-如果你听到这些话, 总感觉哪里不对, 但又说出来个所以然的话, 推荐你读下<a href="https://book.douban.com/subject/26753478/">「神逻辑」</a> 这本书.
-</p>
-
-<p>
-这书总共就 50 来页, 一共讲了 19 个常见的「逻辑谬误」, 每个谬误都用一页纸来说清楚, 并配一张插图说明.
-</p>
-
-<p>
-需要先了解下逻辑学中的三个基本概念:
-</p>
-
-<p>
-<code>命题</code>: 一个陈述, 或为真, 或为假, 但不能亦真亦假.
-</p>
-
-<p>
-<code>论证</code>: 一组 <b>命题</b>  集合, 其目的是以推理说服他人.
-</p>
-
-<p>
-<code>逻辑谬误</code>: 从一个 <b>命题</b>  推衍至下一个命题的过程中发生的错误, 最终导致错误的 <b>论证</b>.
-</p>
-
-<p>
-书中介绍的 19 个逻辑谬误可以分为三大类:
-</p>
-
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> 形式谬误</h2>
-<div class="outline-text-2" id="text-1">
-<blockquote>
-<p>
-因结构缺陷而导致论证不合逻辑的错误.
-</p>
-
-<p>
-对于这类谬误, 只需要分析论证的形式, 就能发现错误. 不需要分析其内容.
-</p>
-</blockquote>
-</div>
-
-<div id="outline-container-sec-1-1" class="outline-3">
-<h3 id="sec-1-1"><span class="section-number-3">1.1</span> 肯定后件谬误</h3>
-<div class="outline-text-3" id="text-1-1">
-<p>
-常用的论证形式之一是: 如果 A 则 C; A 成立, 因此 C 成立.
-</p>
-
-<p>
-这里 A 被称为「前件」, C 被称为「后件」.
-</p>
-
-<p>
-而 <code>肯定后件</code> 的形式谬误表现为: 如果 A 则 C; C 成立, 因此 A 成立.
-</p>
-
-<pre class="example">
-如果那人是男人, 那人可以结婚.
-
-但因那人可以结婚, 而推断那人是男人.  这就犯了肯定后件谬误.
-</pre>
-</div>
-</div>
-
-<div id="outline-container-sec-1-2" class="outline-3">
-<h3 id="sec-1-2"><span class="section-number-3">1.2</span> 否定前件谬误</h3>
-<div class="outline-text-3" id="text-1-2">
-<p>
-该谬误表现为: 如果 A 则 C; A 不成立, 因此 C 也不成立.
-</p>
-
-<pre class="example">
-如果那人是男人, 那人可以结婚.
-
-但因那人不是男人, 而推断那人不可能结婚, 这就犯了否定前件谬误.
-</pre>
-</div>
-</div>
-</div>
-
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2"><span class="section-number-2">2</span> 无关转移</h2>
-<div class="outline-text-2" id="text-2">
-<blockquote>
-<p>
-使论证偏离了最初的命题.
-</p>
-</blockquote>
-</div>
-
-<div id="outline-container-sec-2-1" class="outline-3">
-<h3 id="sec-2-1"><span class="section-number-3">2.1</span> 诉诸结果谬误</h3>
-<div class="outline-text-3" id="text-2-1">
-<p>
-该谬误是指住所某观点 <b>如果</b> 成立(或不成立)所产生的结果好坏, 来判断一个观点是否正确.
-</p>
-
-<p>
-但一个命题导致不利的结果, 并不意味着该命题就是假的. 因一个命题导致有利的结果, 也不意味着该命题就是真的.
-</p>
-
-<pre class="example">
-上帝若不存在, 人们便能为所欲为.
-</pre>
-
-<p>
-且不说人们是否真的会为所欲为, 就算果真如此, 也不能用来说明上帝的存在.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-2-2" class="outline-3">
-<h3 id="sec-2-2"><span class="section-number-3">2.2</span> 诉诸恐惧谬误</h3>
-<div class="outline-text-3" id="text-2-2">
-<p>
-该谬误是指利用听众的恐惧, 设想某命题若被接受将产生一个可怕的未来.
-</p>
-
-<pre class="example">
-如果他当选了, 你们所有人都将失业.
-</pre>
-</div>
-</div>
-
-<div id="outline-container-sec-2-3" class="outline-3">
-<h3 id="sec-2-3"><span class="section-number-3">2.3</span> 诉诸潮流谬误</h3>
-<div class="outline-text-3" id="text-2-3">
-<p>
-该谬误是指以许多人均相信某命题的事实为依据, 来证明该命题一定是真的.
-</p>
-
-<pre class="example">
-太阳是地球转? 还是地球绕太阳转?
-</pre>
-</div>
-</div>
-<div id="outline-container-sec-2-4" class="outline-3">
-<h3 id="sec-2-4"><span class="section-number-3">2.4</span> 罪恶关联谬误</h3>
-<div class="outline-text-3" id="text-2-4">
-<p>
-该谬误是指通过指出某个被社会妖魔化的个人或群体也认同某观点, 以诋毁该观点.
-</p>
-
-<pre class="example">
-我的对手主张, 应该在教育上投入更多的钱.
-
-你们知道还有谁这么认为吗? 这个独裁者!
-</pre>
-</div>
-</div>
-<div id="outline-container-sec-2-5" class="outline-3">
-<h3 id="sec-2-5"><span class="section-number-3">2.5</span> 稻草人谬误</h3>
-<div class="outline-text-3" id="text-2-5">
-<p>
-该谬误是指有意地滑稽模仿他人论点, 以达到攻击模仿出来的论点而非实际论点的目的.
-</p>
-
-<p>
-稻草人论点通常是歪曲、错误引用、曲解或将对方立场过分简单化, 更容易攻击这个修改后的论点.
-</p>
-
-<pre class="example">
-达尔文说我们是从那些在树上摇来荡去的黑猩猩变过来的, 这真太可笑了.
-</pre>
-
-<p>
-这是对进化生物学的一种扭曲, 进化论的实际陈述是: 人类和黑猩猩在数百万年前拥有共同的祖先.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-2-6" class="outline-3">
-<h3 id="sec-2-6"><span class="section-number-3">2.6</span> 起源谬误</h3>
-<div class="outline-text-3" id="text-2-6">
-<p>
-该谬误是指仅仅因为某观点的起源就贬低或维护它.
-</p>
-
-<pre class="example">
-他当然支持那些罢工的工人, 说到底, 他们都是一个村子里的人.
-</pre>
-</div>
-</div>
-
-<div id="outline-container-sec-2-7" class="outline-3">
-<h3 id="sec-2-7"><span class="section-number-3">2.7</span> 诉诸无关权威谬误</h3>
-<div class="outline-text-3" id="text-2-7">
-<p>
-该谬误是指以其它领域无关权威的观点做为论据.
-</p>
-
-<pre class="example">
-「风水盛行于古中国, 集合了古代中国人的智慧.」
-</pre>
-</div>
-</div>
-
-<div id="outline-container-sec-2-8" class="outline-3">
-<h3 id="sec-2-8"><span class="section-number-3">2.8</span> 人身攻击谬误</h3>
-<div class="outline-text-3" id="text-2-8">
-<p>
-该谬误是指通过攻击一个人本身, 而不是攻击其论点, 以转移讨论话题, 最终达到诋毁其论点的目的.
-</p>
-
-<pre class="example">
-你又不是真正关心降低城市犯罪率, 你只是想要人们投票给你!
-</pre>
-</div>
-</div>
-<div id="outline-container-sec-2-9" class="outline-3">
-<h3 id="sec-2-9"><span class="section-number-3">2.9</span> 诉诸虚伪谬误</h3>
-<div class="outline-text-3" id="text-2-9">
-<p>
-该谬误是指通过指出某人的观点与其本人的行为或以往陈述相矛盾来反驳该观点.
-</p>
-
-<p>
-也就是: 用指控来回答指挥, 把注意力从观点本身转移到提出观点的人身上.
-</p>
-
-<pre class="example">
-A: 你干吗一直偷吃我的粥?
-
-B: 你不也一直偷吃妈妈的蜂蜜?
-</pre>
-</div>
-</div>
-</div>
-
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3"><span class="section-number-2">3</span> 非形式谬误</h2>
-<div class="outline-text-2" id="text-3">
-<blockquote>
-<p>
-因内容和语境而非形式, 导致论证不合逻辑的错误.
-</p>
-</blockquote>
-</div>
-
-<div id="outline-container-sec-3-1" class="outline-3">
-<h3 id="sec-3-1"><span class="section-number-3">3.1</span> 词义模糊谬误</h3>
-<div class="outline-text-3" id="text-3-1">
-<p>
-该谬误是指利用语言的歧义, 在论证过程中通过改变词义来支持一个无事实根据的结论.
-</p>
-
-<pre class="example">
-你隔天可以吃一次果酱, 但今天绝对不行, 因为「今天」不是「隔天」.
-</pre>
-</div>
-</div>
-
-<div id="outline-container-sec-3-2" class="outline-3">
-<h3 id="sec-3-2"><span class="section-number-3">3.2</span> 修改定义谬误</h3>
-<div class="outline-text-3" id="text-3-2">
-<p>
-该谬误是指 A 对一组事物下了一般性的断言, B 提出证据质疑该断言, A 就通过修改该组事物成员的资格来回避该质疑.
-</p>
-
-<pre class="example">
-A: 程序员都有社交障碍!
-B: John 就是一个程序员, 他一点没有社交障碍.
-A: John 并不是一个 *真正的程序员*
-</pre>
-</div>
-</div>
-
-<div id="outline-container-sec-3-3" class="outline-3">
-<h3 id="sec-3-3"><span class="section-number-3">3.3</span> 乱赋因果谬误</h3>
-<div class="outline-text-3" id="text-3-3">
-<p>
-该谬误是指「后此即因此」以及「伴此即因此」.
-</p>
-
-<p>
-后此即因此: 只因为事件 A 在事件 B 之前发生, 就被认为是 B 发生的原因.
-</p>
-
-<p>
-伴此即因此: 只因为事件 A 和 B 同时发生, 就被认为是 B 发生的原因.
-</p>
-
-<pre class="example">
-每当长夜将尽、破晓之前, 我在山顶呼唤太阳出现. 太阳总是如约而至.
-</pre>
-</div>
-</div>
-
-<div id="outline-container-sec-3-4" class="outline-3">
-<h3 id="sec-3-4"><span class="section-number-3">3.4</span> 滑坡谬误</h3>
-<div class="outline-text-3" id="text-3-4">
-<p>
-该谬误是指: 试图证明接受某命题将无可避免地导致一系列事件, 且其中的一个或多个事件是不受欢迎的, 以此来诋毁该命题.
-</p>
-
-<p>
-但实际上, 尽量这一系列事件 <b>有可能</b> 会发生, 但该论证假设每一步都是 <b>不可避免</b> 的, 却没有提供证据证明.
-</p>
-
-<pre class="example">
-如果你允许一个陌生人进入你的前院, 第二天他就会登堂入室, 第三天他就会偷光你所有东西.
-</pre>
-</div>
-</div>
-<div id="outline-container-sec-3-5" class="outline-3">
-<h3 id="sec-3-5"><span class="section-number-3">3.5</span> 虚假两难谬误</h3>
-<div class="outline-text-3" id="text-3-5">
-<p>
-该谬误是指给出一个由两种范畴组成的有限集合, 并假设讨论范围内的一切事物都必须属于该集合. 因此, 拒绝其中一个范畴, 便只好接受另一个.
-</p>
-
-<pre class="example">
-在这场战争中, 谁都不能置身事外. 你若不站在我这边, 就在敌人那边.
-</pre>
-</div>
-</div>
-
-<div id="outline-container-sec-3-6" class="outline-3">
-<h3 id="sec-3-6"><span class="section-number-3">3.6</span> 合成&amp;分解 谬误</h3>
-<div class="outline-text-3" id="text-3-6">
-<p>
-合成谬误是指从所有局部拥有某属性就推断出总体也一定具有该属性.
-</p>
-
-<p>
-分解谬误是指只因总体拥有某属性, 就推断某局部也一定拥有该属性.
-</p>
-
-<pre class="example">
-我们队所向披靡, 因此我们队的任何一名队员都能单挑赢另一队的任一球员!
-</pre>
-</div>
-</div>
-<div id="outline-container-sec-3-7" class="outline-3">
-<h3 id="sec-3-7"><span class="section-number-3">3.7</span> 循环论证谬误</h3>
-<div class="outline-text-3" id="text-3-7">
-<p>
-该谬误是指待证明的结论被含蓄或明白地置入了一个或多个前提中.
-</p>
-
-<pre class="example">
-你完全错了, 因为你说的没有道理.
-</pre>
-</div>
-</div>
-<div id="outline-container-sec-3-8" class="outline-3">
-<h3 id="sec-3-8"><span class="section-number-3">3.8</span> 轻率归纳谬误</h3>
-<div class="outline-text-3" id="text-3-8">
-<p>
-访谬误是指当论证者从某样本得出结论, 而该样本太小或太特殊, 以至于缺乏代表性.
-</p>
-
-<pre class="example">
-在大街上问题了十个人, 对国家税收的看法, 就评估说国家税收较轻.
-</pre>
-</div>
-</div>
-
-<div id="outline-container-sec-3-9" class="outline-3">
-<h3 id="sec-3-9"><span class="section-number-3">3.9</span> 诉诸无知谬误</h3>
-<div class="outline-text-3" id="text-3-9">
-<p>
-该谬误是指仅仅因为没有证据证明某命题是假的, 就认为它是真的.
-</p>
-
-<pre class="example">
-没有令人信服的证据表明 UFO 从未拜访过地球, 因此, UFO 是存在的.
-</pre>
-</div>
-</div>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2016-05-31</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/22/神逻辑/</guid>
+      <guid>http://lijigang.github.io/blog/2017/01/16/computer-science-是什么鬼/</guid>
     </item>
     <item>
       <title>科学是什么鬼</title>
-      <link>http://lijigang.github.io/blog/2016/07/22/科学是什么鬼/</link>
+      <link>http://lijigang.github.io/blog/2017/01/16/科学是什么鬼/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -1062,7 +271,7 @@ A: John 并不是一个 *真正的程序员*
 
 
 <div class="figure">
-<p><img src="/assets/blog/2016/07/22/科学是什么鬼/science.png" alt="science.png" />
+<p><img src="/assets/blog/2017/01/16/科学是什么鬼/science.png" alt="science.png" />
 </p>
 </div>
 
@@ -1070,7 +279,762 @@ A: John 并不是一个 *真正的程序员*
 </section>
 ]]></description>
       <pubDate>2016-02-17</pubDate>
-      <guid>http://lijigang.github.io/blog/2016/07/22/科学是什么鬼/</guid>
+      <guid>http://lijigang.github.io/blog/2017/01/16/科学是什么鬼/</guid>
+    </item>
+    <item>
+      <title>O2O与电子商务</title>
+      <link>http://lijigang.github.io/blog/2017/01/16/o2o与电子商务/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>O2O与电子商务</h1>
+            <p>
+O2O与电子商务这两种商业模式是目前较为火爆和成熟的, 但对两者的定义与区别, 一直没搞明白. 最近几天看了点书, 也做了些思考, 在这里做个总结.
+</p>
+
+<p>
+在整个商业活动过程中, 可以分为三个阶段:
+</p>
+
+<ol class="org-ol">
+<li>营销
+</li>
+<li>交易
+</li>
+<li>服务体验
+</li>
+</ol>
+
+<p>
+在没有电子商务这种模式之前, 这三个阶段的活动在现实世界中, 被无数的商业钻研和实践着.
+</p>
+
+<p>
+后来互联网产生, 首先出现了互联网营销这个新型的渠道, 给线下商家增加了一个新的增加流量的入口. 紧接着就是线上出现了很多的体验, 诸如在线视频(对应线下影院), 在线新闻(对应线下纸媒) 等等. 后来终于出现了电子支付功能, 线下的交易也被搬到线上.
+</p>
+
+<p>
+在互联网这个虚拟世界里, 也有着独立的一套「营销→交易→服务体验」的商业活动.
+</p>
+
+<p>
+但发展到这里, 线上的虚拟世界和线下的现实世界的两种商业活动, 基本上还是隔离状态. 后来随着互联网越来越成熟, 线上和线下发生了不可避免的融合, 出现了一些诸如线上交易, 线下体验(团购)的新型商业模式.
+</p>
+
+<p>
+虚拟世界和现实世界的交互, 主要包含两个交界点:
+</p>
+
+<ol class="org-ol">
+<li>现实世界 → 虚拟世界  (电子标签)
+</li>
+<li>虚拟世界 → 现实世界  (电子凭证)
+</li>
+</ol>
+
+<p>
+从现实世界到虚拟世界, 需要一个手段, 可以将实物的相关信息对应到虚拟世界中, 最佳方式为增强现实(AR)技术和NFC技术, 但因这种技术现在仍为普及, 目前可用技术中, 最为常用的手段即为 <b>二维码</b>.
+</p>
+
+<p>
+从虚拟世界到现实世界, 也需要一个手段, 可以将支付后的这种状态真实可靠的告知到现实世界.
+目前最为常用的手段也是 <b>二维码</b>.
+</p>
+
+<p>
+这种新型商业模式, 即为O2O. 它有几种很鲜明的特点:
+</p>
+
+<ol class="org-ol">
+<li>支付方式为在线支付
+</li>
+<li>服务体验一般为线下体验
+</li>
+<li>支付环节和服务体验环节一般不连续, 即先支付, 后在约定日期到店享受服务.
+</li>
+<li>当前阶段主要领域为「生活消费领域」, 一般涉及「客流」
+</li>
+</ol>
+
+
+<p>
+而电子商务的特点:
+</p>
+<ol class="org-ol">
+<li>泛指电子支付的商业活动
+</li>
+<li>一般涉及「物流」
+</li>
+</ol>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2016-01-26</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/01/16/o2o与电子商务/</guid>
+    </item>
+    <item>
+      <title>键盘应该这样改键</title>
+      <link>http://lijigang.github.io/blog/2017/01/16/键盘应该这样改键/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>键盘应该这样改键</h1>
+            
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> 为什么要改键</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+现在每天大约要使用电脑10个小时, 这中间至少有5个小时以上的时间, 是需要使用键盘打字的. 所以对于打字速度的提升, 哪怕是只有一点, 对于整体效率也是一个极大的促进.
+</p>
+
+<p>
+而我对于打字速度的提升, 主要是从下面几方面入手:
+</p>
+
+<ul class="org-ul">
+<li>盲打
+</li>
+</ul>
+
+<p>
+一边盯着键盘一边打字, 打了半天发现中间打错了, 再返回去修改, 这种打字方法严重影响效率. 解决办法很简单, 练习盲打. 把键位给背熟, 形成肌肉记忆, 当你想按某个键的时候,
+不需经过你的思考, 手指已经条件反射地按到了那个键.
+</p>
+
+<ul class="org-ul">
+<li>五笔
+</li>
+</ul>
+
+<p>
+最开始上网的时候, 只有「智能ABC」和「王码五笔」可以选择. 当时的「智能ABC」输入法,
+打字时重码特别多, 想要打准某个字, 需要翻好几页来选中目标项. 为了解决这个问题, 当时就去学习了「五笔」输入法, 基本上不存在重码的问题. 当然, 现在的「搜狗输入法」已经做到了词频智能调整, 你输入拼音后目标项一般都在前面, 如果不是对五笔特别喜欢, 可以现代的拼音输入法, 也完全可以解决该问题.
+</p>
+
+<ul class="org-ul">
+<li>改键
+</li>
+</ul>
+
+<p>
+现在绝大部分键盘的键位布局, 在 <code>Home Row</code> 上A键左边的键都设置为「Caps Lock」,但我平时输入大写字母时, 都用的Shift键, 极少使用大写锁定键. 这么重要的一个位置的键就这么被闲置浪费了. 而大部分键盘的 <code>Control</code> 键却又在左下角这么一个难以在「盲打」情况下被精准按到的尴尬位置. 有尴尬就有解决的办法.
+</p>
+
+<p>
+本文主要就是讲 <code>Macbook</code> 上怎么进行 <code>改键</code> , 使得按键更舒服, 打字效率更高.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> 键盘知识</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+键盘我们每天都在使用, 但你知道键盘上的按键都有哪些分类吗? 如果按 <b>单独按</b> 与*组合按* 这一维度, 和 <b>短按</b> 与 <b>长按</b> 这一维度做个2*2矩阵:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/01/16/键盘应该这样改键/keymaps.png" alt="keymaps.png" />
+</p>
+</div>
+
+<ol class="org-ol">
+<li>第一象限
+
+<ul class="org-ul">
+<li>单独 &amp; 短按
+</li>
+<li>75% 以上的击键都使用这个象限的键位
+</li>
+<li>包括字母, 数字, 部分符号等
+</li>
+<li>按下这区域键位, 显示器上即显示该符号
+</li>
+</ul>
+</li>
+
+<li>第二象限
+
+<ul class="org-ul">
+<li>单独 &amp; 长按
+</li>
+<li>大约5%的击键使用的这个象限的键位
+</li>
+<li>包括Esc, Backspace, Delete等
+</li>
+<li>长按该区域键位, 重复执行该键位的功能
+</li>
+</ul>
+</li>
+
+<li>第三象限
+
+<ul class="org-ul">
+<li>组合 &amp; 长按
+</li>
+<li>大约15%的击键使用的这个象限的键位
+</li>
+<li>包括Control, Shift, Alt等
+</li>
+<li>长按该区域键位, 同时再按第一象限键位, 发送事先指定功能
+</li>
+</ul>
+</li>
+
+<li>第四象限
+
+<ul class="org-ul">
+<li>组合 &amp; 短按
+</li>
+<li>目前大部分键盘都不支持该区域按键
+</li>
+<li>可以通过软件设置, 支持该区域, 提供额外的命名空间
+</li>
+</ul>
+</li>
+</ol>
+
+
+<p>
+第一象限的按键是平时的正常文本输入区域, 无需做更改.
+</p>
+
+<p>
+第二象限和第三象限, 可以组合起来使用, 即单独按某一按键时, 发送第二象限功能;组合该键和第一象限键位时, 发送第三象限功能.
+</p>
+
+<p>
+第四象限的按键可以通过软件设置, 将平时不太使用的键给映射为其它键. 相当于是增加了一个额外的命名空间.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> 组合第二象限和第三象限</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+组合第二象限和第三象限的功能, 在Mac OS下只需要使用现在的软件, 勾选一下鼠标就可以实现.
+</p>
+
+<ol class="org-ol">
+<li>下载安装 <a href="https://pqrs.org/osx/karabiner/index.html.en">Karabiner</a>
+</li>
+<li>打开界面, 选中「Control<sub>L</sub> to Control<sub>L</sub> (+ When you type control<sub>L</sub> only,
+send Escape)」
+</li>
+<li>Done.
+</li>
+</ol>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/01/16/键盘应该这样改键/karabiner.png" alt="karabiner.png" />
+</p>
+</div>
+
+
+<p>
+现在你单独按键盘左边的control键时, 发送的是Esc. (使用Vim的同学笑了~~). 按下
+Control+其它键时, 仍然发送Control, 跟之前使用完全一样.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Caps Lock改到Control</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+在Mac OS下, 把Caps Lock键映射到Control键, 系统设置就可以了.
+</p>
+
+<ol class="org-ol">
+<li>打开「System Preferences」
+</li>
+<li>选择「Keyboard」
+</li>
+<li>选择「Modifier Keys」
+</li>
+<li>把Caps Lock映射为Control
+</li>
+<li>Done
+</li>
+</ol>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/01/16/键盘应该这样改键/system_preference.png" alt="system_preference.png" />
+</p>
+</div>
+
+<p>
+总结下现在所做的工作:
+</p>
+
+<ol class="org-ol">
+<li>把Caps Lock映射成了Control
+</li>
+<li>把Control变成了单独按时, 发送Esc; 组合按时, 发送Control.
+</li>
+</ol>
+
+<p>
+即, 我们现在单独按Caps Lock时, 发送Esc; 按下Caps Lock和c时, 会发送Control-C.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> 增加第四象限按键</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+我们可以指定某个按键为多个按键的组合, 这样可以额外增加一个命名空间, 该键和其它键的组合就不会和其它按键冲突. 比如设置右Command键为「ctrl+shift+cmd+opt」,这样当我们按右command+F时, 相当于按了「ctrl+shift+cmd+opt+F」.
+</p>
+
+<p>
+这种给指定按键映射为多个按键的操作, 同样可以通过Seil 和 Karabiner完成.
+</p>
+
+<p>
+首先, 我们需要在Seil这个软件中, 把右Cmd键改成F19的码值.
+</p>
+
+<ol class="org-ol">
+<li>勾选「Change Command<sub>R」</sub>
+</li>
+<li>在右侧的keycode中填入F19的码值 80
+</li>
+</ol>
+
+
+<p>
+接着, 我们打开Karabiner:
+</p>
+
+<ol class="org-ol">
+<li>选择「Misc &amp; Uninstall」
+</li>
+<li>点击「Open private.xml」
+</li>
+<li>输入以下内容
+</li>
+</ol>
+
+<div class="org-src-container">
+
+<pre class="src src-nxml">&lt;?xml version="1.0"?&gt; &lt;root&gt; &lt;item&gt; &lt;name&gt;F19 to F19&lt;/name&gt; &lt;appendix&gt;(F19 to
+Hyper (ctrl+shift+cmd+opt) + F19 Only, F19)&lt;/appendix&gt;
+&lt;identifier&gt;private.f192f19&lt;/identifier&gt; &lt;autogen&gt; --KeyOverlaidModifier--
+KeyCode::F19, KeyCode::COMMAND_L, ModifierFlag::OPTION_L |
+ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt;
+&lt;/item&gt; &lt;/root&gt;
+</pre>
+</div>
+
+<p>
+现在我们按键盘右侧的Command键, 其实就是发送的F19的码值. 而我们又设置了按F19的时候, 就发送「Command+Option+Shift+Control」, 这个组合键很少会和其它的快捷键有冲突.
+然后我们可以怎么玩这个键呢?
+</p>
+
+<p>
+最简单的使用办法就是把这个键做为激活应用程序快捷键, 右Cmd+F打开Firefox, 右Cmd+E
+打开Excel, 这些快捷键都是全局生效的, 你在任意程序中按下, 都可以激活你设置的应用程序.
+</p>
+
+<p>
+设置应用程序激活快捷键, 可以通过软件
+<a href="http://www.keyboardmaestro.com/main/">Keyboard Maestro</a>完成.
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/01/16/键盘应该这样改键/maestro.png" alt="maestro.png" />
+</p>
+</div>
+</div>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2015-11-09</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/01/16/键盘应该这样改键/</guid>
+    </item>
+    <item>
+      <title>经济学原理</title>
+      <link>http://lijigang.github.io/blog/2017/01/16/经济学原理/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>经济学原理</h1>
+            <div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. 人们如何做出决策</a>
+<ul>
+<li><a href="#sec-1-1">1.1. 原理一: 人们面临权衡取舍</a></li>
+<li><a href="#sec-1-2">1.2. 原理二: 机会成本</a></li>
+<li><a href="#sec-1-3">1.3. 原理三: 理性人考虑边际量</a></li>
+<li><a href="#sec-1-4">1.4. 原理四: 人们会对激励做出反应</a></li>
+</ul>
+</li>
+<li><a href="#sec-2">2. 人们如何相互交易</a>
+<ul>
+<li><a href="#sec-2-1">2.1. 原理五: 贸易可以使每个人的状况都变得更好</a></li>
+<li><a href="#sec-2-2">2.2. 原理六: 市场经济是个好方法</a></li>
+<li><a href="#sec-2-3">2.3. 原理七: 政府 <b>有时可以</b> 改善市场结果</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. 整体经济如何运行</a>
+<ul>
+<li><a href="#sec-3-1">3.1. 原理八: 生活水平取决于生产率</a></li>
+<li><a href="#sec-3-2">3.2. 原理九: 政府发行过多货币, 特价上升</a></li>
+<li><a href="#sec-3-3">3.3. 原理十: 社会面临通货膨胀与失业之间的短期权衡取舍</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+社会拥有的资源是 <b>有限的</b>, 因此不能生产人们希望拥有的所有物品与劳务. <b>经济学</b>
+就是研究社会如何管理自己的稀缺资源.
+</p>
+
+<p>
+经济学的十大原理:
+</p>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> 人们如何做出决策</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> 原理一: 人们面临权衡取舍</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+人们在决定去选择一个东西的时候, 就意味着不得不放弃另一件东西. 所谓的做决策,
+就是要求在一个目标与另一个目标之间进行权衡取舍.
+</p>
+
+<p>
+不只是人会面临取舍, 社会也一样. 社会面临的取舍是在 <b>效率</b> 与 <b>平等</b> 之间.
+</p>
+
+<p>
+效率是指社会能从其稀缺资源中得到的最大利益, 即经济蛋糕的大小.
+</p>
+
+<p>
+平等是指将这些资源的成果平均地分配给其成员, 即如何分割这块蛋糕.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> 原理二: 机会成本</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+人们面临权衡取舍, 做决策时就要比较各方案的成本与收益. 但行动的成本并不是一目了然. 这里涉及到 <b>机会成本</b> 的概念:
+</p>
+
+<blockquote>
+<p>
+一种东西的 <b>机会成本</b> 是为了得到这种东西所放弃的东西.
+</p>
+</blockquote>
+</div>
+</div>
+
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> 原理三: 理性人考虑边际量</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+经济学家通常假设, 人都是 <b>理性的</b>.
+</p>
+
+<blockquote>
+<p>
+在机会成本为既定的条件下, 理性人(rational people) 系统而有目的地尽最大努力去实现其目标.
+</p>
+</blockquote>
+
+<p>
+理性人知道, 生活中的决策很少是非黑即白式的选择, 而往往是介于其间.  经济学家用 <b>边际变动(marginal change)</b> 来描述对现有行动计划的微小增量调整. 理性人通常通过比较 <b>边际利益</b> 与 <b>边际成本</b> 来做出决策.
+</p>
+
+<p>
+为什么飞机票在快起飞时, 剩下空位置的票价特别低? <b>边际成本</b> 小于 <b>边际利益</b>.
+</p>
+
+<p>
+为什么水比钻石便宜? 水的 <b>边际成本</b> 远小于钻石的 <b>边际成本</b>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4"><span class="section-number-3">1.4</span> 原理四: 人们会对激励做出反应</h3>
+<div class="outline-text-3" id="text-1-4">
+<blockquote>
+<p>
+<b>激励 (incentive)</b> 是引起一个人做出某种行为的某种东西.
+</p>
+
+<p>
+比如惩罚或奖励的预期.
+</p>
+</blockquote>
+
+<p>
+<code>在经济学研究中, *激励* 起着中心作用.</code>
+</p>
+
+<p>
+以前汽车并没有安全带, 人们开车缓慢而谨慎, 但一旦出现车祸, 司机的死亡率很高.
+</p>
+
+<p>
+后来政府立法要求将安全带作为汽车的标配, 直接影响是:
+</p>
+
+<pre class="example">
+当一个人系上安全带后, 发生车祸时存活的概率提高了.
+</pre>
+
+<p>
+但间接影响是:
+</p>
+
+<pre class="example">
+安全带法律改变了一个司机的成本-收益计算. 它降低了司机的车祸代价, 因为它降
+低了司机的伤亡概率. 结果就是司机开车速度更快, 结果就是虽然车祸死亡人数下降,
+但车祸次数上升.
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> 人们如何相互交易</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> 原理五: 贸易可以使每个人的状况都变得更好</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+虽然在贸易过程中, 会有各种竞争存在. 但贸易使每个人都可以专门从事自己最擅长的活动. 通过与他人交易, 人们可以按较低的成本获得各种各样的物品与劳务.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> 原理六: 市场经济是个好方法</h3>
+<div class="outline-text-3" id="text-2-2">
+<blockquote>
+<p>
+<b>市场经济</b>
+</p>
+
+<p>
+当许多企业和家庭在物品与劳务市场上相互交易时, 通过它们的分散决策配置资源的经济.
+</p>
+</blockquote>
+
+<p>
+市场经济由一只「看不见的手」通过「价格」这个工具来指引, 最终结果在大多数情况下会实现整个社会福利的最大化.
+</p>
+
+<blockquote>
+<p>
+请给我们我所要的东西吧, 同时, 你也可以获得你所要的东西.
+</p>
+
+<p>
+这句话是交易的通义.
+</p>
+</blockquote>
+
+<p>
+经济参与者受利己心驱动, 而市场上这只「看不见的手」指引这种利己心去促进总体的经济福利.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> 原理七: 政府 <b>有时可以</b> 改善市场结果</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+既然市场这只「看不见的手」这么强大, 为什么我们还需要政府呢?
+</p>
+
+<p>
+有两个原因:
+</p>
+
+<p>
+第一个原因, 我们需要政府来保证实施 <code>产权 (property rights)</code> 的制度.
+</p>
+
+<blockquote>
+<p>
+产权: 个人拥有并控制稀缺资源的能力.
+</p>
+</blockquote>
+
+<p>
+如果你今天挣到的钱, 明天就会被别人抢走, 你也就不会有动力去挣钱了. 只有在保证个人可以拥有资源的情况下, 市场才能发挥作用.
+</p>
+
+<p>
+第二个原因, 我们需要政府在 <b>市场失灵</b> 的时候进行调整.
+</p>
+
+<blockquote>
+<p>
+市场失灵可能的原因有:
+</p>
+
+<p>
+外部性: 一个人的行为对旁边者福利的影响.
+</p>
+
+<p>
+比如, 一家造纸厂, 加大生产规模, 同时并未投入污水处理设备的成本, 在市场看来,
+它是成功的. 毕竟成本低, 收益高, 市场给他更大蛋糕吃. 但这工厂对环境的污染,
+让生活在附近的人们受到了影响, 这个市场控制不了.
+</p>
+
+<p>
+市场势力: 单个经济活动者对市场价格有显著影响的能力.
+</p>
+
+<p>
+比如一个小镇上只有一家纯净水供应商, 价格完全由它来定. 市场平时是靠竞争来约束个人和利己行为的, 但这种垄断的情况, 市场显然失灵了.
+</p>
+</blockquote>
+
+<p>
+政府怎么干预经济呢? 也有两类: <code>促进效率</code> 和 <code>促进平等</code>.
+</p>
+
+<ul class="org-ul">
+<li>对于造纸厂不投入污水处理设备的情况, 可以制定相关法规, 强制要求.
+</li>
+<li>对于小镇垄断纯净水价格的情况, 可以规定纯净水价格等.
+</li>
+</ul>
+
+<p>
+这些都可以提升资源的效率.
+</p>
+
+<p>
+现在的很多公共政策, 比如个人所得税和福利制度, 目标就是为了实现更平等的经济福利分配.
+</p>
+
+
+<p>
+但要注意的是, 政府是 <b>有时可以</b> 改善市场结果, 并不意味着它 <b>总能这样</b>.
+</p>
+
+<blockquote>
+<p>
+公共政策并不是由天使制定的, 而是由极不完善的政治程序制定的.
+</p>
+
+<ul class="org-ul">
+<li>有时所设计的政策只是为了有利于政治上有权势的人
+</li>
+<li>有时政策是由动机良好但信息不充分的领导人制定的
+</li>
+</ul>
+</blockquote>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> 整体经济如何运行</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> 原理八: 生活水平取决于生产率</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+世界各国生活水平的差别是惊人的. 这些差别的原因就在于 <b>生产率</b>
+</p>
+
+<pre class="example">
+生产率: 每一单位劳动投入所生产的物品与劳务数量.
+</pre>
+
+<p>
+在考虑任何一项政策如何影响生活水平时, 关键问题是这项政策如何影响我们生产物品与劳务的能力.
+</p>
+
+<p>
+为了提升生活水平, 决策者需要通过让工人受到良好的教育、拥有生产物品与劳务需要的工具, 以及获取最好的技术, 来提高生产率.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> 原理九: 政府发行过多货币, 特价上升</h3>
+<div class="outline-text-3" id="text-3-2">
+<blockquote>
+<p>
+通货膨胀: 经济中物价总水平的上升
+</p>
+</blockquote>
+
+<p>
+当一国政府发行了大量本国货币时, 货币的价值就下降了.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-3" class="outline-3">
+<h3 id="sec-3-3"><span class="section-number-3">3.3</span> 原理十: 社会面临通货膨胀与失业之间的短期权衡取舍</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+虽然长期来看, 物价水平高主要是货币量增加的结果, 但短期中问题变得更复杂.
+</p>
+
+<p>
+大多数经济学家是这样描述货币注入的短期效应的:
+</p>
+
+<ul class="org-ul">
+<li>经济中货币量增加 → 刺激社会整体支持水平 → 增加对物品与劳务的需求
+</li>
+<li>需求增加 → 企业提高物价 → 企业雇用更多工人 → 生产更多物品与劳务
+</li>
+<li>雇用更多工人 → 更少的失业
+</li>
+</ul>
+
+<p>
+即决策者需要在 <b>通货膨胀</b> 与 <b>失业</b> 之间做一个权衡取舍.
+</p>
+
+
+<p>
+总结一下, 经济学十大原理如下图所示:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/01/16/经济学原理/ten_principles.png" alt="ten_principles.png" />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2015-09-10</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/01/16/经济学原理/</guid>
     </item>
   </channel>
 </rss>
