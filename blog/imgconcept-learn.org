@@ -1,4 +1,0 @@
-#+title: 图解|概念: 学习
-#+options: toc:nil
-
-[[./images/imgconcept-learn.jpg]]

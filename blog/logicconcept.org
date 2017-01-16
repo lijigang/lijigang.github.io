@@ -1,4 +1,0 @@
-#+title: 图解|概念: 逻辑
-#+options: toc:nil
-
-[[./images/logic.jpg]]
