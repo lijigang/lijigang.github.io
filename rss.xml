@@ -4,10 +4,45 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Sat, 12 Aug 2017 17:39:15 CST</pubDate>
-    <lastBuildDate>Sat, 12 Aug 2017 17:39:15 CST</lastBuildDate>
+    <pubDate>Sat, 12 Aug 2017 18:06:08 CST</pubDate>
+    <lastBuildDate>Sat, 12 Aug 2017 18:06:08 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>复盘</title>
+      <link>http://lijigang.github.io/blog/2017/08/12/复盘/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>复盘</h1>
+            
+<div class="figure">
+<p><img src="/assets/blog/2017/08/12/复盘/fupan.jpg" alt="fupan.jpg" />
+</p>
+</div>
+
+<p>
+复盘流程:
+</p>
+<ol class="org-ol">
+<li>回顾初始目标
+</li>
+<li>回顾执行过程
+</li>
+<li>确认实际结果
+</li>
+<li>分析结果和目标不一致原因
+</li>
+<li>总结经验, 修正执行
+</li>
+</ol>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2017-08-12</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/08/12/复盘/</guid>
+    </item>
     <item>
       <title>什么是「计算机科学」</title>
       <link>http://lijigang.github.io/blog/2017/08/12/什么是「计算机科学」/</link>
