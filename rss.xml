@@ -4,8 +4,8 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Sat, 12 Aug 2017 18:06:08 CST</pubDate>
-    <lastBuildDate>Sat, 12 Aug 2017 18:06:08 CST</lastBuildDate>
+    <pubDate>Sat, 12 Aug 2017 18:08:54 CST</pubDate>
+    <lastBuildDate>Sat, 12 Aug 2017 18:08:54 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -15,13 +15,7 @@
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
             <h1>复盘</h1>
-            
-<div class="figure">
-<p><img src="/assets/blog/2017/08/12/复盘/fupan.jpg" alt="fupan.jpg" />
-</p>
-</div>
-
-<p>
+            <p>
 复盘流程:
 </p>
 <ol class="org-ol">
@@ -36,6 +30,12 @@
 <li>总结经验, 修正执行
 </li>
 </ol>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/08/12/复盘/fupan.jpg" alt="fupan.jpg" />
+</p>
+</div>
 
     </div>
 </section>

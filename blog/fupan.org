@@ -2,7 +2,6 @@
 #+TAGS: 概念
 #+options: toc:nil
 
-[[./images/fupan.jpg]]
 
 复盘流程:
 1. 回顾初始目标
@@ -10,3 +9,5 @@
 3. 确认实际结果
 4. 分析结果和目标不一致原因
 5. 总结经验, 修正执行
+
+[[./images/fupan.jpg]]
