@@ -4,13 +4,56 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Sat, 12 Aug 2017 18:10:27 CST</pubDate>
-    <lastBuildDate>Sat, 12 Aug 2017 18:10:27 CST</lastBuildDate>
+    <pubDate>Mon, 14 Aug 2017 11:42:52 CST</pubDate>
+    <lastBuildDate>Mon, 14 Aug 2017 11:42:52 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
+      <title>产业链</title>
+      <link>http://lijigang.github.io/blog/2017/08/14/产业链/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>产业链</h1>
+            <p>
+第一层, 不考虑具体公司, 只考虑供需链条. 考虑从生产到用户使用过程中的环节节点, 即点到点的链接:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/08/14/产业链/value_chain.jpg" alt="value_chain.jpg" />
+</p>
+</div>
+
+<p>
+第二层, 考虑供需链条上面每个环节都有哪些公司在运作, 即点到线的链接:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/08/14/产业链/corp_chain.jpg" alt="corp_chain.jpg" />
+</p>
+</div>
+
+<p>
+第三层, 考虑产业链条中所有企业在空间地域上的分布, 即线到线的链接:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/08/14/产业链/space_chain.jpg" alt="space_chain.jpg" />
+</p>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2017-08-14</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/08/14/产业链/</guid>
+    </item>
+    <item>
       <title>复盘</title>
-      <link>http://lijigang.github.io/blog/2017/08/12/复盘/</link>
+      <link>http://lijigang.github.io/blog/2017/08/14/复盘/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -33,7 +76,7 @@
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/12/复盘/fupan.jpg" alt="fupan.jpg" />
+<p><img src="/assets/blog/2017/08/14/复盘/fupan.jpg" alt="fupan.jpg" />
 </p>
 </div>
 
@@ -41,11 +84,11 @@
 </section>
 ]]></description>
       <pubDate>2017-08-12</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/12/复盘/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/14/复盘/</guid>
     </item>
     <item>
       <title>什么是「计算机科学」</title>
-      <link>http://lijigang.github.io/blog/2017/08/12/什么是「计算机科学」/</link>
+      <link>http://lijigang.github.io/blog/2017/08/14/什么是「计算机科学」/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -99,7 +142,7 @@ Solving with Algorithms and Data Structures= 这书后, 才开始去了解 CS �
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/12/什么是「计算机科学」/cs.png" alt="cs.png" />
+<p><img src="/assets/blog/2017/08/14/什么是「计算机科学」/cs.png" alt="cs.png" />
 </p>
 </div>
 </div>
@@ -143,7 +186,7 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/12/什么是「计算机科学」/programming.png" alt="programming.png" />
+<p><img src="/assets/blog/2017/08/14/什么是「计算机科学」/programming.png" alt="programming.png" />
 </p>
 </div>
 </div>
@@ -226,18 +269,18 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 </section>
 ]]></description>
       <pubDate>2017-01-16</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/12/什么是「计算机科学」/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/14/什么是「计算机科学」/</guid>
     </item>
     <item>
       <title>读书笔记: 技术简史</title>
-      <link>http://lijigang.github.io/blog/2017/08/12/读书笔记-技术简史/</link>
+      <link>http://lijigang.github.io/blog/2017/08/14/读书笔记-技术简史/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
             <h1>读书笔记: 技术简史</h1>
             
 <div class="figure">
-<p><img src="/assets/blog/2017/08/12/读书笔记-技术简史/rulingwaves.png" alt="rulingwaves.png" />
+<p><img src="/assets/blog/2017/08/14/读书笔记-技术简史/rulingwaves.png" alt="rulingwaves.png" />
 </p>
 </div>
 
@@ -245,11 +288,11 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 </section>
 ]]></description>
       <pubDate>2017-01-16</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/12/读书笔记-技术简史/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/14/读书笔记-技术简史/</guid>
     </item>
     <item>
       <title>图解|读书: 游戏化实战</title>
-      <link>http://lijigang.github.io/blog/2017/08/12/图解|读书-游戏化实战/</link>
+      <link>http://lijigang.github.io/blog/2017/08/14/图解|读书-游戏化实战/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -260,7 +303,7 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/12/图解|读书-游戏化实战/gamefication.png" alt="gamefication.png" />
+<p><img src="/assets/blog/2017/08/14/图解|读书-游戏化实战/gamefication.png" alt="gamefication.png" />
 </p>
 </div>
 
@@ -268,11 +311,11 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 </section>
 ]]></description>
       <pubDate>2016-07-04</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/12/图解|读书-游戏化实战/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/14/图解|读书-游戏化实战/</guid>
     </item>
     <item>
       <title>科学是什么鬼</title>
-      <link>http://lijigang.github.io/blog/2017/08/12/科学是什么鬼/</link>
+      <link>http://lijigang.github.io/blog/2017/08/14/科学是什么鬼/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -306,7 +349,7 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/12/科学是什么鬼/science.png" alt="science.png" />
+<p><img src="/assets/blog/2017/08/14/科学是什么鬼/science.png" alt="science.png" />
 </p>
 </div>
 
@@ -314,11 +357,11 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 </section>
 ]]></description>
       <pubDate>2016-02-17</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/12/科学是什么鬼/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/14/科学是什么鬼/</guid>
     </item>
     <item>
       <title>键盘应该这样改键</title>
-      <link>http://lijigang.github.io/blog/2017/08/12/键盘应该这样改键/</link>
+      <link>http://lijigang.github.io/blog/2017/08/14/键盘应该这样改键/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -379,7 +422,7 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/12/键盘应该这样改键/keymaps.png" alt="keymaps.png" />
+<p><img src="/assets/blog/2017/08/14/键盘应该这样改键/keymaps.png" alt="keymaps.png" />
 </p>
 </div>
 
@@ -473,7 +516,7 @@ send Escape)」
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/12/键盘应该这样改键/karabiner.png" alt="karabiner.png" />
+<p><img src="/assets/blog/2017/08/14/键盘应该这样改键/karabiner.png" alt="karabiner.png" />
 </p>
 </div>
 
@@ -507,7 +550,7 @@ Control+其它键时, 仍然发送Control, 跟之前使用完全一样.
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/12/键盘应该这样改键/system_preference.png" alt="system_preference.png" />
+<p><img src="/assets/blog/2017/08/14/键盘应该这样改键/system_preference.png" alt="system_preference.png" />
 </p>
 </div>
 
@@ -592,7 +635,7 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/12/键盘应该这样改键/maestro.png" alt="maestro.png" />
+<p><img src="/assets/blog/2017/08/14/键盘应该这样改键/maestro.png" alt="maestro.png" />
 </p>
 </div>
 </div>
@@ -602,11 +645,11 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 </section>
 ]]></description>
       <pubDate>2015-11-09</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/12/键盘应该这样改键/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/14/键盘应该这样改键/</guid>
     </item>
     <item>
       <title>经济学原理</title>
-      <link>http://lijigang.github.io/blog/2017/08/12/经济学原理/</link>
+      <link>http://lijigang.github.io/blog/2017/08/14/经济学原理/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -966,7 +1009,7 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/12/经济学原理/ten_principles.png" alt="ten_principles.png" />
+<p><img src="/assets/blog/2017/08/14/经济学原理/ten_principles.png" alt="ten_principles.png" />
 </p>
 </div>
 </div>
@@ -977,7 +1020,7 @@ ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L, KeyCode::ESCAPE &lt;/autogen&gt
 </section>
 ]]></description>
       <pubDate>2015-09-10</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/12/经济学原理/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/14/经济学原理/</guid>
     </item>
   </channel>
 </rss>
