@@ -1,4 +1,5 @@
 #+title: 质能方程
+#+tags: 概念
 #+options: toc:nil
 
 [[./images/mc.jpg]]
