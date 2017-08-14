@@ -1,4 +1,4 @@
-#+title: 图解|读书: 游戏化实战
+#+title: 读书笔记: 游戏化实战
 #+author: 李继刚
 #+options: toc:nil
 

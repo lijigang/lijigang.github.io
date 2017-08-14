@@ -1,4 +1,4 @@
-#+title: 科学是什么鬼
+#+title: 科学
 #+options: toc:nil
 
 我们总是会听到「这不科学」的说法, 那到底什么是「[[http://www.wikiwand.com/zh/%25E7%25A7%2591%25E5%25AD%25A6][科学]]」?

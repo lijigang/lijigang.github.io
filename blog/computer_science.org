@@ -1,4 +1,4 @@
-#+TITLE: 什么是「计算机科学」
+#+TITLE: 计算机科学
 #+TAGS: Programming, 概念
 #+options: toc:nil
 
