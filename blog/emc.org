@@ -1,4 +1,4 @@
-#+title: 读书笔记: 技术简史
+#+title: 质能方程
 #+author: 李继刚
 #+options: toc:nil
 
