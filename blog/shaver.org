@@ -1,0 +1,5 @@
+#+TITLE: 产业链
+#+TAGS: 概念
+#+options: toc:nil
+
+[[./images/shaver.png]]
