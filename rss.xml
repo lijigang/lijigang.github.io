@@ -4,114 +4,17 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Mon, 14 Aug 2017 19:38:51 CST</pubDate>
-    <lastBuildDate>Mon, 14 Aug 2017 19:38:51 CST</lastBuildDate>
+    <pubDate>Mon, 14 Aug 2017 19:44:48 CST</pubDate>
+    <lastBuildDate>Mon, 14 Aug 2017 19:44:48 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
-      <title>产业链</title>
-      <link>http://lijigang.github.io/blog/2017/08/14/产业链/</link>
+      <title>计算机科学</title>
+      <link>http://lijigang.github.io/blog/2017/08/14/计算机科学/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
-            <h1>产业链</h1>
-            <p>
-第一层, 不考虑具体公司, 只考虑供需链条. 考虑从生产到用户使用过程中的环节节点, 即点到点的链接:
-</p>
-
-
-<div class="figure">
-<p><img src="/assets/blog/2017/08/14/产业链/value_chain.jpg" alt="value_chain.jpg" />
-</p>
-</div>
-
-<p>
-第二层, 考虑供需链条上面每个环节都有哪些公司在运作, 即点到线的链接:
-</p>
-
-
-<div class="figure">
-<p><img src="/assets/blog/2017/08/14/产业链/corp_chain.jpg" alt="corp_chain.jpg" />
-</p>
-</div>
-
-<p>
-第三层, 考虑产业链条中所有企业在空间地域上的分布, 即线到线的链接:
-</p>
-
-
-<div class="figure">
-<p><img src="/assets/blog/2017/08/14/产业链/space_chain.jpg" alt="space_chain.jpg" />
-</p>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2017-08-14</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/14/产业链/</guid>
-    </item>
-    <item>
-      <title>奥卡姆剃刀</title>
-      <link>http://lijigang.github.io/blog/2017/08/14/奥卡姆剃刀/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>奥卡姆剃刀</h1>
-            
-<div class="figure">
-<p><img src="/assets/blog/2017/08/14/奥卡姆剃刀/shaver.png" alt="shaver.png" />
-</p>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2017-08-14</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/14/奥卡姆剃刀/</guid>
-    </item>
-    <item>
-      <title>复盘</title>
-      <link>http://lijigang.github.io/blog/2017/08/14/复盘/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>复盘</h1>
-            <p>
-复盘流程:
-</p>
-<ol class="org-ol">
-<li>回顾初始目标
-</li>
-<li>回顾执行过程
-</li>
-<li>确认实际结果
-</li>
-<li>分析结果和目标不一致原因
-</li>
-<li>总结经验, 修正执行
-</li>
-</ol>
-
-
-<div class="figure">
-<p><img src="/assets/blog/2017/08/14/复盘/fupan.jpg" alt="fupan.jpg" />
-</p>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2017-08-12</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/14/复盘/</guid>
-    </item>
-    <item>
-      <title>什么是「计算机科学」</title>
-      <link>http://lijigang.github.io/blog/2017/08/14/什么是「计算机科学」/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>什么是「计算机科学」</h1>
+            <h1>计算机科学</h1>
             <p>
 作为一个学了七年 CS 的学渣, 一直没去了解过 CS 到底意味着什么. Computer Science 与其它
 Science 的本质区别在哪? 它与其它 Science 的共同点又在哪? 直到最近读了=Problem
@@ -161,7 +64,7 @@ Solving with Algorithms and Data Structures= 这书后, 才开始去了解 CS �
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/14/什么是「计算机科学」/cs.png" alt="cs.png" />
+<p><img src="/assets/blog/2017/08/14/计算机科学/cs.png" alt="cs.png" />
 </p>
 </div>
 </div>
@@ -205,7 +108,7 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/14/什么是「计算机科学」/programming.png" alt="programming.png" />
+<p><img src="/assets/blog/2017/08/14/计算机科学/programming.png" alt="programming.png" />
 </p>
 </div>
 </div>
@@ -287,58 +190,82 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
     </div>
 </section>
 ]]></description>
-      <pubDate>2017-01-16</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/14/什么是「计算机科学」/</guid>
+      <pubDate>2017-08-14</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/08/14/计算机科学/</guid>
     </item>
     <item>
-      <title>读书笔记: 技术简史</title>
-      <link>http://lijigang.github.io/blog/2017/08/14/读书笔记-技术简史/</link>
+      <title>读书笔记: 游戏化实战</title>
+      <link>http://lijigang.github.io/blog/2017/08/14/读书笔记-游戏化实战/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
-            <h1>读书笔记: 技术简史</h1>
-            
-<div class="figure">
-<p><img src="/assets/blog/2017/08/14/读书笔记-技术简史/rulingwaves.png" alt="rulingwaves.png" />
-</p>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2017-01-16</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/14/读书笔记-技术简史/</guid>
-    </item>
-    <item>
-      <title>图解|读书: 游戏化实战</title>
-      <link>http://lijigang.github.io/blog/2017/08/14/图解|读书-游戏化实战/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>图解|读书: 游戏化实战</h1>
+            <h1>读书笔记: 游戏化实战</h1>
             <p>
 游戏中让人「欲罢不能」的元素如何应用在我们的工作和生活中?
 </p>
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/14/图解|读书-游戏化实战/gamefication.png" alt="gamefication.png" />
+<p><img src="/assets/blog/2017/08/14/读书笔记-游戏化实战/gamefication.png" alt="gamefication.png" />
 </p>
 </div>
 
     </div>
 </section>
 ]]></description>
-      <pubDate>2016-07-04</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/14/图解|读书-游戏化实战/</guid>
+      <pubDate>2017-08-14</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/08/14/读书笔记-游戏化实战/</guid>
     </item>
     <item>
-      <title>科学是什么鬼</title>
-      <link>http://lijigang.github.io/blog/2017/08/14/科学是什么鬼/</link>
+      <title>产业链</title>
+      <link>http://lijigang.github.io/blog/2017/08/14/产业链/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
-            <h1>科学是什么鬼</h1>
+            <h1>产业链</h1>
+            <p>
+第一层, 不考虑具体公司, 只考虑供需链条. 考虑从生产到用户使用过程中的环节节点, 即点到点的链接:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/08/14/产业链/value_chain.jpg" alt="value_chain.jpg" />
+</p>
+</div>
+
+<p>
+第二层, 考虑供需链条上面每个环节都有哪些公司在运作, 即点到线的链接:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/08/14/产业链/corp_chain.jpg" alt="corp_chain.jpg" />
+</p>
+</div>
+
+<p>
+第三层, 考虑产业链条中所有企业在空间地域上的分布, 即线到线的链接:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/08/14/产业链/space_chain.jpg" alt="space_chain.jpg" />
+</p>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2017-08-14</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/08/14/产业链/</guid>
+    </item>
+    <item>
+      <title>科学</title>
+      <link>http://lijigang.github.io/blog/2017/08/14/科学/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>科学</h1>
             <p>
 我们总是会听到「这不科学」的说法, 那到底什么是「<a href="http://www.wikiwand.com/zh/%25E7%25A7%2591%25E5%25AD%25A6">科学</a>」?
 </p>
@@ -368,15 +295,88 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/14/科学是什么鬼/science.png" alt="science.png" />
+<p><img src="/assets/blog/2017/08/14/科学/science.png" alt="science.png" />
 </p>
 </div>
 
     </div>
 </section>
 ]]></description>
-      <pubDate>2016-02-17</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/14/科学是什么鬼/</guid>
+      <pubDate>2017-08-14</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/08/14/科学/</guid>
+    </item>
+    <item>
+      <title>奥卡姆剃刀</title>
+      <link>http://lijigang.github.io/blog/2017/08/14/奥卡姆剃刀/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>奥卡姆剃刀</h1>
+            
+<div class="figure">
+<p><img src="/assets/blog/2017/08/14/奥卡姆剃刀/shaver.png" alt="shaver.png" />
+</p>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2017-08-14</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/08/14/奥卡姆剃刀/</guid>
+    </item>
+    <item>
+      <title>复盘</title>
+      <link>http://lijigang.github.io/blog/2017/08/14/复盘/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>复盘</h1>
+            <p>
+复盘流程:
+</p>
+<ol class="org-ol">
+<li>回顾初始目标
+</li>
+<li>回顾执行过程
+</li>
+<li>确认实际结果
+</li>
+<li>分析结果和目标不一致原因
+</li>
+<li>总结经验, 修正执行
+</li>
+</ol>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/08/14/复盘/fupan.jpg" alt="fupan.jpg" />
+</p>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2017-08-12</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/08/14/复盘/</guid>
+    </item>
+    <item>
+      <title>读书笔记: 技术简史</title>
+      <link>http://lijigang.github.io/blog/2017/08/14/读书笔记-技术简史/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>读书笔记: 技术简史</h1>
+            
+<div class="figure">
+<p><img src="/assets/blog/2017/08/14/读书笔记-技术简史/rulingwaves.png" alt="rulingwaves.png" />
+</p>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2017-01-16</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/08/14/读书笔记-技术简史/</guid>
     </item>
     <item>
       <title>键盘应该这样改键</title>
