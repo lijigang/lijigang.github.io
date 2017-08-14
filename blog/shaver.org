@@ -1,4 +1,4 @@
-#+TITLE: 产业链
+#+TITLE: 奥卡姆剃刀
 #+TAGS: 概念
 #+options: toc:nil
 
