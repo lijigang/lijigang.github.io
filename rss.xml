@@ -4,8 +4,8 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Mon, 14 Aug 2017 19:44:48 CST</pubDate>
-    <lastBuildDate>Mon, 14 Aug 2017 19:44:48 CST</lastBuildDate>
+    <pubDate>Mon, 14 Aug 2017 21:38:37 CST</pubDate>
+    <lastBuildDate>Mon, 14 Aug 2017 21:38:37 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -192,6 +192,25 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 ]]></description>
       <pubDate>2017-08-14</pubDate>
       <guid>http://lijigang.github.io/blog/2017/08/14/计算机科学/</guid>
+    </item>
+    <item>
+      <title>质能方程</title>
+      <link>http://lijigang.github.io/blog/2017/08/14/质能方程/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>质能方程</h1>
+            
+<div class="figure">
+<p><img src="/assets/blog/2017/08/14/质能方程/mc.jpg" alt="mc.jpg" />
+</p>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2017-08-14</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/08/14/质能方程/</guid>
     </item>
     <item>
       <title>读书笔记: 游戏化实战</title>
