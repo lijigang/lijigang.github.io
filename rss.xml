@@ -4,8 +4,8 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Tue, 15 Aug 2017 10:23:11 CST</pubDate>
-    <lastBuildDate>Tue, 15 Aug 2017 10:23:11 CST</lastBuildDate>
+    <pubDate>Tue, 15 Aug 2017 11:15:30 CST</pubDate>
+    <lastBuildDate>Tue, 15 Aug 2017 11:15:30 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -45,6 +45,37 @@
 ]]></description>
       <pubDate>2017-08-15</pubDate>
       <guid>http://lijigang.github.io/blog/2017/08/15/数据科学家学习路线图/</guid>
+    </item>
+    <item>
+      <title>新媒体时代的个人意见</title>
+      <link>http://lijigang.github.io/blog/2017/08/15/新媒体时代的个人意见/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>新媒体时代的个人意见</h1>
+            <p>
+原图制作人: Dustin Rogers
+</p>
+
+<p>
+原新闻链接: <a href="http://www.boredpanda.com/comic-mass-media-news-dogs-dus">News Dogs</a>
+</p>
+
+<p>
+翻译: 李思璟
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/08/15/新媒体时代的个人意见/news_dog.jpg" alt="news_dog.jpg" />
+</p>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2017-08-15</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/08/15/新媒体时代的个人意见/</guid>
     </item>
     <item>
       <title>产品经理职业发展路线</title>
@@ -399,25 +430,6 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 ]]></description>
       <pubDate>2017-08-14</pubDate>
       <guid>http://lijigang.github.io/blog/2017/08/15/科学/</guid>
-    </item>
-    <item>
-      <title>奥卡姆剃刀</title>
-      <link>http://lijigang.github.io/blog/2017/08/15/奥卡姆剃刀/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>奥卡姆剃刀</h1>
-            
-<div class="figure">
-<p><img src="/assets/blog/2017/08/15/奥卡姆剃刀/shaver.png" alt="shaver.png" />
-</p>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2017-08-14</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/15/奥卡姆剃刀/</guid>
     </item>
   </channel>
 </rss>
