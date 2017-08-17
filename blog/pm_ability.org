@@ -1,0 +1,5 @@
+#+title: 产品经理能力模型
+
+[[./images/baidu_pm.jpeg]]
+
+[[./images/qq_pm.jpeg]]
