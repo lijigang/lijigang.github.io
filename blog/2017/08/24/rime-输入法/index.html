@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Rime 输入法 - 為學日益, 為道日損</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="ljg" />
+
+  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
+</head>
+
+  <body class="container">
+<header id="header">
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
+        <div class="container-fluid">
+<div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">為學日益, 為道日損</a>
+        </div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/">Blog</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="http://www.zhihu.com/people/lijigang.com">知乎</a></li>
+        </ul>
+</div>
+</div>
+    </nav>
+</body>
+</header>
+
+<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>Rime 输入法</h1>
+            <p>
+<a href="http://rime.im/">Rime</a> 是一个输入法框架，把实现一个输入法相关的功能模块抽象出来，实现好了。类似一个 PaaS 服务，你只需要从 Rime 中挑选自己想要功能，通过配置文件拼凑一起，就能实现自己的输入法功能。
+</p>
+
+<p>
+当然，Rime 框架把常见的拼音输入法和五笔输入法相关的配置都出厂自带了，只要在配置文件中稍微改一下配置，就能立即上手。
+</p>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Rime 引擎</h2>
+<div class="outline-text-2" id="text-1">
+
+<div class="figure">
+<p><img src="/assets/blog/2017/08/24/rime-输入法/rime_engine.jpg" alt="rime_engine.jpg" />
+</p>
+</div>
+
+<p>
+Rime 引擎由四个环节组成：Processor → Segmentor → Translator → Filter
+</p>
+
+<p>
+每个环节各有一些相关组件，详细组件说明及配置选项， 可以参照 <a href="https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md">雪齐的这篇文章</a>。
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> 配置文件</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+通过修改配置文件中的选项参数，可以让 Rime 实现我们想要的输入法功能。
+</p>
+
+<p>
+因为 Rime 更新时，会替换一些自带的配置文件，所有通常自定义的一些配置修改都会在自建的配置文件中进行。这些文件的命名规则为 <code>原配置文件名</code> . <code>custom</code> . <code>原配置文件后缀</code> .
+通过需要修改的文件有下面几个：
+</p>
+
+<ol class="org-ol">
+<li>installation.yaml
+<div class="org-src-container">
+
+<pre class="src src-YAML">distribution_code_name: Squirrel
+distribution_name: "鼠鬚管"
+distribution_version: 0.9.26.1
+install_time: "Wed Aug 23 18:18:07 2017"
+installation_id: "Arthur's Macbook"
+rime_version: 1.2.9
+sync_dir: "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/3-config/6-Rime"
+</pre>
+</div>
+
+<p>
+该文件为例外，并没有新建文件，直接在自带文件中修改。重点关注上面的 <code>installation_id</code> 和 <code>sync_dir</code> 参数。
+</p>
+
+<p>
+在不同电脑上使用时，Rime 会为每台电脑记录一个 ID， 我们可以通过修改 <code>installation_id</code> 参数来指定名称。
+</p>
+
+<p>
+想同步电脑配置到云盘时，可以通过 <code>sync_dir</code> 参数来指定路径。自己修改的配置文件和字典文件会同步到该目录。
+</p>
+</li>
+
+<li>default.custom.yaml
+
+<div class="org-src-container">
+
+<pre class="src src-YAML">patch:
+  "menu":
+    "page_size": 4
+  "schema_list":
+    - schema: wubi86
+</pre>
+</div>
+
+<p>
+每个配置文件有且只有一个 patch: 标识这个补丁文件, 且 patch 要顶格写。在该文件中配置候选项数目，输入方案有哪些。 上面示例中设置候选项为 4 个， 输入方案只有五笔。
+</p>
+</li>
+
+<li>squirrel.custom.yaml
+
+<div class="org-src-container">
+
+<pre class="src src-YAML">patch:
+  style:
+    horizontal: true
+    font_point: 24
+    corner_radius: 10
+    label_font_point: 24
+    color_scheme: luna
+
+  app_options/com.alfredapp.Alfred:
+    ascii_mode: true
+</pre>
+</div>
+
+<p>
+在该配置文件中设置五笔输入法的样式， 如字体大小、配色方案等。
+</p>
+</li>
+
+<li>wubi86.custom.yaml
+
+<div class="org-src-container">
+
+<pre class="src src-YAML">patch:
+  "translator/dictionary": wubi86.extended
+  "punctuator/import_preset": symbols
+  "recognizer/patterns/punct": "^/([a-z]+|[0-9])$"
+</pre>
+</div>
+
+<p>
+在该配置文件设置五笔输入法相关的字典文件，预设的符号文件等。
+</p>
+</li>
+</ol>
+</div>
+</div>
+
+    </div>
+</section>
+
+
+<footer id="footer">
+    <br />
+</footer>
+
+  </body>
+</html>
