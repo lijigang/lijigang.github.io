@@ -4,13 +4,56 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Thu, 24 Aug 2017 14:21:53 CST</pubDate>
-    <lastBuildDate>Thu, 24 Aug 2017 14:21:53 CST</lastBuildDate>
+    <pubDate>Fri, 25 Aug 2017 18:59:40 CST</pubDate>
+    <lastBuildDate>Fri, 25 Aug 2017 18:59:40 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
+      <title>产业链</title>
+      <link>http://lijigang.github.io/blog/2017/08/25/产业链/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>产业链</h1>
+            <p>
+第一层, 不考虑具体公司, 只考虑供需链条. 考虑从生产到用户使用过程中的环节节点, 即点到点的链接:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/08/25/产业链/value_chain.jpg" alt="value_chain.jpg" />
+</p>
+</div>
+
+<p>
+第二层, 考虑供需链条上面每个环节都有哪些公司在运作, 即点到线的链接:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/08/25/产业链/corp_chain.jpg" alt="corp_chain.jpg" />
+</p>
+</div>
+
+<p>
+第三层, 考虑产业链条中所有企业在空间地域上的分布, 即线到线的链接:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2017/08/25/产业链/space_chain.jpg" alt="space_chain.jpg" />
+</p>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2017-08-25</pubDate>
+      <guid>http://lijigang.github.io/blog/2017/08/25/产业链/</guid>
+    </item>
+    <item>
       <title>Rime 输入法</title>
-      <link>http://lijigang.github.io/blog/2017/08/24/rime-输入法/</link>
+      <link>http://lijigang.github.io/blog/2017/08/25/rime-输入法/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -28,7 +71,7 @@
 <div class="outline-text-2" id="text-1">
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/24/rime-输入法/rime_engine.jpg" alt="rime_engine.jpg" />
+<p><img src="/assets/blog/2017/08/25/rime-输入法/rime_engine.jpg" alt="rime_engine.jpg" />
 </p>
 </div>
 
@@ -143,24 +186,24 @@ sync_dir: "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/3-config/6-Ri
 </section>
 ]]></description>
       <pubDate>2017-08-24</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/24/rime-输入法/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/25/rime-输入法/</guid>
     </item>
     <item>
       <title>执行力</title>
-      <link>http://lijigang.github.io/blog/2017/08/24/执行力/</link>
+      <link>http://lijigang.github.io/blog/2017/08/25/执行力/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
             <h1>执行力</h1>
             
 <div class="figure">
-<p><img src="/assets/blog/2017/08/24/执行力/did.jpeg" alt="did.jpeg" />
+<p><img src="/assets/blog/2017/08/25/执行力/did.jpeg" alt="did.jpeg" />
 </p>
 </div>
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/24/执行力/do.jpeg" alt="do.jpeg" />
+<p><img src="/assets/blog/2017/08/25/执行力/do.jpeg" alt="do.jpeg" />
 </p>
 </div>
 
@@ -168,24 +211,24 @@ sync_dir: "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/3-config/6-Ri
 </section>
 ]]></description>
       <pubDate>2017-08-17</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/24/执行力/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/25/执行力/</guid>
     </item>
     <item>
       <title>产品经理能力模型</title>
-      <link>http://lijigang.github.io/blog/2017/08/24/产品经理能力模型/</link>
+      <link>http://lijigang.github.io/blog/2017/08/25/产品经理能力模型/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
             <h1>产品经理能力模型</h1>
             
 <div class="figure">
-<p><img src="/assets/blog/2017/08/24/产品经理能力模型/baidu_pm.jpeg" alt="baidu_pm.jpeg" />
+<p><img src="/assets/blog/2017/08/25/产品经理能力模型/baidu_pm.jpeg" alt="baidu_pm.jpeg" />
 </p>
 </div>
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/24/产品经理能力模型/qq_pm.jpeg" alt="qq_pm.jpeg" />
+<p><img src="/assets/blog/2017/08/25/产品经理能力模型/qq_pm.jpeg" alt="qq_pm.jpeg" />
 </p>
 </div>
 
@@ -193,18 +236,18 @@ sync_dir: "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/3-config/6-Ri
 </section>
 ]]></description>
       <pubDate>2017-08-17</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/24/产品经理能力模型/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/25/产品经理能力模型/</guid>
     </item>
     <item>
       <title>态度</title>
-      <link>http://lijigang.github.io/blog/2017/08/24/态度/</link>
+      <link>http://lijigang.github.io/blog/2017/08/25/态度/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
             <h1>态度</h1>
             
 <div class="figure">
-<p><img src="/assets/blog/2017/08/24/态度/difference.jpg" alt="difference.jpg" />
+<p><img src="/assets/blog/2017/08/25/态度/difference.jpg" alt="difference.jpg" />
 </p>
 </div>
 
@@ -212,18 +255,18 @@ sync_dir: "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/3-config/6-Ri
 </section>
 ]]></description>
       <pubDate>2017-08-15</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/24/态度/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/25/态度/</guid>
     </item>
     <item>
       <title>数据科学家学习路线图</title>
-      <link>http://lijigang.github.io/blog/2017/08/24/数据科学家学习路线图/</link>
+      <link>http://lijigang.github.io/blog/2017/08/25/数据科学家学习路线图/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
             <h1>数据科学家学习路线图</h1>
             
 <div class="figure">
-<p><img src="/assets/blog/2017/08/24/数据科学家学习路线图/data_sciencist.jpg" alt="data_sciencist.jpg" />
+<p><img src="/assets/blog/2017/08/25/数据科学家学习路线图/data_sciencist.jpg" alt="data_sciencist.jpg" />
 </p>
 </div>
 
@@ -231,11 +274,11 @@ sync_dir: "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/3-config/6-Ri
 </section>
 ]]></description>
       <pubDate>2017-08-15</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/24/数据科学家学习路线图/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/25/数据科学家学习路线图/</guid>
     </item>
     <item>
       <title>新媒体时代的个人意见</title>
-      <link>http://lijigang.github.io/blog/2017/08/24/新媒体时代的个人意见/</link>
+      <link>http://lijigang.github.io/blog/2017/08/25/新媒体时代的个人意见/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -254,7 +297,7 @@ sync_dir: "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/3-config/6-Ri
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/24/新媒体时代的个人意见/news_dog.jpg" alt="news_dog.jpg" />
+<p><img src="/assets/blog/2017/08/25/新媒体时代的个人意见/news_dog.jpg" alt="news_dog.jpg" />
 </p>
 </div>
 
@@ -262,18 +305,18 @@ sync_dir: "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/3-config/6-Ri
 </section>
 ]]></description>
       <pubDate>2017-08-15</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/24/新媒体时代的个人意见/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/25/新媒体时代的个人意见/</guid>
     </item>
     <item>
       <title>产品经理职业发展路线</title>
-      <link>http://lijigang.github.io/blog/2017/08/24/产品经理职业发展路线/</link>
+      <link>http://lijigang.github.io/blog/2017/08/25/产品经理职业发展路线/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
             <h1>产品经理职业发展路线</h1>
             
 <div class="figure">
-<p><img src="/assets/blog/2017/08/24/产品经理职业发展路线/pm_road.jpg" alt="pm_road.jpg" />
+<p><img src="/assets/blog/2017/08/25/产品经理职业发展路线/pm_road.jpg" alt="pm_road.jpg" />
 </p>
 </div>
 
@@ -281,18 +324,18 @@ sync_dir: "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/3-config/6-Ri
 </section>
 ]]></description>
       <pubDate>2017-08-15</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/24/产品经理职业发展路线/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/25/产品经理职业发展路线/</guid>
     </item>
     <item>
       <title>UML</title>
-      <link>http://lijigang.github.io/blog/2017/08/24/uml/</link>
+      <link>http://lijigang.github.io/blog/2017/08/25/uml/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
             <h1>UML</h1>
             
 <div class="figure">
-<p><img src="/assets/blog/2017/08/24/uml/uml.png" alt="uml.png" />
+<p><img src="/assets/blog/2017/08/25/uml/uml.png" alt="uml.png" />
 </p>
 </div>
 
@@ -300,11 +343,11 @@ sync_dir: "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/3-config/6-Ri
 </section>
 ]]></description>
       <pubDate>2017-08-15</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/24/uml/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/25/uml/</guid>
     </item>
     <item>
       <title>计算机科学</title>
-      <link>http://lijigang.github.io/blog/2017/08/24/计算机科学/</link>
+      <link>http://lijigang.github.io/blog/2017/08/25/计算机科学/</link>
       <description><![CDATA[<section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
@@ -358,7 +401,7 @@ Solving with Algorithms and Data Structures= 这书后, 才开始去了解 CS �
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/24/计算机科学/cs.png" alt="cs.png" />
+<p><img src="/assets/blog/2017/08/25/计算机科学/cs.png" alt="cs.png" />
 </p>
 </div>
 </div>
@@ -402,7 +445,7 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 
 
 <div class="figure">
-<p><img src="/assets/blog/2017/08/24/计算机科学/programming.png" alt="programming.png" />
+<p><img src="/assets/blog/2017/08/25/计算机科学/programming.png" alt="programming.png" />
 </p>
 </div>
 </div>
@@ -485,26 +528,7 @@ CS 不是研究如何编程的学科, 但编程, 却是一个 Computer Scientist
 </section>
 ]]></description>
       <pubDate>2017-08-14</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/24/计算机科学/</guid>
-    </item>
-    <item>
-      <title>质能方程</title>
-      <link>http://lijigang.github.io/blog/2017/08/24/质能方程/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>质能方程</h1>
-            
-<div class="figure">
-<p><img src="/assets/blog/2017/08/24/质能方程/mc.jpg" alt="mc.jpg" />
-</p>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2017-08-14</pubDate>
-      <guid>http://lijigang.github.io/blog/2017/08/24/质能方程/</guid>
+      <guid>http://lijigang.github.io/blog/2017/08/25/计算机科学/</guid>
     </item>
   </channel>
 </rss>
