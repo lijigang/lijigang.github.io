@@ -1,4 +1,0 @@
-#+title: UML
-#+options: toc:nil
-
-[[./images/uml.png]]

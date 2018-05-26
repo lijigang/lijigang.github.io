@@ -1,4 +1,0 @@
-#+title: 质能方程
-#+options: toc:nil
-
-[[./images/mc.jpg]]

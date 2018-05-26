@@ -1,4 +1,0 @@
-#+title: 态度
-#+options: toc:nil
-
-[[./images/difference.jpg]]
