@@ -1,7 +1,0 @@
-#+title: 读书笔记: 游戏化实战
-#+author: 李继刚
-#+options: toc:nil
-
-游戏中让人「欲罢不能」的元素如何应用在我们的工作和生活中?
-
-[[./images/gamefication.png]]

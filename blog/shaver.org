@@ -1,5 +1,0 @@
-#+TITLE: 奥卡姆剃刀
-#+TAGS: 概念
-#+options: toc:nil
-
-[[./images/shaver.png]]

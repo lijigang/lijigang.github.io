@@ -1,5 +1,0 @@
-#+title: 读书笔记: 技术简史
-#+author: 李继刚
-#+options: toc:nil
-
-[[./images/rulingwaves.png]]
