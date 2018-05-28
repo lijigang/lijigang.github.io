@@ -1,0 +1,164 @@
+#+title: 从零开始配置Spacemacs
+#+author: lijigang <i@lijigang.com>
+
+
+在我看来，在编辑操作领域，没有比Vim更高效的操作方式了。在文档存储和知识管理相关的软件使用上面，没有比Org-Mode更牛逼的存在了。
+
+之前一直很纠结， 既放不下Vim的高效编辑方式，又不放下Emacs里的Org-mode。直到遇到了Spacemacs：
+
+#+BEGIN_QUOTE
+Spacemacs = Vim + Emacs
+#+END_QUOTE
+
+这篇文章，就记录一下自己是怎么从零开始配置一个符合自己使用习惯的Spacemacs。
+
+* 安装
+1. 安装 [[https://emacsformacosx.com/][Emacs]]
+2. Clone Spacemacs
+#+BEGIN_SRC 
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+#+END_SRC
+
+clone完成后，会多两个东西，
+- =~/.emacs.d/=  
+- =~/.spacemacs=
+ 
+* 配置
+
+安装完成后，对于常规的配置，可以放置到 =~/.spacemacs= 文件中，就像Vim和Zsh一样。 但Spacemacs提供了 [[http://spacemacs.org/doc/LAYERS.html][layer]] 概念，极大方便了插件的管理.
+
+下面分为两部分来配置， 首先把一些简单的配置放置到 =~/.spacemacs= 文件中：
+
+** .spacemacs
+
+- layers
+
+  在 =dotspacemacs-configuration-layers= 变量中增加你想配置的layer(Spacemacs出厂自带的或者是你后续自己创建的）
+#+BEGIN_SRC Emacs-lisp
+   dotspacemacs-configuration-layers
+   '(
+     helm
+     auto-completion
+     better-defaults
+     emacs-lisp
+     git
+     org
+     )
+#+END_SRC
+
+- themes
+  可以从 [[https://themegallery.robdor.com/][这里]] 挑选你喜欢的主题，把名字放到配置的第一个即可。
+#+BEGIN_SRC emacs-lisp
+dotspacemacs-themes '(monokai
+                      molokai
+                      niflheim)
+#+END_SRC
+
+- fullscreen
+#+BEGIN_SRC emacs-lisp
+dotspacemacs-fullscreen-at-startup t
+#+END_SRC
+
+在dotspacemacs/user-config函数中配置：
+#+BEGIN_SRC emacs-lisp
+(defun dotspacemacs/user-config ()
+  "Configuration function for user code.
+This function is called at the very end of Spacemacs initialization after
+layers configuration.
+This is the place where most of your configurations should be done. Unless it is
+explicitly specified that a variable should be set before a package is loaded,
+you should place your code here."
+
+  ;;;;;;;;;;;;;;;;;;;;;;;
+  ;; org-mode 相关设置 ;;
+  ;;;;;;;;;;;;;;;;;;;;;;;
+
+  ;; Since version 0.104, spacemacs uses the org version from the org ELPA
+  ;; repository instead of the one shipped with emacs. Then, any org related
+  ;; code should not be loaded before dotspacemacs/user-config, otherwise both
+  ;; versions will be loaded and will conflict. Because of autoloading, calling
+  ;; to org functions will trigger the loading up of the org shipped with emacs
+  ;; which will induce conflicts. One way to avoid conflict is to wrap your org
+  ;; config code in a with-eval-after-load block like this:
+  (with-eval-after-load 'org
+    ;; 设置todo keywords
+    (setq org-todo-keywords
+          '((sequence "TODO" "HAND" "|" "DONE")))
+
+    ;; 调试好久的颜色，效果超赞！ todo keywords 增加背景色
+    (setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
+                                   ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
+                                   ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
+
+    ;; 设置bullet list
+    (setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
+
+    ;; 打开org-indent mode
+    (setq org-startup-indented t)
+
+    (setq org-agenda-include-diary nil)
+    (setq org-agenda-files (list  "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org"
+                                  "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org_archive"))
+
+    (setq org-default-notes-file "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org")
+    (setq org-refile-targets '("~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org" :maxlevel . 3))
+    )
+
+  ;;;;;;;;;;;;;;
+  ;; 显示相关 ;;
+  ;;;;;;;;;;;;;;
+
+  ;; 在状态栏显示时间
+  (display-time-mode 1)
+
+  ;; 折叠时不再显示「...」
+  (setq org-ellipsis "▼")
+
+  ;; inline image 不用展示实际大小，可以自定义大小显示
+  (setq org-image-actual-width nil)
+
+  ;; more useful frame title, that show either a file or a
+  ;; buffer name (if the buffer isn't visiting a file)
+  (setq frame-title-format
+        '("" " 為學日益, 為道日損 - "
+          (:eval (if (buffer-file-name)
+                     (abbreviate-file-name (buffer-file-name)) "%b"))))
+  ;;;;;;;;;;;;;;
+  ;; 导出相关 ;;
+  ;;;;;;;;;;;;;;
+
+  ;; 安装XeLaTeX是另外一个故事了..
+  (setq Tex-command-default "XeLaTeX")
+
+
+  ;;;;;;;;;;;;;;
+  ;; 其它杂项 ;;
+  ;;;;;;;;;;;;;;
+
+  (setq default-major-mode 'org-mode)
+
+  (prefer-coding-system 'utf-8)
+  (set-default-coding-systems 'utf-8)
+  (setq default-buffer-file-coding-system 'utf-8)
+
+  ;; Agenda clock report parameters
+  (setq org-agenda-clockreport-parameter-plist
+        '(:link t :maxlevel 6 :fileskip0 t :compact t :narrow 60 :score 0))
+
+  (setq org-hierarchical-todo-statistics nil)
+
+  ;; stop emacs asking for confirmation when eval source code
+  (setq org-confirm-babel-evaluate nil)
+
+  ;; active Org-babel languages
+  (org-babel-do-load-languages
+   'org-babel-load-languages
+   '(;; other Babel languages
+     (plantuml . t)))
+
+  (setq org-plantuml-jar-path
+        (expand-file-name "~/lib/plantuml.jar"))
+  )
+#+END_SRC
+
+** private layer
