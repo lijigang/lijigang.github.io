@@ -1,10 +1,11 @@
 #+title: 从零开始配置Spacemacs
 #+author: lijigang <i@lijigang.com>
+#+toc: nil
 
 
 在我看来，在编辑操作领域，没有比Vim更高效的操作方式了。在文档存储和知识管理相关的软件使用上面，没有比Org-Mode更牛逼的存在了。
 
-之前一直很纠结， 既放不下Vim的高效编辑方式，又不放下Emacs里的Org-mode。直到遇到了Spacemacs：
+之前一直很纠结，既放不下Vim的高效编辑方式，又不放下Emacs里的Org-mode。直到遇到了Spacemacs：
 
 #+BEGIN_QUOTE
 Spacemacs = Vim + Emacs
@@ -116,6 +117,8 @@ you should place your code here."
 
   ;; inline image 不用展示实际大小，可以自定义大小显示
   (setq org-image-actual-width nil)
+
+  (global-hl-line-mode -1)
 
   ;; more useful frame title, that show either a file or a
   ;; buffer name (if the buffer isn't visiting a file)
