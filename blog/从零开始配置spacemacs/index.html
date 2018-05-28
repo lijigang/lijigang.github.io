@@ -44,11 +44,11 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orga415418">1. 安装</a></li>
-<li><a href="#orge3683b8">2. 配置</a>
+<li><a href="#org7b8c8c0">1. 安装</a></li>
+<li><a href="#orgc467178">2. 配置</a>
 <ul>
-<li><a href="#orga69d6c7">2.1. .spacemacs</a></li>
-<li><a href="#orga88898a">2.2. private layer</a></li>
+<li><a href="#org994ffda">2.1. .spacemacs</a></li>
+<li><a href="#org134240a">2.2. private layer</a></li>
 </ul>
 </li>
 </ul>
@@ -59,7 +59,7 @@
 </p>
 
 <p>
-之前一直很纠结， 既放不下Vim的高效编辑方式，又不放下Emacs里的Org-mode。直到遇到了Spacemacs：
+之前一直很纠结，既放不下Vim的高效编辑方式，又不放下Emacs里的Org-mode。直到遇到了Spacemacs：
 </p>
 
 <blockquote>
@@ -72,8 +72,8 @@ Spacemacs = Vim + Emacs
 这篇文章，就记录一下自己是怎么从零开始配置一个符合自己使用习惯的Spacemacs。
 </p>
 
-<div id="outline-container-orga415418" class="outline-2">
-<h2 id="orga415418"><span class="section-number-2">1</span> 安装</h2>
+<div id="outline-container-org7b8c8c0" class="outline-2">
+<h2 id="org7b8c8c0"><span class="section-number-2">1</span> 安装</h2>
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
 <li>安装 <a href="https://emacsformacosx.com/">Emacs</a></li>
@@ -93,8 +93,8 @@ clone完成后，会多两个东西，
 </div>
 </div>
 
-<div id="outline-container-orge3683b8" class="outline-2">
-<h2 id="orge3683b8"><span class="section-number-2">2</span> 配置</h2>
+<div id="outline-container-orgc467178" class="outline-2">
+<h2 id="orgc467178"><span class="section-number-2">2</span> 配置</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 安装完成后，对于常规的配置，可以放置到 <code>~/.spacemacs</code> 文件中，就像Vim和Zsh一样。 但Spacemacs提供了 <a href="http://spacemacs.org/doc/LAYERS.html">layer</a> 概念，极大方便了插件的管理.
@@ -105,8 +105,8 @@ clone完成后，会多两个东西，
 </p>
 </div>
 
-<div id="outline-container-orga69d6c7" class="outline-3">
-<h3 id="orga69d6c7"><span class="section-number-3">2.1</span> .spacemacs</h3>
+<div id="outline-container-org994ffda" class="outline-3">
+<h3 id="org994ffda"><span class="section-number-3">2.1</span> .spacemacs</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li><p>
@@ -209,6 +209,8 @@ you should place your code here."
   ;; inline image 不用展示实际大小，可以自定义大小显示
   (setq org-image-actual-width nil)
 
+  (global-hl-line-mode -1)
+
   ;; more useful frame title, that show either a file or a
   ;; buffer name (if the buffer isn't visiting a file)
   (setq frame-title-format
@@ -256,8 +258,8 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-orga88898a" class="outline-3">
-<h3 id="orga88898a"><span class="section-number-3">2.2</span> private layer</h3>
+<div id="outline-container-org134240a" class="outline-3">
+<h3 id="org134240a"><span class="section-number-3">2.2</span> private layer</h3>
 </div>
 </div>
 
