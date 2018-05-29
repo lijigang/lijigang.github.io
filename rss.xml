@@ -4,8 +4,8 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Tue, 29 May 2018 14:42:31 CST</pubDate>
-    <lastBuildDate>Tue, 29 May 2018 14:42:31 CST</lastBuildDate>
+    <pubDate>Tue, 29 May 2018 14:44:31 CST</pubDate>
+    <lastBuildDate>Tue, 29 May 2018 14:44:31 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -604,18 +604,13 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 <li>第三项
 </li>
 </ol>
-
-
-
-<ul class="org-ul">
-<li>这是无数字列表
-</li>
-<li>第二项
-</li>
-<li>第三项
-</li>
-</ul>
 </blockquote>
+
+<pre class="example">
+- 这是无数字列表
+- 第二项
+- 第三项
+</pre>
 
     </div>
 </section>
