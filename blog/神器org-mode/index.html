@@ -130,7 +130,7 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 </div>
 
 <p>
-不错不错, 我在一个任务下面输入一段文字, 怎么是顶格的, 能不能让它自动缩进对齐?
+不错不错, 但在一个任务下面输入一段文字, 怎么是顶格的, 能不能让它自动缩进对齐?
 </p>
 <div class="org-src-container">
 
@@ -138,6 +138,70 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 (setq org-startup-indented t)
 </pre>
 </div>
+
+<p>
+一个Task怎么设置计划开始时间和Deadline?
+</p>
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">调用 org-schedule 和 org-deadline 函数
+
+他们的快捷键 ,s 和 ,d
+</pre>
+</div>
+
+<p>
+那一个任务又是怎么计时的? 我想知道我在某一任务上面花了多少时间.
+</p>
+<pre class="example">
+调用 org-clock-in 和 org-clock-out 函数
+
+他们的快捷键 ,I 和 ,O
+
+这俩函数就像秒表一样, 开始时打一个点, 结束时打一个点, 经历时间会自动计算显示出来.
+</pre>
+
+<p>
+任务完成后, 还一直停留在当前文件中, 时间久了任务列表特别长. 对于完成的任务, 怎么归档存储?
+</p>
+
+<pre class="example">
+调用 org-archive-subtree 函数, 对应的快捷键是 &lt;space o d&gt;
+</pre>
+
+<p>
+怎么调整字体样式? 加粗? 斜体?
+</p>
+
+<p class="verse">
+加粗 <b>test</b><br  />
+斜体 <i>test</i><br  />
+下划线 <span class="underline">test</span><br  />
+删除线 <del>test</del><br  />
+代码块 <code>test</code><br  />
+</p>
+
+<p>
+有些时候, 需要在Task下面描述一些事项, Orgmode怎么显示 <code>plain lists</code> 列表? 
+</p>
+
+<blockquote>
+<ol class="org-ol">
+<li>这是有数字列表
+</li>
+<li>第二项
+</li>
+<li>第三项
+</li>
+
+<li>这是无数字列表
+</li>
+<li>第二项
+</li>
+<li>第三项
+</li>
+</ol>
+</blockquote>
 
     </div>
 </section>
