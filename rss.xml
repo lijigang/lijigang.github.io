@@ -4,8 +4,8 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Tue, 29 May 2018 14:40:17 CST</pubDate>
-    <lastBuildDate>Tue, 29 May 2018 14:40:17 CST</lastBuildDate>
+    <pubDate>Tue, 29 May 2018 14:42:31 CST</pubDate>
+    <lastBuildDate>Tue, 29 May 2018 14:42:31 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -583,13 +583,13 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 怎么调整字体样式? 加粗? 斜体?
 </p>
 
-<p class="verse">
-加粗 <b>test</b><br  />
-斜体 <i>test</i><br  />
-下划线 <span class="underline">test</span><br  />
-删除线 <del>test</del><br  />
-代码块 <code>test</code><br  />
-</p>
+<pre class="example">
+加粗 *test*
+斜体 /test/
+下划线 _test_
+删除线 +test+
+代码块 =test=
+</pre>
 
 <p>
 有些时候, 需要在Task下面描述一些事项, Orgmode怎么显示 <code>plain lists</code> 列表? 
@@ -603,14 +603,18 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 </li>
 <li>第三项
 </li>
+</ol>
 
+
+
+<ul class="org-ul">
 <li>这是无数字列表
 </li>
 <li>第二项
 </li>
 <li>第三项
 </li>
-</ol>
+</ul>
 </blockquote>
 
     </div>
