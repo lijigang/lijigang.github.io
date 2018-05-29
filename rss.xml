@@ -4,8 +4,8 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Tue, 29 May 2018 14:44:31 CST</pubDate>
-    <lastBuildDate>Tue, 29 May 2018 14:44:31 CST</lastBuildDate>
+    <pubDate>Tue, 29 May 2018 14:47:41 CST</pubDate>
+    <lastBuildDate>Tue, 29 May 2018 14:47:41 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -469,22 +469,24 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 </p>
 
 <p>
-答案很简单: 使用 Headlines.
+答案很简单: 使用 <b>Headlines</b>.
 </p>
 
 <p>
-那什么是Headlines? 很简单, 使用 <code>*</code> 符号开头就行, 比如: 
+那什么是 <b>Headlines</b> ? 很简单, 使用 <code>*</code> 符号开头就行, 比如: 
 </p>
 
 <p class="verse">
-* Top level headline<br  />
-<b>* Second level<br  />
-**</b> 3rd level<br  />
-&#xa0;&#xa0;&#xa0;&#xa0;some text<br  />
-<b>*</b> 3rd level<br  />
-&#xa0;&#xa0;&#xa0;&#xa0;more text<br  />
 <br  />
-* Another top level headline<br  />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;* Top level headline<br  />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;<b>* Second level<br  />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;**</b> 3rd level<br  />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;some text<br  />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;<b>*</b> 3rd level<br  />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;more text<br  />
+<br  />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;* Another top level headline<br  />
+<br  />
 </p>
 
 <p>
@@ -595,16 +597,11 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 有些时候, 需要在Task下面描述一些事项, Orgmode怎么显示 <code>plain lists</code> 列表? 
 </p>
 
-<blockquote>
-<ol class="org-ol">
-<li>这是有数字列表
-</li>
-<li>第二项
-</li>
-<li>第三项
-</li>
-</ol>
-</blockquote>
+<pre class="example">
+1. 这是有数字列表
+2. 第二项
+3. 第三项
+</pre>
 
 <pre class="example">
 - 这是无数字列表
