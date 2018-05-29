@@ -1,0 +1,65 @@
+#+TITLE:       使用Org-Page搭建网站
+#+AUTHOR:      lijigang <i@lijigang.com>
+#+DATE:        2018-05-29 Tue
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+
+* 安装 Org-Page
+使用 =Spacemacs= 安装Org-Page极其方便. 只需要在自己的layer中增加org-age即可:
+#+BEGIN_SRC emacs-lisp
+(defconst lijigang-packages
+  '(org-page
+    cnfonts
+    swiper
+    wttrin
+    beacon)
+)
+#+END_SRC
+
+* 配置 Org-Page
+#+BEGIN_SRC emacs-lisp
+(defun lijigang/init-org-page()
+  "Initialize org-page to publish blog."
+  (use-package org-page
+    :ensure t
+    :config (progn
+          (setq op/site-main-title "為學日益, 為道日損")
+          (setq op/personal-github-link "https://github.com/lijigang")
+          (setq op/repository-directory "~/lijigang")
+          (setq op/site-domain "http://lijigang.github.io/")
+          (setq op/theme-root-directory "~/.emacs.d/elpa/org-page-20170806.1924/themes")
+          (setq op/theme 'ljg)
+          (setq op/personal-google-analytics-id "UA-49533446-2")
+          (setq op/highlight-render 'js)
+          (setq op/category-config-alist
+            '(("blog"
+              :show-meta t
+              :show-comment t
+              :uri-generator op/generate-uri
+              :uri-template "/blog/%t/"
+              :sort-by :date     ;; how to sort the posts
+              :category-index nil) ;; generate category index or not
+              ("index"
+              :show-meta nil
+              :show-comment nil
+              :uri-generator op/generate-uri
+              :uri-template "/"
+              :sort-by :date
+              :category-index nil)
+              ("about"
+              :show-meta nil
+              :show-comment nil
+              :uri-generator op/generate-uri
+              :uri-template "/about/"
+              :sort-by :date
+              :category-index nil)))
+          (bind-key "C-c M-p" 'op/do-publication-and-preview-site)))
+    )
+#+END_SRC
+
+* 安装主题
+
+1. git clone https://github.com/lijigang/ljg
+
+2. cp -r ljg ~/.emacs.d/elpa/org-page-xxxx.xx/themes/
+
+3. add (setq op/theme ‘ljg)
