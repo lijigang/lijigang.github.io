@@ -4,8 +4,8 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Tue, 29 May 2018 12:24:53 CST</pubDate>
-    <lastBuildDate>Tue, 29 May 2018 12:24:53 CST</lastBuildDate>
+    <pubDate>Tue, 29 May 2018 14:06:23 CST</pubDate>
+    <lastBuildDate>Tue, 29 May 2018 14:06:23 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -442,6 +442,118 @@ you should place your code here."
 ]]></description>
       <pubDate>2018-05-29</pubDate>
       <guid>http://lijigang.github.io/blog/从零开始配置spacemacs/</guid>
+    </item>
+    <item>
+      <title>神器Org-mode</title>
+      <link>http://lijigang.github.io/blog/神器org-mode</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>神器Org-mode</h1>
+            <blockquote>
+<p>
+Org mode is for keeping notes, maintaining TODO lists, planning projects, and
+authoring documents with a fast and effective plain-text system.
+</p>
+</blockquote>
+
+<p>
+Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记录相关的最好解决方案.
+这篇文章想换种思路, 不再像其它介绍Org-mode的文章一样罗列Orgmode的一大堆功能点,
+而是从使用需求出发, 一点点介绍Orgmode是如何满足这些需求的.
+</p>
+
+<p>
+现在想象你打开了Emacs中的一个org文件, 想使用它做GTD管理. 首先会问: orgmode中如何
+罗列一项项的Task?
+</p>
+
+<p>
+答案很简单: 使用 Headlines.
+</p>
+
+<p>
+那什么是Headlines? 很简单, 使用 <code>*</code> 符号开头就行, 比如: 
+</p>
+
+<p class="verse">
+* Top level headline<br  />
+<b>* Second level<br  />
+**</b> 3rd level<br  />
+&#xa0;&#xa0;&#xa0;&#xa0;some text<br  />
+<b>*</b> 3rd level<br  />
+&#xa0;&#xa0;&#xa0;&#xa0;more text<br  />
+<br  />
+* Another top level headline<br  />
+</p>
+
+<p>
+看着好多 <code>**</code> 符号觉得干扰视觉? 没问题, 只需要设置
+</p>
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(setq org-hide-leading-stars t)
+</pre>
+</div>
+
+<p>
+好, 现在有了列表了. 这些Task的状态是不是可以变化? 比如「待办」「进行中」「已完成」
+等?
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">;; 设置todo keywords
+(setq org-todo-keywords
+      '((sequence "TODO" "HAND" "|" "DONE")))
+</pre>
+</div>
+
+<p>
+状态关键词你自己随便定义即可, 中间流转状态根据你的实际流程来定制. 状态变更, 只需
+要在Task上面按 <code>t</code> 键, 就会按你设置的状态顺序变化.
+</p>
+
+<p>
+好, 现在有了列表, 也有了状态变化, 那个状态字段和任务名称并排显示, 能不能把状态值
+做个样式区分, 看着更显眼些?
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">;; 调试好久的颜色，效果超赞！ todo keywords 增加背景色
+(setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
+                                ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
+                                ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
+</pre>
+</div>
+
+<p>
+好, 看着还不错. 但显示的 <code>*</code> 很不个性, 这个能定制修改吗?
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">;; 设置bullet list
+(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
+</pre>
+</div>
+
+<p>
+不错不错, 我在一个任务下面输入一段文字, 怎么是顶格的, 能不能让它自动缩进对齐?
+</p>
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">;; 打开org-indent mode
+(setq org-startup-indented t)
+</pre>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2018-05-29</pubDate>
+      <guid>http://lijigang.github.io/blog/神器org-mode</guid>
     </item>
     <item>
       <title>使用Org-Page搭建网站</title>
