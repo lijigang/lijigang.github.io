@@ -1,0 +1,129 @@
+#+TITLE:       神器Org-mode
+#+AUTHOR:      lijigang <i@lijigang.com>
+#+DATE:        2018-05-29 Tue
+#+URI:         /blog/神器org-mode
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+
+#+BEGIN_QUOTE
+Org mode is for keeping notes, maintaining TODO lists, planning projects, and
+authoring documents with a fast and effective plain-text system.
+#+END_QUOTE
+
+Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记录相关的最好解决方案.
+这篇文章想换种思路, 不再像其它介绍Org-mode的文章一样罗列Orgmode的一大堆功能点,
+而是从使用需求出发, 一点点介绍Orgmode是如何满足这些需求的.
+
+现在想象你打开了Emacs中的一个org文件, 想使用它做GTD管理. 首先会问: orgmode中如何
+罗列一项项的Task?
+
+答案很简单: 使用 *Headlines*.
+
+那什么是 *Headlines* ? 很简单, 使用 =*= 符号开头就行, 比如: 
+
+#+BEGIN_VERSE
+
+     * Top level headline
+     ** Second level
+     *** 3rd level
+         some text
+     *** 3rd level
+         more text
+
+     * Another top level headline
+
+#+END_VERSE
+
+看着好多 =**= 符号觉得干扰视觉? 没问题, 只需要设置
+#+BEGIN_SRC emacs-lisp
+(setq org-hide-leading-stars t)
+#+END_SRC
+
+好, 现在有了列表了. 这些Task的状态是不是可以变化? 比如「待办」「进行中」「已完成」
+等?
+
+#+BEGIN_SRC emacs-lisp
+;; 设置todo keywords
+(setq org-todo-keywords
+      '((sequence "TODO" "HAND" "|" "DONE")))
+#+END_SRC
+
+状态关键词你自己随便定义即可, 中间流转状态根据你的实际流程来定制. 状态变更, 只需
+要在Task上面按 =t= 键, 就会按你设置的状态顺序变化.
+
+好, 现在有了列表, 也有了状态变化, 那个状态字段和任务名称并排显示, 能不能把状态值
+做个样式区分, 看着更显眼些?
+
+#+BEGIN_SRC emacs-lisp
+;; 调试好久的颜色，效果超赞！ todo keywords 增加背景色
+(setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
+                                ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
+                                ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
+#+END_SRC
+
+好, 看着还不错. 但显示的 =*= 很不个性, 这个能定制修改吗?
+
+#+BEGIN_SRC emacs-lisp
+;; 设置bullet list
+(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
+#+END_SRC
+
+不错不错, 但在一个任务下面输入一段文字, 怎么是顶格的, 能不能让它自动缩进对齐?
+#+BEGIN_SRC emacs-lisp
+;; 打开org-indent mode
+(setq org-startup-indented t)
+#+END_SRC
+
+一个Task怎么设置计划开始时间和Deadline?
+#+BEGIN_SRC emacs-lisp
+调用 org-schedule 和 org-deadline 函数
+
+他们的快捷键 ,s 和 ,d
+#+END_SRC
+
+那一个任务又是怎么计时的? 我想知道我在某一任务上面花了多少时间.
+#+BEGIN_SRC 
+调用 org-clock-in 和 org-clock-out 函数
+
+他们的快捷键 ,I 和 ,O
+
+这俩函数就像秒表一样, 开始时打一个点, 结束时打一个点, 经历时间会自动计算显示出来.
+#+END_SRC
+
+对于任务想加一些固定字段的备注信息, 比如某家饭店的地址, 电话等?
+
+#+BEGIN_SRC 
+调用 org-set-property 函数, 可以绑定快捷键 <Space o i p>
+#+END_SRC
+
+任务完成后, 还一直停留在当前文件中, 时间久了任务列表特别长. 对于完成的任务, 怎么归档存储?
+
+#+BEGIN_SRC 
+调用 org-archive-subtree 函数, 对应的快捷键是 <space o d>
+
+#+END_SRC
+
+怎么调整字体样式? 加粗? 斜体?
+
+#+BEGIN_SRC
+加粗 *test*
+斜体 /test/
+下划线 _test_
+删除线 +test+
+代码块 =test=
+#+END_SRC
+
+有些时候, 需要在Task下面描述一些事项, Orgmode怎么显示 =plain lists= 列表? 
+
+#+BEGIN_SRC
+1. 这是有数字列表
+2. 第二项
+3. 第三项
+
+#+END_SRC
+
+#+BEGIN_SRC 
+- 这是无数字列表
+- 第二项
+- 第三项
+#+END_SRC
+
