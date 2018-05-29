@@ -96,13 +96,13 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 
 怎么调整字体样式? 加粗? 斜体?
 
-#+BEGIN_VERSE
+#+BEGIN_SRC
 加粗 *test*
 斜体 /test/
 下划线 _test_
 删除线 +test+
 代码块 =test=
-#+END_VERSE
+#+END_SRC
 
 有些时候, 需要在Task下面描述一些事项, Orgmode怎么显示 =plain lists= 列表? 
 
@@ -110,6 +110,8 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 1. 这是有数字列表
 2. 第二项
 3. 第三项
+
+
 
 - 这是无数字列表
 - 第二项
