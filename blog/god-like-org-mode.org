@@ -16,11 +16,12 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 现在想象你打开了Emacs中的一个org文件, 想使用它做GTD管理. 首先会问: orgmode中如何
 罗列一项项的Task?
 
-答案很简单: 使用 Headlines.
+答案很简单: 使用 *Headlines*.
 
-那什么是Headlines? 很简单, 使用 =*= 符号开头就行, 比如: 
+那什么是 *Headlines* ? 很简单, 使用 =*= 符号开头就行, 比如: 
 
 #+BEGIN_VERSE
+
      * Top level headline
      ** Second level
      *** 3rd level
@@ -29,6 +30,7 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
          more text
 
      * Another top level headline
+
 #+END_VERSE
 
 看着好多 =**= 符号觉得干扰视觉? 没问题, 只需要设置
@@ -106,12 +108,12 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 
 有些时候, 需要在Task下面描述一些事项, Orgmode怎么显示 =plain lists= 列表? 
 
-#+BEGIN_QUOTE
+#+BEGIN_SRC
 1. 这是有数字列表
 2. 第二项
 3. 第三项
 
-#+END_QUOTE
+#+END_SRC
 
 #+BEGIN_SRC 
 - 这是无数字列表
