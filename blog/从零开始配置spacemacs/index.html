@@ -58,12 +58,19 @@ Spacemacs = Vim + Emacs
 这篇文章，就记录一下自己是怎么从零开始配置一个符合自己使用习惯的Spacemacs。
 </p>
 
+<<<<<<< HEAD
 <div id="outline-container-orga7c1228" class="outline-2">
 <h2 id="orga7c1228"><span class="section-number-2">1</span> 安装</h2>
+=======
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> 安装</h2>
+>>>>>>> bfd96aa57767742e1bb6760de411e8f4c144b368
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
-<li>安装 <a href="https://emacsformacosx.com/">Emacs</a></li>
-<li>Clone Spacemacs</li>
+<li>安装 <a href="https://emacsformacosx.com/">Emacs</a>
+</li>
+<li>Clone Spacemacs
+</li>
 </ol>
 <pre class="example">
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
@@ -73,14 +80,21 @@ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 clone完成后，会多两个东西，
 </p>
 <ul class="org-ul">
-<li><code>~/.emacs.d/</code></li>
-<li><code>~/.spacemacs</code></li>
+<li><code>~/.emacs.d/</code>  
+</li>
+<li><code>~/.spacemacs</code>
+</li>
 </ul>
 </div>
 </div>
 
+<<<<<<< HEAD
 <div id="outline-container-org4cd5a8c" class="outline-2">
 <h2 id="org4cd5a8c"><span class="section-number-2">2</span> 配置</h2>
+=======
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> 配置</h2>
+>>>>>>> bfd96aa57767742e1bb6760de411e8f4c144b368
 <div class="outline-text-2" id="text-2">
 <p>
 安装完成后，对于常规的配置，可以放置到 <code>~/.spacemacs</code> 文件中，就像Vim和Zsh一样。 但Spacemacs提供了 <a href="http://spacemacs.org/doc/LAYERS.html">layer</a> 概念，极大方便了插件的管理.
@@ -91,19 +105,24 @@ clone完成后，会多两个东西，
 </p>
 </div>
 
+<<<<<<< HEAD
 <div id="outline-container-org9c095c9" class="outline-3">
 <h3 id="org9c095c9"><span class="section-number-3">2.1</span> .spacemacs</h3>
+=======
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> .spacemacs</h3>
+>>>>>>> bfd96aa57767742e1bb6760de411e8f4c144b368
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
-<li><p>
-layers
-</p>
+<li>layers
 
 <p>
 在 <code>dotspacemacs-configuration-layers</code> 变量中增加你想配置的layer(Spacemacs出厂自带的或者是你后续自己创建的）
-</p></li>
+</p>
+</li>
 </ul>
 <div class="org-src-container">
+
 <pre class="src src-Emacs-lisp">dotspacemacs-configuration-layers
 '(
   helm
@@ -118,9 +137,11 @@ layers
 
 <ul class="org-ul">
 <li>themes
-可以从 <a href="https://themegallery.robdor.com/">这里</a> 挑选你喜欢的主题，把名字放到配置的第一个即可。</li>
+可以从 <a href="https://themegallery.robdor.com/">这里</a> 挑选你喜欢的主题，把名字放到配置的第一个即可。
+</li>
 </ul>
 <div class="org-src-container">
+
 <pre class="src src-emacs-lisp">dotspacemacs-themes '(monokai
                       molokai
                       niflheim)
@@ -128,9 +149,11 @@ layers
 </div>
 
 <ul class="org-ul">
-<li>fullscreen</li>
+<li>fullscreen
+</li>
 </ul>
 <div class="org-src-container">
+
 <pre class="src src-emacs-lisp">dotspacemacs-fullscreen-at-startup t
 </pre>
 </div>
@@ -139,6 +162,7 @@ layers
 在dotspacemacs/user-config函数中配置：
 </p>
 <div class="org-src-container">
+
 <pre class="src src-emacs-lisp">(defun dotspacemacs/user-config ()
   "Configuration function for user code.
 This function is called at the very end of Spacemacs initialization after
@@ -244,14 +268,23 @@ you should place your code here."
 </div>
 </div>
 
+<<<<<<< HEAD
 <div id="outline-container-orgda2655b" class="outline-3">
 <h3 id="orgda2655b"><span class="section-number-3">2.2</span> private layer</h3>
+=======
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> private layer</h3>
+>>>>>>> bfd96aa57767742e1bb6760de411e8f4c144b368
 <div class="outline-text-3" id="text-2-2">
 <p>
 首先把自己layer中想要的packages给列好, 并设置相应的启动配置项:
 </p>
 
 <div class="org-src-container">
+<<<<<<< HEAD
+=======
+
+>>>>>>> bfd96aa57767742e1bb6760de411e8f4c144b368
 <pre class="src src-emacs-lisp">(defconst lijigang-packages
   '(org-page
     cnfonts
@@ -328,7 +361,10 @@ you should place your code here."
     (setq beacon-color "#666600")))
 
 ;;; packages.el ends here
+<<<<<<< HEAD
 
+=======
+>>>>>>> bfd96aa57767742e1bb6760de411e8f4c144b368
 </pre>
 </div>
 
@@ -337,6 +373,10 @@ you should place your code here."
 </p>
 
 <div class="org-src-container">
+<<<<<<< HEAD
+=======
+
+>>>>>>> bfd96aa57767742e1bb6760de411e8f4c144b368
 <pre class="src src-emacs-lisp">(defun make-progress (width percent has-number?)
   (let* ((done (/ percent 100.0))
          (done-width (floor (* width done))))
@@ -400,7 +440,10 @@ you should place your code here."
                              (concat ";rm -rf " tempfile ".bbl " tempfile
                                  ".blg " tempfile ".out " tempfile ".log " tempfile ".aux " tempfile
 ".toc" ";open " tempfile ".pdf"))))))
+<<<<<<< HEAD
 
+=======
+>>>>>>> bfd96aa57767742e1bb6760de411e8f4c144b368
 </pre>
 </div>
 
@@ -409,6 +452,10 @@ you should place your code here."
 </p>
 
 <div class="org-src-container">
+<<<<<<< HEAD
+=======
+
+>>>>>>> bfd96aa57767742e1bb6760de411e8f4c144b368
 <pre class="src src-emacs-lisp">(evil-leader/set-key "oc" 'org-capture)
 (evil-leader/set-key "oa" 'org-agenda)
 (evil-leader/set-key "ol" 'org-store-link)
@@ -446,7 +493,10 @@ you should place your code here."
    ("l" (op/do-publication nil "HEAD~1" nil t t))
    ("p" op/do-publication)
    ("e" op/new-repository)))
+<<<<<<< HEAD
 
+=======
+>>>>>>> bfd96aa57767742e1bb6760de411e8f4c144b368
 </pre>
 </div>
 </div>
