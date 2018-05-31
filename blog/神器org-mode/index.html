@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>神器Org-mode - 為學日益, 為道日損</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="lijigang &lt;i@lijigang.com&gt;" />
+
+  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
+</head>
+
+  <body class="container">
+<header id="header">
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
+        <div class="container-fluid">
+<div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">為學日益, 為道日損</a>
+        </div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/">Blog</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="http://www.zhihu.com/people/lijigang.com">知乎</a></li>
+        </ul>
+</div>
+</div>
+    </nav>
+</body>
+</header>
+
+<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>神器Org-mode</h1>
+            <blockquote>
+<p>
+Org mode is for keeping notes, maintaining TODO lists, planning projects, and
+authoring documents with a fast and effective plain-text system.
+</p>
+</blockquote>
+
+<p>
+Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记录相关的最好解决方案.
+这篇文章想换种思路, 不再像其它介绍Org-mode的文章一样罗列Orgmode的一大堆功能点,
+而是从使用需求出发, 一点点介绍Orgmode是如何满足这些需求的.
+</p>
+
+<p>
+现在想象你打开了Emacs中的一个org文件, 想使用它做GTD管理. 首先会问: orgmode中如何
+罗列一项项的Task?
+</p>
+
+<p>
+答案很简单: 使用 <b>Headlines</b>.
+</p>
+
+<p>
+什么是 <b>Headlines</b> ? 很简单, 使用 <code>*</code> 符号开头, 空格， 输入标题就行, 比如: 
+</p>
+
+<p class="verse">
+<br />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;* Top level headline<br />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;<b>* Second level<br />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;**</b> 3rd level<br />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;some text<br />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;<b>*</b> 3rd level<br />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;more text<br />
+<br />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;* Another top level headline<br />
+<br />
+</p>
+
+<p>
+看着好多 <code>**</code> 符号觉得干扰视觉? 没问题, 只需要设置
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(setq org-hide-leading-stars t)
+</pre>
+</div>
+
+<p>
+好, 现在有了列表了. 这些Task的状态是不是可以变化? 比如「待办」「进行中」「已完成」
+等?
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; 设置todo keywords
+(setq org-todo-keywords
+      '((sequence "TODO" "HAND" "|" "DONE")))
+</pre>
+</div>
+
+<p>
+状态关键词你自己随便定义即可, 中间流转状态根据你的实际流程来定制. 状态变更, 只需
+要在Task上面按 <code>t</code> 键, 就会按你设置的状态顺序变化.
+</p>
+
+<p>
+好, 现在有了列表, 也有了状态变化, 那个状态字段和任务名称并排显示, 能不能把状态值
+做个样式区分, 看着更显眼些?
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; 调试好久的颜色，效果超赞！ todo keywords 增加背景色
+(setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
+                                ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
+                                ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
+</pre>
+</div>
+
+<p>
+好, 看着还不错. 但显示的 <code>*</code> 很不个性, 这个能定制修改吗?
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; 设置bullet list
+(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
+</pre>
+</div>
+
+<p>
+不错不错, 但在一个任务下面输入一段文字, 怎么是顶格的, 能不能让它自动缩进对齐?
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; 打开org-indent mode
+(setq org-startup-indented t)
+</pre>
+</div>
+
+<p>
+一个Task怎么设置计划开始时间和Deadline?
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">调用 org-schedule 和 org-deadline 函数
+
+他们的快捷键 ,s 和 ,d
+</pre>
+</div>
+
+<p>
+那一个任务又是怎么计时的? 我想知道我在某一任务上面花了多少时间.
+</p>
+<pre class="example">
+调用 org-clock-in 和 org-clock-out 函数
+
+他们的快捷键 ,I 和 ,O
+
+这俩函数就像秒表一样, 开始时打一个点, 结束时打一个点, 经历时间会自动计算显示出来.
+</pre>
+
+<p>
+任务完成后, 还一直停留在当前文件中, 时间久了任务列表特别长. 对于完成的任务, 怎么归档存储?
+</p>
+
+<pre class="example">
+调用 org-archive-subtree 函数, 对应的快捷键是 &lt;space o d&gt;
+
+</pre>
+
+<p>
+怎么调整字体样式? 加粗? 斜体?
+</p>
+
+<pre class="example">
+加粗 *test*
+斜体 /test/
+下划线 _test_
+删除线 +test+
+代码块 =test=
+</pre>
+
+<p>
+有些时候, 需要在Task下面描述一些事项, Orgmode怎么显示 <code>plain lists</code> 列表? 
+</p>
+
+<pre class="example">
+1. 这是有数字列表
+2. 第二项
+3. 第三项
+
+</pre>
+
+<pre class="example">
+- 这是无数字列表
+- 第二项
+- 第三项
+</pre>
+
+    </div>
+</section>
+
+
+<footer id="footer">
+    <br />
+</footer>
+
+  </body>
+</html>
