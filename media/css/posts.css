@@ -55,21 +55,45 @@ li {
 
 
 blockquote {
-    border-left: 4px lightgrey solid;
-    padding-left: 5px;
-    margin-left: 20px;
+    /*border-left: 4px lightgrey solid;*/
+    /*padding-left: 5px;*/
+    /*margin-left: 20px;*/
+    margin-left: 0px;
+    background-color: #333;
+    color: #fff;
+    width:100%;
 }
 
+blockquote:before{
+    content:'__________________________________________';
+    color:#fff;
+    display:block;
+    margin:0 0 30px 0;
+    width:100%;
+    text-align:center;
+    font-weight: bold;
+}
+
+blockquote:after{
+    content:'__________________________________________';
+    color:#fff;
+    display:block;
+    margin:20px 0 15px 0;
+    width:100%;
+    text-align:center;
+    font-weight: bold;
+}
 
 pre {
     font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
     font-size: 75%;
     border: solid 1px lightgrey;
-    background-color: Ivory;
-    padding: 5px;
+    background-color: #20252b;
+    padding: 20px 10px;
     line-height: 130%;
     margin-left: 10px;
     width: 95%;
+    color: #fff;
 }
 
 
