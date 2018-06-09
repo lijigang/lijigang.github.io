@@ -4,8 +4,8 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Sat, 09 Jun 2018 18:51:01 CST</pubDate>
-    <lastBuildDate>Sat, 09 Jun 2018 18:51:01 CST</lastBuildDate>
+    <pubDate>Sat, 09 Jun 2018 21:24:28 CST</pubDate>
+    <lastBuildDate>Sat, 09 Jun 2018 21:24:28 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -29,15 +29,15 @@
 
 
 <div class="figure">
-<p><img src="/assets/blog/公司你在眼中算什么/what-company-means.png" alt="what-company-means.png" />
+<p><img src="/assets/blog/公司你在眼中算什么/what-company-means.png" alt="what-company-means.png" align="center" />
 </p>
 <p><span class="figure-number">Figure 1: </span>对于公司的四种看法</p>
 </div>
 
 
-<div id="outline-container-org3df124e" class="outline-2">
-<h2 id="org3df124e">战场</h2>
-<div class="outline-text-2" id="text-org3df124e">
+<div id="outline-container-org1f2559c" class="outline-2">
+<h2 id="org1f2559c">战场</h2>
+<div class="outline-text-2" id="text-org1f2559c">
 <p>
 对于自驱性强, 喜欢得到外部认可的人来说, 公司就是一个战场.
 </p>
@@ -52,9 +52,9 @@
 </div>
 </div>
 
-<div id="outline-container-org0676af1" class="outline-2">
-<h2 id="org0676af1">学校</h2>
-<div class="outline-text-2" id="text-org0676af1">
+<div id="outline-container-org314fe75" class="outline-2">
+<h2 id="org314fe75">学校</h2>
+<div class="outline-text-2" id="text-org314fe75">
 <p>
 对于自我成长要求较高, 内心满足感较强的人来说, 公司就是另一个学校.
 </p>
@@ -69,9 +69,9 @@
 </div>
 </div>
 
-<div id="outline-container-org5e9dc9e" class="outline-2">
-<h2 id="org5e9dc9e">游乐场</h2>
-<div class="outline-text-2" id="text-org5e9dc9e">
+<div id="outline-container-orgeaaea76" class="outline-2">
+<h2 id="orgeaaea76">游乐场</h2>
+<div class="outline-text-2" id="text-orgeaaea76">
 <p>
 对于家底丰厚, 衣食无忧的人来说, 公司更像是一个游乐场.
 </p>
@@ -86,9 +86,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgd982fe4" class="outline-2">
-<h2 id="orgd982fe4">秀场</h2>
-<div class="outline-text-2" id="text-orgd982fe4">
+<div id="outline-container-orgb1636e0" class="outline-2">
+<h2 id="orgb1636e0">秀场</h2>
+<div class="outline-text-2" id="text-orgb1636e0">
 <p>
 还有一种是喜欢成就感的人, 他把公司当做秀场.
 </p>
@@ -103,9 +103,15 @@
 </div>
 </div>
 
-<div id="outline-container-org3370490" class="outline-2">
-<h2 id="org3370490">结论</h2>
-<div class="outline-text-2" id="text-org3370490">
+<div id="outline-container-org413009d" class="outline-2">
+<h2 id="org413009d">结论</h2>
+<div class="outline-text-2" id="text-org413009d">
+<div class="org-center">
+<p>
+子曰：「君子和而不同，小人同而不和。」
+</p>
+</div>
+
 <p>
 这种分类更多是 <code>世界观</code> 的 <b>不同</b>, 并没有 <b>对错</b> 之分.
 </p>
@@ -315,8 +321,8 @@ Spacemacs = Vim + Emacs
 这篇文章，就记录一下自己是怎么从零开始配置一个符合自己使用习惯的Spacemacs。
 </p>
 
-<div id="outline-container-org654d59c" class="outline-2">
-<h2 id="org654d59c"><span class="section-number-2">1</span> 安装</h2>
+<div id="outline-container-org3bead54" class="outline-2">
+<h2 id="org3bead54"><span class="section-number-2">1</span> 安装</h2>
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
 <li>安装 <a href="https://emacsformacosx.com/">Emacs</a></li>
@@ -336,8 +342,8 @@ clone完成后，会多两个东西，
 </div>
 </div>
 
-<div id="outline-container-org2c7baf6" class="outline-2">
-<h2 id="org2c7baf6"><span class="section-number-2">2</span> 配置</h2>
+<div id="outline-container-org5f16e07" class="outline-2">
+<h2 id="org5f16e07"><span class="section-number-2">2</span> 配置</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 安装完成后，对于常规的配置，可以放置到 <code>~/.spacemacs</code> 文件中，就像Vim和Zsh一样。 但Spacemacs提供了 <a href="http://spacemacs.org/doc/LAYERS.html">layer</a> 概念，极大方便了插件的管理.
@@ -348,8 +354,8 @@ clone完成后，会多两个东西，
 </p>
 </div>
 
-<div id="outline-container-org9fd2602" class="outline-3">
-<h3 id="org9fd2602"><span class="section-number-3">2.1</span> .spacemacs</h3>
+<div id="outline-container-org8e5986a" class="outline-3">
+<h3 id="org8e5986a"><span class="section-number-3">2.1</span> .spacemacs</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li><p>
@@ -501,8 +507,8 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-org58a5b7d" class="outline-3">
-<h3 id="org58a5b7d"><span class="section-number-3">2.2</span> private layer</h3>
+<div id="outline-container-orga81e613" class="outline-3">
+<h3 id="orga81e613"><span class="section-number-3">2.2</span> private layer</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 首先把自己layer中想要的packages给列好, 并设置相应的启动配置项:
@@ -724,9 +730,9 @@ you should place your code here."
         <div class="col-md-2"></div>
             <h1>使用Org-Page搭建网站</h1>
             
-<div id="outline-container-org4e299ce" class="outline-2">
-<h2 id="org4e299ce">安装 Org-Page</h2>
-<div class="outline-text-2" id="text-org4e299ce">
+<div id="outline-container-org5ed88d3" class="outline-2">
+<h2 id="org5ed88d3">安装 Org-Page</h2>
+<div class="outline-text-2" id="text-org5ed88d3">
 <p>
 使用 <code>Spacemacs</code> 安装Org-Page极其方便. 只需要在自己的layer中增加org-age即可:
 </p>
@@ -743,9 +749,9 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-orga28f75c" class="outline-2">
-<h2 id="orga28f75c">配置 Org-Page</h2>
-<div class="outline-text-2" id="text-orga28f75c">
+<div id="outline-container-orgcdfd46a" class="outline-2">
+<h2 id="orgcdfd46a">配置 Org-Page</h2>
+<div class="outline-text-2" id="text-orgcdfd46a">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(defun lijigang/init-org-page()
   "Initialize org-page to publish blog."
@@ -789,9 +795,9 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-orge81aebb" class="outline-2">
-<h2 id="orge81aebb">安装主题</h2>
-<div class="outline-text-2" id="text-orge81aebb">
+<div id="outline-container-org1ca9a92" class="outline-2">
+<h2 id="org1ca9a92">安装主题</h2>
+<div class="outline-text-2" id="text-org1ca9a92">
 <ol class="org-ol">
 <li>git clone <a href="https://github.com/lijigang/ljg">https://github.com/lijigang/ljg</a></li>
 
