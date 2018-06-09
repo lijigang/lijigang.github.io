@@ -4,10 +4,288 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Tue, 29 May 2018 17:04:43 CST</pubDate>
-    <lastBuildDate>Tue, 29 May 2018 17:04:43 CST</lastBuildDate>
+    <pubDate>Sat, 09 Jun 2018 17:40:15 CST</pubDate>
+    <lastBuildDate>Sat, 09 Jun 2018 17:40:15 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>公司你在眼中算什么?</title>
+      <link>http://lijigang.github.io/blog/公司你在眼中算什么/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>公司你在眼中算什么?</h1>
+            <p>
+同样的半杯水放在面前, 不同的人会有不同的看法, 有说这杯里 <b>还有</b> 半杯水的, 有说这杯里 <b>只剩下</b> 半杯水的;
+</p>
+
+<p>
+同样的街道和风景, 不同的人会有不同的感觉, 有说这里人文气息浓厚的, 有说这里和其它地方没有什么不一样的;
+</p>
+
+<p>
+同样的公司, 同样的环境, 对于不同的人, 也会有截然不同的意义:
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/公司你在眼中算什么/what-company-means.png" alt="what-company-means.png" />
+</p>
+<p><span class="figure-number">Figure 1: </span>对于公司的四种看法</p>
+</div>
+
+
+<div id="outline-container-org9092ec7" class="outline-2">
+<h2 id="org9092ec7">战场</h2>
+<div class="outline-text-2" id="text-org9092ec7">
+<p>
+对于自驱性强, 喜欢得到外部认可的人来说, 公司就是一个战场.
+</p>
+
+<p>
+他踏进公司大门, 就是为了向前冲, 与人斗其乐无穷.
+</p>
+
+<p>
+他最不能接受的就是 <code>猪队友</code> , 扯后腿, 不配合, 推卸责任这些情况, 他一遇到就会发毛!
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgdfcd8a9" class="outline-2">
+<h2 id="orgdfcd8a9">学校</h2>
+<div class="outline-text-2" id="text-orgdfcd8a9">
+<p>
+对于自我成长要求较高, 内心满足感较强的人来说, 公司就是另一个学校.
+</p>
+
+<p>
+他进入这家公司, 就是为了成长进步, 公司业务好坏对他来说都不太重要, 只要自己获得了进步, 就是好的.
+</p>
+
+<p>
+他最不能接受的就是 <code>停滞不前</code>, 没有新的东西输入, 让他拿已有能力持续输出, 对他来说是种煎熬.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga7e320d" class="outline-2">
+<h2 id="orga7e320d">游乐场</h2>
+<div class="outline-text-2" id="text-orga7e320d">
+<p>
+对于家底丰厚, 衣食无忧的人来说, 公司更像是一个游乐场.
+</p>
+
+<p>
+他来公司, 更多是为了 <code>找点事做</code>, 不求业务多成功, 也不求收入有多高, 图一乐呵.
+</p>
+
+<p>
+他不最能接受就是 <code>战场型队友</code>, 逼着他往前跑, 打断他的生活节奏, 经常会出现对着干的情况.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org2d4e5d1" class="outline-2">
+<h2 id="org2d4e5d1">秀场</h2>
+<div class="outline-text-2" id="text-org2d4e5d1">
+<p>
+还有一种是喜欢成就感的人, 他把公司当做秀场.
+</p>
+
+<p>
+他做事情, 喜欢摘果实. 做事情前, 先看这事利益有多大, 利益是不是归他所有.
+</p>
+
+<p>
+他最不能接受就是 <code>果实被别人摘了</code>.
+</p>
+
+
+<p>
+这种分类更多是 <code>世界观</code> 的 <b>不同</b>, 并没有 <b>对错</b> 之分.
+</p>
+
+<p>
+下次当团队中有配合不顺时, 他可能不是对你这个人有意见, 也不是对你要沟通的事情有意
+见, 而是大家对于公司的定位有区别.
+</p>
+</div>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2018-06-09</pubDate>
+      <guid>http://lijigang.github.io/blog/公司你在眼中算什么/</guid>
+    </item>
+    <item>
+      <title>神器Org-mode</title>
+      <link>http://lijigang.github.io/blog/神器org-mode</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>神器Org-mode</h1>
+            <blockquote>
+<p>
+Org mode is for keeping notes, maintaining TODO lists, planning projects, and
+authoring documents with a fast and effective plain-text system.
+</p>
+</blockquote>
+
+<p>
+Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记录相关的最好解决方案.
+这篇文章想换种思路, 不再像其它介绍Org-mode的文章一样罗列Orgmode的一大堆功能点,
+而是从使用需求出发, 一点点介绍Orgmode是如何满足这些需求的.
+</p>
+
+<p>
+现在想象你打开了Emacs中的一个org文件, 想使用它做GTD管理. 首先会问: orgmode中如何
+罗列一项项的Task?
+</p>
+
+<p>
+答案很简单: 使用 <b>Headlines</b>.
+</p>
+
+<p>
+什么是 <b>Headlines</b> ? 很简单, 使用 <code>*</code> 符号开头, 空格， 输入标题就行, 比如: 
+</p>
+
+<p class="verse">
+<br />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;* Top level headline<br />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;<b>* Second level<br />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;**</b> 3rd level<br />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;some text<br />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;<b>*</b> 3rd level<br />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;more text<br />
+<br />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;* Another top level headline<br />
+<br />
+</p>
+
+<p>
+看着好多 <code>**</code> 符号觉得干扰视觉? 没问题, 只需要设置
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(setq org-hide-leading-stars t)
+</pre>
+</div>
+
+<p>
+好, 现在有了列表了. 这些Task的状态是不是可以变化? 比如「待办」「进行中」「已完成」
+等?
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; 设置todo keywords
+(setq org-todo-keywords
+      '((sequence "TODO" "HAND" "|" "DONE")))
+</pre>
+</div>
+
+<p>
+状态关键词你自己随便定义即可, 中间流转状态根据你的实际流程来定制. 状态变更, 只需
+要在Task上面按 <code>t</code> 键, 就会按你设置的状态顺序变化.
+</p>
+
+<p>
+好, 现在有了列表, 也有了状态变化, 那个状态字段和任务名称并排显示, 能不能把状态值
+做个样式区分, 看着更显眼些?
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; 调试好久的颜色，效果超赞！ todo keywords 增加背景色
+(setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
+                                ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
+                                ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
+</pre>
+</div>
+
+<p>
+好, 看着还不错. 但显示的 <code>*</code> 很不个性, 这个能定制修改吗?
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; 设置bullet list
+(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
+</pre>
+</div>
+
+<p>
+不错不错, 但在一个任务下面输入一段文字, 怎么是顶格的, 能不能让它自动缩进对齐?
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; 打开org-indent mode
+(setq org-startup-indented t)
+</pre>
+</div>
+
+<p>
+一个Task怎么设置计划开始时间和Deadline?
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">调用 org-schedule 和 org-deadline 函数
+
+他们的快捷键 ,s 和 ,d
+</pre>
+</div>
+
+<p>
+那一个任务又是怎么计时的? 我想知道我在某一任务上面花了多少时间.
+</p>
+<pre class="example">
+调用 org-clock-in 和 org-clock-out 函数
+
+他们的快捷键 ,I 和 ,O
+
+这俩函数就像秒表一样, 开始时打一个点, 结束时打一个点, 经历时间会自动计算显示出来.
+</pre>
+
+<p>
+任务完成后, 还一直停留在当前文件中, 时间久了任务列表特别长. 对于完成的任务, 怎么归档存储?
+</p>
+
+<pre class="example">
+调用 org-archive-subtree 函数, 对应的快捷键是 &lt;space o d&gt;
+
+</pre>
+
+<p>
+怎么调整字体样式? 加粗? 斜体?
+</p>
+
+<pre class="example">
+加粗 *test*
+斜体 /test/
+下划线 _test_
+删除线 +test+
+代码块 =test=
+</pre>
+
+<p>
+有些时候, 需要在Task下面描述一些事项, Orgmode怎么显示 <code>plain lists</code> 列表? 
+</p>
+
+<pre class="example">
+1. 这是有数字列表
+2. 第二项
+3. 第三项
+
+</pre>
+
+<pre class="example">
+- 这是无数字列表
+- 第二项
+- 第三项
+</pre>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2018-05-31</pubDate>
+      <guid>http://lijigang.github.io/blog/神器org-mode</guid>
+    </item>
     <item>
       <title>从零开始配置Spacemacs</title>
       <link>http://lijigang.github.io/blog/从零开始配置spacemacs/</link>
@@ -33,14 +311,12 @@ Spacemacs = Vim + Emacs
 这篇文章，就记录一下自己是怎么从零开始配置一个符合自己使用习惯的Spacemacs。
 </p>
 
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> 安装</h2>
+<div id="outline-container-org50a0ba1" class="outline-2">
+<h2 id="org50a0ba1"><span class="section-number-2">1</span> 安装</h2>
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
-<li>安装 <a href="https://emacsformacosx.com/">Emacs</a>
-</li>
-<li>Clone Spacemacs
-</li>
+<li>安装 <a href="https://emacsformacosx.com/">Emacs</a></li>
+<li>Clone Spacemacs</li>
 </ol>
 <pre class="example">
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
@@ -50,16 +326,14 @@ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 clone完成后，会多两个东西，
 </p>
 <ul class="org-ul">
-<li><code>~/.emacs.d/</code>  
-</li>
-<li><code>~/.spacemacs</code>
-</li>
+<li><code>~/.emacs.d/</code></li>
+<li><code>~/.spacemacs</code></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2"><span class="section-number-2">2</span> 配置</h2>
+<div id="outline-container-org85ef383" class="outline-2">
+<h2 id="org85ef383"><span class="section-number-2">2</span> 配置</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 安装完成后，对于常规的配置，可以放置到 <code>~/.spacemacs</code> 文件中，就像Vim和Zsh一样。 但Spacemacs提供了 <a href="http://spacemacs.org/doc/LAYERS.html">layer</a> 概念，极大方便了插件的管理.
@@ -70,19 +344,19 @@ clone完成后，会多两个东西，
 </p>
 </div>
 
-<div id="outline-container-sec-2-1" class="outline-3">
-<h3 id="sec-2-1"><span class="section-number-3">2.1</span> .spacemacs</h3>
+<div id="outline-container-org2cd61e5" class="outline-3">
+<h3 id="org2cd61e5"><span class="section-number-3">2.1</span> .spacemacs</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
-<li>layers
+<li><p>
+layers
+</p>
 
 <p>
 在 <code>dotspacemacs-configuration-layers</code> 变量中增加你想配置的layer(Spacemacs出厂自带的或者是你后续自己创建的）
-</p>
-</li>
+</p></li>
 </ul>
 <div class="org-src-container">
-
 <pre class="src src-Emacs-lisp">dotspacemacs-configuration-layers
 '(
   helm
@@ -97,11 +371,9 @@ clone完成后，会多两个东西，
 
 <ul class="org-ul">
 <li>themes
-可以从 <a href="https://themegallery.robdor.com/">这里</a> 挑选你喜欢的主题，把名字放到配置的第一个即可。
-</li>
+可以从 <a href="https://themegallery.robdor.com/">这里</a> 挑选你喜欢的主题，把名字放到配置的第一个即可。</li>
 </ul>
 <div class="org-src-container">
-
 <pre class="src src-emacs-lisp">dotspacemacs-themes '(monokai
                       molokai
                       niflheim)
@@ -109,11 +381,9 @@ clone完成后，会多两个东西，
 </div>
 
 <ul class="org-ul">
-<li>fullscreen
-</li>
+<li>fullscreen</li>
 </ul>
 <div class="org-src-container">
-
 <pre class="src src-emacs-lisp">dotspacemacs-fullscreen-at-startup t
 </pre>
 </div>
@@ -122,7 +392,6 @@ clone完成后，会多两个东西，
 在dotspacemacs/user-config函数中配置：
 </p>
 <div class="org-src-container">
-
 <pre class="src src-emacs-lisp">(defun dotspacemacs/user-config ()
   "Configuration function for user code.
 This function is called at the very end of Spacemacs initialization after
@@ -228,15 +497,14 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-sec-2-2" class="outline-3">
-<h3 id="sec-2-2"><span class="section-number-3">2.2</span> private layer</h3>
+<div id="outline-container-orgebb7757" class="outline-3">
+<h3 id="orgebb7757"><span class="section-number-3">2.2</span> private layer</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 首先把自己layer中想要的packages给列好, 并设置相应的启动配置项:
 </p>
 
 <div class="org-src-container">
-
 <pre class="src src-emacs-lisp">(defconst lijigang-packages
   '(org-page
     cnfonts
@@ -313,6 +581,7 @@ you should place your code here."
     (setq beacon-color "#666600")))
 
 ;;; packages.el ends here
+
 </pre>
 </div>
 
@@ -321,7 +590,6 @@ you should place your code here."
 </p>
 
 <div class="org-src-container">
-
 <pre class="src src-emacs-lisp">(defun make-progress (width percent has-number?)
   (let* ((done (/ percent 100.0))
          (done-width (floor (* width done))))
@@ -385,6 +653,7 @@ you should place your code here."
                              (concat ";rm -rf " tempfile ".bbl " tempfile
                                  ".blg " tempfile ".out " tempfile ".log " tempfile ".aux " tempfile
 ".toc" ";open " tempfile ".pdf"))))))
+
 </pre>
 </div>
 
@@ -393,7 +662,6 @@ you should place your code here."
 </p>
 
 <div class="org-src-container">
-
 <pre class="src src-emacs-lisp">(evil-leader/set-key "oc" 'org-capture)
 (evil-leader/set-key "oa" 'org-agenda)
 (evil-leader/set-key "ol" 'org-store-link)
@@ -431,6 +699,7 @@ you should place your code here."
    ("l" (op/do-publication nil "HEAD~1" nil t t))
    ("p" op/do-publication)
    ("e" op/new-repository)))
+
 </pre>
 </div>
 </div>
@@ -444,178 +713,6 @@ you should place your code here."
       <guid>http://lijigang.github.io/blog/从零开始配置spacemacs/</guid>
     </item>
     <item>
-      <title>神器Org-mode</title>
-      <link>http://lijigang.github.io/blog/神器org-mode</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>神器Org-mode</h1>
-            <blockquote>
-<p>
-Org mode is for keeping notes, maintaining TODO lists, planning projects, and
-authoring documents with a fast and effective plain-text system.
-</p>
-</blockquote>
-
-<p>
-Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记录相关的最好解决方案.
-这篇文章想换种思路, 不再像其它介绍Org-mode的文章一样罗列Orgmode的一大堆功能点,
-而是从使用需求出发, 一点点介绍Orgmode是如何满足这些需求的.
-</p>
-
-<p>
-现在想象你打开了Emacs中的一个org文件, 想使用它做GTD管理. 首先会问: orgmode中如何
-罗列一项项的Task?
-</p>
-
-<p>
-答案很简单: 使用 <b>Headlines</b>.
-</p>
-
-<p>
-那什么是 <b>Headlines</b> ? 很简单, 使用 <code>*</code> 符号开头就行, 比如: 
-</p>
-
-<p class="verse">
-<br  />
-&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;* Top level headline<br  />
-&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;<b>* Second level<br  />
-&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;**</b> 3rd level<br  />
-&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;some text<br  />
-&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;<b>*</b> 3rd level<br  />
-&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;more text<br  />
-<br  />
-&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;* Another top level headline<br  />
-<br  />
-</p>
-
-<p>
-看着好多 <code>**</code> 符号觉得干扰视觉? 没问题, 只需要设置
-</p>
-<div class="org-src-container">
-
-<pre class="src src-emacs-lisp">(setq org-hide-leading-stars t)
-</pre>
-</div>
-
-<p>
-好, 现在有了列表了. 这些Task的状态是不是可以变化? 比如「待办」「进行中」「已完成」
-等?
-</p>
-
-<div class="org-src-container">
-
-<pre class="src src-emacs-lisp">;; 设置todo keywords
-(setq org-todo-keywords
-      '((sequence "TODO" "HAND" "|" "DONE")))
-</pre>
-</div>
-
-<p>
-状态关键词你自己随便定义即可, 中间流转状态根据你的实际流程来定制. 状态变更, 只需
-要在Task上面按 <code>t</code> 键, 就会按你设置的状态顺序变化.
-</p>
-
-<p>
-好, 现在有了列表, 也有了状态变化, 那个状态字段和任务名称并排显示, 能不能把状态值
-做个样式区分, 看着更显眼些?
-</p>
-
-<div class="org-src-container">
-
-<pre class="src src-emacs-lisp">;; 调试好久的颜色，效果超赞！ todo keywords 增加背景色
-(setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
-                                ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
-                                ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
-</pre>
-</div>
-
-<p>
-好, 看着还不错. 但显示的 <code>*</code> 很不个性, 这个能定制修改吗?
-</p>
-
-<div class="org-src-container">
-
-<pre class="src src-emacs-lisp">;; 设置bullet list
-(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
-</pre>
-</div>
-
-<p>
-不错不错, 但在一个任务下面输入一段文字, 怎么是顶格的, 能不能让它自动缩进对齐?
-</p>
-<div class="org-src-container">
-
-<pre class="src src-emacs-lisp">;; 打开org-indent mode
-(setq org-startup-indented t)
-</pre>
-</div>
-
-<p>
-一个Task怎么设置计划开始时间和Deadline?
-</p>
-<div class="org-src-container">
-
-<pre class="src src-emacs-lisp">调用 org-schedule 和 org-deadline 函数
-
-他们的快捷键 ,s 和 ,d
-</pre>
-</div>
-
-<p>
-那一个任务又是怎么计时的? 我想知道我在某一任务上面花了多少时间.
-</p>
-<pre class="example">
-调用 org-clock-in 和 org-clock-out 函数
-
-他们的快捷键 ,I 和 ,O
-
-这俩函数就像秒表一样, 开始时打一个点, 结束时打一个点, 经历时间会自动计算显示出来.
-</pre>
-
-<p>
-任务完成后, 还一直停留在当前文件中, 时间久了任务列表特别长. 对于完成的任务, 怎么归档存储?
-</p>
-
-<pre class="example">
-调用 org-archive-subtree 函数, 对应的快捷键是 &lt;space o d&gt;
-</pre>
-
-<p>
-怎么调整字体样式? 加粗? 斜体?
-</p>
-
-<pre class="example">
-加粗 *test*
-斜体 /test/
-下划线 _test_
-删除线 +test+
-代码块 =test=
-</pre>
-
-<p>
-有些时候, 需要在Task下面描述一些事项, Orgmode怎么显示 <code>plain lists</code> 列表? 
-</p>
-
-<pre class="example">
-1. 这是有数字列表
-2. 第二项
-3. 第三项
-</pre>
-
-<pre class="example">
-- 这是无数字列表
-- 第二项
-- 第三项
-</pre>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2018-05-29</pubDate>
-      <guid>http://lijigang.github.io/blog/神器org-mode</guid>
-    </item>
-    <item>
       <title>使用Org-Page搭建网站</title>
       <link>http://lijigang.github.io/blog/使用org-page搭建网站/</link>
       <description><![CDATA[<section id="content" role="main">
@@ -623,14 +720,13 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
         <div class="col-md-2"></div>
             <h1>使用Org-Page搭建网站</h1>
             
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1">安装 Org-Page</h2>
-<div class="outline-text-2" id="text-1">
+<div id="outline-container-orgba18a4c" class="outline-2">
+<h2 id="orgba18a4c">安装 Org-Page</h2>
+<div class="outline-text-2" id="text-orgba18a4c">
 <p>
 使用 <code>Spacemacs</code> 安装Org-Page极其方便. 只需要在自己的layer中增加org-age即可:
 </p>
 <div class="org-src-container">
-
 <pre class="src src-emacs-lisp">(defconst lijigang-packages
   '(org-page
     cnfonts
@@ -643,11 +739,10 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 </div>
 </div>
 
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2">配置 Org-Page</h2>
-<div class="outline-text-2" id="text-2">
+<div id="outline-container-org333f04a" class="outline-2">
+<h2 id="org333f04a">配置 Org-Page</h2>
+<div class="outline-text-2" id="text-org333f04a">
 <div class="org-src-container">
-
 <pre class="src src-emacs-lisp">(defun lijigang/init-org-page()
   "Initialize org-page to publish blog."
   (use-package org-page
@@ -690,18 +785,15 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 </div>
 </div>
 
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3">安装主题</h2>
-<div class="outline-text-2" id="text-3">
+<div id="outline-container-org6dc2019" class="outline-2">
+<h2 id="org6dc2019">安装主题</h2>
+<div class="outline-text-2" id="text-org6dc2019">
 <ol class="org-ol">
-<li>git clone <a href="https://github.com/lijigang/ljg">https://github.com/lijigang/ljg</a>
-</li>
+<li>git clone <a href="https://github.com/lijigang/ljg">https://github.com/lijigang/ljg</a></li>
 
-<li>cp -r ljg ~/.emacs.d/elpa/org-page-xxxx.xx/themes/
-</li>
+<li>cp -r ljg ~/.emacs.d/elpa/org-page-xxxx.xx/themes/</li>
 
-<li>add (setq op/theme ‘ljg)
-</li>
+<li>add (setq op/theme ‘ljg)</li>
 </ol>
 </div>
 </div>
