@@ -42,9 +42,9 @@
 
 * 结论
 
-#+BEGIN_CENTER
+#+BEGIN_QUOTE
 子曰：「君子和而不同，小人同而不和。」
-#+END_CENTER
+#+END_QUOTE
 
 这种分类更多是 =世界观= 的 *不同*, 并没有 *对错* 之分.
 
