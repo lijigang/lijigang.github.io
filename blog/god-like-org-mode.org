@@ -18,7 +18,7 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 
 答案很简单: 使用 *Headlines*.
 
-那什么是 *Headlines* ? 很简单, 使用 =*= 符号开头就行, 比如: 
+什么是 *Headlines* ? 很简单, 使用 =*= 符号开头, 空格， 输入标题就行, 比如: 
 
 #+BEGIN_VERSE
 
@@ -40,7 +40,6 @@ Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记
 
 好, 现在有了列表了. 这些Task的状态是不是可以变化? 比如「待办」「进行中」「已完成」
 等?
-
 #+BEGIN_SRC emacs-lisp
 ;; 设置todo keywords
 (setq org-todo-keywords
