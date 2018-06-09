@@ -8,6 +8,7 @@
 同样的公司, 同样的环境, 对于不同的人, 也会有截然不同的意义:
 
 #+caption: 对于公司的四种看法
+#+attr_html: :align center
 [[../images/what-company-means.png]]
 
 
@@ -40,6 +41,10 @@
 他最不能接受就是 =果实被别人摘了=.
 
 * 结论
+
+#+BEGIN_CENTER
+子曰：「君子和而不同，小人同而不和。」
+#+END_CENTER
 
 这种分类更多是 =世界观= 的 *不同*, 并没有 *对错* 之分.
 
