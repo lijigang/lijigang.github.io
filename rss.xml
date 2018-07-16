@@ -4,8 +4,8 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Mon, 16 Jul 2018 12:07:37 CST</pubDate>
-    <lastBuildDate>Mon, 16 Jul 2018 12:07:37 CST</lastBuildDate>
+    <pubDate>Mon, 16 Jul 2018 12:16:06 CST</pubDate>
+    <lastBuildDate>Mon, 16 Jul 2018 12:16:06 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -104,33 +104,68 @@ R(a, u, c) = eCPM
 广告系统比较流行的定向方式包括:
 </p>
 <ol class="org-ol">
-<li>地域定向(geo-targeting)
-分地域投放. 比如北京地区的鲜花速递公司, 只需要投放北京地区的受众, 其它地区的受众不需要接触.</li>
-<li>人口属性定向(demographical targeting)
-人中属性的标签主要标签包括: 年龄/性别/教育程度/收入水平等.</li>
-<li>上下文定向(context targeting)
-根据网页内容来匹配相关广告, 定向的粒度可以是关键词/主题/或者分类.</li>
-<li>行为定向(behaviorial targeting)
-根据用户的历史访问行为来了解用户, 推送相关广告. 这也就是互联网应用为什么喜欢收集用户行为数据的原因, 可以产生变现的价值. 也由此催生出了数据收集/加工/交易的衍生业务.</li>
-<li>商圈定向(hyper-local targeting)
-在移动设备上面投放广告时, 我们有可能获得非常精准的地理位置信息. 这使得针对具体商圈进行投放广告有了可能性.</li>
-<li>重定向(retargeting)
-对某个广告主过去一段时间内的访客投放广告, 提升转化效果. 这种方式的定向, 是被公认为精准程度最高, 效果最突出的方式, 缺点就是覆盖量较小.</li>
-<li>新客推荐定向(look-alike targeting)
-平台根据广告主提供的重定向种子访客信息, 结合广告平台丰富数据, 为广告主找到行为上相似的潜在客户.</li>
+<li><p>
+地域定向(geo-targeting)
+</p>
+
+<p>
+分地域投放. 比如北京地区的鲜花速递公司, 只需要投放北京地区的受众, 其它地区的受众不需要接触.
+</p></li>
+<li><p>
+人口属性定向(demographical targeting)
+</p>
+
+<p>
+人中属性的标签主要标签包括: 年龄/性别/教育程度/收入水平等.
+</p></li>
+<li><p>
+上下文定向(context targeting)
+</p>
+
+<p>
+根据网页内容来匹配相关广告, 定向的粒度可以是关键词/主题/或者分类.
+</p></li>
+<li><p>
+行为定向(behaviorial targeting)
+</p>
+
+<p>
+根据用户的历史访问行为来了解用户, 推送相关广告. 这也就是互联网应用为什么喜欢收集用户行为数据的原因, 可以产生变现的价值. 也由此催生出了数据收集/加工/交易的衍生业务.
+</p></li>
+<li><p>
+商圈定向(hyper-local targeting)
+</p>
+
+<p>
+在移动设备上面投放广告时, 我们有可能获得非常精准的地理位置信息. 这使得针对具体商圈进行投放广告有了可能性.
+</p></li>
+<li><p>
+重定向(retargeting)
+</p>
+
+<p>
+对某个广告主过去一段时间内的访客投放广告, 提升转化效果. 这种方式的定向, 是被公认为精准程度最高, 效果最突出的方式, 缺点就是覆盖量较小.
+</p></li>
+<li><p>
+新客推荐定向(look-alike targeting)
+</p>
+
+<p>
+平台根据广告主提供的重定向种子访客信息, 结合广告平台丰富数据, 为广告主找到行为上相似的潜在客户.
+</p></li>
 </ol>
 
-<div id="outline-container-orgddc6b32" class="outline-2">
-<h2 id="orgddc6b32">在线广告类别</h2>
-<div class="outline-text-2" id="text-orgddc6b32">
+<div id="outline-container-org3a4b50b" class="outline-2">
+<h2 id="org3a4b50b">在线广告类别</h2>
+<div class="outline-text-2" id="text-org3a4b50b">
 <p>
 作者把互联网广告分成了四个类别:
 </p>
 </div>
 
-<div id="outline-container-org22c9f1c" class="outline-3">
-<h3 id="org22c9f1c">合约广告</h3>
-<div class="outline-text-3" id="text-org22c9f1c">
+<div id="outline-container-orgf88e113" class="outline-3">
+<h3 id="orgf88e113">合约广告</h3>
+<div class="outline-text-3" id="text-orgf88e113">
 <p>
 主要包括两种方式:
 </p>
@@ -153,9 +188,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-orgffc33b2" class="outline-3">
-<h3 id="orgffc33b2">竞价广告</h3>
-<div class="outline-text-3" id="text-orgffc33b2">
+<div id="outline-container-org3f72180" class="outline-3">
+<h3 id="org3f72180">竞价广告</h3>
+<div class="outline-text-3" id="text-org3f72180">
 <p>
 随着互联网广告行业的发展, 广告投放朝着精细化的方向不断前进. 交易模式也从原来的合约方式演进到了竞价方式. 不再像之前一样, 按时间段或批量售卖, 而是按不同的人群进行区分售卖, 价高者得. 这种模式同时还有一个好处, 即原来按合约售卖卖不掉的剩余流量, 现在也有可能通过竞价被售卖出去.
 </p>
@@ -174,17 +209,17 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org3aa6af4" class="outline-3">
-<h3 id="org3aa6af4">程序化交易广告</h3>
-<div class="outline-text-3" id="text-org3aa6af4">
+<div id="outline-container-org49d5858" class="outline-3">
+<h3 id="org49d5858">程序化交易广告</h3>
+<div class="outline-text-3" id="text-org49d5858">
 <p>
 市场的发展方向是向需求方彻底开放(毕竟是金主爸爸), 除了允许广告主按照媒体方或广告平台定义好的用户划分来购买以外, 进一步演化到了允许广告主自行选择流量和在每一次展示上独立出价, 参与竞价. 而这种方式, 就产生了以实时竞价(RTB)为核心的程序化交易市场.
 </p>
 </div>
 </div>
-<div id="outline-container-org644cfd7" class="outline-3">
-<h3 id="org644cfd7">原生广告</h3>
-<div class="outline-text-3" id="text-org644cfd7">
+<div id="outline-container-org5dc998e" class="outline-3">
+<h3 id="org5dc998e">原生广告</h3>
+<div class="outline-text-3" id="text-org5dc998e">
 <p>
 在移动互联网时代到来之后, 屏幕较小的移动设备环境下, 独立展示和运营广告和内容遇到的挑战. 业务开始探讨将内容和广告混合的道路(Content as ad), 提升变现效率.
 </p>
@@ -229,9 +264,9 @@ R(a, u, c) = eCPM
 </div>
 
 
-<div id="outline-container-org703cbae" class="outline-2">
-<h2 id="org703cbae">战场</h2>
-<div class="outline-text-2" id="text-org703cbae">
+<div id="outline-container-org665d857" class="outline-2">
+<h2 id="org665d857">战场</h2>
+<div class="outline-text-2" id="text-org665d857">
 <p>
 对于自驱性强, 喜欢得到外部认可的人来说, 公司就是一个战场.
 </p>
@@ -246,9 +281,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org1ed49e2" class="outline-2">
-<h2 id="org1ed49e2">学校</h2>
-<div class="outline-text-2" id="text-org1ed49e2">
+<div id="outline-container-orgae4f7b4" class="outline-2">
+<h2 id="orgae4f7b4">学校</h2>
+<div class="outline-text-2" id="text-orgae4f7b4">
 <p>
 对于自我成长要求较高, 内心满足感较强的人来说, 公司就是另一个学校.
 </p>
@@ -263,9 +298,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org77e92f9" class="outline-2">
-<h2 id="org77e92f9">游乐场</h2>
-<div class="outline-text-2" id="text-org77e92f9">
+<div id="outline-container-org4ace0bc" class="outline-2">
+<h2 id="org4ace0bc">游乐场</h2>
+<div class="outline-text-2" id="text-org4ace0bc">
 <p>
 对于家底丰厚, 衣食无忧的人来说, 公司更像是一个游乐场.
 </p>
@@ -280,9 +315,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-orgadfa18d" class="outline-2">
-<h2 id="orgadfa18d">秀场</h2>
-<div class="outline-text-2" id="text-orgadfa18d">
+<div id="outline-container-org6644281" class="outline-2">
+<h2 id="org6644281">秀场</h2>
+<div class="outline-text-2" id="text-org6644281">
 <p>
 还有一种是喜欢成就感的人, 他把公司当做秀场.
 </p>
@@ -297,9 +332,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-orgaea9871" class="outline-2">
-<h2 id="orgaea9871">结论</h2>
-<div class="outline-text-2" id="text-orgaea9871">
+<div id="outline-container-org13028ed" class="outline-2">
+<h2 id="org13028ed">结论</h2>
+<div class="outline-text-2" id="text-org13028ed">
 <blockquote>
 <p>
 子曰：「君子和而不同，小人同而不和。」
@@ -515,8 +550,8 @@ Spacemacs = Vim + Emacs
 这篇文章，就记录一下自己是怎么从零开始配置一个符合自己使用习惯的Spacemacs。
 </p>
 
-<div id="outline-container-org971d662" class="outline-2">
-<h2 id="org971d662"><span class="section-number-2">1</span> 安装</h2>
+<div id="outline-container-orgae9cb47" class="outline-2">
+<h2 id="orgae9cb47"><span class="section-number-2">1</span> 安装</h2>
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
 <li>安装 <a href="https://emacsformacosx.com/">Emacs</a></li>
@@ -536,8 +571,8 @@ clone完成后，会多两个东西，
 </div>
 </div>
 
-<div id="outline-container-org4acd1e3" class="outline-2">
-<h2 id="org4acd1e3"><span class="section-number-2">2</span> 配置</h2>
+<div id="outline-container-org91d3a09" class="outline-2">
+<h2 id="org91d3a09"><span class="section-number-2">2</span> 配置</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 安装完成后，对于常规的配置，可以放置到 <code>~/.spacemacs</code> 文件中，就像Vim和Zsh一样。 但Spacemacs提供了 <a href="http://spacemacs.org/doc/LAYERS.html">layer</a> 概念，极大方便了插件的管理.
@@ -548,8 +583,8 @@ clone完成后，会多两个东西，
 </p>
 </div>
 
-<div id="outline-container-org3f85080" class="outline-3">
-<h3 id="org3f85080"><span class="section-number-3">2.1</span> .spacemacs</h3>
+<div id="outline-container-org0a364e0" class="outline-3">
+<h3 id="org0a364e0"><span class="section-number-3">2.1</span> .spacemacs</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li><p>
@@ -701,8 +736,8 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-orgc0a01f3" class="outline-3">
-<h3 id="orgc0a01f3"><span class="section-number-3">2.2</span> private layer</h3>
+<div id="outline-container-org2dec3a3" class="outline-3">
+<h3 id="org2dec3a3"><span class="section-number-3">2.2</span> private layer</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 首先把自己layer中想要的packages给列好, 并设置相应的启动配置项:
@@ -924,9 +959,9 @@ you should place your code here."
         <div class="col-md-2"></div>
             <h1>使用Org-Page搭建网站</h1>
             
-<div id="outline-container-orgb18c1e0" class="outline-2">
-<h2 id="orgb18c1e0">安装 Org-Page</h2>
-<div class="outline-text-2" id="text-orgb18c1e0">
+<div id="outline-container-org5494f64" class="outline-2">
+<h2 id="org5494f64">安装 Org-Page</h2>
+<div class="outline-text-2" id="text-org5494f64">
 <p>
 使用 <code>Spacemacs</code> 安装Org-Page极其方便. 只需要在自己的layer中增加org-age即可:
 </p>
@@ -943,9 +978,9 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-orgee294e2" class="outline-2">
-<h2 id="orgee294e2">配置 Org-Page</h2>
-<div class="outline-text-2" id="text-orgee294e2">
+<div id="outline-container-orgac1ca27" class="outline-2">
+<h2 id="orgac1ca27">配置 Org-Page</h2>
+<div class="outline-text-2" id="text-orgac1ca27">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(defun lijigang/init-org-page()
   "Initialize org-page to publish blog."
@@ -989,9 +1024,9 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-org22ae3a5" class="outline-2">
-<h2 id="org22ae3a5">安装主题</h2>
-<div class="outline-text-2" id="text-org22ae3a5">
+<div id="outline-container-org9a280be" class="outline-2">
+<h2 id="org9a280be">安装主题</h2>
+<div class="outline-text-2" id="text-org9a280be">
 <ol class="org-ol">
 <li>git clone <a href="https://github.com/lijigang/ljg">https://github.com/lijigang/ljg</a></li>
 
