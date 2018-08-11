@@ -4,8 +4,8 @@
     <title>為學日益, 為道日損</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Thu, 02 Aug 2018 10:24:02 CST</pubDate>
-    <lastBuildDate>Thu, 02 Aug 2018 10:24:02 CST</lastBuildDate>
+    <pubDate>Sat, 11 Aug 2018 18:57:05 CST</pubDate>
+    <lastBuildDate>Sat, 11 Aug 2018 18:57:05 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -37,9 +37,9 @@
 西方哲学有三大基本问题: 形而上学, 知识论, 伦理学.
 </p>
 
-<div id="outline-container-org43eb24c" class="outline-2">
-<h2 id="org43eb24c">形而上学</h2>
-<div class="outline-text-2" id="text-org43eb24c">
+<div id="outline-container-org1bf0666" class="outline-2">
+<h2 id="org1bf0666">形而上学</h2>
+<div class="outline-text-2" id="text-org1bf0666">
 <p>
 形而上学又被称为「第一哲学」, 它是一门研究事物本质和基本原理的学问. 从古到今, 从来没有任何一个形而上学问题被解决.
 </p>
@@ -63,9 +63,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgaada79f" class="outline-2">
-<h2 id="orgaada79f">知识论</h2>
-<div class="outline-text-2" id="text-orgaada79f">
+<div id="outline-container-org876a965" class="outline-2">
+<h2 id="org876a965">知识论</h2>
+<div class="outline-text-2" id="text-org876a965">
 <p>
 一直到了科学革命后，人们理解到这世界不像基督教或其他宗教所描述的那样，以前从教堂及传教士口中所获得的知识大多是假的，或者说，那些根本就不算知识。从教堂里获得知识的渠道已经崩溃，人们需要思考另外一种获得知识的途径，以及获得知识的方法。
 </p>
@@ -88,9 +88,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgcd9b614" class="outline-2">
-<h2 id="orgcd9b614">伦理学</h2>
-<div class="outline-text-2" id="text-orgcd9b614">
+<div id="outline-container-orgc5455cb" class="outline-2">
+<h2 id="orgc5455cb">伦理学</h2>
+<div class="outline-text-2" id="text-orgc5455cb">
 <p>
 人是群居动物, 人与人之间必须要有所联系，有所关联。既然人际之间必须有所关联，自然
 而然就会有一些大家共同遵守的规范产生。这些规范让人与人之间可以安定平稳地生活在一
@@ -256,17 +256,17 @@ R(a, u, c) = eCPM
 </p></li>
 </ol>
 
-<div id="outline-container-org346a672" class="outline-2">
-<h2 id="org346a672">在线广告类别</h2>
-<div class="outline-text-2" id="text-org346a672">
+<div id="outline-container-org0027f4b" class="outline-2">
+<h2 id="org0027f4b">在线广告类别</h2>
+<div class="outline-text-2" id="text-org0027f4b">
 <p>
 作者把互联网广告分成了四个类别:
 </p>
 </div>
 
-<div id="outline-container-org5767cb5" class="outline-3">
-<h3 id="org5767cb5">合约广告</h3>
-<div class="outline-text-3" id="text-org5767cb5">
+<div id="outline-container-orgb29a34e" class="outline-3">
+<h3 id="orgb29a34e">合约广告</h3>
+<div class="outline-text-3" id="text-orgb29a34e">
 <p>
 主要包括两种方式:
 </p>
@@ -289,9 +289,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org98538a0" class="outline-3">
-<h3 id="org98538a0">竞价广告</h3>
-<div class="outline-text-3" id="text-org98538a0">
+<div id="outline-container-org97082c7" class="outline-3">
+<h3 id="org97082c7">竞价广告</h3>
+<div class="outline-text-3" id="text-org97082c7">
 <p>
 随着互联网广告行业的发展, 广告投放朝着精细化的方向不断前进. 交易模式也从原来的合约方式演进到了竞价方式. 不再像之前一样, 按时间段或批量售卖, 而是按不同的人群进行区分售卖, 价高者得. 这种模式同时还有一个好处, 即原来按合约售卖卖不掉的剩余流量, 现在也有可能通过竞价被售卖出去.
 </p>
@@ -310,17 +310,17 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org8b39c2e" class="outline-3">
-<h3 id="org8b39c2e">程序化交易广告</h3>
-<div class="outline-text-3" id="text-org8b39c2e">
+<div id="outline-container-org9f498fb" class="outline-3">
+<h3 id="org9f498fb">程序化交易广告</h3>
+<div class="outline-text-3" id="text-org9f498fb">
 <p>
 市场的发展方向是向需求方彻底开放(毕竟是金主爸爸), 除了允许广告主按照媒体方或广告平台定义好的用户划分来购买以外, 进一步演化到了允许广告主自行选择流量和在每一次展示上独立出价, 参与竞价. 而这种方式, 就产生了以实时竞价(RTB)为核心的程序化交易市场.
 </p>
 </div>
 </div>
-<div id="outline-container-orgdb9d6a4" class="outline-3">
-<h3 id="orgdb9d6a4">原生广告</h3>
-<div class="outline-text-3" id="text-orgdb9d6a4">
+<div id="outline-container-org87753e7" class="outline-3">
+<h3 id="org87753e7">原生广告</h3>
+<div class="outline-text-3" id="text-org87753e7">
 <p>
 在移动互联网时代到来之后, 屏幕较小的移动设备环境下, 独立展示和运营广告和内容遇到的挑战. 业务开始探讨将内容和广告混合的道路(Content as ad), 提升变现效率.
 </p>
@@ -365,9 +365,9 @@ R(a, u, c) = eCPM
 </div>
 
 
-<div id="outline-container-org4a9258a" class="outline-2">
-<h2 id="org4a9258a">战场</h2>
-<div class="outline-text-2" id="text-org4a9258a">
+<div id="outline-container-org7a13ff3" class="outline-2">
+<h2 id="org7a13ff3">战场</h2>
+<div class="outline-text-2" id="text-org7a13ff3">
 <p>
 对于自驱性强, 喜欢得到外部认可的人来说, 公司就是一个战场.
 </p>
@@ -382,9 +382,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-orge369374" class="outline-2">
-<h2 id="orge369374">学校</h2>
-<div class="outline-text-2" id="text-orge369374">
+<div id="outline-container-org546507b" class="outline-2">
+<h2 id="org546507b">学校</h2>
+<div class="outline-text-2" id="text-org546507b">
 <p>
 对于自我成长要求较高, 内心满足感较强的人来说, 公司就是另一个学校.
 </p>
@@ -399,9 +399,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-orgb30120c" class="outline-2">
-<h2 id="orgb30120c">游乐场</h2>
-<div class="outline-text-2" id="text-orgb30120c">
+<div id="outline-container-orgf9be1a7" class="outline-2">
+<h2 id="orgf9be1a7">游乐场</h2>
+<div class="outline-text-2" id="text-orgf9be1a7">
 <p>
 对于家底丰厚, 衣食无忧的人来说, 公司更像是一个游乐场.
 </p>
@@ -416,9 +416,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org8e2e912" class="outline-2">
-<h2 id="org8e2e912">秀场</h2>
-<div class="outline-text-2" id="text-org8e2e912">
+<div id="outline-container-orgd4e06a7" class="outline-2">
+<h2 id="orgd4e06a7">秀场</h2>
+<div class="outline-text-2" id="text-orgd4e06a7">
 <p>
 还有一种是喜欢成就感的人, 他把公司当做秀场.
 </p>
@@ -433,9 +433,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-orgd05e2fc" class="outline-2">
-<h2 id="orgd05e2fc">结论</h2>
-<div class="outline-text-2" id="text-orgd05e2fc">
+<div id="outline-container-org99353ff" class="outline-2">
+<h2 id="org99353ff">结论</h2>
+<div class="outline-text-2" id="text-org99353ff">
 <blockquote>
 <p>
 子曰：「君子和而不同，小人同而不和。」
@@ -651,8 +651,8 @@ Spacemacs = Vim + Emacs
 这篇文章，就记录一下自己是怎么从零开始配置一个符合自己使用习惯的Spacemacs。
 </p>
 
-<div id="outline-container-org659bd12" class="outline-2">
-<h2 id="org659bd12"><span class="section-number-2">1</span> 安装</h2>
+<div id="outline-container-org1ebe719" class="outline-2">
+<h2 id="org1ebe719"><span class="section-number-2">1</span> 安装</h2>
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
 <li>安装 <a href="https://emacsformacosx.com/">Emacs</a></li>
@@ -672,8 +672,8 @@ clone完成后，会多两个东西，
 </div>
 </div>
 
-<div id="outline-container-org7b66043" class="outline-2">
-<h2 id="org7b66043"><span class="section-number-2">2</span> 配置</h2>
+<div id="outline-container-org05fe998" class="outline-2">
+<h2 id="org05fe998"><span class="section-number-2">2</span> 配置</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 安装完成后，对于常规的配置，可以放置到 <code>~/.spacemacs</code> 文件中，就像Vim和Zsh一样。 但Spacemacs提供了 <a href="http://spacemacs.org/doc/LAYERS.html">layer</a> 概念，极大方便了插件的管理.
@@ -684,8 +684,8 @@ clone完成后，会多两个东西，
 </p>
 </div>
 
-<div id="outline-container-org5d5cedc" class="outline-3">
-<h3 id="org5d5cedc"><span class="section-number-3">2.1</span> .spacemacs</h3>
+<div id="outline-container-orgaaeaf70" class="outline-3">
+<h3 id="orgaaeaf70"><span class="section-number-3">2.1</span> .spacemacs</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li><p>
@@ -837,8 +837,8 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-org3bd1f9a" class="outline-3">
-<h3 id="org3bd1f9a"><span class="section-number-3">2.2</span> private layer</h3>
+<div id="outline-container-orga5faac1" class="outline-3">
+<h3 id="orga5faac1"><span class="section-number-3">2.2</span> private layer</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 首先把自己layer中想要的packages给列好, 并设置相应的启动配置项:
@@ -1060,9 +1060,9 @@ you should place your code here."
         <div class="col-md-2"></div>
             <h1>使用Org-Page搭建网站</h1>
             
-<div id="outline-container-org82efd3e" class="outline-2">
-<h2 id="org82efd3e">安装 Org-Page</h2>
-<div class="outline-text-2" id="text-org82efd3e">
+<div id="outline-container-orgb6d177a" class="outline-2">
+<h2 id="orgb6d177a">安装 Org-Page</h2>
+<div class="outline-text-2" id="text-orgb6d177a">
 <p>
 使用 <code>Spacemacs</code> 安装Org-Page极其方便. 只需要在自己的layer中增加org-age即可:
 </p>
@@ -1079,9 +1079,9 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-org04060c2" class="outline-2">
-<h2 id="org04060c2">配置 Org-Page</h2>
-<div class="outline-text-2" id="text-org04060c2">
+<div id="outline-container-orgc2677c3" class="outline-2">
+<h2 id="orgc2677c3">配置 Org-Page</h2>
+<div class="outline-text-2" id="text-orgc2677c3">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(defun lijigang/init-org-page()
   "Initialize org-page to publish blog."
@@ -1125,9 +1125,9 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-org8cc0a10" class="outline-2">
-<h2 id="org8cc0a10">安装主题</h2>
-<div class="outline-text-2" id="text-org8cc0a10">
+<div id="outline-container-org45ca5c3" class="outline-2">
+<h2 id="org45ca5c3">安装主题</h2>
+<div class="outline-text-2" id="text-org45ca5c3">
 <ol class="org-ol">
 <li>git clone <a href="https://github.com/lijigang/ljg">https://github.com/lijigang/ljg</a></li>
 
