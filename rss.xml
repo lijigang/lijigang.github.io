@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>為學日益, 為道日損</title>
+    <title>捉妖记</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Sat, 11 Aug 2018 19:04:20 CST</pubDate>
-    <lastBuildDate>Sat, 11 Aug 2018 19:04:20 CST</lastBuildDate>
+    <pubDate>Fri, 24 Aug 2018 12:43:18 CST</pubDate>
+    <lastBuildDate>Fri, 24 Aug 2018 12:43:18 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -21,7 +21,7 @@
 
 <blockquote>
 <p>
-生意的本质就是创靠产品价值，然后把产品价值交换给有需要的人。
+生意的本质就是创造产品价值，然后把产品价值交换给有需要的人。
 </p>
 </blockquote>
 
@@ -29,17 +29,23 @@
 产品价值的创造过程不是今天讨论的重点，今天主要想聊下产品价值交换出去并从中获利的过程。 这个过程可以用公式表达为：
 </p>
 
+<blockquote>
 <p>
 <span class="underline">收入 = 流量 * 转化率 * 客单价 * 复购率</span>
 </p>
+</blockquote>
 
-<div id="outline-container-org765b60b" class="outline-2">
-<h2 id="org765b60b">流量</h2>
-<div class="outline-text-2" id="text-org765b60b">
+<p>
+各行业的商业模型会有些差异, 对应到这个公式中的指标会有细拆或组合的情况. 但本质上, 都是这四个关键因素的乘积.
+</p>
+
+<div id="outline-container-orgc5e8239" class="outline-2">
+<h2 id="orgc5e8239">流量</h2>
+<div class="outline-text-2" id="text-orgc5e8239">
 </div>
-<div id="outline-container-org9a27720" class="outline-3">
-<h3 id="org9a27720">流量洼地 = 低获客成本</h3>
-<div class="outline-text-3" id="text-org9a27720">
+<div id="outline-container-orgb37d411" class="outline-3">
+<h3 id="orgb37d411">流量洼地 = 低获客成本</h3>
+<div class="outline-text-3" id="text-orgb37d411">
 <p>
 在商人眼中，对于流量就是一句：如何以 <code>尽可能低的价格</code> 获得 <code>尽可能多的流量</code> 。
 </p>
@@ -69,9 +75,9 @@
 </div>
 </div>
 
-<div id="outline-container-org81555cf" class="outline-3">
-<h3 id="org81555cf">引流品 = 抓手</h3>
-<div class="outline-text-3" id="text-org81555cf">
+<div id="outline-container-orgf2e2931" class="outline-3">
+<h3 id="orgf2e2931">引流品 = 抓手</h3>
+<div class="outline-text-3" id="text-orgf2e2931">
 <p>
 除了花钱买流量以外，还可以通过利润换流量的玩法来创造流量。
 </p>
@@ -96,9 +102,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgc9cbcd8" class="outline-3">
-<h3 id="orgc9cbcd8">关联流量 = 精准流量</h3>
-<div class="outline-text-3" id="text-orgc9cbcd8">
+<div id="outline-container-org2d366f2" class="outline-3">
+<h3 id="org2d366f2">关联流量 = 精准流量</h3>
+<div class="outline-text-3" id="text-org2d366f2">
 <p>
 想获得流量，要先分析你的用户群体都在哪，然后去他们经常在的地方吸引他们的注意力，把他们拉到你的地方去消费。
 </p>
@@ -114,17 +120,17 @@
 </div>
 </div>
 
-<div id="outline-container-orgb4fe296" class="outline-2">
-<h2 id="orgb4fe296">转化率</h2>
-<div class="outline-text-2" id="text-orgb4fe296">
+<div id="outline-container-orgaf58de1" class="outline-2">
+<h2 id="orgaf58de1">转化率</h2>
+<div class="outline-text-2" id="text-orgaf58de1">
 <p>
 你通过购买流量或者创造流量的方式，吸引了大量目标用户进来。下一步就是要解决如何让他们掏腰包购买你产品的问题了。
 </p>
 </div>
 
-<div id="outline-container-orgae952fd" class="outline-3">
-<h3 id="orgae952fd">展示设计</h3>
-<div class="outline-text-3" id="text-orgae952fd">
+<div id="outline-container-org0f80268" class="outline-3">
+<h3 id="org0f80268">展示设计</h3>
+<div class="outline-text-3" id="text-org0f80268">
 <p>
 除了产品本身的包装设计以外， 还有一个 <code>动线设计</code> 的基本功需要修炼。
 </p>
@@ -150,9 +156,9 @@
 </div>
 </div>
 
-<div id="outline-container-org1c54b9b" class="outline-3">
-<h3 id="org1c54b9b">决策时间</h3>
-<div class="outline-text-3" id="text-org1c54b9b">
+<div id="outline-container-org5be05a4" class="outline-3">
+<h3 id="org5be05a4">决策时间</h3>
+<div class="outline-text-3" id="text-org5be05a4">
 <p>
 消费者在线下购买一个产品，平均决策时间是13秒； 线上是19秒。
 </p>
@@ -207,9 +213,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgb850bc8" class="outline-2">
-<h2 id="orgb850bc8">客单价</h2>
-<div class="outline-text-2" id="text-orgb850bc8">
+<div id="outline-container-org4ac484e" class="outline-2">
+<h2 id="org4ac484e">客单价</h2>
+<div class="outline-text-2" id="text-org4ac484e">
 <p>
 用户被你吸引到店里，也确实下单了，如何提升客单价？
 </p>
@@ -240,13 +246,13 @@
 </div>
 </div>
 
-<div id="outline-container-org1b2310b" class="outline-2">
-<h2 id="org1b2310b">复购率</h2>
-<div class="outline-text-2" id="text-org1b2310b">
+<div id="outline-container-orga377650" class="outline-2">
+<h2 id="orga377650">复购率</h2>
+<div class="outline-text-2" id="text-orga377650">
 </div>
-<div id="outline-container-org8715af9" class="outline-3">
-<h3 id="org8715af9">会员制</h3>
-<div class="outline-text-3" id="text-org8715af9">
+<div id="outline-container-org33235ad" class="outline-3">
+<h3 id="org33235ad">会员制</h3>
+<div class="outline-text-3" id="text-org33235ad">
 <p>
 用户永远想要更优惠的价格， 商家是想更多的流量，可以接受薄利多销。
 </p>
@@ -280,7 +286,7 @@
     </div>
 </section>
 ]]></description>
-      <pubDate>2018-08-11</pubDate>
+      <pubDate>2018-08-24</pubDate>
       <guid>http://lijigang.github.io/blog/商业本质/</guid>
     </item>
     <item>
@@ -312,9 +318,9 @@
 西方哲学有三大基本问题: 形而上学, 知识论, 伦理学.
 </p>
 
-<div id="outline-container-org1bc1251" class="outline-2">
-<h2 id="org1bc1251">形而上学</h2>
-<div class="outline-text-2" id="text-org1bc1251">
+<div id="outline-container-orgf172dc8" class="outline-2">
+<h2 id="orgf172dc8">形而上学</h2>
+<div class="outline-text-2" id="text-orgf172dc8">
 <p>
 形而上学又被称为「第一哲学」, 它是一门研究事物本质和基本原理的学问. 从古到今, 从来没有任何一个形而上学问题被解决.
 </p>
@@ -338,9 +344,9 @@
 </div>
 </div>
 
-<div id="outline-container-org30a6bd6" class="outline-2">
-<h2 id="org30a6bd6">知识论</h2>
-<div class="outline-text-2" id="text-org30a6bd6">
+<div id="outline-container-org623a0b8" class="outline-2">
+<h2 id="org623a0b8">知识论</h2>
+<div class="outline-text-2" id="text-org623a0b8">
 <p>
 一直到了科学革命后，人们理解到这世界不像基督教或其他宗教所描述的那样，以前从教堂及传教士口中所获得的知识大多是假的，或者说，那些根本就不算知识。从教堂里获得知识的渠道已经崩溃，人们需要思考另外一种获得知识的途径，以及获得知识的方法。
 </p>
@@ -363,9 +369,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgeb6579a" class="outline-2">
-<h2 id="orgeb6579a">伦理学</h2>
-<div class="outline-text-2" id="text-orgeb6579a">
+<div id="outline-container-orgc0a4f1a" class="outline-2">
+<h2 id="orgc0a4f1a">伦理学</h2>
+<div class="outline-text-2" id="text-orgc0a4f1a">
 <p>
 人是群居动物, 人与人之间必须要有所联系，有所关联。既然人际之间必须有所关联，自然
 而然就会有一些大家共同遵守的规范产生。这些规范让人与人之间可以安定平稳地生活在一
@@ -531,17 +537,17 @@ R(a, u, c) = eCPM
 </p></li>
 </ol>
 
-<div id="outline-container-org4e450a2" class="outline-2">
-<h2 id="org4e450a2">在线广告类别</h2>
-<div class="outline-text-2" id="text-org4e450a2">
+<div id="outline-container-org7d1a2b1" class="outline-2">
+<h2 id="org7d1a2b1">在线广告类别</h2>
+<div class="outline-text-2" id="text-org7d1a2b1">
 <p>
 作者把互联网广告分成了四个类别:
 </p>
 </div>
 
-<div id="outline-container-orgf1b13d8" class="outline-3">
-<h3 id="orgf1b13d8">合约广告</h3>
-<div class="outline-text-3" id="text-orgf1b13d8">
+<div id="outline-container-org48343d9" class="outline-3">
+<h3 id="org48343d9">合约广告</h3>
+<div class="outline-text-3" id="text-org48343d9">
 <p>
 主要包括两种方式:
 </p>
@@ -564,9 +570,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org2fd2ed5" class="outline-3">
-<h3 id="org2fd2ed5">竞价广告</h3>
-<div class="outline-text-3" id="text-org2fd2ed5">
+<div id="outline-container-orgb5e8295" class="outline-3">
+<h3 id="orgb5e8295">竞价广告</h3>
+<div class="outline-text-3" id="text-orgb5e8295">
 <p>
 随着互联网广告行业的发展, 广告投放朝着精细化的方向不断前进. 交易模式也从原来的合约方式演进到了竞价方式. 不再像之前一样, 按时间段或批量售卖, 而是按不同的人群进行区分售卖, 价高者得. 这种模式同时还有一个好处, 即原来按合约售卖卖不掉的剩余流量, 现在也有可能通过竞价被售卖出去.
 </p>
@@ -585,17 +591,17 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org3d6eb03" class="outline-3">
-<h3 id="org3d6eb03">程序化交易广告</h3>
-<div class="outline-text-3" id="text-org3d6eb03">
+<div id="outline-container-org4de46fb" class="outline-3">
+<h3 id="org4de46fb">程序化交易广告</h3>
+<div class="outline-text-3" id="text-org4de46fb">
 <p>
 市场的发展方向是向需求方彻底开放(毕竟是金主爸爸), 除了允许广告主按照媒体方或广告平台定义好的用户划分来购买以外, 进一步演化到了允许广告主自行选择流量和在每一次展示上独立出价, 参与竞价. 而这种方式, 就产生了以实时竞价(RTB)为核心的程序化交易市场.
 </p>
 </div>
 </div>
-<div id="outline-container-orgd51531e" class="outline-3">
-<h3 id="orgd51531e">原生广告</h3>
-<div class="outline-text-3" id="text-orgd51531e">
+<div id="outline-container-org943b5f0" class="outline-3">
+<h3 id="org943b5f0">原生广告</h3>
+<div class="outline-text-3" id="text-org943b5f0">
 <p>
 在移动互联网时代到来之后, 屏幕较小的移动设备环境下, 独立展示和运营广告和内容遇到的挑战. 业务开始探讨将内容和广告混合的道路(Content as ad), 提升变现效率.
 </p>
@@ -640,9 +646,9 @@ R(a, u, c) = eCPM
 </div>
 
 
-<div id="outline-container-orgff98559" class="outline-2">
-<h2 id="orgff98559">战场</h2>
-<div class="outline-text-2" id="text-orgff98559">
+<div id="outline-container-orgd7ecfaa" class="outline-2">
+<h2 id="orgd7ecfaa">战场</h2>
+<div class="outline-text-2" id="text-orgd7ecfaa">
 <p>
 对于自驱性强, 喜欢得到外部认可的人来说, 公司就是一个战场.
 </p>
@@ -657,9 +663,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org16fd8b4" class="outline-2">
-<h2 id="org16fd8b4">学校</h2>
-<div class="outline-text-2" id="text-org16fd8b4">
+<div id="outline-container-org6e346f3" class="outline-2">
+<h2 id="org6e346f3">学校</h2>
+<div class="outline-text-2" id="text-org6e346f3">
 <p>
 对于自我成长要求较高, 内心满足感较强的人来说, 公司就是另一个学校.
 </p>
@@ -674,9 +680,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org37b620c" class="outline-2">
-<h2 id="org37b620c">游乐场</h2>
-<div class="outline-text-2" id="text-org37b620c">
+<div id="outline-container-org24b0003" class="outline-2">
+<h2 id="org24b0003">游乐场</h2>
+<div class="outline-text-2" id="text-org24b0003">
 <p>
 对于家底丰厚, 衣食无忧的人来说, 公司更像是一个游乐场.
 </p>
@@ -691,9 +697,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org5ab45ca" class="outline-2">
-<h2 id="org5ab45ca">秀场</h2>
-<div class="outline-text-2" id="text-org5ab45ca">
+<div id="outline-container-org17cb863" class="outline-2">
+<h2 id="org17cb863">秀场</h2>
+<div class="outline-text-2" id="text-org17cb863">
 <p>
 还有一种是喜欢成就感的人, 他把公司当做秀场.
 </p>
@@ -708,9 +714,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org021c6b0" class="outline-2">
-<h2 id="org021c6b0">结论</h2>
-<div class="outline-text-2" id="text-org021c6b0">
+<div id="outline-container-org278d22d" class="outline-2">
+<h2 id="org278d22d">结论</h2>
+<div class="outline-text-2" id="text-org278d22d">
 <blockquote>
 <p>
 子曰：「君子和而不同，小人同而不和。」
@@ -926,8 +932,8 @@ Spacemacs = Vim + Emacs
 这篇文章，就记录一下自己是怎么从零开始配置一个符合自己使用习惯的Spacemacs。
 </p>
 
-<div id="outline-container-org24d6409" class="outline-2">
-<h2 id="org24d6409"><span class="section-number-2">1</span> 安装</h2>
+<div id="outline-container-org74e3bfa" class="outline-2">
+<h2 id="org74e3bfa"><span class="section-number-2">1</span> 安装</h2>
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
 <li>安装 <a href="https://emacsformacosx.com/">Emacs</a></li>
@@ -947,8 +953,8 @@ clone完成后，会多两个东西，
 </div>
 </div>
 
-<div id="outline-container-orgd17ca81" class="outline-2">
-<h2 id="orgd17ca81"><span class="section-number-2">2</span> 配置</h2>
+<div id="outline-container-orge1a1a8d" class="outline-2">
+<h2 id="orge1a1a8d"><span class="section-number-2">2</span> 配置</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 安装完成后，对于常规的配置，可以放置到 <code>~/.spacemacs</code> 文件中，就像Vim和Zsh一样。 但Spacemacs提供了 <a href="http://spacemacs.org/doc/LAYERS.html">layer</a> 概念，极大方便了插件的管理.
@@ -959,8 +965,8 @@ clone完成后，会多两个东西，
 </p>
 </div>
 
-<div id="outline-container-orgc7d2e65" class="outline-3">
-<h3 id="orgc7d2e65"><span class="section-number-3">2.1</span> .spacemacs</h3>
+<div id="outline-container-org8dd741f" class="outline-3">
+<h3 id="org8dd741f"><span class="section-number-3">2.1</span> .spacemacs</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li><p>
@@ -1112,8 +1118,8 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-orgec5cff3" class="outline-3">
-<h3 id="orgec5cff3"><span class="section-number-3">2.2</span> private layer</h3>
+<div id="outline-container-org24290cb" class="outline-3">
+<h3 id="org24290cb"><span class="section-number-3">2.2</span> private layer</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 首先把自己layer中想要的packages给列好, 并设置相应的启动配置项:
@@ -1335,9 +1341,9 @@ you should place your code here."
         <div class="col-md-2"></div>
             <h1>使用Org-Page搭建网站</h1>
             
-<div id="outline-container-org4e50173" class="outline-2">
-<h2 id="org4e50173">安装 Org-Page</h2>
-<div class="outline-text-2" id="text-org4e50173">
+<div id="outline-container-org0221efa" class="outline-2">
+<h2 id="org0221efa">安装 Org-Page</h2>
+<div class="outline-text-2" id="text-org0221efa">
 <p>
 使用 <code>Spacemacs</code> 安装Org-Page极其方便. 只需要在自己的layer中增加org-age即可:
 </p>
@@ -1354,9 +1360,9 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-org81da5e6" class="outline-2">
-<h2 id="org81da5e6">配置 Org-Page</h2>
-<div class="outline-text-2" id="text-org81da5e6">
+<div id="outline-container-org75ee41b" class="outline-2">
+<h2 id="org75ee41b">配置 Org-Page</h2>
+<div class="outline-text-2" id="text-org75ee41b">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(defun lijigang/init-org-page()
   "Initialize org-page to publish blog."
@@ -1400,9 +1406,9 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-org0e78c88" class="outline-2">
-<h2 id="org0e78c88">安装主题</h2>
-<div class="outline-text-2" id="text-org0e78c88">
+<div id="outline-container-orgd588d48" class="outline-2">
+<h2 id="orgd588d48">安装主题</h2>
+<div class="outline-text-2" id="text-orgd588d48">
 <ol class="org-ol">
 <li>git clone <a href="https://github.com/lijigang/ljg">https://github.com/lijigang/ljg</a></li>
 
