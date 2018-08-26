@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>增长的底层原理 - 捉妖记</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="ljg" />
+
+  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
+</head>
+
+  <body class="container">
+<header id="header">
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
+        <div class="container-fluid">
+<div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">捉妖记</a>
+        </div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/">Blog</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="http://www.zhihu.com/people/lijigang.com">知乎</a></li>
+        </ul>
+</div>
+</div>
+    </nav>
+</body>
+</header>
+
+<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>增长的底层原理</h1>
+            <p>
+人类从出生到成长为成人，只用了很短的时间，但余生这么久的时间确没有再在形体上成长，
+为什么会这样？ 人类为什么不会像一颗大树一样， 长个几十米高？
+</p>
+
+<p>
+公司从成立时战战兢兢，摸索着PMF在哪里，到后面不断扩大市场占有率， 达到行业老大的
+过程中， 为什么老板们都在焦虑「队伍大了不好带」？ 为什么公司老员工会感慨「公司变
+了， 不像之前一样有朝气了」？ 为什么不能无限制的扩大， 长久的生存下去？
+</p>
+
+<p>
+城市规模大小有没有限制？ 大城市和小城市相比，好处在哪里？ 是不是可能出现超大城市？
+</p>
+
+<p>
+上面这些关于生物、公司、城市的规模成长方面的问题， <code>Geoffrey West</code> 在规模这本书中
+通过一个简单的框架&#x2013;规模法则&#x2013;全部解释了。
+</p>
+
+<blockquote>
+<p>
+规模缩放是指在一个系统在规模发生变化时，如何做出响应。
+</p>
+
+<p>
+可以简单公式化（不精确）理解为 <b>Y = X<sup>k</sup></b>
+</p>
+
+<p>
+k=1， 我们称作线性缩放；k&gt;1， 我们称作超线性缩放；k&lt;1， 我们称作亚线性缩放
+</p>
+</blockquote>
+
+<p>
+我们日常经验或者潜意识做出的判断很容易走到线性缩放的路子上， 因为这样最简单。
+</p>
+
+<p>
+比如，一个70kg的成人注射某药剂的药量是100ml，那么一个7kg的婴儿应该注射多少药量？
+是不是下意识就想答10ml？
+</p>
+
+<p>
+再比如， 一个10万人的城市有3万个工作岗位， 那么一个100万人的城市大概有多少工作岗
+位？ 是30万个吗？
+</p>
+
+<p>
+作者在书中指出， 生物体的规模缩放指数约为0.75， 城市的基础设施建设规模缩放指数为
+0.85，城市的GDP规模缩放指数为1.15， 公司的规模缩放指数约为0.9.
+</p>
+
+<div id="outline-container-orgec4ba5b" class="outline-2">
+<h2 id="orgec4ba5b">生物的增长</h2>
+<div class="outline-text-2" id="text-orgec4ba5b">
+<p>
+所有生命的运行都是通过把物理或化学来源的能量转化为有机分子，这些有机分子通过新陈
+代谢过程构建、维持和繁殖复杂的、高度组织化的系统。这里面主要由两个系统运行实现：
+遗传密码系统和新陈代谢系统。
+</p>
+
+<p>
+我们每天仍然在进食，仍然在新陈代谢，但怎么就长到两米不到就不长了呢？ 原因是新陈
+代谢的能量被按比例分配给了 <code>现有细胞的维护</code> 和 <code>新细胞的生长</code> 。
+</p>
+
+<p>
+用以维持细胞所需的能量与现有细胞数成正比，即与生物重量成线性关系； 而代谢率呈亚
+线性缩放，k=3/4. 假设一个生物体的体型加倍，那么他体内细胞数相应加倍，所以维护细
+胞所需的能量也加了一倍。但其代谢率（能量供应）仅为原来的2<sup>(3/4)</sup>=1.682倍。所以用
+来维持细胞所需的能量比新陈代谢所能提供的能量增长更快，这就使得成长到一定阶段，用
+于生长的能量减少为零，停止生长。
+</p>
+
+<p>
+那为什么代谢率呈亚线性缩放？ 能量如何传递到细胞中，是被身体内的血管网络限制。
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7a53627" class="outline-2">
+<h2 id="org7a53627">公司的增长</h2>
+<div class="outline-text-2" id="text-org7a53627">
+<p>
+一家公司的可持续性增长最终是由其利润推动，即总收入与总支出的差额。
+</p>
+
+<p>
+总收入这个要素，通过分析公司员工数量和公司总收入的关系，在对数坐标下，这两者呈线性缩放。
+</p>
+
+<p>
+总支出这个要素，在公司规模较小时，呈亚线性变化，随着公司规模扩大，最终转变为近似线性变化。
+</p>
+
+<p>
+这就要求每家公司都必须要跟上指数级扩张的市场的脚步，即便一家公司收益在增长，但只
+要其增长速度落后于市场的增长，仍有可能会完蛋。
+</p>
+
+<p>
+年经的公司支出的亚线性变化，再加上资本扶持，使其可以快速增长。但随着规模变大，公
+司通常会增加更多地规定和流程，这也就导致了官僚的增加。 这些行为通常会牺牲创新和
+研发。作者分析标准普尔公司会计数据库的数据，发现随着公司规模增长，分配给研发的相
+对资源量会系统性下降，即随着公司扩大，对于创新的支持跟不上官僚和管理开支的增长。
+</p>
+
+<p>
+随着公司规模扩大，市场内存的反馈机制会导致其产品空间不断狭窄，反馈不好的产品全淘
+汰掉了，剩下的就是反馈良好的一两个产品。如何在市场的正反馈和开发新产品的长期战略
+需求之间取得平衡，是目前各大公司的巨大挑战。
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb941d3f" class="outline-2">
+<h2 id="orgb941d3f">城市的增长</h2>
+<div class="outline-text-2" id="text-orgb941d3f">
+<p>
+城市像生命体一样，会代谢能量和资源，产生废弃物，成长并进化，感染疾病， 它们也会变老。
+</p>
+
+<p>
+作者用规模缩放的思考框架，将城市也看作生命体，来分析城市的规模增长。作者挑选了加
+油站数量、专利数量、犯罪数量、餐厅数量等与城市人口规模的关系做为切入点，分析城市
+的缩放系数。
+</p>
+
+<p>
+统计结果显示，电线、道路、水管的总长度， 加油站数量， 与城市规模的缩放系数为
+0.85. 即城市规模增长一倍，只需要增加85%的物质基础设施。平均来看，城市规模越大，
+越绿色。而平均工资、专利数量、犯罪案件数量、餐厅数量等的缩放系数为1.15。值的一提
+的是，这些观察所得的规模法则适用于同一国家内的不同城市，即北京和南京的缩放关系可
+以通过这个法则推导，但不能直接拿北京和纽约来比。
+</p>
+
+<p>
+按上面的讨论，基础设施是亚线性缩放，城市产出是超线性缩放，那明显大城市会发展越来
+越好， 这种开放式增长， 最终应该是出现超大城市才对。但还有些其它因素需求考虑，比
+如邓巴数字，人类维持紧密社交关系的数量是有上限的。 比如上下班通勤时间，大多可接
+受为一小时以内，超大型城市，上班需要三五个小时，人们也无法正常生活了。所以城市规
+模的增长， 到了一定程度，应该会平缓甚至停滞。
+</p>
+</div>
+</div>
+
+    </div>
+</section>
+
+
+<footer id="footer">
+    <br />
+</footer>
+
+  </body>
+</html>
