@@ -4,10 +4,229 @@
     <title>捉妖记</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Sun, 26 Aug 2018 16:27:20 CST</pubDate>
-    <lastBuildDate>Sun, 26 Aug 2018 16:27:20 CST</lastBuildDate>
+    <pubDate>Wed, 29 Aug 2018 18:37:54 CST</pubDate>
+    <lastBuildDate>Wed, 29 Aug 2018 18:37:54 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>知识的形状</title>
+      <link>http://lijigang.github.io/blog/知识的形状/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>知识的形状</h1>
+            <p>
+知识有形状吗? 要想知道这个答案, 首先得定义下什么是知识.
+</p>
+
+<p>
+你对 <code>知识</code> 的认知, 取决于你评定信息的标准.
+</p>
+
+<p>
+柏拉图认为, 人们的观点中, 正确的, 并且是因为正当理由为人们所信服的子集, 才是知识;
+</p>
+
+<p>
+雅典人认为知识就是真实的观点, 笛卡尔认为知识是你在任何可想象的环境中都不会怀疑的
+事物, 科学家认为知识是经过精心设计的, 反复的实验能够使我们确信它.
+</p>
+
+<p>
+艾可夫提出了: 数据→信息→知识→智慧 (DIKW) 层级分类, 我们看到0和1, 他们代表什么,
+他们有什么意义, 他们能为我们提供什么帮助, 每一层都从下面那一层汲取价值.
+</p>
+
+<p>
+我们一直在说网络时代没有深度思考能力, 获得知识的效率比以前下降. 读 <code>David
+Weinberger</code> 的 知识的边界, 学到了网络式的知识的特点, 我们并不是没有深度思考能力了,
+而是需要对之前的学习方法做些调整.
+</p>
+
+<div id="outline-container-org780d69e" class="outline-2">
+<h2 id="org780d69e">减法变加法</h2>
+<div class="outline-text-2" id="text-org780d69e">
+<p>
+不管怎么定义知识, 我们如何理解知识的过程一直在演化迭代, 尤其是进入了网络时代之后.
+我们一直以来理解知识的策略就是 <code>做减法</code> : 不断地过滤筛选, 将复杂问题简化, 把信息量
+大的问题通过审核机制或进入门槛, 人为降低. 但到了网络时代, 我们现在的策略或者说是
+网络的特性是 <code>做加法</code> : 将任何一个想法, 它的每一个细枝末节都放置在巨大的,松散的网
+络之中.
+</p>
+
+<p>
+网络特性对于知识爆发的促进, 很自然的就引起了「信息过载」的话题. 但其实信息过载不
+是从有网络之后才出现的, 对于网络之前的人们, 图书馆中的存书和每年新出的期刊书籍已
+经是远远读不完的状态. 大家之所以现在对于信息过载这么焦虑, 主要的原因在于我们对于
+信息处理的过滤器失效了.
+</p>
+
+<p>
+之前的期刊杂志书籍, 由编辑或专业人士把关过滤, 符合一定标准的才能发行, 一定程度上
+已经帮我们做了很多的筛选工作. 但现在网络的自由开放, 不再需要专家审核, 任何人都可
+以发表自己的观点. 对于这种新的情况, 目前最有效的过滤器是 <code>算法推送</code> 和 <code>社交推荐</code> 这
+两种技术. 算法可以将汪洋大海般的信息做筛选, 把你可能感兴趣的推送到前边, 优先让你
+看到; 社交推荐基本可以看作是人以群分的应用, 你的朋友们感兴趣的, 很有可能你也会比
+较喜欢. 但这两种方式并没有从根本上解决问题, 你获取信息只能交给算法或身边的朋友吗?
+自由意志何在? 自己的筛选过滤器在哪里? 这些问题还需要每个人按自己的特点去摸索和确定.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6ea4783" class="outline-2">
+<h2 id="org6ea4783">知识的根基</h2>
+<div class="outline-text-2" id="text-org6ea4783">
+<p>
+人们对于知识殿堂的建立, 一直以来, 都有一个共识: 知识殿堂是一个框架, 里面有一个
+<code>根基</code> , 随着时代的发展, 人们越来越聪明, 在这个根基之上, 不断盖建更宏大的房子.
+</p>
+
+<p>
+虽然古人和现代人都认可知识殿堂是建立在牢固根基上面, 但两者对于 <code>根基</code> 是什么有着巨
+大的差异. 古人会将类推法做为根基, 将观察到的A情况, 类推到B情况, 不管结果如何. 而
+现代人将根基敲定为 <code>事实</code>. 判断是非对错, 不看A情况是什么样, 而看B情况的事实是怎样的.
+</p>
+
+<p>
+这个在现在看来简单到不能再简单的东西, 真不能想象人们达成这个共识竟然是近现代. 现
+在人们已经形成了遇到问题, 组建一个事实调查团, 通过排查问题, 找到事实真相的惯例.
+</p>
+
+<p>
+现代人形成了拿事实说话的习惯后, 在网络时代, 对任何一个具体问题, 基本一定会出现完
+全对立的声音, 甚至各方都能举出事实论据. 好像牛顿第三定律有了一个网络版本一样:
+</p>
+
+<blockquote>
+<p>
+在网络上, 每个事实都有一个大小相等, 方向相反的观点存在.
+</p>
+</blockquote>
+
+<p>
+可利用信息数量的大幅增加反而让我们比以往更容易犯错. 我们可以随手获得如何多的事实,
+以至于失去了得出结论的能力, 因为总是有其它事实支持其它的说法.
+</p>
+
+<p>
+事实还是事实, 但它们不再像之前我们所强调的一样, 是整体社会的基石. 以后怎么办?
+</p>
+</div>
+</div>
+
+<div id="outline-container-org29a669b" class="outline-2">
+<h2 id="org29a669b">网络的性质</h2>
+<div class="outline-text-2" id="text-org29a669b">
+<p>
+互联网有五个基本的性质:
+</p>
+
+<ol class="org-ol">
+<li>连接: 谁都可接入, 页面可跳转到任何地方</li>
+<li>多样性: 接入人员和内容的多样性, 决定了网络本身呈现了多样性</li>
+<li>子网络: 因网络足够自由, 相同兴趣的人员会成立小圈子, 形成子网络</li>
+<li>累积性: 网络内容可留存, 可随时查阅</li>
+<li>增长性: 马太效应, 因为丰富多样, 接入的反而更多</li>
+</ol>
+
+<p>
+我们应该达成一个潜在共识, 在通往真理和知识的道路上, 必须对那些持反对意见的人保持
+一种理性和开放的态度. 想象下启蒙运动时的画面: 理性的人们共聚一堂, 以尊重和坦诚的
+姿态探讨他们之间的分歧.
+</p>
+
+<p>
+在网络时代, 对于这种被放大的分歧, 对于我们获得真知, 到底是好还是坏? 我们有了更多
+地信息, 可以更好地了解事实的完整真相; 我们同时也有了更多地矛盾事实, 如何像之前一
+样快速形成结论? 是我们之前对于知识的定义太仓促和狭隘了吗? 现在这种混乱无形的方式
+才是知识真正的模样吗?
+</p>
+</div>
+</div>
+<div id="outline-container-orgc171b8f" class="outline-2">
+<h2 id="orgc171b8f">知识的形状</h2>
+<div class="outline-text-2" id="text-orgc171b8f">
+</div>
+<div id="outline-container-org5c842f0" class="outline-3">
+<h3 id="org5c842f0">三角形的知识</h3>
+<div class="outline-text-3" id="text-org5c842f0">
+<p>
+艾可夫的DIKW层级分类, 画出来的形状, 其实就是一个金字塔形状.
+</p>
+
+<p>
+数据经过整理, 被提取出了信息; 信息经过分析, 形成了知识; 知识经过实践, 变成了智慧.
+</p>
+
+<p>
+我们明显可以感觉到, 这种金字塔形状中的「知识」, 和我们心里认为的 <code>知识</code> 不是一个东
+西. 就像是知识的一个切片.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb1a51c5" class="outline-3">
+<h3 id="orgb1a51c5">长条式的知识</h3>
+<div class="outline-text-3" id="text-orgb1a51c5">
+<p>
+我们认知世界的工具中最重要一个就是 <code>演绎法</code> :
+</p>
+
+<ol class="org-ol">
+<li>所有人都会死</li>
+<li>苏格拉底是人</li>
+<li>所以苏格拉底也会死</li>
+</ol>
+
+<p>
+当然, 我们在认识世界的过程中, 需要比这长得多的论证, 但本质形式上就是上面的三段论.
+</p>
+
+<p>
+我们可能需要从A开始, 一直论证到Z, 每一步都要经得起推敲. 这种长条式 (long-form)
+的论证方式, 就是一直以来人类用于推理的最好方式.
+</p>
+
+<p>
+尤其是再加上书籍这种知识媒介的特点, 我们不得不建立一个长长的思考序列, 由一个想法
+通向另一个想法, 只是因为书籍是一张纸一张纸装订起来的.
+</p>
+
+<p>
+长条式思考之所以呈现成这种样式, 是因为书籍这个载体. 而书籍又一直是知识的媒介, 所
+以我们很自然的就会认为, 知识就应该是这种形状.
+</p>
+</div>
+</div>
+<div id="outline-container-org250cdf1" class="outline-3">
+<h3 id="org250cdf1">网络式的知识</h3>
+<div class="outline-text-3" id="text-org250cdf1">
+<blockquote>
+<p>
+正如十字螺丝刀普及之后, 一字螺丝刀太滑的缺点才变得明显; 印刷书籍的很多缺点, 也是
+在一个完全不同的介质出现之后才变得明显起来.
+</p>
+</blockquote>
+
+<p>
+在网络上, 观点从线装的书页中解释出来, 我们才发现, 以前的长条式作品原来还是不够长.
+它们在杂乱的观点中发现秩序, 明晰观点, 但却只能通过强迫读者的方式, 让读者的目光只
+能沿着作者铺成的小路前行. 但思想从来不是孤立考量观察的东西, 我们有的只是思想之网.
+</p>
+
+<p>
+如果书籍告诉我们, 知识是从A到Z的旅程, 那么网络化的知识可能会告诉我们, 世界本来面
+目, 并非是一个逻辑严密的论证, 而更像是一个无定形的, 相互交织的, 不可掌控的大网.
+</p>
+</div>
+</div>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2018-08-29</pubDate>
+      <guid>http://lijigang.github.io/blog/知识的形状/</guid>
+    </item>
     <item>
       <title>增长的底层原理</title>
       <link>http://lijigang.github.io/blog/增长的底层原理/</link>
@@ -68,9 +287,9 @@ k=1， 我们称作线性缩放；k&gt;1， 我们称作超线性缩放；k&lt;1
 0.85，城市的GDP规模缩放指数为1.15， 公司的规模缩放指数约为0.9.
 </p>
 
-<div id="outline-container-orgec4ba5b" class="outline-2">
-<h2 id="orgec4ba5b">生物的增长</h2>
-<div class="outline-text-2" id="text-orgec4ba5b">
+<div id="outline-container-org5e2116a" class="outline-2">
+<h2 id="org5e2116a">生物的增长</h2>
+<div class="outline-text-2" id="text-org5e2116a">
 <p>
 所有生命的运行都是通过把物理或化学来源的能量转化为有机分子，这些有机分子通过新陈
 代谢过程构建、维持和繁殖复杂的、高度组织化的系统。这里面主要由两个系统运行实现：
@@ -96,9 +315,9 @@ k=1， 我们称作线性缩放；k&gt;1， 我们称作超线性缩放；k&lt;1
 </div>
 </div>
 
-<div id="outline-container-org7a53627" class="outline-2">
-<h2 id="org7a53627">公司的增长</h2>
-<div class="outline-text-2" id="text-org7a53627">
+<div id="outline-container-org2bfcbbe" class="outline-2">
+<h2 id="org2bfcbbe">公司的增长</h2>
+<div class="outline-text-2" id="text-org2bfcbbe">
 <p>
 一家公司的可持续性增长最终是由其利润推动，即总收入与总支出的差额。
 </p>
@@ -131,9 +350,9 @@ k=1， 我们称作线性缩放；k&gt;1， 我们称作超线性缩放；k&lt;1
 </div>
 </div>
 
-<div id="outline-container-orgb941d3f" class="outline-2">
-<h2 id="orgb941d3f">城市的增长</h2>
-<div class="outline-text-2" id="text-orgb941d3f">
+<div id="outline-container-org12178ed" class="outline-2">
+<h2 id="org12178ed">城市的增长</h2>
+<div class="outline-text-2" id="text-org12178ed">
 <p>
 城市像生命体一样，会代谢能量和资源，产生废弃物，成长并进化，感染疾病， 它们也会变老。
 </p>
@@ -199,13 +418,13 @@ k=1， 我们称作线性缩放；k&gt;1， 我们称作超线性缩放；k&lt;1
 各行业的商业模型会有些差异, 对应到这个公式中的指标会有细拆或组合的情况. 但本质上, 都是这四个关键因素的乘积.
 </p>
 
-<div id="outline-container-org4aa5fca" class="outline-2">
-<h2 id="org4aa5fca">流量</h2>
-<div class="outline-text-2" id="text-org4aa5fca">
+<div id="outline-container-org91fb8cb" class="outline-2">
+<h2 id="org91fb8cb">流量</h2>
+<div class="outline-text-2" id="text-org91fb8cb">
 </div>
-<div id="outline-container-org3a72be6" class="outline-3">
-<h3 id="org3a72be6">流量洼地 = 低获客成本</h3>
-<div class="outline-text-3" id="text-org3a72be6">
+<div id="outline-container-org4126921" class="outline-3">
+<h3 id="org4126921">流量洼地 = 低获客成本</h3>
+<div class="outline-text-3" id="text-org4126921">
 <p>
 在商人眼中，对于流量就是一句：如何以 <code>尽可能低的价格</code> 获得 <code>尽可能多的流量</code> 。
 </p>
@@ -235,9 +454,9 @@ k=1， 我们称作线性缩放；k&gt;1， 我们称作超线性缩放；k&lt;1
 </div>
 </div>
 
-<div id="outline-container-orgd5e3e27" class="outline-3">
-<h3 id="orgd5e3e27">引流品 = 抓手</h3>
-<div class="outline-text-3" id="text-orgd5e3e27">
+<div id="outline-container-orgdc86933" class="outline-3">
+<h3 id="orgdc86933">引流品 = 抓手</h3>
+<div class="outline-text-3" id="text-orgdc86933">
 <p>
 除了花钱买流量以外，还可以通过利润换流量的玩法来创造流量。
 </p>
@@ -262,9 +481,9 @@ k=1， 我们称作线性缩放；k&gt;1， 我们称作超线性缩放；k&lt;1
 </div>
 </div>
 
-<div id="outline-container-orgad69586" class="outline-3">
-<h3 id="orgad69586">关联流量 = 精准流量</h3>
-<div class="outline-text-3" id="text-orgad69586">
+<div id="outline-container-org0f6674a" class="outline-3">
+<h3 id="org0f6674a">关联流量 = 精准流量</h3>
+<div class="outline-text-3" id="text-org0f6674a">
 <p>
 想获得流量，要先分析你的用户群体都在哪，然后去他们经常在的地方吸引他们的注意力，把他们拉到你的地方去消费。
 </p>
@@ -280,17 +499,17 @@ k=1， 我们称作线性缩放；k&gt;1， 我们称作超线性缩放；k&lt;1
 </div>
 </div>
 
-<div id="outline-container-org39998c6" class="outline-2">
-<h2 id="org39998c6">转化率</h2>
-<div class="outline-text-2" id="text-org39998c6">
+<div id="outline-container-org5c25556" class="outline-2">
+<h2 id="org5c25556">转化率</h2>
+<div class="outline-text-2" id="text-org5c25556">
 <p>
 你通过购买流量或者创造流量的方式，吸引了大量目标用户进来。下一步就是要解决如何让他们掏腰包购买你产品的问题了。
 </p>
 </div>
 
-<div id="outline-container-org885dca6" class="outline-3">
-<h3 id="org885dca6">展示设计</h3>
-<div class="outline-text-3" id="text-org885dca6">
+<div id="outline-container-org239cd68" class="outline-3">
+<h3 id="org239cd68">展示设计</h3>
+<div class="outline-text-3" id="text-org239cd68">
 <p>
 除了产品本身的包装设计以外， 还有一个 <code>动线设计</code> 的基本功需要修炼。
 </p>
@@ -316,9 +535,9 @@ k=1， 我们称作线性缩放；k&gt;1， 我们称作超线性缩放；k&lt;1
 </div>
 </div>
 
-<div id="outline-container-org020dc3d" class="outline-3">
-<h3 id="org020dc3d">决策时间</h3>
-<div class="outline-text-3" id="text-org020dc3d">
+<div id="outline-container-orgd5fda4d" class="outline-3">
+<h3 id="orgd5fda4d">决策时间</h3>
+<div class="outline-text-3" id="text-orgd5fda4d">
 <p>
 消费者在线下购买一个产品，平均决策时间是13秒； 线上是19秒。
 </p>
@@ -373,9 +592,9 @@ k=1， 我们称作线性缩放；k&gt;1， 我们称作超线性缩放；k&lt;1
 </div>
 </div>
 
-<div id="outline-container-org9f54d00" class="outline-2">
-<h2 id="org9f54d00">客单价</h2>
-<div class="outline-text-2" id="text-org9f54d00">
+<div id="outline-container-org3e12473" class="outline-2">
+<h2 id="org3e12473">客单价</h2>
+<div class="outline-text-2" id="text-org3e12473">
 <p>
 用户被你吸引到店里，也确实下单了，如何提升客单价？
 </p>
@@ -406,13 +625,13 @@ k=1， 我们称作线性缩放；k&gt;1， 我们称作超线性缩放；k&lt;1
 </div>
 </div>
 
-<div id="outline-container-org0f23ee3" class="outline-2">
-<h2 id="org0f23ee3">复购率</h2>
-<div class="outline-text-2" id="text-org0f23ee3">
+<div id="outline-container-orgd72aeb7" class="outline-2">
+<h2 id="orgd72aeb7">复购率</h2>
+<div class="outline-text-2" id="text-orgd72aeb7">
 </div>
-<div id="outline-container-org5eaf044" class="outline-3">
-<h3 id="org5eaf044">会员制</h3>
-<div class="outline-text-3" id="text-org5eaf044">
+<div id="outline-container-org3ede2d1" class="outline-3">
+<h3 id="org3ede2d1">会员制</h3>
+<div class="outline-text-3" id="text-org3ede2d1">
 <p>
 用户永远想要更优惠的价格， 商家是想更多的流量，可以接受薄利多销。
 </p>
@@ -478,9 +697,9 @@ k=1， 我们称作线性缩放；k&gt;1， 我们称作超线性缩放；k&lt;1
 西方哲学有三大基本问题: 形而上学, 知识论, 伦理学.
 </p>
 
-<div id="outline-container-org216debe" class="outline-2">
-<h2 id="org216debe">形而上学</h2>
-<div class="outline-text-2" id="text-org216debe">
+<div id="outline-container-org3846ffa" class="outline-2">
+<h2 id="org3846ffa">形而上学</h2>
+<div class="outline-text-2" id="text-org3846ffa">
 <p>
 形而上学又被称为「第一哲学」, 它是一门研究事物本质和基本原理的学问. 从古到今, 从来没有任何一个形而上学问题被解决.
 </p>
@@ -504,9 +723,9 @@ k=1， 我们称作线性缩放；k&gt;1， 我们称作超线性缩放；k&lt;1
 </div>
 </div>
 
-<div id="outline-container-orgfbb43de" class="outline-2">
-<h2 id="orgfbb43de">知识论</h2>
-<div class="outline-text-2" id="text-orgfbb43de">
+<div id="outline-container-orgc30dbe5" class="outline-2">
+<h2 id="orgc30dbe5">知识论</h2>
+<div class="outline-text-2" id="text-orgc30dbe5">
 <p>
 一直到了科学革命后，人们理解到这世界不像基督教或其他宗教所描述的那样，以前从教堂及传教士口中所获得的知识大多是假的，或者说，那些根本就不算知识。从教堂里获得知识的渠道已经崩溃，人们需要思考另外一种获得知识的途径，以及获得知识的方法。
 </p>
@@ -529,9 +748,9 @@ k=1， 我们称作线性缩放；k&gt;1， 我们称作超线性缩放；k&lt;1
 </div>
 </div>
 
-<div id="outline-container-org1ee843d" class="outline-2">
-<h2 id="org1ee843d">伦理学</h2>
-<div class="outline-text-2" id="text-org1ee843d">
+<div id="outline-container-org7a72354" class="outline-2">
+<h2 id="org7a72354">伦理学</h2>
+<div class="outline-text-2" id="text-org7a72354">
 <p>
 人是群居动物, 人与人之间必须要有所联系，有所关联。既然人际之间必须有所关联，自然
 而然就会有一些大家共同遵守的规范产生。这些规范让人与人之间可以安定平稳地生活在一
@@ -697,17 +916,17 @@ R(a, u, c) = eCPM
 </p></li>
 </ol>
 
-<div id="outline-container-orgc86fac0" class="outline-2">
-<h2 id="orgc86fac0">在线广告类别</h2>
-<div class="outline-text-2" id="text-orgc86fac0">
+<div id="outline-container-org430e16b" class="outline-2">
+<h2 id="org430e16b">在线广告类别</h2>
+<div class="outline-text-2" id="text-org430e16b">
 <p>
 作者把互联网广告分成了四个类别:
 </p>
 </div>
 
-<div id="outline-container-org2acf294" class="outline-3">
-<h3 id="org2acf294">合约广告</h3>
-<div class="outline-text-3" id="text-org2acf294">
+<div id="outline-container-org1663659" class="outline-3">
+<h3 id="org1663659">合约广告</h3>
+<div class="outline-text-3" id="text-org1663659">
 <p>
 主要包括两种方式:
 </p>
@@ -730,9 +949,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-orge4094fd" class="outline-3">
-<h3 id="orge4094fd">竞价广告</h3>
-<div class="outline-text-3" id="text-orge4094fd">
+<div id="outline-container-org6cc44d6" class="outline-3">
+<h3 id="org6cc44d6">竞价广告</h3>
+<div class="outline-text-3" id="text-org6cc44d6">
 <p>
 随着互联网广告行业的发展, 广告投放朝着精细化的方向不断前进. 交易模式也从原来的合约方式演进到了竞价方式. 不再像之前一样, 按时间段或批量售卖, 而是按不同的人群进行区分售卖, 价高者得. 这种模式同时还有一个好处, 即原来按合约售卖卖不掉的剩余流量, 现在也有可能通过竞价被售卖出去.
 </p>
@@ -751,17 +970,17 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-orgc2fd102" class="outline-3">
-<h3 id="orgc2fd102">程序化交易广告</h3>
-<div class="outline-text-3" id="text-orgc2fd102">
+<div id="outline-container-org7db4b0d" class="outline-3">
+<h3 id="org7db4b0d">程序化交易广告</h3>
+<div class="outline-text-3" id="text-org7db4b0d">
 <p>
 市场的发展方向是向需求方彻底开放(毕竟是金主爸爸), 除了允许广告主按照媒体方或广告平台定义好的用户划分来购买以外, 进一步演化到了允许广告主自行选择流量和在每一次展示上独立出价, 参与竞价. 而这种方式, 就产生了以实时竞价(RTB)为核心的程序化交易市场.
 </p>
 </div>
 </div>
-<div id="outline-container-org40406ca" class="outline-3">
-<h3 id="org40406ca">原生广告</h3>
-<div class="outline-text-3" id="text-org40406ca">
+<div id="outline-container-orgd4dd36e" class="outline-3">
+<h3 id="orgd4dd36e">原生广告</h3>
+<div class="outline-text-3" id="text-orgd4dd36e">
 <p>
 在移动互联网时代到来之后, 屏幕较小的移动设备环境下, 独立展示和运营广告和内容遇到的挑战. 业务开始探讨将内容和广告混合的道路(Content as ad), 提升变现效率.
 </p>
@@ -806,9 +1025,9 @@ R(a, u, c) = eCPM
 </div>
 
 
-<div id="outline-container-orgf4033e7" class="outline-2">
-<h2 id="orgf4033e7">战场</h2>
-<div class="outline-text-2" id="text-orgf4033e7">
+<div id="outline-container-orgff803fd" class="outline-2">
+<h2 id="orgff803fd">战场</h2>
+<div class="outline-text-2" id="text-orgff803fd">
 <p>
 对于自驱性强, 喜欢得到外部认可的人来说, 公司就是一个战场.
 </p>
@@ -823,9 +1042,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org45b2cab" class="outline-2">
-<h2 id="org45b2cab">学校</h2>
-<div class="outline-text-2" id="text-org45b2cab">
+<div id="outline-container-org9372e47" class="outline-2">
+<h2 id="org9372e47">学校</h2>
+<div class="outline-text-2" id="text-org9372e47">
 <p>
 对于自我成长要求较高, 内心满足感较强的人来说, 公司就是另一个学校.
 </p>
@@ -840,9 +1059,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org1e6185b" class="outline-2">
-<h2 id="org1e6185b">游乐场</h2>
-<div class="outline-text-2" id="text-org1e6185b">
+<div id="outline-container-org52abfc7" class="outline-2">
+<h2 id="org52abfc7">游乐场</h2>
+<div class="outline-text-2" id="text-org52abfc7">
 <p>
 对于家底丰厚, 衣食无忧的人来说, 公司更像是一个游乐场.
 </p>
@@ -857,9 +1076,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org0c55b72" class="outline-2">
-<h2 id="org0c55b72">秀场</h2>
-<div class="outline-text-2" id="text-org0c55b72">
+<div id="outline-container-org6a993ad" class="outline-2">
+<h2 id="org6a993ad">秀场</h2>
+<div class="outline-text-2" id="text-org6a993ad">
 <p>
 还有一种是喜欢成就感的人, 他把公司当做秀场.
 </p>
@@ -874,9 +1093,9 @@ R(a, u, c) = eCPM
 </div>
 </div>
 
-<div id="outline-container-org4913436" class="outline-2">
-<h2 id="org4913436">结论</h2>
-<div class="outline-text-2" id="text-org4913436">
+<div id="outline-container-orga9a0572" class="outline-2">
+<h2 id="orga9a0572">结论</h2>
+<div class="outline-text-2" id="text-orga9a0572">
 <blockquote>
 <p>
 子曰：「君子和而不同，小人同而不和。」
@@ -1092,8 +1311,8 @@ Spacemacs = Vim + Emacs
 这篇文章，就记录一下自己是怎么从零开始配置一个符合自己使用习惯的Spacemacs。
 </p>
 
-<div id="outline-container-org36a1434" class="outline-2">
-<h2 id="org36a1434"><span class="section-number-2">1</span> 安装</h2>
+<div id="outline-container-org736f14e" class="outline-2">
+<h2 id="org736f14e"><span class="section-number-2">1</span> 安装</h2>
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
 <li>安装 <a href="https://emacsformacosx.com/">Emacs</a></li>
@@ -1113,8 +1332,8 @@ clone完成后，会多两个东西，
 </div>
 </div>
 
-<div id="outline-container-org5a1d901" class="outline-2">
-<h2 id="org5a1d901"><span class="section-number-2">2</span> 配置</h2>
+<div id="outline-container-orgb6160ce" class="outline-2">
+<h2 id="orgb6160ce"><span class="section-number-2">2</span> 配置</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 安装完成后，对于常规的配置，可以放置到 <code>~/.spacemacs</code> 文件中，就像Vim和Zsh一样。 但Spacemacs提供了 <a href="http://spacemacs.org/doc/LAYERS.html">layer</a> 概念，极大方便了插件的管理.
@@ -1125,8 +1344,8 @@ clone完成后，会多两个东西，
 </p>
 </div>
 
-<div id="outline-container-org4514e41" class="outline-3">
-<h3 id="org4514e41"><span class="section-number-3">2.1</span> .spacemacs</h3>
+<div id="outline-container-orgf34fcc6" class="outline-3">
+<h3 id="orgf34fcc6"><span class="section-number-3">2.1</span> .spacemacs</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li><p>
@@ -1278,8 +1497,8 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-org381472b" class="outline-3">
-<h3 id="org381472b"><span class="section-number-3">2.2</span> private layer</h3>
+<div id="outline-container-org55f1cf9" class="outline-3">
+<h3 id="org55f1cf9"><span class="section-number-3">2.2</span> private layer</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 首先把自己layer中想要的packages给列好, 并设置相应的启动配置项:
@@ -1501,9 +1720,9 @@ you should place your code here."
         <div class="col-md-2"></div>
             <h1>使用Org-Page搭建网站</h1>
             
-<div id="outline-container-org4ae0a68" class="outline-2">
-<h2 id="org4ae0a68">安装 Org-Page</h2>
-<div class="outline-text-2" id="text-org4ae0a68">
+<div id="outline-container-orgad31136" class="outline-2">
+<h2 id="orgad31136">安装 Org-Page</h2>
+<div class="outline-text-2" id="text-orgad31136">
 <p>
 使用 <code>Spacemacs</code> 安装Org-Page极其方便. 只需要在自己的layer中增加org-age即可:
 </p>
@@ -1520,9 +1739,9 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-orgff42819" class="outline-2">
-<h2 id="orgff42819">配置 Org-Page</h2>
-<div class="outline-text-2" id="text-orgff42819">
+<div id="outline-container-org9706db3" class="outline-2">
+<h2 id="org9706db3">配置 Org-Page</h2>
+<div class="outline-text-2" id="text-org9706db3">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(defun lijigang/init-org-page()
   "Initialize org-page to publish blog."
@@ -1566,9 +1785,9 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-orgd83a61e" class="outline-2">
-<h2 id="orgd83a61e">安装主题</h2>
-<div class="outline-text-2" id="text-orgd83a61e">
+<div id="outline-container-org222274a" class="outline-2">
+<h2 id="org222274a">安装主题</h2>
+<div class="outline-text-2" id="text-org222274a">
 <ol class="org-ol">
 <li>git clone <a href="https://github.com/lijigang/ljg">https://github.com/lijigang/ljg</a></li>
 
