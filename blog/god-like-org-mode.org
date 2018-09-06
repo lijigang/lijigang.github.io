@@ -27,6 +27,46 @@ reproducible research.
 一个不写代码的产品, 使用 Spacemacs 的 Orgmode 记录日常时间和项目, 就开始了:
 
 * 安装 Org-mode
+Org 现在已经是 Emacs 出厂自带的一部分了， 所以只要你现在打开 Emacs 就可以直接使
+用 Org. 但如果你不想使用 Emacs 自带的 Org 版本， 想安装一个更新版本， 你可以有三
+种办法来实现：
+
+1. 使用 Emacs package system
+
+   #+begin_src emacs-lisp
+   M-x package-install RET org
+   #+end_src
+
+   这种安装方法，安装的org版本，需要看你配置源中对应的版本， 而且安装时需要确保
+   没有org相关函数装载， 不推荐使用。
+
+2. 把新版 Org 下载到本地
+
+   [[https://orgmode.org/][Org 官网]] 有最新版本的压缩包可下载到本地， 然后只需要将解压后的目录加到
+   load-path变量即可。
+
+   #+begin_src emacs-lisp
+   (add-to-list 'load-path "~/path/to/orgdir/lisp")
+   #+end_src
+
+   目前我使用的就是这个办法，并将解压后的目录放到了iCloud中， 多端同步就直接到位
+   了。
+
+3. 使用 Org 的 git 仓库
+
+   #+begin_src bash
+   $ git clone https://code.orgmode.org/bzg/org-mode.git
+
+   $ cd org-mode/
+
+   $ make autoloads
+   #+end_src
+
+   时刻与最新版本保持同步，很容易配置出问题。 为了稳定起见， 目前没采用这个办法。
+
+
+不管你选择哪个方式， 安装成功后， 每当你打开 .org 后缀的文件时，Emacs 默认会使用
+Org mode。
 
 * 效率管理的原子 : Task
 
