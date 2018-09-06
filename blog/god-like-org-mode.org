@@ -27,9 +27,9 @@ reproducible research.
 一个不写代码的产品, 使用 Spacemacs 的 Orgmode 记录日常时间和项目, 就开始了:
 
 * 安装 Org-mode
-Org 现在已经是 Emacs 出厂自带的一部分了， 所以只要你现在打开 Emacs 就可以直接使
-用 Org. 但如果你不想使用 Emacs 自带的 Org 版本， 想安装一个更新版本， 你可以有三
-种办法来实现：
+Org 现在已经是 Emacs 出厂自带的一部分了，所以只要你现在打开 Emacs 就可以直接使用
+Org. 但如果你不想使用 Emacs 自带的 Org 版本，想安装一个更新版本，你可以有三种办
+法来实现：
 
 1. 使用 Emacs package system
 
@@ -37,19 +37,19 @@ Org 现在已经是 Emacs 出厂自带的一部分了， 所以只要你现在�
    M-x package-install RET org
    #+end_src
 
-   这种安装方法，安装的org版本，需要看你配置源中对应的版本， 而且安装时需要确保
-   没有org相关函数装载， 不推荐使用。
+   这种安装方法，安装的org版本，需要看你配置源中对应的版本，而且安装时需要确保没
+   有org相关函数装载，不推荐使用。
 
 2. 把新版 Org 下载到本地
 
-   [[https://orgmode.org/][Org 官网]] 有最新版本的压缩包可下载到本地， 然后只需要将解压后的目录加到
+   [[https://orgmode.org/][Org 官网]] 有最新版本的压缩包可下载到本地，然后只需要将解压后的目录加到
    load-path变量即可。
 
    #+begin_src emacs-lisp
    (add-to-list 'load-path "~/path/to/orgdir/lisp")
    #+end_src
 
-   目前我使用的就是这个办法，并将解压后的目录放到了iCloud中， 多端同步就直接到位
+   目前我使用的就是这个办法，并将解压后的目录放到了iCloud中，多端同步就直接到位
    了。
 
 3. 使用 Org 的 git 仓库
@@ -62,15 +62,90 @@ Org 现在已经是 Emacs 出厂自带的一部分了， 所以只要你现在�
    $ make autoloads
    #+end_src
 
-   时刻与最新版本保持同步，很容易配置出问题。 为了稳定起见， 目前没采用这个办法。
+   时刻与最新版本保持同步，很容易配置出问题。为了稳定起见，目前没采用这个办法。
 
 
-不管你选择哪个方式， 安装成功后， 每当你打开 .org 后缀的文件时，Emacs 默认会使用
+不管你选择哪个方式，安装成功后，每当你打开 .org 后缀的文件时，Emacs默认会使用
 Org mode。
 
 * 效率管理的原子 : Task
-
 ** State : 任务的状态变更
+在效率管理的过程中，我们的原始对象始终是一项具体的事项，这个事项在不同的软件中有
+不同的称呼，我统一使用 =任务（Task）= 来称呼它。
+
+在 Org 中，对应的专业名词叫 =Headline= , 如果一行文本是以一个或多个「*」开头， 空
+格后跟一段文本，那么这一行就是 =Headline= ，那段文本就是我们想要定义的某个具体任务。
+
+而一个任务的子任务，在Org中的表示方式很简单，在任务下方新起一行，并比该任务多一
+个「*」即可。子任务的子任务怎么表示，同样方法，在子任务下方再多一个「*」开头的任
+务就好了。
+
+
+#+begin_verse
+  * Top level headline
+  ** Second level
+  ***** 3rd level
+      some text
+  ***** 3rd level
+      more text
+
+  * Another top level headline
+#+end_verse
+
+看着上面的例子，有没有感觉到不舒服？这么多星星符号罗列在一起感觉很乱，Org 有一个
+缩进模式，当打开后，每个Headline只显示一个星星符号，同时会按照所属层级进行适当地
+缩进. 另外，一直看着一个星星符号也太无聊了，我们可以自定义每个层级显示的符号：
+
+  #+begin_src emacs-lisp
+  ;; 打开org-indent mode
+  (setq org-startup-indented t)
+
+  ;; 设置bullet list
+  (setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
+  #+end_src
+
+
+配置上面那行代码后，显示效果如下：
+
+#+begin_src emacs-lisp
+* Top level headline
+** Second level
+***** 3rd level
+    some text
+***** 3rd level
+    more text
+
+* Another top level headline
+#+end_src
+
+样式调整好看些了，我们使用一下看看。一个任务写了一段相关文本后，想开始新的一个任
+务，那么之前的任务就不是当前的重点了，一般的编辑器都是滑动鼠标，把当前新的任务滚
+动到屏幕中间之类的操作；而在Org中，我们可以轻轻按一下TAB，之前的任务连带它下面的
+文本会折叠成一行，不占用宝贵的屏幕空间。 后面如果想查看这个任务下的内容，移动到
+该任务，再按下TAB即可展开。
+
+当你使用了一段时间，一个任务已经完成了，这时候怎么标识待做任务和已完成任务？ org
+有个变量可以指定任务状态的标识文字， 当然最简单的就是直接使用 todo/done 之类的了，
+但你也可以按自己的需要去设置，比如待做、进行中、稍后再做、交另人做、已完成等。
+
+#+begin_src emacs-lisp
+;; 设置todo keywords
+(setq org-todo-keywords
+      '((sequence "TODO" "HAND" "|" "DONE")))
+#+end_src
+
+你如果要变更某个任务的状态，只需要把光标定位到该任务，并按下C-c C-t，就会按你设
+定的状态文案去变更状态，重复按，即会顺序变更状态。（在Spacemacs中，只需要按t即可）
+
+只是显示一个TODO，好像也不是太漂亮。可以针对这些状态关键词设置单独的前景色和背景
+色，突出下显示效果：
+
+#+begin_src emacs-lisp
+;; 调试好久的颜色，效果超赞！ todo keywords 增加背景色
+(setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
+                                ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
+                                ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
+#+end_src
 
 ** Capture : 如何快速记录任务
 
