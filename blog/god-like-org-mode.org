@@ -20,11 +20,12 @@ reproducible research.
 [[http://ehneilsen.net/notebook/orgExamples/org-examples.html][Cookbook]] , 当然也少不了最最经典的 [[http://doc.norang.ca/org-mode.html][Organize Your Life In Plain Text!]] .
 
 我个人是Vim的忠实粉丝, 在我看来, Vim 的 mode editting 已经是文本编辑的效率极限了.
-但自从体验了一次 Orgmode 的功能, 只能转投 Emacs 的阵营. 因不习惯 Emacs 变态的组
-合式按键, 适应了好久. 万幸, Spacemacs 降世, 它竟然完美的综合了 Emacs 的强大包容
-性和 Vim 的强大编辑效率, 我能想象到的最美好的事情不外如此!
+但自从体验了一次 Org mode 的功能, 实在是太强大了，只能转投 Emacs 的阵营. 因不习
+惯 Emacs 变态的组合式按键, 适应了好久. 万幸, 后来 Spacemacs 降世, 它竟然完美的综
+合了 Emacs 的强大包容性和 Vim 的强大编辑效率, 我能想象到的最美好的事情不外如此!
 
-一个不写代码的产品, 使用 Spacemacs 的 Orgmode 记录日常时间和项目, 就开始了:
+一个不写代码的产品, 使用 Spacemacs 的 Org mode 记录日常时间和项目的折腾之旅, 就
+这样开始了:
 
 * 安装 Org-mode
 Org 现在已经是 Emacs 出厂自带的一部分了，所以只要你现在打开 Emacs 就可以直接使用
@@ -65,7 +66,7 @@ Org. 但如果你不想使用 Emacs 自带的 Org 版本，想安装一个更新
    时刻与最新版本保持同步，很容易配置出问题。为了稳定起见，目前没采用这个办法。
 
 
-不管你选择哪个方式，安装成功后，每当你打开 .org 后缀的文件时，Emacs默认会使用
+不管你选择哪个方式，安装成功后，每当你打开 .org 后缀的文件时，Emacs 默认会使用
 Org mode。
 
 * 效率管理的原子 : Task
@@ -107,8 +108,8 @@ Org mode。
 文本会折叠成一行，不占用宝贵的屏幕空间。 后面如果想查看这个任务下的内容，移动到
 该任务，再按下TAB即可展开。
 
-当你使用了一段时间，一个任务已经完成了，这时候怎么标识待做任务和已完成任务？ org
-有个变量可以指定任务状态的标识文字， 当然最简单的就是直接使用 todo/done 之类的了，
+当你使用了一段时间，一个任务已经完成了，这时候怎么标识待做任务和已完成任务？org
+有个变量可以指定任务状态的标识文字，当然最简单的就是直接使用 todo/done 之类的了，
 但你也可以按自己的需要去设置，比如待做、进行中、稍后再做、交另人做、已完成等。
 
 #+begin_src emacs-lisp
