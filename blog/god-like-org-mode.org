@@ -5,118 +5,51 @@
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
 
 #+BEGIN_QUOTE
-Org mode is for keeping notes, maintaining TODO lists, planning projects, and
-authoring documents with a fast and effective plain-text system.
+Org is a mode for keeping notes, maintaining TODO lists, and project planning
+with a fast and effective plain-text system.
+
+It also is an authoring system with unique support for literate programming and
+reproducible research.
 #+END_QUOTE
 
-Emacs中的 Org mode 是目前接触过的笔记管理, GTD管理以及时间记录相关的最好解决方案.
-这篇文章想换种思路, 不再像其它介绍Org-mode的文章一样罗列Orgmode的一大堆功能点,
-而是从使用需求出发, 一点点介绍Orgmode是如何满足这些需求的.
+上面Org mode官网上介绍的文字基本覆盖了它可实现的功能, 但用词还是腼腆了点, 它就是
+效率之神. 如果你喜欢管理记录, 喜欢GTD, 一定一定要学习下 =Org mode= , 学会它, 你会
+放弃你所知道的一切其它的效率软件.
 
-现在想象你打开了Emacs中的一个org文件, 想使用它做GTD管理. 首先会问: orgmode中如何
-罗列一项项的Task?
+关于Org mode 在各方面使用的总结, 有很多优秀文章: [[https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html][GTD]] , [[http://cachestocaches.com/2018/6/org-literate-programming/][Literate Programming]] ,
+[[http://ehneilsen.net/notebook/orgExamples/org-examples.html][Cookbook]] , 当然也少不了最最经典的 [[http://doc.norang.ca/org-mode.html][Organize Your Life In Plain Text!]] .
 
-答案很简单: 使用 *Headlines*.
+我个人是Vim的忠实粉丝, 在我看来, Vim 的 mode editting 已经是文本编辑的效率极限了.
+但自从体验了一次 Orgmode 的功能, 只能转投 Emacs 的阵营. 因不习惯 Emacs 变态的组
+合式按键, 适应了好久. 万幸, Spacemacs 降世, 它竟然完美的综合了 Emacs 的强大包容
+性和 Vim 的强大编辑效率, 我能想象到的最美好的事情不外如此!
 
-什么是 *Headlines* ? 很简单, 使用 =*= 符号开头, 空格， 输入标题就行, 比如: 
+一个不写代码的产品, 使用 Spacemacs 的 Orgmode 记录日常时间和项目, 就开始了:
 
-#+BEGIN_VERSE
+* 安装 Org-mode
 
-     * Top level headline
-     ** Second level
-     *** 3rd level
-         some text
-     *** 3rd level
-         more text
+* 效率管理的原子 : Task
 
-     * Another top level headline
+** State : 任务的状态变更
 
-#+END_VERSE
+** Capture : 如何快速记录任务
 
-看着好多 =**= 符号觉得干扰视觉? 没问题, 只需要设置
-#+BEGIN_SRC emacs-lisp
-(setq org-hide-leading-stars t)
-#+END_SRC
+** Archive : 归档历史任务
 
-好, 现在有了列表了. 这些Task的状态是不是可以变化? 比如「待办」「进行中」「已完成」
-等?
-#+BEGIN_SRC emacs-lisp
-;; 设置todo keywords
-(setq org-todo-keywords
-      '((sequence "TODO" "HAND" "|" "DONE")))
-#+END_SRC
+* 任务的分子: Meta-data
 
-状态关键词你自己随便定义即可, 中间流转状态根据你的实际流程来定制. 状态变更, 只需
-要在Task上面按 =t= 键, 就会按你设置的状态顺序变化.
+** Time Clocking : 记录任务用时
 
-好, 现在有了列表, 也有了状态变化, 那个状态字段和任务名称并排显示, 能不能把状态值
-做个样式区分, 看着更显眼些?
+** Time Reporting: 时间都去哪儿了
 
-#+BEGIN_SRC emacs-lisp
-;; 调试好久的颜色，效果超赞！ todo keywords 增加背景色
-(setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
-                                ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
-                                ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
-#+END_SRC
+** Tags : 换个角度看世界
 
-好, 看着还不错. 但显示的 =*= 很不个性, 这个能定制修改吗?
+** Properties: 再换个角度看看
 
-#+BEGIN_SRC emacs-lisp
-;; 设置bullet list
-(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
-#+END_SRC
+* 杂项
 
-不错不错, 但在一个任务下面输入一段文字, 怎么是顶格的, 能不能让它自动缩进对齐?
-#+BEGIN_SRC emacs-lisp
-;; 打开org-indent mode
-(setq org-startup-indented t)
-#+END_SRC
+** Tables : 其实我也能当 Excel 使
 
-一个Task怎么设置计划开始时间和Deadline?
-#+BEGIN_SRC emacs-lisp
-调用 org-schedule 和 org-deadline 函数
+** Hypelinks: 把我当浏览器使也可以
 
-他们的快捷键 ,s 和 ,d
-#+END_SRC
-
-那一个任务又是怎么计时的? 我想知道我在某一任务上面花了多少时间.
-#+BEGIN_SRC 
-调用 org-clock-in 和 org-clock-out 函数
-
-他们的快捷键 ,I 和 ,O
-
-这俩函数就像秒表一样, 开始时打一个点, 结束时打一个点, 经历时间会自动计算显示出来.
-#+END_SRC
-
-任务完成后, 还一直停留在当前文件中, 时间久了任务列表特别长. 对于完成的任务, 怎么归档存储?
-
-#+BEGIN_SRC 
-调用 org-archive-subtree 函数, 对应的快捷键是 <space o d>
-
-#+END_SRC
-
-怎么调整字体样式? 加粗? 斜体?
-
-#+BEGIN_SRC
-加粗 *test*
-斜体 /test/
-下划线 _test_
-删除线 +test+
-代码块 =test=
-#+END_SRC
-
-有些时候, 需要在Task下面描述一些事项, Orgmode怎么显示 =plain lists= 列表? 
-
-#+BEGIN_SRC
-1. 这是有数字列表
-2. 第二项
-3. 第三项
-
-#+END_SRC
-
-#+BEGIN_SRC 
-- 这是无数字列表
-- 第二项
-- 第三项
-#+END_SRC
-
+** Export : 分享给不使用 Orgmode 的人
