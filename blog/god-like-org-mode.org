@@ -80,17 +80,8 @@ Org mode。
 个「*」即可。子任务的子任务怎么表示，同样方法，在子任务下方再多一个「*」开头的任
 务就好了。
 
-
-#+begin_verse
-  * Top level headline
-  ** Second level
-  ***** 3rd level
-      some text
-  ***** 3rd level
-      more text
-
-  * Another top level headline
-#+end_verse
+#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-06_23-45-58.png @ 2018-09-06 23:46:17
+[[file:../images/2018-09-06_23-45-58.png]]
 
 看着上面的例子，有没有感觉到不舒服？这么多星星符号罗列在一起感觉很乱，Org 有一个
 缩进模式，当打开后，每个Headline只显示一个星星符号，同时会按照所属层级进行适当地
@@ -138,6 +129,11 @@ Org mode。
                                 ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
                                 ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
 #+end_src
+
+让我们看看现在的显示效果：
+
+#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-06_23-44-08.png @ 2018-09-06 23:44:45
+[[file:../images/2018-09-06_23-44-08.png]]
 
 ** Capture : 如何快速记录任务
 
