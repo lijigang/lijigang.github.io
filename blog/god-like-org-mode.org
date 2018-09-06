@@ -107,16 +107,8 @@ Org mode。
 
 配置上面那行代码后，显示效果如下：
 
-#+begin_src emacs-lisp
-* Top level headline
-** Second level
-***** 3rd level
-    some text
-***** 3rd level
-    more text
-
-* Another top level headline
-#+end_src
+#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-06_23-37-56.png @ 2018-09-06 23:38:21
+[[file:../images/2018-09-06_23-37-56.png]]
 
 样式调整好看些了，我们使用一下看看。一个任务写了一段相关文本后，想开始新的一个任
 务，那么之前的任务就不是当前的重点了，一般的编辑器都是滑动鼠标，把当前新的任务滚
