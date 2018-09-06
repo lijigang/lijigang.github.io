@@ -74,62 +74,127 @@ reproducible research.
 一个不写代码的产品, 使用 Spacemacs 的 Orgmode 记录日常时间和项目, 就开始了:
 </p>
 
-<div id="outline-container-org28cf023" class="outline-2">
-<h2 id="org28cf023">安装 Org-mode</h2>
+<div id="outline-container-orgf71dae9" class="outline-2">
+<h2 id="orgf71dae9">安装 Org-mode</h2>
+<div class="outline-text-2" id="text-orgf71dae9">
+<p>
+Org 现在已经是 Emacs 出厂自带的一部分了， 所以只要你现在打开 Emacs 就可以直接使
+用 Org. 但如果你不想使用 Emacs 自带的 Org 版本， 想安装一个更新版本， 你可以有三
+种办法来实现：
+</p>
+
+<ol class="org-ol">
+<li><p>
+使用 Emacs package system
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">M-x package-install RET org
+</pre>
 </div>
 
-<div id="outline-container-org851e8b1" class="outline-2">
-<h2 id="org851e8b1">效率管理的原子 : Task</h2>
-<div class="outline-text-2" id="text-org851e8b1">
-</div>
-<div id="outline-container-orgd3eabba" class="outline-3">
-<h3 id="orgd3eabba">State : 任务的状态变更</h3>
+<p>
+这种安装方法，安装的org版本，需要看你配置源中对应的版本， 而且安装时需要确保
+没有org相关函数装载， 不推荐使用。
+</p></li>
+
+<li><p>
+把新版 Org 下载到本地
+</p>
+
+<p>
+<a href="https://orgmode.org/">Org 官网</a> 有最新版本的压缩包可下载到本地， 然后只需要将解压后的目录加到
+load-path变量即可。
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(add-to-list 'load-path "~/path/to/orgdir/lisp")
+</pre>
 </div>
 
-<div id="outline-container-orgb8cda0f" class="outline-3">
-<h3 id="orgb8cda0f">Capture : 如何快速记录任务</h3>
+<p>
+目前我使用的就是这个办法，并将解压后的目录放到了iCloud中， 多端同步就直接到位
+了。
+</p></li>
+
+<li><p>
+使用 Org 的 git 仓库
+</p>
+
+<div class="org-src-container">
+<pre class="src src-bash">$ git clone https://code.orgmode.org/bzg/org-mode.git
+
+$ cd org-mode/
+
+$ make autoloads
+</pre>
 </div>
 
-<div id="outline-container-orgb92c3a8" class="outline-3">
-<h3 id="orgb92c3a8">Archive : 归档历史任务</h3>
+<p>
+时刻与最新版本保持同步，很容易配置出问题。 为了稳定起见， 目前没采用这个办法。
+</p></li>
+</ol>
+
+
+<p>
+不管你选择哪个方式， 安装成功后， 每当你打开 .org 后缀的文件时，Emacs 默认会使用
+Org mode。
+</p>
 </div>
 </div>
 
-<div id="outline-container-org853a689" class="outline-2">
-<h2 id="org853a689">任务的分子: Meta-data</h2>
-<div class="outline-text-2" id="text-org853a689">
+<div id="outline-container-org45677f3" class="outline-2">
+<h2 id="org45677f3">效率管理的原子 : Task</h2>
+<div class="outline-text-2" id="text-org45677f3">
 </div>
-<div id="outline-container-org7c9509a" class="outline-3">
-<h3 id="org7c9509a">Time Clocking : 记录任务用时</h3>
-</div>
-
-<div id="outline-container-orga40ec38" class="outline-3">
-<h3 id="orga40ec38">Time Reporting: 时间都去哪儿了</h3>
+<div id="outline-container-orgb8f1658" class="outline-3">
+<h3 id="orgb8f1658">State : 任务的状态变更</h3>
 </div>
 
-<div id="outline-container-orge796d56" class="outline-3">
-<h3 id="orge796d56">Tags : 换个角度看世界</h3>
+<div id="outline-container-org68d6004" class="outline-3">
+<h3 id="org68d6004">Capture : 如何快速记录任务</h3>
 </div>
 
-<div id="outline-container-org60a6aa8" class="outline-3">
-<h3 id="org60a6aa8">Properties: 再换个角度看看</h3>
+<div id="outline-container-orgb12de2d" class="outline-3">
+<h3 id="orgb12de2d">Archive : 归档历史任务</h3>
 </div>
 </div>
 
-<div id="outline-container-org8232d05" class="outline-2">
-<h2 id="org8232d05">杂项</h2>
-<div class="outline-text-2" id="text-org8232d05">
+<div id="outline-container-org876b868" class="outline-2">
+<h2 id="org876b868">任务的分子: Meta-data</h2>
+<div class="outline-text-2" id="text-org876b868">
 </div>
-<div id="outline-container-orgc5184b8" class="outline-3">
-<h3 id="orgc5184b8">Tables : 其实我也能当 Excel 使</h3>
-</div>
-
-<div id="outline-container-orge682d21" class="outline-3">
-<h3 id="orge682d21">Hypelinks: 把我当浏览器使也可以</h3>
+<div id="outline-container-org6a547f2" class="outline-3">
+<h3 id="org6a547f2">Time Clocking : 记录任务用时</h3>
 </div>
 
-<div id="outline-container-orgb87464e" class="outline-3">
-<h3 id="orgb87464e">Export : 分享给不使用 Orgmode 的人</h3>
+<div id="outline-container-orgacefae4" class="outline-3">
+<h3 id="orgacefae4">Time Reporting: 时间都去哪儿了</h3>
+</div>
+
+<div id="outline-container-orga599a63" class="outline-3">
+<h3 id="orga599a63">Tags : 换个角度看世界</h3>
+</div>
+
+<div id="outline-container-orgecb8310" class="outline-3">
+<h3 id="orgecb8310">Properties: 再换个角度看看</h3>
+</div>
+</div>
+
+<div id="outline-container-org31955b4" class="outline-2">
+<h2 id="org31955b4">杂项</h2>
+<div class="outline-text-2" id="text-org31955b4">
+</div>
+<div id="outline-container-org000d709" class="outline-3">
+<h3 id="org000d709">Tables : 其实我也能当 Excel 使</h3>
+</div>
+
+<div id="outline-container-org75ae39d" class="outline-3">
+<h3 id="org75ae39d">Hypelinks: 把我当浏览器使也可以</h3>
+</div>
+
+<div id="outline-container-orgb257c4f" class="outline-3">
+<h3 id="orgb257c4f">Export : 分享给不使用 Orgmode 的人</h3>
 </div>
 </div>
 
