@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>计算广告: 流量变现圣经 - 捉妖记</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="ljg" />
+
+  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
+</head>
+
+  <body class="container">
+<header id="header">
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
+        <div class="container-fluid">
+<div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">捉妖记</a>
+        </div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/">Blog</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="http://www.zhihu.com/people/lijigang.com">知乎</a></li>
+        </ul>
+</div>
+</div>
+    </nav>
+</body>
+</header>
+
+<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>计算广告: 流量变现圣经</h1>
+            <blockquote>
+<p>
+如果你只有时间看一本互联网广告相关的书, 就读 <code>计算广告</code> 吧.
+</p>
+</blockquote>
+
+<p>
+个人一直很喜欢读「通史」或「简史」类的书籍, 因为可以通过历史发展演化的角度来看待研究对象, 知道它是什么, 知道它从哪里来, 并可更好地猜测它会到哪里去.
+</p>
+
+<p>
+但市面上一直没能找到一本和「互联网广告」相关的这类书籍, 直到 <code>刘鹏</code> 老师的「计算广告」一书发布. 之前能找到的大多是介绍互联网行业的一些角色相关和产业链相关的书籍, 从里面可以了解互联网广告相关的概念和大概的流程, 但始终是在隔靴搔痒.
+</p>
+
+<p>
+作者在这本书中重点做了两件事: 一是描述了在线广告的发展历史, 以及介绍了在线广告的四种类别.  第二件事是介绍了在线广告产品的核心关键技术(并有相关代码片断).
+</p>
+
+<p>
+那到底什么是 <code>广告</code> ?
+</p>
+
+<blockquote>
+<p>
+广告主: 出钱的人
+</p>
+
+<p>
+媒体: 能接触用户的渠道
+</p>
+
+<p>
+用户: 会使用或购买产品的群体
+</p>
+
+<p>
+<b>广告即是广告主通过媒体向用户展示产品信息, 以达到自己推广目的(提升品牌印象或提升销量等)</b>
+</p>
+</blockquote>
+
+<p>
+在线广告区别与传统广告的最主要特点就是以人群为投放目标, 支持数据量化优化. 这也就是 <code>大数据</code> 这个概念在互联网广告领域可以风生水起的一个原因.
+</p>
+
+<p>
+计算广告的核心问题就是:
+</p>
+<ol class="org-ol">
+<li>针对一系列用户 (u = user)</li>
+<li>在不同的上网环境(情景)中 (c = context)</li>
+<li>找到最佳广告投放策略 (a = advertise)</li>
+<li>从而优化广告投放利润 (P = profit)</li>
+</ol>
+
+<p>
+利润就是收入减去成本, 在广告活动预算一定的情况下, 优化利润相当于优化收入.
+</p>
+
+<blockquote>
+<p>
+R(a, u, c) = eCPM
+</p>
+
+<p>
+= CTR(a, u, c) * Value(a, u, c)
+</p>
+
+<p>
+= CTR(a, u, c) * 到达率 * 转化率 * 客单价
+</p>
+</blockquote>
+
+
+<p>
+在线广告针对人群受众售卖的特点决定了 <b>受众定向</b> 是非常重要的技术. 在考察定向技术好坏的时候, 重点看两个东西: <b>质</b> 与 <b>量</b>.
+</p>
+
+<p>
+质就是定向的效果, 你圈定的人群流量上面变现效率是不是高出平均eCPM.
+</p>
+
+<p>
+量就是定向的规模, 你圈定的人群流量占整体广告流量的比例.
+</p>
+
+<p>
+广告系统比较流行的定向方式包括:
+</p>
+<ol class="org-ol">
+<li><p>
+地域定向(geo-targeting)
+</p>
+
+<p>
+分地域投放. 比如北京地区的鲜花速递公司, 只需要投放北京地区的受众, 其它地区的受众不需要接触.
+</p></li>
+<li><p>
+人口属性定向(demographical targeting)
+</p>
+
+<p>
+人中属性的标签主要标签包括: 年龄/性别/教育程度/收入水平等.
+</p></li>
+<li><p>
+上下文定向(context targeting)
+</p>
+
+<p>
+根据网页内容来匹配相关广告, 定向的粒度可以是关键词/主题/或者分类.
+</p></li>
+<li><p>
+行为定向(behaviorial targeting)
+</p>
+
+<p>
+根据用户的历史访问行为来了解用户, 推送相关广告. 这也就是互联网应用为什么喜欢收集用户行为数据的原因, 可以产生变现的价值. 也由此催生出了数据收集/加工/交易的衍生业务.
+</p></li>
+<li><p>
+商圈定向(hyper-local targeting)
+</p>
+
+<p>
+在移动设备上面投放广告时, 我们有可能获得非常精准的地理位置信息. 这使得针对具体商圈进行投放广告有了可能性.
+</p></li>
+<li><p>
+重定向(retargeting)
+</p>
+
+<p>
+对某个广告主过去一段时间内的访客投放广告, 提升转化效果. 这种方式的定向, 是被公认为精准程度最高, 效果最突出的方式, 缺点就是覆盖量较小.
+</p></li>
+<li><p>
+新客推荐定向(look-alike targeting)
+</p>
+
+<p>
+平台根据广告主提供的重定向种子访客信息, 结合广告平台丰富数据, 为广告主找到行为上相似的潜在客户.
+</p></li>
+</ol>
+
+<div id="outline-container-orgd7a845e" class="outline-2">
+<h2 id="orgd7a845e">在线广告类别</h2>
+<div class="outline-text-2" id="text-orgd7a845e">
+<p>
+作者把互联网广告分成了四个类别:
+</p>
+</div>
+
+<div id="outline-container-org703f6fb" class="outline-3">
+<h3 id="org703f6fb">合约广告</h3>
+<div class="outline-text-3" id="text-org703f6fb">
+<p>
+主要包括两种方式:
+</p>
+<ol class="org-ol">
+<li>CPT广告(按时段售卖)</li>
+<li>CPM广告(按展示量售卖)</li>
+</ol>
+
+<p>
+在互联网广告早期, 媒体和广告主(或广告代理)直接勾兑, 把线下广告的投放逻辑照搬到线上, 双方签订合同, 广告主买断指定时间段内的媒体广告位, 即按CPT的方式售卖.
+</p>
+
+<p>
+后来演化出了按一次广告投放的展示总量和展示单价来签约, 即按CPM的方式售卖.
+</p>
+
+<p>
+这两种售卖方式对应的广告系统, 其实只需要一个简单的广告排期系统即可.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org2f33145" class="outline-3">
+<h3 id="org2f33145">竞价广告</h3>
+<div class="outline-text-3" id="text-org2f33145">
+<p>
+随着互联网广告行业的发展, 广告投放朝着精细化的方向不断前进. 交易模式也从原来的合约方式演进到了竞价方式. 不再像之前一样, 按时间段或批量售卖, 而是按不同的人群进行区分售卖, 价高者得. 这种模式同时还有一个好处, 即原来按合约售卖卖不掉的剩余流量, 现在也有可能通过竞价被售卖出去.
+</p>
+
+<p>
+这种形式最主要的应用场景有两个: 一是搜索广告, 第二个是广告网络.
+</p>
+
+<p>
+搜索广告因天生的搜索query词代表用户的搜索意图, 可以轻松区分出人群, 方便广告主竞价采买.
+</p>
+
+<p>
+广告网络是指媒体方以页面上下文关键词或者访问人群的兴趣标签, 将人群做区分, 方便广告主竞价(或按合约)采买.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfad8380" class="outline-3">
+<h3 id="orgfad8380">程序化交易广告</h3>
+<div class="outline-text-3" id="text-orgfad8380">
+<p>
+市场的发展方向是向需求方彻底开放(毕竟是金主爸爸), 除了允许广告主按照媒体方或广告平台定义好的用户划分来购买以外, 进一步演化到了允许广告主自行选择流量和在每一次展示上独立出价, 参与竞价. 而这种方式, 就产生了以实时竞价(RTB)为核心的程序化交易市场.
+</p>
+</div>
+</div>
+<div id="outline-container-orga085331" class="outline-3">
+<h3 id="orga085331">原生广告</h3>
+<div class="outline-text-3" id="text-orga085331">
+<p>
+在移动互联网时代到来之后, 屏幕较小的移动设备环境下, 独立展示和运营广告和内容遇到的挑战. 业务开始探讨将内容和广告混合的道路(Content as ad), 提升变现效率.
+</p>
+
+<p>
+典型的如信息流广告, 搜索广告, 软文广告等等.
+</p>
+</div>
+</div>
+</div>
+
+    </div>
+</section>
+
+
+<footer id="footer">
+    <br />
+</footer>
+
+  </body>
+</html>
