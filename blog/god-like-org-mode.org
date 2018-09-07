@@ -130,7 +130,6 @@ Org mode。
                                 ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
                                 ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
 #+end_src
-
 让我们看看现在的显示效果：
 
 #+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-07_12-26-04.png @ 2018-09-07 12:26:18
