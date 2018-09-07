@@ -12,17 +12,18 @@ It also is an authoring system with unique support for literate programming and
 reproducible research.
 #+END_QUOTE
 
-上面Org mode官网上介绍的文字基本覆盖了它可实现的功能, 但用词还是腼腆了点, 它就是
-效率之神. 如果你喜欢管理记录, 喜欢GTD, 一定一定要学习下 =Org mode= , 学会它, 你会
-放弃你所知道的一切其它的效率软件.
+上面 Org mode 官网上介绍的文字基本覆盖了它可实现的功能, 但用词还是腼腆了点, 它就
+是效率之神. 如果你喜欢管理记录, 喜欢GTD, 一定一定要学习下 =Org mode= , 学会它, 你
+会放弃你所知道的一切其它的效率软件.
 
-关于Org mode 在各方面使用的总结, 有很多优秀文章: [[https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html][GTD]] , [[http://cachestocaches.com/2018/6/org-literate-programming/][Literate Programming]] ,
+关于 Org mode 在各方面使用的总结, 有很多优秀文章: [[https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html][GTD]] , [[http://cachestocaches.com/2018/6/org-literate-programming/][Literate Programming]] ,
 [[http://ehneilsen.net/notebook/orgExamples/org-examples.html][Cookbook]] , 当然也少不了最最经典的 [[http://doc.norang.ca/org-mode.html][Organize Your Life In Plain Text!]] .
 
-我个人是Vim的忠实粉丝, 在我看来, Vim 的 mode editting 已经是文本编辑的效率极限了.
-但自从体验了一次 Org mode 的功能, 实在是太强大了，只能转投 Emacs 的阵营. 因不习
-惯 Emacs 变态的组合式按键, 适应了好久. 万幸, 后来 Spacemacs 降世, 它竟然完美的综
-合了 Emacs 的强大包容性和 Vim 的强大编辑效率, 我能想象到的最美好的事情不外如此!
+我个人是 Vim 的忠实粉丝, 在我看来, Vim 的 mode editting 已经是文本编辑的效率极限
+了. 但自从体验了一次 Org mode 的功能, 实在是太强大了，只能转投 Emacs 的阵营. 切
+换后因不习惯 Emacs 变态的组合式按键, 适应了好久. 万幸, 后来 Spacemacs 降世, 它竟
+然完美的综合了 Emacs 的强大包容性和 Vim 的强大编辑效率, 我能想象到的最美好的事情
+不外如此!
 
 一个不写代码的产品, 使用 Spacemacs 的 Org mode 记录日常时间和项目的折腾之旅, 就
 这样开始了:
@@ -135,8 +136,67 @@ Org mode。
 #+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-07_12-26-04.png @ 2018-09-07 12:26:18
 [[file:../images/2018-09-07_12-26-04.png]]
 ** Capture : 如何快速记录任务
+有了漂亮的任务列表和状态显示效果, 但每次添加任务都需要手动打开 org 文件, 找到相
+应位置一条条的录入任务. 这种重复操作经常打断本来正在执行的操作, Emacs 通过 Org
+Capture 解决了这个问题. 它既可以支持在任意文件随时记录任务或想法, 同时也支持将添
+加的任务到指定文件的指定位置.
 
+使用它更是简单, 首先是配置一下唤醒该功能的快捷键和添加任务的默认文件:
+
+#+begin_src emacs-lisp
+;; 设置全局快捷键, 方便随时使用这个功能
+(global-set-key (kbd "C-c c") 'org-capture)
+
+;; 我使用的 Spacemacs , 实际使用的是下面的快捷键
+(evil-leader/set-key "oc" 'org-capture)
+
+;; 设置默认情况下, 添加的任务到哪个文件中
+(setq org-default-notes-file "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org")
+#+end_src
+
+该功能默认已经有一个模板可以使用, 但一般每个人都会根据自己的实际使用情况定制自己
+的模板. 定制模板说简单也简单, 说复杂也可以很复杂, 简单来说, 只需要查阅变量
+=org-capture-templates= 的说明文档, 设置一下这个变量就可以了, 比如下面这样:
+
+#+begin_src emacs-lisp
+;; configure org-capture templates
+(setq org-capture-templates
+      '(("t" ; hotkey
+         "Todo list item" ; name
+         entry ; type
+         ; heading type and title
+         (file+headline org-default-notes-file "Tasks")
+         "* TODO %?\n  %i\n  %a") ; template
+        ...))
+#+end_src
+
+说复杂的话, 设置不同模板的字段可以各种个性化, 比如可以在插入任务的同时 [[http://www.windley.com/archives/2010/12/capture_mode_and_emacs.shtml][插入当地
+天气]] , 或者 [[http://cestlaz.github.io/posts/using-emacs-23-capture-1/#.W5IV5o6QH-A][各种场景]] , 甚至有人可以把这功能集成到 [[https://blog.sleeplessbeastie.eu/2016/04/22/how-to-use-org-capture-from-system-tray/][桌面托盘位置]] .
 ** Archive : 归档历史任务
+随着任务记录越来越多, 历史上已完成的任务如果一直累积在任务文件中, 文件会越来越大,
+也会影响搜索结果和速度. 解决这个问题可以使用归档功能, 把已完成的任务归档到指定文
+件中, 这样任务文件持续保持精简, 同时历史已完成任务还不会丢弃, 有需要时可随时搜索
+查看归档文档.
+
+#+begin_src emacs-lisp
+;; 在 Spacemacs 中设置归档命令的快捷键
+(evil-leader/set-key "od" 'org-archive-subtree)
+#+end_src
+
+Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同名文件做为归档文件. 当
+然你也可以指定你想要的归档目录和文件名称:
+
+#+begin_src emacs-lisp
+;; 配置归档文件的名称和Headline格式
+(setq org-archive-location "%s_archive::date-tree")
+#+end_src
+
+上面配置的完整释义可以参看 org-archive-location 的帮助手册, 配置后的归档文件中的
+显示效果如下:
+
+#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-07_18-01-34.png @ 2018-09-07 18:01:47
+#+attr_latex: :width 600
+[[file:../images/2018-09-07_18-01-34.png]]
 
 * 任务的分子: Meta-data
 
