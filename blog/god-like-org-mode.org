@@ -1,4 +1,4 @@
-#+TITLE:       神器Org-mode
+#+TITLE:       神器 Org-mode
 #+AUTHOR:      lijigang <i@lijigang.com>
 #+DATE:        2018-05-29 Tue
 #+URI:         /blog/神器org-mode
@@ -199,9 +199,19 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 [[file:../images/2018-09-07_18-01-34.png]]
 
 * 任务的分子: Meta-data
-
 ** Time Clocking : 记录任务用时
+除了可以根据任务的状态变更进行管理之外, Emacs 还支持对任务进行时间管理. 在 Emacs
+中, 一切都是 =纯文本 (Plain text)= , 时间的表示, 在 Emacs 中也不过就是一串字符串而
+已, 只是有很多相关的函数来解析这个指定格式的字符串, 提供了超级强大的时间管理的功
+能.
 
+我个人最常用的记录时间的操作是在某项任务开始时 Clock-in (快捷键 =,I= ) 结束时
+Clock-out (快捷键 =,O= ). 这样一项任务就有了清晰的一段时间记录, 如果过了一阵子又投
+入时间在这项任务, 同样 Clock-in 就好, Org 支持一个任务记录多条时间段.
+
+#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-07_18-34-16.png @ 2018-09-07 18:34:37
+#+attr_latex: :width 600
+[[file:../images/2018-09-07_18-34-16.png]]
 ** Time Reporting: 时间都去哪儿了
 
 ** Tags : 换个角度看世界
