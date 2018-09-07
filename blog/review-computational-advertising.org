@@ -1,4 +1,4 @@
-#+title: 商业化大杀器: 互联网广告
+#+title: 计算广告: 流量变现圣经
 #+options: toc:nil num:nil
 
 #+begin_quote
