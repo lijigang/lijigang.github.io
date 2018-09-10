@@ -216,20 +216,13 @@ Clock-out (快捷键 =,O= ). 这样一项任务就有了清晰的一段时间记
 在日常GTD过程中, 还经常会有的需求是给某一任务设定 Deadline (org-deadline ,d) 或
 Schedule (org-schedule ,s) .
 
-#+begein_quote
-  *** Pick up Sam at school
-    SCHEDULED: <2004-12-25 Sat>
-#+end_quote
-
-
 当然, 还会有些 Routine 的任务, 比如每周一上午10点开例会, 每周五下午6点发周报等,
 这种定期任务的设定, 可以先设置一个Schedule, 然后在时间字符串后面添加 +1d (每一
 天循环) / +2w (每两周循环) / +3m (每三个月循环) / +1y (每一年循环):
 
-#+begein_quote
-  *** Pick up Sam at school
-    <2007-05-16 Wed 12:30 +1w>
-#+end_quote
+#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-10_16-10-08.png @ 2018-09-10 16:10:21
+#+attr_latex: :width 600
+[[file:../images/2018-09-10_16-10-08.png]]
 ** Time Reporting: 时间都去哪儿了
 我们已经在每个任务开始和结果时都打了时间戳, 那生成一个时间花费的报表应该也不在话
 下了. 通过调用 =org-clock-report= 命令, 可以生成下面的这种样式的 time table, 看看
