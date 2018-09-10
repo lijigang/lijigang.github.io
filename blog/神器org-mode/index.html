@@ -76,9 +76,9 @@ reproducible research.
 这样开始了:
 </p>
 
-<div id="outline-container-org593fe1a" class="outline-2">
-<h2 id="org593fe1a">安装 Org-mode</h2>
-<div class="outline-text-2" id="text-org593fe1a">
+<div id="outline-container-org0066b45" class="outline-2">
+<h2 id="org0066b45">安装 Org-mode</h2>
+<div class="outline-text-2" id="text-org0066b45">
 <p>
 Org 现在已经是 Emacs 出厂自带的一部分了，所以只要你现在打开 Emacs 就可以直接使用
 Org. 但如果你不想使用 Emacs 自带的 Org 版本，想安装一个更新版本，你可以有三种办
@@ -145,13 +145,13 @@ Org mode。
 </div>
 </div>
 
-<div id="outline-container-orgb97dd02" class="outline-2">
-<h2 id="orgb97dd02">效率管理的原子 : Task</h2>
-<div class="outline-text-2" id="text-orgb97dd02">
+<div id="outline-container-org43a3fbe" class="outline-2">
+<h2 id="org43a3fbe">效率管理的原子 : Task</h2>
+<div class="outline-text-2" id="text-org43a3fbe">
 </div>
-<div id="outline-container-orgf446d17" class="outline-3">
-<h3 id="orgf446d17">State : 任务的状态变更</h3>
-<div class="outline-text-3" id="text-orgf446d17">
+<div id="outline-container-org6e33d66" class="outline-3">
+<h3 id="org6e33d66">State : 任务的状态变更</h3>
+<div class="outline-text-3" id="text-org6e33d66">
 <p>
 在效率管理的过程中，我们的原始对象始终是一项具体的事项，这个事项在不同的软件中有
 不同的称呼，我统一使用 <code>任务（Task）</code> 来称呼它。
@@ -249,9 +249,9 @@ Org mode。
 </div>
 </div>
 </div>
-<div id="outline-container-orgc1f0be5" class="outline-3">
-<h3 id="orgc1f0be5">Capture : 如何快速记录任务</h3>
-<div class="outline-text-3" id="text-orgc1f0be5">
+<div id="outline-container-org4a53371" class="outline-3">
+<h3 id="org4a53371">Capture : 如何快速记录任务</h3>
+<div class="outline-text-3" id="text-org4a53371">
 <p>
 有了漂亮的任务列表和状态显示效果, 但每次添加任务都需要手动打开 org 文件, 找到相
 应位置一条条的录入任务. 这种重复操作经常打断本来正在执行的操作, Emacs 通过 Org
@@ -300,9 +300,9 @@ Capture 解决了这个问题. 它既可以支持在任意文件随时记录任�
 </p>
 </div>
 </div>
-<div id="outline-container-org3b175b7" class="outline-3">
-<h3 id="org3b175b7">Archive : 归档历史任务</h3>
-<div class="outline-text-3" id="text-org3b175b7">
+<div id="outline-container-orgfe9382a" class="outline-3">
+<h3 id="orgfe9382a">Archive : 归档历史任务</h3>
+<div class="outline-text-3" id="text-orgfe9382a">
 <p>
 随着任务记录越来越多, 历史上已完成的任务如果一直累积在任务文件中, 文件会越来越大,
 也会影响搜索结果和速度. 解决这个问题可以使用归档功能, 把已完成的任务归档到指定文
@@ -341,13 +341,13 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 
-<div id="outline-container-org1be18d0" class="outline-2">
-<h2 id="org1be18d0">任务的分子: Meta-data</h2>
-<div class="outline-text-2" id="text-org1be18d0">
+<div id="outline-container-org1f5c96b" class="outline-2">
+<h2 id="org1f5c96b">任务的分子: Meta-data</h2>
+<div class="outline-text-2" id="text-org1f5c96b">
 </div>
-<div id="outline-container-org27c00b3" class="outline-3">
-<h3 id="org27c00b3">Time Clocking : 记录任务用时</h3>
-<div class="outline-text-3" id="text-org27c00b3">
+<div id="outline-container-orga8355b7" class="outline-3">
+<h3 id="orga8355b7">Time Clocking : 记录任务用时</h3>
+<div class="outline-text-3" id="text-orga8355b7">
 <p>
 除了可以根据任务的状态变更进行管理之外, Emacs 还支持对任务进行时间管理. 在 Emacs
 中, 一切都是 <code>纯文本 (Plain text)</code> , 时间的表示, 在 Emacs 中也不过就是一串字符串而
@@ -366,35 +366,131 @@ Clock-out (快捷键 <code>,O</code> ). 这样一项任务就有了清晰的一�
 <p><img src="/assets/blog/神器org-mode/2018-09-07_18-34-16.png" alt="2018-09-07_18-34-16.png" />
 </p>
 </div>
+
+<p>
+在日常GTD过程中, 还经常会有的需求是给某一任务设定 Deadline (org-deadline ,d) 或
+Schedule (org-schedule ,s) .
+</p>
+
+<p>
+#+begein_quote
+  <b>*</b> Pick up Sam at school
+    SCHEDULED: <span class="timestamp-wrapper"><span class="timestamp">&lt;2004-12-25 Sat&gt;</span></span>
+#+end_quote
+</p>
+
+
+<p>
+当然, 还会有些 Routine 的任务, 比如每周一上午10点开例会, 每周五下午6点发周报等,
+这种定期任务的设定, 可以先设置一个Schedule, 然后在时间字符串后面添加 +1d (每一
+天循环) / +2w (每两周循环) / +3m (每三个月循环) / +1y (每一年循环):
+</p>
+
+<p>
+#+begein_quote
+  <b>*</b> Pick up Sam at school
+    <span class="timestamp-wrapper"><span class="timestamp">&lt;2007-05-16 Wed 12:30 +1w&gt;</span></span>
+#+end_quote
+</p>
 </div>
 </div>
-<div id="outline-container-org62e5fe1" class="outline-3">
-<h3 id="org62e5fe1">Time Reporting: 时间都去哪儿了</h3>
+<div id="outline-container-org59efd7b" class="outline-3">
+<h3 id="org59efd7b">Time Reporting: 时间都去哪儿了</h3>
+<div class="outline-text-3" id="text-org59efd7b">
+<p>
+我们已经在每个任务开始和结果时都打了时间戳, 那生成一个时间花费的报表应该也不在话
+下了. 通过调用 <code>org-clock-report</code> 命令, 可以生成下面的这种样式的 time table, 看看
+你之前的时间都花在哪了, 生成表格相关参数的修改, 可以参考 <a href="https://orgmode.org/org.html#Deadlines-and-scheduling">官方文档</a>:
+</p>
+
+<blockquote>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 1:</span> Clock summary at <span class="timestamp-wrapper"><span class="timestamp">[2018-09-10 Mon 15:25]</span></span></caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Headline</th>
+<th scope="col" class="org-right">Time</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left"><b>Total time</b></td>
+<td class="org-right"><b>1:00</b></td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Today</td>
+<td class="org-right">1:00</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&ensp;&ensp;团队: KPI 拆解</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">1:00</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+</div>
+</div>
+<div id="outline-container-org6780d7a" class="outline-3">
+<h3 id="org6780d7a">Tags : 换个角度看世界</h3>
+<div class="outline-text-3" id="text-org6780d7a">
+<p>
+使用时间久了之后, 历史任务积累了很多. 想筛选或查找某个任务, 只能靠印象中任务标题
+中的文本来查找, 很低效. Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或
+某些tags的任务全找出来. 而添加Tags的方法也很简单, 只需调用 <b>org-set-tags-command
+快捷键 C-c C-c (Spacemacs中 ,,)</b> , 就会在当前 Headline 后面添加你指定的tags. 显示
+样式为前后冒号分隔, 比如 <code>:work:</code> , 基本用法就这一个命令就够了, 如果有更深入的使用
+需求, 读下 <a href="https://orgmode.org/org.html#Tags">官方文档</a> 就好了.
+</p>
+</div>
 </div>
 
-<div id="outline-container-orgce3f1bb" class="outline-3">
-<h3 id="orgce3f1bb">Tags : 换个角度看世界</h3>
+<div id="outline-container-orgec09d28" class="outline-3">
+<h3 id="orgec09d28">Properties: 再换个角度看看</h3>
+<div class="outline-text-3" id="text-orgec09d28">
+<p>
+使用tags已经可以解决一部分筛选查找历史任务的问题了, 但如果你想针对某一个任务做些
+类似数据库似的字段存储, 比如你记录了吃过的五星级餐厅的列表, 想针对每个餐厅单独记
+录其地址/联系电话/特色菜/个人评价 等, 把这些全放到tags中, 显示不合适. 这时候就适
+合使用 Properties 了. 插入 Property 需要调用 org-set-property 命令. Property 是
+key-value 形式出现, 调用命令后会提示你输入key和value, 显示时一个Property占一行.
+</p>
+
+
+<div class="figure">
+<p><img src="/assets/blog/神器org-mode/2018-09-10_16-02-31.png" alt="2018-09-10_16-02-31.png" />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org82adb13" class="outline-2">
+<h2 id="org82adb13">杂项</h2>
+<div class="outline-text-2" id="text-org82adb13">
+</div>
+<div id="outline-container-orgbbd090d" class="outline-3">
+<h3 id="orgbbd090d"><span class="todo TODO">TODO</span> Tables : 其实我也能当 Excel 使</h3>
+</div>
+<div id="outline-container-org2438ee1" class="outline-3">
+<h3 id="org2438ee1"><span class="todo TODO">TODO</span> Hypelinks: 把我当浏览器使也可以</h3>
 </div>
 
-<div id="outline-container-org44b4694" class="outline-3">
-<h3 id="org44b4694">Properties: 再换个角度看看</h3>
-</div>
-</div>
-
-<div id="outline-container-org482713c" class="outline-2">
-<h2 id="org482713c">杂项</h2>
-<div class="outline-text-2" id="text-org482713c">
-</div>
-<div id="outline-container-org8b605b5" class="outline-3">
-<h3 id="org8b605b5">Tables : 其实我也能当 Excel 使</h3>
-</div>
-
-<div id="outline-container-orga715631" class="outline-3">
-<h3 id="orga715631">Hypelinks: 把我当浏览器使也可以</h3>
-</div>
-
-<div id="outline-container-org49161c2" class="outline-3">
-<h3 id="org49161c2">Export : 分享给不使用 Orgmode 的人</h3>
+<div id="outline-container-org59af40e" class="outline-3">
+<h3 id="org59af40e"><span class="todo TODO">TODO</span> Export : 分享给不使用 Orgmode 的人</h3>
 </div>
 </div>
 
