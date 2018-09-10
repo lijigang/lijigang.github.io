@@ -212,16 +212,58 @@ Clock-out (快捷键 =,O= ). 这样一项任务就有了清晰的一段时间记
 #+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-07_18-34-16.png @ 2018-09-07 18:34:37
 #+attr_latex: :width 600
 [[file:../images/2018-09-07_18-34-16.png]]
-** Time Reporting: 时间都去哪儿了
 
+在日常GTD过程中, 还经常会有的需求是给某一任务设定 Deadline (org-deadline ,d) 或
+Schedule (org-schedule ,s) .
+
+#+begein_quote
+  *** Pick up Sam at school
+    SCHEDULED: <2004-12-25 Sat>
+#+end_quote
+
+
+当然, 还会有些 Routine 的任务, 比如每周一上午10点开例会, 每周五下午6点发周报等,
+这种定期任务的设定, 可以先设置一个Schedule, 然后在时间字符串后面添加 +1d (每一
+天循环) / +2w (每两周循环) / +3m (每三个月循环) / +1y (每一年循环):
+
+#+begein_quote
+  *** Pick up Sam at school
+    <2007-05-16 Wed 12:30 +1w>
+#+end_quote
+** Time Reporting: 时间都去哪儿了
+我们已经在每个任务开始和结果时都打了时间戳, 那生成一个时间花费的报表应该也不在话
+下了. 通过调用 =org-clock-report= 命令, 可以生成下面的这种样式的 time table, 看看
+你之前的时间都花在哪了, 生成表格相关参数的修改, 可以参考 [[https://orgmode.org/org.html#Deadlines-and-scheduling][官方文档]]:
+
+#+begin_quote
+#+CAPTION: Clock summary at [2018-09-10 Mon 15:25]
+| Headline           | Time |      |
+|--------------------+------+------|
+| *Total time*         | *1:00* |      |
+|--------------------+------+------|
+| Today              | 1:00 |      |
+| \_  团队: KPI 拆解 |      | 1:00 |
+#+end_quote
 ** Tags : 换个角度看世界
+使用时间久了之后, 历史任务积累了很多. 想筛选或查找某个任务, 只能靠印象中任务标题
+中的文本来查找, 很低效. Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或
+某些tags的任务全找出来. 而添加Tags的方法也很简单, 只需调用 *org-set-tags-command
+快捷键 C-c C-c (Spacemacs中 ,,)* , 就会在当前 Headline 后面添加你指定的tags. 显示
+样式为前后冒号分隔, 比如 =:work:= , 基本用法就这一个命令就够了, 如果有更深入的使用
+需求, 读下 [[https://orgmode.org/org.html#Tags][官方文档]] 就好了.
 
 ** Properties: 再换个角度看看
+使用tags已经可以解决一部分筛选查找历史任务的问题了, 但如果你想针对某一个任务做些
+类似数据库似的字段存储, 比如你记录了吃过的五星级餐厅的列表, 想针对每个餐厅单独记
+录其地址/联系电话/特色菜/个人评价 等, 把这些全放到tags中, 显示不合适. 这时候就适
+合使用 Properties 了. 插入 Property 需要调用 org-set-property 命令. Property 是
+key-value 形式出现, 调用命令后会提示你输入key和value, 显示时一个Property占一行.
 
+#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-10_16-02-31.png @ 2018-09-10 16:02:47
+#+attr_latex: :width 600
+[[file:../images/2018-09-10_16-02-31.png]]
 * 杂项
+** TODO Tables : 其实我也能当 Excel 使
+** TODO Hypelinks: 把我当浏览器使也可以
 
-** Tables : 其实我也能当 Excel 使
-
-** Hypelinks: 把我当浏览器使也可以
-
-** Export : 分享给不使用 Orgmode 的人
+** TODO Export : 分享给不使用 Orgmode 的人
