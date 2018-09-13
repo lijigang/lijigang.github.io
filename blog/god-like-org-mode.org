@@ -12,9 +12,9 @@ It also is an authoring system with unique support for literate programming and
 reproducible research.
 #+END_QUOTE
 
-上面 Org mode 官网上介绍的文字基本覆盖了它可实现的功能, 但用词还是腼腆了点, 它就
-是效率之神. 如果你喜欢管理记录, 喜欢GTD, 一定一定要学习下 =Org mode= , 学会它, 你
-会放弃你所知道的一切其它的效率软件.
+Org mode 官网上介绍的这段文字基本描述清了它可实现的功能, 但用词还是腼腆了点, 它
+就是效率之神. 如果你喜欢管理记录, 喜欢GTD, 一定一定要学习下 =Org mode= , 学会它,
+你会放弃你所知道的一切其它的效率软件.
 
 关于 Org mode 在各方面使用的总结, 有很多优秀文章: [[https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html][GTD]] , [[http://cachestocaches.com/2018/6/org-literate-programming/][Literate Programming]] ,
 [[http://ehneilsen.net/notebook/orgExamples/org-examples.html][Cookbook]] , 当然也少不了最最经典的 [[http://doc.norang.ca/org-mode.html][Organize Your Life In Plain Text!]] .
@@ -255,8 +255,26 @@ key-value 形式出现, 调用命令后会提示你输入key和value, 显示时�
 #+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-10_16-02-31.png @ 2018-09-10 16:02:47
 #+attr_latex: :width 600
 [[file:../images/2018-09-10_16-02-31.png]]
-* 杂项
-** TODO Tables : 其实我也能当 Excel 使
+* 各种脚手脚
+** Tables : 其实我也能当 Excel 使
+在文本中当然也少不了记录表格的需求, 比如做会议纪要, 时间/地点/人员/主题/结论/后
+续安排 这些内容通过表格整理记录就会很方便. 在 Org 中, 只要以 | 开头的一行, 就认
+为它是表格的一部分了. 表格中各单元格的区分符号也是 | , 每次你输入完一个单元格,
+可以通过 TAB 切换到下一单元格, 通过 RET 切换到下一行. 日常的基本表格操作, 这些功
+能已经足够用的了. 想了解细节, 可以阅读下[[https://orgmode.org/org.html#Tables][官方文档]] . Org 中的表格大概长下面这样:
+
+#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-13_17-15-56.png @ 2018-09-13 17:16:23
+#+attr_latex: :width 600
+[[file:../images/2018-09-13_17-15-56.png]]
+
+补充两个让人对 Org 表格功能很爽的小细节:
+1. 切换单元格 (TAB/RET/C-c C-c) , Org 会自动根据单元格内容进行宽度调整
+2. |- 开头的, 按下TAB, 即可插入一行分隔线.
+
+基本的表格功能, 已经足够日常使用了, 但 Org 的强大远不止于此.
+
+如果你想把它当作Excel来使用, 可以参看 [[https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][这篇文章]] , 如果你想通过表格中的数据来画图,
+可以参看 [[https://orgmode.org/worg/org-tutorials/org-plot.html][这篇文章]] .
 ** TODO Hypelinks: 把我当浏览器使也可以
 
 ** TODO Export : 分享给不使用 Orgmode 的人
