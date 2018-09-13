@@ -228,15 +228,9 @@ Schedule (org-schedule ,s) .
 下了. 通过调用 =org-clock-report= 命令, 可以生成下面的这种样式的 time table, 看看
 你之前的时间都花在哪了, 生成表格相关参数的修改, 可以参考 [[https://orgmode.org/org.html#Deadlines-and-scheduling][官方文档]]:
 
-#+begin_quote
-#+CAPTION: Clock summary at [2018-09-10 Mon 15:25]
-| Headline           | Time |      |
-|--------------------+------+------|
-| *Total time*         | *1:00* |      |
-|--------------------+------+------|
-| Today              | 1:00 |      |
-| \_  团队: KPI 拆解 |      | 1:00 |
-#+end_quote
+#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-13_17-28-41.png @ 2018-09-13 17:29:23
+#+attr_latex: :width 600
+[[file:../images/2018-09-13_17-28-41.png]]
 ** Tags : 换个角度看世界
 使用时间久了之后, 历史任务积累了很多. 想筛选或查找某个任务, 只能靠印象中任务标题
 中的文本来查找, 很低效. Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或
