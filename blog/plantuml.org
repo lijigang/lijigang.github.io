@@ -1,42 +1,42 @@
 #+title: 在 Orgmode 中使用 PlantUML 画时序图
 #+options: toc:nil num:nil
 
-* 在 Orgmode 中配置使用 PlantUML
+* 配置使用 PlantUML
 1. 配置 babel 变量支持
-#+begin_src emacs-lisp
-(org-babel-do-load-languages
-  'org-babel-load-languages
-  '(;; other Babel languages
-    (plantuml . t)))
-#+end_src
+  #+begin_src emacs-lisp
+  (org-babel-do-load-languages
+    'org-babel-load-languages
+    '(;; other Babel languages
+      (plantuml . t)))
+  #+end_src
 
 2. 配置 jar 文件路径
-#+begin_src emacs-lisp
-(setq org-plantuml-jar-path
-      (expand-file-name "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/org/org-resources/plantuml.jar"))
-#+end_src
+  #+begin_src emacs-lisp
+  (setq org-plantuml-jar-path
+        (expand-file-name "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/org/org-resources/plantuml.jar"))
+  #+end_src
 
 * PlantUML 时序图配置方法
 1. 基础用法
 
-   -> 参与者之间传递消息的箭头
+    -> 参与者之间传递消息的箭头
 
-   --> 虚线的箭头, 可以用于表示返回消息
+    --> 虚线的箭头, 可以用于表示返回消息
 
-   箭头颜色的修改, 可通过在- 和 > 之间添加 [#颜色代码] 实现
+    箭头颜色的修改, 可通过在- 和 > 之间添加 [#颜色代码] 实现
 
-   如需对消息自动添加编号, 只需要添加关键词 autonumber 即可
+    如需对消息自动添加编号, 只需要添加关键词 autonumber 即可
 
-   :cmdline -charset utf-8  在 orgmode 的代码块参数加上这个配置, 解决中文乱码问题
+    :cmdline -charset utf-8  在 orgmode 的代码块参数加上这个配置, 解决中文乱码问题
 
-   #+begin_src :exports code
-   autonumber
-   Phone -> Server : 请求网页
-   Server --[#0c0f0a]> Phone : 返回 HTML
-   #+end_src
+    #+begin_src :exports code
+    autonumber
+    Phone -> Server : 请求网页
+    Server --[#0c0f0a]> Phone : 返回 HTML
+    #+end_src
 
-    #+DOWNLOADED: file:/Users/ljg/Downloads/basic.png @ 2018-10-09 16:50:51
-    [[file:../images/basic.png]]
+      #+attr_latex: :width 600
+      [[file:../images/basic.png]]
 
 2. 参与者名称和类型
 
@@ -55,6 +55,7 @@
    s --> Phone : 返回 HTML
    #+end_src
 
+    #+attr_latex: :width 600
     #+DOWNLOADED: file:/Users/ljg/Downloads/participant.png @ 2018-10-09 16:51:46
     [[file:../images/participant.png]]
 
@@ -73,7 +74,7 @@
    Phone -> Phone : 成功加载
    #+end_src
 
-    #+DOWNLOADED: file:/Users/ljg/Downloads/delay.png @ 2018-10-09 16:52:20
+    #+attr_latex: :width 600
     [[file:../images/delay.png]]
 
 4. 配色配置
@@ -112,6 +113,6 @@
     Phone -> Phone : 成功加载
     #+end_src
 
-
+    #+attr_latex: :width 600
     #+DOWNLOADED: file:/Users/ljg/Downloads/skinparam.png @ 2018-10-09 16:53:21
     [[file:../images/skinparam.png]]
