@@ -41,9 +41,9 @@
         <div class="col-md-2"></div>
             <h1>在 Orgmode 中使用 PlantUML 画时序图</h1>
             
-<div id="outline-container-orgad68bd2" class="outline-2">
-<h2 id="orgad68bd2">在 Orgmode 中配置使用 PlantUML</h2>
-<div class="outline-text-2" id="text-orgad68bd2">
+<div id="outline-container-org3ebf9dc" class="outline-2">
+<h2 id="org3ebf9dc">在 Orgmode 中配置使用 PlantUML</h2>
+<div class="outline-text-2" id="text-org3ebf9dc">
 <ol class="org-ol">
 <li>配置 babel 变量支持</li>
 </ol>
@@ -66,9 +66,9 @@
 </div>
 </div>
 
-<div id="outline-container-org8ae44a9" class="outline-2">
-<h2 id="org8ae44a9">PlantUML 时序图配置方法</h2>
-<div class="outline-text-2" id="text-org8ae44a9">
+<div id="outline-container-org34bea01" class="outline-2">
+<h2 id="org34bea01">PlantUML 时序图配置方法</h2>
+<div class="outline-text-2" id="text-org34bea01">
 <ol class="org-ol">
 <li><p>
 基础用法
@@ -94,15 +94,18 @@
 :cmdline -charset utf-8  在 orgmode 的代码块参数加上这个配置, 解决中文乱码问题
 </p>
 
+<pre class="example">
+autonumber
+Phone -&gt; Server : 请求网页
+Server --[#0c0f0a]&gt; Phone : 返回 HTML
+</pre>
+
 
 <div class="figure">
 <p><img src="/assets/blog/在-orgmode-中使用-plantuml-画时序图/basic.png" alt="basic.png" />
 </p>
 </div></li>
-</ol>
 
-
-<ol class="org-ol">
 <li><p>
 参与者名称和类型
 </p>
@@ -123,6 +126,13 @@
 参与者的前景色也可以指定, 直接在参与者后面添加代码颜色即可.
 </p>
 
+<pre class="example">
+actor Phone #ffff00
+database Server as s #41ead4
+Phone -&gt; s : 请求网页
+s --&gt; Phone : 返回 HTML
+</pre>
+
 
 <div class="figure">
 <p><img src="/assets/blog/在-orgmode-中使用-plantuml-画时序图/participant.png" alt="participant.png" />
@@ -137,15 +147,23 @@
 有时候消息传递过程中会出现 delay 现象, 如停顿 3 分钟后, 再返回结果. 可以通过&#x2026;来表示 dalay:
 </p>
 
+<pre class="example">
+actor Phone #ffff00
+database Server as s #41ead4
+Phone -&gt; s : 请求网页
+...
+s --&gt; Phone : 返回 HTML
+Phone -&gt; Phone : 解析网页
+...解析三秒...
+Phone -&gt; Phone : 成功加载
+</pre>
+
 
 <div class="figure">
 <p><img src="/assets/blog/在-orgmode-中使用-plantuml-画时序图/delay.png" alt="delay.png" />
 </p>
 </div></li>
-</ol>
 
-
-<ol class="org-ol">
 <li><p>
 配色配置
 </p>
@@ -174,12 +192,35 @@ skinparam roundcorner 20 修改参与者形状
 skinparam handwritten true 打开手绘风格
 </p>
 
+<pre class="example">
+
+skinparam backgroundColor #EEEBDC
+
+skinparam sequenceArrowThickness 2
+
+skinparam roundcorner 20
+
+skinparam handwritten true
+
+hide footbox
+
+actor Phone #ffff00
+database Server as s #41ead4
+Phone -&gt; s : 请求网页
+...
+s --&gt; Phone : 返回 HTML
+Phone -&gt; Phone : 解析网页
+...解析三秒...
+Phone -&gt; Phone : 成功加载
+</pre></li>
+</ol>
+
+
 
 <div class="figure">
 <p><img src="/assets/blog/在-orgmode-中使用-plantuml-画时序图/skinparam.png" alt="skinparam.png" />
 </p>
-</div></li>
-</ol>
+</div>
 </div>
 </div>
 
