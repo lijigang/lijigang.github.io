@@ -35,7 +35,6 @@
   Server --[#0c0f0a]> Phone : 返回 HTML
   #+end_src
 
-  [[file:../images/basic.png]]
 
 2. 参与者名称和类型
 
@@ -54,8 +53,6 @@
   s --> Phone : 返回 HTML
   #+end_src
 
-  [[file:../images/participant.png]]
-
 3. 表示 delay
 
    有时候消息传递过程中会出现 delay 现象, 如停顿 3 分钟后, 再返回结果. 可以通过...来表示 dalay:
@@ -71,7 +68,6 @@
    Phone -> Phone : 成功加载
    #+end_src
 
-   [[file:../images/delay.png]]
 
 4. 配色配置
 
@@ -108,5 +104,3 @@
    ...解析三秒...
    Phone -> Phone : 成功加载
    #+end_src
-
-   [[file:../images/skinparam.png]]
