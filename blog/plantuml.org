@@ -29,7 +29,7 @@
 
    :cmdline -charset utf-8  在 orgmode 的代码块参数加上这个配置, 解决中文乱码问题
 
-   #+begin_src
+   #+begin_src :exports code
    autonumber
    Phone -> Server : 请求网页
    Server --[#0c0f0a]> Phone : 返回 HTML
@@ -48,7 +48,7 @@
 
    参与者的前景色也可以指定, 直接在参与者后面添加代码颜色即可.
 
-   #+begin_src
+   #+begin_src :exports code
    actor Phone #ffff00
    database Server as s #41ead4
    Phone -> s : 请求网页
@@ -62,7 +62,7 @@
 
    有时候消息传递过程中会出现 delay 现象, 如停顿 3 分钟后, 再返回结果. 可以通过...来表示 dalay:
 
-   #+begin_src
+   #+begin_src :exports code
    actor Phone #ffff00
    database Server as s #41ead4
    Phone -> s : 请求网页
@@ -90,7 +90,7 @@
 
     skinparam handwritten true 打开手绘风格
 
-    #+begin_src
+    #+begin_src :exports code
 
     skinparam backgroundColor #EEEBDC
 
