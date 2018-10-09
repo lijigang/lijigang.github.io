@@ -41,34 +41,36 @@
         <div class="col-md-2"></div>
             <h1>在 Orgmode 中使用 PlantUML 画时序图</h1>
             
-<div id="outline-container-org4225bf5" class="outline-2">
-<h2 id="org4225bf5">在 Orgmode 中配置使用 PlantUML</h2>
-<div class="outline-text-2" id="text-org4225bf5">
+<div id="outline-container-org1a0f294" class="outline-2">
+<h2 id="org1a0f294">配置使用 PlantUML</h2>
+<div class="outline-text-2" id="text-org1a0f294">
 <ol class="org-ol">
-<li>配置 babel 变量支持</li>
-</ol>
+<li><p>
+配置 babel 变量支持
+</p>
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(org-babel-do-load-languages
   'org-babel-load-languages
   '(;; other Babel languages
     (plantuml . t)))
 </pre>
-</div>
+</div></li>
 
-<ol class="org-ol">
-<li>配置 jar 文件路径</li>
-</ol>
+<li><p>
+配置 jar 文件路径
+</p>
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-plantuml-jar-path
       (expand-file-name "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/org/org-resources/plantuml.jar"))
 </pre>
-</div>
+</div></li>
+</ol>
 </div>
 </div>
 
-<div id="outline-container-org22ed8d8" class="outline-2">
-<h2 id="org22ed8d8">PlantUML 时序图配置方法</h2>
-<div class="outline-text-2" id="text-org22ed8d8">
+<div id="outline-container-org646ab52" class="outline-2">
+<h2 id="org646ab52">PlantUML 时序图配置方法</h2>
+<div class="outline-text-2" id="text-org646ab52">
 <ol class="org-ol">
 <li><p>
 基础用法
@@ -216,15 +218,14 @@ Phone -&gt; Phone : 解析网页
 ...解析三秒...
 Phone -&gt; Phone : 成功加载
 </pre>
-</div></li>
-</ol>
-
+</div>
 
 
 <div class="figure">
 <p><img src="/assets/blog/在-orgmode-中使用-plantuml-画时序图/skinparam.png" alt="skinparam.png" />
 </p>
-</div>
+</div></li>
+</ol>
 </div>
 </div>
 
