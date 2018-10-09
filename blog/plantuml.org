@@ -35,7 +35,6 @@
   Server --[#0c0f0a]> Phone : 返回 HTML
   #+end_src
 
-  #+RESULTS:
   [[file:../images/basic.png]]
 
 2. 参与者名称和类型
@@ -55,7 +54,6 @@
   s --> Phone : 返回 HTML
   #+end_src
 
-  #+RESULTS:
   [[file:../images/participant.png]]
 
 3. 表示 delay
@@ -73,7 +71,6 @@
    Phone -> Phone : 成功加载
    #+end_src
 
-   #+RESULTS:
    [[file:../images/delay.png]]
 
 4. 配色配置
@@ -112,5 +109,4 @@
    Phone -> Phone : 成功加载
    #+end_src
 
-   #+RESULTS:
    [[file:../images/skinparam.png]]
