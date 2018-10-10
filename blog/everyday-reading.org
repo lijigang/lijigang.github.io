@@ -6,6 +6,30 @@
 因每日发完文章列表后, 群里会有相关主题讨论, 时间一长, 再翻看历史文章就极其不便, 故起意将每日推荐文章列表整理到此文章, 方便随时查阅.
 
 * 2018 年 10 月文章
+** 2018-10-10
+- [[https://mp.weixin.qq.com/s/qz_blxEEL4wGRXLzQhCBfg][《房地产泡沫破灭之后》]] 所有房企都在收缩战线。恒大发起全国 8.9 折优惠，碧桂园个别
+  项目打到 7 折；一切似乎都表明，被全国人民口诛笔伐十余年而屹立不倒的房产泡沫，终
+  于到了临界点。
+
+
+- [[https://mp.weixin.qq.com/s/I8yr9o_3E8Bu_4FwrKybUg][《陈志武：量化历史研究与新知识革命——以财富差距与消费差距的历史研究为例》]] 陈志
+  武教授是国内量化历史研究的推动者，量化方法在 1950、60 年代就进入历史研究。最近的
+  研究结果表明，只要消费差距没有显著恶化，财富差距、收入差距并不可怕。
+
+
+- [[https://mp.weixin.qq.com/s/ptuBx3gtTalt_KMZej6klw][《中国内容创业的「七年之痒」》]] 乌镇上的“东兴饭局”已经过去一年了；“互联网+”行动
+  计划被提出，已经是三年前的事情了；4G 网络也已经陪伴了我们五年；乔布斯去世，竟然
+  是七年前了。
+
+
+- [[https://mp.weixin.qq.com/s?__biz=MzUzNDY0NzQwMQ==&mid=2247507798&idx=1&sn=10a81264ce8870950a130d57c3542ca8&chksm=fa931850cde4914665d1c910a787ebd1b9f7bc1b0ff0a6b29c43d937312bfa0efe9fd1e97f86&mpshare=1&scene=1&srcid=1010bGeb8vV1eL2JmvLlZpF6&from=singlemessage&ascene=1&devicetype=android-26&version=26060739&nettype=cmnet&abtest_cookie=BAABAAgACgALABMABACehh4AJZceAFmZHgCAmR4AAAA%3D&lang=en&pass_ticket=UdazvX4JENOWgX6acOzOGNJvwSlrHB62xXNHHEwRmrc9Mm0HRddO99miHRO2HDMi&wx_header=1][《9 次降价消费者仍不买账，无印良品还能在中国叫嚣多久？》]] 这几天，无印良品中国进
+  行了第 9 次降价。这原本是无印良品在华销售策略中抛出来的杀手锏，却不料，降了价的
+  无印良品反而没有交出一份好看的成绩单。
+
+
+- [[https://mp.weixin.qq.com/s/wlkniMmRkI6nfYWZ5d_fbw][《农村包围城市：一部商业史》]] “农村包围城市”这一中国最佳逆袭战略的背后，是城乡
+  鸿沟，阶层分裂和贫富差距，在它诞生的九十多年之后，我们仍然能够在绝大多数行业的
+  成功故事里，寻觅到它们的踪迹。
 ** 2018-10-09
 - [[https://mp.weixin.qq.com/s/okMGWR1uXqGRFWmwG1xidA][《世界的暗逻辑：赌徒思维》]] 当人类主流价值观普遍认为，获取财富不再靠“创造” 而是
   要靠“投机”时，最危险的时刻就来临了。于是，你看到这场赌局最关键的时刻， 万达选
