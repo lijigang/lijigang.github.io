@@ -1,10 +1,10 @@
-#+TITLE:       使用Org-Page搭建网站
+#+TITLE:       使用 Org-Page 搭建网站
 #+AUTHOR:      lijigang <i@lijigang.com>
 #+DATE:        2018-05-29 Tue
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
 
 * 安装 Org-Page
-使用 =Spacemacs= 安装Org-Page极其方便. 只需要在自己的layer中增加org-age即可:
+使用 =Spacemacs= 安装 Org-Page 极其方便. 只需要在自己的 layer 中增加 org-age 即可:
 #+BEGIN_SRC emacs-lisp
 (defconst lijigang-packages
   '(org-page
@@ -28,7 +28,7 @@
           (setq op/site-domain "http://lijigang.github.io/")
           (setq op/theme-root-directory "~/.emacs.d/elpa/org-page-20170806.1924/themes")
           (setq op/theme 'ljg)
-          (setq op/personal-google-analytics-id "UA-49533446-2")
+          (setq op/personal-google-analytics-id "your_id")
           (setq op/highlight-render 'js)
           (setq op/category-config-alist
             '(("blog"
