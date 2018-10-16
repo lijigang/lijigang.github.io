@@ -6,7 +6,7 @@
 关的软件使用上面，没有比 Org-Mode 更牛逼的存在了。
 
 之前一直很纠结，既放不下 Vim 的高效编辑方式，又不放下 Emacs 里的 Org-mode。直到
-遇到了 Spacemacs：
+遇到了 Spacemacs, 完美的结合了两者的优点：
 
 #+BEGIN_QUOTE
 Spacemacs = Vim + Emacs
