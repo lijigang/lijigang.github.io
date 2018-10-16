@@ -41,8 +41,8 @@
         <div class="col-md-2"></div>
             <h1>从零开始配置 Spacemacs</h1>
             <p>
-在我看来，在文本编辑操作领域，没有比 Vim 更高效的操作方式了。在文档存储和知识管
-理相关的软件使用上面，没有比 Org-Mode 更牛逼的存在了。
+在我看来，在文本编辑领域，没有比 Vim 更高效的操作方式了。在文档存储和知识管理相
+关的软件使用上面，没有比 Org-Mode 更牛逼的存在了。
 </p>
 
 <p>
@@ -60,8 +60,8 @@ Spacemacs = Vim + Emacs
 这篇文章，就记录一下自己是怎么从零开始配置一个符合自己使用习惯的 Spacemacs。
 </p>
 
-<div id="outline-container-orgc563b6c" class="outline-2">
-<h2 id="orgc563b6c"><span class="section-number-2">1</span> 安装</h2>
+<div id="outline-container-orgbe8673f" class="outline-2">
+<h2 id="orgbe8673f"><span class="section-number-2">1</span> 安装</h2>
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
 <li>安装 <a href="https://emacsformacosx.com/">Emacs</a></li>
@@ -81,11 +81,12 @@ clone 完成后，会多两个东西，
 </div>
 </div>
 
-<div id="outline-container-org2b21ffd" class="outline-2">
-<h2 id="org2b21ffd"><span class="section-number-2">2</span> 配置</h2>
+<div id="outline-container-orgf90b040" class="outline-2">
+<h2 id="orgf90b040"><span class="section-number-2">2</span> 配置</h2>
 <div class="outline-text-2" id="text-2">
 <p>
-安装完成后，对于常规的配置，可以放置到 <code>~/.spacemacs</code> 文件中，就像 Vim 和 Zsh 一样。 但 Spacemacs 提供了 <a href="http://spacemacs.org/doc/LAYERS.html">layer</a> 概念，极大方便了插件的管理.
+安装完成后，对于常规的配置，可以放置到 <code>~/.spacemacs</code> 文件中，就像 Vim 和 Zsh 一样。
+但 Spacemacs 提供了 <a href="http://spacemacs.org/doc/LAYERS.html">layer</a> 概念，极大方便了插件的管理.
 </p>
 
 <p>
@@ -93,8 +94,8 @@ clone 完成后，会多两个东西，
 </p>
 </div>
 
-<div id="outline-container-org42814bd" class="outline-3">
-<h3 id="org42814bd"><span class="section-number-3">2.1</span> .spacemacs</h3>
+<div id="outline-container-org3b60903" class="outline-3">
+<h3 id="org3b60903"><span class="section-number-3">2.1</span> .spacemacs</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li><p>
@@ -102,9 +103,10 @@ layers
 </p>
 
 <p>
-在 <code>dotspacemacs-configuration-layers</code> 变量中增加你想配置的 layer(Spacemacs 出厂自带的或者是你后续自己创建的）
-</p></li>
-</ul>
+在 <code>dotspacemacs-configuration-layers</code> 变量中增加你想配置的 layer(Spacemacs 出厂
+自带的或者是你后续自己创建的）
+</p>
+
 <div class="org-src-container">
 <pre class="src src-Emacs-lisp">dotspacemacs-configuration-layers
 '(
@@ -116,30 +118,36 @@ layers
   org
   )
 </pre>
-</div>
+</div></li>
 
-<ul class="org-ul">
-<li>themes
-可以从 <a href="https://themegallery.robdor.com/">这里</a> 挑选你喜欢的主题，把名字放到配置的第一个即可。</li>
-</ul>
+<li><p>
+themes
+</p>
+
+<p>
+可以从 <a href="https://themegallery.robdor.com/">这里</a> 挑选你喜欢的主题，把名字放到配置的第一个即可。
+</p>
+
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">dotspacemacs-themes '(monokai
                       molokai
                       niflheim)
 </pre>
-</div>
+</div></li>
 
-<ul class="org-ul">
-<li>fullscreen</li>
-</ul>
+<li><p>
+fullscreen
+</p>
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">dotspacemacs-fullscreen-at-startup t
 </pre>
-</div>
+</div></li>
+</ul>
 
 <p>
 在 dotspacemacs/user-config 函数中配置：
 </p>
+
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(defun dotspacemacs/user-config ()
   "Configuration function for user code.
@@ -246,8 +254,8 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-orge60c67f" class="outline-3">
-<h3 id="orge60c67f"><span class="section-number-3">2.2</span> private layer</h3>
+<div id="outline-container-org328218b" class="outline-3">
+<h3 id="org328218b"><span class="section-number-3">2.2</span> private layer</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 首先把自己 layer 中想要的 packages 给列好, 并设置相应的启动配置项:
