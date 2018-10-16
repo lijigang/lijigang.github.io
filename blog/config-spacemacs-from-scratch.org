@@ -1,31 +1,33 @@
-#+title: 从零开始配置Spacemacs
+#+title: 从零开始配置 Spacemacs
 #+author: lijigang <i@lijigang.com>
 #+OPTIONS: toc:nil
 
-在我看来，在编辑操作领域，没有比Vim更高效的操作方式了。在文档存储和知识管理相关的软件使用上面，没有比Org-Mode更牛逼的存在了。
+在我看来，在文本编辑操作领域，没有比 Vim 更高效的操作方式了。在文档存储和知识管
+理相关的软件使用上面，没有比 Org-Mode 更牛逼的存在了。
 
-之前一直很纠结，既放不下Vim的高效编辑方式，又不放下Emacs里的Org-mode。直到遇到了Spacemacs：
+之前一直很纠结，既放不下 Vim 的高效编辑方式，又不放下 Emacs 里的 Org-mode。直到
+遇到了 Spacemacs：
 
 #+BEGIN_QUOTE
 Spacemacs = Vim + Emacs
 #+END_QUOTE
 
-这篇文章，就记录一下自己是怎么从零开始配置一个符合自己使用习惯的Spacemacs。
+这篇文章，就记录一下自己是怎么从零开始配置一个符合自己使用习惯的 Spacemacs。
 
 * 安装
 1. 安装 [[https://emacsformacosx.com/][Emacs]]
 2. Clone Spacemacs
-#+BEGIN_SRC 
+#+BEGIN_SRC
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 #+END_SRC
 
-clone完成后，会多两个东西，
-- =~/.emacs.d/=  
+clone 完成后，会多两个东西，
+- =~/.emacs.d/=
 - =~/.spacemacs=
- 
+
 * 配置
 
-安装完成后，对于常规的配置，可以放置到 =~/.spacemacs= 文件中，就像Vim和Zsh一样。 但Spacemacs提供了 [[http://spacemacs.org/doc/LAYERS.html][layer]] 概念，极大方便了插件的管理.
+安装完成后，对于常规的配置，可以放置到 =~/.spacemacs= 文件中，就像 Vim 和 Zsh 一样。 但 Spacemacs 提供了 [[http://spacemacs.org/doc/LAYERS.html][layer]] 概念，极大方便了插件的管理.
 
 下面分为两部分来配置， 首先把一些简单的配置放置到 =~/.spacemacs= 文件中：
 
@@ -33,7 +35,7 @@ clone完成后，会多两个东西，
 
 - layers
 
-  在 =dotspacemacs-configuration-layers= 变量中增加你想配置的layer(Spacemacs出厂自带的或者是你后续自己创建的）
+  在 =dotspacemacs-configuration-layers= 变量中增加你想配置的 layer(Spacemacs 出厂自带的或者是你后续自己创建的）
 #+BEGIN_SRC Emacs-lisp
    dotspacemacs-configuration-layers
    '(
@@ -59,7 +61,7 @@ dotspacemacs-themes '(monokai
 dotspacemacs-fullscreen-at-startup t
 #+END_SRC
 
-在dotspacemacs/user-config函数中配置：
+在 dotspacemacs/user-config 函数中配置：
 #+BEGIN_SRC emacs-lisp
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
@@ -81,19 +83,19 @@ you should place your code here."
   ;; which will induce conflicts. One way to avoid conflict is to wrap your org
   ;; config code in a with-eval-after-load block like this:
   (with-eval-after-load 'org
-    ;; 设置todo keywords
+    ;; 设置 todo keywords
     (setq org-todo-keywords
           '((sequence "TODO" "HAND" "|" "DONE")))
 
-    ;; 调试好久的颜色，效果超赞！ todo keywords 增加背景色
+    ;; 调试好久的颜色，效果超赞！todo keywords 增加背景色
     (setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
                                    ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
                                    ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
 
-    ;; 设置bullet list
+    ;; 设置 bullet list
     (setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
 
-    ;; 打开org-indent mode
+    ;; 打开 org-indent mode
     (setq org-startup-indented t)
 
     (setq org-agenda-include-diary nil)
@@ -129,7 +131,7 @@ you should place your code here."
   ;; 导出相关 ;;
   ;;;;;;;;;;;;;;
 
-  ;; 安装XeLaTeX是另外一个故事了..
+  ;; 安装 XeLaTeX 是另外一个故事了..
   (setq Tex-command-default "XeLaTeX")
 
 
@@ -165,7 +167,7 @@ you should place your code here."
 
 ** private layer
 
-首先把自己layer中想要的packages给列好, 并设置相应的启动配置项:
+首先把自己 layer 中想要的 packages 给列好, 并设置相应的启动配置项:
 
 #+BEGIN_SRC emacs-lisp
 (defconst lijigang-packages
@@ -268,7 +270,7 @@ you should place your code here."
     (insert (make-progress 30 percent t))
     ))
 
-;; latex支持中文
+;; latex 支持中文
 (require 'ox)
 (require 'ox-html)
 (require 'ox-publish)
@@ -283,7 +285,7 @@ you should place your code here."
             headsep=1.6truecm,
             footskip=1.5truecm,
             headheight=15pt    % 标准中没有要求页眉的高度，这里设置成
-                               % 15pt了
+                               % 15pt 了
            ]{geometry}
 "
                   ("\\section{%s}" . "\\section*{%s}")
