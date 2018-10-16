@@ -2,8 +2,8 @@
 #+author: lijigang <i@lijigang.com>
 #+OPTIONS: toc:nil
 
-在我看来，在文本编辑操作领域，没有比 Vim 更高效的操作方式了。在文档存储和知识管
-理相关的软件使用上面，没有比 Org-Mode 更牛逼的存在了。
+在我看来，在文本编辑领域，没有比 Vim 更高效的操作方式了。在文档存储和知识管理相
+关的软件使用上面，没有比 Org-Mode 更牛逼的存在了。
 
 之前一直很纠结，既放不下 Vim 的高效编辑方式，又不放下 Emacs 里的 Org-mode。直到
 遇到了 Spacemacs：
@@ -27,7 +27,8 @@ clone 完成后，会多两个东西，
 
 * 配置
 
-安装完成后，对于常规的配置，可以放置到 =~/.spacemacs= 文件中，就像 Vim 和 Zsh 一样。 但 Spacemacs 提供了 [[http://spacemacs.org/doc/LAYERS.html][layer]] 概念，极大方便了插件的管理.
+安装完成后，对于常规的配置，可以放置到 =~/.spacemacs= 文件中，就像 Vim 和 Zsh 一样。
+但 Spacemacs 提供了 [[http://spacemacs.org/doc/LAYERS.html][layer]] 概念，极大方便了插件的管理.
 
 下面分为两部分来配置， 首先把一些简单的配置放置到 =~/.spacemacs= 文件中：
 
@@ -35,8 +36,10 @@ clone 完成后，会多两个东西，
 
 - layers
 
-  在 =dotspacemacs-configuration-layers= 变量中增加你想配置的 layer(Spacemacs 出厂自带的或者是你后续自己创建的）
-#+BEGIN_SRC Emacs-lisp
+  在 =dotspacemacs-configuration-layers= 变量中增加你想配置的 layer(Spacemacs 出厂
+  自带的或者是你后续自己创建的）
+
+  #+BEGIN_SRC Emacs-lisp
    dotspacemacs-configuration-layers
    '(
      helm
@@ -46,22 +49,25 @@ clone 完成后，会多两个东西，
      git
      org
      )
-#+END_SRC
+  #+END_SRC
 
 - themes
+
   可以从 [[https://themegallery.robdor.com/][这里]] 挑选你喜欢的主题，把名字放到配置的第一个即可。
-#+BEGIN_SRC emacs-lisp
-dotspacemacs-themes '(monokai
-                      molokai
-                      niflheim)
-#+END_SRC
+
+  #+BEGIN_SRC emacs-lisp
+  dotspacemacs-themes '(monokai
+                        molokai
+                        niflheim)
+  #+END_SRC
 
 - fullscreen
-#+BEGIN_SRC emacs-lisp
-dotspacemacs-fullscreen-at-startup t
-#+END_SRC
+  #+BEGIN_SRC emacs-lisp
+  dotspacemacs-fullscreen-at-startup t
+  #+END_SRC
 
 在 dotspacemacs/user-config 函数中配置：
+
 #+BEGIN_SRC emacs-lisp
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
