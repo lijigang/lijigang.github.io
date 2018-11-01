@@ -1,0 +1,5 @@
+#+title: 游戏化实战: 如何游戏人生
+
+
+#+DOWNLOADED: file:/Users/ljg/Downloads/gamefication.png @ 2018-11-01 18:38:07
+[[file:../images/gamefication.png]]
