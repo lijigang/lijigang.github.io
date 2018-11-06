@@ -1,5 +1,5 @@
 #+TITLE: 读书记录
-#+optons: toc:nil num:nil
+#+OPTIONS: toc:nil num:nil
 
 * 2018 年读过的书[10/10]
 ** 一月 [2/2]
