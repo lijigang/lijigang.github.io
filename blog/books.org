@@ -1,0 +1,333 @@
+#+TITLE: 读书记录
+#+optons: toc:nil num:nil
+
+* 2018 年读过的书[10/10]
+** 一月 [2/2]
+*** DONE [[https://book.douban.com/subject/25883177/][辛鹏: 流程的永恒之道]]                                        :Awesome:
+*** DONE [[https://book.douban.com/subject/27016248/][NTT DATA: 图解物联网]]                                        :Awesome:
+
+** 十月 [7/7]
+*** DONE 史钧: [[https://book.douban.com/subject/26785959/][疯狂人类进化史]]                                    :趣味横生:
+*** DONE H.G.威尔斯: [[https://book.douban.com/subject/27048194/][盲人国]]                                      :趣味横生:
+*** DONE 知识一小时: [[https://www.zhihu.com/pub/book/119554684][OKR 实践指南]]                                :趣味横生:
+*** DONE Marvin Minsky: [[https://book.douban.com/subject/26919830/][心智社会]]                                 :严肃认真:
+*** DONE 戴维·温伯格: [[https://book.douban.com/subject/26279954/][知识的边界]]                                 :严肃认真:
+*** DONE 李立: [[https://book.douban.com/subject/27205096/][腾讯产品法]]                                        :严肃认真:
+*** DONE 恩斯特.冯.格拉塞斯费尔德: [[https://book.douban.com/subject/27666709/][激进建构主义]]                  :严肃认真:
+** 十一月 [1/1]
+*** DONE 克里斯托弗·G.布林顿: [[https://book.douban.com/subject/30004536/][网络的力量]]
+* 2017 年读过的书[16/16]
+** 一月[8/8]
+*** DONE [[https://book.douban.com/subject/26917339/][Chris Zook: 创始人精神]]                                   :LifeChange:
+*** DONE [[https://book.douban.com/subject/26928395/][李少加: 进化式运营]]                                       :LifeChange:
+*** DONE [[https://book.douban.com/subject/26582569/][黄海林: 转化率]]                                             :Ordinary:
+*** DONE [[https://book.douban.com/subject/26936065/][孙圈圈: 请停止无效努力]]                                      :Awesome:
+*** DONE [[https://book.douban.com/subject/26832523/][永田丰志: 超实用思考术]]                                      :Awesome:
+*** DONE [[https://book.douban.com/subject/26865230/][刘焯琛: 一个 APP 的诞生]]                                     :Awesome:
+*** DONE [[https://book.douban.com/subject/26927349/][刘飞: 从点子到产品]]                                          :Awesome:
+*** DONE [[https://book.douban.com/subject/26921847/][金根培: 重新定义产品]]                                      :Ordinary:
+** 二月[6/6]
+*** DONE [[https://book.douban.com/subject/26436490/][欧内斯特. 诺灵: 透视如此简单]]                               :LifeChange:
+*** DONE [[https://book.douban.com/subject/26253748/][张智皓: 哲学了没?]]                                          :LifeChange:
+*** DONE [[https://book.douban.com/subject/26943161/][尤瓦尔.赫拉利: 未来简史]]                                    :LifeChange:
+*** DONE [[https://book.douban.com/subject/26895993/][Anders Ericsson: 刻意练习]]                                     :Awesome:
+*** DONE [[https://book.douban.com/subject/26760348/][Jeff Patton: 用户故事地图]]                                   :Awesome:
+*** DONE [[https://book.douban.com/subject/26809374/][Peter Morville: 信息架构]]                                    :Awesome:
+** 三月[1/1]
+*** DONE [[https://book.douban.com/subject/26178426/][塞德希尔: 稀缺]]                                                :Awesome:
+** 四月[1/1]
+*** DONE [[https://book.douban.com/subject/26947799/][Golden Krishna: 无界面交互]]                               :Awesome:
+* 2016 年读过的书[65/65]
+** 一月[7/7]
+*** DONE [[http://book.douban.com/subject/26598389/][凯文·阿什顿: 创造]]                                        :LifeChange:
+*** DONE [[http://book.douban.com/subject/26384277/][熊逸: 道可道]]                                                :Awesome:
+*** DONE [[http://book.douban.com/subject/26385545/][熊逸: 逍遥游]]                                               :Ordinary:
+*** DONE [[http://book.douban.com/subject/26388004/][熊逸: 思辨的禅趣]]                                           :Ordinary:
+*** DONE [[http://book.douban.com/subject/26694601/][迈克尔·怀特: 牛顿传]]                                        :Ordinary:
+*** DONE [[http://book.douban.com/subject/26535520/][爱德华·多尼克: 机械守宙]]                                     :Awesome:
+*** DONE [[http://book.douban.com/subject/26593084/][马克: 迷人的材料]]                                            :Awesome:
+** 二月[3/3]
+*** DONE [[https://book.douban.com/subject/2327354/][张明仁: 古今名人读书法]]                                   :LifeChange:
+*** DONE [[http://book.douban.com/subject/26586495/][熊逸: 隐公元年]]                                              :Awesome:
+*** DONE [[http://book.douban.com/subject/25755879/][黄慧敏: 最简单的图形与最复杂的信息]]                         :Ordinary:
+** 三月[4/4]
+*** DONE [[https://book.douban.com/subject/26656350/][凯萨: 增长的本质]]                                            :Awesome:
+*** DONE [[https://book.douban.com/subject/26698020/][William Nickels: 认识商业]]                                   :Awesome:
+*** DONE [[http://book.douban.com/subject/3773007/][陈魁: PPT 演义]]                                              :Ordinary:
+*** DONE [[http://book.douban.com/subject/26392294/][Warren Berger: 绝佳提问]]                                    :Ordinary:
+** 四月[6/6]
+*** DONE [[https://book.douban.com/subject/25957239/][伯特 多德森: 素描的诀窍]]                                  :LifeChange:
+*** DONE [[https://book.douban.com/subject/26697350/][Christophe: 极简宇宙史]]                                   :LifeChange:
+*** DONE [[https://book.douban.com/subject/26392337/][尼尔: 与神对话]]                                           :LifeChange:
+*** DONE [[https://book.douban.com/subject/26776174/][毕然: 大数据分析的道与术]]                                    :Awesome:
+*** DONE [[https://read.douban.com/ebook/17813092/?dcs%3Dbook-search][知乎一小时: 股权是什么]]                                   :LifeChange:
+*** DONE [[https://read.douban.com/ebook/20181458/][知乎一小时: 财务演绎法]]                                      :Awesome:
+** 五月[5/5]
+*** DONE [[https://book.douban.com/subject/25881102/][布鲁诺: 独裁者手册]]                                         :LifeChange:
+*** DONE [[https://blog.alphacamp.co/2015/09/21/gamification-framework-octalysis-1/][周郁凯: 游戏化实战]]                                         :LifeChange:
+*** DONE [[https://book.douban.com/subject/26655980/][张宏杰: 顽疾]]                                                  :Awesome:
+*** DONE [[https://book.douban.com/subject/26761859/][格雷戈: 精要主义]]                                              :Awesome:
+*** DONE [[https://read.douban.com/ebook/405202/?icn%3Dfrom-reader-page][东野圭吾: 嫌疑人 X 的献身]]                                       :Awesome:
+** 六月[6/6]
+*** DONE [[https://book.douban.com/subject/26753478/][阿莫萨维: 神逻辑--不讲道理的人怎么总有理]]                 :LifeChange:
+CLOSED: [2016-05-31 Tue 10:51]
+*** DONE [[https://book.douban.com/subject/26767590/][德伯拉: 技术简史]]                                         :LifeChange:
+CLOSED: [2016-06-21 Tue 10:46]
+*** DONE [[https://book.douban.com/subject/26700929/][王东岳: 知鱼之乐]]                                         :LifeChange:
+CLOSED: [2016-06-08 Wed 14:23]
+*** DONE [[https://book.douban.com/subject/1031207/][拉里: 执行]]                                                  :Awesome:
+CLOSED: [2016-06-07 Tue 10:08]
+*** DONE [[https://book.douban.com/subject/26738836/][朱利安: 好用的哲学]]                                          :Awesome:
+CLOSED: [2016-06-21 Tue 10:47]
+*** DONE [[https://book.douban.com/subject/26289656/][Alberto: 不只是美]]                                           :Awesome:
+CLOSED: [2016-06-23 Thu 19:21]
+** 七月[8/8]
+*** DONE [[https://book.douban.com/subject/25961458/][罗伯特•所罗门: 大问题]]                                    :LifeChange:
+CLOSED: [2016-07-04 Mon 09:45]
+*** DONE [[https://book.douban.com/subject/25747852/][达雷尔: 世界上最简单的会计书]]                             :LifeChange:
+CLOSED: [2016-07-13 Wed 15:38]
+*** DONE [[https://book.douban.com/subject/26814078/][兰道尔·门罗: 万物解释者]]                                     :Awesome:
+CLOSED: [2016-06-28 Tue 19:52]
+*** DONE [[https://book.douban.com/subject/26724253/][虎嗅: 创新的洞见]]                                            :Awesome:
+CLOSED: [2016-07-13 Wed 17:06]
+*** DONE [[https://book.douban.com/subject/26791743/][瓦伦丁娜: 信息图中的世界史]]                                  :Awesome:
+CLOSED: [2016-07-01 Fri 10:09]
+*** DONE [[https://book.douban.com/subject/26422632/][朱安家: 哲学哲学鸡蛋糕]]                                      :Awesome:
+CLOSED: [2016-07-04 Mon 09:45]
+*** DONE [[https://book.douban.com/subject/10826177/][国家科技风险开发事业中心: 商业计划书编写指南]]                :Awesome:
+CLOSED: [2016-07-05 Tue 10:10]
+*** DONE [[https://book.douban.com/subject/26774972/][Gruwez: 高效演讲]]                                            :Awesome:
+CLOSED: [2016-07-05 Tue 11:11]
+** 八月[7/7]
+*** DONE [[https://book.douban.com/subject/26838557/][吴军: 智能时代]]                                           :LifeChange:
+CLOSED: [2016-08-04 Thu 11:59]
+*** DONE [[https://book.douban.com/subject/25742296/][James: 有限与无限的游戏]]                                     :Awesome:
+CLOSED: [2016-08-04 Thu 11:59]
+*** DONE [[https://book.douban.com/subject/26301996/][罗惠民: 打造财务 Excel 达人]]                                  :Ordinary:
+CLOSED: [2016-08-10 Wed 12:03]
+*** DONE [[https://book.douban.com/subject/10549583/][谭云杰: 大象:Thinking in UML]]                                :Awesome:
+CLOSED: [2016-08-10 Wed 16:46]
+*** DONE [[https://book.douban.com/subject/26594366/][Jordan: 魔鬼数学]]                                            :Awesome:
+CLOSED: [2016-08-12 Fri 10:11]
+*** DONE [[https://book.douban.com/subject/26743607/][韦尔奇: 商业的本质]]                                         :Ordinary:
+CLOSED: [2016-08-16 Tue 13:39]
+*** DONE [[https://book.douban.com/subject/26639456/][万达: 万达工作法]]                                           :Ordinary:
+CLOSED: [2016-08-30 Tue 12:37]
+** 九月[3/3]
+*** DONE [[https://book.douban.com/subject/25744944/][张定浩: 既见君子]]                                         :LifeChange:
+CLOSED: [2016-09-28 Wed 15:14]
+*** DONE [[https://book.douban.com/subject/1225983/][比尔.布莱森: 万物简史]]                                       :Awesome:
+CLOSED: [2016-09-28 Wed 15:11]
+*** DONE [[https://book.douban.com/subject/24700125/][Peter: 经济为什么会崩溃]]                                     :Awesome:
+CLOSED: [2016-09-28 Wed 15:11]
+** 十月[3/3]
+*** DONE [[https://book.douban.com/subject/26169876/][下地宽也: 逻辑思维, 只要 5 步]]                                 :Awesome:
+CLOSED: [2016-10-24 Mon 11:59]
+*** DONE 江远涛: 商业生态圈                                         :Ordinary:
+CLOSED: [2016-11-05 Sat 14:47]
+*** DONE 梁小民: 写给企业家的经济学                                  :Awesome:
+CLOSED: [2016-11-05 Sat 14:50]
+** 十一月[5/5]
+*** DONE [[https://book.douban.com/subject/10785583/][丹尼尔.卡尼曼: 思考, 快与慢]]                              :LifeChange:
+*** DONE 周易                                                        :Awesome:
+*** DONE [[https://book.douban.com/subject/26390604/][罗志田: 再造文明之梦:胡适传]]                                 :Awesome:
+*** DONE [[https://book.douban.com/subject/26883531/][网易杭研项目管理部: 网易一千零一夜]]                         :Ordinary:
+*** DONE [[https://book.douban.com/subject/3151772/][坎贝尔: 一页纸项目管理]]                                      :Awesome:
+** 十二月[8/8]
+*** DONE [[https://book.douban.com/subject/20390883/][鲍鹏山: 孔子传]]                                           :LifeChange:
+*** DONE [[https://book.douban.com/subject/26680145/][亚历山大: 价值主张设计]]                                   :LifeChange:
+*** DONE [[https://book.douban.com/subject/26915104/][曹政: 你凭什么做好互联网]]                                 :LifeChange:
+CLOSED: [2016-12-09 Fri 10:22]
+*** DONE [[https://book.douban.com/subject/26897464/][彼得.希夫: 小岛经济学]]                                    :LifeChange:
+CLOSED: [2016-12-09 Fri 15:18]
+*** DONE [[https://book.douban.com/subject/26702089/][三谷宏治: 商业模式全史]]                                      :Awesome:
+CLOSED: [2016-12-26 Mon 10:25]
+*** DONE [[https://book.douban.com/subject/1391740/][马丁.戴维斯: 逻辑的引擎]]                                    :Ordinary:
+CLOSED: [2016-12-20 Tue 18:36]
+*** DONE [[https://book.douban.com/subject/26590171/][小仓广: 做事的常识]]                                         :Ordinary:
+CLOSED: [2016-12-08 Thu 12:55]
+*** DONE [[https://book.douban.com/subject/26904512/][邵云蛟: PPT 设计思维]]                                        :Awesome:
+* 2015 年读过的书[88/88]
+** 一月[9/9]
+*** DONE [[http://book.douban.com/subject/20493042/][赵周: 这样读书就够了]]                                       :Awesome:
+CLOSED: [2015-01-16 Fri 16:50]
+*** DONE [[http://book.douban.com/subject_search?search_text=%E6%BD%9C%E8%A7%84%E5%88%99&cat=1001][吴思: 潜规则]]                                            :LifeChange:
+CLOSED: [2015-01-16 Fri 16:52]
+*** DONE [[http://book.douban.com/subject/1003479/][钱穆: 中国历代政治得失]]                                     :Awesome:
+CLOSED: [2015-01-17 Sat 19:47] DEADLINE: <2015-01-18 Sun>
+*** DONE [[http://book.douban.com/subject/1813918/][周国平: 智慧和信仰]]                                                     :Awesome:
+CLOSED: [2015-01-21 Wed 13:14]
+*** DONE [[http://book.douban.com/subject/1291204/][侯世达: 哥德尔, 艾舍尔, 巴赫]]                            :LifeChange:
+CLOSED: [2015-01-21 Wed 10:04] DEADLINE: <2015-01-31 Sat>
+*** DONE [[http://book.douban.com/subject/25870261/][道格•莱莫夫: 练习的力量]]                                   :Ordinary:
+CLOSED: [2015-01-22 Thu 16:19]
+*** DONE [[http://book.douban.com/subject/25858068/][松浦弥太郎:100 个基本]]                                       :Awesome:
+CLOSED: [2015-01-23 Fri 19:09]
+*** DONE [[http://book.douban.com/subject/1426502/][唐君毅: 青年与学问]]                                         :Awesome:
+CLOSED: [2015-02-26 Thu 11:37]
+*** DONE [[jhttp://book.douban.com/subject/1006560/][吴思: 血酬定律]]                                             :Awesome:
+CLOSED: [2015-01-30 Fri 09:46]
+** 二月[8/8]
+*** DONE [[http://book.douban.com/subject/3806309/][蒂莫西.科里根: 如何写影评]]                                  :Awesome:
+CLOSED: [2015-02-04 Wed 11:39]
+*** DONE [[http://book.douban.com/subject/26268552/][阮一峰:如何变得有思想]]                                      :Awesome:
+CLOSED: [2015-02-05 Thu 09:13]
+*** DONE [[http://book.douban.com/subject/25862578/][东野圭吾:解忧杂货店]]                                       :Ordinary:
+CLOSED: [2015-02-09 Mon 15:41]
+*** DONE [[http://book.douban.com/subject/25881590][赵周: 拆出你的沟通力 1]]                                     :Ordinary:
+CLOSED: [2015-02-09 Mon 16:04]
+*** DONE [[http://book.douban.com/subject/25881592/][赵周:拆出你的沟通力 2]]                                      :Ordinary:
+CLOSED: [2015-02-09 Mon 19:23]
+*** DONE [[http://book.douban.com/subject/26275861/][罗纳德.B.阿德勒:沟通的艺术]]                                :Ordinary:
+CLOSED: [2015-02-26 Thu 18:52]
+*** DONE [[http://book.douban.com/subject/25963469/][爱德华.戴默: 好好讲道理]]                                                :Awesome:
+CLOSED: [2015-02-28 Sat 13:29]
+*** DONE [[http://book.douban.com/subject/26278430/][林特特: 别害怕你所向往的生活]]                              :Ordinary:
+CLOSED: [2015-03-02 Mon 16:12]
+** 三月[7/7]
+*** DONE [[http://book.douban.com/subject/25985021/][尤瓦尔.赫拉利:人类简史 从动物到上帝]]                        :Awesome:
+CLOSED: [2015-03-10 Tue 18:27]
+*** DONE [[http://book.douban.com/subject/1432323/][Jari Aalto: Sams Teach Yourself Emacs in 24 Hours]]         :Ordinary:
+CLOSED: [2015-03-10 Tue 18:28]
+*** DONE [[http://book.douban.com/subject/25831015/][生命科学编辑团队: 用地图看懂世界经济]]                      :Ordinary:
+CLOSED: [2015-03-12 Thu 19:39]
+*** DONE [[http://book.douban.com/subject/3406401/][赫尔曼.黑塞: 悉达多]]                                        :Awesome:
+CLOSED: [2015-03-15 Sun 23:02]
+*** DONE [[http://book.douban.com/subject/26264967/][艾萨克.阿西莫夫: 神们自己]]                                  :Awesome:
+CLOSED: [2015-03-25 Wed 17:34]
+*** DONE [[http://book.douban.com/subject/2183092/][刘劭: 人物志]]                                               :Awesome:
+CLOSED: [2015-03-30 Mon 19:56]
+*** DONE [[http://book.douban.com/subject/26297606/][彼得.蒂尔: 从 0 到 1]]                                          :Awesome:
+CLOSED: [2015-04-01 Wed 18:55]
+** 四月[10/10]
+*** DONE [[http://book.douban.com/subject/25902942/][吴军: 文明之光(第一册)]]                                     :Awesome:
+CLOSED: [2015-04-03 Fri 16:53]
+*** DONE [[http://book.douban.com/subject/25902222/][吴军: 文明之光(第二册)]]                                                 :Awesome:
+CLOSED: [2015-04-10 Fri 21:22]
+*** DONE [[http://book.douban.com/subject/7001106/][Jim Randel: 时间管理]]                                                   :Ordinary:
+CLOSED: [2015-04-28 Tue 09:25]
+*** DONE [[http://yuedu.baidu.com/ebook/3e31c551964bcf84b9d57bc0?pn%3D1&rf%3Dhttp%253A%252F%252Fwenku.baidu.com%252Ftrade%252Fbrowse%252Fcashiersucc%253Ftrade_id%253D2015041000043096014][王勇睿: 互联网广告算法和系统实践]]                                       :Awesome:
+CLOSED: [2015-04-10 Fri 21:21]
+*** DONE [[http://book.douban.com/subject/26314627/][Jens Harder: 万物: 创世]]                                                :Awesome:
+CLOSED: [2015-04-21 Tue 13:13]
+*** DONE [[http://book.douban.com/subject/3098386/][BradleyN.Miller: Problem Solving with Algorithms and Data Structures Using Python]] :LifeChange:
+CLOSED: [2015-04-20 Mon 17:40]
+*** DONE [[http://book.douban.com/subject/6933056/][Reid Hoffman: The Start-up of You]]                                      :LifeChange:
+CLOSED: [2015-04-21 Tue 13:18]
+*** DONE [[http://book.douban.com/subject/26324467/][Kevin Cheng: 以图代言]]                                                  :Awesome:
+CLOSED: [2015-04-21 Tue 14:26]
+*** DONE [[http://book.douban.com/subject/25723447/][蒋昕炜: 漫画中国式项目管理]]                                             :Ordinary:
+CLOSED: [2015-04-21 Tue 23:16]
+*** DONE [[http://book.douban.com/subject/25863515/][上野宣: 图解 HTTP]]                                                       :Awesome:
+CLOSED: [2015-04-29 Wed 15:25]
+** 五月[8/8]
+*** DONE [[http://book.douban.com/subject/6811366/][(美)罗伯特·M.波西格: 禅与摩托车维修艺术]]                                :LifeChange:
+CLOSED: [2015-05-20 Wed 10:09]
+*** DONE [[http://book.douban.com/subject/25760270/][张晓明:Excel 商业图表的三招两式]]                                         :Awesome:
+CLOSED: [2015-05-27 Wed 14:23]
+*** DONE [[http://book.douban.com/subject/26319617/][Randall Munroe: What if?]]                                               :Awesome:
+CLOSED: [2015-05-27 Wed 14:22]
+*** DONE [[http://book.douban.com/subject/20480678/][(加) 马尔科姆•格拉德威尔: 逆转]]                                         :Ordinary:
+CLOSED: [2015-05-20 Wed 10:08]
+*** DONE [[https://www.masteringemacs.org/][Mickey Petersen: Mastering Emacs]]                                       :LifeChange:
+CLOSED: [2015-05-29 Fri 18:37]
+*** DONE [[http://book.douban.com/subject/25976544/][罗伯特.麦基: 故事]]                                                      :Awesome:
+CLOSED: [2015-05-27 Wed 15:25]
+*** DONE [[http://book.douban.com/subject/3198489/][(清)金缨: 格言联璧]]                                                     :Awesome:
+CLOSED: [2015-05-04 Mon 09:16]
+*** DONE [[http://book.douban.com/subject/26210607/][刘慈欣: 时间移民]]                                                       :Awesome:
+CLOSED: [2015-05-29 Fri 17:29]
+
+** 六月[5/5]
+*** DONE [[http://book.douban.com/subject/1470313/][Richard Koch: The 80/20 Principle]]                                      :Awesome:
+CLOSED: [2015-06-18 Thu 16:42]
+*** DONE [[http://book.douban.com/subject/2567698/][刘慈欣: 三体]]                                             :LifeChange:
+CLOSED: [2015-08-01 Sat 19:48]
+*** DONE [[http://book.douban.com/subject/3066477/][刘慈欣:三体ⅱ:黑暗森林]]                         :LifeChange:
+CLOSED: [2015-08-01 Sat 19:49]
+*** DONE [[http://book.douban.com/subject/5363767/][刘慈欣: 三体Ⅲ:死神永生]]                                                 :LifeChange:
+CLOSED: [2015-06-26 Fri 19:11]
+*** DONE [[http://book.douban.com/subject/26337663/][{美}达纳·麦肯齐: 无言的宇宙]]                                            :Awesome:
+CLOSED: [2015-06-28 Sun 21:50]
+
+** 七月[7/7]
+*** DONE [[http://book.douban.com/subject/24703731/][刘海洋: LaTeX 入门]]                                        :Awesome:
+CLOSED: [2015-07-15 Wed 23:51]
+*** DONE [[http://book.douban.com/subject/6721424/][张珈豪: 一看就懂的财务报表全图解]]                            :Awesome:
+CLOSED: [2015-07-26 Sun 17:01]
+*** DONE [[http://book.douban.com/subject/24697776/][{美} 理查德·保罗: 批判性思维工具]]                            :Awesome:
+CLOSED: [2015-07-26 Sun 17:01]
+*** DONE [[http://book.douban.com/subject/25879534/][@秋叶: 学会独立思考：学习篇]]                                            :Ordinary:
+CLOSED: [2015-06-29 Mon 15:36]
+*** DONE [[http://book.douban.com/subject/25802944/][张大春: 大唐李白·少年游]]                                     :Awesome:
+CLOSED: [2015-07-27 Mon 16:47]
+*** DONE [[http://book.douban.com/subject/26390716/][张大春: 大唐李白·凤凰台]]                                       :Awesome:
+CLOSED: [2015-07-31 Fri 08:33]
+*** DONE [[http://book.douban.com/subject/26390716/][张大春: 大唐李白·将进酒]]                                     :Awesome:
+CLOSED: [2015-08-01 Sat 19:49]
+** 八月[9/9]
+*** DONE [[http://book.douban.com/subject/6990284/][瑞恩: 布道之道]]                                              :Awesome:
+CLOSED: [2015-08-03 Mon 14:02]
+*** DONE [[http://book.douban.com/subject/3071402/][(美)伽莫夫:物理世界奇遇记]]                                   :Awesome:
+CLOSED: [2015-08-13 Thu 13:38]
+*** DONE [[http://book.douban.com/subject/1461005/][George Leonard: Mastery]]                                  :LifeChange:
+CLOSED: [2015-08-13 Thu 13:39]
+*** DONE [[http://gen.lib.rus.ec/search.php?req%3Dget%2520things%2520done%2520for%2520hackers&open%3D0&view%3Dsimple&column%3Ddef][Lars Wirzenius: Get things done for hackers]]                 :Awesome:
+CLOSED: [2015-08-13 Thu 13:41]
+*** DONE [[http://book.douban.com/subject/26541801/][范冰: 增长黑客]]                                              :Awesome:
+CLOSED: [2015-08-21 Fri 18:53]
+*** DONE [[http://book.douban.com/subject/25878500/][钟殿舟: 互联网思维]]                                          :Awesome:
+CLOSED: [2015-08-30 Sun 17:27]
+*** DONE [[http://book.douban.com/subject/24107596/][(美) 威廉·吉布森: 神经漫游者]]                               :Ordinary:
+CLOSED: [2015-08-30 Sun 17:29]
+
+*** DONE [[http://book.douban.com/subject/22158363/][胡适: 习惯重于方法]]                                       :LifeChange:
+*** DONE [[http://book.douban.com/subject/10733032/][郭凯: 王二的经济学故事]]                                      :Awesome:
+CLOSED: [2015-09-02 Wed 11:55]
+** 九月[6/6]
+*** DONE [[http://book.douban.com/subject/6523997/][Jesse James Garrett: 用户体验要素]]                        :LifeChange:
+CLOSED: [2015-09-19 Sat 11:40]
+*** DONE [[http://book.douban.com/subject/26462816/][(日)大塚弘记: GitHub 入门与实践]]                              :Awesome:
+CLOSED: [2015-09-18 Fri 20:33]
+*** DONE [[http://book.douban.com/subject/26421222/][王瑜: 互联网产品视觉设计·导航篇]]                             :Awesome:
+CLOSED: [2015-09-26 Sat 23:25]
+*** DONE [[http://book.douban.com/subject/26575141/][吴声: 场景革命]]                                              :Awesome:
+CLOSED: [2015-09-26 Sat 23:25]
+*** DONE [[http://book.douban.com/subject/26177870/][杨晓平:经·理@互联网产品经理的进阶修炼]]                       :Awesome:
+CLOSED: [2015-09-27 Sun 09:03]
+*** DONE [[http://book.douban.com/subject/25978734/][马伯庸: 笑翻中国简史]]                                       :Ordinary:
+CLOSED: [2015-09-18 Fri 20:30]
+** 十月[6/6]
+*** DONE [[http://book.douban.com/subject/26596778/][刘鹏: 计算广告]]                                           :LifeChange:
+CLOSED: [2015-10-21 Wed 11:31]
+*** DONE [[http://book.douban.com/subject/25768459/][(美)亚伯拉罕•马斯洛: 动机与人格]]                             :Awesome:
+CLOSED: [2015-10-09 Fri 23:12]
+*** DONE [[http://book.douban.com/subject/26589080/][徐志斌: 社交红利 2.0]]                                         :Awesome:
+CLOSED: [2015-10-09 Fri 23:11]
+*** DONE [[http://yuedu.baidu.com/ebook/5e5a74d102d276a200292ebc][张亮: 从零开始做运营]]                                        :Awesome:
+CLOSED: [2015-10-22 Thu 10:56]
+*** DONE [[http://book.douban.com/subject/4780053/][史杰鹏: 亭长小武]]                                            :Awesome:
+CLOSED: [2015-10-21 Wed 13:10]
+*** DONE [[http://book.douban.com/subject/25723443/][徐建极:产品经理的 20 堂必修课]]                                :Ordinary:
+CLOSED: [2015-10-22 Thu 10:59]
+** 十一月[6/6]
+*** DONE [[http://book.douban.com/subject/22994632/][海蒂·格兰特·霍尔沃森: 成功，动机与目标]]                      :Awesome:
+CLOSED: [2015-11-01 Sun 13:30]
+*** DONE [[http://book.douban.com/subject/26371405/][京东商学院:京东平台运营攻略]]                                :Ordinary:
+CLOSED: [2015-11-09 Mon 17:34]
+*** DONE [[http://book.douban.com/subject/26644275/][第八公社:产品前线]]                                          :Ordinary:
+CLOSED: [2015-11-13 Fri 10:56]
+*** DONE [[http://book.douban.com/subject/20644893/][张波:O2O 移动互联网时代的商业革命]]                           :Ordinary:
+CLOSED: [2015-11-18 Wed 10:30]
+*** DONE [[http://book.douban.com/subject/26022186/][腾讯科技频道:跨界]]                                          :Ordinary:
+CLOSED: [2015-11-18 Wed 14:30]
+*** DONE [[http://book.douban.com/subject/6749832/][梅拉妮·米歇尔:复杂]]                                          :Awesome:
+CLOSED: [2015-11-21 Sat 19:43]
+** 十二月[7/7]
+*** DONE [[http://book.douban.com/subject/26658379/][凯文凯利: 必然]]
+*** DONE [[http://book.douban.com/subject/10511253/][熊逸: 周易江湖]]
+*** DONE [[http://book.douban.com/subject/6725981/][熊逸: 道可道]]
+*** DONE [[http://book.douban.com/subject/1941558/][原研哉: 设计中的设计]]
+*** DONE [[http://book.douban.com/subject/26278639/][克罗尔: 精益数据分析]]
+*** DONE [[http://book.douban.com/subject/3169342/][Peter Morville: Web 信息架构]]
+*** DONE [[http://book.douban.com/subject/26350953/][ExcelHome: 别怕, Excel 函数其实很简单]]
