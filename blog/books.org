@@ -1,11 +1,11 @@
 #+TITLE: 读书记录
 #+OPTIONS: toc:nil num:nil
 
-* 2018 年读过的书[10/10]
-** 一月 [2/2]
-*** DONE [[https://book.douban.com/subject/25883177/][辛鹏: 流程的永恒之道]]
-*** DONE [[https://book.douban.com/subject/27016248/][NTT DATA: 图解物联网]]
-
+* 2018 年读过的书[12/12]
+** 十一月 [3/3]
+*** DONE 克里斯托弗·G.布林顿: [[https://book.douban.com/subject/30004536/][网络的力量]]
+*** DONE 曾鸣: [[https://book.douban.com/subject/30357931/][智能商业]]
+*** DONE 王坚: [[https://book.douban.com/subject/26885117/][在线]]
 ** 十月 [7/7]
 *** DONE 史钧: [[https://book.douban.com/subject/26785959/][疯狂人类进化史]]
 *** DONE H.G.威尔斯: [[https://book.douban.com/subject/27048194/][盲人国]]
@@ -14,8 +14,10 @@
 *** DONE 戴维·温伯格: [[https://book.douban.com/subject/26279954/][知识的边界]]
 *** DONE 李立: [[https://book.douban.com/subject/27205096/][腾讯产品法]]
 *** DONE 恩斯特.冯.格拉塞斯费尔德: [[https://book.douban.com/subject/27666709/][激进建构主义]]
-** 十一月 [1/1]
-*** DONE 克里斯托弗·G.布林顿: [[https://book.douban.com/subject/30004536/][网络的力量]]
+** 一月 [2/2]
+*** DONE [[https://book.douban.com/subject/25883177/][辛鹏: 流程的永恒之道]]
+*** DONE [[https://book.douban.com/subject/27016248/][NTT DATA: 图解物联网]]
+
 * 2017 年读过的书[16/16]
 ** 一月[8/8]
 *** DONE [[https://book.douban.com/subject/26917339/][Chris Zook: 创始人精神]]
