@@ -4,8 +4,8 @@
     <title>捉妖记</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Mon, 26 Nov 2018 15:04:33 CST</pubDate>
-    <lastBuildDate>Mon, 26 Nov 2018 15:04:33 CST</lastBuildDate>
+    <pubDate>Mon, 26 Nov 2018 20:18:13 CST</pubDate>
+    <lastBuildDate>Mon, 26 Nov 2018 20:18:13 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -35,9 +35,9 @@
 具体来说, 可以分成下面六部分来看:
 </p>
 
-<div id="outline-container-orgf7b339b" class="outline-2">
-<h2 id="orgf7b339b">浏览器</h2>
-<div class="outline-text-2" id="text-orgf7b339b">
+<div id="outline-container-orgd30c7e0" class="outline-2">
+<h2 id="orgd30c7e0">浏览器</h2>
+<div class="outline-text-2" id="text-orgd30c7e0">
 <p>
 浏览器主要做两件事:
 </p>
@@ -49,9 +49,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgea09c2e" class="outline-2">
-<h2 id="orgea09c2e">协议栈/网卡</h2>
-<div class="outline-text-2" id="text-orgea09c2e">
+<div id="outline-container-org91bb560" class="outline-2">
+<h2 id="org91bb560">协议栈/网卡</h2>
+<div class="outline-text-2" id="text-org91bb560">
 <p>
 协议栈主要负责:
 </p>
@@ -69,9 +69,9 @@
 </ol>
 </div>
 </div>
-<div id="outline-container-org74c4d42" class="outline-2">
-<h2 id="org74c4d42">交换机/路由器</h2>
-<div class="outline-text-2" id="text-org74c4d42">
+<div id="outline-container-org4262293" class="outline-2">
+<h2 id="org4262293">交换机/路由器</h2>
+<div class="outline-text-2" id="text-org4262293">
 <p>
 信号从计算机中流出后, 在网线中经过集线器/交换机/路由器等设备继续前进.
 </p>
@@ -82,9 +82,9 @@
 </p>
 </div>
 </div>
-<div id="outline-container-org36613ec" class="outline-2">
-<h2 id="org36613ec">接入网/运营商</h2>
-<div class="outline-text-2" id="text-org36613ec">
+<div id="outline-container-orgedd8372" class="outline-2">
+<h2 id="orgedd8372">接入网/运营商</h2>
+<div class="outline-text-2" id="text-orgedd8372">
 <p>
 数据从用来接入互联网的路由器出来, 就进入了互联网内部. 路由器对接的运营商
 网络, 接入方式可以是电话线, ADSL, 有线电视, 光纤, 专线等, 这些接入线路统
@@ -92,9 +92,9 @@
 </p>
 </div>
 </div>
-<div id="outline-container-orgcbf7d31" class="outline-2">
-<h2 id="orgcbf7d31">防火墙/缓存服务器</h2>
-<div class="outline-text-2" id="text-orgcbf7d31">
+<div id="outline-container-orgaabab84" class="outline-2">
+<h2 id="orgaabab84">防火墙/缓存服务器</h2>
+<div class="outline-text-2" id="text-orgaabab84">
 <p>
 数据通过骨干网后, 最终到达 Web 服务器所在的局域网中. 第一个会遇到的就是
 防火墙, 它会对进入的包进行检查, 看看有没有危险的包混在里面. 接着会遇到缓
@@ -103,9 +103,9 @@
 </p>
 </div>
 </div>
-<div id="outline-container-orgfaa1290" class="outline-2">
-<h2 id="orgfaa1290">Web 服务器</h2>
-<div class="outline-text-2" id="text-orgfaa1290">
+<div id="outline-container-orgdd9b1d4" class="outline-2">
+<h2 id="orgdd9b1d4">Web 服务器</h2>
+<div class="outline-text-2" id="text-orgdd9b1d4">
 <p>
 当网络包到达 Web 服务器后, 数据包被解包还原为原始请求渻, 然后交给 Web 服
 务器程序.
@@ -131,6 +131,85 @@
 ]]></description>
       <pubDate>2018-11-26</pubDate>
       <guid>http://lijigang.github.io/blog/点击链接后数据是怎么跑动的/</guid>
+    </item>
+    <item>
+      <title>互联网公司: 左手用户至上, 右手售卖用户</title>
+      <link>http://lijigang.github.io/blog/互联网公司-左手用户至上-右手售卖用户/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>互联网公司: 左手用户至上, 右手售卖用户</h1>
+            <p>
+今天看到 <a href="https://stratechery.com/2018/data-factories/?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website">一篇文章</a>, 里面将互联网公司比喻为数据工厂, 同时这篇文章也指出了
+互联网公司的一个关键矛盾: 一边要求用户至上, 一边确要售卖用户(注意力).
+</p>
+
+<div id="outline-container-orgf2c82c1" class="outline-2">
+<h2 id="orgf2c82c1">左手: 用户至上</h2>
+<div class="outline-text-2" id="text-orgf2c82c1">
+<p>
+互联网公司对比传统公司, 最主要的特点在于业务数据化和在线化.
+</p>
+
+<p>
+在之前渠道为王的时代, 传统业务公司只需要控制住渠道, 就能限制用户可接触的
+产品范围.
+</p>
+
+<p>
+但互联网时代, 用户想接触不同的产品, 只需要一次点击动作即可. 所以互联网公
+司主要是需求端(即用户)促进, 天生需要提供种种功能和内容, 将用户圈定在自己
+的产品生态中, 尽量不让用户转向其它产品. 这也就是为什么那么多互联网公司都
+将 <code>用户至上</code> 设为价值观之一的原因.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org53e894b" class="outline-2">
+<h2 id="org53e894b">右手: 售卖用户</h2>
+<div class="outline-text-2" id="text-org53e894b">
+<p>
+但另一方面, 在互联网公司通过提供产品功能和内容聚集了一批用户后, 有一批对
+这种聚集的人群很感兴趣的人群&#x2013;广告主&#x2013;立马蜂拥而至, 手持钞票, 抢购这批用
+户的注意力.
+</p>
+
+<p>
+这也就是那句著名的 <code>如果你不为某个产品付费, 你就是那个产品(的一部分)</code> 有一
+定道理的地方.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgba6ca18" class="outline-2">
+<h2 id="orgba6ca18">大脑: 数据工厂</h2>
+<div class="outline-text-2" id="text-orgba6ca18">
+<p>
+但不管是左手的用户至上, 还是右手的售卖用户, 两手都做了一件事: <b>将 raw data
+处理成 用户画像</b> , 不止是用户基础数据和广告主基础数据, 还包括点击行为数据
+和效果转化数据.
+</p>
+
+<p>
+互联网公司天生就对数据有渴望, 你请求一个网页内容, 必然要登录账号, 提交喜
+欢类别(为了过滤不喜欢的内容), 看到喜欢的内容点击查看, 甚至收藏; 这一系列
+的数据, 都被互联网公司打点收集, 一方面是为了针对个人提供更个性化的内容,
+提升使用体验, 另一方面, 对个人的了解也越来越详细, 甚至超过了个人对自己的
+了解.
+</p>
+
+<p>
+整个互联网业务的开展过程, 就像一个 <b>数据工厂</b> 一样, raw data 源源不断地输
+入进去, 公司对这些数据进行加工, 形成个人的画像, 输出千人千面的内容和广告.
+</p>
+</div>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2018-11-26</pubDate>
+      <guid>http://lijigang.github.io/blog/互联网公司-左手用户至上-右手售卖用户/</guid>
     </item>
     <item>
       <title>技术简史: 从野蛮生长到垄断</title>
@@ -168,13 +247,13 @@
 其不便,故起意将每日推荐文章列表整理到此, 方便随时查阅.
 </p>
 
-<div id="outline-container-org033afb6" class="outline-2">
-<h2 id="org033afb6">2018 年 11 月文章</h2>
-<div class="outline-text-2" id="text-org033afb6">
+<div id="outline-container-org38b8b84" class="outline-2">
+<h2 id="org38b8b84">2018 年 11 月文章</h2>
+<div class="outline-text-2" id="text-org38b8b84">
 </div>
-<div id="outline-container-orgcf59b1f" class="outline-3">
-<h3 id="orgcf59b1f">2018-11-23</h3>
-<div class="outline-text-3" id="text-orgcf59b1f">
+<div id="outline-container-orge90b990" class="outline-3">
+<h3 id="orge90b990">2018-11-23</h3>
+<div class="outline-text-3" id="text-orge90b990">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/glkb14l8AsmfoTRp_7wTKg">《人间不配互联网》</a> 谷歌退出欧盟的原因，和退出中国不大一样。如今的欧盟，
 已不再是互联网乐土。毋宁说，随着全球孤立思潮的兴起，“网络开放”这事儿越
@@ -215,9 +294,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-orgce63095" class="outline-3">
-<h3 id="orgce63095">2018-11-22</h3>
-<div class="outline-text-3" id="text-orgce63095">
+<div id="outline-container-org6833f29" class="outline-3">
+<h3 id="org6833f29">2018-11-22</h3>
+<div class="outline-text-3" id="text-org6833f29">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/AE6VteRypwr_1ysB1n25zQ">《每个互联网巨头 20 岁都得死？》</a> 为什么是 20 年？表面看，是公司的产品
 或者管理的落后，但是背后的真相是，这些公司和创始人踩到了经济周期或者行
@@ -258,9 +337,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-org00f71b2" class="outline-3">
-<h3 id="org00f71b2">2018-11-21</h3>
-<div class="outline-text-3" id="text-org00f71b2">
+<div id="outline-container-org5b3c911" class="outline-3">
+<h3 id="org5b3c911">2018-11-21</h3>
+<div class="outline-text-3" id="text-org5b3c911">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/EUxVPVBuJKmirY51E6c9hA">《拼多多开进“五环”》</a> 黄峥借用了乔布斯在复出时拍过一个广告来比喻拼多多
 的野蛮生长：你可以赞扬他，你可以侮辱他，但有一点你不能做到，就是你不能
@@ -299,9 +378,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb155c38" class="outline-3">
-<h3 id="orgb155c38">2018-11-20</h3>
-<div class="outline-text-3" id="text-orgb155c38">
+<div id="outline-container-org4e50117" class="outline-3">
+<h3 id="org4e50117">2018-11-20</h3>
+<div class="outline-text-3" id="text-org4e50117">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/MVtbNyvS86F3Kzmw_zmwzg">《上抖音，吸猫，吸狗，吸金》</a> 从出生到殡葬、主粮到玩具、衣食住行到学习
 训练，人类有的行为活动，宠物行业全都覆盖。一个有趣的说法是，宠物行业是
@@ -339,9 +418,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb568ad9" class="outline-3">
-<h3 id="orgb568ad9">2018-11-19</h3>
-<div class="outline-text-3" id="text-orgb568ad9">
+<div id="outline-container-org00d1184" class="outline-3">
+<h3 id="org00d1184">2018-11-19</h3>
+<div class="outline-text-3" id="text-org00d1184">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/hdV-GAihWq6eCU2g7wK_4g">《40 岁的我如何花 10 个月从英语教师转型程序员？》</a> 这是作者 40 岁时，职
 业生涯从教师变为前端开发者的一篇文章。他没有相关的背景经验和学位，在有
@@ -381,9 +460,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-org641506a" class="outline-3">
-<h3 id="org641506a">2018-11-16</h3>
-<div class="outline-text-3" id="text-org641506a">
+<div id="outline-container-org183b179" class="outline-3">
+<h3 id="org183b179">2018-11-16</h3>
+<div class="outline-text-3" id="text-org183b179">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/gEzgokpjrmqzX1IP5-ObPQ">《硅谷天使投资人：10 年后硅谷唯一的对手在中国》</a> Cyriac Roeding 是一位出生于德国
 的企业家和天使投资人，主要活跃在硅谷。他在 2015 年来到了中国，遇到了那时的王兴、
@@ -418,9 +497,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfdaa3f1" class="outline-3">
-<h3 id="orgfdaa3f1">2018-11-15</h3>
-<div class="outline-text-3" id="text-orgfdaa3f1">
+<div id="outline-container-orgd7d0619" class="outline-3">
+<h3 id="orgd7d0619">2018-11-15</h3>
+<div class="outline-text-3" id="text-orgd7d0619">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/yCWYp0vYPZ7lwkk80BtFRQ">《脸书抢夺注意力大战： 我用尽了所有气力，互联网原住民还是不回来》</a> 如今，
 越来越多的青少年与脸书的渐行渐远，14 岁的 Facebook 为了让他的“同龄人”回来，
@@ -449,9 +528,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-org56cc6a5" class="outline-3">
-<h3 id="org56cc6a5">2018-11-14</h3>
-<div class="outline-text-3" id="text-org56cc6a5">
+<div id="outline-container-orgda6403f" class="outline-3">
+<h3 id="orgda6403f">2018-11-14</h3>
+<div class="outline-text-3" id="text-orgda6403f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/pPAlhoant-lsy3fyy27oVg">《脱胎换骨——2050 年我们如何教育下一代？》</a> 本文阐述了什么将是本世纪最核
 心的技能，笔者从历史看未来，讲述了未来的个人核心驱动力，在人工智能和大
@@ -490,9 +569,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc203b35" class="outline-3">
-<h3 id="orgc203b35">2018-11-13</h3>
-<div class="outline-text-3" id="text-orgc203b35">
+<div id="outline-container-org9b36907" class="outline-3">
+<h3 id="org9b36907">2018-11-13</h3>
+<div class="outline-text-3" id="text-org9b36907">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Do_9dhfVqro_CyjT1w8gDw">《内容电商双 11 战报：有人销售破 2 亿，有人增长过 6 倍》</a> 随着内容电商
 的蓬勃发展，越来越多的自媒体和新媒体品牌，也当仁不让闯进这个痛并快乐着
@@ -530,9 +609,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-orgae01faf" class="outline-3">
-<h3 id="orgae01faf">2018-11-12</h3>
-<div class="outline-text-3" id="text-orgae01faf">
+<div id="outline-container-org6a3adfc" class="outline-3">
+<h3 id="org6a3adfc">2018-11-12</h3>
+<div class="outline-text-3" id="text-org6a3adfc">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/1OL1z_rL9dXZurpYY3rlOQ">《独孤求败的 QWERT 键盘——键盘发展简史》</a> 我们用 QWERT 键盘来打字 144 年
 了，你有想过为什么会是 QWERT 吗? 此处我们将探讨它的工作原理，也会探讨
@@ -571,9 +650,9 @@ IEA 称，到 2020 年，这一比例将达到近 50%</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org6e7e959" class="outline-3">
-<h3 id="org6e7e959">2018-11-09</h3>
-<div class="outline-text-3" id="text-org6e7e959">
+<div id="outline-container-org3890d23" class="outline-3">
+<h3 id="org3890d23">2018-11-09</h3>
+<div class="outline-text-3" id="text-org3890d23">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/b00TzWscA7mCqyyxSAW_og">《互联网是我们孩子的哆啦 A 梦还是洪水猛兽？》</a> 每一个年代都有其特定的洪
 水猛兽，早些年是电视、小说、漫画甚至是收音机。对于新兴事物每代家长们都
@@ -613,9 +692,9 @@ IEA 称，到 2020 年，这一比例将达到近 50%</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbbefce3" class="outline-3">
-<h3 id="orgbbefce3">2018-11-08</h3>
-<div class="outline-text-3" id="text-orgbbefce3">
+<div id="outline-container-org737c9b6" class="outline-3">
+<h3 id="org737c9b6">2018-11-08</h3>
+<div class="outline-text-3" id="text-org737c9b6">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/YPaIN71ldeFAb8BGZ7AEjw">《当我们谈到头脑风暴时我们在谈什么？》</a> 当你举起略微超过你的承受能力的
 重量时，你就会变得比之前更强。头脑风暴训练也是如此，你得从现在开始锻炼
@@ -652,9 +731,9 @@ IEA 称，到 2020 年，这一比例将达到近 50%</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org361df0a" class="outline-3">
-<h3 id="org361df0a">2018-11-07</h3>
-<div class="outline-text-3" id="text-org361df0a">
+<div id="outline-container-orgba89c4d" class="outline-3">
+<h3 id="orgba89c4d">2018-11-07</h3>
+<div class="outline-text-3" id="text-orgba89c4d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/gyr8C3lG5jRio3CJcfUAvg">《为什么硅谷十几年没有新的巨无霸企业崛起？》</a> 硅谷曾被认为时这么一个地
 方:几个人在车库或宿舍就能创办出改变世界的公司。但 2010 年后初创公司的
@@ -694,9 +773,9 @@ Stereo 的缩写，即真正无线立体声耳机。引领起了耳机行业历�
 </ul>
 </div>
 </div>
-<div id="outline-container-org381558f" class="outline-3">
-<h3 id="org381558f">2018-11-06</h3>
-<div class="outline-text-3" id="text-org381558f">
+<div id="outline-container-orgde286e6" class="outline-3">
+<h3 id="orgde286e6">2018-11-06</h3>
+<div class="outline-text-3" id="text-orgde286e6">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/0xImnOkBJ9OuIizMYxCrJw">《丧心病狂，Spotify 蹭流量的 11 种方法》</a> 不止中国，国外对于蹭流量这件
 事，也有独特的手段。有 170 万人在搜梦龙（Imagine Dragons）唱的《Demons》
@@ -732,9 +811,9 @@ VC 期投资。有人说 26 岁的 IDG，已经老了……</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf05cdd5" class="outline-3">
-<h3 id="orgf05cdd5">2018-11-05</h3>
-<div class="outline-text-3" id="text-orgf05cdd5">
+<div id="outline-container-org9b82c1b" class="outline-3">
+<h3 id="org9b82c1b">2018-11-05</h3>
+<div class="outline-text-3" id="text-org9b82c1b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/LJyaZqe0SiQNCmRwLexp8w">《父亲死后，我用人工智能创造了一个 Dadbot》</a> 一位新闻工作者兼计算机工程
 师为他将要死去的父亲制作成了数字化身，创造了一个 Dadbot。</li>
@@ -766,9 +845,9 @@ VC 期投资。有人说 26 岁的 IDG，已经老了……</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org126c498" class="outline-3">
-<h3 id="org126c498">2018-11-02</h3>
-<div class="outline-text-3" id="text-org126c498">
+<div id="outline-container-org0f8d077" class="outline-3">
+<h3 id="org0f8d077">2018-11-02</h3>
+<div class="outline-text-3" id="text-org0f8d077">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/c7JKqFhwOMjqdZLle7ybHQ">《我，36 岁，顿悟衰老并不可怕，真正可怕的是未老先衰！》</a> 中年危机，也称“灰色中年”，
 即进入中年之后，产生的生理及行为上的不适应和心理上的不平衡。在家庭与社会中的地
@@ -805,9 +884,9 @@ VC 期投资。有人说 26 岁的 IDG，已经老了……</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org914b20b" class="outline-3">
-<h3 id="org914b20b">2018-11-01</h3>
-<div class="outline-text-3" id="text-org914b20b">
+<div id="outline-container-org0e702ef" class="outline-3">
+<h3 id="org0e702ef">2018-11-01</h3>
+<div class="outline-text-3" id="text-org0e702ef">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/x1vSuwZM5CLJ7pdPielpFg">《“电子皮鞭”驱动下的游戏人生》</a> 在 18 世纪 50 年代，瑞士数学家和物理学
 家 Daniel Bernoulli 甚至宣称：“我们生活的这个世纪会被载入历史书籍&#x2026;称
@@ -847,13 +926,13 @@ VC 期投资。有人说 26 岁的 IDG，已经老了……</li>
 </div>
 </div>
 </div>
-<div id="outline-container-org6d80760" class="outline-2">
-<h2 id="org6d80760">2018 年 10 月文章</h2>
-<div class="outline-text-2" id="text-org6d80760">
+<div id="outline-container-orgba43206" class="outline-2">
+<h2 id="orgba43206">2018 年 10 月文章</h2>
+<div class="outline-text-2" id="text-orgba43206">
 </div>
-<div id="outline-container-orgc86934e" class="outline-3">
-<h3 id="orgc86934e">2018-10-31</h3>
-<div class="outline-text-3" id="text-orgc86934e">
+<div id="outline-container-org032988b" class="outline-3">
+<h3 id="org032988b">2018-10-31</h3>
+<div class="outline-text-3" id="text-org032988b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/oqUW0xc7r5WasfdehiOPLg">《如何在 12 个月里推出 12 家创业公司？》</a> Pieter Levels 设定了一个目标，每一
 年的每一个月，完成一家创业公司从发展、营销到启动的全过程。到现在，他做
@@ -890,9 +969,9 @@ VC 期投资。有人说 26 岁的 IDG，已经老了……</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orge92221d" class="outline-3">
-<h3 id="orge92221d">2018-10-30</h3>
-<div class="outline-text-3" id="text-orge92221d">
+<div id="outline-container-orgc4ca82a" class="outline-3">
+<h3 id="orgc4ca82a">2018-10-30</h3>
+<div class="outline-text-3" id="text-orgc4ca82a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/eKrs9GYSq7c4420VT-i9XQ">《谷歌正在使我们变笨：网络正如何影响我们的大脑？》</a> 网络时代，我们查询
 一件东西不再需要在众多书籍间来回寻找。快捷高效的网络信息悄然间改变了我
@@ -930,9 +1009,9 @@ VC 期投资。有人说 26 岁的 IDG，已经老了……</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf81b317" class="outline-3">
-<h3 id="orgf81b317">2018-10-29</h3>
-<div class="outline-text-3" id="text-orgf81b317">
+<div id="outline-container-org275e23b" class="outline-3">
+<h3 id="org275e23b">2018-10-29</h3>
+<div class="outline-text-3" id="text-org275e23b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Xcv5gtAcHafuKeEs4HLWrg">《机器时代人类唯一的生存方式——情感体验》</a> 随着计算能力与 AI 的不断发展，
 总有人担心自己的工作将会被机器抢过去，将机器放在了自己的对立面。但事实
@@ -970,9 +1049,9 @@ VC 期投资。有人说 26 岁的 IDG，已经老了……</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org285bd3b" class="outline-3">
-<h3 id="org285bd3b">2018-10-26</h3>
-<div class="outline-text-3" id="text-org285bd3b">
+<div id="outline-container-org1e64fb2" class="outline-3">
+<h3 id="org1e64fb2">2018-10-26</h3>
+<div class="outline-text-3" id="text-org1e64fb2">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/wvPltdZCZBvGa0vzuzj1Uw">《深度剖析特斯拉的颠覆式创新》</a> 对于新兴事物，人们总是持着蔑视的态度，
 不管对象是即将颠覆世界的新兴力量，还是一个跳梁小丑。在特斯拉诞生之初也
@@ -1011,9 +1090,9 @@ ofo 创始人戴威大幅度的人生剧变背后究竟有着怎样的源起？�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf9e8743" class="outline-3">
-<h3 id="orgf9e8743">2018-10-25</h3>
-<div class="outline-text-3" id="text-orgf9e8743">
+<div id="outline-container-org1b6baa2" class="outline-3">
+<h3 id="org1b6baa2">2018-10-25</h3>
+<div class="outline-text-3" id="text-org1b6baa2">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/biImsCQ3l3OZWxjjewnMVQ">《《权力的游戏》是如何被打造出来的？》</a> 克拉克坐在机械牛上，微笑着和工
 作人员交谈。拍摄时，应用先进技术的液压装置将她送到准确位置，她的动作随
@@ -1044,9 +1123,9 @@ ofo 创始人戴威大幅度的人生剧变背后究竟有着怎样的源起？�
 </ul>
 </div>
 </div>
-<div id="outline-container-org1ad3573" class="outline-3">
-<h3 id="org1ad3573">2018-10-24</h3>
-<div class="outline-text-3" id="text-org1ad3573">
+<div id="outline-container-org2bfc2fa" class="outline-3">
+<h3 id="org2bfc2fa">2018-10-24</h3>
+<div class="outline-text-3" id="text-org2bfc2fa">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/y_UwK4ojomtCP8L1CWScWw">《解构 Spotify，为什么音乐软件总能猜到我口味？》</a> 这篇文章的作者，对于
 Sptify 的喜爱大多归功于其音乐推荐系统，那简直就是一个百宝箱，你总能听
@@ -1084,9 +1163,9 @@ Sptify 的喜爱大多归功于其音乐推荐系统，那简直就是一个百�
 </ul>
 </div>
 </div>
-<div id="outline-container-org1c3c27e" class="outline-3">
-<h3 id="org1c3c27e">2018-10-23</h3>
-<div class="outline-text-3" id="text-org1c3c27e">
+<div id="outline-container-org1aad899" class="outline-3">
+<h3 id="org1aad899">2018-10-23</h3>
+<div class="outline-text-3" id="text-org1aad899">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NCOs9eb7V4EiQp9ws4AmlA">《深度故事——Siri 的前世今生！》</a> siri 这个伟大的产品是如何被创造出来，
 又如何与苹果结下不解之缘，Siri 的创始人 Adam Cheyer 在人工智能领域又有
@@ -1125,9 +1204,9 @@ Sptify 的喜爱大多归功于其音乐推荐系统，那简直就是一个百�
 </ul>
 </div>
 </div>
-<div id="outline-container-org0d92874" class="outline-3">
-<h3 id="org0d92874">2018-10-22</h3>
-<div class="outline-text-3" id="text-org0d92874">
+<div id="outline-container-org8b14d14" class="outline-3">
+<h3 id="org8b14d14">2018-10-22</h3>
+<div class="outline-text-3" id="text-org8b14d14">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/k0nyuqVtaMxxN44goYXiDw">《为什么硅谷的 CEO 们集体走向乏味？》</a> 老罗、马斯克像极了早期的科技公司
 领导，充满个人魅力，凭此来说服投资者、消费者接受自己公司的新兴产品。从
@@ -1171,9 +1250,9 @@ Sptify 的喜爱大多归功于其音乐推荐系统，那简直就是一个百�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfcbd4ae" class="outline-3">
-<h3 id="orgfcbd4ae">2018-10-19</h3>
-<div class="outline-text-3" id="text-orgfcbd4ae">
+<div id="outline-container-org83d9e1d" class="outline-3">
+<h3 id="org83d9e1d">2018-10-19</h3>
+<div class="outline-text-3" id="text-org83d9e1d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/0-nnvAX46vLI84XljJ2rTg">《语音的未来——智能耳机和它所代表的新纪元》</a> Doppler 这个产品，微软联合
 创始人比尔盖茨和首席执行官萨蒂亚纳德拉各得到一个，苹果互联网首席执行官
@@ -1213,9 +1292,9 @@ Sptify 的喜爱大多归功于其音乐推荐系统，那简直就是一个百�
 </ul>
 </div>
 </div>
-<div id="outline-container-org9482b7f" class="outline-3">
-<h3 id="org9482b7f">2018-10-17</h3>
-<div class="outline-text-3" id="text-org9482b7f">
+<div id="outline-container-org898f33d" class="outline-3">
+<h3 id="org898f33d">2018-10-17</h3>
+<div class="outline-text-3" id="text-org898f33d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/WXQlLxHZivt_KyJp-GPJ8Q">《看着 YouTube 长大的孩子们》</a> 随着互联网以及上网设备的不断普及，首次接
 触互联网人群也在低龄化。有不少儿童不宜的内容也混迹于互联网儿童媒体，在
@@ -1256,9 +1335,9 @@ Sptify 的喜爱大多归功于其音乐推荐系统，那简直就是一个百�
 </ul>
 </div>
 </div>
-<div id="outline-container-org6c97a22" class="outline-3">
-<h3 id="org6c97a22">2018-10-16</h3>
-<div class="outline-text-3" id="text-org6c97a22">
+<div id="outline-container-org1fe87b7" class="outline-3">
+<h3 id="org1fe87b7">2018-10-16</h3>
+<div class="outline-text-3" id="text-org1fe87b7">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/fN6eWv-rxbQD3uMRFOqPTA">《2 亿月活的快与慢——Pinterest 的创业故事》</a> 在用户脑海中找到你可以将产
 品植入进去的空间非常重要。你必须将对用户而言熟悉的东西植入他们的大脑，
@@ -1299,9 +1378,9 @@ Sptify 的喜爱大多归功于其音乐推荐系统，那简直就是一个百�
 </ul>
 </div>
 </div>
-<div id="outline-container-org1982bc1" class="outline-3">
-<h3 id="org1982bc1">2018-10-15</h3>
-<div class="outline-text-3" id="text-org1982bc1">
+<div id="outline-container-org75de4cd" class="outline-3">
+<h3 id="org75de4cd">2018-10-15</h3>
+<div class="outline-text-3" id="text-org75de4cd">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Y2bhD6KPqjjBr4zw558SfQ">《用 Youtube 写死亡日记是一种什么体验》</a> 在 YouTube 上，有一群特殊的女
 生。他们身患绝症，但依然使用 YouTube 记录着自己的生活。挣扎在死亡的边
@@ -1344,9 +1423,9 @@ Watch 有望找到真正的杀手锏应用——医疗保健诊断与监测。</
 </ul>
 </div>
 </div>
-<div id="outline-container-org62ec4bc" class="outline-3">
-<h3 id="org62ec4bc">2018-10-12</h3>
-<div class="outline-text-3" id="text-org62ec4bc">
+<div id="outline-container-orgcb8ec55" class="outline-3">
+<h3 id="orgcb8ec55">2018-10-12</h3>
+<div class="outline-text-3" id="text-orgcb8ec55">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/QgY0p3D8HwE8S8O8SKlwWg">《在资本主义国度中狂奔的大麻经济》</a> Eaze，这是一款医疗大麻递送应用程序，
 允许患者按需订购大麻。WeGrow，一个教育应用程序，教人们如何种植大麻。
@@ -1382,9 +1461,9 @@ High There 和 My420Mate 则是针对大麻用户的约会应用程序。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org4a9bc35" class="outline-3">
-<h3 id="org4a9bc35">2018-10-11</h3>
-<div class="outline-text-3" id="text-org4a9bc35">
+<div id="outline-container-orgf45b10d" class="outline-3">
+<h3 id="orgf45b10d">2018-10-11</h3>
+<div class="outline-text-3" id="text-orgf45b10d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/rtX1j4ZKh31t7uLWYK9pRg">《【译指禅】一场感冒诞生的公司——美国版大众点评的创业故事》</a> 杰里米·斯托
 普尔曼在 2004 年沾染上了一场流感，就在他上网找医生的时候发现互联网上并
@@ -1423,9 +1502,9 @@ High There 和 My420Mate 则是针对大麻用户的约会应用程序。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org8f8a74f" class="outline-3">
-<h3 id="org8f8a74f">2018-10-10</h3>
-<div class="outline-text-3" id="text-org8f8a74f">
+<div id="outline-container-org5309302" class="outline-3">
+<h3 id="org5309302">2018-10-10</h3>
+<div class="outline-text-3" id="text-org5309302">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/qz_blxEEL4wGRXLzQhCBfg">《房地产泡沫破灭之后》</a> 所有房企都在收缩战线。恒大发起全国 8.9 折优惠，
 碧桂园个别项目打到 7 折；一切似乎都表明，被全国人民口诛笔伐十余年而屹
@@ -1463,9 +1542,9 @@ High There 和 My420Mate 则是针对大麻用户的约会应用程序。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org5a92d42" class="outline-3">
-<h3 id="org5a92d42">2018-10-09</h3>
-<div class="outline-text-3" id="text-org5a92d42">
+<div id="outline-container-orgba90037" class="outline-3">
+<h3 id="orgba90037">2018-10-09</h3>
+<div class="outline-text-3" id="text-orgba90037">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/okMGWR1uXqGRFWmwG1xidA">《世界的暗逻辑：赌徒思维》</a> 当人类主流价值观普遍认为，获取财富不再靠“创
 造” 而是要靠“投机”时，最危险的时刻就来临了。于是，你看到这场赌局最关键
@@ -1502,13 +1581,13 @@ High There 和 My420Mate 则是针对大麻用户的约会应用程序。</li>
 </div>
 </div>
 </div>
-<div id="outline-container-org91726d4" class="outline-2">
-<h2 id="org91726d4">2018 年 9 月文章</h2>
-<div class="outline-text-2" id="text-org91726d4">
+<div id="outline-container-org8a2e104" class="outline-2">
+<h2 id="org8a2e104">2018 年 9 月文章</h2>
+<div class="outline-text-2" id="text-org8a2e104">
 </div>
-<div id="outline-container-orgab57ce8" class="outline-3">
-<h3 id="orgab57ce8">2018-09-28</h3>
-<div class="outline-text-3" id="text-orgab57ce8">
+<div id="outline-container-org9e1726b" class="outline-3">
+<h3 id="org9e1726b">2018-09-28</h3>
+<div class="outline-text-3" id="text-org9e1726b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/uzD-F16QaeFWZG5qOWI0mg">《张勇与贾跃亭：一对同学的分道扬镳》</a> 贾跃亭和海底捞董事长张勇，曾经在
 商学院当过同学。2016 年底，乐视资金链断裂，很少有人知道，张勇也为乐视
@@ -1546,9 +1625,9 @@ High There 和 My420Mate 则是针对大麻用户的约会应用程序。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org06bf365" class="outline-3">
-<h3 id="org06bf365">2018-09-27</h3>
-<div class="outline-text-3" id="text-org06bf365">
+<div id="outline-container-org0c7acbb" class="outline-3">
+<h3 id="org0c7acbb">2018-09-27</h3>
+<div class="outline-text-3" id="text-org0c7acbb">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/e4ea0IEQ29fXQx3nMzr3oA">《微博试行“博主拉黑全站禁评”，是惩治网络暴力还是干预言论自由？》</a> 昨日
 中午，@微博管理员发布了最新的功能测试公告——“博主拉黑禁评”。按照公告解
@@ -1592,9 +1671,9 @@ High There 和 My420Mate 则是针对大麻用户的约会应用程序。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org806b81e" class="outline-3">
-<h3 id="org806b81e">2018-09-26</h3>
-<div class="outline-text-3" id="text-org806b81e">
+<div id="outline-container-org583daa3" class="outline-3">
+<h3 id="org583daa3">2018-09-26</h3>
+<div class="outline-text-3" id="text-org583daa3">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/qEv8webFvlAKkGpLVkMITA">《弄潮 40 年 | 那些潮水的方向，那些被改变的命运……》</a> 40 年来，很多事情
 都让人始料未及，高考，倒爷，留学，下海，移动互联，创新创业……每一次潮水
@@ -1633,9 +1712,9 @@ Move Fast, NOT Break Things》</a> 从某种意义上说，“马克·扎克伯�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd7dace5" class="outline-3">
-<h3 id="orgd7dace5">2018-09-25</h3>
-<div class="outline-text-3" id="text-orgd7dace5">
+<div id="outline-container-org328e4f0" class="outline-3">
+<h3 id="org328e4f0">2018-09-25</h3>
+<div class="outline-text-3" id="text-org328e4f0">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/p82QEPSnCrKO4H9LxqygxQ">《荣耀与危机并存：福建创业帮的 2018》</a>从 2009 年到今天，将近 10 年间，
 团购、O2O（外卖、打车）、短视频、智能手机、区块链……福建创业者几乎经历
@@ -1675,9 +1754,9 @@ Move Fast, NOT Break Things》</a> 从某种意义上说，“马克·扎克伯�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb5db6b9" class="outline-3">
-<h3 id="orgb5db6b9">2018-09-21</h3>
-<div class="outline-text-3" id="text-orgb5db6b9">
+<div id="outline-container-org5eb6777" class="outline-3">
+<h3 id="org5eb6777">2018-09-21</h3>
+<div class="outline-text-3" id="text-org5eb6777">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/kHFivGHbzdEu3K90Z1nB2Q">《历史进程中的网易严选们》</a> 在经济高速增长期，日本人以消费欧美品牌为主，
 但经济放缓后，一系列本土品牌涌现并做大做强：如优衣库，全家，无印良品等
@@ -1714,9 +1793,9 @@ Move Fast, NOT Break Things》</a> 从某种意义上说，“马克·扎克伯�
 </ul>
 </div>
 </div>
-<div id="outline-container-org1f84ef3" class="outline-3">
-<h3 id="org1f84ef3">2018-09-20</h3>
-<div class="outline-text-3" id="text-org1f84ef3">
+<div id="outline-container-org82ae59d" class="outline-3">
+<h3 id="org82ae59d">2018-09-20</h3>
+<div class="outline-text-3" id="text-org82ae59d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/72JeVe73xN8c8jvYL4pkJQ">《京东失宠｜深氪》</a> 创始人刘强东在美国涉嫌性侵，但在此之前，京东已经被
 资本市场看淡，市值已经从一个季度前高点的 654 亿美元，下降到如今的 372
@@ -1756,9 +1835,9 @@ Move Fast, NOT Break Things》</a> 从某种意义上说，“马克·扎克伯�
 </ul>
 </div>
 </div>
-<div id="outline-container-org100fb9c" class="outline-3">
-<h3 id="org100fb9c">2018-09-19</h3>
-<div class="outline-text-3" id="text-org100fb9c">
+<div id="outline-container-org5d9d6df" class="outline-3">
+<h3 id="org5d9d6df">2018-09-19</h3>
+<div class="outline-text-3" id="text-org5d9d6df">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/s7m1n3dLuwRhbDlGZsspcA">《李开复：人工智能引发失业焦虑，未来难以被 AI 取代的 10 种工作》</a> 文章
 把目前工作分为四个象限，第三象限是“危险区”，第一象限是“安全区”，第二象
@@ -1790,9 +1869,9 @@ Move Fast, NOT Break Things》</a> 从某种意义上说，“马克·扎克伯�
 </ul>
 </div>
 </div>
-<div id="outline-container-org2245c4d" class="outline-3">
-<h3 id="org2245c4d">2018-09-17</h3>
-<div class="outline-text-3" id="text-org2245c4d">
+<div id="outline-container-orgb59e319" class="outline-3">
+<h3 id="orgb59e319">2018-09-17</h3>
+<div class="outline-text-3" id="text-orgb59e319">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/nRWH_h2l5nHz-aQEKfkypg">《5G 之战为何事关重大？》</a> 5G 竞赛已经开始，胜出的国家势必会获得很大的
 利益。在世界各地，无线科技巨头正在与本国政府合作，提出发展 5G 的制胜战
@@ -1826,9 +1905,9 @@ Move Fast, NOT Break Things》</a> 从某种意义上说，“马克·扎克伯�
 </ul>
 </div>
 </div>
-<div id="outline-container-org789d2d3" class="outline-3">
-<h3 id="org789d2d3">2018-09-14</h3>
-<div class="outline-text-3" id="text-org789d2d3">
+<div id="outline-container-orgd5e0337" class="outline-3">
+<h3 id="orgd5e0337">2018-09-14</h3>
+<div class="outline-text-3" id="text-orgd5e0337">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/J9JXFXJvUi6ram-IjPWBiQ">《实地探访在印度内容创业的中国人：并没有想象中的容易》</a> 面对一个发展中
 的印度和它背后一片亟待开发的市场，以及大量尚需培养的用户，像 Frank 这
@@ -1867,9 +1946,9 @@ Move Fast, NOT Break Things》</a> 从某种意义上说，“马克·扎克伯�
 </ul>
 </div>
 </div>
-<div id="outline-container-org9df9c58" class="outline-3">
-<h3 id="org9df9c58">2018-09-13</h3>
-<div class="outline-text-3" id="text-org9df9c58">
+<div id="outline-container-orgb6451ee" class="outline-3">
+<h3 id="orgb6451ee">2018-09-13</h3>
+<div class="outline-text-3" id="text-orgb6451ee">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/qAnAbJnTPzUi4i1isGSwBQ">《美团打车、滴滴外卖，暂时停战》</a> 去年 2 月，美团在南京上线了打车业务，
 并于今年 3 月在上海和滴滴开始正面对抗。而滴滴旋即在今年 4 月正式开做外
@@ -1911,9 +1990,9 @@ Move Fast, NOT Break Things》</a> 从某种意义上说，“马克·扎克伯�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgecad23a" class="outline-3">
-<h3 id="orgecad23a">2018-09-12</h3>
-<div class="outline-text-3" id="text-orgecad23a">
+<div id="outline-container-orgdd94c76" class="outline-3">
+<h3 id="orgdd94c76">2018-09-12</h3>
+<div class="outline-text-3" id="text-orgdd94c76">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/-22Fe1GoIjE0SoMMkHwGTQ">《刚刚两岁的“资讯界拼多多”趣头条，也要在争议中上市了》</a> 前几天，趣头条
 更新了向美国证券交易委员会（SEC）递交的招股书，消息称其将于 9 月 14 日
@@ -1955,9 +2034,9 @@ Move Fast, NOT Break Things》</a> 从某种意义上说，“马克·扎克伯�
 </ul>
 </div>
 </div>
-<div id="outline-container-org2a943b2" class="outline-3">
-<h3 id="org2a943b2">2018-09-11</h3>
-<div class="outline-text-3" id="text-org2a943b2">
+<div id="outline-container-org81b2978" class="outline-3">
+<h3 id="org81b2978">2018-09-11</h3>
+<div class="outline-text-3" id="text-org81b2978">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/fIcsmd13mCWvw3xIRj77yw">《张勇接班马云，或是中国互联网职业经理人时代的开始》</a> 9 月 10 日，是教
 师节也是阿里巴巴集团董事长马云的生日。就在这天，他表示将于明年今日正式
@@ -1997,9 +2076,9 @@ CEO，他是 COO，我是北邮的，他是北大的，可能他有些不甘人�
 </ul>
 </div>
 </div>
-<div id="outline-container-org40031aa" class="outline-3">
-<h3 id="org40031aa">2018-09-10</h3>
-<div class="outline-text-3" id="text-org40031aa">
+<div id="outline-container-orga72dd4a" class="outline-3">
+<h3 id="orga72dd4a">2018-09-10</h3>
+<div class="outline-text-3" id="text-orga72dd4a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/ikhrXhiadrVeawBnph91zw">《直播抽大麻、高管离职、股价跳水，马斯克还能“任性”多久？》</a> 本月，马斯
 克提出以 420 美元的价格使特斯拉私有化，而“420”恰好是吸食大麻的暗号（国
@@ -2039,9 +2118,9 @@ CEO。马云在告别会上说：我以后不回来了。要回也不回来。�
 </ul>
 </div>
 </div>
-<div id="outline-container-org4b7cb05" class="outline-3">
-<h3 id="org4b7cb05">2018-09-07</h3>
-<div class="outline-text-3" id="text-org4b7cb05">
+<div id="outline-container-org04d43ef" class="outline-3">
+<h3 id="org04d43ef">2018-09-07</h3>
+<div class="outline-text-3" id="text-org04d43ef">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/OrShhY4OIIgadCbAQFD_SA">《失去刘强东？京东可能一直在做准备》</a> 京东的危机在于，这是一家 CEO 掌握
 79.5%投票权的公司，权力的过分集中可能意味着高效，也同时意味着高风险——
@@ -2085,9 +2164,9 @@ CEO。马云在告别会上说：我以后不回来了。要回也不回来。�
 </ul>
 </div>
 </div>
-<div id="outline-container-org32d8f7d" class="outline-3">
-<h3 id="org32d8f7d">2018-09-06</h3>
-<div class="outline-text-3" id="text-org32d8f7d">
+<div id="outline-container-org00f40a6" class="outline-3">
+<h3 id="org00f40a6">2018-09-06</h3>
+<div class="outline-text-3" id="text-org00f40a6">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/aD5UeFkNqwwscVs7DW1oKA">《广告人都在给头部 KOL 打工》</a> 一个头部 KOL 号两个月的头条，对，仅仅是
 一个号的头条纯利润，可以完爆一家 20 人左右广告公司一年的纯利润。大部分
@@ -2125,9 +2204,9 @@ VS 阿里的终局思维 | 有赞白鸦内部分享》</a> 很多时候，企业
 </ul>
 </div>
 </div>
-<div id="outline-container-org6a78742" class="outline-3">
-<h3 id="org6a78742">2018-09-05</h3>
-<div class="outline-text-3" id="text-org6a78742">
+<div id="outline-container-org4e1252b" class="outline-3">
+<h3 id="org4e1252b">2018-09-05</h3>
+<div class="outline-text-3" id="text-org4e1252b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/44Mazl7x-HEkMWULzydmCw">《咪蒙之后，再无
 “咪蒙”》</a> 咪蒙：是的，我要离婚了。当然，落井下石，说离婚事件是一次流
@@ -2168,9 +2247,9 @@ DoNews 三篇搜索引擎 Blog》</a> Donews 自 2000 年 4 月创立以来，�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbb9731f" class="outline-3">
-<h3 id="orgbb9731f">2018-09-04</h3>
-<div class="outline-text-3" id="text-orgbb9731f">
+<div id="outline-container-org30da1b4" class="outline-3">
+<h3 id="org30da1b4">2018-09-04</h3>
+<div class="outline-text-3" id="text-org30da1b4">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/OaLIeV91clMA4k8g5MTkcQ">《拐点之年，破局
 之道｜2018 中国创投行业白皮书》</a> 一方面一级市场的现状可以用“困局”来形
@@ -2216,9 +2295,9 @@ DoNews 三篇搜索引擎 Blog》</a> Donews 自 2000 年 4 月创立以来，�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfb891f8" class="outline-3">
-<h3 id="orgfb891f8">2018-09-03</h3>
-<div class="outline-text-3" id="text-orgfb891f8">
+<div id="outline-container-org8518702" class="outline-3">
+<h3 id="org8518702">2018-09-03</h3>
+<div class="outline-text-3" id="text-org8518702">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/upY3hjjOtBOeP6UACLjr2w">《头条为何会败给
 知乎？》</a> 2016 年底，今日头条的一次算法竞赛，披露了当时还叫头条问答的
@@ -2260,13 +2339,13 @@ DoNews 三篇搜索引擎 Blog》</a> Donews 自 2000 年 4 月创立以来，�
 </div>
 </div>
 </div>
-<div id="outline-container-orgab4ad2e" class="outline-2">
-<h2 id="orgab4ad2e">2018 年 8 月文章</h2>
-<div class="outline-text-2" id="text-orgab4ad2e">
+<div id="outline-container-org0d8fd55" class="outline-2">
+<h2 id="org0d8fd55">2018 年 8 月文章</h2>
+<div class="outline-text-2" id="text-org0d8fd55">
 </div>
-<div id="outline-container-orgdc7ef92" class="outline-3">
-<h3 id="orgdc7ef92">2018-08-31</h3>
-<div class="outline-text-3" id="text-orgdc7ef92">
+<div id="outline-container-org0eea743" class="outline-3">
+<h3 id="org0eea743">2018-08-31</h3>
+<div class="outline-text-3" id="text-org0eea743">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/ZPPLna_VHhzSYMQWZ6zleA">《中国游戏监管史》</a> 可曾想你可以在国内买到正版的《生化危机 2》？在很长
 一段时间里，国内游戏市场处在一个监管力度非常弱的环境中，游戏行业都十分
@@ -2307,9 +2386,9 @@ DoNews 三篇搜索引擎 Blog》</a> Donews 自 2000 年 4 月创立以来，�
 </div>
 </div>
 
-<div id="outline-container-orgc93ee41" class="outline-3">
-<h3 id="orgc93ee41">2018-08-30</h3>
-<div class="outline-text-3" id="text-orgc93ee41">
+<div id="outline-container-orgb5a9829" class="outline-3">
+<h3 id="orgb5a9829">2018-08-30</h3>
+<div class="outline-text-3" id="text-orgb5a9829">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NQfJXsiSODGu0vVR7-1Aug">《微商金字塔崩塌：
 普通代理消耗朋友 财富属于金字塔塔尖》</a> 加他一次微信 999 元，郑九洲是
@@ -2355,9 +2434,9 @@ DoNews 三篇搜索引擎 Blog》</a> Donews 自 2000 年 4 月创立以来，�
 </div>
 </div>
 
-<div id="outline-container-org8bd0a84" class="outline-3">
-<h3 id="org8bd0a84">2018-08-29</h3>
-<div class="outline-text-3" id="text-org8bd0a84">
+<div id="outline-container-org7020d94" class="outline-3">
+<h3 id="org7020d94">2018-08-29</h3>
+<div class="outline-text-3" id="text-org7020d94">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NfHP1B015t_Qyy34flpW8A">《从千亿跌至百亿，
 只用了一年！Q 版“腾讯”到底做错了什么？》</a> 2016 年底，美图在港上市，成
@@ -2403,9 +2482,9 @@ ICO 都是诈骗？》</a> 区别于 IPO [4] （英文简称 Initial Public Offe
 </div>
 </div>
 
-<div id="outline-container-org53f1268" class="outline-3">
-<h3 id="org53f1268">2018-08-28</h3>
-<div class="outline-text-3" id="text-org53f1268">
+<div id="outline-container-orgb61c82d" class="outline-3">
+<h3 id="orgb61c82d">2018-08-28</h3>
+<div class="outline-text-3" id="text-orgb61c82d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/66YdYTcSQr4yjknxnMkSqg">《消费降级是否会
 催生“降级”品牌？》</a> 谈得上降级品牌，优衣库算一个，那小米呢？投资人子
@@ -2452,9 +2531,9 @@ ICO 都是诈骗？》</a> 区别于 IPO [4] （英文简称 Initial Public Offe
 </div>
 </div>
 
-<div id="outline-container-org0e4c0a5" class="outline-3">
-<h3 id="org0e4c0a5">2018-08-27</h3>
-<div class="outline-text-3" id="text-org0e4c0a5">
+<div id="outline-container-orgea659a6" class="outline-3">
+<h3 id="orgea659a6">2018-08-27</h3>
+<div class="outline-text-3" id="text-orgea659a6">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/DeBzk80xybDMXOII5Prd6w">机器短信你会点广
 告: 写给普通人的 CTR 预估科普</a></li>
@@ -2503,9 +2582,9 @@ App Store 免费排行榜的第一名。人们在脱离微信？</li>
 </div>
 </div>
 
-<div id="outline-container-org289747a" class="outline-3">
-<h3 id="org289747a">2018-08-24</h3>
-<div class="outline-text-3" id="text-org289747a">
+<div id="outline-container-org5b89dd0" class="outline-3">
+<h3 id="org5b89dd0">2018-08-24</h3>
+<div class="outline-text-3" id="text-org5b89dd0">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/V8zxgzoNGU_6Or5xNpxZmA">《可遇而不可求的
 李子柒终于商业化：田园视频造梦，食物走向市场》</a> 8 月初，李子柒在微博
@@ -2540,9 +2619,9 @@ App Store 免费排行榜的第一名。人们在脱离微信？</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3c0d84c" class="outline-3">
-<h3 id="org3c0d84c">2018-08-23</h3>
-<div class="outline-text-3" id="text-org3c0d84c">
+<div id="outline-container-orgfd6a689" class="outline-3">
+<h3 id="orgfd6a689">2018-08-23</h3>
+<div class="outline-text-3" id="text-orgfd6a689">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/adVHxSVeOW66my5IDN7nPQ">《区块链媒体微信
 号被“团灭”：人人都想身价破亿，但财富自由是一碗毒鸡汤》</a> 前日，深链财
@@ -2583,9 +2662,9 @@ App Store 免费排行榜的第一名。人们在脱离微信？</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org58e4e57" class="outline-3">
-<h3 id="org58e4e57">2018-08-22</h3>
-<div class="outline-text-3" id="text-org58e4e57">
+<div id="outline-container-org364d89d" class="outline-3">
+<h3 id="org364d89d">2018-08-22</h3>
+<div class="outline-text-3" id="text-org364d89d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/9Zk6o77P8E3fO-h0XjNQ3Q">《「网易人格测试」
 刷屏朋友圈，套路你都知道，为何还中招？》</a> 昨日，网易云的人格测试再次
@@ -2628,9 +2707,9 @@ App Store 免费排行榜的第一名。人们在脱离微信？</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org6e349e6" class="outline-3">
-<h3 id="org6e349e6">2018-08-21</h3>
-<div class="outline-text-3" id="text-org6e349e6">
+<div id="outline-container-org30b997c" class="outline-3">
+<h3 id="org30b997c">2018-08-21</h3>
+<div class="outline-text-3" id="text-org30b997c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/0cFqB937RkZhWv_dcw9dWw">《百事可乐 70 年
 代的逆袭：我买的不是可乐，是理想中的自己》</a> 上世纪 70 年代，可口可乐
@@ -2677,9 +2756,9 @@ App Store 免费排行榜的第一名。人们在脱离微信？</li>
 </div>
 </div>
 
-<div id="outline-container-org35d4da6" class="outline-3">
-<h3 id="org35d4da6">2018-08-20</h3>
-<div class="outline-text-3" id="text-org35d4da6">
+<div id="outline-container-org2335a45" class="outline-3">
+<h3 id="org2335a45">2018-08-20</h3>
+<div class="outline-text-3" id="text-org2335a45">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/BO211JD01XLbV3ZNtjkHXw">《六年，公号改变
 命运》</a>故事开始于 2012 年八月，微信公众平台诞生，六年间，它孵化出超过
@@ -2725,9 +2804,9 @@ App Store 免费排行榜的第一名。人们在脱离微信？</li>
 </div>
 </div>
 
-<div id="outline-container-org385687c" class="outline-3">
-<h3 id="org385687c">2018-08-18</h3>
-<div class="outline-text-3" id="text-org385687c">
+<div id="outline-container-orgbfed5c1" class="outline-3">
+<h3 id="orgbfed5c1">2018-08-18</h3>
+<div class="outline-text-3" id="text-orgbfed5c1">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/hBjKfQ2tnz6TqjCV3cFBjg">《进击的 BA，模糊
 的 T》</a> 进入 2018 年，腾讯的业绩依然突出，盈利能力是 BAT 三家中最强的，
@@ -2773,9 +2852,9 @@ App Store 免费排行榜的第一名。人们在脱离微信？</li>
 </div>
 </div>
 
-<div id="outline-container-org237d0a3" class="outline-3">
-<h3 id="org237d0a3">2018-08-15</h3>
-<div class="outline-text-3" id="text-org237d0a3">
+<div id="outline-container-org9ae9d47" class="outline-3">
+<h3 id="org9ae9d47">2018-08-15</h3>
+<div class="outline-text-3" id="text-org9ae9d47">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/GlI0-vmT1xldK1VD6wP9uw">《89 天后，陆奇一
 箭三雕》</a> 距离陆奇 5 月 18 日正式离开百度，过去了 89 天后，陆奇选择把
@@ -2821,9 +2900,9 @@ App Store 免费排行榜的第一名。人们在脱离微信？</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org62f0ed4" class="outline-3">
-<h3 id="org62f0ed4">2018-08-14</h3>
-<div class="outline-text-3" id="text-org62f0ed4">
+<div id="outline-container-org08062f6" class="outline-3">
+<h3 id="org08062f6">2018-08-14</h3>
+<div class="outline-text-3" id="text-org08062f6">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/OQw3ezOtJ1_P10eTc_tZWA">《“特斯拉的门徒”
 蔚来汽车要上市了，不过它怎么越看越像小米的门徒？》</a> 2014 年 11 月，由
@@ -2869,9 +2948,9 @@ App Store 免费排行榜的第一名。人们在脱离微信？</li>
 </div>
 </div>
 
-<div id="outline-container-org0557fd2" class="outline-3">
-<h3 id="org0557fd2">2018-08-13</h3>
-<div class="outline-text-3" id="text-org0557fd2">
+<div id="outline-container-org1edfe71" class="outline-3">
+<h3 id="org1edfe71">2018-08-13</h3>
+<div class="outline-text-3" id="text-org1edfe71">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/WsBS_khYtV0ehtWHuog6ew">《厦门房价下跌，
 网红城市的潮来潮去》</a> 有一种不算新鲜的观点再次引起注意：厦门的房价，
@@ -2921,9 +3000,9 @@ App Store 免费排行榜的第一名。人们在脱离微信？</li>
 </div>
 </div>
 
-<div id="outline-container-orgb2cd07e" class="outline-3">
-<h3 id="orgb2cd07e">2018-08-10</h3>
-<div class="outline-text-3" id="text-orgb2cd07e">
+<div id="outline-container-org8a0f8fd" class="outline-3">
+<h3 id="org8a0f8fd">2018-08-10</h3>
+<div class="outline-text-3" id="text-org8a0f8fd">
 <ul class="org-ul">
 <li><a href="https://media.weibo.cn/article?id=2309351000894271099180365285">《想
 创业，就来新东方》</a> 后来创业的新东方老师们，罗永浩创办了手机公司、李
@@ -2970,18 +3049,18 @@ App Store 免费排行榜的第一名。人们在脱离微信？</li>
 </div>
 </div>
 
-<div id="outline-container-org59e46c1" class="outline-3">
-<h3 id="org59e46c1">2018-08-08</h3>
-<div class="outline-text-3" id="text-org59e46c1">
+<div id="outline-container-org87d9b5d" class="outline-3">
+<h3 id="org87d9b5d">2018-08-08</h3>
+<div class="outline-text-3" id="text-org87d9b5d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/6eo8q2NtLozZWu6U-WWOcg">割舍存量, 拥抱增
 量</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb1f3485" class="outline-3">
-<h3 id="orgb1f3485">2018-08-07</h3>
-<div class="outline-text-3" id="text-orgb1f3485">
+<div id="outline-container-org9676b6c" class="outline-3">
+<h3 id="org9676b6c">2018-08-07</h3>
+<div class="outline-text-3" id="text-org9676b6c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/QnevYCQABiXJOAVLc0sjXg">《谷歌要回中国？
 人民日报发文欢迎 李彦宏“有信心再 PK，再赢一次”》</a> 谷歌的退出使得他们
@@ -3019,9 +3098,9 @@ App Store 免费排行榜的第一名。人们在脱离微信？</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orga8c1967" class="outline-3">
-<h3 id="orga8c1967">2018-08-06</h3>
-<div class="outline-text-3" id="text-orga8c1967">
+<div id="outline-container-orge415a00" class="outline-3">
+<h3 id="orge415a00">2018-08-06</h3>
+<div class="outline-text-3" id="text-orge415a00">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/IqjGWPnU2qhKFqYWhuIBig">《我闺蜜在龙泉寺
 禅修的 5 天》</a> 创造了贤二动漫形象其及机器人的龙泉寺，并不会止步于动漫
@@ -3063,9 +3142,9 @@ i 财富的真正关系被质疑……</li>
 </div>
 </div>
 
-<div id="outline-container-orgc083f52" class="outline-3">
-<h3 id="orgc083f52">2018-08-03</h3>
-<div class="outline-text-3" id="text-orgc083f52">
+<div id="outline-container-org1c4afd5" class="outline-3">
+<h3 id="org1c4afd5">2018-08-03</h3>
+<div class="outline-text-3" id="text-org1c4afd5">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/04Ww9Ce32YO9MX8pwjsosA">《苹果市值登顶万
 亿美元！这家伟大公司如何走到今天》</a> 谁是第一个市值万亿美元的公司，亚
@@ -3112,9 +3191,9 @@ i 财富的真正关系被质疑……</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orge644f2c" class="outline-3">
-<h3 id="orge644f2c">2018-08-02</h3>
-<div class="outline-text-3" id="text-orge644f2c">
+<div id="outline-container-org0be7963" class="outline-3">
+<h3 id="org0be7963">2018-08-02</h3>
+<div class="outline-text-3" id="text-org0be7963">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/4HmtMeC9YqGIw7iTJg7Plg">《P2P 爆雷潮波及
 实业》</a> 截至今年 5 月，邻家便利店共在北京开出 160 多家门店，与全时、
@@ -3161,9 +3240,9 @@ i 财富的真正关系被质疑……</li>
 </div>
 </div>
 
-<div id="outline-container-org3abb95a" class="outline-3">
-<h3 id="org3abb95a">2018-08-01</h3>
-<div class="outline-text-3" id="text-org3abb95a">
+<div id="outline-container-org68d4ef9" class="outline-3">
+<h3 id="org68d4ef9">2018-08-01</h3>
+<div class="outline-text-3" id="text-org68d4ef9">
 <ul class="org-ul">
 <li><a href="https://m.huxiu.com/article/255332.html">《被封掉的陈一发和卢本伟》</a>
 关于网红陈一发，共青团、人民日报先后发声，现在谁都知道——陈一发也凉了。
@@ -3206,13 +3285,13 @@ i 财富的真正关系被质疑……</li>
 </div>
 </div>
 </div>
-<div id="outline-container-orga628b02" class="outline-2">
-<h2 id="orga628b02">2018 年 7 月文章</h2>
-<div class="outline-text-2" id="text-orga628b02">
+<div id="outline-container-org82859f7" class="outline-2">
+<h2 id="org82859f7">2018 年 7 月文章</h2>
+<div class="outline-text-2" id="text-org82859f7">
 </div>
-<div id="outline-container-org506338d" class="outline-3">
-<h3 id="org506338d">2018-07-31</h3>
-<div class="outline-text-3" id="text-org506338d">
+<div id="outline-container-org987c81f" class="outline-3">
+<h3 id="org987c81f">2018-07-31</h3>
+<div class="outline-text-3" id="text-org987c81f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/hatAwHFDWpm4aEq7WcXq8Q">一下科技踩中双响雷，秒拍、波波视频同时被无限期下架</a> 短视频 APP 们像是迎
 来了本命年，而且遭遇了水逆。一下科技是此次唯一被下架两款产品的公司，也
@@ -3253,9 +3332,9 @@ i 财富的真正关系被质疑……</li>
 </div>
 </div>
 
-<div id="outline-container-org74d7e1d" class="outline-3">
-<h3 id="org74d7e1d">2018-07-30</h3>
-<div class="outline-text-3" id="text-org74d7e1d">
+<div id="outline-container-orgd88a704" class="outline-3">
+<h3 id="orgd88a704">2018-07-30</h3>
+<div class="outline-text-3" id="text-orgd88a704">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NhQiEh0VauHlA26KdjagsQ">百度没有文化</a> 百
 度的文化悲剧在于，最核心的几个产品都是靠技术推导出来的，最早期的 MP3、
@@ -3295,9 +3374,9 @@ google 工作收获，也是在 google，黄峥早早地就实现财务自由。
 </ul>
 </div>
 </div>
-<div id="outline-container-org5066752" class="outline-3">
-<h3 id="org5066752">2018-07-27</h3>
-<div class="outline-text-3" id="text-org5066752">
+<div id="outline-container-org3f00967" class="outline-3">
+<h3 id="org3f00967">2018-07-27</h3>
+<div class="outline-text-3" id="text-org3f00967">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/TmVZhm-hmLyuaLCCm1ykEQ">创办三年，三亿用
 户，市值三百亿美元：拼多多的本质是什么</a> 拼多多被称为北京五环内居民无
@@ -3342,9 +3421,9 @@ google 工作收获，也是在 google，黄峥早早地就实现财务自由。
 </div>
 </div>
 
-<div id="outline-container-org1b2a2c3" class="outline-3">
-<h3 id="org1b2a2c3">2018-07-26</h3>
-<div class="outline-text-3" id="text-org1b2a2c3">
+<div id="outline-container-orgcb60097" class="outline-3">
+<h3 id="orgcb60097">2018-07-26</h3>
+<div class="outline-text-3" id="text-orgcb60097">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/OdieBeX7iyIAk__4LOQVvQ">AI 定价，算法卖车</a>
 二手车市场信息严重不对称，算法可以重构整个交易链条，提升效率，让这门生
@@ -3388,9 +3467,9 @@ google 工作收获，也是在 google，黄峥早早地就实现财务自由。
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbf82d21" class="outline-3">
-<h3 id="orgbf82d21">2018-07-25</h3>
-<div class="outline-text-3" id="text-orgbf82d21">
+<div id="outline-container-org7e6b542" class="outline-3">
+<h3 id="org7e6b542">2018-07-25</h3>
+<div class="outline-text-3" id="text-org7e6b542">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/FxYUOVuYnwHXJVAmwXEQhA">《当社交电商“喜提”微
 商》</a> 多层分销，虽然能带来爆发式增长，但处于监管的灰色地带；如果只有
@@ -3433,9 +3512,9 @@ google 工作收获，也是在 google，黄峥早早地就实现财务自由。
 </div>
 </div>
 
-<div id="outline-container-orgc09c347" class="outline-3">
-<h3 id="orgc09c347">2018-07-24</h3>
-<div class="outline-text-3" id="text-orgc09c347">
+<div id="outline-container-org696affa" class="outline-3">
+<h3 id="org696affa">2018-07-24</h3>
+<div class="outline-text-3" id="text-org696affa">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/cfw9_VE39-YLzSmK5Qvbww">《电击健身、AI 教
 练，「科技健身」能否为健身行业带来春天？》</a> 过去随着互联网的普及、资
@@ -3480,9 +3559,9 @@ google 工作收获，也是在 google，黄峥早早地就实现财务自由。
 </ul>
 </div>
 </div>
-<div id="outline-container-org40949c2" class="outline-3">
-<h3 id="org40949c2">2018-07-23</h3>
-<div class="outline-text-3" id="text-org40949c2">
+<div id="outline-container-org7bc49fd" class="outline-3">
+<h3 id="org7bc49fd">2018-07-23</h3>
+<div class="outline-text-3" id="text-org7bc49fd">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/ygvyAFNoHeWoTcM9e1zMAg">《网易云音乐王诗
 沐：我们是如何四年时间做到 4 亿用户的》</a> 网易云音乐副总裁王师沐说：
@@ -3529,9 +3608,9 @@ TOP100 短视频，整理了如下 8 条爆品内容规律供大家参考。其�
 </div>
 </div>
 
-<div id="outline-container-orga9ca1b2" class="outline-3">
-<h3 id="orga9ca1b2">2018-07-20</h3>
-<div class="outline-text-3" id="text-orga9ca1b2">
+<div id="outline-container-org52c01e5" class="outline-3">
+<h3 id="org52c01e5">2018-07-20</h3>
+<div class="outline-text-3" id="text-org52c01e5">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/8-dBiR4rO06PLN3-1qIleQ">《留给陆奇的工作
 机会不多了》</a> 人们之所以对陆奇的去向感兴趣，除了对陆奇本人的期待和兴
@@ -3576,9 +3655,9 @@ TOP100 短视频，整理了如下 8 条爆品内容规律供大家参考。其�
 </ul>
 </div>
 </div>
-<div id="outline-container-org93df419" class="outline-3">
-<h3 id="org93df419">2018-07-18</h3>
-<div class="outline-text-3" id="text-org93df419">
+<div id="outline-container-orgb1885f5" class="outline-3">
+<h3 id="orgb1885f5">2018-07-18</h3>
+<div class="outline-text-3" id="text-orgb1885f5">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/KsrfE7ocRuKR6Kj8I1Fmig">《百度的第二条
 命》</a> 百度从一开始就相信，技术不仅仅是一种手段，技术可以创造前所未有
@@ -3619,9 +3698,9 @@ store 这十年来的变化历程方面做出探讨，更多是分析其这十�
 </div>
 </div>
 
-<div id="outline-container-org92e577c" class="outline-3">
-<h3 id="org92e577c">2018-07-16</h3>
-<div class="outline-text-3" id="text-org92e577c">
+<div id="outline-container-org1c7a621" class="outline-3">
+<h3 id="org1c7a621">2018-07-16</h3>
+<div class="outline-text-3" id="text-org1c7a621">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/kGYjEb5fD-u0IWWI_o8wow">《决赛夜，我们不
 谈世界杯》</a> 足球和中国足球不是一回事！富了一批足球明星，似乎是中国足
@@ -3658,9 +3737,9 @@ store 这十年来的变化历程方面做出探讨，更多是分析其这十�
 </div>
 </div>
 
-<div id="outline-container-org18b409f" class="outline-3">
-<h3 id="org18b409f">2018-07-12</h3>
-<div class="outline-text-3" id="text-org18b409f">
+<div id="outline-container-org3b61b30" class="outline-3">
+<h3 id="org3b61b30">2018-07-12</h3>
+<div class="outline-text-3" id="text-org3b61b30">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/3FUyQnpTo8WjHYtlqKdtHg">《知识星球：如何
 才能做高品质社群？如何让社群持续产生价值？》</a> 这是来自知识星球创始人
@@ -3705,9 +3784,9 @@ store 这十年来的变化历程方面做出探讨，更多是分析其这十�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd23cdcc" class="outline-3">
-<h3 id="orgd23cdcc">2018-07-11</h3>
-<div class="outline-text-3" id="text-orgd23cdcc">
+<div id="outline-container-org60269f5" class="outline-3">
+<h3 id="org60269f5">2018-07-11</h3>
+<div class="outline-text-3" id="text-org60269f5">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/w7KX7uMLQNuZs4xUGTmneg">《三万网站含挖矿
 代码：当你上网的时候，可能就在帮黑客挖矿了》</a> 浏览即挖矿，如果你在上
@@ -3755,9 +3834,9 @@ store 这十年来的变化历程方面做出探讨，更多是分析其这十�
 </div>
 </div>
 
-<div id="outline-container-org85ff422" class="outline-3">
-<h3 id="org85ff422">2018-07-10</h3>
-<div class="outline-text-3" id="text-org85ff422">
+<div id="outline-container-org70c1585" class="outline-3">
+<h3 id="org70c1585">2018-07-10</h3>
+<div class="outline-text-3" id="text-org70c1585">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/I7h8woIksofUAaSVGVh_kg">《土创者哈罗单
 车》</a> 当初 ofo 与摩拜激烈竞争时，外界就有声音称，这是阿里和腾讯的竞争。
@@ -3800,9 +3879,9 @@ IP，现在成为“中年流量”担当，并赚得盆满钵满，商人徐峥
 </ul>
 </div>
 </div>
-<div id="outline-container-orgffd9269" class="outline-3">
-<h3 id="orgffd9269">2018-07-06</h3>
-<div class="outline-text-3" id="text-orgffd9269">
+<div id="outline-container-org6e5a9d5" class="outline-3">
+<h3 id="org6e5a9d5">2018-07-06</h3>
+<div class="outline-text-3" id="text-org6e5a9d5">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/qfr0MZ13sBigMFUk8NgVTQ">《从《战狼》到
 《药神》，这家公司是怎么成为爆款挖掘机的？》</a> 传统影视企业里，有一家
@@ -3848,9 +3927,9 @@ IP，现在成为“中年流量”担当，并赚得盆满钵满，商人徐峥
 </div>
 </div>
 
-<div id="outline-container-org107fe21" class="outline-3">
-<h3 id="org107fe21">2018-07-05</h3>
-<div class="outline-text-3" id="text-org107fe21">
+<div id="outline-container-orga383623" class="outline-3">
+<h3 id="orga383623">2018-07-05</h3>
+<div class="outline-text-3" id="text-orga383623">
 <ul class="org-ul">
 <li><a href="https://media.weibo.cn/article?id=2309404258483468911864">《海航非常
 48 小时》</a> 发布王健讣告的四个小时后，海航管理层向不知所措的员工下达了
@@ -3893,9 +3972,9 @@ Google Play 的两倍左右。这十年间 APP STORE 究竟赚了多少钱？</l
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd7d5a23" class="outline-3">
-<h3 id="orgd7d5a23">2018-07-04</h3>
-<div class="outline-text-3" id="text-orgd7d5a23">
+<div id="outline-container-orga788804" class="outline-3">
+<h3 id="orga788804">2018-07-04</h3>
+<div class="outline-text-3" id="text-orga788804">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/3SgHzbfrfZjet1sQ21grdw">《今日头条内测付
 费功能，全面开启粉丝红利期》</a> 从一开始，张一鸣心目中的粉丝变现路径便
@@ -3935,9 +4014,9 @@ Google Play 的两倍左右。这十年间 APP STORE 究竟赚了多少钱？</l
 </div>
 </div>
 
-<div id="outline-container-org18af305" class="outline-3">
-<h3 id="org18af305">2018-07-03</h3>
-<div class="outline-text-3" id="text-org18af305">
+<div id="outline-container-orgfbac200" class="outline-3">
+<h3 id="orgfbac200">2018-07-03</h3>
+<div class="outline-text-3" id="text-orgfbac200">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/gI1y9NptHYkD_yShaWE3tQ">《5G 会彻底改变我
 们的生活，但不是从手机开始》</a> 世界移动大会如期在上海开展，三大运营商
@@ -3981,9 +4060,9 @@ Amazon 千亿营收的增长黑客策略》</a> 又是一篇两万字的长文�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb1fb43f" class="outline-3">
-<h3 id="orgb1fb43f">2018-07-02</h3>
-<div class="outline-text-3" id="text-orgb1fb43f">
+<div id="outline-container-org46de3b9" class="outline-3">
+<h3 id="org46de3b9">2018-07-02</h3>
+<div class="outline-text-3" id="text-org46de3b9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/l4K6fCZOcYituvUrNyoJwg">《支付宝和微信躺
 着赚钱的日子结束了》</a> 央行规定，从 2018 年 6 月 30 日起，微信、支付宝
@@ -4027,13 +4106,13 @@ Amazon 千亿营收的增长黑客策略》</a> 又是一篇两万字的长文�
 </div>
 </div>
 </div>
-<div id="outline-container-orge995439" class="outline-2">
-<h2 id="orge995439">2018 年 6 月文章</h2>
-<div class="outline-text-2" id="text-orge995439">
+<div id="outline-container-org8859cc0" class="outline-2">
+<h2 id="org8859cc0">2018 年 6 月文章</h2>
+<div class="outline-text-2" id="text-org8859cc0">
 </div>
-<div id="outline-container-org7d57a36" class="outline-3">
-<h3 id="org7d57a36">2018-06-29</h3>
-<div class="outline-text-3" id="text-org7d57a36">
+<div id="outline-container-orga09f565" class="outline-3">
+<h3 id="orga09f565">2018-06-29</h3>
+<div class="outline-text-3" id="text-orga09f565">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/0XVM0ez7ivWsbIRqEweI5w">《20 支好看的世界杯广告片》</a> 世界杯上除了叶茂中的洗脑广告，还有许多良品。
 这里有二十支优质世界杯广告索引集锦，欢迎进来洗眼睛。</li>
@@ -4075,9 +4154,9 @@ Amazon 千亿营收的增长黑客策略》</a> 又是一篇两万字的长文�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgda0f1c5" class="outline-3">
-<h3 id="orgda0f1c5">2018-06-28</h3>
-<div class="outline-text-3" id="text-orgda0f1c5">
+<div id="outline-container-orgba82d0d" class="outline-3">
+<h3 id="orgba82d0d">2018-06-28</h3>
+<div class="outline-text-3" id="text-orgba82d0d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/nSsrqJv9bxa6ohbmZKZQHw">《广告狂人叶茂
 中》</a> 叶茂中广告哲学的两个核心概念：制造冲突和不断重复。哪怕是无中生
@@ -4121,9 +4200,9 @@ Amazon 千亿营收的增长黑客策略》</a> 又是一篇两万字的长文�
 </div>
 </div>
 
-<div id="outline-container-orgf5c2a69" class="outline-3">
-<h3 id="orgf5c2a69">2018-06-27</h3>
-<div class="outline-text-3" id="text-orgf5c2a69">
+<div id="outline-container-org783e3a4" class="outline-3">
+<h3 id="org783e3a4">2018-06-27</h3>
+<div class="outline-text-3" id="text-org783e3a4">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/79sGc_RbncD63Pw3LMWYXg">《“头腾大战”白热
 化，双方都暗示对方使用的“黑公关”，究竟是什么样的存在？》</a> 2010 年，有
@@ -4168,9 +4247,9 @@ Amazon 千亿营收的增长黑客策略》</a> 又是一篇两万字的长文�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgcc4f138" class="outline-3">
-<h3 id="orgcc4f138">2018-06-26</h3>
-<div class="outline-text-3" id="text-orgcc4f138">
+<div id="outline-container-orga609aa7" class="outline-3">
+<h3 id="orga609aa7">2018-06-26</h3>
+<div class="outline-text-3" id="text-orga609aa7">
 <ul class="org-ul">
 <li><a href="https://www.ithome.com/html/it/366855.htm">《当年被所有人看衰的
 Twitter 是怎么“重生”的？》</a> 一个社交平台变得流行后，年轻用户就会溜出
@@ -4212,9 +4291,9 @@ Instagarm 上看。这导致年轻用户的大量流失，而最近两年，twit
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc9d15ea" class="outline-3">
-<h3 id="orgc9d15ea">2018-06-25</h3>
-<div class="outline-text-3" id="text-orgc9d15ea">
+<div id="outline-container-org704186b" class="outline-3">
+<h3 id="org704186b">2018-06-25</h3>
+<div class="outline-text-3" id="text-org704186b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/rIjF8RRtZFZf8tqRas6FyA">《微信的操作系统
 之路》</a> 微信最初是借着邮箱名义做出来的聊天工具，之后发展出朋友圈公众
@@ -4257,9 +4336,9 @@ Instagarm 上看。这导致年轻用户的大量流失，而最近两年，twit
 </ul>
 </div>
 </div>
-<div id="outline-container-org17f42fa" class="outline-3">
-<h3 id="org17f42fa">2018-06-22</h3>
-<div class="outline-text-3" id="text-org17f42fa">
+<div id="outline-container-org5c6a936" class="outline-3">
+<h3 id="org5c6a936">2018-06-22</h3>
+<div class="outline-text-3" id="text-org5c6a936">
 <ul class="org-ul">
 <li><a href="https://app.myzaker.com/news/article.php?app_id=10523&amp;_appid=AndroidPhone&amp;_version=8.22&amp;_bsize1080_1920=&amp;sharechannel=wx&amp;pk=5b2c47c277ac64340e05d8aa">
 《性、暴力和无处安放的少年荷尔蒙：透视 TFBOYS、杨幂和鹿晗的“黑粉群”》</a>
@@ -4303,9 +4382,9 @@ Instagarm 上看。这导致年轻用户的大量流失，而最近两年，twit
 </ul>
 </div>
 </div>
-<div id="outline-container-org72bb0f2" class="outline-3">
-<h3 id="org72bb0f2">2018-06-21</h3>
-<div class="outline-text-3" id="text-org72bb0f2">
+<div id="outline-container-org5c63bf9" class="outline-3">
+<h3 id="org5c63bf9">2018-06-21</h3>
+<div class="outline-text-3" id="text-org5c63bf9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/HlNIyEJhenK0ewFV-95RXA">《微信真的焦虑
 了》</a> 微信改版，大举杀入满是奶和蜜的信息流分发领域，其中的好处甜头会
@@ -4354,9 +4433,9 @@ S 型曲线发展滞缓前寻求改变，以找到快速发展的“第二曲线
 </ul>
 </div>
 </div>
-<div id="outline-container-org82b3bff" class="outline-3">
-<h3 id="org82b3bff">2018-06-20</h3>
-<div class="outline-text-3" id="text-org82b3bff">
+<div id="outline-container-org4875b3c" class="outline-3">
+<h3 id="org4875b3c">2018-06-20</h3>
+<div class="outline-text-3" id="text-org4875b3c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Ne9xjnuBSuXlZAwxR6wgSA">《下一个知乎，是
 否会出现在短视频领域？》</a> 知乎，果壳等问答网站近年正从工具型网站转型
@@ -4398,9 +4477,9 @@ S 型曲线发展滞缓前寻求改变，以找到快速发展的“第二曲线
 </ul>
 </div>
 </div>
-<div id="outline-container-org780c91f" class="outline-3">
-<h3 id="org780c91f">2018-06-15</h3>
-<div class="outline-text-3" id="text-org780c91f">
+<div id="outline-container-org3e17d39" class="outline-3">
+<h3 id="org3e17d39">2018-06-15</h3>
+<div class="outline-text-3" id="text-org3e17d39">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/cHrjHaAziKSTSVrrF0RUDQ">《ofo 的四种命运
 走向猜测》</a> 互联网专家王越认为，目前，共享单车市场正从 ofo、摩拜两家
@@ -4444,9 +4523,9 @@ S 型曲线发展滞缓前寻求改变，以找到快速发展的“第二曲线
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfb8cb84" class="outline-3">
-<h3 id="orgfb8cb84">2018-06-14</h3>
-<div class="outline-text-3" id="text-orgfb8cb84">
+<div id="outline-container-orga97ab23" class="outline-3">
+<h3 id="orga97ab23">2018-06-14</h3>
+<div class="outline-text-3" id="text-orga97ab23">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/9lxKvtUcGvaPwE4cwmRy6g">《“头腾大战”的核
 心是公共利益》</a> 公共利益看上去比商业利益更高，它关乎的并不只是两家公
@@ -4489,9 +4568,9 @@ S 型曲线发展滞缓前寻求改变，以找到快速发展的“第二曲线
 </ul>
 </div>
 </div>
-<div id="outline-container-org82cc939" class="outline-3">
-<h3 id="org82cc939">2018-06-13</h3>
-<div class="outline-text-3" id="text-org82cc939">
+<div id="outline-container-orgae28df2" class="outline-3">
+<h3 id="orgae28df2">2018-06-13</h3>
+<div class="outline-text-3" id="text-orgae28df2">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/GISpCPi823NGO-lXhwEQcg">《从“合群”到“本我”：
 细观中国时尚消费者六大新趋势》</a> 咨询公司麦肯锡针对中国时尚消费者，既
@@ -4537,9 +4616,9 @@ S 型曲线发展滞缓前寻求改变，以找到快速发展的“第二曲线
 </ul>
 </div>
 </div>
-<div id="outline-container-org50e5839" class="outline-3">
-<h3 id="org50e5839">2018-06-12</h3>
-<div class="outline-text-3" id="text-org50e5839">
+<div id="outline-container-org8b5cb35" class="outline-3">
+<h3 id="org8b5cb35">2018-06-12</h3>
+<div class="outline-text-3" id="text-org8b5cb35">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/E0QHaZOqho4cmstxiBn6VQ">《没有红米就没有
 小米》</a> 这一次不再是“小镇青年”的故事，其实红米手机的用户一线城市偏多，
@@ -4581,9 +4660,9 @@ B 时代终于来了？》</a> BAT 中，百度主卖搜索，阿里主卖电商
 </ul>
 </div>
 </div>
-<div id="outline-container-orge690a4b" class="outline-3">
-<h3 id="orge690a4b">2018-06-11</h3>
-<div class="outline-text-3" id="text-orge690a4b">
+<div id="outline-container-org772f751" class="outline-3">
+<h3 id="org772f751">2018-06-11</h3>
+<div class="outline-text-3" id="text-org772f751">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/qjwdHRcNcWcV_NBa3W_WnA">《为什么我的儿子
 不沉迷游戏？》</a> 在游戏这件事上，如果孩子站在两个对立面的中间，一面就
@@ -4625,9 +4704,9 @@ B 时代终于来了？》</a> BAT 中，百度主卖搜索，阿里主卖电商
 </ul>
 </div>
 </div>
-<div id="outline-container-org55f8e30" class="outline-3">
-<h3 id="org55f8e30">2018-06-08</h3>
-<div class="outline-text-3" id="text-org55f8e30">
+<div id="outline-container-org7f3f17f" class="outline-3">
+<h3 id="org7f3f17f">2018-06-08</h3>
+<div class="outline-text-3" id="text-org7f3f17f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/ChflfgzUBIp17ruYaiEgAw">《暴风，下一个乐
 视？》</a> 暴风如乐视一般紧随热点 VR、AR、DT、AI 竟是一个都没错过，甚至
@@ -4661,9 +4740,9 @@ coo。随 boss 小马哥的低调，很多人尤其是圈外人都没听说过�
 </ul>
 </div>
 </div>
-<div id="outline-container-org4d23b9c" class="outline-3">
-<h3 id="org4d23b9c">2018-06-07</h3>
-<div class="outline-text-3" id="text-org4d23b9c">
+<div id="outline-container-org920ba77" class="outline-3">
+<h3 id="org920ba77">2018-06-07</h3>
+<div class="outline-text-3" id="text-org920ba77">
 <ul class="org-ul">
 <li><a href="http://36kr.com/p/5137704.html">《7 分钟搞定 120 年营销进化史，我们
 都去装大师吧》</a> 营销学诞生于上世纪初，当时还只是经济学的一个分支，终
@@ -4705,9 +4784,9 @@ coo。随 boss 小马哥的低调，很多人尤其是圈外人都没听说过�
 </ul>
 </div>
 </div>
-<div id="outline-container-org7286f47" class="outline-3">
-<h3 id="org7286f47">2018-06-06</h3>
-<div class="outline-text-3" id="text-org7286f47">
+<div id="outline-container-org51868c6" class="outline-3">
+<h3 id="org51868c6">2018-06-06</h3>
+<div class="outline-text-3" id="text-org51868c6">
 <ul class="org-ul">
 <li><a href="http://36kr.com/p/5088657.html">《互联网的两极：阿里和腾讯为什么未来
 市值能达到 1 万亿？》</a> 互联网应该是强者恒强，巨头公司们掌握了大量用户
@@ -4750,9 +4829,9 @@ coo。随 boss 小马哥的低调，很多人尤其是圈外人都没听说过�
 </ul>
 </div>
 </div>
-<div id="outline-container-org89ab7cf" class="outline-3">
-<h3 id="org89ab7cf">2018-06-04</h3>
-<div class="outline-text-3" id="text-org89ab7cf">
+<div id="outline-container-orga370cde" class="outline-3">
+<h3 id="orga370cde">2018-06-04</h3>
+<div class="outline-text-3" id="text-orga370cde">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/joLSJO7vemjfkKzx8EAUIg">《短视频发展简史：
 从 20 分钟到 15 秒的新秩序》</a> 人的器官对于刺激感到兴奋的阀值，被称作
@@ -4794,9 +4873,9 @@ coo。随 boss 小马哥的低调，很多人尤其是圈外人都没听说过�
 </ul>
 </div>
 </div>
-<div id="outline-container-org2fed410" class="outline-3">
-<h3 id="org2fed410">2018-06-01</h3>
-<div class="outline-text-3" id="text-org2fed410">
+<div id="outline-container-org486c7b5" class="outline-3">
+<h3 id="org486c7b5">2018-06-01</h3>
+<div class="outline-text-3" id="text-org486c7b5">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/moDaYUlMKrH6QjYqNdTABg">《全网独家首发｜
 2018 互联网女皇报告中文完整版来了！》</a> 互联网的世界里没有国王，但却有
@@ -4842,13 +4921,13 @@ coo。随 boss 小马哥的低调，很多人尤其是圈外人都没听说过�
 </div>
 </div>
 </div>
-<div id="outline-container-org71be4f1" class="outline-2">
-<h2 id="org71be4f1">2018 年 5 月文章</h2>
-<div class="outline-text-2" id="text-org71be4f1">
+<div id="outline-container-orgf4cabe4" class="outline-2">
+<h2 id="orgf4cabe4">2018 年 5 月文章</h2>
+<div class="outline-text-2" id="text-orgf4cabe4">
 </div>
-<div id="outline-container-orge271cf2" class="outline-3">
-<h3 id="orge271cf2">2018-05-31</h3>
-<div class="outline-text-3" id="text-orge271cf2">
+<div id="outline-container-org2fe6e1f" class="outline-3">
+<h3 id="org2fe6e1f">2018-05-31</h3>
+<div class="outline-text-3" id="text-org2fe6e1f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/5sF_ynZ_lq6GUgFp1x8D-w">《几点看法：关于今日头条的开炮》</a> 8 年前的 3Q 大战，相信很多人都知道打
 了几个月，还是工信部出面调停，双面才各退一步。如今腾讯封杀抖音，这个过
@@ -4888,9 +4967,9 @@ coo。随 boss 小马哥的低调，很多人尤其是圈外人都没听说过�
 </ul>
 </div>
 </div>
-<div id="outline-container-org722a687" class="outline-3">
-<h3 id="org722a687">2018-05-30</h3>
-<div class="outline-text-3" id="text-org722a687">
+<div id="outline-container-org6bc9ac8" class="outline-3">
+<h3 id="org6bc9ac8">2018-05-30</h3>
+<div class="outline-text-3" id="text-org6bc9ac8">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/E2-KfGzW7Z8Mb_DGVfP_Hw">《腾讯《00 后研究
 报告》：未来十年新消费如何布局？》</a> 2018 年是 00 后的成年元年。世界归
@@ -4937,9 +5016,9 @@ stories 不谋而合，Facebook 的首席产品官克里斯·考克斯(断言—
 </ul>
 </div>
 </div>
-<div id="outline-container-org6258e23" class="outline-3">
-<h3 id="org6258e23">2018-05-29</h3>
-<div class="outline-text-3" id="text-org6258e23">
+<div id="outline-container-orgef66747" class="outline-3">
+<h3 id="orgef66747">2018-05-29</h3>
+<div class="outline-text-3" id="text-orgef66747">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/bclobxtqtEyiM7e7ZkSoew">《「喂养」981 个
 微信大号的写手们》</a> 本月 13 日，新媒体公司量子云被收购，估值高达 38 亿；
@@ -4981,9 +5060,9 @@ stories 不谋而合，Facebook 的首席产品官克里斯·考克斯(断言—
 </ul>
 </div>
 </div>
-<div id="outline-container-org8d12dc0" class="outline-3">
-<h3 id="org8d12dc0">2018-05-28</h3>
-<div class="outline-text-3" id="text-org8d12dc0">
+<div id="outline-container-org2700f9c" class="outline-3">
+<h3 id="org2700f9c">2018-05-28</h3>
+<div class="outline-text-3" id="text-org2700f9c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/kUg0Y2kUdc9Tf5PeaRCrDw">《抖音盛宴：收割
 一个新流量帝国 | 深氪》</a> 两个月前，抖音出现账号“代古拉 k”，一个月狂揽
@@ -5027,9 +5106,9 @@ Media 就是其中翘楚，或者说“美国抖音”</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org2517154" class="outline-3">
-<h3 id="org2517154">2018-05-25</h3>
-<div class="outline-text-3" id="text-org2517154">
+<div id="outline-container-org5d0331b" class="outline-3">
+<h3 id="org5d0331b">2018-05-25</h3>
+<div class="outline-text-3" id="text-org5d0331b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/tyAZmxsntvI8tkfGOimxBQ">《过去几年的变化，
 正在消失的移动流量红利》</a> 快手成立于 2011 年，拼多多成立于 2015 年，通
@@ -5073,9 +5152,9 @@ Media 就是其中翘楚，或者说“美国抖音”</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org4d5d175" class="outline-3">
-<h3 id="org4d5d175">2018-05-24</h3>
-<div class="outline-text-3" id="text-org4d5d175">
+<div id="outline-container-org881b73c" class="outline-3">
+<h3 id="org881b73c">2018-05-24</h3>
+<div class="outline-text-3" id="text-org881b73c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/QI3ARq8krd4MMqhU5gayvw">《咨询公司崛起，
 广告公司落幕 ？|《广告时代》行业报告》</a> 以下这段内容摘自文中：“阳狮集
@@ -5117,9 +5196,9 @@ offer，怎么选？》</a> 从张一鸣庆祝抖音 app store 登顶开始，�
 </ul>
 </div>
 </div>
-<div id="outline-container-org734e86f" class="outline-3">
-<h3 id="org734e86f">2018-05-23</h3>
-<div class="outline-text-3" id="text-org734e86f">
+<div id="outline-container-orgf35120e" class="outline-3">
+<h3 id="orgf35120e">2018-05-23</h3>
+<div class="outline-text-3" id="text-orgf35120e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/UalJB5rSoMFmmt9eZIqJzA">《先洗粉，再洗脑，
 再卖货，然后微商：看看 ayawawa 这么多年苦心经营的商业帝国》</a> 5 月 22
@@ -5163,9 +5242,9 @@ offer，怎么选？》</a> 从张一鸣庆祝抖音 app store 登顶开始，�
 </ul>
 </div>
 </div>
-<div id="outline-container-org5341e5b" class="outline-3">
-<h3 id="org5341e5b">2018-05-22</h3>
-<div class="outline-text-3" id="text-org5341e5b">
+<div id="outline-container-org0763b7a" class="outline-3">
+<h3 id="org0763b7a">2018-05-22</h3>
+<div class="outline-text-3" id="text-org0763b7a">
 <ul class="org-ul">
 <li><a href="https://app.myzaker.com/news/article.php?app_id=562&amp;_appid=AndroidPhone&amp;_version=8.22&amp;_bsize1080_1920=&amp;sharechannel=wx&amp;pk=5b0381b477ac6457712252c9">
 《为什么微博、Facebook 和 Snapchat 都要做“故事”功能？》</a> 社交巨头们推
@@ -5209,9 +5288,9 @@ offer，怎么选？》</a> 从张一鸣庆祝抖音 app store 登顶开始，�
 </ul>
 </div>
 </div>
-<div id="outline-container-org0d4672c" class="outline-3">
-<h3 id="org0d4672c">2018-05-21</h3>
-<div class="outline-text-3" id="text-org0d4672c">
+<div id="outline-container-orgf3fc97c" class="outline-3">
+<h3 id="orgf3fc97c">2018-05-21</h3>
+<div class="outline-text-3" id="text-orgf3fc97c">
 <ul class="org-ul">
 <li><a href="http://36kr.com/p/5126558.html">《“新农村网红”的江湖：年入千万，内容
 下沉式生长》</a> 依托“西瓜视频”“悟空问答”等头条系 app，一批“新农村网红”
@@ -5256,9 +5335,9 @@ QI 很在意对与错，这一点在习惯了「小孩才分对错，大人只�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgac9f34a" class="outline-3">
-<h3 id="orgac9f34a">2018-05-18</h3>
-<div class="outline-text-3" id="text-orgac9f34a">
+<div id="outline-container-orgd58a827" class="outline-3">
+<h3 id="orgd58a827">2018-05-18</h3>
+<div class="outline-text-3" id="text-orgd58a827">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/06H0eJNYTWk3rm7SaMQBcw">《如果我是联想的
 公关》</a> 柳老爷子作为老企业家，一封信抒发被扣上“卖国贼”的帽子的气愤。
@@ -5300,9 +5379,9 @@ QI 很在意对与错，这一点在习惯了「小孩才分对错，大人只�
 </ul>
 </div>
 </div>
-<div id="outline-container-org8768e23" class="outline-3">
-<h3 id="org8768e23">2018-05-17</h3>
-<div class="outline-text-3" id="text-org8768e23">
+<div id="outline-container-org7a221d1" class="outline-3">
+<h3 id="org7a221d1">2018-05-17</h3>
+<div class="outline-text-3" id="text-org7a221d1">
 <ul class="org-ul">
 <li><a href="https://36kr.com/p/5134307.html?from=singlemessage">《焦点解毒 | 腾
 讯估值分歧的真相：马化腾递交了一份“看起来不错”的财报？》</a> 2017 年，共
@@ -5343,9 +5422,9 @@ QI 很在意对与错，这一点在习惯了「小孩才分对错，大人只�
 </ul>
 </div>
 </div>
-<div id="outline-container-org7e7fca2" class="outline-3">
-<h3 id="org7e7fca2">2018-05-16</h3>
-<div class="outline-text-3" id="text-org7e7fca2">
+<div id="outline-container-org86bf569" class="outline-3">
+<h3 id="org86bf569">2018-05-16</h3>
+<div class="outline-text-3" id="text-org86bf569">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/usRrnUeZMBBkfDq2XScS7Q">《软色情、二次元，
 总是被误解的 ASMR 离成功“洗白”还有多远》</a> 零七年，因为害怕会引起人们
@@ -5388,9 +5467,9 @@ TnT 就是他准备给中国年轻中产男性的“黑珍珠”。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orged6d695" class="outline-3">
-<h3 id="orged6d695">2018-05-15</h3>
-<div class="outline-text-3" id="text-orged6d695">
+<div id="outline-container-orgfade535" class="outline-3">
+<h3 id="orgfade535">2018-05-15</h3>
+<div class="outline-text-3" id="text-orgfade535">
 <ul class="org-ul">
 <li><a href="http://36kr.com/p/5132821.html">《深氪 | 李斌攒局：他会是下一个雷军
 吗？》</a> 滴滴无朋友，除了美团也开展快车业务，一款名叫“滴答出行”的出租
@@ -5431,9 +5510,9 @@ TnT 就是他准备给中国年轻中产男性的“黑珍珠”。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org0da6aed" class="outline-3">
-<h3 id="org0da6aed">2018-05-14</h3>
-<div class="outline-text-3" id="text-org0da6aed">
+<div id="outline-container-org82f2d35" class="outline-3">
+<h3 id="org82f2d35">2018-05-14</h3>
+<div class="outline-text-3" id="text-org82f2d35">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/u63yooVY98LGNfrt2HqCUQ">《品牌投资的另一
 面 》</a> 作者提出一个观点新品牌应做的是 2c——To channel，而非印象常识中
@@ -5472,9 +5551,9 @@ TnT 就是他准备给中国年轻中产男性的“黑珍珠”。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc4a6df7" class="outline-3">
-<h3 id="orgc4a6df7">2018-05-11</h3>
-<div class="outline-text-3" id="text-orgc4a6df7">
+<div id="outline-container-org579e098" class="outline-3">
+<h3 id="org579e098">2018-05-11</h3>
+<div class="outline-text-3" id="text-org579e098">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/CB1Io6dxdEkEqai7Maud1Q">《没有真正顺风的
 车》</a> 滴滴事件爆出来后，有文章指责有文章开脱。这篇文章则克制冷静，指
@@ -5515,9 +5594,9 @@ TnT 就是他准备给中国年轻中产男性的“黑珍珠”。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org2b5c252" class="outline-3">
-<h3 id="org2b5c252">2018-05-10</h3>
-<div class="outline-text-3" id="text-org2b5c252">
+<div id="outline-container-org3760d41" class="outline-3">
+<h3 id="org3760d41">2018-05-10</h3>
+<div class="outline-text-3" id="text-org3760d41">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/IJMIDjph1cGBbX0nCDIeLA">《谁动了广告公司
 的蛋糕？》</a> 4 月 14 日，苏铭天宣布辞去全球最大广告集团 WPP 的 ceo 职
@@ -5557,9 +5636,9 @@ AI 推动生物神经学发展成为可能。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orga7b4211" class="outline-3">
-<h3 id="orga7b4211">2018-05-09</h3>
-<div class="outline-text-3" id="text-orga7b4211">
+<div id="outline-container-org8778a2b" class="outline-3">
+<h3 id="org8778a2b">2018-05-09</h3>
+<div class="outline-text-3" id="text-org8778a2b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/bBUKbCIbufBPRhZdNDblOw">《一文看尽 Google
 I/O 大会：AI 打电话以假乱真，TPU 3.0 正式发布》</a> Google I/O 是由
@@ -5600,9 +5679,9 @@ Google 举行的网络开发者年会，讨论的焦点是用 Google 和开放�
 </ul>
 </div>
 </div>
-<div id="outline-container-org4ec4d85" class="outline-3">
-<h3 id="org4ec4d85">2018-05-08</h3>
-<div class="outline-text-3" id="text-org4ec4d85">
+<div id="outline-container-org92c8380" class="outline-3">
+<h3 id="org92c8380">2018-05-08</h3>
+<div class="outline-text-3" id="text-org92c8380">
 <ul class="org-ul">
 <li><a href="https://news.caijingmobile.com/article/detail/360878?source_id=40">
 《陆奇举刀，百度第三次重组内阁》</a> 传言百度内部“派系林立”，“各占山头”。
@@ -5642,9 +5721,9 @@ Google 举行的网络开发者年会，讨论的焦点是用 Google 和开放�
 </ul>
 </div>
 </div>
-<div id="outline-container-orge051c46" class="outline-3">
-<h3 id="orge051c46">2018-05-07</h3>
-<div class="outline-text-3" id="text-orge051c46">
+<div id="outline-container-org67072e9" class="outline-3">
+<h3 id="org67072e9">2018-05-07</h3>
+<div class="outline-text-3" id="text-org67072e9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/eq6Ux8Tde9hGLqA4XZZZ_w">《每天晚上躲在床
 上听的 ASMR，终于引起了科学家的注意》</a> 大多数人最近才了解 Asmr——用物
@@ -5684,9 +5763,9 @@ asmr 的科学性。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfc31482" class="outline-3">
-<h3 id="orgfc31482">2018-05-05</h3>
-<div class="outline-text-3" id="text-orgfc31482">
+<div id="outline-container-org0d01845" class="outline-3">
+<h3 id="org0d01845">2018-05-05</h3>
+<div class="outline-text-3" id="text-org0d01845">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/XO0HA6aJo-9Laza1tvs4mw">《你烦公众号广告
 吗？》</a> 从纸媒到新媒体，传播方式的改变使原本用高对比度高饱和度就能吸
@@ -5724,9 +5803,9 @@ ceo 要避免理性的自负》</a> 文章提出了一种新颖的观点-&#x2014
 </ul>
 </div>
 </div>
-<div id="outline-container-orgcca88c3" class="outline-3">
-<h3 id="orgcca88c3">2018-05-04</h3>
-<div class="outline-text-3" id="text-orgcca88c3">
+<div id="outline-container-orgd507905" class="outline-3">
+<h3 id="orgd507905">2018-05-04</h3>
+<div class="outline-text-3" id="text-orgd507905">
 <ul class="org-ul">
 <li><a href="https://zhuanlan.zhihu.com/p/36397449?utm_source=wechat_session&amp;utm_medium=social&amp;from=groupmessage&amp;isappinstalled=0&amp;wechatShare=1#showWechatShareTip">
 《奥数天才坠落之后——在脚踏实地处 付云皓自白书》</a> 《人物》创刊于 1980
@@ -5764,9 +5843,9 @@ ceo 要避免理性的自负》</a> 文章提出了一种新颖的观点-&#x2014
 </ul>
 </div>
 </div>
-<div id="outline-container-org31a2794" class="outline-3">
-<h3 id="org31a2794">2018-05-03</h3>
-<div class="outline-text-3" id="text-org31a2794">
+<div id="outline-container-orgd6f63b5" class="outline-3">
+<h3 id="orgd6f63b5">2018-05-03</h3>
+<div class="outline-text-3" id="text-orgd6f63b5">
 <ul class="org-ul">
 <li><a href="http://m.analysys.cn/report/detail/1001047.html">《中国信息流广告市
 场专题分析 2017》</a> 有人说：它良币驱赶劣币，赶走了部分浏览网页时弹出的
@@ -5806,9 +5885,9 @@ ceo 要避免理性的自负》</a> 文章提出了一种新颖的观点-&#x2014
 </ul>
 </div>
 </div>
-<div id="outline-container-org9b60243" class="outline-3">
-<h3 id="org9b60243">2018-05-02</h3>
-<div class="outline-text-3" id="text-org9b60243">
+<div id="outline-container-org6dd2f7b" class="outline-3">
+<h3 id="org6dd2f7b">2018-05-02</h3>
+<div class="outline-text-3" id="text-org6dd2f7b">
 <ul class="org-ul">
 <li><a href="http://36kr.com/p/5130886.html">《eBay 的救赎之旅：怎样才能重回用户
 视野？》</a> 如果把 ebay 和亚马逊放在中国那，那以第三方卖家为主导的就是
@@ -5849,13 +5928,13 @@ ceo 要避免理性的自负》</a> 文章提出了一种新颖的观点-&#x2014
 </div>
 </div>
 </div>
-<div id="outline-container-orgee611b3" class="outline-2">
-<h2 id="orgee611b3">2018 年 4 月文章</h2>
-<div class="outline-text-2" id="text-orgee611b3">
+<div id="outline-container-orgb9e5c74" class="outline-2">
+<h2 id="orgb9e5c74">2018 年 4 月文章</h2>
+<div class="outline-text-2" id="text-orgb9e5c74">
 </div>
-<div id="outline-container-orgdcf93aa" class="outline-3">
-<h3 id="orgdcf93aa">2018-04-28</h3>
-<div class="outline-text-3" id="text-orgdcf93aa">
+<div id="outline-container-orga8ac2fd" class="outline-3">
+<h3 id="orga8ac2fd">2018-04-28</h3>
+<div class="outline-text-3" id="text-orga8ac2fd">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/jkaZ6ghOJjgFRT_dpL-7IQ">《解剖小米估值过程：真实的瓶颈与虚幻的王冠》</a> 无论是论体量还是论实质贡
 献，以社会主义的眼光来看，小米这样的实业公司都不该比今天头条这样的互联
@@ -5891,9 +5970,9 @@ ceo 要避免理性的自负》</a> 文章提出了一种新颖的观点-&#x2014
 </ul>
 </div>
 </div>
-<div id="outline-container-orge635208" class="outline-3">
-<h3 id="orge635208">2018-04-27</h3>
-<div class="outline-text-3" id="text-orge635208">
+<div id="outline-container-orga2f54f9" class="outline-3">
+<h3 id="orga2f54f9">2018-04-27</h3>
+<div class="outline-text-3" id="text-orga2f54f9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/q2SxLeP6bLBqeEaY4tcEPw">《人民可能不会想念 Google，但我会》</a> 很多中国网民每天都在使用 Google 的
 操作系统 Android，观看字幕组“不远千里”从 google 旗下网站 youtube 带来的
@@ -5931,9 +6010,9 @@ ceo 要避免理性的自负》</a> 文章提出了一种新颖的观点-&#x2014
 </ul>
 </div>
 </div>
-<div id="outline-container-org70e54c7" class="outline-3">
-<h3 id="org70e54c7">2018-04-25</h3>
-<div class="outline-text-3" id="text-org70e54c7">
+<div id="outline-container-orgbc61048" class="outline-3">
+<h3 id="orgbc61048">2018-04-25</h3>
+<div class="outline-text-3" id="text-orgbc61048">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/-wpn0X3D2ki-BvxTmEOUQA">《EW 观察|北美投资者眼中 B 站“Z 世代”用户的价值和风险》</a> Z 世代是美国及
 欧洲的流行用语，意指在 1990 年代中叶至 2000 年后出生的人。他们又被称为
@@ -5971,9 +6050,9 @@ ceo 要避免理性的自负》</a> 文章提出了一种新颖的观点-&#x2014
 </ul>
 </div>
 </div>
-<div id="outline-container-org9dfbda4" class="outline-3">
-<h3 id="org9dfbda4">2018-04-24</h3>
-<div class="outline-text-3" id="text-org9dfbda4">
+<div id="outline-container-org119f0c3" class="outline-3">
+<h3 id="org119f0c3">2018-04-24</h3>
+<div class="outline-text-3" id="text-org119f0c3">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/8Dze2gg0Nyq7gcvxZTIK0A">《别人家的产品经理：她管理着 Facebook 40 人团队，参加过北美中国好声音》</a>
 网络上有很多关于产品经理与程序员的段子，虽说是玩笑，但其中包含着的情绪
@@ -6011,9 +6090,9 @@ ceo 要避免理性的自负》</a> 文章提出了一种新颖的观点-&#x2014
 </ul>
 </div>
 </div>
-<div id="outline-container-orgadd5acf" class="outline-3">
-<h3 id="orgadd5acf">2018-04-23</h3>
-<div class="outline-text-3" id="text-orgadd5acf">
+<div id="outline-container-org5367174" class="outline-3">
+<h3 id="org5367174">2018-04-23</h3>
+<div class="outline-text-3" id="text-org5367174">
 <ul class="org-ul">
 <li><a href="https://36kr.com/p/5120905.html?from=timeline&amp;isappinstalled=0">《采访了 50 个 KOL，36 氪预测了 41 个未来 》</a> 36kr 今年也做了如他
 slogan 一样的事——“让一部分人先看到未来”。也许其中有些内容对你来说已是
@@ -6053,9 +6132,9 @@ slogan 一样的事——“让一部分人先看到未来”。也许其中有�
 </ul>
 </div>
 </div>
-<div id="outline-container-org0cdd4f1" class="outline-3">
-<h3 id="org0cdd4f1">2018-04-22</h3>
-<div class="outline-text-3" id="text-org0cdd4f1">
+<div id="outline-container-org81f7d9d" class="outline-3">
+<h3 id="org81f7d9d">2018-04-22</h3>
+<div class="outline-text-3" id="text-org81f7d9d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/AcMjdlhguDO_zRii2mYppg">《小镇青年手机里的“秘密”生活》</a> 小镇青年的娱乐活动形式较少，且空余时间
 较多。手机里的娱乐占据了其大部分时间。文章以特稿的形式刻画了几位“小镇
@@ -6093,9 +6172,9 @@ slogan 一样的事——“让一部分人先看到未来”。也许其中有�
 </ul>
 </div>
 </div>
-<div id="outline-container-org6c7614e" class="outline-3">
-<h3 id="org6c7614e">2018-04-21</h3>
-<div class="outline-text-3" id="text-org6c7614e">
+<div id="outline-container-org9e0fcab" class="outline-3">
+<h3 id="org9e0fcab">2018-04-21</h3>
+<div class="outline-text-3" id="text-org9e0fcab">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/h7cQCFS0RLWdTzmPRV20bQ">《美国不肯放过中兴：高通成尴尬夹板》</a> 近年来，全球半导体行业整合大潮涌
 动，面对英特尔与新巨头安华的夹击，高通把中国的一家公司当做救命稻草，然
@@ -6131,9 +6210,9 @@ Facebook 是好时机，但挑战亚马逊则不是。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org428d0ec" class="outline-3">
-<h3 id="org428d0ec">2018-04-20</h3>
-<div class="outline-text-3" id="text-org428d0ec">
+<div id="outline-container-orgf08ffda" class="outline-3">
+<h3 id="orgf08ffda">2018-04-20</h3>
+<div class="outline-text-3" id="text-orgf08ffda">
 <ul class="org-ul">
 <li><a href="https://news.caijingmobile.com/article/detail/357223?source_id=40">《李彦宏领兵百度信息流内幕》</a> 扎克伯格在 2006 年提出 feed 的概念，Feed
 中文是“信息流”，意思是借助算法改变原有信息排列方式，强调“千人千面”和
@@ -6171,9 +6250,9 @@ Facebook 是好时机，但挑战亚马逊则不是。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org1fb9930" class="outline-3">
-<h3 id="org1fb9930">2018-04-19</h3>
-<div class="outline-text-3" id="text-org1fb9930">
+<div id="outline-container-org4e56025" class="outline-3">
+<h3 id="org4e56025">2018-04-19</h3>
+<div class="outline-text-3" id="text-org4e56025">
 <ul class="org-ul">
 <li><a href="http://mp.weixin.qq.com/s/DYI65y8yPK74BFYibFYlJw">《微信已经老了，头条永远年轻》</a> 卫夕昨天的文章将 60 年代的张小龙与 80
 年代的张一鸣做了个对比，而今天这篇文章将为你解释，年月的代沟是如何通过
@@ -6210,9 +6289,9 @@ ai 会生出类似高级动物的感情？ai 有着统治奴役人类的可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb04ca79" class="outline-3">
-<h3 id="orgb04ca79">2018-04-18</h3>
-<div class="outline-text-3" id="text-orgb04ca79">
+<div id="outline-container-org3e30eea" class="outline-3">
+<h3 id="org3e30eea">2018-04-18</h3>
+<div class="outline-text-3" id="text-org3e30eea">
 <ul class="org-ul">
 <li><a href="http://mp.weixin.qq.com/s/Y8_Vi3PEceMYBYscUOlrIw">《李叫兽沉浮录：百度信息流价值亿元的失败尝试》</a> 今日 17 时，李叫兽李靖
 在朋友圈发布消息，辞去百度职务。两年前百度亿元收购李叫兽公司，李叫兽带
@@ -6250,9 +6329,9 @@ ai 会生出类似高级动物的感情？ai 有着统治奴役人类的可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-org52c7694" class="outline-3">
-<h3 id="org52c7694">2018-04-17</h3>
-<div class="outline-text-3" id="text-org52c7694">
+<div id="outline-container-org8878a70" class="outline-3">
+<h3 id="org8878a70">2018-04-17</h3>
+<div class="outline-text-3" id="text-org8878a70">
 <ul class="org-ul">
 <li><a href="https://36kr.com/p/5129217.html?from=groupmessage">《中国人到底有多少钱？这是“消费降级”背后的逻辑》</a> 网易在几年前嗅到风头，
 推出“网易严选”主卖价格略低的无品牌高质量产品。却未能到中国人的“消费降
@@ -6288,9 +6367,9 @@ ai 会生出类似高级动物的感情？ai 有着统治奴役人类的可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-org774d096" class="outline-3">
-<h3 id="org774d096">2018-04-16</h3>
-<div class="outline-text-3" id="text-org774d096">
+<div id="outline-container-org3339e8a" class="outline-3">
+<h3 id="org3339e8a">2018-04-16</h3>
+<div class="outline-text-3" id="text-org3339e8a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/spWWeXJfELtLBUKP7gy40w">《大数据，你硬要嫁给广告吗？》</a> 大数据营销生活中最常见的就是淘宝，比如
 我在淘宝搜索过一次衬衫，我就被淘宝贴上了“要买衬衫”的标签，淘宝会连续一
@@ -6326,9 +6405,9 @@ ai 会生出类似高级动物的感情？ai 有着统治奴役人类的可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-org26cf9ed" class="outline-3">
-<h3 id="org26cf9ed">2018-04-15</h3>
-<div class="outline-text-3" id="text-org26cf9ed">
+<div id="outline-container-orgc31f916" class="outline-3">
+<h3 id="orgc31f916">2018-04-15</h3>
+<div class="outline-text-3" id="text-orgc31f916">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NAEgzEJCbkqv_307Xx6pNg">《张小龙如何建立起微信这个庞大的商业帝国？》</a> 张小龙说过一句大家耳熟能
 详的话：“微信对产品的定位就是用完即走”，但很多人还不知道这句话还有下一
@@ -6363,9 +6442,9 @@ ai 会生出类似高级动物的感情？ai 有着统治奴役人类的可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-org37f67fc" class="outline-3">
-<h3 id="org37f67fc">2018-04-14</h3>
-<div class="outline-text-3" id="text-org37f67fc">
+<div id="outline-container-org7d1f904" class="outline-3">
+<h3 id="org7d1f904">2018-04-14</h3>
+<div class="outline-text-3" id="text-org7d1f904">
 <ul class="org-ul">
 <li><a href="http://card.weibo.com/article/h5/s#cid=1001603916490532339548&amp;vid=0&amp;extparam=&amp;from=1084195010&amp;wm=2468_1001&amp;ip=222.201.167.236">《你为什么要努力 by 韩路》</a> 在职场中待久了，任务接连不断，压力高居不降，
 总会有想懈怠的时刻。今日推的这篇或许有点鸡汤，但有些事，你尝试了不一定
@@ -6405,9 +6484,9 @@ ai 会生出类似高级动物的感情？ai 有着统治奴役人类的可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-org6b5ba7a" class="outline-3">
-<h3 id="org6b5ba7a">2018-04-13</h3>
-<div class="outline-text-3" id="text-org6b5ba7a">
+<div id="outline-container-orge9cce4b" class="outline-3">
+<h3 id="orge9cce4b">2018-04-13</h3>
+<div class="outline-text-3" id="text-orge9cce4b">
 <ul class="org-ul">
 <li><a href="http://mp.weixin.qq.com/s/3_L-JRHghHVxeiF8zGOSFw">《算法是怎么让你上瘾的》</a> 近期关于算法的讨论趋于白热化，为什么以算法驱
 动的产品会让你上瘾，会让你沉迷其中？人类多数成瘾与多巴胺有关，文章就说
@@ -6448,9 +6527,9 @@ ai 会生出类似高级动物的感情？ai 有着统治奴役人类的可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc0cb6d3" class="outline-3">
-<h3 id="orgc0cb6d3">2018-04-12</h3>
-<div class="outline-text-3" id="text-orgc0cb6d3">
+<div id="outline-container-orgf99fe4a" class="outline-3">
+<h3 id="orgf99fe4a">2018-04-12</h3>
+<div class="outline-text-3" id="text-orgf99fe4a">
 <ul class="org-ul">
 <li><a href="https://m.huxiu.com/article/239470.html">《趣头条，还成不了资讯界的“拼多多”》</a> 知乎上关于“趣头条能赚钱吗”的提问
 已有 36 万浏览量，凭借看新闻赚钱这一噱头，以及师徒系统的引入。趣头条，
@@ -6489,9 +6568,9 @@ facebook 深陷数据泄露丑闻。据 CNBC 网站北京时间 4 月 12 日报�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf0d9eb3" class="outline-3">
-<h3 id="orgf0d9eb3">2018-04-11</h3>
-<div class="outline-text-3" id="text-orgf0d9eb3">
+<div id="outline-container-org73bb44b" class="outline-3">
+<h3 id="org73bb44b">2018-04-11</h3>
+<div class="outline-text-3" id="text-org73bb44b">
 <ul class="org-ul">
 <li><a href="http://36kr.com/p/5082550.html">《最后的角力：媒体的崩坏和重塑 | 36 氪深度》</a> 网易新闻曾被称为新闻 app
 里的清流，尽管每天只更新 300 余篇，但其高质量的新闻报道获得了无数好评。
@@ -6530,9 +6609,9 @@ Pornhub 正在看着你。做色情业的同时，pornhub 还扮演了“数据�
 </ul>
 </div>
 </div>
-<div id="outline-container-org08e5d3d" class="outline-3">
-<h3 id="org08e5d3d">2018-04-10</h3>
-<div class="outline-text-3" id="text-org08e5d3d">
+<div id="outline-container-org7f6951e" class="outline-3">
+<h3 id="org7f6951e">2018-04-10</h3>
+<div class="outline-text-3" id="text-org7f6951e">
 <ul class="org-ul">
 <li><a href="http://mp.weixin.qq.com/s/2XGwmsfCRsZlfUGqm_ptyQ">《最近几起互联网大事背后的底层逻辑》</a> 近几个月，今日头条横向吞并抖音，
 小火山视;携程，美团，高德进军网约车市场;摩拜单车委身美团财团。短短数月，
@@ -6569,9 +6648,9 @@ Pornhub 正在看着你。做色情业的同时，pornhub 还扮演了“数据�
 </ul>
 </div>
 </div>
-<div id="outline-container-org270a994" class="outline-3">
-<h3 id="org270a994">2018-04-09</h3>
-<div class="outline-text-3" id="text-org270a994">
+<div id="outline-container-orgb68fa75" class="outline-3">
+<h3 id="orgb68fa75">2018-04-09</h3>
+<div class="outline-text-3" id="text-orgb68fa75">
 <ul class="org-ul">
 <li><a href="http://mp.weixin.qq.com/s/3cFetvxl9tiwI9rQf05GXA">《消费升级不是卖得更贵，新零售没风口》</a> 前不久京东宣布未来五年在全国要
 开设超过一百万家京东便利店。那它为什么去开便利店，而没有只卖它自己的
@@ -6609,9 +6688,9 @@ Pornhub 正在看着你。做色情业的同时，pornhub 还扮演了“数据�
 </ul>
 </div>
 </div>
-<div id="outline-container-org1cec9af" class="outline-3">
-<h3 id="org1cec9af">2018-04-08</h3>
-<div class="outline-text-3" id="text-org1cec9af">
+<div id="outline-container-org5eedfc9" class="outline-3">
+<h3 id="org5eedfc9">2018-04-08</h3>
+<div class="outline-text-3" id="text-org5eedfc9">
 <ul class="org-ul">
 <li><a href="http://mp.weixin.qq.com/s/yjZ-M207ThJWib3jKLbBOw">《咪蒙首次公开谈爆款方法论：我们的感觉 90%是错的，用户洞察不能靠猜》</a>
 “我觉得所有的好文章都是用户需求和自我表达之间的交集”咪蒙被广泛吐槽的一
@@ -6656,9 +6735,9 @@ Pornhub 正在看着你。做色情业的同时，pornhub 还扮演了“数据�
 </ul>
 </div>
 </div>
-<div id="outline-container-org55d0204" class="outline-3">
-<h3 id="org55d0204">2018-04-07</h3>
-<div class="outline-text-3" id="text-org55d0204">
+<div id="outline-container-orgc9e496c" class="outline-3">
+<h3 id="orgc9e496c">2018-04-07</h3>
+<div class="outline-text-3" id="text-orgc9e496c">
 <ul class="org-ul">
 <li><a href="https://www.huxiu.com/article/236131.html">《我，一个女生，研究了一下色情网站 X-Art 和 Pornhub》</a> Pornhub 和 X-art
 是色情网站的两个最为重要的符号，支持你上网看视频、网购剁手的相关技术都
@@ -6709,949 +6788,949 @@ GAFA，这篇文章通过翔实的分析告诉你我们的生活如何被科技�
         <div class="col-md-2"></div>
             <h1>读书记录</h1>
             
-<div id="outline-container-orgbde26aa" class="outline-2">
-<h2 id="orgbde26aa">2018 年读过的书<code>[12/12]</code></h2>
-<div class="outline-text-2" id="text-orgbde26aa">
+<div id="outline-container-orgaa78694" class="outline-2">
+<h2 id="orgaa78694">2018 年读过的书<code>[12/12]</code></h2>
+<div class="outline-text-2" id="text-orgaa78694">
 </div>
-<div id="outline-container-org889915e" class="outline-3">
-<h3 id="org889915e">十一月 <code>[3/3]</code></h3>
-<div class="outline-text-3" id="text-org889915e">
+<div id="outline-container-org0b6834d" class="outline-3">
+<h3 id="org0b6834d">十一月 <code>[3/3]</code></h3>
+<div class="outline-text-3" id="text-org0b6834d">
 </div>
-<div id="outline-container-orga1e9426" class="outline-4">
-<h4 id="orga1e9426"><span class="done DONE">DONE</span> 克里斯托弗·G.布林顿: <a href="https://book.douban.com/subject/30004536/">网络的力量</a></h4>
+<div id="outline-container-orgdd72300" class="outline-4">
+<h4 id="orgdd72300"><span class="done DONE">DONE</span> 克里斯托弗·G.布林顿: <a href="https://book.douban.com/subject/30004536/">网络的力量</a></h4>
 </div>
-<div id="outline-container-org99edd97" class="outline-4">
-<h4 id="org99edd97"><span class="done DONE">DONE</span> 曾鸣: <a href="https://book.douban.com/subject/30357931/">智能商业</a></h4>
+<div id="outline-container-org72e5643" class="outline-4">
+<h4 id="org72e5643"><span class="done DONE">DONE</span> 曾鸣: <a href="https://book.douban.com/subject/30357931/">智能商业</a></h4>
 </div>
-<div id="outline-container-org525df6a" class="outline-4">
-<h4 id="org525df6a"><span class="done DONE">DONE</span> 王坚: <a href="https://book.douban.com/subject/26885117/">在线</a></h4>
-</div>
-</div>
-<div id="outline-container-orgc6bf1ce" class="outline-3">
-<h3 id="orgc6bf1ce">十月 <code>[7/7]</code></h3>
-<div class="outline-text-3" id="text-orgc6bf1ce">
-</div>
-<div id="outline-container-org7d7a8aa" class="outline-4">
-<h4 id="org7d7a8aa"><span class="done DONE">DONE</span> 史钧: <a href="https://book.douban.com/subject/26785959/">疯狂人类进化史</a></h4>
-</div>
-<div id="outline-container-org888780e" class="outline-4">
-<h4 id="org888780e"><span class="done DONE">DONE</span> H.G.威尔斯: <a href="https://book.douban.com/subject/27048194/">盲人国</a></h4>
-</div>
-<div id="outline-container-orge9aab58" class="outline-4">
-<h4 id="orge9aab58"><span class="done DONE">DONE</span> 知识一小时: <a href="https://www.zhihu.com/pub/book/119554684">OKR 实践指南</a></h4>
-</div>
-<div id="outline-container-org4070dc1" class="outline-4">
-<h4 id="org4070dc1"><span class="done DONE">DONE</span> Marvin Minsky: <a href="https://book.douban.com/subject/26919830/">心智社会</a></h4>
-</div>
-<div id="outline-container-orge768bbb" class="outline-4">
-<h4 id="orge768bbb"><span class="done DONE">DONE</span> 戴维·温伯格: <a href="https://book.douban.com/subject/26279954/">知识的边界</a></h4>
-</div>
-<div id="outline-container-org3300166" class="outline-4">
-<h4 id="org3300166"><span class="done DONE">DONE</span> 李立: <a href="https://book.douban.com/subject/27205096/">腾讯产品法</a></h4>
-</div>
-<div id="outline-container-org2320904" class="outline-4">
-<h4 id="org2320904"><span class="done DONE">DONE</span> 恩斯特.冯.格拉塞斯费尔德: <a href="https://book.douban.com/subject/27666709/">激进建构主义</a></h4>
+<div id="outline-container-orgc4fda5e" class="outline-4">
+<h4 id="orgc4fda5e"><span class="done DONE">DONE</span> 王坚: <a href="https://book.douban.com/subject/26885117/">在线</a></h4>
 </div>
 </div>
-<div id="outline-container-orgb1f57b8" class="outline-3">
-<h3 id="orgb1f57b8">一月 <code>[2/2]</code></h3>
-<div class="outline-text-3" id="text-orgb1f57b8">
+<div id="outline-container-org14e8b05" class="outline-3">
+<h3 id="org14e8b05">十月 <code>[7/7]</code></h3>
+<div class="outline-text-3" id="text-org14e8b05">
 </div>
-<div id="outline-container-org7b29f0c" class="outline-4">
-<h4 id="org7b29f0c"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/25883177/">辛鹏: 流程的永恒之道</a></h4>
+<div id="outline-container-org8e3a68a" class="outline-4">
+<h4 id="org8e3a68a"><span class="done DONE">DONE</span> 史钧: <a href="https://book.douban.com/subject/26785959/">疯狂人类进化史</a></h4>
 </div>
-<div id="outline-container-org4fd3fdf" class="outline-4">
-<h4 id="org4fd3fdf"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/27016248/">NTT DATA: 图解物联网</a></h4>
+<div id="outline-container-org6bac455" class="outline-4">
+<h4 id="org6bac455"><span class="done DONE">DONE</span> H.G.威尔斯: <a href="https://book.douban.com/subject/27048194/">盲人国</a></h4>
+</div>
+<div id="outline-container-org4d0dae7" class="outline-4">
+<h4 id="org4d0dae7"><span class="done DONE">DONE</span> 知识一小时: <a href="https://www.zhihu.com/pub/book/119554684">OKR 实践指南</a></h4>
+</div>
+<div id="outline-container-org38ff428" class="outline-4">
+<h4 id="org38ff428"><span class="done DONE">DONE</span> Marvin Minsky: <a href="https://book.douban.com/subject/26919830/">心智社会</a></h4>
+</div>
+<div id="outline-container-org022e25f" class="outline-4">
+<h4 id="org022e25f"><span class="done DONE">DONE</span> 戴维·温伯格: <a href="https://book.douban.com/subject/26279954/">知识的边界</a></h4>
+</div>
+<div id="outline-container-org38d4def" class="outline-4">
+<h4 id="org38d4def"><span class="done DONE">DONE</span> 李立: <a href="https://book.douban.com/subject/27205096/">腾讯产品法</a></h4>
+</div>
+<div id="outline-container-org8efcdde" class="outline-4">
+<h4 id="org8efcdde"><span class="done DONE">DONE</span> 恩斯特.冯.格拉塞斯费尔德: <a href="https://book.douban.com/subject/27666709/">激进建构主义</a></h4>
+</div>
+</div>
+<div id="outline-container-org42ce373" class="outline-3">
+<h3 id="org42ce373">一月 <code>[2/2]</code></h3>
+<div class="outline-text-3" id="text-org42ce373">
+</div>
+<div id="outline-container-orgda1c1f2" class="outline-4">
+<h4 id="orgda1c1f2"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/25883177/">辛鹏: 流程的永恒之道</a></h4>
+</div>
+<div id="outline-container-org2a126fa" class="outline-4">
+<h4 id="org2a126fa"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/27016248/">NTT DATA: 图解物联网</a></h4>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org461b3f9" class="outline-2">
-<h2 id="org461b3f9">2017 年读过的书<code>[16/16]</code></h2>
-<div class="outline-text-2" id="text-org461b3f9">
+<div id="outline-container-org48800a3" class="outline-2">
+<h2 id="org48800a3">2017 年读过的书<code>[16/16]</code></h2>
+<div class="outline-text-2" id="text-org48800a3">
 </div>
-<div id="outline-container-orgc8b5ecd" class="outline-3">
-<h3 id="orgc8b5ecd">一月<code>[8/8]</code></h3>
-<div class="outline-text-3" id="text-orgc8b5ecd">
+<div id="outline-container-org5049358" class="outline-3">
+<h3 id="org5049358">一月<code>[8/8]</code></h3>
+<div class="outline-text-3" id="text-org5049358">
 </div>
-<div id="outline-container-org1130392" class="outline-4">
-<h4 id="org1130392"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26917339/">Chris Zook: 创始人精神</a></h4>
+<div id="outline-container-orgc80ece8" class="outline-4">
+<h4 id="orgc80ece8"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26917339/">Chris Zook: 创始人精神</a></h4>
 </div>
-<div id="outline-container-orgfd1c61a" class="outline-4">
-<h4 id="orgfd1c61a"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26928395/">李少加: 进化式运营</a></h4>
+<div id="outline-container-org57160bb" class="outline-4">
+<h4 id="org57160bb"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26928395/">李少加: 进化式运营</a></h4>
 </div>
-<div id="outline-container-org0f62138" class="outline-4">
-<h4 id="org0f62138"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26582569/">黄海林: 转化率</a></h4>
+<div id="outline-container-orgf0ad921" class="outline-4">
+<h4 id="orgf0ad921"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26582569/">黄海林: 转化率</a></h4>
 </div>
-<div id="outline-container-orgfdc714e" class="outline-4">
-<h4 id="orgfdc714e"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26936065/">孙圈圈: 请停止无效努力</a></h4>
+<div id="outline-container-orgee6102b" class="outline-4">
+<h4 id="orgee6102b"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26936065/">孙圈圈: 请停止无效努力</a></h4>
 </div>
-<div id="outline-container-org912494c" class="outline-4">
-<h4 id="org912494c"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26832523/">永田丰志: 超实用思考术</a></h4>
+<div id="outline-container-org04b705e" class="outline-4">
+<h4 id="org04b705e"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26832523/">永田丰志: 超实用思考术</a></h4>
 </div>
-<div id="outline-container-org72bde3a" class="outline-4">
-<h4 id="org72bde3a"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26865230/">刘焯琛: 一个 APP 的诞生</a></h4>
+<div id="outline-container-orgabc9e8a" class="outline-4">
+<h4 id="orgabc9e8a"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26865230/">刘焯琛: 一个 APP 的诞生</a></h4>
 </div>
-<div id="outline-container-org2042d7c" class="outline-4">
-<h4 id="org2042d7c"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26927349/">刘飞: 从点子到产品</a></h4>
+<div id="outline-container-org107d61e" class="outline-4">
+<h4 id="org107d61e"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26927349/">刘飞: 从点子到产品</a></h4>
 </div>
-<div id="outline-container-orgfeebf55" class="outline-4">
-<h4 id="orgfeebf55"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26921847/">金根培: 重新定义产品</a></h4>
+<div id="outline-container-org7fe1bd9" class="outline-4">
+<h4 id="org7fe1bd9"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26921847/">金根培: 重新定义产品</a></h4>
 </div>
 </div>
-<div id="outline-container-org39bdb30" class="outline-3">
-<h3 id="org39bdb30">二月<code>[6/6]</code></h3>
-<div class="outline-text-3" id="text-org39bdb30">
+<div id="outline-container-orga1d23cd" class="outline-3">
+<h3 id="orga1d23cd">二月<code>[6/6]</code></h3>
+<div class="outline-text-3" id="text-orga1d23cd">
 </div>
-<div id="outline-container-org6ae610f" class="outline-4">
-<h4 id="org6ae610f"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26436490/">欧内斯特. 诺灵: 透视如此简单</a></h4>
+<div id="outline-container-org4793025" class="outline-4">
+<h4 id="org4793025"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26436490/">欧内斯特. 诺灵: 透视如此简单</a></h4>
 </div>
-<div id="outline-container-orgbb25351" class="outline-4">
-<h4 id="orgbb25351"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26253748/">张智皓: 哲学了没?</a></h4>
+<div id="outline-container-org285eb7a" class="outline-4">
+<h4 id="org285eb7a"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26253748/">张智皓: 哲学了没?</a></h4>
 </div>
-<div id="outline-container-org4988a2a" class="outline-4">
-<h4 id="org4988a2a"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26943161/">尤瓦尔.赫拉利: 未来简史</a></h4>
+<div id="outline-container-org89e7779" class="outline-4">
+<h4 id="org89e7779"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26943161/">尤瓦尔.赫拉利: 未来简史</a></h4>
 </div>
-<div id="outline-container-org30b0904" class="outline-4">
-<h4 id="org30b0904"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26895993/">Anders Ericsson: 刻意练习</a></h4>
+<div id="outline-container-org5a61507" class="outline-4">
+<h4 id="org5a61507"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26895993/">Anders Ericsson: 刻意练习</a></h4>
 </div>
-<div id="outline-container-org295afdf" class="outline-4">
-<h4 id="org295afdf"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26760348/">Jeff Patton: 用户故事地图</a></h4>
+<div id="outline-container-org20ca673" class="outline-4">
+<h4 id="org20ca673"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26760348/">Jeff Patton: 用户故事地图</a></h4>
 </div>
-<div id="outline-container-org5e28967" class="outline-4">
-<h4 id="org5e28967"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26809374/">Peter Morville: 信息架构</a></h4>
+<div id="outline-container-org40f8ef6" class="outline-4">
+<h4 id="org40f8ef6"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26809374/">Peter Morville: 信息架构</a></h4>
 </div>
 </div>
-<div id="outline-container-org8e36744" class="outline-3">
-<h3 id="org8e36744">三月<code>[1/1]</code></h3>
-<div class="outline-text-3" id="text-org8e36744">
+<div id="outline-container-org72f2e77" class="outline-3">
+<h3 id="org72f2e77">三月<code>[1/1]</code></h3>
+<div class="outline-text-3" id="text-org72f2e77">
 </div>
-<div id="outline-container-org5453686" class="outline-4">
-<h4 id="org5453686"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26178426/">塞德希尔: 稀缺</a></h4>
+<div id="outline-container-orgfcf7197" class="outline-4">
+<h4 id="orgfcf7197"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26178426/">塞德希尔: 稀缺</a></h4>
 </div>
 </div>
-<div id="outline-container-org29ac1be" class="outline-3">
-<h3 id="org29ac1be">四月<code>[1/1]</code></h3>
-<div class="outline-text-3" id="text-org29ac1be">
+<div id="outline-container-org9d45214" class="outline-3">
+<h3 id="org9d45214">四月<code>[1/1]</code></h3>
+<div class="outline-text-3" id="text-org9d45214">
 </div>
-<div id="outline-container-orgc5d0d59" class="outline-4">
-<h4 id="orgc5d0d59"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26947799/">Golden Krishna: 无界面交互</a></h4>
+<div id="outline-container-org56ca689" class="outline-4">
+<h4 id="org56ca689"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26947799/">Golden Krishna: 无界面交互</a></h4>
 </div>
 </div>
 </div>
-<div id="outline-container-org7d0b928" class="outline-2">
-<h2 id="org7d0b928">2016 年读过的书<code>[65/65]</code></h2>
-<div class="outline-text-2" id="text-org7d0b928">
+<div id="outline-container-org58fa1cd" class="outline-2">
+<h2 id="org58fa1cd">2016 年读过的书<code>[65/65]</code></h2>
+<div class="outline-text-2" id="text-org58fa1cd">
 </div>
-<div id="outline-container-org4c83f89" class="outline-3">
-<h3 id="org4c83f89">一月<code>[7/7]</code></h3>
-<div class="outline-text-3" id="text-org4c83f89">
+<div id="outline-container-org38f8103" class="outline-3">
+<h3 id="org38f8103">一月<code>[7/7]</code></h3>
+<div class="outline-text-3" id="text-org38f8103">
 </div>
-<div id="outline-container-org0c4bc36" class="outline-4">
-<h4 id="org0c4bc36"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26598389/">凯文·阿什顿: 创造</a></h4>
+<div id="outline-container-org8d75a9c" class="outline-4">
+<h4 id="org8d75a9c"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26598389/">凯文·阿什顿: 创造</a></h4>
 </div>
-<div id="outline-container-org4a28a70" class="outline-4">
-<h4 id="org4a28a70"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26384277/">熊逸: 道可道</a></h4>
+<div id="outline-container-orge40df39" class="outline-4">
+<h4 id="orge40df39"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26384277/">熊逸: 道可道</a></h4>
 </div>
-<div id="outline-container-orgc51f144" class="outline-4">
-<h4 id="orgc51f144"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26385545/">熊逸: 逍遥游</a></h4>
+<div id="outline-container-orge3f3b47" class="outline-4">
+<h4 id="orge3f3b47"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26385545/">熊逸: 逍遥游</a></h4>
 </div>
-<div id="outline-container-org4e4a495" class="outline-4">
-<h4 id="org4e4a495"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26388004/">熊逸: 思辨的禅趣</a></h4>
+<div id="outline-container-orgda632b2" class="outline-4">
+<h4 id="orgda632b2"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26388004/">熊逸: 思辨的禅趣</a></h4>
 </div>
-<div id="outline-container-orgc7d9d45" class="outline-4">
-<h4 id="orgc7d9d45"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26694601/">迈克尔·怀特: 牛顿传</a></h4>
+<div id="outline-container-orgb12a485" class="outline-4">
+<h4 id="orgb12a485"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26694601/">迈克尔·怀特: 牛顿传</a></h4>
 </div>
-<div id="outline-container-orgf307978" class="outline-4">
-<h4 id="orgf307978"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26535520/">爱德华·多尼克: 机械守宙</a></h4>
+<div id="outline-container-org9ef70eb" class="outline-4">
+<h4 id="org9ef70eb"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26535520/">爱德华·多尼克: 机械守宙</a></h4>
 </div>
-<div id="outline-container-org1e7dc68" class="outline-4">
-<h4 id="org1e7dc68"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26593084/">马克: 迷人的材料</a></h4>
+<div id="outline-container-orgda328d3" class="outline-4">
+<h4 id="orgda328d3"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26593084/">马克: 迷人的材料</a></h4>
 </div>
 </div>
-<div id="outline-container-orga3ea1ac" class="outline-3">
-<h3 id="orga3ea1ac">二月<code>[3/3]</code></h3>
-<div class="outline-text-3" id="text-orga3ea1ac">
+<div id="outline-container-org8cbc57c" class="outline-3">
+<h3 id="org8cbc57c">二月<code>[3/3]</code></h3>
+<div class="outline-text-3" id="text-org8cbc57c">
 </div>
-<div id="outline-container-orgf1b1977" class="outline-4">
-<h4 id="orgf1b1977"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/2327354/">张明仁: 古今名人读书法</a></h4>
+<div id="outline-container-org41b32ed" class="outline-4">
+<h4 id="org41b32ed"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/2327354/">张明仁: 古今名人读书法</a></h4>
 </div>
-<div id="outline-container-orga9eb768" class="outline-4">
-<h4 id="orga9eb768"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26586495/">熊逸: 隐公元年</a></h4>
+<div id="outline-container-orgb0b605e" class="outline-4">
+<h4 id="orgb0b605e"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26586495/">熊逸: 隐公元年</a></h4>
 </div>
-<div id="outline-container-org0ffad14" class="outline-4">
-<h4 id="org0ffad14"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25755879/">黄慧敏: 最简单的图形与最复杂的信息</a></h4>
+<div id="outline-container-org7856066" class="outline-4">
+<h4 id="org7856066"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25755879/">黄慧敏: 最简单的图形与最复杂的信息</a></h4>
 </div>
 </div>
-<div id="outline-container-orgac7c678" class="outline-3">
-<h3 id="orgac7c678">三月<code>[4/4]</code></h3>
-<div class="outline-text-3" id="text-orgac7c678">
+<div id="outline-container-org2d098cf" class="outline-3">
+<h3 id="org2d098cf">三月<code>[4/4]</code></h3>
+<div class="outline-text-3" id="text-org2d098cf">
 </div>
-<div id="outline-container-org72b47c4" class="outline-4">
-<h4 id="org72b47c4"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26656350/">凯萨: 增长的本质</a></h4>
+<div id="outline-container-orgf3eed71" class="outline-4">
+<h4 id="orgf3eed71"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26656350/">凯萨: 增长的本质</a></h4>
 </div>
-<div id="outline-container-org34a7864" class="outline-4">
-<h4 id="org34a7864"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26698020/">William Nickels: 认识商业</a></h4>
+<div id="outline-container-org72479ba" class="outline-4">
+<h4 id="org72479ba"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26698020/">William Nickels: 认识商业</a></h4>
 </div>
-<div id="outline-container-org56d8f43" class="outline-4">
-<h4 id="org56d8f43"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3773007/">陈魁: PPT 演义</a></h4>
+<div id="outline-container-org50affd4" class="outline-4">
+<h4 id="org50affd4"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3773007/">陈魁: PPT 演义</a></h4>
 </div>
-<div id="outline-container-org569240b" class="outline-4">
-<h4 id="org569240b"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26392294/">Warren Berger: 绝佳提问</a></h4>
+<div id="outline-container-orgd33d6a7" class="outline-4">
+<h4 id="orgd33d6a7"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26392294/">Warren Berger: 绝佳提问</a></h4>
 </div>
 </div>
-<div id="outline-container-orgfd25eae" class="outline-3">
-<h3 id="orgfd25eae">四月<code>[6/6]</code></h3>
-<div class="outline-text-3" id="text-orgfd25eae">
+<div id="outline-container-org3ee7ace" class="outline-3">
+<h3 id="org3ee7ace">四月<code>[6/6]</code></h3>
+<div class="outline-text-3" id="text-org3ee7ace">
 </div>
-<div id="outline-container-org04718c2" class="outline-4">
-<h4 id="org04718c2"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/25957239/">伯特 多德森: 素描的诀窍</a></h4>
+<div id="outline-container-org97b399f" class="outline-4">
+<h4 id="org97b399f"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/25957239/">伯特 多德森: 素描的诀窍</a></h4>
 </div>
-<div id="outline-container-org19a235d" class="outline-4">
-<h4 id="org19a235d"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26697350/">Christophe: 极简宇宙史</a></h4>
+<div id="outline-container-orgba00722" class="outline-4">
+<h4 id="orgba00722"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26697350/">Christophe: 极简宇宙史</a></h4>
 </div>
-<div id="outline-container-org23f95b2" class="outline-4">
-<h4 id="org23f95b2"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26392337/">尼尔: 与神对话</a></h4>
+<div id="outline-container-org8dccdd6" class="outline-4">
+<h4 id="org8dccdd6"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26392337/">尼尔: 与神对话</a></h4>
 </div>
-<div id="outline-container-orge69c2f0" class="outline-4">
-<h4 id="orge69c2f0"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26776174/">毕然: 大数据分析的道与术</a></h4>
+<div id="outline-container-orgbe14e0b" class="outline-4">
+<h4 id="orgbe14e0b"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26776174/">毕然: 大数据分析的道与术</a></h4>
 </div>
-<div id="outline-container-org820f576" class="outline-4">
-<h4 id="org820f576"><span class="done DONE">DONE</span> <a href="https://read.douban.com/ebook/17813092/?dcs=book-search">知乎一小时: 股权是什么</a></h4>
+<div id="outline-container-org28b69a8" class="outline-4">
+<h4 id="org28b69a8"><span class="done DONE">DONE</span> <a href="https://read.douban.com/ebook/17813092/?dcs=book-search">知乎一小时: 股权是什么</a></h4>
 </div>
-<div id="outline-container-org3fe869d" class="outline-4">
-<h4 id="org3fe869d"><span class="done DONE">DONE</span> <a href="https://read.douban.com/ebook/20181458/">知乎一小时: 财务演绎法</a></h4>
+<div id="outline-container-orgec26523" class="outline-4">
+<h4 id="orgec26523"><span class="done DONE">DONE</span> <a href="https://read.douban.com/ebook/20181458/">知乎一小时: 财务演绎法</a></h4>
 </div>
 </div>
-<div id="outline-container-orgf11f771" class="outline-3">
-<h3 id="orgf11f771">五月<code>[5/5]</code></h3>
-<div class="outline-text-3" id="text-orgf11f771">
+<div id="outline-container-org2f4eefc" class="outline-3">
+<h3 id="org2f4eefc">五月<code>[5/5]</code></h3>
+<div class="outline-text-3" id="text-org2f4eefc">
 </div>
-<div id="outline-container-org3c8da54" class="outline-4">
-<h4 id="org3c8da54"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/25881102/">布鲁诺: 独裁者手册</a></h4>
+<div id="outline-container-orgca747fa" class="outline-4">
+<h4 id="orgca747fa"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/25881102/">布鲁诺: 独裁者手册</a></h4>
 </div>
-<div id="outline-container-orgf0e9f86" class="outline-4">
-<h4 id="orgf0e9f86"><span class="done DONE">DONE</span> <a href="https://blog.alphacamp.co/2015/09/21/gamification-framework-octalysis-1/">周郁凯: 游戏化实战</a></h4>
+<div id="outline-container-org0b381ea" class="outline-4">
+<h4 id="org0b381ea"><span class="done DONE">DONE</span> <a href="https://blog.alphacamp.co/2015/09/21/gamification-framework-octalysis-1/">周郁凯: 游戏化实战</a></h4>
 </div>
-<div id="outline-container-org9b8b19e" class="outline-4">
-<h4 id="org9b8b19e"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26655980/">张宏杰: 顽疾</a></h4>
+<div id="outline-container-orgd8f8760" class="outline-4">
+<h4 id="orgd8f8760"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26655980/">张宏杰: 顽疾</a></h4>
 </div>
-<div id="outline-container-org1a95943" class="outline-4">
-<h4 id="org1a95943"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26761859/">格雷戈: 精要主义</a></h4>
+<div id="outline-container-org43161f0" class="outline-4">
+<h4 id="org43161f0"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26761859/">格雷戈: 精要主义</a></h4>
 </div>
-<div id="outline-container-org83ea510" class="outline-4">
-<h4 id="org83ea510"><span class="done DONE">DONE</span> <a href="https://read.douban.com/ebook/405202/?icn=from-reader-page">东野圭吾: 嫌疑人 X 的献身</a></h4>
+<div id="outline-container-org5273789" class="outline-4">
+<h4 id="org5273789"><span class="done DONE">DONE</span> <a href="https://read.douban.com/ebook/405202/?icn=from-reader-page">东野圭吾: 嫌疑人 X 的献身</a></h4>
 </div>
 </div>
-<div id="outline-container-orgfb68ecc" class="outline-3">
-<h3 id="orgfb68ecc">六月<code>[6/6]</code></h3>
-<div class="outline-text-3" id="text-orgfb68ecc">
+<div id="outline-container-orgb6a12eb" class="outline-3">
+<h3 id="orgb6a12eb">六月<code>[6/6]</code></h3>
+<div class="outline-text-3" id="text-orgb6a12eb">
 </div>
-<div id="outline-container-orga1eed95" class="outline-4">
-<h4 id="orga1eed95"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26753478/">阿莫萨维: 神逻辑&#x2013;不讲道理的人怎么总有理</a></h4>
-<div class="outline-text-4" id="text-orga1eed95">
+<div id="outline-container-org04a0304" class="outline-4">
+<h4 id="org04a0304"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26753478/">阿莫萨维: 神逻辑&#x2013;不讲道理的人怎么总有理</a></h4>
+<div class="outline-text-4" id="text-org04a0304">
 </div>
 </div>
-<div id="outline-container-orgcc00760" class="outline-4">
-<h4 id="orgcc00760"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26767590/">德伯拉: 技术简史</a></h4>
-<div class="outline-text-4" id="text-orgcc00760">
+<div id="outline-container-org7a6f0c7" class="outline-4">
+<h4 id="org7a6f0c7"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26767590/">德伯拉: 技术简史</a></h4>
+<div class="outline-text-4" id="text-org7a6f0c7">
 </div>
 </div>
-<div id="outline-container-org073c406" class="outline-4">
-<h4 id="org073c406"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26700929/">王东岳: 知鱼之乐</a></h4>
-<div class="outline-text-4" id="text-org073c406">
+<div id="outline-container-org246935f" class="outline-4">
+<h4 id="org246935f"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26700929/">王东岳: 知鱼之乐</a></h4>
+<div class="outline-text-4" id="text-org246935f">
 </div>
 </div>
-<div id="outline-container-orge25a441" class="outline-4">
-<h4 id="orge25a441"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/1031207/">拉里: 执行</a></h4>
-<div class="outline-text-4" id="text-orge25a441">
+<div id="outline-container-org24cc093" class="outline-4">
+<h4 id="org24cc093"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/1031207/">拉里: 执行</a></h4>
+<div class="outline-text-4" id="text-org24cc093">
 </div>
 </div>
-<div id="outline-container-org0172801" class="outline-4">
-<h4 id="org0172801"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26738836/">朱利安: 好用的哲学</a></h4>
-<div class="outline-text-4" id="text-org0172801">
+<div id="outline-container-org6e18b52" class="outline-4">
+<h4 id="org6e18b52"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26738836/">朱利安: 好用的哲学</a></h4>
+<div class="outline-text-4" id="text-org6e18b52">
 </div>
 </div>
-<div id="outline-container-org60dbcfd" class="outline-4">
-<h4 id="org60dbcfd"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26289656/">Alberto: 不只是美</a></h4>
-<div class="outline-text-4" id="text-org60dbcfd">
+<div id="outline-container-org1add25c" class="outline-4">
+<h4 id="org1add25c"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26289656/">Alberto: 不只是美</a></h4>
+<div class="outline-text-4" id="text-org1add25c">
 </div>
 </div>
 </div>
-<div id="outline-container-org5728331" class="outline-3">
-<h3 id="org5728331">七月<code>[8/8]</code></h3>
-<div class="outline-text-3" id="text-org5728331">
+<div id="outline-container-org52f7dcc" class="outline-3">
+<h3 id="org52f7dcc">七月<code>[8/8]</code></h3>
+<div class="outline-text-3" id="text-org52f7dcc">
 </div>
-<div id="outline-container-orgffc7327" class="outline-4">
-<h4 id="orgffc7327"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/25961458/">罗伯特•所罗门: 大问题</a></h4>
-<div class="outline-text-4" id="text-orgffc7327">
+<div id="outline-container-org58d415f" class="outline-4">
+<h4 id="org58d415f"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/25961458/">罗伯特•所罗门: 大问题</a></h4>
+<div class="outline-text-4" id="text-org58d415f">
 </div>
 </div>
-<div id="outline-container-orga8bba26" class="outline-4">
-<h4 id="orga8bba26"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/25747852/">达雷尔: 世界上最简单的会计书</a></h4>
-<div class="outline-text-4" id="text-orga8bba26">
+<div id="outline-container-orgfad43b4" class="outline-4">
+<h4 id="orgfad43b4"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/25747852/">达雷尔: 世界上最简单的会计书</a></h4>
+<div class="outline-text-4" id="text-orgfad43b4">
 </div>
 </div>
-<div id="outline-container-orgce950bc" class="outline-4">
-<h4 id="orgce950bc"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26814078/">兰道尔·门罗: 万物解释者</a></h4>
-<div class="outline-text-4" id="text-orgce950bc">
+<div id="outline-container-orga958680" class="outline-4">
+<h4 id="orga958680"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26814078/">兰道尔·门罗: 万物解释者</a></h4>
+<div class="outline-text-4" id="text-orga958680">
 </div>
 </div>
-<div id="outline-container-orge05d6da" class="outline-4">
-<h4 id="orge05d6da"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26724253/">虎嗅: 创新的洞见</a></h4>
-<div class="outline-text-4" id="text-orge05d6da">
+<div id="outline-container-org4345d12" class="outline-4">
+<h4 id="org4345d12"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26724253/">虎嗅: 创新的洞见</a></h4>
+<div class="outline-text-4" id="text-org4345d12">
 </div>
 </div>
-<div id="outline-container-org0a5dceb" class="outline-4">
-<h4 id="org0a5dceb"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26791743/">瓦伦丁娜: 信息图中的世界史</a></h4>
-<div class="outline-text-4" id="text-org0a5dceb">
+<div id="outline-container-org4705df0" class="outline-4">
+<h4 id="org4705df0"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26791743/">瓦伦丁娜: 信息图中的世界史</a></h4>
+<div class="outline-text-4" id="text-org4705df0">
 </div>
 </div>
-<div id="outline-container-org43cab47" class="outline-4">
-<h4 id="org43cab47"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26422632/">朱安家: 哲学哲学鸡蛋糕</a></h4>
-<div class="outline-text-4" id="text-org43cab47">
+<div id="outline-container-org10dadac" class="outline-4">
+<h4 id="org10dadac"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26422632/">朱安家: 哲学哲学鸡蛋糕</a></h4>
+<div class="outline-text-4" id="text-org10dadac">
 </div>
 </div>
-<div id="outline-container-org574384a" class="outline-4">
-<h4 id="org574384a"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/10826177/">国家科技风险开发事业中心: 商业计划书编写指南</a></h4>
-<div class="outline-text-4" id="text-org574384a">
+<div id="outline-container-orgd13946a" class="outline-4">
+<h4 id="orgd13946a"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/10826177/">国家科技风险开发事业中心: 商业计划书编写指南</a></h4>
+<div class="outline-text-4" id="text-orgd13946a">
 </div>
 </div>
-<div id="outline-container-org205f983" class="outline-4">
-<h4 id="org205f983"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26774972/">Gruwez: 高效演讲</a></h4>
-<div class="outline-text-4" id="text-org205f983">
+<div id="outline-container-orge36ed49" class="outline-4">
+<h4 id="orge36ed49"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26774972/">Gruwez: 高效演讲</a></h4>
+<div class="outline-text-4" id="text-orge36ed49">
 </div>
 </div>
 </div>
-<div id="outline-container-org296273c" class="outline-3">
-<h3 id="org296273c">八月<code>[7/7]</code></h3>
-<div class="outline-text-3" id="text-org296273c">
+<div id="outline-container-org67db21e" class="outline-3">
+<h3 id="org67db21e">八月<code>[7/7]</code></h3>
+<div class="outline-text-3" id="text-org67db21e">
 </div>
-<div id="outline-container-orgd94e295" class="outline-4">
-<h4 id="orgd94e295"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26838557/">吴军: 智能时代</a></h4>
-<div class="outline-text-4" id="text-orgd94e295">
+<div id="outline-container-orgaa8836e" class="outline-4">
+<h4 id="orgaa8836e"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26838557/">吴军: 智能时代</a></h4>
+<div class="outline-text-4" id="text-orgaa8836e">
 </div>
 </div>
-<div id="outline-container-orgc76ec54" class="outline-4">
-<h4 id="orgc76ec54"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/25742296/">James: 有限与无限的游戏</a></h4>
-<div class="outline-text-4" id="text-orgc76ec54">
+<div id="outline-container-orgbe5f5c8" class="outline-4">
+<h4 id="orgbe5f5c8"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/25742296/">James: 有限与无限的游戏</a></h4>
+<div class="outline-text-4" id="text-orgbe5f5c8">
 </div>
 </div>
-<div id="outline-container-org129a006" class="outline-4">
-<h4 id="org129a006"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26301996/">罗惠民: 打造财务 Excel 达人</a></h4>
-<div class="outline-text-4" id="text-org129a006">
+<div id="outline-container-orge045ae3" class="outline-4">
+<h4 id="orge045ae3"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26301996/">罗惠民: 打造财务 Excel 达人</a></h4>
+<div class="outline-text-4" id="text-orge045ae3">
 </div>
 </div>
-<div id="outline-container-orga590298" class="outline-4">
-<h4 id="orga590298"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/10549583/">谭云杰: 大象:Thinking in UML</a></h4>
-<div class="outline-text-4" id="text-orga590298">
+<div id="outline-container-org2bfec00" class="outline-4">
+<h4 id="org2bfec00"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/10549583/">谭云杰: 大象:Thinking in UML</a></h4>
+<div class="outline-text-4" id="text-org2bfec00">
 </div>
 </div>
-<div id="outline-container-org5c0aab4" class="outline-4">
-<h4 id="org5c0aab4"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26594366/">Jordan: 魔鬼数学</a></h4>
-<div class="outline-text-4" id="text-org5c0aab4">
+<div id="outline-container-orge760c9f" class="outline-4">
+<h4 id="orge760c9f"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26594366/">Jordan: 魔鬼数学</a></h4>
+<div class="outline-text-4" id="text-orge760c9f">
 </div>
 </div>
-<div id="outline-container-org6319921" class="outline-4">
-<h4 id="org6319921"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26743607/">韦尔奇: 商业的本质</a></h4>
-<div class="outline-text-4" id="text-org6319921">
+<div id="outline-container-orgc2cbce5" class="outline-4">
+<h4 id="orgc2cbce5"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26743607/">韦尔奇: 商业的本质</a></h4>
+<div class="outline-text-4" id="text-orgc2cbce5">
 </div>
 </div>
-<div id="outline-container-org160f35f" class="outline-4">
-<h4 id="org160f35f"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26639456/">万达: 万达工作法</a></h4>
-<div class="outline-text-4" id="text-org160f35f">
+<div id="outline-container-org12d9e28" class="outline-4">
+<h4 id="org12d9e28"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26639456/">万达: 万达工作法</a></h4>
+<div class="outline-text-4" id="text-org12d9e28">
 </div>
 </div>
 </div>
-<div id="outline-container-org38ecc9b" class="outline-3">
-<h3 id="org38ecc9b">九月<code>[3/3]</code></h3>
-<div class="outline-text-3" id="text-org38ecc9b">
+<div id="outline-container-org054e5dd" class="outline-3">
+<h3 id="org054e5dd">九月<code>[3/3]</code></h3>
+<div class="outline-text-3" id="text-org054e5dd">
 </div>
-<div id="outline-container-orgdef6586" class="outline-4">
-<h4 id="orgdef6586"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/25744944/">张定浩: 既见君子</a></h4>
-<div class="outline-text-4" id="text-orgdef6586">
+<div id="outline-container-orgde12479" class="outline-4">
+<h4 id="orgde12479"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/25744944/">张定浩: 既见君子</a></h4>
+<div class="outline-text-4" id="text-orgde12479">
 </div>
 </div>
-<div id="outline-container-org763416f" class="outline-4">
-<h4 id="org763416f"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/1225983/">比尔.布莱森: 万物简史</a></h4>
-<div class="outline-text-4" id="text-org763416f">
+<div id="outline-container-orgc6dbbcd" class="outline-4">
+<h4 id="orgc6dbbcd"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/1225983/">比尔.布莱森: 万物简史</a></h4>
+<div class="outline-text-4" id="text-orgc6dbbcd">
 </div>
 </div>
-<div id="outline-container-orgad6b3c1" class="outline-4">
-<h4 id="orgad6b3c1"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/24700125/">Peter: 经济为什么会崩溃</a></h4>
-<div class="outline-text-4" id="text-orgad6b3c1">
+<div id="outline-container-orgea715fa" class="outline-4">
+<h4 id="orgea715fa"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/24700125/">Peter: 经济为什么会崩溃</a></h4>
+<div class="outline-text-4" id="text-orgea715fa">
 </div>
 </div>
 </div>
-<div id="outline-container-org9c23e34" class="outline-3">
-<h3 id="org9c23e34">十月<code>[3/3]</code></h3>
-<div class="outline-text-3" id="text-org9c23e34">
+<div id="outline-container-org0dc236f" class="outline-3">
+<h3 id="org0dc236f">十月<code>[3/3]</code></h3>
+<div class="outline-text-3" id="text-org0dc236f">
 </div>
-<div id="outline-container-org897ac97" class="outline-4">
-<h4 id="org897ac97"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26169876/">下地宽也: 逻辑思维, 只要 5 步</a></h4>
-<div class="outline-text-4" id="text-org897ac97">
+<div id="outline-container-orgc70f76a" class="outline-4">
+<h4 id="orgc70f76a"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26169876/">下地宽也: 逻辑思维, 只要 5 步</a></h4>
+<div class="outline-text-4" id="text-orgc70f76a">
 </div>
 </div>
-<div id="outline-container-orge1576e8" class="outline-4">
-<h4 id="orge1576e8"><span class="done DONE">DONE</span> 江远涛: 商业生态圈</h4>
-<div class="outline-text-4" id="text-orge1576e8">
+<div id="outline-container-org6e68d7a" class="outline-4">
+<h4 id="org6e68d7a"><span class="done DONE">DONE</span> 江远涛: 商业生态圈</h4>
+<div class="outline-text-4" id="text-org6e68d7a">
 </div>
 </div>
-<div id="outline-container-org48790a2" class="outline-4">
-<h4 id="org48790a2"><span class="done DONE">DONE</span> 梁小民: 写给企业家的经济学</h4>
-<div class="outline-text-4" id="text-org48790a2">
+<div id="outline-container-org05b6eb9" class="outline-4">
+<h4 id="org05b6eb9"><span class="done DONE">DONE</span> 梁小民: 写给企业家的经济学</h4>
+<div class="outline-text-4" id="text-org05b6eb9">
 </div>
 </div>
 </div>
-<div id="outline-container-org71d6b71" class="outline-3">
-<h3 id="org71d6b71">十一月<code>[5/5]</code></h3>
-<div class="outline-text-3" id="text-org71d6b71">
+<div id="outline-container-orgef477a1" class="outline-3">
+<h3 id="orgef477a1">十一月<code>[5/5]</code></h3>
+<div class="outline-text-3" id="text-orgef477a1">
 </div>
-<div id="outline-container-orgf488eb5" class="outline-4">
-<h4 id="orgf488eb5"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/10785583/">丹尼尔.卡尼曼: 思考, 快与慢</a></h4>
+<div id="outline-container-org27247d0" class="outline-4">
+<h4 id="org27247d0"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/10785583/">丹尼尔.卡尼曼: 思考, 快与慢</a></h4>
 </div>
-<div id="outline-container-orga7c222e" class="outline-4">
-<h4 id="orga7c222e"><span class="done DONE">DONE</span> 周易</h4>
+<div id="outline-container-org5179351" class="outline-4">
+<h4 id="org5179351"><span class="done DONE">DONE</span> 周易</h4>
 </div>
-<div id="outline-container-org0c02f8f" class="outline-4">
-<h4 id="org0c02f8f"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26390604/">罗志田: 再造文明之梦:胡适传</a></h4>
+<div id="outline-container-orgc233e20" class="outline-4">
+<h4 id="orgc233e20"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26390604/">罗志田: 再造文明之梦:胡适传</a></h4>
 </div>
-<div id="outline-container-org3ad5894" class="outline-4">
-<h4 id="org3ad5894"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26883531/">网易杭研项目管理部: 网易一千零一夜</a></h4>
+<div id="outline-container-orgae673d5" class="outline-4">
+<h4 id="orgae673d5"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26883531/">网易杭研项目管理部: 网易一千零一夜</a></h4>
 </div>
-<div id="outline-container-org4394675" class="outline-4">
-<h4 id="org4394675"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/3151772/">坎贝尔: 一页纸项目管理</a></h4>
+<div id="outline-container-orgd7bc786" class="outline-4">
+<h4 id="orgd7bc786"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/3151772/">坎贝尔: 一页纸项目管理</a></h4>
 </div>
 </div>
-<div id="outline-container-orgfd4e18c" class="outline-3">
-<h3 id="orgfd4e18c">十二月<code>[8/8]</code></h3>
-<div class="outline-text-3" id="text-orgfd4e18c">
+<div id="outline-container-org6aa134d" class="outline-3">
+<h3 id="org6aa134d">十二月<code>[8/8]</code></h3>
+<div class="outline-text-3" id="text-org6aa134d">
 </div>
-<div id="outline-container-org9fcb507" class="outline-4">
-<h4 id="org9fcb507"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/20390883/">鲍鹏山: 孔子传</a></h4>
+<div id="outline-container-org6fe2ee9" class="outline-4">
+<h4 id="org6fe2ee9"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/20390883/">鲍鹏山: 孔子传</a></h4>
 </div>
-<div id="outline-container-orgb05ac02" class="outline-4">
-<h4 id="orgb05ac02"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26680145/">亚历山大: 价值主张设计</a></h4>
+<div id="outline-container-org5dbfc81" class="outline-4">
+<h4 id="org5dbfc81"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26680145/">亚历山大: 价值主张设计</a></h4>
 </div>
-<div id="outline-container-org2dca190" class="outline-4">
-<h4 id="org2dca190"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26915104/">曹政: 你凭什么做好互联网</a></h4>
-<div class="outline-text-4" id="text-org2dca190">
+<div id="outline-container-orga0488fa" class="outline-4">
+<h4 id="orga0488fa"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26915104/">曹政: 你凭什么做好互联网</a></h4>
+<div class="outline-text-4" id="text-orga0488fa">
 </div>
 </div>
-<div id="outline-container-orgce8828e" class="outline-4">
-<h4 id="orgce8828e"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26897464/">彼得.希夫: 小岛经济学</a></h4>
-<div class="outline-text-4" id="text-orgce8828e">
+<div id="outline-container-orge14cbe1" class="outline-4">
+<h4 id="orge14cbe1"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26897464/">彼得.希夫: 小岛经济学</a></h4>
+<div class="outline-text-4" id="text-orge14cbe1">
 </div>
 </div>
-<div id="outline-container-org5b0afaf" class="outline-4">
-<h4 id="org5b0afaf"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26702089/">三谷宏治: 商业模式全史</a></h4>
-<div class="outline-text-4" id="text-org5b0afaf">
+<div id="outline-container-orgaa96f15" class="outline-4">
+<h4 id="orgaa96f15"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26702089/">三谷宏治: 商业模式全史</a></h4>
+<div class="outline-text-4" id="text-orgaa96f15">
 </div>
 </div>
-<div id="outline-container-org0dc1f2b" class="outline-4">
-<h4 id="org0dc1f2b"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/1391740/">马丁.戴维斯: 逻辑的引擎</a></h4>
-<div class="outline-text-4" id="text-org0dc1f2b">
+<div id="outline-container-org26eabcb" class="outline-4">
+<h4 id="org26eabcb"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/1391740/">马丁.戴维斯: 逻辑的引擎</a></h4>
+<div class="outline-text-4" id="text-org26eabcb">
 </div>
 </div>
-<div id="outline-container-org164bc3b" class="outline-4">
-<h4 id="org164bc3b"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26590171/">小仓广: 做事的常识</a></h4>
-<div class="outline-text-4" id="text-org164bc3b">
+<div id="outline-container-org27ab937" class="outline-4">
+<h4 id="org27ab937"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26590171/">小仓广: 做事的常识</a></h4>
+<div class="outline-text-4" id="text-org27ab937">
 </div>
 </div>
-<div id="outline-container-orgb617cd1" class="outline-4">
-<h4 id="orgb617cd1"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26904512/">邵云蛟: PPT 设计思维</a></h4>
+<div id="outline-container-org837fbc8" class="outline-4">
+<h4 id="org837fbc8"><span class="done DONE">DONE</span> <a href="https://book.douban.com/subject/26904512/">邵云蛟: PPT 设计思维</a></h4>
 </div>
 </div>
 </div>
-<div id="outline-container-org189ee15" class="outline-2">
-<h2 id="org189ee15">2015 年读过的书<code>[88/88]</code></h2>
-<div class="outline-text-2" id="text-org189ee15">
+<div id="outline-container-org6fa43cd" class="outline-2">
+<h2 id="org6fa43cd">2015 年读过的书<code>[88/88]</code></h2>
+<div class="outline-text-2" id="text-org6fa43cd">
 </div>
-<div id="outline-container-org76fce26" class="outline-3">
-<h3 id="org76fce26">一月<code>[9/9]</code></h3>
-<div class="outline-text-3" id="text-org76fce26">
+<div id="outline-container-org8feab2f" class="outline-3">
+<h3 id="org8feab2f">一月<code>[9/9]</code></h3>
+<div class="outline-text-3" id="text-org8feab2f">
 </div>
-<div id="outline-container-org6da5c8a" class="outline-4">
-<h4 id="org6da5c8a"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/20493042/">赵周: 这样读书就够了</a></h4>
-<div class="outline-text-4" id="text-org6da5c8a">
+<div id="outline-container-orgbd0d357" class="outline-4">
+<h4 id="orgbd0d357"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/20493042/">赵周: 这样读书就够了</a></h4>
+<div class="outline-text-4" id="text-orgbd0d357">
 </div>
 </div>
-<div id="outline-container-org4089740" class="outline-4">
-<h4 id="org4089740"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject_search?search_text=%E6%BD%9C%E8%A7%84%E5%88%99&amp;cat=1001">吴思: 潜规则</a></h4>
-<div class="outline-text-4" id="text-org4089740">
+<div id="outline-container-org78bdb28" class="outline-4">
+<h4 id="org78bdb28"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject_search?search_text=%E6%BD%9C%E8%A7%84%E5%88%99&amp;cat=1001">吴思: 潜规则</a></h4>
+<div class="outline-text-4" id="text-org78bdb28">
 </div>
 </div>
-<div id="outline-container-org58e04be" class="outline-4">
-<h4 id="org58e04be"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1003479/">钱穆: 中国历代政治得失</a></h4>
-<div class="outline-text-4" id="text-org58e04be">
+<div id="outline-container-org3e49b90" class="outline-4">
+<h4 id="org3e49b90"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1003479/">钱穆: 中国历代政治得失</a></h4>
+<div class="outline-text-4" id="text-org3e49b90">
 </div>
 </div>
-<div id="outline-container-org108dcb7" class="outline-4">
-<h4 id="org108dcb7"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1813918/">周国平: 智慧和信仰</a></h4>
-<div class="outline-text-4" id="text-org108dcb7">
+<div id="outline-container-orgfd85ccd" class="outline-4">
+<h4 id="orgfd85ccd"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1813918/">周国平: 智慧和信仰</a></h4>
+<div class="outline-text-4" id="text-orgfd85ccd">
 </div>
 </div>
-<div id="outline-container-org8fb296c" class="outline-4">
-<h4 id="org8fb296c"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1291204/">侯世达: 哥德尔, 艾舍尔, 巴赫</a></h4>
-<div class="outline-text-4" id="text-org8fb296c">
+<div id="outline-container-orgb381b9d" class="outline-4">
+<h4 id="orgb381b9d"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1291204/">侯世达: 哥德尔, 艾舍尔, 巴赫</a></h4>
+<div class="outline-text-4" id="text-orgb381b9d">
 </div>
 </div>
-<div id="outline-container-org2aa4c6b" class="outline-4">
-<h4 id="org2aa4c6b"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25870261/">道格•莱莫夫: 练习的力量</a></h4>
-<div class="outline-text-4" id="text-org2aa4c6b">
+<div id="outline-container-org07dcf7e" class="outline-4">
+<h4 id="org07dcf7e"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25870261/">道格•莱莫夫: 练习的力量</a></h4>
+<div class="outline-text-4" id="text-org07dcf7e">
 </div>
 </div>
-<div id="outline-container-org7b98807" class="outline-4">
-<h4 id="org7b98807"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25858068/">松浦弥太郎:100 个基本</a></h4>
-<div class="outline-text-4" id="text-org7b98807">
+<div id="outline-container-org6c3ede7" class="outline-4">
+<h4 id="org6c3ede7"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25858068/">松浦弥太郎:100 个基本</a></h4>
+<div class="outline-text-4" id="text-org6c3ede7">
 </div>
 </div>
-<div id="outline-container-orgf2f72d3" class="outline-4">
-<h4 id="orgf2f72d3"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1426502/">唐君毅: 青年与学问</a></h4>
-<div class="outline-text-4" id="text-orgf2f72d3">
+<div id="outline-container-orgba7f0d3" class="outline-4">
+<h4 id="orgba7f0d3"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1426502/">唐君毅: 青年与学问</a></h4>
+<div class="outline-text-4" id="text-orgba7f0d3">
 </div>
 </div>
-<div id="outline-container-org956014e" class="outline-4">
-<h4 id="org956014e"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1006560/">吴思: 血酬定律</a></h4>
-<div class="outline-text-4" id="text-org956014e">
+<div id="outline-container-org9c9f4b0" class="outline-4">
+<h4 id="org9c9f4b0"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1006560/">吴思: 血酬定律</a></h4>
+<div class="outline-text-4" id="text-org9c9f4b0">
 </div>
 </div>
 </div>
-<div id="outline-container-orgec64b9a" class="outline-3">
-<h3 id="orgec64b9a">二月<code>[8/8]</code></h3>
-<div class="outline-text-3" id="text-orgec64b9a">
+<div id="outline-container-orgdfd3ef0" class="outline-3">
+<h3 id="orgdfd3ef0">二月<code>[8/8]</code></h3>
+<div class="outline-text-3" id="text-orgdfd3ef0">
 </div>
-<div id="outline-container-orgba3fd4c" class="outline-4">
-<h4 id="orgba3fd4c"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3806309/">蒂莫西.科里根: 如何写影评</a></h4>
-<div class="outline-text-4" id="text-orgba3fd4c">
+<div id="outline-container-org4b48922" class="outline-4">
+<h4 id="org4b48922"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3806309/">蒂莫西.科里根: 如何写影评</a></h4>
+<div class="outline-text-4" id="text-org4b48922">
 </div>
 </div>
-<div id="outline-container-orge56ce56" class="outline-4">
-<h4 id="orge56ce56"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26268552/">阮一峰:如何变得有思想</a></h4>
-<div class="outline-text-4" id="text-orge56ce56">
+<div id="outline-container-org47b2bf7" class="outline-4">
+<h4 id="org47b2bf7"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26268552/">阮一峰:如何变得有思想</a></h4>
+<div class="outline-text-4" id="text-org47b2bf7">
 </div>
 </div>
-<div id="outline-container-org650868e" class="outline-4">
-<h4 id="org650868e"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25862578/">东野圭吾:解忧杂货店</a></h4>
-<div class="outline-text-4" id="text-org650868e">
+<div id="outline-container-org89cc69e" class="outline-4">
+<h4 id="org89cc69e"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25862578/">东野圭吾:解忧杂货店</a></h4>
+<div class="outline-text-4" id="text-org89cc69e">
 </div>
 </div>
-<div id="outline-container-org97bbef6" class="outline-4">
-<h4 id="org97bbef6"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25881590">赵周: 拆出你的沟通力 1</a></h4>
-<div class="outline-text-4" id="text-org97bbef6">
+<div id="outline-container-org0651deb" class="outline-4">
+<h4 id="org0651deb"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25881590">赵周: 拆出你的沟通力 1</a></h4>
+<div class="outline-text-4" id="text-org0651deb">
 </div>
 </div>
-<div id="outline-container-org7367ba8" class="outline-4">
-<h4 id="org7367ba8"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25881592/">赵周:拆出你的沟通力 2</a></h4>
-<div class="outline-text-4" id="text-org7367ba8">
+<div id="outline-container-orgd2f45ff" class="outline-4">
+<h4 id="orgd2f45ff"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25881592/">赵周:拆出你的沟通力 2</a></h4>
+<div class="outline-text-4" id="text-orgd2f45ff">
 </div>
 </div>
-<div id="outline-container-org092e2eb" class="outline-4">
-<h4 id="org092e2eb"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26275861/">罗纳德.B.阿德勒:沟通的艺术</a></h4>
-<div class="outline-text-4" id="text-org092e2eb">
+<div id="outline-container-org59600ef" class="outline-4">
+<h4 id="org59600ef"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26275861/">罗纳德.B.阿德勒:沟通的艺术</a></h4>
+<div class="outline-text-4" id="text-org59600ef">
 </div>
 </div>
-<div id="outline-container-org43a7dbb" class="outline-4">
-<h4 id="org43a7dbb"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25963469/">爱德华.戴默: 好好讲道理</a></h4>
-<div class="outline-text-4" id="text-org43a7dbb">
+<div id="outline-container-org0fe87cf" class="outline-4">
+<h4 id="org0fe87cf"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25963469/">爱德华.戴默: 好好讲道理</a></h4>
+<div class="outline-text-4" id="text-org0fe87cf">
 </div>
 </div>
-<div id="outline-container-orgf08c18c" class="outline-4">
-<h4 id="orgf08c18c"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26278430/">林特特: 别害怕你所向往的生活</a></h4>
-<div class="outline-text-4" id="text-orgf08c18c">
+<div id="outline-container-orgda5b595" class="outline-4">
+<h4 id="orgda5b595"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26278430/">林特特: 别害怕你所向往的生活</a></h4>
+<div class="outline-text-4" id="text-orgda5b595">
 </div>
 </div>
 </div>
-<div id="outline-container-orgd923e5c" class="outline-3">
-<h3 id="orgd923e5c">三月<code>[7/7]</code></h3>
-<div class="outline-text-3" id="text-orgd923e5c">
+<div id="outline-container-org9b6b4cc" class="outline-3">
+<h3 id="org9b6b4cc">三月<code>[7/7]</code></h3>
+<div class="outline-text-3" id="text-org9b6b4cc">
 </div>
-<div id="outline-container-orgd2f2b8d" class="outline-4">
-<h4 id="orgd2f2b8d"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25985021/">尤瓦尔.赫拉利:人类简史 从动物到上帝</a></h4>
-<div class="outline-text-4" id="text-orgd2f2b8d">
+<div id="outline-container-orgf585ba0" class="outline-4">
+<h4 id="orgf585ba0"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25985021/">尤瓦尔.赫拉利:人类简史 从动物到上帝</a></h4>
+<div class="outline-text-4" id="text-orgf585ba0">
 </div>
 </div>
-<div id="outline-container-orgc061880" class="outline-4">
-<h4 id="orgc061880"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1432323/">Jari Aalto: Sams Teach Yourself Emacs in 24 Hours</a></h4>
-<div class="outline-text-4" id="text-orgc061880">
+<div id="outline-container-org35c6386" class="outline-4">
+<h4 id="org35c6386"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1432323/">Jari Aalto: Sams Teach Yourself Emacs in 24 Hours</a></h4>
+<div class="outline-text-4" id="text-org35c6386">
 </div>
 </div>
-<div id="outline-container-org0d31271" class="outline-4">
-<h4 id="org0d31271"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25831015/">生命科学编辑团队: 用地图看懂世界经济</a></h4>
-<div class="outline-text-4" id="text-org0d31271">
+<div id="outline-container-org9ab8762" class="outline-4">
+<h4 id="org9ab8762"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25831015/">生命科学编辑团队: 用地图看懂世界经济</a></h4>
+<div class="outline-text-4" id="text-org9ab8762">
 </div>
 </div>
-<div id="outline-container-org515e0a9" class="outline-4">
-<h4 id="org515e0a9"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3406401/">赫尔曼.黑塞: 悉达多</a></h4>
-<div class="outline-text-4" id="text-org515e0a9">
+<div id="outline-container-orgdef04b4" class="outline-4">
+<h4 id="orgdef04b4"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3406401/">赫尔曼.黑塞: 悉达多</a></h4>
+<div class="outline-text-4" id="text-orgdef04b4">
 </div>
 </div>
-<div id="outline-container-orgcf89cb8" class="outline-4">
-<h4 id="orgcf89cb8"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26264967/">艾萨克.阿西莫夫: 神们自己</a></h4>
-<div class="outline-text-4" id="text-orgcf89cb8">
+<div id="outline-container-orga9eb60e" class="outline-4">
+<h4 id="orga9eb60e"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26264967/">艾萨克.阿西莫夫: 神们自己</a></h4>
+<div class="outline-text-4" id="text-orga9eb60e">
 </div>
 </div>
-<div id="outline-container-org1459506" class="outline-4">
-<h4 id="org1459506"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/2183092/">刘劭: 人物志</a></h4>
-<div class="outline-text-4" id="text-org1459506">
+<div id="outline-container-orgcbfb52f" class="outline-4">
+<h4 id="orgcbfb52f"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/2183092/">刘劭: 人物志</a></h4>
+<div class="outline-text-4" id="text-orgcbfb52f">
 </div>
 </div>
-<div id="outline-container-org1e91ff9" class="outline-4">
-<h4 id="org1e91ff9"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26297606/">彼得.蒂尔: 从 0 到 1</a></h4>
-<div class="outline-text-4" id="text-org1e91ff9">
+<div id="outline-container-orgf5dd057" class="outline-4">
+<h4 id="orgf5dd057"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26297606/">彼得.蒂尔: 从 0 到 1</a></h4>
+<div class="outline-text-4" id="text-orgf5dd057">
 </div>
 </div>
 </div>
-<div id="outline-container-org9967658" class="outline-3">
-<h3 id="org9967658">四月<code>[10/10]</code></h3>
-<div class="outline-text-3" id="text-org9967658">
+<div id="outline-container-org35c9b81" class="outline-3">
+<h3 id="org35c9b81">四月<code>[10/10]</code></h3>
+<div class="outline-text-3" id="text-org35c9b81">
 </div>
-<div id="outline-container-org2c1ec65" class="outline-4">
-<h4 id="org2c1ec65"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25902942/">吴军: 文明之光(第一册)</a></h4>
-<div class="outline-text-4" id="text-org2c1ec65">
+<div id="outline-container-orgdac6569" class="outline-4">
+<h4 id="orgdac6569"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25902942/">吴军: 文明之光(第一册)</a></h4>
+<div class="outline-text-4" id="text-orgdac6569">
 </div>
 </div>
-<div id="outline-container-org8a0f6aa" class="outline-4">
-<h4 id="org8a0f6aa"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25902222/">吴军: 文明之光(第二册)</a></h4>
-<div class="outline-text-4" id="text-org8a0f6aa">
+<div id="outline-container-org614ac53" class="outline-4">
+<h4 id="org614ac53"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25902222/">吴军: 文明之光(第二册)</a></h4>
+<div class="outline-text-4" id="text-org614ac53">
 </div>
 </div>
-<div id="outline-container-org37919e6" class="outline-4">
-<h4 id="org37919e6"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/7001106/">Jim Randel: 时间管理</a></h4>
-<div class="outline-text-4" id="text-org37919e6">
+<div id="outline-container-org1415ba8" class="outline-4">
+<h4 id="org1415ba8"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/7001106/">Jim Randel: 时间管理</a></h4>
+<div class="outline-text-4" id="text-org1415ba8">
 </div>
 </div>
-<div id="outline-container-org41e0b37" class="outline-4">
-<h4 id="org41e0b37"><span class="done DONE">DONE</span> <a href="http://yuedu.baidu.com/ebook/3e31c551964bcf84b9d57bc0?pn=1&amp;rf=http%3A%2F%2Fwenku.baidu.com%2Ftrade%2Fbrowse%2Fcashiersucc%3Ftrade_id%3D2015041000043096014">王勇睿: 互联网广告算法和系统实践</a></h4>
-<div class="outline-text-4" id="text-org41e0b37">
+<div id="outline-container-org5f0f626" class="outline-4">
+<h4 id="org5f0f626"><span class="done DONE">DONE</span> <a href="http://yuedu.baidu.com/ebook/3e31c551964bcf84b9d57bc0?pn=1&amp;rf=http%3A%2F%2Fwenku.baidu.com%2Ftrade%2Fbrowse%2Fcashiersucc%3Ftrade_id%3D2015041000043096014">王勇睿: 互联网广告算法和系统实践</a></h4>
+<div class="outline-text-4" id="text-org5f0f626">
 </div>
 </div>
-<div id="outline-container-org56ec7e7" class="outline-4">
-<h4 id="org56ec7e7"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26314627/">Jens Harder: 万物: 创世</a></h4>
-<div class="outline-text-4" id="text-org56ec7e7">
+<div id="outline-container-org8681a50" class="outline-4">
+<h4 id="org8681a50"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26314627/">Jens Harder: 万物: 创世</a></h4>
+<div class="outline-text-4" id="text-org8681a50">
 </div>
 </div>
-<div id="outline-container-org89dc17a" class="outline-4">
-<h4 id="org89dc17a"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3098386/">BradleyN.Miller: Problem Solving with Algorithms and Data Structures Using Python</a></h4>
-<div class="outline-text-4" id="text-org89dc17a">
+<div id="outline-container-org1060475" class="outline-4">
+<h4 id="org1060475"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3098386/">BradleyN.Miller: Problem Solving with Algorithms and Data Structures Using Python</a></h4>
+<div class="outline-text-4" id="text-org1060475">
 </div>
 </div>
-<div id="outline-container-orgcbf7480" class="outline-4">
-<h4 id="orgcbf7480"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/6933056/">Reid Hoffman: The Start-up of You</a></h4>
-<div class="outline-text-4" id="text-orgcbf7480">
+<div id="outline-container-org612f4c0" class="outline-4">
+<h4 id="org612f4c0"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/6933056/">Reid Hoffman: The Start-up of You</a></h4>
+<div class="outline-text-4" id="text-org612f4c0">
 </div>
 </div>
-<div id="outline-container-org19857c5" class="outline-4">
-<h4 id="org19857c5"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26324467/">Kevin Cheng: 以图代言</a></h4>
-<div class="outline-text-4" id="text-org19857c5">
+<div id="outline-container-org2937846" class="outline-4">
+<h4 id="org2937846"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26324467/">Kevin Cheng: 以图代言</a></h4>
+<div class="outline-text-4" id="text-org2937846">
 </div>
 </div>
-<div id="outline-container-org71f14bc" class="outline-4">
-<h4 id="org71f14bc"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25723447/">蒋昕炜: 漫画中国式项目管理</a></h4>
-<div class="outline-text-4" id="text-org71f14bc">
+<div id="outline-container-org1e4b8aa" class="outline-4">
+<h4 id="org1e4b8aa"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25723447/">蒋昕炜: 漫画中国式项目管理</a></h4>
+<div class="outline-text-4" id="text-org1e4b8aa">
 </div>
 </div>
-<div id="outline-container-org7ab38bd" class="outline-4">
-<h4 id="org7ab38bd"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25863515/">上野宣: 图解 HTTP</a></h4>
-<div class="outline-text-4" id="text-org7ab38bd">
+<div id="outline-container-org38f92c5" class="outline-4">
+<h4 id="org38f92c5"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25863515/">上野宣: 图解 HTTP</a></h4>
+<div class="outline-text-4" id="text-org38f92c5">
 </div>
 </div>
 </div>
-<div id="outline-container-org038ee1e" class="outline-3">
-<h3 id="org038ee1e">五月<code>[8/8]</code></h3>
-<div class="outline-text-3" id="text-org038ee1e">
+<div id="outline-container-orgb1b3d53" class="outline-3">
+<h3 id="orgb1b3d53">五月<code>[8/8]</code></h3>
+<div class="outline-text-3" id="text-orgb1b3d53">
 </div>
-<div id="outline-container-orgf811fbc" class="outline-4">
-<h4 id="orgf811fbc"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/6811366/">(美)罗伯特·M.波西格: 禅与摩托车维修艺术</a></h4>
-<div class="outline-text-4" id="text-orgf811fbc">
+<div id="outline-container-orgd2a63d6" class="outline-4">
+<h4 id="orgd2a63d6"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/6811366/">(美)罗伯特·M.波西格: 禅与摩托车维修艺术</a></h4>
+<div class="outline-text-4" id="text-orgd2a63d6">
 </div>
 </div>
-<div id="outline-container-orgff093dd" class="outline-4">
-<h4 id="orgff093dd"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25760270/">张晓明:Excel 商业图表的三招两式</a></h4>
-<div class="outline-text-4" id="text-orgff093dd">
+<div id="outline-container-orga2fb0b4" class="outline-4">
+<h4 id="orga2fb0b4"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25760270/">张晓明:Excel 商业图表的三招两式</a></h4>
+<div class="outline-text-4" id="text-orga2fb0b4">
 </div>
 </div>
-<div id="outline-container-org8bf34fa" class="outline-4">
-<h4 id="org8bf34fa"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26319617/">Randall Munroe: What if?</a></h4>
-<div class="outline-text-4" id="text-org8bf34fa">
+<div id="outline-container-orgfeb2078" class="outline-4">
+<h4 id="orgfeb2078"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26319617/">Randall Munroe: What if?</a></h4>
+<div class="outline-text-4" id="text-orgfeb2078">
 </div>
 </div>
-<div id="outline-container-org10d25f6" class="outline-4">
-<h4 id="org10d25f6"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/20480678/">(加) 马尔科姆•格拉德威尔: 逆转</a></h4>
-<div class="outline-text-4" id="text-org10d25f6">
+<div id="outline-container-orgdf19667" class="outline-4">
+<h4 id="orgdf19667"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/20480678/">(加) 马尔科姆•格拉德威尔: 逆转</a></h4>
+<div class="outline-text-4" id="text-orgdf19667">
 </div>
 </div>
-<div id="outline-container-org2996354" class="outline-4">
-<h4 id="org2996354"><span class="done DONE">DONE</span> <a href="https://www.masteringemacs.org/">Mickey Petersen: Mastering Emacs</a></h4>
-<div class="outline-text-4" id="text-org2996354">
+<div id="outline-container-org2d2e1d1" class="outline-4">
+<h4 id="org2d2e1d1"><span class="done DONE">DONE</span> <a href="https://www.masteringemacs.org/">Mickey Petersen: Mastering Emacs</a></h4>
+<div class="outline-text-4" id="text-org2d2e1d1">
 </div>
 </div>
-<div id="outline-container-orgec38cfe" class="outline-4">
-<h4 id="orgec38cfe"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25976544/">罗伯特.麦基: 故事</a></h4>
-<div class="outline-text-4" id="text-orgec38cfe">
+<div id="outline-container-org3d3a3be" class="outline-4">
+<h4 id="org3d3a3be"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25976544/">罗伯特.麦基: 故事</a></h4>
+<div class="outline-text-4" id="text-org3d3a3be">
 </div>
 </div>
-<div id="outline-container-org5a53d04" class="outline-4">
-<h4 id="org5a53d04"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3198489/">(清)金缨: 格言联璧</a></h4>
-<div class="outline-text-4" id="text-org5a53d04">
+<div id="outline-container-org3cab9a2" class="outline-4">
+<h4 id="org3cab9a2"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3198489/">(清)金缨: 格言联璧</a></h4>
+<div class="outline-text-4" id="text-org3cab9a2">
 </div>
 </div>
-<div id="outline-container-org58ef970" class="outline-4">
-<h4 id="org58ef970"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26210607/">刘慈欣: 时间移民</a></h4>
-<div class="outline-text-4" id="text-org58ef970">
+<div id="outline-container-orgb3f7387" class="outline-4">
+<h4 id="orgb3f7387"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26210607/">刘慈欣: 时间移民</a></h4>
+<div class="outline-text-4" id="text-orgb3f7387">
 </div>
 </div>
 </div>
 
-<div id="outline-container-org7f92a42" class="outline-3">
-<h3 id="org7f92a42">六月<code>[5/5]</code></h3>
-<div class="outline-text-3" id="text-org7f92a42">
+<div id="outline-container-org0e5b7b8" class="outline-3">
+<h3 id="org0e5b7b8">六月<code>[5/5]</code></h3>
+<div class="outline-text-3" id="text-org0e5b7b8">
 </div>
-<div id="outline-container-orgd756e7a" class="outline-4">
-<h4 id="orgd756e7a"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1470313/">Richard Koch: The 80/20 Principle</a></h4>
-<div class="outline-text-4" id="text-orgd756e7a">
-</div>
-</div>
-<div id="outline-container-org29fa317" class="outline-4">
-<h4 id="org29fa317"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/2567698/">刘慈欣: 三体</a></h4>
-<div class="outline-text-4" id="text-org29fa317">
+<div id="outline-container-org6667c4c" class="outline-4">
+<h4 id="org6667c4c"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1470313/">Richard Koch: The 80/20 Principle</a></h4>
+<div class="outline-text-4" id="text-org6667c4c">
 </div>
 </div>
-<div id="outline-container-orgd95afd3" class="outline-4">
-<h4 id="orgd95afd3"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3066477/">刘慈欣:三体ⅱ:黑暗森林</a></h4>
-<div class="outline-text-4" id="text-orgd95afd3">
+<div id="outline-container-org364c3ea" class="outline-4">
+<h4 id="org364c3ea"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/2567698/">刘慈欣: 三体</a></h4>
+<div class="outline-text-4" id="text-org364c3ea">
 </div>
 </div>
-<div id="outline-container-org59aef0a" class="outline-4">
-<h4 id="org59aef0a"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/5363767/">刘慈欣: 三体Ⅲ:死神永生</a></h4>
-<div class="outline-text-4" id="text-org59aef0a">
+<div id="outline-container-orgef654d0" class="outline-4">
+<h4 id="orgef654d0"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3066477/">刘慈欣:三体ⅱ:黑暗森林</a></h4>
+<div class="outline-text-4" id="text-orgef654d0">
 </div>
 </div>
-<div id="outline-container-org4dc3299" class="outline-4">
-<h4 id="org4dc3299"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26337663/">{美}达纳·麦肯齐: 无言的宇宙</a></h4>
-<div class="outline-text-4" id="text-org4dc3299">
+<div id="outline-container-org53c986d" class="outline-4">
+<h4 id="org53c986d"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/5363767/">刘慈欣: 三体Ⅲ:死神永生</a></h4>
+<div class="outline-text-4" id="text-org53c986d">
+</div>
+</div>
+<div id="outline-container-orgdb04455" class="outline-4">
+<h4 id="orgdb04455"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26337663/">{美}达纳·麦肯齐: 无言的宇宙</a></h4>
+<div class="outline-text-4" id="text-orgdb04455">
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgbffd941" class="outline-3">
-<h3 id="orgbffd941">七月<code>[7/7]</code></h3>
-<div class="outline-text-3" id="text-orgbffd941">
+<div id="outline-container-org1effc2f" class="outline-3">
+<h3 id="org1effc2f">七月<code>[7/7]</code></h3>
+<div class="outline-text-3" id="text-org1effc2f">
 </div>
-<div id="outline-container-orgbf5292f" class="outline-4">
-<h4 id="orgbf5292f"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/24703731/">刘海洋: LaTeX 入门</a></h4>
-<div class="outline-text-4" id="text-orgbf5292f">
-</div>
-</div>
-<div id="outline-container-orgf02a2fa" class="outline-4">
-<h4 id="orgf02a2fa"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/6721424/">张珈豪: 一看就懂的财务报表全图解</a></h4>
-<div class="outline-text-4" id="text-orgf02a2fa">
+<div id="outline-container-org08e8466" class="outline-4">
+<h4 id="org08e8466"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/24703731/">刘海洋: LaTeX 入门</a></h4>
+<div class="outline-text-4" id="text-org08e8466">
 </div>
 </div>
-<div id="outline-container-org1d8a870" class="outline-4">
-<h4 id="org1d8a870"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/24697776/">{美} 理查德·保罗: 批判性思维工具</a></h4>
-<div class="outline-text-4" id="text-org1d8a870">
+<div id="outline-container-org3ac840b" class="outline-4">
+<h4 id="org3ac840b"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/6721424/">张珈豪: 一看就懂的财务报表全图解</a></h4>
+<div class="outline-text-4" id="text-org3ac840b">
 </div>
 </div>
-<div id="outline-container-org5cb08fd" class="outline-4">
-<h4 id="org5cb08fd"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25879534/">@秋叶: 学会独立思考：学习篇</a></h4>
-<div class="outline-text-4" id="text-org5cb08fd">
+<div id="outline-container-org180f635" class="outline-4">
+<h4 id="org180f635"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/24697776/">{美} 理查德·保罗: 批判性思维工具</a></h4>
+<div class="outline-text-4" id="text-org180f635">
 </div>
 </div>
-<div id="outline-container-orgd8d9c1f" class="outline-4">
-<h4 id="orgd8d9c1f"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25802944/">张大春: 大唐李白·少年游</a></h4>
-<div class="outline-text-4" id="text-orgd8d9c1f">
+<div id="outline-container-org3f4de64" class="outline-4">
+<h4 id="org3f4de64"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25879534/">@秋叶: 学会独立思考：学习篇</a></h4>
+<div class="outline-text-4" id="text-org3f4de64">
 </div>
 </div>
-<div id="outline-container-orgb298527" class="outline-4">
-<h4 id="orgb298527"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26390716/">张大春: 大唐李白·凤凰台</a></h4>
-<div class="outline-text-4" id="text-orgb298527">
+<div id="outline-container-orgec43d5a" class="outline-4">
+<h4 id="orgec43d5a"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25802944/">张大春: 大唐李白·少年游</a></h4>
+<div class="outline-text-4" id="text-orgec43d5a">
 </div>
 </div>
-<div id="outline-container-org527b878" class="outline-4">
-<h4 id="org527b878"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26390716/">张大春: 大唐李白·将进酒</a></h4>
-<div class="outline-text-4" id="text-org527b878">
+<div id="outline-container-org5b270b3" class="outline-4">
+<h4 id="org5b270b3"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26390716/">张大春: 大唐李白·凤凰台</a></h4>
+<div class="outline-text-4" id="text-org5b270b3">
+</div>
+</div>
+<div id="outline-container-orgd53ab4f" class="outline-4">
+<h4 id="orgd53ab4f"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26390716/">张大春: 大唐李白·将进酒</a></h4>
+<div class="outline-text-4" id="text-orgd53ab4f">
 </div>
 </div>
 </div>
-<div id="outline-container-orgb3a8305" class="outline-3">
-<h3 id="orgb3a8305">八月<code>[9/9]</code></h3>
-<div class="outline-text-3" id="text-orgb3a8305">
+<div id="outline-container-orgcce63d1" class="outline-3">
+<h3 id="orgcce63d1">八月<code>[9/9]</code></h3>
+<div class="outline-text-3" id="text-orgcce63d1">
 </div>
-<div id="outline-container-org7ca60dd" class="outline-4">
-<h4 id="org7ca60dd"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/6990284/">瑞恩: 布道之道</a></h4>
-<div class="outline-text-4" id="text-org7ca60dd">
-</div>
-</div>
-<div id="outline-container-orga823214" class="outline-4">
-<h4 id="orga823214"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3071402/">(美)伽莫夫:物理世界奇遇记</a></h4>
-<div class="outline-text-4" id="text-orga823214">
+<div id="outline-container-orgd9080a1" class="outline-4">
+<h4 id="orgd9080a1"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/6990284/">瑞恩: 布道之道</a></h4>
+<div class="outline-text-4" id="text-orgd9080a1">
 </div>
 </div>
-<div id="outline-container-orgf3011c6" class="outline-4">
-<h4 id="orgf3011c6"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1461005/">George Leonard: Mastery</a></h4>
-<div class="outline-text-4" id="text-orgf3011c6">
+<div id="outline-container-org7898c2b" class="outline-4">
+<h4 id="org7898c2b"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3071402/">(美)伽莫夫:物理世界奇遇记</a></h4>
+<div class="outline-text-4" id="text-org7898c2b">
 </div>
 </div>
-<div id="outline-container-orgfd04e47" class="outline-4">
-<h4 id="orgfd04e47"><span class="done DONE">DONE</span> <a href="http://gen.lib.rus.ec/search.php?req=get%20things%20done%20for%20hackers&amp;open=0&amp;view=simple&amp;column=def">Lars Wirzenius: Get things done for hackers</a></h4>
-<div class="outline-text-4" id="text-orgfd04e47">
+<div id="outline-container-org1bf2b89" class="outline-4">
+<h4 id="org1bf2b89"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1461005/">George Leonard: Mastery</a></h4>
+<div class="outline-text-4" id="text-org1bf2b89">
 </div>
 </div>
-<div id="outline-container-orgf5ed174" class="outline-4">
-<h4 id="orgf5ed174"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26541801/">范冰: 增长黑客</a></h4>
-<div class="outline-text-4" id="text-orgf5ed174">
+<div id="outline-container-orgd4b2b2d" class="outline-4">
+<h4 id="orgd4b2b2d"><span class="done DONE">DONE</span> <a href="http://gen.lib.rus.ec/search.php?req=get%20things%20done%20for%20hackers&amp;open=0&amp;view=simple&amp;column=def">Lars Wirzenius: Get things done for hackers</a></h4>
+<div class="outline-text-4" id="text-orgd4b2b2d">
 </div>
 </div>
-<div id="outline-container-org3821fb5" class="outline-4">
-<h4 id="org3821fb5"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25878500/">钟殿舟: 互联网思维</a></h4>
-<div class="outline-text-4" id="text-org3821fb5">
+<div id="outline-container-org42a090a" class="outline-4">
+<h4 id="org42a090a"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26541801/">范冰: 增长黑客</a></h4>
+<div class="outline-text-4" id="text-org42a090a">
 </div>
 </div>
-<div id="outline-container-org5e84a24" class="outline-4">
-<h4 id="org5e84a24"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/24107596/">(美) 威廉·吉布森: 神经漫游者</a></h4>
-<div class="outline-text-4" id="text-org5e84a24">
+<div id="outline-container-orgd559ccd" class="outline-4">
+<h4 id="orgd559ccd"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25878500/">钟殿舟: 互联网思维</a></h4>
+<div class="outline-text-4" id="text-orgd559ccd">
+</div>
+</div>
+<div id="outline-container-orge65ea7b" class="outline-4">
+<h4 id="orge65ea7b"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/24107596/">(美) 威廉·吉布森: 神经漫游者</a></h4>
+<div class="outline-text-4" id="text-orge65ea7b">
 </div>
 </div>
 
-<div id="outline-container-orga45fa22" class="outline-4">
-<h4 id="orga45fa22"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/22158363/">胡适: 习惯重于方法</a></h4>
+<div id="outline-container-org218f27a" class="outline-4">
+<h4 id="org218f27a"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/22158363/">胡适: 习惯重于方法</a></h4>
 </div>
-<div id="outline-container-org1681721" class="outline-4">
-<h4 id="org1681721"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/10733032/">郭凯: 王二的经济学故事</a></h4>
-<div class="outline-text-4" id="text-org1681721">
-</div>
-</div>
-</div>
-<div id="outline-container-orge76cda3" class="outline-3">
-<h3 id="orge76cda3">九月<code>[6/6]</code></h3>
-<div class="outline-text-3" id="text-orge76cda3">
-</div>
-<div id="outline-container-orgafadab6" class="outline-4">
-<h4 id="orgafadab6"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/6523997/">Jesse James Garrett: 用户体验要素</a></h4>
-<div class="outline-text-4" id="text-orgafadab6">
-</div>
-</div>
-<div id="outline-container-orgd4f72ce" class="outline-4">
-<h4 id="orgd4f72ce"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26462816/">(日)大塚弘记: GitHub 入门与实践</a></h4>
-<div class="outline-text-4" id="text-orgd4f72ce">
-</div>
-</div>
-<div id="outline-container-orgff6f2cd" class="outline-4">
-<h4 id="orgff6f2cd"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26421222/">王瑜: 互联网产品视觉设计·导航篇</a></h4>
-<div class="outline-text-4" id="text-orgff6f2cd">
-</div>
-</div>
-<div id="outline-container-org82b82e6" class="outline-4">
-<h4 id="org82b82e6"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26575141/">吴声: 场景革命</a></h4>
-<div class="outline-text-4" id="text-org82b82e6">
-</div>
-</div>
-<div id="outline-container-org3c71c3f" class="outline-4">
-<h4 id="org3c71c3f"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26177870/">杨晓平:经·理@互联网产品经理的进阶修炼</a></h4>
-<div class="outline-text-4" id="text-org3c71c3f">
-</div>
-</div>
-<div id="outline-container-orgfbf5c24" class="outline-4">
-<h4 id="orgfbf5c24"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25978734/">马伯庸: 笑翻中国简史</a></h4>
-<div class="outline-text-4" id="text-orgfbf5c24">
+<div id="outline-container-org5973e1c" class="outline-4">
+<h4 id="org5973e1c"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/10733032/">郭凯: 王二的经济学故事</a></h4>
+<div class="outline-text-4" id="text-org5973e1c">
 </div>
 </div>
 </div>
-<div id="outline-container-org5c45245" class="outline-3">
-<h3 id="org5c45245">十月<code>[6/6]</code></h3>
-<div class="outline-text-3" id="text-org5c45245">
+<div id="outline-container-org6514034" class="outline-3">
+<h3 id="org6514034">九月<code>[6/6]</code></h3>
+<div class="outline-text-3" id="text-org6514034">
 </div>
-<div id="outline-container-orgdf90640" class="outline-4">
-<h4 id="orgdf90640"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26596778/">刘鹏: 计算广告</a></h4>
-<div class="outline-text-4" id="text-orgdf90640">
-</div>
-</div>
-<div id="outline-container-orgc924a4e" class="outline-4">
-<h4 id="orgc924a4e"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25768459/">(美)亚伯拉罕•马斯洛: 动机与人格</a></h4>
-<div class="outline-text-4" id="text-orgc924a4e">
+<div id="outline-container-orgbb9994a" class="outline-4">
+<h4 id="orgbb9994a"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/6523997/">Jesse James Garrett: 用户体验要素</a></h4>
+<div class="outline-text-4" id="text-orgbb9994a">
 </div>
 </div>
-<div id="outline-container-org45bb29e" class="outline-4">
-<h4 id="org45bb29e"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26589080/">徐志斌: 社交红利 2.0</a></h4>
-<div class="outline-text-4" id="text-org45bb29e">
+<div id="outline-container-org916fc46" class="outline-4">
+<h4 id="org916fc46"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26462816/">(日)大塚弘记: GitHub 入门与实践</a></h4>
+<div class="outline-text-4" id="text-org916fc46">
 </div>
 </div>
-<div id="outline-container-orgb99ca8c" class="outline-4">
-<h4 id="orgb99ca8c"><span class="done DONE">DONE</span> <a href="http://yuedu.baidu.com/ebook/5e5a74d102d276a200292ebc">张亮: 从零开始做运营</a></h4>
-<div class="outline-text-4" id="text-orgb99ca8c">
+<div id="outline-container-org1dd9553" class="outline-4">
+<h4 id="org1dd9553"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26421222/">王瑜: 互联网产品视觉设计·导航篇</a></h4>
+<div class="outline-text-4" id="text-org1dd9553">
 </div>
 </div>
-<div id="outline-container-orgc33e39f" class="outline-4">
-<h4 id="orgc33e39f"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/4780053/">史杰鹏: 亭长小武</a></h4>
-<div class="outline-text-4" id="text-orgc33e39f">
+<div id="outline-container-orge8aa7c1" class="outline-4">
+<h4 id="orge8aa7c1"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26575141/">吴声: 场景革命</a></h4>
+<div class="outline-text-4" id="text-orge8aa7c1">
 </div>
 </div>
-<div id="outline-container-orgf7a42fe" class="outline-4">
-<h4 id="orgf7a42fe"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25723443/">徐建极:产品经理的 20 堂必修课</a></h4>
-<div class="outline-text-4" id="text-orgf7a42fe">
+<div id="outline-container-orgcabfa3e" class="outline-4">
+<h4 id="orgcabfa3e"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26177870/">杨晓平:经·理@互联网产品经理的进阶修炼</a></h4>
+<div class="outline-text-4" id="text-orgcabfa3e">
 </div>
 </div>
-</div>
-<div id="outline-container-org9166477" class="outline-3">
-<h3 id="org9166477">十一月<code>[6/6]</code></h3>
-<div class="outline-text-3" id="text-org9166477">
-</div>
-<div id="outline-container-orgf4c1e11" class="outline-4">
-<h4 id="orgf4c1e11"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/22994632/">海蒂·格兰特·霍尔沃森: 成功，动机与目标</a></h4>
-<div class="outline-text-4" id="text-orgf4c1e11">
-</div>
-</div>
-<div id="outline-container-org270711a" class="outline-4">
-<h4 id="org270711a"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26371405/">京东商学院:京东平台运营攻略</a></h4>
-<div class="outline-text-4" id="text-org270711a">
-</div>
-</div>
-<div id="outline-container-org0d8250e" class="outline-4">
-<h4 id="org0d8250e"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26644275/">第八公社:产品前线</a></h4>
-<div class="outline-text-4" id="text-org0d8250e">
-</div>
-</div>
-<div id="outline-container-org08d40d1" class="outline-4">
-<h4 id="org08d40d1"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/20644893/">张波:O2O 移动互联网时代的商业革命</a></h4>
-<div class="outline-text-4" id="text-org08d40d1">
-</div>
-</div>
-<div id="outline-container-org020fb05" class="outline-4">
-<h4 id="org020fb05"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26022186/">腾讯科技频道:跨界</a></h4>
-<div class="outline-text-4" id="text-org020fb05">
-</div>
-</div>
-<div id="outline-container-org1b922b8" class="outline-4">
-<h4 id="org1b922b8"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/6749832/">梅拉妮·米歇尔:复杂</a></h4>
-<div class="outline-text-4" id="text-org1b922b8">
+<div id="outline-container-org364927c" class="outline-4">
+<h4 id="org364927c"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25978734/">马伯庸: 笑翻中国简史</a></h4>
+<div class="outline-text-4" id="text-org364927c">
 </div>
 </div>
 </div>
-<div id="outline-container-org16ec6cb" class="outline-3">
-<h3 id="org16ec6cb">十二月<code>[7/7]</code></h3>
-<div class="outline-text-3" id="text-org16ec6cb">
+<div id="outline-container-org7c5e093" class="outline-3">
+<h3 id="org7c5e093">十月<code>[6/6]</code></h3>
+<div class="outline-text-3" id="text-org7c5e093">
 </div>
-<div id="outline-container-orge31db20" class="outline-4">
-<h4 id="orge31db20"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26658379/">凯文凯利: 必然</a></h4>
+<div id="outline-container-org4affcb4" class="outline-4">
+<h4 id="org4affcb4"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26596778/">刘鹏: 计算广告</a></h4>
+<div class="outline-text-4" id="text-org4affcb4">
 </div>
-<div id="outline-container-org580aa92" class="outline-4">
-<h4 id="org580aa92"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/10511253/">熊逸: 周易江湖</a></h4>
 </div>
-<div id="outline-container-org5ad006a" class="outline-4">
-<h4 id="org5ad006a"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/6725981/">熊逸: 道可道</a></h4>
+<div id="outline-container-org59d419e" class="outline-4">
+<h4 id="org59d419e"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25768459/">(美)亚伯拉罕•马斯洛: 动机与人格</a></h4>
+<div class="outline-text-4" id="text-org59d419e">
 </div>
-<div id="outline-container-orgbfc87da" class="outline-4">
-<h4 id="orgbfc87da"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1941558/">原研哉: 设计中的设计</a></h4>
 </div>
-<div id="outline-container-org92d24e3" class="outline-4">
-<h4 id="org92d24e3"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26278639/">克罗尔: 精益数据分析</a></h4>
+<div id="outline-container-org96da23e" class="outline-4">
+<h4 id="org96da23e"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26589080/">徐志斌: 社交红利 2.0</a></h4>
+<div class="outline-text-4" id="text-org96da23e">
 </div>
-<div id="outline-container-org26785a8" class="outline-4">
-<h4 id="org26785a8"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3169342/">Peter Morville: Web 信息架构</a></h4>
 </div>
-<div id="outline-container-org11c0724" class="outline-4">
-<h4 id="org11c0724"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26350953/">ExcelHome: 别怕, Excel 函数其实很简单</a></h4>
+<div id="outline-container-org9b72c7d" class="outline-4">
+<h4 id="org9b72c7d"><span class="done DONE">DONE</span> <a href="http://yuedu.baidu.com/ebook/5e5a74d102d276a200292ebc">张亮: 从零开始做运营</a></h4>
+<div class="outline-text-4" id="text-org9b72c7d">
+</div>
+</div>
+<div id="outline-container-orgbd3b170" class="outline-4">
+<h4 id="orgbd3b170"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/4780053/">史杰鹏: 亭长小武</a></h4>
+<div class="outline-text-4" id="text-orgbd3b170">
+</div>
+</div>
+<div id="outline-container-orga8459cf" class="outline-4">
+<h4 id="orga8459cf"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/25723443/">徐建极:产品经理的 20 堂必修课</a></h4>
+<div class="outline-text-4" id="text-orga8459cf">
+</div>
+</div>
+</div>
+<div id="outline-container-org9e559de" class="outline-3">
+<h3 id="org9e559de">十一月<code>[6/6]</code></h3>
+<div class="outline-text-3" id="text-org9e559de">
+</div>
+<div id="outline-container-org556e337" class="outline-4">
+<h4 id="org556e337"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/22994632/">海蒂·格兰特·霍尔沃森: 成功，动机与目标</a></h4>
+<div class="outline-text-4" id="text-org556e337">
+</div>
+</div>
+<div id="outline-container-org98e23ce" class="outline-4">
+<h4 id="org98e23ce"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26371405/">京东商学院:京东平台运营攻略</a></h4>
+<div class="outline-text-4" id="text-org98e23ce">
+</div>
+</div>
+<div id="outline-container-orgc02888a" class="outline-4">
+<h4 id="orgc02888a"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26644275/">第八公社:产品前线</a></h4>
+<div class="outline-text-4" id="text-orgc02888a">
+</div>
+</div>
+<div id="outline-container-org63e9c46" class="outline-4">
+<h4 id="org63e9c46"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/20644893/">张波:O2O 移动互联网时代的商业革命</a></h4>
+<div class="outline-text-4" id="text-org63e9c46">
+</div>
+</div>
+<div id="outline-container-orgff39705" class="outline-4">
+<h4 id="orgff39705"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26022186/">腾讯科技频道:跨界</a></h4>
+<div class="outline-text-4" id="text-orgff39705">
+</div>
+</div>
+<div id="outline-container-orgb97ab40" class="outline-4">
+<h4 id="orgb97ab40"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/6749832/">梅拉妮·米歇尔:复杂</a></h4>
+<div class="outline-text-4" id="text-orgb97ab40">
+</div>
+</div>
+</div>
+<div id="outline-container-orgfc4c429" class="outline-3">
+<h3 id="orgfc4c429">十二月<code>[7/7]</code></h3>
+<div class="outline-text-3" id="text-orgfc4c429">
+</div>
+<div id="outline-container-orgf02f85c" class="outline-4">
+<h4 id="orgf02f85c"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26658379/">凯文凯利: 必然</a></h4>
+</div>
+<div id="outline-container-org2b72068" class="outline-4">
+<h4 id="org2b72068"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/10511253/">熊逸: 周易江湖</a></h4>
+</div>
+<div id="outline-container-org7162827" class="outline-4">
+<h4 id="org7162827"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/6725981/">熊逸: 道可道</a></h4>
+</div>
+<div id="outline-container-org6205c15" class="outline-4">
+<h4 id="org6205c15"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/1941558/">原研哉: 设计中的设计</a></h4>
+</div>
+<div id="outline-container-org4e6c564" class="outline-4">
+<h4 id="org4e6c564"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26278639/">克罗尔: 精益数据分析</a></h4>
+</div>
+<div id="outline-container-org03d6d2b" class="outline-4">
+<h4 id="org03d6d2b"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/3169342/">Peter Morville: Web 信息架构</a></h4>
+</div>
+<div id="outline-container-org0aaa926" class="outline-4">
+<h4 id="org0aaa926"><span class="done DONE">DONE</span> <a href="http://book.douban.com/subject/26350953/">ExcelHome: 别怕, Excel 函数其实很简单</a></h4>
 </div>
 </div>
 </div>
@@ -7694,9 +7773,9 @@ GAFA，这篇文章通过翔实的分析告诉你我们的生活如何被科技�
 遇到了这六种心态的同事.
 </p>
 
-<div id="outline-container-org18c8726" class="outline-2">
-<h2 id="org18c8726">第一层: Minimal(得过且过)</h2>
-<div class="outline-text-2" id="text-org18c8726">
+<div id="outline-container-org243e85e" class="outline-2">
+<h2 id="org243e85e">第一层: Minimal(得过且过)</h2>
+<div class="outline-text-2" id="text-org243e85e">
 <p>
 对于这种心态的人来说, 在工作中能少做就尽量少做, 能不做就不做. 目标就是不
 会被开除掉就行. 他们的心态就是「混」, 有活来了就和 <code>杠精</code> 一样, 各种推拖,
@@ -7706,9 +7785,9 @@ GAFA，这篇文章通过翔实的分析告诉你我们的生活如何被科技�
 </div>
 </div>
 
-<div id="outline-container-orgefe2fb4" class="outline-2">
-<h2 id="orgefe2fb4">第二层: Average(等价交换)</h2>
-<div class="outline-text-2" id="text-orgefe2fb4">
+<div id="outline-container-org04006d0" class="outline-2">
+<h2 id="org04006d0">第二层: Average(等价交换)</h2>
+<div class="outline-text-2" id="text-org04006d0">
 <p>
 对于这种心态的人来说, 拿多少钱干多少活. 职场中遇到的大多数人其实都属于这
 个层级. 工作安排下来, 按自己的节奏正常往前走, 不推不挡, 也不急不躁, 偶尔
@@ -7717,9 +7796,9 @@ GAFA，这篇文章通过翔实的分析告诉你我们的生活如何被科技�
 </div>
 </div>
 
-<div id="outline-container-org53c1e25" class="outline-2">
-<h2 id="org53c1e25">第三层: Hard(加班狂人)</h2>
-<div class="outline-text-2" id="text-org53c1e25">
+<div id="outline-container-orgd1ddf8c" class="outline-2">
+<h2 id="orgd1ddf8c">第三层: Hard(加班狂人)</h2>
+<div class="outline-text-2" id="text-orgd1ddf8c">
 <p>
 踏实认真, 投入大量时间在工作上. 表现为每天到的早, 走的晚, 勤劳小蜜蜂. 这
 种类型的同事已经比较难得, 虽然不一定加班一定出成果, 但起码态度上让老板没
@@ -7728,9 +7807,9 @@ GAFA，这篇文章通过翔实的分析告诉你我们的生活如何被科技�
 </div>
 </div>
 
-<div id="outline-container-org500485d" class="outline-2">
-<h2 id="org500485d">第四层: Smart(逻辑清晰)</h2>
-<div class="outline-text-2" id="text-org500485d">
+<div id="outline-container-org868da99" class="outline-2">
+<h2 id="org868da99">第四层: Smart(逻辑清晰)</h2>
+<div class="outline-text-2" id="text-org868da99">
 <p>
 上学的时候, 都遇到过平时看着不怎么学习, 但考试时成绩贼好的同学. 这些人上
 班后竟然也能一以贯之, 平时下班到点就闪人, 很少见他们加班拼命, 但沟通事情
@@ -7740,9 +7819,9 @@ GAFA，这篇文章通过翔实的分析告诉你我们的生活如何被科技�
 </div>
 </div>
 
-<div id="outline-container-org95b63d2" class="outline-2">
-<h2 id="org95b63d2">第五层: Smart + Hard (智商高还努力)</h2>
-<div class="outline-text-2" id="text-org95b63d2">
+<div id="outline-container-org32f9970" class="outline-2">
+<h2 id="org32f9970">第五层: Smart + Hard (智商高还努力)</h2>
+<div class="outline-text-2" id="text-org32f9970">
 <p>
 起点比你高, 还比你更加努力, 你身边一定有这种人的存在. 他们脑子清楚, 而且
 干起活来不要命的拼. 站在他们旁边, 你心里兴不起吐嘈的念头, 只能默默叹气,
@@ -7751,9 +7830,9 @@ GAFA，这篇文章通过翔实的分析告诉你我们的生活如何被科技�
 </div>
 </div>
 
-<div id="outline-container-orge4891b7" class="outline-2">
-<h2 id="orge4891b7">第六层: Smart + Hard, 24/7 (活着就是为了工作)</h2>
-<div class="outline-text-2" id="text-orge4891b7">
+<div id="outline-container-orgbfba20c" class="outline-2">
+<h2 id="orgbfba20c">第六层: Smart + Hard, 24/7 (活着就是为了工作)</h2>
+<div class="outline-text-2" id="text-orgbfba20c">
 <p>
 这个层级的人, 一般就是 CEO 那个 Level 了. 工作在他们眼中已经不再是工作, 工作
 就是人生, 工作就是全部. 生活也是在配合着工作的节奏进行. 他们不会觉得上班
@@ -7776,9 +7855,9 @@ GAFA，这篇文章通过翔实的分析告诉你我们的生活如何被科技�
         <div class="col-md-2"></div>
             <h1>互联网概念</h1>
             
-<div id="outline-container-orgcf8a025" class="outline-2">
-<h2 id="orgcf8a025">人口红利</h2>
-<div class="outline-text-2" id="text-orgcf8a025">
+<div id="outline-container-org15d6bde" class="outline-2">
+<h2 id="org15d6bde">人口红利</h2>
+<div class="outline-text-2" id="text-org15d6bde">
 <p>
 所谓人口红利，从社会学角度讲，是指一个国家的劳动年龄人口占总人口比重较大，抚养率
 比较低，为经济发展创造了有利的人口条件。
@@ -7789,9 +7868,9 @@ GAFA，这篇文章通过翔实的分析告诉你我们的生活如何被科技�
 </p>
 </div>
 </div>
-<div id="outline-container-org97f801e" class="outline-2">
-<h2 id="org97f801e">网络效应</h2>
-<div class="outline-text-2" id="text-org97f801e">
+<div id="outline-container-orgf4795c8" class="outline-2">
+<h2 id="orgf4795c8">网络效应</h2>
+<div class="outline-text-2" id="text-orgf4795c8">
 <p>
 又称网络外部性（network externality），指在经济学或商业中，消费者选用某项商品或
 服务，其所获得的效用与“使用该商品或服务的其他用户人数”具有相关性时，此商品或服务
@@ -7816,9 +7895,9 @@ GAFA，这篇文章通过翔实的分析告诉你我们的生活如何被科技�
 </p>
 </div>
 </div>
-<div id="outline-container-orgadad3be" class="outline-2">
-<h2 id="orgadad3be">国民总时间</h2>
-<div class="outline-text-2" id="text-orgadad3be">
+<div id="outline-container-orge2099eb" class="outline-2">
+<h2 id="orge2099eb">国民总时间</h2>
+<div class="outline-text-2" id="text-orge2099eb">
 <p>
 GNT(Gross National Time) = W(网民总数) * T(网民日均上网时间)
 </p>
@@ -7830,9 +7909,9 @@ GNT(Gross National Time) = W(网民总数) * T(网民日均上网时间)
 </div>
 </div>
 
-<div id="outline-container-org6a0e304" class="outline-2">
-<h2 id="org6a0e304">消费互联网</h2>
-<div class="outline-text-2" id="text-org6a0e304">
+<div id="outline-container-org7e90523" class="outline-2">
+<h2 id="org7e90523">消费互联网</h2>
+<div class="outline-text-2" id="text-org7e90523">
 <p>
 消费互联网面对的是消费者个人, 它的商业模式以“眼球经济”为主，即通过内容和信息来获
 得流量，从而通过流量变现的形式吸引投资商，最终形成完整的产业链条。
@@ -7843,9 +7922,9 @@ GNT(Gross National Time) = W(网民总数) * T(网民日均上网时间)
 </p>
 </div>
 </div>
-<div id="outline-container-org781fd53" class="outline-2">
-<h2 id="org781fd53">产业互联网</h2>
-<div class="outline-text-2" id="text-org781fd53">
+<div id="outline-container-org35a2be0" class="outline-2">
+<h2 id="org35a2be0">产业互联网</h2>
+<div class="outline-text-2" id="text-org35a2be0">
 <p>
 产业互联网，必须是“产业+互联网”，而不是“互联网+场景应用”，它是以产业为基础，从产
 业出发，而不是从互联网出发；产业是基础、产业的互联网是技术手段、价值的实现是根本.
@@ -7857,9 +7936,9 @@ GNT(Gross National Time) = W(网民总数) * T(网民日均上网时间)
 </p>
 </div>
 </div>
-<div id="outline-container-org75f9487" class="outline-2">
-<h2 id="org75f9487">物联网</h2>
-<div class="outline-text-2" id="text-org75f9487">
+<div id="outline-container-org4b37ee4" class="outline-2">
+<h2 id="org4b37ee4">物联网</h2>
+<div class="outline-text-2" id="text-org4b37ee4">
 <p>
 <a href="https://www.wikiwand.com/zh-hans/%E7%89%A9%E8%81%94%E7%BD%91">物联网</a>（英语：Internet of Things，缩写 IoT）是互联网、传统电信网等资讯承载体，让
 所有能行使独立功能的普通物体实现互联互通的网络。
@@ -7876,9 +7955,9 @@ GNT(Gross National Time) = W(网民总数) * T(网民日均上网时间)
 </p>
 </div>
 </div>
-<div id="outline-container-orgaee300d" class="outline-2">
-<h2 id="orgaee300d">人工智能</h2>
-<div class="outline-text-2" id="text-orgaee300d">
+<div id="outline-container-org5c535ca" class="outline-2">
+<h2 id="org5c535ca">人工智能</h2>
+<div class="outline-text-2" id="text-org5c535ca">
 <p>
 <a href="https://www.wikiwand.com/zh-hans/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">人工智能</a>（英语：artificial intelligence，缩写为 AI）亦称机器智能，指由人制造出来
 的机器所表现出来的智能。
@@ -7919,8 +7998,8 @@ Spacemacs = Vim + Emacs
 这篇文章，就记录一下自己是怎么从零开始配置一个符合自己使用习惯的 Spacemacs。
 </p>
 
-<div id="outline-container-orgac08811" class="outline-2">
-<h2 id="orgac08811"><span class="section-number-2">1</span> 安装</h2>
+<div id="outline-container-org71e7251" class="outline-2">
+<h2 id="org71e7251"><span class="section-number-2">1</span> 安装</h2>
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
 <li>安装 <a href="https://emacsformacosx.com/">Emacs</a></li>
@@ -7940,8 +8019,8 @@ clone 完成后，会多两个东西，
 </div>
 </div>
 
-<div id="outline-container-orga765cab" class="outline-2">
-<h2 id="orga765cab"><span class="section-number-2">2</span> 配置</h2>
+<div id="outline-container-org0159e6a" class="outline-2">
+<h2 id="org0159e6a"><span class="section-number-2">2</span> 配置</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 安装完成后，对于常规的配置，可以放置到 <code>~/.spacemacs</code> 文件中，就像 Vim 和 Zsh 一样。
@@ -7953,8 +8032,8 @@ clone 完成后，会多两个东西，
 </p>
 </div>
 
-<div id="outline-container-org94db285" class="outline-3">
-<h3 id="org94db285"><span class="section-number-3">2.1</span> .spacemacs</h3>
+<div id="outline-container-org36285c4" class="outline-3">
+<h3 id="org36285c4"><span class="section-number-3">2.1</span> .spacemacs</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li><p>
@@ -8113,8 +8192,8 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-org4257e4a" class="outline-3">
-<h3 id="org4257e4a"><span class="section-number-3">2.2</span> private layer</h3>
+<div id="outline-container-org1b05143" class="outline-3">
+<h3 id="org1b05143"><span class="section-number-3">2.2</span> private layer</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 首先把自己 layer 中想要的 packages 给列好, 并设置相应的启动配置项:
@@ -8336,9 +8415,9 @@ you should place your code here."
         <div class="col-md-2"></div>
             <h1>使用 Org-Page 搭建网站</h1>
             
-<div id="outline-container-org133eca6" class="outline-2">
-<h2 id="org133eca6">安装 Org-Page</h2>
-<div class="outline-text-2" id="text-org133eca6">
+<div id="outline-container-orgee9847b" class="outline-2">
+<h2 id="orgee9847b">安装 Org-Page</h2>
+<div class="outline-text-2" id="text-orgee9847b">
 <p>
 使用 <code>Spacemacs</code> 安装 Org-Page 极其方便. 只需要在自己的 layer 中增加 org-page 即可:
 </p>
@@ -8356,9 +8435,9 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-org6beddb3" class="outline-2">
-<h2 id="org6beddb3">配置 Org-Page</h2>
-<div class="outline-text-2" id="text-org6beddb3">
+<div id="outline-container-orgb9c0872" class="outline-2">
+<h2 id="orgb9c0872">配置 Org-Page</h2>
+<div class="outline-text-2" id="text-orgb9c0872">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(defun lijigang/init-org-page()
   "Initialize org-page to publish blog."
@@ -8402,9 +8481,9 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-orga1d2dc5" class="outline-2">
-<h2 id="orga1d2dc5">安装主题</h2>
-<div class="outline-text-2" id="text-orga1d2dc5">
+<div id="outline-container-orgdd5b8de" class="outline-2">
+<h2 id="orgdd5b8de">安装主题</h2>
+<div class="outline-text-2" id="text-orgdd5b8de">
 <ol class="org-ol">
 <li>git clone <a href="https://github.com/lijigang/ljg">https://github.com/lijigang/ljg</a></li>
 
@@ -8420,208 +8499,6 @@ you should place your code here."
 ]]></description>
       <pubDate>2018-10-16</pubDate>
       <guid>http://lijigang.github.io/blog/使用-org-page-搭建网站/</guid>
-    </item>
-    <item>
-      <title>在 Orgmode 中使用 PlantUML 画时序图</title>
-      <link>http://lijigang.github.io/blog/在-orgmode-中使用-plantuml-画时序图/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>在 Orgmode 中使用 PlantUML 画时序图</h1>
-            
-<div id="outline-container-org955583e" class="outline-2">
-<h2 id="org955583e">配置使用 PlantUML</h2>
-<div class="outline-text-2" id="text-org955583e">
-<ol class="org-ol">
-<li><p>
-配置 babel 变量支持
-</p>
-<div class="org-src-container">
-<pre class="src src-emacs-lisp">(org-babel-do-load-languages
-  'org-babel-load-languages
-  '(;; other Babel languages
-    (plantuml . t)))
-</pre>
-</div></li>
-
-<li><p>
-配置 jar 文件路径
-</p>
-<div class="org-src-container">
-<pre class="src src-emacs-lisp">(setq org-plantuml-jar-path
-      (expand-file-name "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/org/org-resources/plantuml.jar"))
-</pre>
-</div></li>
-</ol>
-</div>
-</div>
-
-<div id="outline-container-orgdd622cf" class="outline-2">
-<h2 id="orgdd622cf">PlantUML 时序图配置方法</h2>
-<div class="outline-text-2" id="text-orgdd622cf">
-<ol class="org-ol">
-<li><p>
-基础用法
-</p>
-
-<p>
--&gt; 参与者之间传递消息的箭头
-</p>
-
-<p>
-&#x2013;&gt; 虚线的箭头, 可以用于表示返回消息
-</p>
-
-<p>
-箭头颜色的修改, 可通过在- 和 &gt; 之间添加 [#颜色代码] 实现
-</p>
-
-<p>
-如需对消息自动添加编号, 只需要添加关键词 autonumber 即可
-</p>
-
-<p>
-:cmdline -charset utf-8  在 orgmode 的代码块参数加上这个配置, 解决中文乱码问题
-</p>
-
-<div class="org-src-container">
-<pre class="src src-:exports">autonumber
-Phone -&gt; Server : 请求网页
-Server --[#0c0f0a]&gt; Phone : 返回 HTML
-</pre>
-</div>
-
-
-<div class="figure">
-<p><img src="/assets/blog/在-orgmode-中使用-plantuml-画时序图/basic.png" alt="basic.png" />
-</p>
-</div></li>
-
-<li><p>
-参与者名称和类型
-</p>
-
-<p>
-参与者的类型除了默认的长方形这种样式以外, 还支持其它类型, 最常用的包括 actor 和 database 等.
-</p>
-
-<p>
-有时候一个参与者名称较长, 在多次使用时为避免麻烦, 可使用 as 关键词给它定义一个别名.
-</p>
-
-<p>
-参与者是中文或者是多个英文单词时, 需使用""引号.
-</p>
-
-<p>
-参与者的前景色也可以指定, 直接在参与者后面添加代码颜色即可.
-</p>
-
-<div class="org-src-container">
-<pre class="src src-:exports">actor Phone #ffff00
-database Server as s #41ead4
-Phone -&gt; s : 请求网页
-s --&gt; Phone : 返回 HTML
-</pre>
-</div>
-
-
-<div class="figure">
-<p><img src="/assets/blog/在-orgmode-中使用-plantuml-画时序图/participant.png" alt="participant.png" />
-</p>
-</div></li>
-
-<li><p>
-表示 delay
-</p>
-
-<p>
-有时候消息传递过程中会出现 delay 现象, 如停顿 3 分钟后, 再返回结果. 可以通过&#x2026;来表示 dalay:
-</p>
-
-<div class="org-src-container">
-<pre class="src src-:exports">actor Phone #ffff00
-database Server as s #41ead4
-Phone -&gt; s : 请求网页
-...
-s --&gt; Phone : 返回 HTML
-Phone -&gt; Phone : 解析网页
-...解析三秒...
-Phone -&gt; Phone : 成功加载
-</pre>
-</div>
-
-
-<div class="figure">
-<p><img src="/assets/blog/在-orgmode-中使用-plantuml-画时序图/delay.png" alt="delay.png" />
-</p>
-</div></li>
-
-<li><p>
-配色配置
-</p>
-
-<p>
-默认生成的结果中, 上下都有参与者, 需要不想要下面的显示, 可以通过使用 hide footbox 关键词移除.
-</p>
-
-<p>
-使用 skinparam 命令改变颜色和字体:
-</p>
-
-<p>
-skinparam backgroundColor #EEEBDC 修改图片背景色
-</p>
-
-<p>
-skinparam sequenceArrowThickness 2 修改箭头粗细度
-</p>
-
-<p>
-skinparam roundcorner 20 修改参与者形状
-</p>
-
-<p>
-skinparam handwritten true 打开手绘风格
-</p>
-
-<div class="org-src-container">
-<pre class="src src-:exports">
-skinparam backgroundColor #EEEBDC
-
-skinparam sequenceArrowThickness 2
-
-skinparam roundcorner 20
-
-skinparam handwritten true
-
-hide footbox
-
-actor Phone #ffff00
-database Server as s #41ead4
-Phone -&gt; s : 请求网页
-...
-s --&gt; Phone : 返回 HTML
-Phone -&gt; Phone : 解析网页
-...解析三秒...
-Phone -&gt; Phone : 成功加载
-</pre>
-</div>
-
-
-<div class="figure">
-<p><img src="/assets/blog/在-orgmode-中使用-plantuml-画时序图/skinparam.png" alt="skinparam.png" />
-</p>
-</div></li>
-</ol>
-</div>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2018-10-09</pubDate>
-      <guid>http://lijigang.github.io/blog/在-orgmode-中使用-plantuml-画时序图/</guid>
     </item>
   </channel>
 </rss>
