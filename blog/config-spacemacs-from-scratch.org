@@ -1,6 +1,6 @@
 #+title: 从零开始配置 Spacemacs
 #+author: lijigang <i@lijigang.com>
-#+DATE: <2018-11-14 Wed 19:30>
+#+DATE: <2018-06-14 Thu 19:30>
 #+OPTIONS: toc:nil date:t
 
 在我看来，在文本编辑领域，没有比 Vim 更高效的操作方式了。在文档存储和知识管理相
