@@ -1,6 +1,7 @@
 #+title: 从零开始配置 Spacemacs
 #+author: lijigang <i@lijigang.com>
-#+OPTIONS: toc:nil
+#+DATE: <2018-11-14 Wed 19:30>
+#+OPTIONS: toc:nil date:t
 
 在我看来，在文本编辑领域，没有比 Vim 更高效的操作方式了。在文档存储和知识管理相
 关的软件使用上面，没有比 Org-Mode 更牛逼的存在了。
