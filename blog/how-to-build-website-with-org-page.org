@@ -1,7 +1,6 @@
-#+TITLE:       使用 Org-Page 搭建网站
-#+AUTHOR:      lijigang <i@lijigang.com>
-#+DATE:        2018-05-29 Tue
-#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+TITLE: 使用 Org-Page 搭建网站
+#+DATE: <2019-11-12 Tue 19:38>
+#+OPTIONS: H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t date:t
 
 * 安装 Org-Page
 使用 =Spacemacs= 安装 Org-Page 极其方便. 只需要在自己的 layer 中增加 org-page 即可:

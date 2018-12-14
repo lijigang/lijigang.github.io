@@ -1,4 +1,5 @@
 #+title: 互联网公司: 左手用户至上, 右手售卖用户
+#+DATE: <2019-11-16 Sat 19:41>
 #+options: toc:nil num:nil
 
 今天看到 [[https://stratechery.com/2018/data-factories/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website][一篇文章]], 里面将互联网公司比喻为数据工厂, 同时这篇文章也指出了

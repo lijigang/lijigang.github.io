@@ -1,4 +1,5 @@
 #+title: 工作心态的六个层级
+#+DATE: <2019-10-17 Thu 19:43>
 #+options: toc:nil num:nil
 
 今天看到[[https://swellandcut.com/2018/01/17/the-hierarchy-of-work/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website][一篇文章]], 将面对工作的心态分成了六个层级. 虽然不太认同作者画的那

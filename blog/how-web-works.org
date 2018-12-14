@@ -1,5 +1,6 @@
-#+title: 点击链接后数据是怎么跑动的
-#+options: toc:nil num:nil
+#+title: 点击链接后发生了什么?
+#+DATE: <2019-11-13 Wed 19:39>
+#+options: toc:nil num:nil date:t
 
 之前读过 [[https://github.com/alex/what-happens-when][Github]] 上面的关于从浏览器输入 google.com 到浏览器加载出 google
 首页, 整个技术细节流程的介绍. 最近又在出差的路上读完了 [[https://book.douban.com/subject/26941639/][网络是怎样连接的]]

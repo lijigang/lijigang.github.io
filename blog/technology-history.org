@@ -1,4 +1,5 @@
 #+title: 技术简史: 从野蛮生长到垄断
+#+DATE: <2019-10-15 Tue 19:42>
 
 #+DOWNLOADED: file:/Users/ljg/Downloads/technology-history.png @ 2018-11-01 18:33:54
 [[file:../images/technology-history.png]]
