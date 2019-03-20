@@ -3,6 +3,10 @@
 #+options: toc:nil num:nil
 
 * 表格 [fn:1]
+
+#+DOWNLOADED: file:/Users/ljg/Downloads/excel-table.png @ 2019-03-20 11:51:03
+[[file:../images/excel-table.png]]
+
 表格美化原则:
 ** 字体统一, 字号统一
 ** 数字用千位分隔样式
