@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Dotfile: 用一个 Org 文件管理所有配置 - 遁其一</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="ljg" />
+
+
+  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
+</head>
+
+  <body class="container">
+<header id="header">
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
+        <div class="container-fluid">
+<div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">遁其一</a>
+        </div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/">Blog</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="http://www.zhihu.com/people/lijigang.com">知乎</a></li>
+        </ul>
+</div>
+</div>
+    </nav>
+</body>
+</header>
+
+<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>Dotfile: 用一个 Org 文件管理所有配置</h1>
+            <p>
+<a href="https://github.com/lujun9972/emacs-document/blob/master/org-mode/%E6%95%99%E4%BD%A0%E7%94%A8Org-mode%E7%AE%A1%E7%90%86dotfiles.org">Darksun</a> 在 <a href="https://github.com/lujun9972/emacs-document/blob/master/org-mode/%E6%95%99%E4%BD%A0%E7%94%A8Org-mode%E7%AE%A1%E7%90%86dotfiles.org">这篇文章</a> 里介绍了如何通过一个 org file 管理自己的各种配置文件.
+思路简单来说, 就是通过 tangle org 文件的代码块, 将其插入座到它们应该在的
+地方. 目前我主要使用的还是 Spacemacs 居多, 就试着在这篇文章中将其配置放到
+一个 org file 中.
+</p>
+
+<div id="outline-container-org5bd34d9" class="outline-2">
+<h2 id="org5bd34d9">Spacemacs</h2>
+<div class="outline-text-2" id="text-org5bd34d9">
+<p>
+<a href="https://github.com/syl20bnr/spacemacs">Spacemacs</a> 就是 Emacs 的一套配置。它对 evil 的支持，它的文档完善程度，极大的
+减少了 Emacs 的使用门槛, 让你可以将更多精力花在如何使用 Emacs/Org mode 上面.
+</p>
+
+<p>
+首先确保你电脑上已经安装了 Emacs, 然后可以通过下面的命令将 Spacemacs 默
+认配置下载到本地.
+</p>
+
+<p>
+Spacemacs 有两种配置方法, 一种是通过 <code>~/.spacemacs</code> 文件, 将所有配置都在其
+中. 另一种是可以通过 <code>.spacemaacs.d</code> 目录中的 <code>~/init.el</code> 来配置. 我个人采用
+的是第二种(需确保先删除 ~/.spacemacs 文件).
+</p>
+
+<p>
+然后就可以开始你的个性化定制了, 这里分为两种定制, 一种是 <code>小修</code> 你通过修改
+Spacemacs 变量配置来定制, 另一种是 <code>大改</code> 你通过 Spacemacs 的 layer 机制,
+定制自己的使用场景.
+</p>
+</div>
+
+<div id="outline-container-org9e42039" class="outline-3">
+<h3 id="org9e42039">小修</h3>
+<div class="outline-text-3" id="text-org9e42039">
+<p>
+Spacemacs 默认生成的 ~/.spacemacs 文件中有四个函数:
+</p>
+
+<ol class="org-ol">
+<li><p>
+dotspacemacs/layers       :: 和 layer 相关的配置在这里, 在这里改一些变量值就行
+</p>
+
+<div class="org-src-container">
+<pre class="src src-lisp">(defun dotspacemacs/layers ()
+  "Configuration Layers declaration.
+You should not put any user code in this function besides modifying the
+variable values."
+  (setq-default
+   ;; Base distribution to use. This is a layer contained in the directory
+   ;; `+distribution'. For now available distributions are `spacemacs-base'
+   ;; or `spacemacs'. (default 'spacemacs)
+   dotspacemacs-distribution 'spacemacs
+   ;; Lazy installation of layers (i.e. layers are installed only when a file
+   ;; with a supported type is opened). Possible values are `all', `unused'
+   ;; and `nil'. `unused' will lazy install only unused layers (i.e. layers
+   ;; not listed in variable `dotspacemacs-configuration-layers'), `all' will
+   ;; lazy install any layer that support lazy installation even the layers
+   ;; listed in `dotspacemacs-configuration-layers'. `nil' disable the lazy
+   ;; installation feature and you have to explicitly list a layer in the
+   ;; variable `dotspacemacs-configuration-layers' to install it.
+   ;; (default 'unused)
+   dotspacemacs-enable-lazy-installation 'unused
+   ;; If non-nil then Spacemacs will ask for confirmation before installing
+   ;; a layer lazily. (default t)
+   dotspacemacs-ask-for-lazy-installation t
+   ;; If non-nil layers with lazy install support are lazy installed.
+   ;; List of additional paths where to look for configuration layers.
+   ;; Paths must have a trailing slash (i.e. `~/.mycontribs/')
+   dotspacemacs-configuration-layer-path '()
+   ;; List of configuration layers to load.
+   dotspacemacs-configuration-layers
+   '(
+     yaml
+     python
+     html
+     helm
+     (auto-completion :variables auto-completion-enable-sort-by-usage t
+                      :disabled-for org markdown)
+     better-defaults
+     emacs-lisp
+     osx
+     git
+     lijigang
+     (org :variables
+          org-enable-reveal-js-support t
+          org-download-screenshot-method "screencapture"
+          org-download-image-dir "../images"
+          org-download-heading-lvl nil
+          org-download-timestamp "")
+     )
+   ;; List of additional packages that will be installed without being
+   ;; wrapped in a layer. If you need some configuration for these
+   ;; packages, then consider creating a layer. You can also put the
+   ;; configuration in `dotspacemacs/user-config'.
+   dotspacemacs-additional-packages '()
+   ;; A list of packages that cannot be updated.
+   dotspacemacs-frozen-packages '()
+   ;; A list of packages that will not be installed and loaded.
+   dotspacemacs-excluded-packages '(org-projectile)
+   ;; Defines the behaviour of Spacemacs when installing packages.
+   ;; Possible values are `used-only', `used-but-keep-unused' and `all'.
+   ;; `used-only' installs only explicitly used packages and uninstall any
+   ;; unused packages as well as their unused dependencies.
+   ;; `used-but-keep-unused' installs only the used packages but won't uninstall
+   ;; them if they become unused. `all' installs *all* packages supported by
+   ;; Spacemacs and never uninstall them. (default is `used-only')
+   dotspacemacs-install-packages 'used-only))
+
+</pre>
+</div></li>
+<li><p>
+dotspacemacs/init         :: Spacemacs 初始化的时候调用这里, 同样只在这里改一些变量值就行
+</p>
+
+<div class="org-src-container">
+<pre class="src src-lisp">(defun dotspacemacs/init ()
+  "Initialization function.
+This function is called at the very startup of Spacemacs initialization
+before layers configuration.
+You should not put any user code in there besides modifying the variable
+values."
+  (setq-default
+   dotspacemacs-elpa-https t
+
+   ;; Maximum allowed time in seconds to contact an ELPA repository.
+   dotspacemacs-elpa-timeout 5
+
+   dotspacemacs-check-for-update nil
+
+   dotspacemacs-elpa-subdirectory nil
+
+   ;; One of `vim', `emacs' or `hybrid'.
+   dotspacemacs-editing-style 'vim
+
+   ;; If non nil output loading progress in `*Messages*' buffer. (default nil)
+   dotspacemacs-verbose-loading nil
+
+   ;; 在这里修改你的启动显示图片
+   dotspacemacs-startup-banner "~/Library/Mobile Documents/com~apple~CloudDocs/1-参考/8-Personal/head.png"
+
+   ;; List of items to show in startup buffer or an association list of
+   ;; the form `(list-type . list-size)`. If nil then it is disabled.
+   ;; `recents' `bookmarks' `projects' `agenda' `todos'."
+   ;; List sizes may be nil, in which case
+   ;; `spacemacs-buffer-startup-lists-length' takes effect.
+   dotspacemacs-startup-lists '((recents . 5)
+                                (projects . 3))
+
+   ;; True if the home buffer should respond to resize events.
+   dotspacemacs-startup-buffer-responsive t
+
+   ;; Default major mode of the scratch buffer (default `text-mode')
+   dotspacemacs-scratch-mode 'emacs-lisp-mode
+
+   ;; List of themes, the first of the list is loaded when spacemacs starts.
+   ;; 在这里设置你想的主题配色
+   dotspacemacs-themes '(
+                         material
+                         solarized-light
+                         monokai
+                         spacemacs-light
+                         zenburn
+                         dracula
+                         )
+
+   ;; If non nil the cursor color matches the state color in GUI Emacs.
+   dotspacemacs-colorize-cursor-according-to-state t
+
+   ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
+   ;; quickly tweak the mode-line size to make separators look not too crappy.
+   dotspacemacs-default-font '("Source Code Pro"
+                               :size 15
+                               :weight normal
+                               :width normal
+                               :powerline-scale 1.1)
+
+   ;; The leader key
+   dotspacemacs-leader-key "SPC"
+
+   ;; The key used for Emacs commands (M-x) (after pressing on the leader key).
+   dotspacemacs-emacs-command-key "SPC"
+
+   ;; The key used for Vim Ex commands (default ":")
+   dotspacemacs-ex-command-key ":"
+
+   ;; The leader key accessible in `emacs state' and `insert state'
+   dotspacemacs-emacs-leader-key "M-m"
+
+   ;; Major mode leader key is a shortcut key which is the equivalent of
+   ;; pressing `&lt;leader&gt; m`. Set it to `nil` to disable it. (default ",")
+   dotspacemacs-major-mode-leader-key ","
+
+   ;; Major mode leader key accessible in `emacs state' and `insert state'.
+   ;; (default "C-M-m")
+   dotspacemacs-major-mode-emacs-leader-key "C-M-m"
+
+   ;; These variables control whether separate commands are bound in the GUI to
+   ;; the key pairs C-i, TAB and C-m, RET.
+   ;; Setting it to a non-nil value, allows for separate commands under &lt;C-i&gt;
+   ;; and TAB or &lt;C-m&gt; and RET.
+   ;; In the terminal, these pairs are generally indistinguishable, so this only
+   ;; works in the GUI. (default nil)
+   dotspacemacs-distinguish-gui-tab nil
+   ;; If non nil `Y' is remapped to `y$' in Evil states. (default nil)
+   dotspacemacs-remap-Y-to-y$ nil
+   ;; If non-nil, the shift mappings `&lt;' and `&gt;' retain visual state if used
+   ;; there. (default t)
+   dotspacemacs-retain-visual-state-on-shift t
+   ;; If non-nil, J and K move lines up and down when in visual mode.
+   ;; (default nil)
+   dotspacemacs-visual-line-move-text nil
+   ;; If non nil, inverse the meaning of `g' in `:substitute' Evil ex-command.
+   ;; (default nil)
+   dotspacemacs-ex-substitute-global nil
+   ;; Name of the default layout (default "Default")
+   dotspacemacs-default-layout-name "Default"
+   ;; If non nil the default layout name is displayed in the mode-line.
+   ;; (default nil)
+   dotspacemacs-display-default-layout nil
+   ;; If non nil then the last auto saved layouts are resume automatically upon
+   ;; start. (default nil)
+   dotspacemacs-auto-resume-layouts nil
+   ;; Size (in MB) above which spacemacs will prompt to open the large file
+   ;; literally to avoid performance issues. Opening a file literally means that
+   ;; no major mode or minor modes are active. (default is 1)
+   dotspacemacs-large-file-size 1
+   ;; Location where to auto-save files. Possible values are `original' to
+   ;; auto-save the file in-place, `cache' to auto-save the file to another
+   ;; file stored in the cache directory and `nil' to disable auto-saving.
+   ;; (default 'cache)
+   dotspacemacs-auto-save-file-location 'cache
+   ;; Maximum number of rollback slots to keep in the cache. (default 5)
+   dotspacemacs-max-rollback-slots 5
+   ;; If non nil, `helm' will try to minimize the space it uses. (default nil)
+   dotspacemacs-helm-resize nil
+   ;; if non nil, the helm header is hidden when there is only one source.
+   ;; (default nil)
+   dotspacemacs-helm-no-header nil
+   ;; define the position to display `helm', options are `bottom', `top',
+   ;; `left', or `right'. (default 'bottom)
+   dotspacemacs-helm-position 'bottom
+   ;; Controls fuzzy matching in helm. If set to `always', force fuzzy matching
+   ;; in all non-asynchronous sources. If set to `source', preserve individual
+   ;; source settings. Else, disable fuzzy matching in all sources.
+   ;; (default 'always)
+   dotspacemacs-helm-use-fuzzy 'always
+   ;; If non nil the paste micro-state is enabled. When enabled pressing `p`
+   ;; several times cycle between the kill ring content. (default nil)
+   dotspacemacs-enable-paste-transient-state nil
+   ;; Which-key delay in seconds. The which-key buffer is the popup listing
+   ;; the commands bound to the current keystroke sequence. (default 0.4)
+   dotspacemacs-which-key-delay 0.4
+   ;; Which-key frame position. Possible values are `right', `bottom' and
+   ;; `right-then-bottom'. right-then-bottom tries to display the frame to the
+   ;; right; if there is insufficient space it displays it at the bottom.
+   ;; (default 'bottom)
+   dotspacemacs-which-key-position 'bottom
+   ;; If non nil a progress bar is displayed when spacemacs is loading. This
+   ;; may increase the boot time on some systems and emacs builds, set it to
+   ;; nil to boost the loading time. (default t)
+   dotspacemacs-loading-progress-bar t
+   ;; If non nil the frame is fullscreen when Emacs starts up. (default nil)
+   ;; (Emacs 24.4+ only)
+   dotspacemacs-fullscreen-at-startup t
+   ;; If non nil `spacemacs/toggle-fullscreen' will not use native fullscreen.
+   ;; Use to disable fullscreen animations in OSX. (default nil)
+   dotspacemacs-fullscreen-use-non-native nil
+   ;; If non nil the frame is maximized when Emacs starts up.
+   ;; Takes effect only if `dotspacemacs-fullscreen-at-startup' is nil.
+   ;; (default nil) (Emacs 24.4+ only)
+   dotspacemacs-maximized-at-startup nil
+   ;; A value from the range (0..100), in increasing opacity, which describes
+   ;; the transparency level of a frame when it's active or selected.
+   ;; Transparency can be toggled through `toggle-transparency'. (default 90)
+   dotspacemacs-active-transparency 90
+   ;; A value from the range (0..100), in increasing opacity, which describes
+   ;; the transparency level of a frame when it's inactive or deselected.
+   ;; Transparency can be toggled through `toggle-transparency'. (default 90)
+   dotspacemacs-inactive-transparency 90
+   ;; If non nil show the titles of transient states. (default t)
+   dotspacemacs-show-transient-state-title t
+   ;; If non nil show the color guide hint for transient state keys. (default t)
+   dotspacemacs-show-transient-state-color-guide t
+   ;; If non nil unicode symbols are displayed in the mode line. (default t)
+   dotspacemacs-mode-line-unicode-symbols t
+   ;; If non nil smooth scrolling (native-scrolling) is enabled. Smooth
+   ;; scrolling overrides the default behavior of Emacs which recenters point
+   ;; when it reaches the top or bottom of the screen. (default t)
+   dotspacemacs-smooth-scrolling t
+   ;; Control line numbers activation.
+   ;; If set to `t' or `relative' line numbers are turned on in all `prog-mode' and
+   ;; `text-mode' derivatives. If set to `relative', line numbers are relative.
+   ;; This variable can also be set to a property list for finer control:
+   ;; '(:relative nil
+   ;;   :disabled-for-modes dired-mode
+   ;;                       doc-view-mode
+   ;;                       markdown-mode
+   ;;                       org-mode
+   ;;                       pdf-view-mode
+   ;;                       text-mode
+   ;;   :size-limit-kb 1000)
+   ;; (default nil)
+   dotspacemacs-line-numbers nil
+   ;; Code folding method. Possible values are `evil' and `origami'.
+   ;; (default 'evil)
+   dotspacemacs-folding-method 'evil
+   ;; If non-nil smartparens-strict-mode will be enabled in programming modes.
+   ;; (default nil)
+   dotspacemacs-smartparens-strict-mode nil
+   ;; If non-nil pressing the closing parenthesis `)' key in insert mode passes
+   ;; over any automatically added closing parenthesis, bracket, quote, etc…
+   ;; This can be temporary disabled by pressing `C-q' before `)'. (default nil)
+   dotspacemacs-smart-closing-parenthesis nil
+   ;; Select a scope to highlight delimiters. Possible values are `any',
+   ;; `current', `all' or `nil'. Default is `all' (highlight any scope and
+   ;; emphasis the current one). (default 'all)
+   dotspacemacs-highlight-delimiters 'all
+   ;; If non nil, advise quit functions to keep server open when quitting.
+   ;; (default nil)
+   dotspacemacs-persistent-server nil
+   ;; List of search tool executable names. Spacemacs uses the first installed
+   ;; tool of the list. Supported tools are `ag', `pt', `ack' and `grep'.
+   ;; (default '("ag" "pt" "ack" "grep"))
+   dotspacemacs-search-tools '("ag" "pt" "ack" "grep")
+   ;; The default package repository used if no explicit repository has been
+   ;; specified with an installed package.
+   ;; Not used for now. (default nil)
+   dotspacemacs-default-package-repository nil
+   ;; Delete whitespace while saving buffer. Possible values are `all'
+   ;; to aggressively delete empty line and long sequences of whitespace,
+   ;; `trailing' to delete only the whitespace at end of lines, `changed'to
+   ;; delete only whitespace for changed lines or `nil' to disable cleanup.
+   ;; (default nil)
+   dotspacemacs-whitespace-cleanup 'trailing
+   ))
+
+</pre>
+</div></li>
+<li><p>
+dotspacemacs/user-init    :: 你自己的配置可以放这里, 在各种 package 装载之前执行
+</p>
+
+<div class="org-src-container">
+<pre class="src src-lisp">(defun dotspacemacs/user-init ()
+  "Initialization function for user code.
+It is called immediately after `dotspacemacs/init', before layer configuration
+executes.
+ This function is mostly useful for variables that need to be set
+before packages are loaded. If you are unsure, you should try in setting them in
+`dotspacemacs/user-config' first."
+
+  ;; 默认源太慢了, 建议使用子龙山人的国内镜像源
+  (setq configuration-layer--elpa-archives
+        '(("melpai-cn" . "http://elpa.zilongshanren.com/melpa/")
+          ("org-cn"   . "http://elpa.zilongshanren.com/org/")
+          ("gnu-cn" . "http://elpa.zilongshanren.com/gnu/")))
+
+  ;; 指定自己的 layer 路径
+  (setq dotspacemacs-configuration-layer-path "~/.spacemacs.d/layers/")
+
+  ;; 新版插入 source code 快捷键需要这个
+  (require 'org-tempo)
+
+  ;; https://orgmode.org/manual/Installation.html
+  ;; 解决 spacemacs 从 elpa 加载 org 和 emacs 自带 org 版本不一致的冲突
+  ;; 可以从源下载最新版本的 Org，并指定该版本的路径
+  ;; $ cd ~/src/
+  ;; $ git clone https://code.orgmode.org/bzg/org-mode.git
+  ;; $ cd org-mode/
+  ;; $ make autoloads
+  (add-to-list 'load-path "~/Library/Mobile Documents/com~apple~CloudDocs/org/org-mode/lisp")
+
+
+  ;; https://github.com/manateelazycat/
+  ;; 大佬不喜欢 melpa, 插件需要保存到本地, 单独为大佬的插件设置一下存放地址
+  (add-to-list 'load-path "~/Library/Mobile Documents/com~apple~CloudDocs/org/ljg-packages")
+
+  (require 'insert-translated-name)
+  )
+
+
+</pre>
+</div></li>
+<li><p>
+dotspacemacs/user-config  :: 你大多数的配置应该放在这里
+</p>
+
+<div class="org-src-container">
+<pre class="src src-lisp">(defun dotspacemacs/user-config ()
+  "Configuration function for user code.
+This function is called at the very end of Spacemacs initialization after
+layers configuration.
+This is the place where most of your configurations should be done. Unless it is
+explicitly specified that a variable should be set before a package is loaded,
+you should place your code here."
+
+
+  ;;;;;;;;;;;;;;;;;;;;;;;
+  ;; org-mode 相关设置 ;;
+  ;;;;;;;;;;;;;;;;;;;;;;;
+
+  ;; Since version 0.104, spacemacs uses the org version from the org ELPA
+  ;; repository instead of the one shipped with emacs. Then, any org related
+  ;; code should not be loaded before dotspacemacs/user-config, otherwise both
+  ;; versions will be loaded and will conflict. Because of autoloading, calling
+  ;; to org functions will trigger the loading up of the org shipped with emacs
+  ;; which will induce conflicts. One way to avoid conflict is to wrap your org
+  ;; config code in a with-eval-after-load block like this:
+  (with-eval-after-load 'org
+    ;; 设置 todo keywords
+    (setq org-todo-keywords
+          '((sequence "TODO" "HAND" "|" "DONE")))
+
+    ;; 调试好久的颜色，效果超赞！todo keywords 增加背景色
+    (setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
+                                   ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
+                                   ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
+
+    ;; 设置 bullet list
+    (setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
+
+    ;; 打开 org-indent mode
+    (setq org-startup-indented t)
+
+    ;; Let's have pretty source code blocks
+    (setq org-edit-src-content-indentation 0
+          org-src-tab-acts-natively t
+          org-src-fontify-natively t
+          org-confirm-babel-evaluate nil
+          org-support-shift-select 'always)
+
+    ;; Org archive
+    (setq org-archive-location "%s_archive::date-tree")
+
+    (defadvice org-archive-subtree
+      (around org-archive-subtree-to-data-tree activate)
+      "org-archive-subtree to date-tree"
+      (if
+          (string= "date-tree"
+                  (org-extract-archive-heading
+                    (org-get-local-archive-location)))
+          (let* ((dct (decode-time (org-current-time)))
+                (y (nth 5 dct))
+                (m (nth 4 dct))
+                (d (nth 3 dct))
+                (this-buffer (current-buffer))
+                (location (org-get-local-archive-location))
+                (afile (org-extract-archive-file location))
+                (org-archive-location
+                  (format "%s::*** %04d-%02d-%02d %s" afile y m d
+                          (format-time-string "%A" (encode-time 0 0 0 d m y)))))
+            (message "afile=%s" afile)
+            (unless afile
+              (error "Invalid `org-archive-location'"))
+            (save-excursion
+              (switch-to-buffer (find-file-noselect afile))
+              ;; (org-datetree-find-year-create y)
+              ;; (org-datetree-find-month-create y m)
+              ;; (org-datetree-find-day-create y m d)
+              (widen)
+              (switch-to-buffer this-buffer))
+            ad-do-it)
+        ad-do-it))
+
+    ;; Agenda clock report parameters
+
+    (setq org-agenda-prefix-format '((agenda . "%t %s ")))
+    (setq org-agenda-clockreport-parameter-plist
+          '(:link t :maxlevel 6 :fileskip0 t :compact t :narrow 60 :score 0))
+
+    (setq org-agenda-start-on-weekday nil)
+    (setq org-agenda-log-mode-items '(clock))
+    (setq org-agenda-include-all-todo t)
+    (setq org-agenda-time-leading-zero t)
+    (setq org-agenda-use-time-grid nil)
+
+    (setq org-agenda-include-diary nil)
+    (setq org-agenda-files (list  "~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org"
+                                  "~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org_archive"))
+
+    (setq org-default-notes-file "~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org")
+    (setq org-refile-targets '("~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org" :maxlevel . 3))
+
+    ;; 使用 reveal.js 来生成 html 版本的 ppt
+    ;; https://opensource.com/article/18/2/how-create-slides-emacs-org-mode-and-revealjs
+
+    (require 'ox-reveal)
+    (setq org-reveal-root (concat (expand-file-name "~/Library/Mobile Documents/com~apple~CloudDocs/org/reveal.js")))
+    (setq org-reveal-theme "black")
+    (setq org-reveal-control t)
+    (setq org-reveal-center t)
+    (setq org-reveal-progress t)
+
+    ;; 设置快捷键
+    (evil-leader/set-key "oc" 'org-capture)
+    (evil-leader/set-key "oa" 'org-agenda)
+    (evil-leader/set-key "ol" 'org-store-link)
+    (evil-leader/set-key "el" 'eval-print-last-sexp)
+    (evil-leader/set-key "od" 'org-archive-subtree)
+
+    (evil-leader/set-key "oip" 'org-set-property)
+    (evil-leader/set-key "oil" 'org-insert-link)
+    (evil-leader/set-key "ois" 'org-time-stamp)
+    (evil-leader/set-key "oid" 'org-insert-drawer)
+    (evil-leader/set-key "oif" 'org-footnote-action)
+
+    (evil-leader/set-key "oog" (lambda () (interactive) (find-file "~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org")))
+    (evil-leader/set-key "ool" (lambda () (interactive) (find-file "~/.spacemacs.d/layers/lijigang/packages.el")))
+
+    (evil-leader/set-key "oit" 'insert-day-progress)
+
+    (global-set-key (kbd "C--") 'org-table-insert-hline)
+
+    )
+
+  ;;;;;;;;;;;;;;
+  ;; 显示相关 ;;
+  ;;;;;;;;;;;;;;
+
+  ;; 在状态栏显示时间
+  (display-time-mode 1)
+
+  ;; 折叠时不再显示「...」
+  (setq org-ellipsis "▼")
+
+  ;; inline image 不用展示实际大小，可以自定义大小显示
+  (setq org-image-actual-width nil)
+
+  (global-hl-line-mode -1)
+  (setq-default fill-column 72)
+
+  ;; 打开黄金比例模式, 当前使用的窗口所占比例为 0.618
+  (golden-ratio-mode)
+
+  ;; 默认把新开的 Window 显示在右侧
+  (setq split-height-threshold nil)
+  (setq split-width-threshold 0)
+
+
+  ;; Remove the markup characters, i.e., "/text/" becomes (italized) "text"
+  (setq org-hide-emphasis-markers t)
+
+  ;; Turn on visual-line-mode for Org-mode only
+  ;; Also install "adaptive-wrap" from elpa
+  (add-hook 'org-mode-hook 'turn-on-visual-line-mode)
+
+  ;; more useful frame title, that show either a file or a
+  ;; buffer name (if the buffer isn't visiting a file)
+  (setq frame-title-format
+        '("" " 為學日益, 為道日損 - "
+          (:eval (if (buffer-file-name)
+                     (abbreviate-file-name (buffer-file-name)) "%b"))))
+  ;;;;;;;;;;;;;;
+  ;; 导出相关 ;;
+  ;;;;;;;;;;;;;;
+
+  ;; 安装 XeLaTeX 是另外一个故事了..
+  (setq Tex-command-default "XeLaTeX")
+
+
+  ;;;;;;;;;;;;;;;;;;
+  ;; 文学编程相关 ;;
+  ;;;;;;;;;;;;;;;;;;
+  ;; Tangle Org files when we save them
+  (defun tangle-on-save-org-mode-file()
+    (when (string= (message "%s" major-mode) "org-mode")
+      (org-babel-tangle)))
+
+  (add-hook 'after-save-hook 'tangle-on-save-org-mode-file)
+
+  ;; Enable the auto-revert mode globally. This is quite useful when you have
+  ;; multiple buffers opened that Org-mode can update after tangling.
+  ;; All the buffers will be updated with what changed on the disk.
+  (global-auto-revert-mode)
+
+
+  ;;;;;;;;;;;;;;
+  ;; 其它杂项 ;;
+  ;;;;;;;;;;;;;;
+
+  (setq default-major-mode 'org-mode)
+
+  (prefer-coding-system 'utf-8)
+  (set-default-coding-systems 'utf-8)
+  (setq default-buffer-file-coding-system 'utf-8)
+
+  ;; 时间戳使用英文星期
+  (setq system-time-locale "C")
+
+  ;; Agenda clock report parameters
+  (setq org-agenda-clockreport-parameter-plist
+        '(:link t :maxlevel 6 :fileskip0 t :compact t :narrow 60 :score 0))
+
+  (setq org-hierarchical-todo-statistics nil)
+
+  ;; stop emacs asking for confirmation when eval source code
+  (setq org-confirm-babel-evaluate nil)
+
+  ;; active Org-babel languages
+  (org-babel-do-load-languages
+   'org-babel-load-languages
+   '(;; other Babel languages
+     (emacs-lisp . t)
+     (ditaa . t)
+     (python . t)
+     (shell . t)
+     (plantuml . t)))
+
+  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+  ;; https://github.com/syl20bnr/spacemacs/issues/4926 ;;
+  ;; artist-mode 左键不能画, 状态问题                  ;;
+  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+  (defun artist-mode-toggle-emacs-state ()
+    (if artist-mode
+        (evil-emacs-state)
+      (evil-exit-emacs-state)))
+
+  (unless (eq dotspacemacs-editing-style 'emacs)
+    (add-hook 'artist-mode-hook #'artist-mode-toggle-emacs-state))
+
+  (global-visual-line-mode 1)
+
+  (setq org-ditaa-jar-path "~/Library/Mobile Documents/com~apple~CloudDocs/org/org-mode/contrib/scripts/ditaa.jar")
+
+  (setq org-plantuml-jar-path
+        (expand-file-name "~/Library/Mobile Documents/com~apple~CloudDocs/org/org-resources/plantuml.jar"))
+  )
+
+
+</pre>
+</div></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org6fe988b" class="outline-3">
+<h3 id="org6fe988b">大改</h3>
+<div class="outline-text-3" id="text-org6fe988b">
+<p>
+Spacemacs 默认支持了很多的 layer, 常用的功能组合场景都已经设置的很赞了, 只
+需要在 <code>小修</code> 里配置相应的 layer 就可以开箱即用. 但总有一些自己独有的需求,
+需要按需定制自己的 layer.
+</p>
+
+<p>
+<a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/LAYERS.org">官方文档</a>上面对 package 和 layer 的解释:
+</p>
+<blockquote>
+<p>
+Layers and packages. What gives?
+</p>
+
+<p>
+Package
+</p>
+
+<p>
+A set of Emacs Lisp files that, taken together, provide some
+feature. Packages may be available on a package repository, such as
+ELPA or MELPA or on a third-party service provider (such as github)
+or even locally on the disk.
+</p>
+
+<p>
+Layer
+</p>
+
+<p>
+A collected unit of configuration that can be enabled (or disabled)
+in Spacemacs. A layer typically brings together one or more
+packages, as well as the glue configuration code required to make
+them play well with each other and Spacemacs in general.
+</p>
+</blockquote>
+
+<blockquote>
+<p>
+A layer is simply a folder somewhere in Spacemacs’ layer search path
+that usually contains these files (listed in loading order).
+</p>
+
+<p>
+layers.el
+    declare additional layers
+</p>
+
+<p>
+packages.el
+    the packages list and configuration
+</p>
+
+<p>
+funcs.el
+    all functions used in the layer should be declared here
+</p>
+
+<p>
+config.el
+    layer specific configuration
+</p>
+
+<p>
+keybindings.el
+    general key bindings
+</p>
+</blockquote>
+</div>
+
+<div id="outline-container-orgf508001" class="outline-4">
+<h4 id="orgf508001">packages.el</h4>
+<div class="outline-text-4" id="text-orgf508001">
+<div class="org-src-container">
+<pre class="src src-lisp">;;; Code:
+
+(defconst lijigang-packages
+  '(org-page
+    dired-icon
+    cnfonts
+    swiper
+    wttrin
+    beacon
+    pangu-spacing
+    pyim
+    posframe
+    )
+)
+
+(defun lijigang/init-org-page()
+  "Initialize org-page to publish blog."
+  (use-package org-page
+    :ensure t
+    :config (progn
+          (setq op/site-main-title "遁其一")
+          (setq op/personal-github-link "https://github.com/lijigang")
+          (setq op/repository-directory "~/lijigang")
+          (setq op/site-domain "http://lijigang.github.io/")
+          (setq op/theme-root-directory "~/.emacs.d/elpa/org-page-20170806.1924/themes")
+          (setq op/theme 'ljg)
+          (setq op/highlight-render 'js)
+          (setq op/category-ignore-list '("themes" "assets" "images"))
+          (setq op/category-config-alist
+            '(("blog"
+              :show-meta t
+              :show-comment t
+              :uri-generator op/generate-uri
+              :uri-template "/blog/%y/%m/%d/%t/"
+              :sort-by :date     ;; how to sort the posts
+              :category-index nil) ;; generate category index or not
+              ("index"
+              :show-meta nil
+              :show-comment nil
+              :uri-generator op/generate-uri
+              :uri-template "/"
+              :sort-by :date
+              :category-index nil)
+              ("about"
+              :show-meta nil
+              :show-comment nil
+              :uri-generator op/generate-uri
+              :uri-template "/about/"
+              :sort-by :date
+              :category-index nil)))
+          (bind-key "C-c M-p" 'op/do-publication-and-preview-site)))
+    )
+
+(defun lijigang/init-dired-icon ()
+  "Initialize dired-icon"
+  (add-hook 'dired-mode-hook 'dired-icon-mode)
+  (add-hook 'dired-mode-hook
+            (lambda ()
+              (highlight-lines-matching-regexp "\.org$" 'hi-yellow))))
+
+(defun lijigang/init-cnfonts()
+  "Initialize cnfonts"
+  (use-package cnfonts
+    :init
+    (cnfonts-enable)
+    (cnfonts-set-spacemacs-fallback-fonts)))
+
+(defun lijigang/init-swiper()
+  "Initialize swiper"
+  (use-package swiper
+    :init
+    (define-key global-map (kbd "C-s") 'swiper)))
+
+
+(defun lijigang/init-wttrin()
+  (use-package wttrin
+    :ensure t
+    :commands (wttrin)
+    :init
+    (setq wttrin-default-cities '("Beijing"
+                                  "Bristol")))
+  )
+
+(defun lijigang/init-beacon()
+  "Initialize beacon"
+  (use-package beacon
+    :init
+    (beacon-mode 1)
+    (setq beacon-color "#666600")))
+
+(defun lijigang/init-pangu-spacing()
+  "Initialize pangu-spacing"
+  (use-package pangu-spacing
+    :init
+    (global-pangu-spacing-mode 1)
+    (setq pangu-spacing-real-insert-separtor t)))
+
+(defun lijigang/init-pyim()
+  "Initialize pyim"
+  (use-package pyim
+    :ensure nil
+    :demand t
+    :init
+    (setq pyim-punctuation-translate-p '(no yes auto))
+    :config
+    (setq default-input-method "pyim")
+    (setq pyim-default-scheme 'wubi)
+
+    ;; 让 Emacs 启动时自动加载 pyim 词库
+    (add-hook 'emacs-startup-hook
+              #'(lambda () (pyim-restart-1 t)))
+
+    (setq pyim-page-tooltip 'posframe)
+    (setq pyim-dicts '((:name "基础词库" :file "~/Library/Mobile Documents/com~apple~CloudDocs/3-config/wbdict.pyim")))
+    (global-set-key (kbd "C-9") 'toggle-input-method)
+    ))
+
+(defun lijigang/init-posframe ()
+  (use-package posframe))
+;;; packages.el ends here
+
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org85341b4" class="outline-4">
+<h4 id="org85341b4">funcs.el</h4>
+<div class="outline-text-4" id="text-org85341b4">
+<div class="org-src-container">
+<pre class="src src-lisp">(defun make-progress (width percent has-number?)
+  (let* ((done (/ percent 100.0))
+         (done-width (floor (* width done))))
+    (concat
+     "["
+     (make-string done-width ?/)
+     (make-string (- width done-width) ? )
+     "]"
+     (if has-number? (concat " " (number-to-string percent) "%"))
+     )))
+
+(defun insert-day-progress ()
+  (interactive)
+  (let* ((today (time-to-day-in-year (current-time)))
+         (percent (floor (* 100 (/ today 365.0)))))
+    (insert (make-progress 30 percent t))
+    ))
+
+;; latex 支持中文
+(require 'ox)
+(require 'ox-html)
+(require 'ox-publish)
+
+(add-to-list 'org-latex-classes '("pdf" "\\documentclass[fontset = mac]{ctexart}
+[NO-DEFAULT-PACKAGES]
+\\usepackage[colorlinks,linkcolor=black,anchorcolor=black,
+             citecolor=black]{hyperref}
+\\usepackage[top=3truecm,bottom=2.5truecm,
+            left=1.1truecm,right=1.1truecm,
+            bindingoffset=1.0truecm,
+            headsep=1.6truecm,
+            footskip=1.5truecm,
+            headheight=15pt    % 标准中没有要求页眉的高度，这里设置成
+                               % 15pt 了
+           ]{geometry}
+\\setCJKmainfont[BoldFont={Microsoft YaHei},ItalicFont={Microsoft YaHei}]{Microsoft YaHei}
+"
+                  ("\\section{%s}" . "\\section*{%s}")
+                  ("\\subsection{%s}" . "\\subsection*{%s}")
+                  ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+                  ("\\paragraph{%s}" . "\\paragraph*{%s}")
+                  ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+
+(setq org-latex-default-class "pdf")
+
+(setq org-latex-pdf-process
+      '(
+        "xelatex -interaction nonstopmode -output-directory %o %f"
+        "xelatex -interaction nonstopmode -output-directory %o %f"
+        "xelatex -interaction nonstopmode -output-directory %o %f"
+        "rm -fr %b.out %b.log %b.tex auto"
+        ))
+
+(defun peng-use-xelatex ()
+  (interactive)
+  (let* ((tempfile
+      (file-name-base))) (progn (shell-command (concat "rm -rf " tempfile
+                               ".bbl " tempfile ".blg " tempfile ".out " tempfile ".log " tempfile
+                               ".aux " tempfile ".toc" tempfile ".pdf"))
+                    (compile (concat "xelatex "
+                             (concat tempfile ".tex")
+                             (concat ";rm -rf " tempfile ".bbl " tempfile
+                                 ".blg " tempfile ".out " tempfile ".log " tempfile ".aux " tempfile
+".toc" ";open " tempfile ".pdf"))))))
+
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdcd712a" class="outline-4">
+<h4 id="orgdcd712a">config.el</h4>
+<div class="outline-text-4" id="text-orgdcd712a">
+<div class="org-src-container">
+<pre class="src src-lisp">(add-to-list 'auto-mode-alist '("\\.org_archive\\'" . org-mode))
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc2844bd" class="outline-4">
+<h4 id="orgc2844bd">keybindings.el</h4>
+<div class="outline-text-4" id="text-orgc2844bd">
+<div class="org-src-container">
+<pre class="src src-lisp">(evil-leader/set-key "op" 'org-pomodoro)
+
+(global-set-key
+ (kbd "C-c p")
+ (defhydra hydra-blog (:color blue :hint nil)
+   "
+    blog  _n_: new post                        _l_: publish last commit
+          _r_: reset &amp; publish all             _p_: publish interactively
+          _t_: reset &amp; publish to /tmp/blog    _e_: new-repository
+          "
+   ("n" op/new-post)
+   ("r" (progn
+          (setq op/item-cache nil)
+          (op/do-publication t nil nil t t)))
+   ("t" (progn
+          (setq op/item-cache nil)
+          (op/do-publication t "/tmp/blog" nil t nil)))
+   ("l" (op/do-publication nil "HEAD~1" nil t t))
+   ("p" op/do-publication)
+   ("e" op/new-repository)))
+
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+</section>
+
+
+
+
+<footer id="footer">
+    <br />
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?36d44a2295ffa55a3ab51c6aa7a71733";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</footer>
+
+  </body>
+</html>
