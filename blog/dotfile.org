@@ -4,8 +4,8 @@
 #+PROPERTY: header-args :mkdirp yes
 
 [[https://github.com/lujun9972/emacs-document/blob/master/org-mode/%25E6%2595%2599%25E4%25BD%25A0%25E7%2594%25A8Org-mode%25E7%25AE%25A1%25E7%2590%2586dotfiles.org][Darksun]] 在 [[https://github.com/lujun9972/emacs-document/blob/master/org-mode/%25E6%2595%2599%25E4%25BD%25A0%25E7%2594%25A8Org-mode%25E7%25AE%25A1%25E7%2590%2586dotfiles.org][这篇文章]] 里介绍了如何通过一个 org file 管理自己的各种配置文件.
-思路简单来说, 就是通过 tangle org 文件的代码块, 将其插入座到它们应该在的
-地方. 目前我主要使用的还是 Spacemacs 居多, 就试着在这篇文章中将其配置放到
+思路简单来说, 就是通过 tangle org 文件的代码块, 将其插入到它们应该在的地
+方. 目前我主要使用的还是 Spacemacs 居多, 就试着在这篇文章中将其配置放到
 一个 org file 中.
 
 ** Spacemacs
@@ -15,7 +15,7 @@
 首先确保你电脑上已经安装了 Emacs, 然后可以通过下面的命令将 Spacemacs 默
 认配置下载到本地.
 
-#+BEGIN_SRC shell :exports none
+#+BEGIN_SRC shell :exports source
 mv ~/.emacs.d ~/.emacs.d.bak
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 #+END_SRC
@@ -662,7 +662,7 @@ keybindings.el
 
 **** packages.el
 :PROPERTIES:
-:header-args: :tangle ~/.spacemacs.d/layers/packages.el :mkdirp yes
+:header-args: :tangle ~/.spacemacs.d/layers/lijigang/packages.el :mkdirp yes
 :END:
 
 #+BEGIN_SRC lisp
@@ -791,7 +791,7 @@ keybindings.el
 
 **** funcs.el
 :PROPERTIES:
-:header-args: :tangle ~/.spacemacs.d/layers/funcs.el :mkdirp yes
+:header-args: :tangle ~/.spacemacs.d/layers/lijigang/funcs.el :mkdirp yes
 :END:
 #+BEGIN_SRC lisp
 (defun make-progress (width percent has-number?)
@@ -862,14 +862,14 @@ keybindings.el
 #+END_SRC
 **** config.el
 :PROPERTIES:
-:header-args: :tangle ~/.spacemacs.d/layers/config.el :mkdirp yes
+:header-args: :tangle ~/.spacemacs.d/layers/lijigang/config.el :mkdirp yes
 :END:
 #+BEGIN_SRC lisp
 (add-to-list 'auto-mode-alist '("\\.org_archive\\'" . org-mode))
 #+END_SRC
 **** keybindings.el
 :PROPERTIES:
-:header-args: :tangle ~/.spacemacs.d/layers/keybindings.el :mkdirp yes
+:header-args: :tangle ~/.spacemacs.d/layers/lijigang/keybindings.el :mkdirp yes
 :END:
 #+BEGIN_SRC lisp
 (evil-leader/set-key "op" 'org-pomodoro)
