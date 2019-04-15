@@ -690,7 +690,7 @@ keybindings.el
           (setq op/personal-github-link "https://github.com/lijigang")
           (setq op/repository-directory "~/lijigang")
           (setq op/site-domain "http://lijigang.github.io/")
-          (setq op/theme-root-directory (file-expand-wildcards "~/.emacs.d/elpa/org-page-*/themes" t))
+          (setq op/theme-root-directory (car (file-expand-wildcards "~/.emacs.d/elpa/org-page-*/themes" t)))
 
           (setq op/theme 'ljg)
           (setq op/highlight-render 'js)
