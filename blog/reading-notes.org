@@ -64,3 +64,18 @@ MVP 是一种思维方式， 更是一种生活哲学。
 
 [[https://book.douban.com/subject/27004664/][一个电商运营总监的自白]]
 #+END_QUOTE
+
+#+BEGIN_QUOTE
+如果有办法「观察」一件事物, 这件事物就能被某种方法衡量. 无论这项衡量有多
+「模糊」, 只要能让你知道得比以前多, 它就是一项衡量.
+
+=衡量: 根据一项或多项观察, 以数量表达的方式降低不确定性.=
+
+[[https://book.douban.com/subject/25810463/][如何衡量萬事萬物]]
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+=完美= 不是添无可添, 而是再没有可以拿走的了.
+
+[[https://book.douban.com/subject/25831390/][追寻优雅]]
+#+END_QUOTE
