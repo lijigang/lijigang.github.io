@@ -9,6 +9,13 @@
 其不便,故起意将每日推荐文章列表整理到此, 方便随时查阅.
 
 * 七月
+** 2019-07-18
+[[https://mp.weixin.qq.com/s/x0AeLPlrIGMZpaDDwe1j3A][《魅族李楠离职：来感受一下他曾经横溢的才华》]] 2009年11月15日早上7:00，李
+楠像往常一样在 ifanr 上发布了一篇名为《iPhone可有设计哲学？》的文章，彼时
+iPhone 3GS 刚刚发布不久，今天，很多人只记得iPhone4 让iPhone扬名立万、叱咤风
+云，但iPhone 3GS 的意义其实被远远低估——iPhone 3GS是 iPhone 第一次上线了
+AppStore，从此，手机的功能不再由手机厂商决定，而是由千千万万的应用开发者
+共同决定。
 ** 2019-07-17
 - [[https://mp.weixin.qq.com/s/uNBooCAQ8PX5pOZWReLGYg][《Facebook 发币第一劫：胎死腹中》]] Facebook 再次被美国国会围剿。Libra
   白皮书发布后比特币曾大涨 10%；如今暴跌 14%，跌破 1 万美元，并带领千币
