@@ -7,13 +7,13 @@
 #+TOC: headlines 2
 
 * 需求任务
-而 Home Row 上面的按键 (ASDFGHJKL:") 基本上都是比较常用的基础按键, 另边还有一个回车键, 更加常用, 都没有什么修改空间, 只有 Home Row 最左侧的 CapsLock 按键可以做些文章来提升输入效率了.
+而 Home Row 上面的按键 (ASDFGHJKL:") 基本上都是比较常用的基础按键, 另边还有一个回车键, 更加常用, 都没有什么修改空间, 只有 Home Row 最左侧的 Caps Lock 按键可以做些文章来提升输入效率了.
 
 键盘上的按键可以分类几类:
 
 1. 直接按下就生效
 
-   比如[a-z0-9], Esc, CapLocks 等等, 也是日常使用最多的按键类型
+   比如[a-z0-9], Esc, Caps Lock 等等, 也是日常使用最多的按键类型
 
 2. 组合键
 
@@ -33,7 +33,7 @@
 ** 配置修改
 在目录 =~/.config/karabiner/assets/complex_modifications/= 中建一个文件, 命名为 custom-capslock.json , 然后把下面的代码复制进去并保存:
 
-#+begin_source jason
+#+begin_src jason
 {
   "title": "Change caps_lock to Esc and Control",
   "rules": [
@@ -66,7 +66,7 @@
 	}
   ]
 }
-#+end_source
+#+end_src
 
 ** 加载配置
 1. 打开安装好的 Karabiner 软件, 打开其设置界面
