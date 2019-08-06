@@ -1,0 +1,78 @@
+#+TITLE: 键盘: 就应该这么改键
+#+DATE: <2019-08-06 Tue>
+#+OPTIONS: toc:nil num:nil
+
+键盘使用原则: 尽量让手停留在 =home row= (ASDF 这一排) 上面.
+
+#+TOC: headlines 2
+
+* 需求任务
+而 Home Row 上面的按键 (ASDFGHJKL:") 基本上都是比较常用的基础按键, 另边还有一个回车键, 更加常用, 都没有什么修改空间, 只有 Home Row 最左侧的 CapsLock 按键可以做些文章来提升输入效率了.
+
+键盘上的按键可以分类几类:
+
+1. 直接按下就生效
+
+   比如[a-z0-9], Esc, CapLocks 等等, 也是日常使用最多的按键类型
+
+2. 组合键
+
+   比如 CTRL, Command, ALT, Shift 等等, 单独按下它们并不产生任何效果, 必须组合其它按键一起才行, 比如 Command+C 等等.
+
+3. 特殊键
+
+   比如!@#$%^{}|~这些符号, 必须通过 Shift 组合其它按键才能输入.
+
+我们可以把 Caps Lock 键给价值最大化: 单独按的时候让它变成 Esc, 组合按的时候让它变成 Ctrl 键. 这样我们手在 Home Row 上面的一个按键实现了两个比较常用的功能.
+
+* 解决方案
+
+** 安装 Karabiner
+在 macOS 上面有个现成的软件已经实现了这个功能, 首先去[[https://pqrs.org/osx/karabiner/][ 官网]]  下载安装.
+
+** 配置修改
+在目录 =~/.config/karabiner/assets/complex_modifications/= 中建一个文件, 命名为 custom-capslock.json , 然后把下面的代码复制进去并保存:
+
+#+begin_source jason
+{
+  "title": "Change caps_lock to Esc and Control",
+  "rules": [
+	{
+	  "description": "Post Esc if Caps is tapped, Control if held.",
+	  "manipulators": [
+        {
+    "type": "basic",
+    "from": {
+        "key_code": "left_control",
+        "modifiers": {
+            "optional": [
+                "any"
+            ]
+        }
+    },
+    "to": [
+        {
+            "key_code": "left_control",
+            "lazy": true
+        }
+    ],
+    "to_if_alone": [
+        {
+            "key_code": "escape"
+        }
+    ]
+}
+	  ]
+	}
+  ]
+}
+#+end_source
+
+** 加载配置
+1. 打开安装好的 Karabiner 软件, 打开其设置界面
+2. 选中 =Complex Modifications= 选项卡, 点击 =Add rule= 按钮.
+3. 这时候应该会看到一条规则“Post Esc if Caps is tapped, Control if held.”, 点击后面的 Enable 按钮.
+
+Done. 这时候你单独按 Caps Lock, 实际就相当于在按 Esc; 组合 Caps Lock 和其它键, 就相当于是在按 Ctrl.
+
+Happy Emacs, happy hacking!
