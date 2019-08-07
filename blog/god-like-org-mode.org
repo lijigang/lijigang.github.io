@@ -17,7 +17,7 @@ Org mode 官网上介绍的这段文字基本描述清了它可实现的功能, 
 关于 Org mode 在各方面使用的总结, 有很多优秀文章: [[https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html][GTD]] , [[http://cachestocaches.com/2018/6/org-literate-programming/][Literate Programming]] ,
 [[http://ehneilsen.net/notebook/orgExamples/org-examples.html][Cookbook]] , 当然也少不了最最经典的 [[http://doc.norang.ca/org-mode.html][Organize Your Life In Plain Text!]] .
 
-=Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把纯文本应用到炉火纯青的地步了. 大部分人, 不需要使用 Emacs 写代码, 但日常效率管理或者文档记录的需求, 完全可以通过 Org mode 满足.=
+Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把纯文本应用到炉火纯青的地步了. 大部分人, 不需要使用 Emacs 写代码, 但日常效率管理或者文档记录的需求, 完全可以通过 Org mode 满足.
 
 #+TOC: headlines 2
 
