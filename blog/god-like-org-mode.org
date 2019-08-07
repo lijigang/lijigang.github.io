@@ -137,6 +137,12 @@ agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行�
 
 (add-hook 'org-agenda-finalize-hook #'ljg/org-agenda-time-grid-spacing)
 #+end_src
+
+显示效果如下:
+
+#+DOWNLOADED: file:/Users/arthur/Downloads/Jietu20190807-195307.png @ 2019-08-07 19:53:32
+[[file:images/Jietu20190807-195307.png]]
+
 * 快速记录
 ** Capture : 快速记录任务
 *** 需求任务
