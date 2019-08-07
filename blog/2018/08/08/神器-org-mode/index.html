@@ -72,46 +72,47 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgd920cbf">安装 Org-mode</a></li>
-<li><a href="#org83aa99f">美化外观</a>
+<li><a href="#org2fe6875">安装 Org-mode</a></li>
+<li><a href="#orga28a8e3">美化外观</a>
 <ul>
-<li><a href="#org8876563">美化: Headline</a></li>
-<li><a href="#org532f297">美化: Todo Keyword</a></li>
+<li><a href="#org80bdd17">美化: Headline</a></li>
+<li><a href="#org1f52b5b">美化: Todo Keyword</a></li>
+<li><a href="#orgf61b52b">美化: agenda</a></li>
 </ul>
 </li>
-<li><a href="#org64c8c27">快速记录</a>
+<li><a href="#orgad2a906">快速记录</a>
 <ul>
-<li><a href="#org1814c16">Capture : 快速记录任务</a></li>
+<li><a href="#orgb0ab2c0">Capture : 快速记录任务</a></li>
 </ul>
 </li>
-<li><a href="#org01900d6">快速归档</a>
+<li><a href="#orgbc1b8be">快速归档</a>
 <ul>
-<li><a href="#orgcf29f4d">Archive : 归档任务</a></li>
+<li><a href="#org107dcae">Archive : 归档任务</a></li>
 </ul>
 </li>
-<li><a href="#orgad20321">任务属性</a>
+<li><a href="#org4c1bbd6">任务属性</a>
 <ul>
-<li><a href="#orgc20b0c9">Time Clocking : 记录任务用时</a></li>
-<li><a href="#orge691675">Time Reporting: 时间都去哪儿了</a></li>
-<li><a href="#orgf26a5a2">Deadline: 设置死线</a></li>
-<li><a href="#org6e30b42">Tags : 换个角度看世界</a></li>
-<li><a href="#org94b5c45">Properties: 再换个角度看看</a></li>
+<li><a href="#org83a8d19">Time Clocking : 记录任务用时</a></li>
+<li><a href="#org422dbb6">Time Reporting: 时间都去哪儿了</a></li>
+<li><a href="#orgbbbcc67">Deadline: 设置死线</a></li>
+<li><a href="#org891a56f">Tags : 换个角度看世界</a></li>
+<li><a href="#org8a218a6">Properties: 再换个角度看看</a></li>
 </ul>
 </li>
-<li><a href="#org8a16a5d">超级应用</a>
+<li><a href="#orga71eea6">超级应用</a>
 <ul>
-<li><a href="#orgfbdee2b">Tables : 其实我也能当 Excel 使</a></li>
-<li><a href="#org2ce34ca">Hypelinks: 把我当浏览器使也可以</a></li>
-<li><a href="#org7ad9e5b">Export : 分享给不使用 Orgmode 的人</a></li>
+<li><a href="#org94ec426">Tables : 其实我也能当 Excel 使</a></li>
+<li><a href="#org544e86f">Hypelinks: 把我当浏览器使也可以</a></li>
+<li><a href="#org0d0ca20">Export : 分享给不使用 Orgmode 的人</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgd920cbf" class="outline-2">
-<h2 id="orgd920cbf">安装 Org-mode</h2>
-<div class="outline-text-2" id="text-orgd920cbf">
+<div id="outline-container-org2fe6875" class="outline-2">
+<h2 id="org2fe6875">安装 Org-mode</h2>
+<div class="outline-text-2" id="text-org2fe6875">
 <p>
 Org 现在已经是 Emacs 出厂自带的一部分了，所以只要你现在打开 Emacs 就可以直接使用 Org. 但如果你不想使用 Emacs 自带的 Org 版本，想安装一个更新版本，你可以有三种办法来实现：
 </p>
@@ -168,17 +169,17 @@ $ make autoloads
 </div>
 </div>
 
-<div id="outline-container-org83aa99f" class="outline-2">
-<h2 id="org83aa99f">美化外观</h2>
-<div class="outline-text-2" id="text-org83aa99f">
+<div id="outline-container-orga28a8e3" class="outline-2">
+<h2 id="orga28a8e3">美化外观</h2>
+<div class="outline-text-2" id="text-orga28a8e3">
 </div>
-<div id="outline-container-org8876563" class="outline-3">
-<h3 id="org8876563">美化: Headline</h3>
-<div class="outline-text-3" id="text-org8876563">
+<div id="outline-container-org80bdd17" class="outline-3">
+<h3 id="org80bdd17">美化: Headline</h3>
+<div class="outline-text-3" id="text-org80bdd17">
 </div>
-<div id="outline-container-orgc1cb0ab" class="outline-4">
-<h4 id="orgc1cb0ab">需求任务</h4>
-<div class="outline-text-4" id="text-orgc1cb0ab">
+<div id="outline-container-orge7a808c" class="outline-4">
+<h4 id="orge7a808c">需求任务</h4>
+<div class="outline-text-4" id="text-orge7a808c">
 <p>
 默认显示 Headline 的 <code>*</code> 符号看着和内容无关, 又特别扎眼, 希望让它显示美观些, 同时又不影响查看内容和缩进.
 </p>
@@ -189,9 +190,9 @@ $ make autoloads
 </div>
 </div>
 </div>
-<div id="outline-container-org7f83e4d" class="outline-4">
-<h4 id="org7f83e4d">解决方法</h4>
-<div class="outline-text-4" id="text-org7f83e4d">
+<div id="outline-container-org0752c83" class="outline-4">
+<h4 id="org0752c83">解决方法</h4>
+<div class="outline-text-4" id="text-org0752c83">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; 打开 org-indent mode
 (setq org-startup-indented t)
@@ -215,13 +216,13 @@ $ make autoloads
 </div>
 </div>
 
-<div id="outline-container-org532f297" class="outline-3">
-<h3 id="org532f297">美化: Todo Keyword</h3>
-<div class="outline-text-3" id="text-org532f297">
+<div id="outline-container-org1f52b5b" class="outline-3">
+<h3 id="org1f52b5b">美化: Todo Keyword</h3>
+<div class="outline-text-3" id="text-org1f52b5b">
 </div>
-<div id="outline-container-org9f3c959" class="outline-4">
-<h4 id="org9f3c959">需求任务</h4>
-<div class="outline-text-4" id="text-org9f3c959">
+<div id="outline-container-orgf68c0cf" class="outline-4">
+<h4 id="orgf68c0cf">需求任务</h4>
+<div class="outline-text-4" id="text-orgf68c0cf">
 <p>
 每个 Headline 都可以有不同状态, 比如待启动/进行中/阻塞中/已完成 等等, 可以根据自己的实际需求来定义这些状态, 定义方法也很简单, 只要设置下面这个变量就好:
 </p>
@@ -238,9 +239,9 @@ $ make autoloads
 </div>
 </div>
 
-<div id="outline-container-org64196ff" class="outline-4">
-<h4 id="org64196ff">解决方法</h4>
-<div class="outline-text-4" id="text-org64196ff">
+<div id="outline-container-orgcb90395" class="outline-4">
+<h4 id="orgcb90395">解决方法</h4>
+<div class="outline-text-4" id="text-orgcb90395">
 <p>
 可以针对这些状态关键词设置单独的前景色和背景色，看看效果：
 </p>
@@ -264,28 +265,76 @@ $ make autoloads
 </div>
 </div>
 </div>
+
+<div id="outline-container-orgf61b52b" class="outline-3">
+<h3 id="orgf61b52b">美化: agenda</h3>
+<div class="outline-text-3" id="text-orgf61b52b">
+</div>
+<div id="outline-container-org1aa1fa2" class="outline-4">
+<h4 id="org1aa1fa2">需求任务</h4>
+<div class="outline-text-4" id="text-org1aa1fa2">
+<p>
+agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行文本. 能不能按时间段大小显示成区块样式, 更直观显示时间计划?
+</p>
+</div>
 </div>
 
-<div id="outline-container-org64c8c27" class="outline-2">
-<h2 id="org64c8c27">快速记录</h2>
-<div class="outline-text-2" id="text-org64c8c27">
+<div id="outline-container-org00e4c39" class="outline-4">
+<h4 id="org00e4c39">解决方法</h4>
+<div class="outline-text-4" id="text-org00e4c39">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; agenda 里面时间块彩色显示
+;; From: https://emacs-china.org/t/org-agenda/8679/3
+(defun ljg/org-agenda-time-grid-spacing ()
+  "Set different line spacing w.r.t. time duration."
+  (save-excursion
+    (let* ((background (alist-get 'background-mode (frame-parameters)))
+           (background-dark-p (string= background "dark"))
+           (colors (list "#1ABC9C" "#2ECC71" "#3498DB" "#9966ff"))
+           pos
+           duration)
+      (nconc colors colors)
+      (goto-char (point-min))
+      (while (setq pos (next-single-property-change (point) 'duration))
+        (goto-char pos)
+        (when (and (not (equal pos (point-at-eol)))
+                   (setq duration (org-get-at-bol 'duration)))
+          (let ((line-height (if (&lt; duration 30) 1.0 (+ 0.5 (/ duration 60))))
+                (ov (make-overlay (point-at-bol) (1+ (point-at-eol)))))
+            (overlay-put ov 'face `(:background ,(car colors)
+                                                :foreground
+                                                ,(if background-dark-p "black" "white")))
+            (setq colors (cdr colors))
+            (overlay-put ov 'line-height line-height)
+            (overlay-put ov 'line-spacing (1- line-height))))))))
+
+(add-hook 'org-agenda-finalize-hook #'ljg/org-agenda-time-grid-spacing)
+</pre>
 </div>
-<div id="outline-container-org1814c16" class="outline-3">
-<h3 id="org1814c16">Capture : 快速记录任务</h3>
-<div class="outline-text-3" id="text-org1814c16">
 </div>
-<div id="outline-container-orgbe9c626" class="outline-4">
-<h4 id="orgbe9c626">需求任务</h4>
-<div class="outline-text-4" id="text-orgbe9c626">
+</div>
+</div>
+</div>
+<div id="outline-container-orgad2a906" class="outline-2">
+<h2 id="orgad2a906">快速记录</h2>
+<div class="outline-text-2" id="text-orgad2a906">
+</div>
+<div id="outline-container-orgb0ab2c0" class="outline-3">
+<h3 id="orgb0ab2c0">Capture : 快速记录任务</h3>
+<div class="outline-text-3" id="text-orgb0ab2c0">
+</div>
+<div id="outline-container-orgc0d681a" class="outline-4">
+<h4 id="orgc0d681a">需求任务</h4>
+<div class="outline-text-4" id="text-orgc0d681a">
 <p>
 有时候正在 A 文件中写东西, 突然有个想法想记录到你的 idea list 中, 希望可以实现不管当前在哪个地方, 都能一键记录文字到指定文件中.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org370555b" class="outline-4">
-<h4 id="org370555b">解决方法</h4>
-<div class="outline-text-4" id="text-org370555b">
+<div id="outline-container-orgb29be5b" class="outline-4">
+<h4 id="orgb29be5b">解决方法</h4>
+<div class="outline-text-4" id="text-orgb29be5b">
 <p>
 Org mode 的 org-capture 功能正是实现这个需求的自带功能. 只需要简单配置一下即可:
 </p>
@@ -326,26 +375,26 @@ Org mode 的 org-capture 功能正是实现这个需求的自带功能. 只需�
 </div>
 </div>
 </div>
-<div id="outline-container-org01900d6" class="outline-2">
-<h2 id="org01900d6">快速归档</h2>
-<div class="outline-text-2" id="text-org01900d6">
+<div id="outline-container-orgbc1b8be" class="outline-2">
+<h2 id="orgbc1b8be">快速归档</h2>
+<div class="outline-text-2" id="text-orgbc1b8be">
 </div>
-<div id="outline-container-orgcf29f4d" class="outline-3">
-<h3 id="orgcf29f4d">Archive : 归档任务</h3>
-<div class="outline-text-3" id="text-orgcf29f4d">
+<div id="outline-container-org107dcae" class="outline-3">
+<h3 id="org107dcae">Archive : 归档任务</h3>
+<div class="outline-text-3" id="text-org107dcae">
 </div>
-<div id="outline-container-org497ab29" class="outline-4">
-<h4 id="org497ab29">需求任务</h4>
-<div class="outline-text-4" id="text-org497ab29">
+<div id="outline-container-orgb135113" class="outline-4">
+<h4 id="orgb135113">需求任务</h4>
+<div class="outline-text-4" id="text-orgb135113">
 <p>
 随着任务记录越来越多, 历史上已完成的任务如果一直累积在任务文件中, 文件会越来越大, 也会影响搜索结果和速度. 希望可以将已完成的任务快速归档存储到指定文件, 实现任务文件精简, 同时历史已完成任务还不会丢弃, 有需要时可随时搜索查看归档文件.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgc584012" class="outline-4">
-<h4 id="orgc584012">解决方法</h4>
-<div class="outline-text-4" id="text-orgc584012">
+<div id="outline-container-org9566a1f" class="outline-4">
+<h4 id="org9566a1f">解决方法</h4>
+<div class="outline-text-4" id="text-org9566a1f">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; 在 Spacemacs 中设置归档命令的快捷键
 (evil-leader/set-key "od" 'org-archive-subtree)
@@ -378,17 +427,17 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 
-<div id="outline-container-orgad20321" class="outline-2">
-<h2 id="orgad20321">任务属性</h2>
-<div class="outline-text-2" id="text-orgad20321">
+<div id="outline-container-org4c1bbd6" class="outline-2">
+<h2 id="org4c1bbd6">任务属性</h2>
+<div class="outline-text-2" id="text-org4c1bbd6">
 </div>
-<div id="outline-container-orgc20b0c9" class="outline-3">
-<h3 id="orgc20b0c9">Time Clocking : 记录任务用时</h3>
-<div class="outline-text-3" id="text-orgc20b0c9">
+<div id="outline-container-org83a8d19" class="outline-3">
+<h3 id="org83a8d19">Time Clocking : 记录任务用时</h3>
+<div class="outline-text-3" id="text-org83a8d19">
 </div>
-<div id="outline-container-org8588da9" class="outline-4">
-<h4 id="org8588da9">需求任务</h4>
-<div class="outline-text-4" id="text-org8588da9">
+<div id="outline-container-orgfe8b332" class="outline-4">
+<h4 id="orgfe8b332">需求任务</h4>
+<div class="outline-text-4" id="text-orgfe8b332">
 <p>
 希望记录任务的开始时间和结束时间, 并自动显示经历时长.
 </p>
@@ -399,9 +448,9 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 
-<div id="outline-container-org6d6a3bb" class="outline-4">
-<h4 id="org6d6a3bb">解决方法</h4>
-<div class="outline-text-4" id="text-org6d6a3bb">
+<div id="outline-container-org353d628" class="outline-4">
+<h4 id="org353d628">解决方法</h4>
+<div class="outline-text-4" id="text-org353d628">
 <p>
 除了可以根据任务的状态变更进行管理之外, Emacs 还支持对任务进行时间管理. 在 Emacs 中, 一切都是 <code>纯文本 (Plain text)</code> , 时间的表示, 在 Emacs 中也不过就是一串字符串而已, 只是有很多相关的函数来解析这个指定格式的字符串, 提供了超级强大的时间管理的功能.
 </p>
@@ -419,22 +468,22 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 
-<div id="outline-container-orge691675" class="outline-3">
-<h3 id="orge691675">Time Reporting: 时间都去哪儿了</h3>
-<div class="outline-text-3" id="text-orge691675">
+<div id="outline-container-org422dbb6" class="outline-3">
+<h3 id="org422dbb6">Time Reporting: 时间都去哪儿了</h3>
+<div class="outline-text-3" id="text-org422dbb6">
 </div>
-<div id="outline-container-org6873d93" class="outline-4">
-<h4 id="org6873d93">需求任务</h4>
-<div class="outline-text-4" id="text-org6873d93">
+<div id="outline-container-orgcfbd93e" class="outline-4">
+<h4 id="orgcfbd93e">需求任务</h4>
+<div class="outline-text-4" id="text-orgcfbd93e">
 <p>
 我们已经在每个任务开始和结果时都打了时间戳, 那生成一个时间花费的报表应该也不在话下了.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org754bf51" class="outline-4">
-<h4 id="org754bf51">解决方法</h4>
-<div class="outline-text-4" id="text-org754bf51">
+<div id="outline-container-org5d06246" class="outline-4">
+<h4 id="org5d06246">解决方法</h4>
+<div class="outline-text-4" id="text-org5d06246">
 <p>
 通过调用 <code>org-clock-report</code> 命令, 可以生成下面的这种样式的 time table, 看看你之前的时间都花在哪了, 生成表格相关参数的修改, 可以参考 <a href="https://orgmode.org/org.html#Deadlines-and-scheduling">官方文档</a>:
 </p>
@@ -447,13 +496,13 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 </div>
-<div id="outline-container-orgf26a5a2" class="outline-3">
-<h3 id="orgf26a5a2">Deadline: 设置死线</h3>
-<div class="outline-text-3" id="text-orgf26a5a2">
+<div id="outline-container-orgbbbcc67" class="outline-3">
+<h3 id="orgbbbcc67">Deadline: 设置死线</h3>
+<div class="outline-text-3" id="text-orgbbbcc67">
 </div>
-<div id="outline-container-org133eb31" class="outline-4">
-<h4 id="org133eb31">需求任务</h4>
-<div class="outline-text-4" id="text-org133eb31">
+<div id="outline-container-orgd0da974" class="outline-4">
+<h4 id="orgd0da974">需求任务</h4>
+<div class="outline-text-4" id="text-orgd0da974">
 <p>
 在日常 GTD 过程中, 还经常会有的需求是给某一任务设定 Deadline (org-deadline ,d) 或 Schedule (org-schedule ,s) .
 </p>
@@ -464,9 +513,9 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 
-<div id="outline-container-orge64c860" class="outline-4">
-<h4 id="orge64c860">解决方法</h4>
-<div class="outline-text-4" id="text-orge64c860">
+<div id="outline-container-orgf32f214" class="outline-4">
+<h4 id="orgf32f214">解决方法</h4>
+<div class="outline-text-4" id="text-orgf32f214">
 <p>
 上面的需求基本都是自带函数功能可以解决:
 </p>
@@ -484,22 +533,22 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 </div>
-<div id="outline-container-org6e30b42" class="outline-3">
-<h3 id="org6e30b42">Tags : 换个角度看世界</h3>
-<div class="outline-text-3" id="text-org6e30b42">
+<div id="outline-container-org891a56f" class="outline-3">
+<h3 id="org891a56f">Tags : 换个角度看世界</h3>
+<div class="outline-text-3" id="text-org891a56f">
 </div>
-<div id="outline-container-org11703bb" class="outline-4">
-<h4 id="org11703bb">需求任务</h4>
-<div class="outline-text-4" id="text-org11703bb">
+<div id="outline-container-org99b3f23" class="outline-4">
+<h4 id="org99b3f23">需求任务</h4>
+<div class="outline-text-4" id="text-org99b3f23">
 <p>
 使用时间久了之后, 历史任务积累了很多. 想筛选或查找某个任务, 只能靠印象中任务标题中的文本来查找, 很低效. 希望可以在每个任务上面打标签, 这样后面可以筛选标签来找到一类任务.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgb1144d1" class="outline-4">
-<h4 id="orgb1144d1">解决方法</h4>
-<div class="outline-text-4" id="text-orgb1144d1">
+<div id="outline-container-org2b78131" class="outline-4">
+<h4 id="org2b78131">解决方法</h4>
+<div class="outline-text-4" id="text-org2b78131">
 <p>
 Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或某些 tags 的任务全找出来. 而添加 Tags 的方法也很简单, 只需调用 <b>org-set-tags-command 快捷键 C-c C-c (Spacemacs 中 ,,)</b> , 就会在当前 Headline 后面添加你指定的 tags. 显示样式为前后冒号分隔, 比如 <code>:work:</code> , 基本用法就这一个命令就够了, 如果有更深入的使用需求, 读下 <a href="https://orgmode.org/org.html#Tags">官方文档</a> 就好了.
 </p>
@@ -507,22 +556,22 @@ Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或某些 
 </div>
 </div>
 
-<div id="outline-container-org94b5c45" class="outline-3">
-<h3 id="org94b5c45">Properties: 再换个角度看看</h3>
-<div class="outline-text-3" id="text-org94b5c45">
+<div id="outline-container-org8a218a6" class="outline-3">
+<h3 id="org8a218a6">Properties: 再换个角度看看</h3>
+<div class="outline-text-3" id="text-org8a218a6">
 </div>
-<div id="outline-container-org8eb1496" class="outline-4">
-<h4 id="org8eb1496">需求任务</h4>
-<div class="outline-text-4" id="text-org8eb1496">
+<div id="outline-container-orgafc5ea6" class="outline-4">
+<h4 id="orgafc5ea6">需求任务</h4>
+<div class="outline-text-4" id="text-orgafc5ea6">
 <p>
 使用 tags 已经可以解决一部分筛选查找历史任务的问题了, 但如果你想针对某一个任务做些类似数据库似的字段存储, 比如你记录了吃过的五星级餐厅的列表, 想针对每个餐厅单独记录其地址/联系电话/特色菜/个人评价 等, 把这些全放到 tags 中, 显示不合适.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org7ca4c3a" class="outline-4">
-<h4 id="org7ca4c3a">解决方法</h4>
-<div class="outline-text-4" id="text-org7ca4c3a">
+<div id="outline-container-orgf5957c1" class="outline-4">
+<h4 id="orgf5957c1">解决方法</h4>
+<div class="outline-text-4" id="text-orgf5957c1">
 <p>
 这时候就适合使用 Properties 了. 插入 Property 需要调用 org-set-property 命令. Property 是 key-value 形式出现, 调用命令后会提示你输入 key 和 value, 显示时一个 Property 占一行.
 </p>
@@ -536,26 +585,26 @@ Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或某些 
 </div>
 </div>
 </div>
-<div id="outline-container-org8a16a5d" class="outline-2">
-<h2 id="org8a16a5d">超级应用</h2>
-<div class="outline-text-2" id="text-org8a16a5d">
+<div id="outline-container-orga71eea6" class="outline-2">
+<h2 id="orga71eea6">超级应用</h2>
+<div class="outline-text-2" id="text-orga71eea6">
 </div>
-<div id="outline-container-orgfbdee2b" class="outline-3">
-<h3 id="orgfbdee2b">Tables : 其实我也能当 Excel 使</h3>
-<div class="outline-text-3" id="text-orgfbdee2b">
+<div id="outline-container-org94ec426" class="outline-3">
+<h3 id="org94ec426">Tables : 其实我也能当 Excel 使</h3>
+<div class="outline-text-3" id="text-org94ec426">
 </div>
-<div id="outline-container-org6310a8f" class="outline-4">
-<h4 id="org6310a8f">需求任务</h4>
-<div class="outline-text-4" id="text-org6310a8f">
+<div id="outline-container-org4964960" class="outline-4">
+<h4 id="org4964960">需求任务</h4>
+<div class="outline-text-4" id="text-org4964960">
 <p>
 在文本中当然也少不了记录表格的需求, 比如做会议纪要, 时间/地点/人员/主题/结论/后续安排这些内容通过表格整理记录就会很方便. 怎么实现表格?
 </p>
 </div>
 </div>
 
-<div id="outline-container-org64c8389" class="outline-4">
-<h4 id="org64c8389">解决方法</h4>
-<div class="outline-text-4" id="text-org64c8389">
+<div id="outline-container-orgb2bc7c3" class="outline-4">
+<h4 id="orgb2bc7c3">解决方法</h4>
+<div class="outline-text-4" id="text-orgb2bc7c3">
 <p>
 在 Org 中, 只要以 | 开头的一行, 就认为它是表格的一部分了. 表格中各单元格的区分符号也是 | , 每次你输入完一个单元格, 可以通过 TAB 切换到下一单元格, 通过 RET 切换到下一行. 日常的基本表格操作, 这些功能已经足够用的了. 想了解细节, 可以阅读下<a href="https://orgmode.org/org.html#Tables">官方文档</a> . Org 中的表格大概长下面这样:
 </p>
@@ -584,22 +633,22 @@ Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或某些 
 </div>
 </div>
 </div>
-<div id="outline-container-org2ce34ca" class="outline-3">
-<h3 id="org2ce34ca">Hypelinks: 把我当浏览器使也可以</h3>
-<div class="outline-text-3" id="text-org2ce34ca">
+<div id="outline-container-org544e86f" class="outline-3">
+<h3 id="org544e86f">Hypelinks: 把我当浏览器使也可以</h3>
+<div class="outline-text-3" id="text-org544e86f">
 </div>
-<div id="outline-container-org91b6c62" class="outline-4">
-<h4 id="org91b6c62">需求任务</h4>
-<div class="outline-text-4" id="text-org91b6c62">
+<div id="outline-container-org03a5b7e" class="outline-4">
+<h4 id="org03a5b7e">需求任务</h4>
+<div class="outline-text-4" id="text-org03a5b7e">
 <p>
 Org mode 是记录纯文本的, 但如果有超链接想存储的话, 能支持点击跳转浏览器访问吗?
 </p>
 </div>
 </div>
 
-<div id="outline-container-org0561ee3" class="outline-4">
-<h4 id="org0561ee3">解决方法</h4>
-<div class="outline-text-4" id="text-org0561ee3">
+<div id="outline-container-org21b6964" class="outline-4">
+<h4 id="org21b6964">解决方法</h4>
+<div class="outline-text-4" id="text-org21b6964">
 <p>
 org mode 支持超链接跳转到文件, 邮件, 网页等等.
 </p>
@@ -610,22 +659,22 @@ org mode 支持超链接跳转到文件, 邮件, 网页等等.
 </div>
 </div>
 </div>
-<div id="outline-container-org7ad9e5b" class="outline-3">
-<h3 id="org7ad9e5b">Export : 分享给不使用 Orgmode 的人</h3>
-<div class="outline-text-3" id="text-org7ad9e5b">
+<div id="outline-container-org0d0ca20" class="outline-3">
+<h3 id="org0d0ca20">Export : 分享给不使用 Orgmode 的人</h3>
+<div class="outline-text-3" id="text-org0d0ca20">
 </div>
-<div id="outline-container-orgf89e4ca" class="outline-4">
-<h4 id="orgf89e4ca">需求任务</h4>
-<div class="outline-text-4" id="text-orgf89e4ca">
+<div id="outline-container-org1dbf800" class="outline-4">
+<h4 id="org1dbf800">需求任务</h4>
+<div class="outline-text-4" id="text-org1dbf800">
 <p>
 如果要分享文档给别人, 他们不使用 org mode 怎么办? 能支持导出成其它通用的文档格式吗?
 </p>
 </div>
 </div>
 
-<div id="outline-container-org954b940" class="outline-4">
-<h4 id="org954b940">解决方法</h4>
-<div class="outline-text-4" id="text-org954b940">
+<div id="outline-container-org8009964" class="outline-4">
+<h4 id="org8009964">解决方法</h4>
+<div class="outline-text-4" id="text-org8009964">
 <p>
 Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通过网页访问).
 </p>
