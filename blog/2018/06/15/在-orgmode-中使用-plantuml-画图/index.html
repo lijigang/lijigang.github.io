@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>在 Orgmode 中使用 PlantUML 画图 - 常识</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="Arthur" />
+
+
+  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
+</head>
+
+  <body class="container">
+<header id="header">
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
+        <div class="container-fluid">
+<div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">常识</a>
+        </div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/">Blog</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="http://www.zhihu.com/people/lijigang.com">知乎</a></li>
+        </ul>
+</div>
+</div>
+    </nav>
+</body>
+</header>
+
+<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>在 Orgmode 中使用 PlantUML 画图</h1>
+            <p>
+Emacs 中主要是靠纯文本的一些骚操作来实现各种功能, 其中有一项是把输入的文本生成图片. 这就是今天要说的 <code>PlantUML</code>.
+</p>
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org4a3cd53">PlantUML 是什么</a></li>
+<li><a href="#org5ffbde6">PlantUML 如何在 Emacs 中配置</a></li>
+<li><a href="#org50553b5">PlantUML 如何使用</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4a3cd53" class="outline-2">
+<h2 id="org4a3cd53">PlantUML 是什么</h2>
+<div class="outline-text-2" id="text-org4a3cd53">
+<p>
+PlantUML 是用来快速创建 UML 图形的组件. 通过简单的语法来定义图形, 然后它就可以生成 PNG 图片. 比如:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-:exports">autonumber
+Phone -&gt; Server : 请求网页
+Server --[#0c0f0a]&gt; Phone : 返回 HTML
+</pre>
+</div>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2018/06/15/在-orgmode-中使用-plantuml-画图/basic.png" alt="basic.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org5ffbde6" class="outline-2">
+<h2 id="org5ffbde6">PlantUML 如何在 Emacs 中配置</h2>
+<div class="outline-text-2" id="text-org5ffbde6">
+<ol class="org-ol">
+<li><a href="http://plantuml.com/zh/download">下载</a> plantuml.jar</li>
+<li>安装 Graphviz</li>
+</ol>
+<div class="org-src-container">
+<pre class="src src-:exports">brew install graphviz
+</pre>
+</div>
+<ol class="org-ol">
+<li><p>
+配置 babel 变量支持
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(org-babel-do-load-languages
+  'org-babel-load-languages
+  '(;; other Babel languages
+    (plantuml . t)))
+</pre>
+</div></li>
+<li><p>
+配置 jar 文件路径
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(setq org-plantuml-jar-path
+      (expand-file-name "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/org/org-resources/plantuml.jar"))
+</pre>
+</div></li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org50553b5" class="outline-2">
+<h2 id="org50553b5">PlantUML 如何使用</h2>
+<div class="outline-text-2" id="text-org50553b5">
+<ol class="org-ol">
+<li><p>
+基础用法
+</p>
+
+<p>
+-&gt; 参与者之间传递消息的箭头
+</p>
+
+<p>
+&#x2013;&gt; 虚线的箭头, 可以用于表示返回消息
+</p>
+
+<p>
+箭头颜色的修改, 可通过在- 和 &gt; 之间添加 [#颜色代码] 实现
+</p>
+
+<p>
+如需对消息自动添加编号, 只需要添加关键词 autonumber 即可
+</p>
+
+<p>
+:cmdline -charset utf-8  在 orgmode 的代码块参数加上这个配置, 解决中文乱码问题
+</p></li>
+
+<li><p>
+参与者名称和类型
+</p>
+
+<p>
+参与者的类型除了默认的长方形这种样式以外, 还支持其它类型, 最常用的包括 actor 和 database 等.
+</p>
+
+<p>
+有时候一个参与者名称较长, 在多次使用时为避免麻烦, 可使用 as 关键词给它定义一个别名.
+</p>
+
+<p>
+参与者是中文或者是多个英文单词时, 需使用""引号.
+</p>
+
+<p>
+参与者的前景色也可以指定, 直接在参与者后面添加代码颜色即可.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-:exports">actor Phone #ffff00
+database Server as s #41ead4
+Phone -&gt; s : 请求网页
+s --&gt; Phone : 返回 HTML
+</pre>
+</div>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2018/06/15/在-orgmode-中使用-plantuml-画图/participant.png" alt="participant.png" />
+</p>
+</div></li>
+
+<li><p>
+表示 delay
+</p>
+
+<p>
+有时候消息传递过程中会出现 delay 现象, 如停顿 3 分钟后, 再返回结果. 可以通过&#x2026;来表示 dalay:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-:exports">actor Phone #ffff00
+database Server as s #41ead4
+Phone -&gt; s : 请求网页
+...
+s --&gt; Phone : 返回 HTML
+Phone -&gt; Phone : 解析网页
+...解析三秒...
+Phone -&gt; Phone : 成功加载
+</pre>
+</div>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2018/06/15/在-orgmode-中使用-plantuml-画图/delay.png" alt="delay.png" />
+</p>
+</div></li>
+
+<li><p>
+配色配置
+</p>
+
+<p>
+默认生成的结果中, 上下都有参与者, 需要不想要下面的显示, 可以通过使用 hide footbox 关键词移除.
+</p>
+
+<p>
+使用 skinparam 命令改变颜色和字体:
+</p>
+
+<p>
+skinparam backgroundColor #EEEBDC 修改图片背景色
+</p>
+
+<p>
+skinparam sequenceArrowThickness 2 修改箭头粗细度
+</p>
+
+<p>
+skinparam roundcorner 20 修改参与者形状
+</p>
+
+<p>
+skinparam handwritten true 打开手绘风格
+</p>
+
+<div class="org-src-container">
+<pre class="src src-:exports">
+skinparam backgroundColor #EEEBDC
+
+skinparam sequenceArrowThickness 2
+
+skinparam roundcorner 20
+
+skinparam handwritten true
+
+hide footbox
+
+actor Phone #ffff00
+database Server as s #41ead4
+Phone -&gt; s : 请求网页
+...
+s --&gt; Phone : 返回 HTML
+Phone -&gt; Phone : 解析网页
+...解析三秒...
+Phone -&gt; Phone : 成功加载
+</pre>
+</div>
+
+
+<div class="figure">
+<p><img src="/assets/blog/2018/06/15/在-orgmode-中使用-plantuml-画图/skinparam.png" alt="skinparam.png" />
+</p>
+</div></li>
+</ol>
+</div>
+</div>
+
+    </div>
+</section>
+
+
+
+
+<footer id="footer">
+    <br />
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?36d44a2295ffa55a3ab51c6aa7a71733";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</footer>
+
+  </body>
+</html>
