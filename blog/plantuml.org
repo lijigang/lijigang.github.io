@@ -1,23 +1,42 @@
-#+title: 在 Orgmode 中使用 PlantUML 画时序图
-#+DATE: <2018-06-15 Fri 20:04>
+#+title: 在 Orgmode 中使用 PlantUML 画图
+#+DATE: <2018-06-15 Fri>
 #+options: toc:nil num:nil
 
-* 配置使用 PlantUML
-1. 配置 babel 变量支持
+Emacs 中主要是靠纯文本的一些骚操作来实现各种功能, 其中有一项是把输入的文本生成图片. 这就是今天要说的 =PlantUML=.
+
+#+toc: headlines 2
+* PlantUML 是什么
+PlantUML 是用来快速创建 UML 图形的组件. 通过简单的语法来定义图形, 然后它就可以生成 PNG 图片. 比如:
+
+    #+begin_src :exports code
+    autonumber
+    Phone -> Server : 请求网页
+    Server --[#0c0f0a]> Phone : 返回 HTML
+    #+end_src
+
+    #+attr_latex: :width 600
+    [[file:../images/basic.png]]
+
+* PlantUML 如何在 Emacs 中配置
+1. [[http://plantuml.com/zh/download][下载]] plantuml.jar
+2. 安装 Graphviz
+#+begin_src :exports code
+brew install graphviz
+#+end_src
+3. 配置 babel 变量支持
   #+begin_src emacs-lisp
   (org-babel-do-load-languages
     'org-babel-load-languages
     '(;; other Babel languages
       (plantuml . t)))
   #+end_src
-
-2. 配置 jar 文件路径
+4. 配置 jar 文件路径
   #+begin_src emacs-lisp
   (setq org-plantuml-jar-path
         (expand-file-name "/Users/ljg/Library/Mobile Documents/com~apple~CloudDocs/org/org-resources/plantuml.jar"))
   #+end_src
 
-* PlantUML 时序图配置方法
+* PlantUML 如何使用
 1. 基础用法
 
     -> 参与者之间传递消息的箭头
@@ -29,15 +48,6 @@
     如需对消息自动添加编号, 只需要添加关键词 autonumber 即可
 
     :cmdline -charset utf-8  在 orgmode 的代码块参数加上这个配置, 解决中文乱码问题
-
-    #+begin_src :exports code
-    autonumber
-    Phone -> Server : 请求网页
-    Server --[#0c0f0a]> Phone : 返回 HTML
-    #+end_src
-
-      #+attr_latex: :width 600
-      [[file:../images/basic.png]]
 
 2. 参与者名称和类型
 
