@@ -14,15 +14,15 @@ PlantUML 是用来快速创建 UML 图形的组件. 通过简单的语法来定�
     Server --[#0c0f0a]> Phone : 返回 HTML
     #+end_src
 
-    #+attr_latex: :width 600
+    #+attr_latex: :width 400
     [[file:../images/basic.png]]
 
 * PlantUML 如何在 Emacs 中配置
 1. [[http://plantuml.com/zh/download][下载]] plantuml.jar
 2. 安装 Graphviz
-#+begin_src :exports code
-brew install graphviz
-#+end_src
+  #+begin_src :exports code
+  brew install graphviz
+  #+end_src
 3. 配置 babel 变量支持
   #+begin_src emacs-lisp
   (org-babel-do-load-languages
@@ -85,7 +85,7 @@ brew install graphviz
    Phone -> Phone : 成功加载
    #+end_src
 
-    #+attr_latex: :width 600
+   #+attr_latex: :width 400
     [[file:../images/delay.png]]
 
 4. 配色配置
@@ -124,6 +124,6 @@ brew install graphviz
     Phone -> Phone : 成功加载
     #+end_src
 
-    #+attr_latex: :width 600
+    #+attr_latex: :width 400
     #+DOWNLOADED: file:/Users/ljg/Downloads/skinparam.png @ 2018-10-09 16:53:21
     [[file:../images/skinparam.png]]
