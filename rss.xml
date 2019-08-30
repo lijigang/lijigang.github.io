@@ -4,8 +4,8 @@
     <title>常识</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Wed, 28 Aug 2019 12:11:36 CST</pubDate>
-    <lastBuildDate>Wed, 28 Aug 2019 12:11:36 CST</lastBuildDate>
+    <pubDate>Fri, 30 Aug 2019 10:09:47 CST</pubDate>
+    <lastBuildDate>Fri, 30 Aug 2019 10:09:47 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -25,13 +25,52 @@
 其不便,故起意将每日推荐文章列表整理到此, 方便随时查阅.
 </p>
 
-<div id="outline-container-org4d5576a" class="outline-2">
-<h2 id="org4d5576a">八月</h2>
-<div class="outline-text-2" id="text-org4d5576a">
+<div id="outline-container-org5a615fe" class="outline-2">
+<h2 id="org5a615fe">八月</h2>
+<div class="outline-text-2" id="text-org5a615fe">
 </div>
-<div id="outline-container-org2a404cb" class="outline-3">
-<h3 id="org2a404cb">2019-08-27</h3>
-<div class="outline-text-3" id="text-org2a404cb">
+<div id="outline-container-org58da367" class="outline-3">
+<h3 id="org58da367">2019-08-29</h3>
+<div class="outline-text-3" id="text-org58da367">
+<ul class="org-ul">
+<li><a href="https://mp.weixin.qq.com/s/zOLmojTS1B5e6gKOvcT1aw">《特写|美国无人驾驶十五年：战争、背叛与谷歌往事》</a> 拉里·佩奇如何把无人
+车从一个想法变成谷歌的第三次时代机遇？本文将全面梳理美国无人驾驶从起源
+到繁荣的 15 年。</li>
+</ul>
+
+
+<ul class="org-ul">
+<li><a href="https://mp.weixin.qq.com/s/Rf9d27dEICd-njYr_AnDgg">《通过数据挖掘，我们研究了完美日记的两大增长策略》</a> 仅用 8个月时间，销量
+增长了近 50 倍，不但力压美康粉黛等国货同行，而且全面赶超 YSL、SK-II 等国际
+大牌。在 2018 年，完美日记仅在天猫的 GMV 就高达 6.5 亿元。要知道，2016 年这个
+品牌才刚刚诞生，2017 年才有了天猫旗舰店。</li>
+</ul>
+
+
+<ul class="org-ul">
+<li><a href="https://mp.weixin.qq.com/s/VX6h3a2mar6bTsp3X7MEIg">《腾讯是如何卖广告的》</a> 新成立的广告业务线 AMS 可以理解为整个腾讯广告的中
+台，接下来的问题是：数据打通得彻底吗？要牺牲用户体验来提高广告填充率吗？</li>
+</ul>
+
+
+<ul class="org-ul">
+<li><a href="https://mp.weixin.qq.com/s/MjZDD0NdzsHPUaIcLlaq4A">《抖音如何撑起字节跳动千亿营收目标？》</a> 一个月后，就是抖音上线三周年的
+日子。抖音总裁张楠说，公司内部曾两度犹豫是否要做短视频产品，等到真正入
+局时已是 2016 年，市面上已有快手、微视、秒拍……. 对手林立的弯道之上，抖
+音超车。</li>
+</ul>
+
+
+<ul class="org-ul">
+<li><a href="https://mp.weixin.qq.com/s/WeJeA4-jRz1ifxNOz15VfQ">《抄底百度的时候到了吗？》</a>  如今，百度市值还被美团和京东超越，不仅不保
+第三，更是需要与拼多多争抢第五的位置。不用说，还有没上市的蚂蚁金服和字
+节跳动。本着“瘦死的骆驼比马大”的想法，我们来粗略分析百度各分部的价值。</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgaf44a15" class="outline-3">
+<h3 id="orgaf44a15">2019-08-27</h3>
+<div class="outline-text-3" id="text-orgaf44a15">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/9NPAAr8mJoZdj3BxUNktTA">《微信公众号七周年，下一个王者在哪儿？》</a> 从公众号出发，去追寻星辰大海。
 以 2012 年 8 月 23 日公众号正式上线为起点计算的话，微信公众号已经走过整整 7 年
@@ -69,9 +108,9 @@ CEO”称号多年的唐岩，在 2019 年和陌陌一起登上了各种光荣�
 </ul>
 </div>
 </div>
-<div id="outline-container-org45e4a23" class="outline-3">
-<h3 id="org45e4a23">2019-08-26</h3>
-<div class="outline-text-3" id="text-org45e4a23">
+<div id="outline-container-orgd23bc39" class="outline-3">
+<h3 id="orgd23bc39">2019-08-26</h3>
+<div class="outline-text-3" id="text-orgd23bc39">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/X6Xf7eF9ASGOkboNPimJVQ">《起底民间借贷官商利益链》</a> 随着贾延成涉黑案的告破，一条民间借贷官商利
 益链逐渐浮出水面。借助一些官员形成的“保护伞”，小额贷款公司以高利贷为诱
@@ -107,9 +146,9 @@ CEO”称号多年的唐岩，在 2019 年和陌陌一起登上了各种光荣�
 </ul>
 </div>
 </div>
-<div id="outline-container-orged8ce4b" class="outline-3">
-<h3 id="orged8ce4b">2019-08-22</h3>
-<div class="outline-text-3" id="text-orged8ce4b">
+<div id="outline-container-orgc5f98eb" class="outline-3">
+<h3 id="orgc5f98eb">2019-08-22</h3>
+<div class="outline-text-3" id="text-orgc5f98eb">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/3M58Ise7K9ou7tdX84sZCw">《美团张川：做了 8 年平台，我总结了平台的 5 道坎》</a> 张川有近 15 年的互
 联网及 IT 行业经历，曾担任过 58 集团执行副总裁、百度联盟产品负责人。张
@@ -147,9 +186,9 @@ CEO”称号多年的唐岩，在 2019 年和陌陌一起登上了各种光荣�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf888c17" class="outline-3">
-<h3 id="orgf888c17">2019-08-21</h3>
-<div class="outline-text-3" id="text-orgf888c17">
+<div id="outline-container-org3433340" class="outline-3">
+<h3 id="org3433340">2019-08-21</h3>
+<div class="outline-text-3" id="text-org3433340">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/WOxjmftIoahd33dxDblT2Q">《电子烟不值得 All in》</a> 行业爆发式的增长、资本的加速进场与政策的空白，
 直接导致了目前电子烟行业鱼龙混杂的现状，更有沦为“比拼哪家线下渠道资源
@@ -186,9 +225,9 @@ CEO”称号多年的唐岩，在 2019 年和陌陌一起登上了各种光荣�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf766608" class="outline-3">
-<h3 id="orgf766608">2019-08-20</h3>
-<div class="outline-text-3" id="text-orgf766608">
+<div id="outline-container-org21d1055" class="outline-3">
+<h3 id="org21d1055">2019-08-20</h3>
+<div class="outline-text-3" id="text-org21d1055">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/i9TmUHMSb1aSUVAYbKjGkA">《世界在下沉，投资人在县城》</a> 看无比肥美、充满西部拓荒神话的下沉市场，
 走近了，他们只找到了鸡肋。这背后，有 VC 商业模式的局限，也有投资经理自
@@ -227,9 +266,9 @@ CEO”称号多年的唐岩，在 2019 年和陌陌一起登上了各种光荣�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgdaadab3" class="outline-3">
-<h3 id="orgdaadab3">2019-08-19</h3>
-<div class="outline-text-3" id="text-orgdaadab3">
+<div id="outline-container-org265be5b" class="outline-3">
+<h3 id="org265be5b">2019-08-19</h3>
+<div class="outline-text-3" id="text-org265be5b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/-e2nFApMEQs1cwmXBePSKg">《公众号七年：那些被改变命运的人，正在走向何处？》</a> 公众号七岁了，每年
 这个时候，身边的新媒体同行说得最多的一句话，依然是感谢张小龙。回顾公众
@@ -267,9 +306,9 @@ CEO”称号多年的唐岩，在 2019 年和陌陌一起登上了各种光荣�
 </ul>
 </div>
 </div>
-<div id="outline-container-org4555488" class="outline-3">
-<h3 id="org4555488">2019-08-14</h3>
-<div class="outline-text-3" id="text-org4555488">
+<div id="outline-container-org2e96cd2" class="outline-3">
+<h3 id="org2e96cd2">2019-08-14</h3>
+<div class="outline-text-3" id="text-org2e96cd2">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/-brIZZMrVyHxZdXqNv6ZoQ">《腾讯 Q2 财报：真稳了？》</a> 从占据半壁江山的游戏业务遭遇滑坡、再到旗帜
 鲜明地提出产业互联网，再到找回梦想“科技向善”，对比去年同样交出二季度财
@@ -311,9 +350,9 @@ CEO”称号多年的唐岩，在 2019 年和陌陌一起登上了各种光荣�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfab0d6b" class="outline-3">
-<h3 id="orgfab0d6b">2019-08-13</h3>
-<div class="outline-text-3" id="text-orgfab0d6b">
+<div id="outline-container-org5dd4c06" class="outline-3">
+<h3 id="org5dd4c06">2019-08-13</h3>
+<div class="outline-text-3" id="text-org5dd4c06">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/AIZC0ho-oPuI8ST2L6N5fg">《在头条和百度搜索了 100 个关键词之后，我们发现&#x2026;》</a> 日前，字节跳动
 旗下的搜索引擎——“头条搜索”网页版已悄然上线。常用名词搜索方面，百度站外
@@ -351,9 +390,9 @@ CEO”称号多年的唐岩，在 2019 年和陌陌一起登上了各种光荣�
 </ul>
 </div>
 </div>
-<div id="outline-container-org6a904eb" class="outline-3">
-<h3 id="org6a904eb">2019-08-12</h3>
-<div class="outline-text-3" id="text-org6a904eb">
+<div id="outline-container-org7b88cd2" class="outline-3">
+<h3 id="org7b88cd2">2019-08-12</h3>
+<div class="outline-text-3" id="text-org7b88cd2">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/8M6GaDnNKPfboxhf0GbkzA">《为何会有“南抖音、北快手”的印象？快手会更像抖音嘛？》</a> 从内容品类的角
 度，快手会同抖音越来越接近，但快手的基本盘：草根江湖、垂类创作者、视频
@@ -392,9 +431,9 @@ CEO”称号多年的唐岩，在 2019 年和陌陌一起登上了各种光荣�
 </ul>
 </div>
 </div>
-<div id="outline-container-org2a72b07" class="outline-3">
-<h3 id="org2a72b07">2019-08-08</h3>
-<div class="outline-text-3" id="text-org2a72b07">
+<div id="outline-container-org9fab1cb" class="outline-3">
+<h3 id="org9fab1cb">2019-08-08</h3>
+<div class="outline-text-3" id="text-org9fab1cb">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/X2KhLIipBrzRpd9Pz982NA">《十亿收购案尘埃落定，苹果的芯片战事走向终局了吗？》</a> 不可一世的科技创
 新「标杆」遇上横行二十年的无线通信巨头，他们的故事在交锋、和解与退让间
@@ -433,9 +472,9 @@ CEO”称号多年的唐岩，在 2019 年和陌陌一起登上了各种光荣�
 </ul>
 </div>
 </div>
-<div id="outline-container-org1d6b765" class="outline-3">
-<h3 id="org1d6b765">2019-08-07</h3>
-<div class="outline-text-3" id="text-org1d6b765">
+<div id="outline-container-org4824476" class="outline-3">
+<h3 id="org4824476">2019-08-07</h3>
+<div class="outline-text-3" id="text-org4824476">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/oiDk40q3VgmdUcd-pRx17Q">《中国企业互撕简史》</a> 双寡头互撕，在中国企业界并非孤例。深圳的华为和中
 兴、青岛的海尔和海信、呼和浩特的伊利和蒙牛、上虞的龙盛和闰土、广东的美
@@ -475,9 +514,9 @@ CEO”称号多年的唐岩，在 2019 年和陌陌一起登上了各种光荣�
 </ul>
 </div>
 </div>
-<div id="outline-container-org9707d3e" class="outline-3">
-<h3 id="org9707d3e">2019-08-06</h3>
-<div class="outline-text-3" id="text-org9707d3e">
+<div id="outline-container-orgae1cb76" class="outline-3">
+<h3 id="orgae1cb76">2019-08-06</h3>
+<div class="outline-text-3" id="text-orgae1cb76">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/YDCXVj3QCTTlY4MU8OnUWw">《彷徨 90 后：当新生代撞上移动互联网末班车》</a> 在互联网，90 后远未掌握话
 语权，在很多场合，他们在 60、70、80 后领导、资方、合作伙伴面前显得有些
@@ -516,9 +555,9 @@ CEO”称号多年的唐岩，在 2019 年和陌陌一起登上了各种光荣�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc3d639d" class="outline-3">
-<h3 id="orgc3d639d">2019-08-02</h3>
-<div class="outline-text-3" id="text-orgc3d639d">
+<div id="outline-container-org155f139" class="outline-3">
+<h3 id="org155f139">2019-08-02</h3>
+<div class="outline-text-3" id="text-org155f139">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/AbVItXzJnQFarTNjOTDG_w">《抖音之后再无 papi 酱》</a> 有个异曲同工的问题，为什么没有下一个周杰伦？
 答案是互联网圈群化，让全民偶像成为历史。同样渠道碎片化，网红无限细分化，
@@ -556,9 +595,9 @@ CEO”称号多年的唐岩，在 2019 年和陌陌一起登上了各种光荣�
 </ul>
 </div>
 </div>
-<div id="outline-container-org0f0c71c" class="outline-3">
-<h3 id="org0f0c71c">2019-08-01</h3>
-<div class="outline-text-3" id="text-org0f0c71c">
+<div id="outline-container-org731ded7" class="outline-3">
+<h3 id="org731ded7">2019-08-01</h3>
+<div class="outline-text-3" id="text-org731ded7">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/YfyRozj7TQvKkKXcAbXThA">《微信小程序团队最新七大留存建议》</a> 微信团队发出的微信开发者小课堂，讲
 的主要还是留存这一块，今天的分享，将会从以下三个方面来展开：1、小程序
@@ -600,13 +639,13 @@ App Store 的版本纪录，笑番视频上线于两个月前，开发者为晨�
 </div>
 </div>
 </div>
-<div id="outline-container-org761e359" class="outline-2">
-<h2 id="org761e359">七月</h2>
-<div class="outline-text-2" id="text-org761e359">
+<div id="outline-container-org077d528" class="outline-2">
+<h2 id="org077d528">七月</h2>
+<div class="outline-text-2" id="text-org077d528">
 </div>
-<div id="outline-container-org8bf87f2" class="outline-3">
-<h3 id="org8bf87f2">2019-07-29</h3>
-<div class="outline-text-3" id="text-org8bf87f2">
+<div id="outline-container-orgaab5242" class="outline-3">
+<h3 id="orgaab5242">2019-07-29</h3>
+<div class="outline-text-3" id="text-orgaab5242">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/7l3tnzZjen_-TIMyCE1rsg">《冯鑫被抓，暴风失控》</a> 暴风集团发布晚间公告称，公司实际控制人冯鑫因涉
 嫌犯罪被公安机关采取强制措施，相关事项尚待公安机关进一步调查。截至 2019
@@ -644,9 +683,9 @@ papi 酱，借助 papitube 实现了转型。但 papi 酱无法逃避的尴尬�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb519cc1" class="outline-3">
-<h3 id="orgb519cc1">2019-07-26</h3>
-<div class="outline-text-3" id="text-orgb519cc1">
+<div id="outline-container-org0e10681" class="outline-3">
+<h3 id="org0e10681">2019-07-26</h3>
+<div class="outline-text-3" id="text-org0e10681">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/CUh7QBWM5v_9XskVavTI1Q">《微信私域流量惊魂》</a> 在微信里，绝大多数人都是流量的即时变现者，没有信
 仰。业界一度盛传一则小道消息，说微信一夜封禁三千万个号——后微信官方澄清，
@@ -683,9 +722,9 @@ papi 酱，借助 papitube 实现了转型。但 papi 酱无法逃避的尴尬�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfa365e3" class="outline-3">
-<h3 id="orgfa365e3">2019-07-25</h3>
-<div class="outline-text-3" id="text-orgfa365e3">
+<div id="outline-container-org97fcb12" class="outline-3">
+<h3 id="org97fcb12">2019-07-25</h3>
+<div class="outline-text-3" id="text-org97fcb12">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/jce0WG82TXk4gk46aTSBlQ">《微信产品里的小心机》</a> 我一直觉着，微信产品经理们是一帮成天琢磨人心人
 性的主，还琢磨得挺有效。说腾讯有社交基因，这话不能算错。搞社交产品，就
@@ -722,9 +761,9 @@ papi 酱，借助 papitube 实现了转型。但 papi 酱无法逃避的尴尬�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgce8a404" class="outline-3">
-<h3 id="orgce8a404">2019-07-24</h3>
-<div class="outline-text-3" id="text-orgce8a404">
+<div id="outline-container-orgaadb908" class="outline-3">
+<h3 id="orgaadb908">2019-07-24</h3>
+<div class="outline-text-3" id="text-orgaadb908">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/stIB_DQvIeITbQ8RcNpofA">《快手宣布开放百亿元流量，我们帮创作者划了几个重点》</a> 在昨天的光合创作
 者大会上，快手宣布“光合计划”——未来一年，用 100 亿元流量扶持 10 万创作者。
@@ -762,9 +801,9 @@ papi 酱，借助 papitube 实现了转型。但 papi 酱无法逃避的尴尬�
 </ul>
 </div>
 </div>
-<div id="outline-container-org39a881f" class="outline-3">
-<h3 id="org39a881f">2019-07-23</h3>
-<div class="outline-text-3" id="text-org39a881f">
+<div id="outline-container-org7b9848b" class="outline-3">
+<h3 id="org7b9848b">2019-07-23</h3>
+<div class="outline-text-3" id="text-org7b9848b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/YORqqqVpjJWzxMQ_Dz03YA">《鸿蒙的虚实，华为的进退》</a> 外界最为关心华为是否将放出自主操作系统鸿蒙，
 鸿蒙确实是华为分量最重的备胎之一，但如果条分缕析分析华为的业务、法律和
@@ -802,9 +841,9 @@ papi 酱，借助 papitube 实现了转型。但 papi 酱无法逃避的尴尬�
 </ul>
 </div>
 </div>
-<div id="outline-container-org300e978" class="outline-3">
-<h3 id="org300e978">2019-07-22</h3>
-<div class="outline-text-3" id="text-org300e978">
+<div id="outline-container-orge9ddbbb" class="outline-3">
+<h3 id="orge9ddbbb">2019-07-22</h3>
+<div class="outline-text-3" id="text-orge9ddbbb">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/YuuLUdHEwSapuarOY5kMWQ">《中年职场男创业开店一年实录》</a> 我于是顺道多问了几个猎头朋友，得到的统
 一回复都是 35 岁以上的就不看了。原来自己一不留神就到了没人要的年纪，抬头
@@ -836,9 +875,9 @@ papi 酱，借助 papitube 实现了转型。但 papi 酱无法逃避的尴尬�
 </ul>
 </div>
 </div>
-<div id="outline-container-org1be22f0" class="outline-3">
-<h3 id="org1be22f0">2019-07-18</h3>
-<div class="outline-text-3" id="text-org1be22f0">
+<div id="outline-container-orgd0c90da" class="outline-3">
+<h3 id="orgd0c90da">2019-07-18</h3>
+<div class="outline-text-3" id="text-orgd0c90da">
 <p>
 <a href="https://mp.weixin.qq.com/s/x0AeLPlrIGMZpaDDwe1j3A">《魅族李楠离职：来感受一下他曾经横溢的才华》</a> 2009 年 11 月 15 日早上 7:00，李
 楠像往常一样在 ifanr 上发布了一篇名为《iPhone 可有设计哲学？》的文章，彼时
@@ -849,9 +888,9 @@ AppStore，从此，手机的功能不再由手机厂商决定，而是由千千
 </p>
 </div>
 </div>
-<div id="outline-container-orge5a5019" class="outline-3">
-<h3 id="orge5a5019">2019-07-17</h3>
-<div class="outline-text-3" id="text-orge5a5019">
+<div id="outline-container-org1e62c14" class="outline-3">
+<h3 id="org1e62c14">2019-07-17</h3>
+<div class="outline-text-3" id="text-org1e62c14">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/uNBooCAQ8PX5pOZWReLGYg">《Facebook 发币第一劫：胎死腹中》</a> Facebook 再次被美国国会围剿。Libra
 白皮书发布后比特币曾大涨 10%；如今暴跌 14%，跌破 1 万美元，并带领千币
@@ -888,9 +927,9 @@ Facebook。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc2ce023" class="outline-3">
-<h3 id="orgc2ce023">2019-07-16</h3>
-<div class="outline-text-3" id="text-orgc2ce023">
+<div id="outline-container-org33b8939" class="outline-3">
+<h3 id="org33b8939">2019-07-16</h3>
+<div class="outline-text-3" id="text-org33b8939">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/ucVOVyr-Ot5CYbtDnoMMEA">《苹果是如何失去创 新力的？从乔纳森离职说起》</a> 苹果首席设计师乔纳森•艾
 维（Jonathon Ive）宣布今年年底将离开苹果，开设自己的设计工作室 Love
@@ -926,9 +965,9 @@ From。有人关注到了股价的变化，当天苹果股价下降 1%，市值�
 </ul>
 </div>
 </div>
-<div id="outline-container-org2880816" class="outline-3">
-<h3 id="org2880816">2019-07-15</h3>
-<div class="outline-text-3" id="text-org2880816">
+<div id="outline-container-orge3e1f6f" class="outline-3">
+<h3 id="orge3e1f6f">2019-07-15</h3>
+<div class="outline-text-3" id="text-orge3e1f6f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/QOMsklbkZCSxsgIl48Mo5w">《深度 | 国境线上疯狂的玉石直播》</a> 发生在玉石主播、商人们身上的故事，或
 许是互联网驱动产业变革，在探寻更深更广的边界过程中，最有代表性的一批样
@@ -966,9 +1005,9 @@ From。有人关注到了股价的变化，当天苹果股价下降 1%，市值�
 </ul>
 </div>
 </div>
-<div id="outline-container-org2310d39" class="outline-3">
-<h3 id="org2310d39">2019-07-11</h3>
-<div class="outline-text-3" id="text-org2310d39">
+<div id="outline-container-org3675ea9" class="outline-3">
+<h3 id="org3675ea9">2019-07-11</h3>
+<div class="outline-text-3" id="text-org3675ea9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/0-LzARa9ULfGSB1sZz6TfQ">《干嘉伟深度分享：移动互联网下半场，B2B 必备五大秘籍》</a> 全文近万字，高瓴
 资本运营合伙人干嘉伟从 To B 业务的特点、思考框架、人才观、系统搭建等角度，
@@ -1005,9 +1044,9 @@ From。有人关注到了股价的变化，当天苹果股价下降 1%，市值�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc8a0640" class="outline-3">
-<h3 id="orgc8a0640">2019-07-10</h3>
-<div class="outline-text-3" id="text-orgc8a0640">
+<div id="outline-container-org4d29773" class="outline-3">
+<h3 id="org4d29773">2019-07-10</h3>
+<div class="outline-text-3" id="text-org4d29773">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/3ChXSmiqNwVymJmR8XFBJg">《外卖江湖揭秘：千亿系统中，人的现实与理想》</a> 过去几年，我们记录过外卖
 平台枪林弹雨的厮杀、资本过境的喧嚣与张狂，也记录过成功者的通行证、失败
@@ -1044,9 +1083,9 @@ From。有人关注到了股价的变化，当天苹果股价下降 1%，市值�
 </ul>
 </div>
 </div>
-<div id="outline-container-org1f55740" class="outline-3">
-<h3 id="org1f55740">2019-07-09</h3>
-<div class="outline-text-3" id="text-org1f55740">
+<div id="outline-container-org6374428" class="outline-3">
+<h3 id="org6374428">2019-07-09</h3>
+<div class="outline-text-3" id="text-org6374428">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Guhlz1m4jGXzRsg2aEakcQ">《别做那些假装上班的失业中年人》</a> 明明是工作日，他们哪来的大把时间在咖
 啡厅里一坐就一整天。 他们本该坐在 CBD 的写字楼里，跟同事探讨业务、跟客户
@@ -1084,9 +1123,9 @@ From。有人关注到了股价的变化，当天苹果股价下降 1%，市值�
 </ul>
 </div>
 </div>
-<div id="outline-container-org686a16d" class="outline-3">
-<h3 id="org686a16d">2019-07-08</h3>
-<div class="outline-text-3" id="text-org686a16d">
+<div id="outline-container-org9bd5f9d" class="outline-3">
+<h3 id="org9bd5f9d">2019-07-08</h3>
+<div class="outline-text-3" id="text-org9bd5f9d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Qhulp4ULYuTWyNW9fzIqGw">《我在下沉市场做生意》</a> 燃财经采访了 7 位在下沉市场做生意的朋友，他们普遍
 都没有听说过“下沉市场”这个词，却一致感受到了生意越来越难做。和在外围研
@@ -1123,9 +1162,9 @@ From。有人关注到了股价的变化，当天苹果股价下降 1%，市值�
 </ul>
 </div>
 </div>
-<div id="outline-container-org5c73dc6" class="outline-3">
-<h3 id="org5c73dc6">2019-07-05</h3>
-<div class="outline-text-3" id="text-org5c73dc6">
+<div id="outline-container-org57430c7" class="outline-3">
+<h3 id="org57430c7">2019-07-05</h3>
+<div class="outline-text-3" id="text-org57430c7">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Gdt7S_1vl0K8nmrOt8vL9Q">《Facebook 的「纸牌屋」往事》</a> 扎克伯格刚刚宣布 Facebook 未来会将战略重
 心转移到以「隐私为中心」的新愿景。在此之后，Facebook 高管团队的「离职
@@ -1165,9 +1204,9 @@ From。有人关注到了股价的变化，当天苹果股价下降 1%，市值�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbf982c9" class="outline-3">
-<h3 id="orgbf982c9">2019-07-04</h3>
-<div class="outline-text-3" id="text-orgbf982c9">
+<div id="outline-container-org24e13c2" class="outline-3">
+<h3 id="org24e13c2">2019-07-04</h3>
+<div class="outline-text-3" id="text-org24e13c2">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/rcOauihD3kyJEjIho1rUAg">《这批 90 后已经当高管了》</a> 在这波新成长起来的大小公司里，几乎每家都有
 90 后的管理者……这是一波罕见的职业机遇：80 后赶上在移动互联大潮里创业，而
@@ -1205,9 +1244,9 @@ From。有人关注到了股价的变化，当天苹果股价下降 1%，市值�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb9b69ee" class="outline-3">
-<h3 id="orgb9b69ee">2019-07-03</h3>
-<div class="outline-text-3" id="text-orgb9b69ee">
+<div id="outline-container-org8b50341" class="outline-3">
+<h3 id="org8b50341">2019-07-03</h3>
+<div class="outline-text-3" id="text-org8b50341">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/eztE_2yrqURPJoZM1pT2KQ">《对话樊登：一个读书人的商业头脑》</a> 在陪伴近 2000 万人的那个声音背后，樊
 登是一个成功的商人，他创业，并且相信商业逻辑。在他看来，创业的真相在于
@@ -1245,9 +1284,9 @@ From。有人关注到了股价的变化，当天苹果股价下降 1%，市值�
 </ul>
 </div>
 </div>
-<div id="outline-container-org9bba4ba" class="outline-3">
-<h3 id="org9bba4ba">2019-07-02</h3>
-<div class="outline-text-3" id="text-org9bba4ba">
+<div id="outline-container-org6880f91" class="outline-3">
+<h3 id="org6880f91">2019-07-02</h3>
+<div class="outline-text-3" id="text-org6880f91">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/cT-LPbMq6TZGcm3r6qrl2g">《产品经理再就业》</a> “那假如说，再遇到别的好机会呢？你会再去做产品经理
 吗？”W 收起笑容，沉吟了一会儿，说：“你不觉得，产品经理的时代，已经结束
@@ -1285,13 +1324,13 @@ From。有人关注到了股价的变化，当天苹果股价下降 1%，市值�
 </div>
 </div>
 </div>
-<div id="outline-container-org3bdc1e7" class="outline-2">
-<h2 id="org3bdc1e7">六月</h2>
-<div class="outline-text-2" id="text-org3bdc1e7">
+<div id="outline-container-org8275d77" class="outline-2">
+<h2 id="org8275d77">六月</h2>
+<div class="outline-text-2" id="text-org8275d77">
 </div>
-<div id="outline-container-orgfff5d7b" class="outline-3">
-<h3 id="orgfff5d7b">2019-06-26</h3>
-<div class="outline-text-3" id="text-orgfff5d7b">
+<div id="outline-container-orgc3a977c" class="outline-3">
+<h3 id="orgc3a977c">2019-06-26</h3>
+<div class="outline-text-3" id="text-orgc3a977c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Khc25LwW3w2x3JFbtwO1Qw">《戴雨森：什么样的老司机创业成功率更高？》</a> 然而我们看到现在具备多年创
 业或者业务经验的「老司机」创业，越来越成为主流，这样的创业者数量也越来
@@ -1329,9 +1368,9 @@ From。有人关注到了股价的变化，当天苹果股价下降 1%，市值�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgeb74c20" class="outline-3">
-<h3 id="orgeb74c20">2019-06-24</h3>
-<div class="outline-text-3" id="text-orgeb74c20">
+<div id="outline-container-org619d36a" class="outline-3">
+<h3 id="org619d36a">2019-06-24</h3>
+<div class="outline-text-3" id="text-org619d36a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/8r2q-XBkx9BwjSnC0H6Ung">《历史转折中的中国互联网：5 年来投融资热度最低点》</a> 一级市场“挤泡沫”的
 过程中，创业者切身感受“马太效应”，头部公司获得更高溢价，后排公司不得不
@@ -1370,9 +1409,9 @@ Facebook 有着怎样的拉动？</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org00ed01f" class="outline-3">
-<h3 id="org00ed01f">2019-06-20</h3>
-<div class="outline-text-3" id="text-org00ed01f">
+<div id="outline-container-orge67d08f" class="outline-3">
+<h3 id="orge67d08f">2019-06-20</h3>
+<div class="outline-text-3" id="text-orge67d08f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/7LmLgad2SjrOAk7vEcZGmw">《《人生七年》，决定了你的一辈子》</a> 英国的人们守在电视机前，等待收看一
 档持续了半个多世纪的纪录片——《人生七年》（the up series）的最新一集
@@ -1410,9 +1449,9 @@ Facebook 有着怎样的拉动？</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf3c4aac" class="outline-3">
-<h3 id="orgf3c4aac">2019-06-19</h3>
-<div class="outline-text-3" id="text-orgf3c4aac">
+<div id="outline-container-org619eeb8" class="outline-3">
+<h3 id="org619eeb8">2019-06-19</h3>
+<div class="outline-text-3" id="text-org619eeb8">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Ob0dumBwfj5dBhruD_pHzQ">《谁动了美国中下层的奶酪？》</a> 顺着美国发展的脉络，去工业化导致中下层就
 业与收入缩减，从而催生信贷福利主义，壮大了金融业。当全球蛋糕不再变大，
@@ -1450,9 +1489,9 @@ Facebook 的目标。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3425b6a" class="outline-3">
-<h3 id="org3425b6a">2019-06-18</h3>
-<div class="outline-text-3" id="text-org3425b6a">
+<div id="outline-container-orgc732322" class="outline-3">
+<h3 id="orgc732322">2019-06-18</h3>
+<div class="outline-text-3" id="text-orgc732322">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/iq_gUNA-A_DBVpo7nmK9pw">《在硅谷，有一群人在把中国的商业模式搬到了美国》</a> 在美国住了八年的老移
 民张兴民走出办公室，钻进了他的奥迪 A6。下班后，他将换上全新的身份：外卖
@@ -1488,9 +1527,9 @@ Growth 团队中一员，我来说说 Facebook 增长的故事。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org8738f5f" class="outline-3">
-<h3 id="org8738f5f">2019-06-17</h3>
-<div class="outline-text-3" id="text-org8738f5f">
+<div id="outline-container-org95bf457" class="outline-3">
+<h3 id="org95bf457">2019-06-17</h3>
+<div class="outline-text-3" id="text-org95bf457">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/rimxzdpn1LY1c6ofF6I11Q">《罗永浩 锤下那个理想主义者》</a> 「你知道人群里没有比他更健康的人，但是他
 又在做企业这件事上这么难以改变，这么固执。」草威说，「他就是一矛盾体，
@@ -1526,9 +1565,9 @@ Growth 团队中一员，我来说说 Facebook 增长的故事。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org91d384d" class="outline-3">
-<h3 id="org91d384d">2019-06-15</h3>
-<div class="outline-text-3" id="text-org91d384d">
+<div id="outline-container-org51c72d9" class="outline-3">
+<h3 id="org51c72d9">2019-06-15</h3>
+<div class="outline-text-3" id="text-org51c72d9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/FWMFsQ-1fJY46_peUG6Gug">《入侵抖音微博的“小黄文”，背后竟是个暴利产业！》</a> 这些霸道总裁文的背后
 居然是一个暴利产业。粗略算了一下，做这个能比我上班挣得更多呢&#x2026;&#x2026;今天
@@ -1565,9 +1604,9 @@ Growth 团队中一员，我来说说 Facebook 增长的故事。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org5a8f95b" class="outline-3">
-<h3 id="org5a8f95b">2019-06-13</h3>
-<div class="outline-text-3" id="text-org5a8f95b">
+<div id="outline-container-orgb668f43" class="outline-3">
+<h3 id="orgb668f43">2019-06-13</h3>
+<div class="outline-text-3" id="text-orgb668f43">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NtkteW1oXQNRb6Av63yu6A">《深度对话俞军：关于产品经理的价值、天赋、能力、成长及未来，最系统的分
 享》</a> 滴滴 5 周年的日子，我有幸拜访了滴滴出行产品高级副总裁俞军，在他的
@@ -1605,9 +1644,9 @@ Growth 团队中一员，我来说说 Facebook 增长的故事。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc67ca72" class="outline-3">
-<h3 id="orgc67ca72">2019-06-12</h3>
-<div class="outline-text-3" id="text-orgc67ca72">
+<div id="outline-container-orgf52648e" class="outline-3">
+<h3 id="orgf52648e">2019-06-12</h3>
+<div class="outline-text-3" id="text-orgf52648e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/jcDrYo-nsNMIp0mGzIbbJw">《独家整理 | 2019 互联网女皇报告中文完整版来了！》</a> 有“互联网女皇”之称的
 玛丽·米克尔发布了 2019 年的互联网趋势报告，这也是她第 24 年公布互联网报告。
@@ -1645,9 +1684,9 @@ Growth 团队中一员，我来说说 Facebook 增长的故事。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org22f0a8b" class="outline-3">
-<h3 id="org22f0a8b">2019-06-11</h3>
-<div class="outline-text-3" id="text-org22f0a8b">
+<div id="outline-container-org53a091d" class="outline-3">
+<h3 id="org53a091d">2019-06-11</h3>
+<div class="outline-text-3" id="text-org53a091d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/od4xE1V0u7eWALEqCg9-OA">《水果猎手，资金、经验、胆量、运气缺一不可》</a> 一颗水果从产地到餐桌，大
 约要经过生产基地、中间商和销售终端三道流程；在这个庞大的产业链中，价格
@@ -1683,9 +1722,9 @@ Growth 团队中一员，我来说说 Facebook 增长的故事。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org2220c4a" class="outline-3">
-<h3 id="org2220c4a">2019-06-04</h3>
-<div class="outline-text-3" id="text-org2220c4a">
+<div id="outline-container-org3616728" class="outline-3">
+<h3 id="org3616728">2019-06-04</h3>
+<div class="outline-text-3" id="text-org3616728">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Yt5X8QNmVj080glf27ogxA">《横扫印度市场的操作系统 KaiOS，值得华为鸿蒙借鉴吗？》</a> 曾经投入几十亿都
 没成功征服移动操作市场的阿里云 OS 案例还历历在目，KaiOS 又是何方神圣，一
@@ -1721,13 +1760,13 @@ Growth 团队中一员，我来说说 Facebook 增长的故事。</li>
 </div>
 </div>
 </div>
-<div id="outline-container-org4ed1fc4" class="outline-2">
-<h2 id="org4ed1fc4">五月</h2>
-<div class="outline-text-2" id="text-org4ed1fc4">
+<div id="outline-container-orga50d591" class="outline-2">
+<h2 id="orga50d591">五月</h2>
+<div class="outline-text-2" id="text-orga50d591">
 </div>
-<div id="outline-container-orgf6ba5b7" class="outline-3">
-<h3 id="orgf6ba5b7">2019-05-31</h3>
-<div class="outline-text-3" id="text-orgf6ba5b7">
+<div id="outline-container-orgc381004" class="outline-3">
+<h3 id="orgc381004">2019-05-31</h3>
+<div class="outline-text-3" id="text-orgc381004">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/okEO_pdgRo8dqgXlW2tDmA">《互联网“铁王座”争夺史》</a> 在这场权力的游戏里，对互联网界铁王座的争夺，
 从来就没有停止。小米、360、京东、美团、今日头条、滴滴……这些公司迅速崛
@@ -1764,9 +1803,9 @@ Growth 团队中一员，我来说说 Facebook 增长的故事。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf22fe3f" class="outline-3">
-<h3 id="orgf22fe3f">2019-05-30</h3>
-<div class="outline-text-3" id="text-orgf22fe3f">
+<div id="outline-container-org0b59be2" class="outline-3">
+<h3 id="org0b59be2">2019-05-30</h3>
+<div class="outline-text-3" id="text-org0b59be2">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/H9wzJdRpGZ0G6fpzDJuBLQ">《百度最难捱的一夜：五名高管闪电辞职内幕》</a> 五位高管离职、销售侧管理层
 空缺、老板和老板娘亲自上前线督战——百度正处在迎接字节跳动的最前夜。兵临
@@ -1805,9 +1844,9 @@ PC 转移动已经完成，用户红利消失，且用户在手机上对搜索�
 </ul>
 </div>
 </div>
-<div id="outline-container-org33e168b" class="outline-3">
-<h3 id="org33e168b">2019-05-29</h3>
-<div class="outline-text-3" id="text-org33e168b">
+<div id="outline-container-orga1c4fb4" class="outline-3">
+<h3 id="orga1c4fb4">2019-05-29</h3>
+<div class="outline-text-3" id="text-orga1c4fb4">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NdWDMUNPRV9LWmfFIqHzKw">《中国 15 大互联网公司广告收入榜 》</a> 面对快速发展的互联网生态，用户的关注
 也在迅速迁移，互联网巨头靠流量分发的粗暴式的广告创收的滋润日子转眼消去。
@@ -1846,9 +1885,9 @@ PC 转移动已经完成，用户红利消失，且用户在手机上对搜索�
 </ul>
 </div>
 </div>
-<div id="outline-container-org1cb6ae4" class="outline-3">
-<h3 id="org1cb6ae4">2019-05-28</h3>
-<div class="outline-text-3" id="text-org1cb6ae4">
+<div id="outline-container-org8bc76e8" class="outline-3">
+<h3 id="org8bc76e8">2019-05-28</h3>
+<div class="outline-text-3" id="text-org8bc76e8">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/gv-hZ1ZK2j0zwuMIn31deA">《张一鸣的用人观》</a> 在张一鸣的世界观来看，一切都是可以学习和训练的，包
 括演讲、包括情商、包括成为一位优秀的管理者。方法论坚持久了，便成了人生
@@ -1886,9 +1925,9 @@ PC 转移动已经完成，用户红利消失，且用户在手机上对搜索�
 </ul>
 </div>
 </div>
-<div id="outline-container-org649367e" class="outline-3">
-<h3 id="org649367e">2019-05-27</h3>
-<div class="outline-text-3" id="text-org649367e">
+<div id="outline-container-org6f99540" class="outline-3">
+<h3 id="org6f99540">2019-05-27</h3>
+<div class="outline-text-3" id="text-org6f99540">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/i1JJN4shTlcTgI74DovJLg">《互联网新人待价而沽》</a> 所有世代的年轻人一样，他们手握的最大资本是年轻，
 未来不再有任何一个时期，可以这样付出试错成本。</li>
@@ -1924,9 +1963,9 @@ PC 转移动已经完成，用户红利消失，且用户在手机上对搜索�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgdd937b4" class="outline-3">
-<h3 id="orgdd937b4">2019-05-24</h3>
-<div class="outline-text-3" id="text-orgdd937b4">
+<div id="outline-container-orgc1a096a" class="outline-3">
+<h3 id="orgc1a096a">2019-05-24</h3>
+<div class="outline-text-3" id="text-orgc1a096a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/BRyZP0LDIYoopIvz4VK0Kw">《陆奇如何评价萨提亚》</a> 头条科技的《头条有约》栏目去 YC 中国办公室采访了
 陆奇，其中不少观点是他首次对外公开讲，其中就包括他对萨提亚的评价。其中
@@ -1964,9 +2003,9 @@ PC 转移动已经完成，用户红利消失，且用户在手机上对搜索�
 </ul>
 </div>
 </div>
-<div id="outline-container-org9984a87" class="outline-3">
-<h3 id="org9984a87">2019-05-23</h3>
-<div class="outline-text-3" id="text-org9984a87">
+<div id="outline-container-org2003ef4" class="outline-3">
+<h3 id="org2003ef4">2019-05-23</h3>
+<div class="outline-text-3" id="text-org2003ef4">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/cSrnkAwIC_xGLUJsRwJrvw">《王小川：技术力量的「钝感」信徒》</a> 独立思考是艰难和反人性的事情。即便
 是那些优秀的企业家，也不是天生注定如此。他们敢于、和能够以独立思考去创
@@ -2005,9 +2044,9 @@ PC 转移动已经完成，用户红利消失，且用户在手机上对搜索�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc5fb866" class="outline-3">
-<h3 id="orgc5fb866">2019-05-21</h3>
-<div class="outline-text-3" id="text-orgc5fb866">
+<div id="outline-container-org5a9c111" class="outline-3">
+<h3 id="org5a9c111">2019-05-21</h3>
+<div class="outline-text-3" id="text-org5a9c111">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/P8WQ_y9GfnvvLr4u5ogOtA">《任正非：感谢美国公司，不要煽动狭隘民族主义》</a> 外界更加关心的是，在中
 美贸易谈判迟迟没有定论的大环境下，华为是否有可能重走中兴路，在多轮斡旋
@@ -2043,9 +2082,9 @@ PC 转移动已经完成，用户红利消失，且用户在手机上对搜索�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgdd16479" class="outline-3">
-<h3 id="orgdd16479">2019-05-20</h3>
-<div class="outline-text-3" id="text-orgdd16479">
+<div id="outline-container-orgbb0a123" class="outline-3">
+<h3 id="orgbb0a123">2019-05-20</h3>
+<div class="outline-text-3" id="text-orgbb0a123">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/_Oap3Hmfki7nFgqfgtVA_w">《一季度传统媒体广告跌 11%，广告主的预算都去哪儿了？》</a> 中国广告市场下滑
 的征兆其实早就出现了：春节。每年春节前后都是品牌营销的重头戏之一，但
@@ -2084,9 +2123,9 @@ Jauns Dongye, 他来自中国的山东省。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org32438f6" class="outline-3">
-<h3 id="org32438f6">2019-05-15</h3>
-<div class="outline-text-3" id="text-org32438f6">
+<div id="outline-container-org09ed34f" class="outline-3">
+<h3 id="org09ed34f">2019-05-15</h3>
+<div class="outline-text-3" id="text-org09ed34f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/3Lqx99MvnLzRK2DLIDN0dw">《快手融资故事：直播和社交转折点》</a> 回顾一下，快手发展过程中有两个转折
 点。第一件事是在选择商业化路径时，宿华选择了既是用户产品又是商业产品的
@@ -2123,9 +2162,9 @@ Jauns Dongye, 他来自中国的山东省。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org1a9f430" class="outline-3">
-<h3 id="org1a9f430">2019-05-14</h3>
-<div class="outline-text-3" id="text-org1a9f430">
+<div id="outline-container-orge4a2102" class="outline-3">
+<h3 id="orge4a2102">2019-05-14</h3>
+<div class="outline-text-3" id="text-orge4a2102">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/aJmDBf--GIu7lmAIu_vzZg">《外企职场精英怎么就输给了时代？》</a> 在国内互联网公司动辄“996”的工作强度
 面前，外企相对自由的朝九晚五的工作节奏无疑是令人羡慕的舒适区。只是，互
@@ -2163,9 +2202,9 @@ Jauns Dongye, 他来自中国的山东省。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org270d16d" class="outline-3">
-<h3 id="org270d16d">2019-05-13</h3>
-<div class="outline-text-3" id="text-org270d16d">
+<div id="outline-container-orgc3b6cce" class="outline-3">
+<h3 id="orgc3b6cce">2019-05-13</h3>
+<div class="outline-text-3" id="text-orgc3b6cce">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/hH8J7d52AfpOz3lsXdfuyg">《谁决定了你一周工作几天》</a> 决定你一周工作几天的，并不只是黑心老板和无
 良企业。历史的行程，远远高于人为的制度设计。工作日制度是更大的社会经济
@@ -2206,9 +2245,9 @@ Sales。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org498dcd5" class="outline-3">
-<h3 id="org498dcd5">2019-05-09</h3>
-<div class="outline-text-3" id="text-org498dcd5">
+<div id="outline-container-org44b8a97" class="outline-3">
+<h3 id="org44b8a97">2019-05-09</h3>
+<div class="outline-text-3" id="text-org44b8a97">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/99OHh_LbXjaXHRwu8h6efg">《近观香港，远看上海，反思深圳》</a> 哪些城市将衰落？哪些城市又将崛起？近
 观香港，远看上海，反思深圳，以国际之视野、理性之思维，探寻中国大都市演
@@ -2247,9 +2286,9 @@ Sales。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org587a95a" class="outline-3">
-<h3 id="org587a95a">2019-05-07</h3>
-<div class="outline-text-3" id="text-org587a95a">
+<div id="outline-container-org31c2554" class="outline-3">
+<h3 id="org31c2554">2019-05-07</h3>
+<div class="outline-text-3" id="text-org31c2554">
 <ul class="org-ul">
 <li><a href="https://media.weibo.cn/article?id=2309404369255767370919">《挺过创新困境：微软正经历“纳德拉复兴”》</a> 在 CEO 萨提亚·纳德拉（Satya
 Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算业务营收也超
@@ -2290,9 +2329,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbbc3b90" class="outline-3">
-<h3 id="orgbbc3b90">2019-05-06</h3>
-<div class="outline-text-3" id="text-orgbbc3b90">
+<div id="outline-container-org1305c27" class="outline-3">
+<h3 id="org1305c27">2019-05-06</h3>
+<div class="outline-text-3" id="text-org1305c27">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/lzZMlkIV4ZDTuw9NqP2bsQ">《中国的 5G 究竟领先在哪儿？》</a> 在我们迈向 5G 的进程中，各个国家都做出
 了不少努力，但目前也都各自面临着一些区域性的困境。这次是中国篇，了解中
@@ -2333,9 +2372,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-org0a47ed4" class="outline-3">
-<h3 id="org0a47ed4">2019-05-05</h3>
-<div class="outline-text-3" id="text-org0a47ed4">
+<div id="outline-container-org3de0970" class="outline-3">
+<h3 id="org3de0970">2019-05-05</h3>
+<div class="outline-text-3" id="text-org3de0970">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/R0xkRCONL2XwBlhdB0vPKQ">《89 岁巴菲特+95 岁芒格：77 年投资总结 55 个问题完整版》</a> 将近 89 岁的巴菲特和
 95 岁的老搭档芒格再次直面万人问答，他们如何看待重要持仓和新投资？对中美
@@ -2375,13 +2414,13 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </div>
 </div>
 </div>
-<div id="outline-container-orge208f1c" class="outline-2">
-<h2 id="orge208f1c">四月</h2>
-<div class="outline-text-2" id="text-orge208f1c">
+<div id="outline-container-orga7b0d00" class="outline-2">
+<h2 id="orga7b0d00">四月</h2>
+<div class="outline-text-2" id="text-orga7b0d00">
 </div>
-<div id="outline-container-orgf1806a7" class="outline-3">
-<h3 id="orgf1806a7">2019-04-29</h3>
-<div class="outline-text-3" id="text-orgf1806a7">
+<div id="outline-container-orge4cb202" class="outline-3">
+<h3 id="orge4cb202">2019-04-29</h3>
+<div class="outline-text-3" id="text-orge4cb202">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/bf0bvF2o0IINaCB9aaFeHQ">《8000 亿 , 被低估的中国广告》</a> 2018 年，中国广告市场表现超出预期，取得
 了近 8000 亿元的市场规模。面对全球低迷的广告市场和持续走低的世界经济形
@@ -2419,9 +2458,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgad0f0a4" class="outline-3">
-<h3 id="orgad0f0a4">2019-04-25</h3>
-<div class="outline-text-3" id="text-orgad0f0a4">
+<div id="outline-container-orge8cf3a9" class="outline-3">
+<h3 id="orge8cf3a9">2019-04-25</h3>
+<div class="outline-text-3" id="text-orge8cf3a9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/EEj0Hrp3Tq6BFF5EAPWG-Q">《刘强东案音视频：机构媒体的堕落与溃败》</a> 在这个年代，人人都可以做“自媒
 体”，但机构媒体有着相当的门槛，以相对专业和权威的面目示人，并且理应秉
@@ -2458,9 +2497,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgadb3475" class="outline-3">
-<h3 id="orgadb3475">2019-04-23</h3>
-<div class="outline-text-3" id="text-orgadb3475">
+<div id="outline-container-orgfb8afa3" class="outline-3">
+<h3 id="orgfb8afa3">2019-04-23</h3>
+<div class="outline-text-3" id="text-orgfb8afa3">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/jyZhDbC3DcmeRFjagE81eA">《瑞幸咖啡上市进入冲刺期，烧钱长跑还在路上》</a> 从开始运营到成为独角兽，
 再到递交 IPO 申请，瑞幸仅用了一年半的时间，打破了中国创业公司的发展节奏，
@@ -2495,9 +2534,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-org199dc16" class="outline-3">
-<h3 id="org199dc16">2019-04-22</h3>
-<div class="outline-text-3" id="text-org199dc16">
+<div id="outline-container-org9b4c9ab" class="outline-3">
+<h3 id="org9b4c9ab">2019-04-22</h3>
+<div class="outline-text-3" id="text-org9b4c9ab">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/c4GZyLk8-3GASqOp5M4eyg">《Facebook 自我修复：扎克伯格如何挺过地狱般的 15 个月》</a> 当美国就用户隐
 私问题打算将矛头对准 Facebook 时，Facebook 一直在做出动作，雇大量人工
@@ -2538,9 +2577,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-org9b62316" class="outline-3">
-<h3 id="org9b62316">2019-04-18</h3>
-<div class="outline-text-3" id="text-org9b62316">
+<div id="outline-container-org01c3efc" class="outline-3">
+<h3 id="org01c3efc">2019-04-18</h3>
+<div class="outline-text-3" id="text-org01c3efc">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/sPnRVTB0XSEEHEmpBVs8SA">《兄弟俩长大后，哥哥成富豪弟弟成穷人，互换人生后，发现决定命运分水岭的
 是…》</a> 有好事的英国媒体，专门给这两兄弟拍了个纪录片，还别出心裁地搞了个
@@ -2578,9 +2617,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-org57c3838" class="outline-3">
-<h3 id="org57c3838">2019-04-17</h3>
-<div class="outline-text-3" id="text-org57c3838">
+<div id="outline-container-org65978f8" class="outline-3">
+<h3 id="org65978f8">2019-04-17</h3>
+<div class="outline-text-3" id="text-org65978f8">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/XP72K0BRjfjA2RAWr_GSng">《我在云南种大麻》</a> 整个云南工业大麻产业从乏人问津到争抢签约、圈地，似乎只相隔
 一夜，工业大麻魔幻故事在云南开始上演。</li>
@@ -2614,9 +2653,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-orge643fcb" class="outline-3">
-<h3 id="orge643fcb">2019-04-16</h3>
-<div class="outline-text-3" id="text-orge643fcb">
+<div id="outline-container-org81ba194" class="outline-3">
+<h3 id="org81ba194">2019-04-16</h3>
+<div class="outline-text-3" id="text-org81ba194">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/iizNqmJpcDLr6zu7av5DKA">《独狼周鸿祎：阶段性的高管、阶段性的战略》</a> 本文旨在从战略和组织出发，
 看看 3SB 大战之后的 360 是如何从一艘大船成为一支舰队，这个舰队又是怎样
@@ -2652,9 +2691,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-orge2857ed" class="outline-3">
-<h3 id="orge2857ed">2019-04-15</h3>
-<div class="outline-text-3" id="text-orge2857ed">
+<div id="outline-container-org0d1f42d" class="outline-3">
+<h3 id="org0d1f42d">2019-04-15</h3>
+<div class="outline-text-3" id="text-org0d1f42d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/YHprbYAVrXgszql21s09Dg">《裁员、补课、开源节流，TMD 三小巨头该如何活下去？》</a> TMD（字节跳动、美
 团点评、滴滴）三小巨头既像大巨头面临资本市场和裁员影响压力，又像小公司
@@ -2685,9 +2724,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgaa0a2e3" class="outline-3">
-<h3 id="orgaa0a2e3">2019-04-11</h3>
-<div class="outline-text-3" id="text-orgaa0a2e3">
+<div id="outline-container-orgcba2c72" class="outline-3">
+<h3 id="orgcba2c72">2019-04-11</h3>
+<div class="outline-text-3" id="text-orgcba2c72">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/9ngpRsEnnbWCnIKat7P1lA">《《权力的游戏》最终季开播：IP 印钞机的全球吸金记》</a> 作为全球现象级的顶
 级美剧 IP，《权力的游戏》自带诸多具有话题性的标签——世界上被盗版次数最多
@@ -2724,9 +2763,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgaa47b1c" class="outline-3">
-<h3 id="orgaa47b1c">2019-04-10</h3>
-<div class="outline-text-3" id="text-orgaa47b1c">
+<div id="outline-container-org2234f36" class="outline-3">
+<h3 id="org2234f36">2019-04-10</h3>
+<div class="outline-text-3" id="text-org2234f36">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Wo8PYjyexBSZuaAoEuNFJw">《世间再无新零售》</a> 世间并没有严格意义上的新零售，并不是否认零售需要升
 级迭代，如果一切都是非黑即白的话，那也是一种反智。</li>
@@ -2759,9 +2798,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf1c008d" class="outline-3">
-<h3 id="orgf1c008d">2019-04-09</h3>
-<div class="outline-text-3" id="text-orgf1c008d">
+<div id="outline-container-org075ef7c" class="outline-3">
+<h3 id="org075ef7c">2019-04-09</h3>
+<div class="outline-text-3" id="text-org075ef7c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/SX4UNnYMe1GY_CbUrFtO_w">《Facebook 失速：帝国膨胀太快为困境埋下种子》</a> 10 亿用户！微软花了近 26
 年的时间才接触到 10 亿 Windows 用户，谷歌搜索花了 12 年的时间才达到同
@@ -2798,9 +2837,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-org8b2f939" class="outline-3">
-<h3 id="org8b2f939">2019-04-08</h3>
-<div class="outline-text-3" id="text-org8b2f939">
+<div id="outline-container-orgfbdae4a" class="outline-3">
+<h3 id="orgfbdae4a">2019-04-08</h3>
+<div class="outline-text-3" id="text-orgfbdae4a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/CmAVUYaXUK0zjMZCco6hLw">《微博也开通“半年可见”功能，但依旧是朋友圈精致，微博蹦迪》</a> 如果你想快
 速了解一个陌生人，会采用什么方法，微博还是微信朋友圈？原本微博和微信朋
@@ -2831,9 +2870,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb2c2fcb" class="outline-3">
-<h3 id="orgb2c2fcb">2019-04-03</h3>
-<div class="outline-text-3" id="text-orgb2c2fcb">
+<div id="outline-container-org9bf3d9c" class="outline-3">
+<h3 id="org9bf3d9c">2019-04-03</h3>
+<div class="outline-text-3" id="text-org9bf3d9c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/vo6stP4ctU3pz8UmJDsw2A">《连续霸榜第一的“学习强国”，到底是一款什么样的神仙 App？》</a> 当所有人在
 感慨线上流量的昂贵之时，“学习强国”这款几乎没有任何推广成本 App 突然爆
@@ -2862,9 +2901,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf51736d" class="outline-3">
-<h3 id="orgf51736d">2019-04-02</h3>
-<div class="outline-text-3" id="text-orgf51736d">
+<div id="outline-container-org8404367" class="outline-3">
+<h3 id="org8404367">2019-04-02</h3>
+<div class="outline-text-3" id="text-org8404367">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/O-ujoJlidLXZIBLVu5FFJg">《不知不觉，区块链正重回正轨》</a> 涨潮时，各路牛鬼蛇神都赶来，带着想一夜
 暴富的人们集体高潮；潮水褪去，他们拍一拍屁股走人，不留下一片韭菜，跟风
@@ -2902,13 +2941,13 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </div>
 </div>
 
-<div id="outline-container-org39f3330" class="outline-2">
-<h2 id="org39f3330">三月</h2>
-<div class="outline-text-2" id="text-org39f3330">
+<div id="outline-container-org3b0cc65" class="outline-2">
+<h2 id="org3b0cc65">三月</h2>
+<div class="outline-text-2" id="text-org3b0cc65">
 </div>
-<div id="outline-container-org15dbd1d" class="outline-3">
-<h3 id="org15dbd1d">2019-03-29</h3>
-<div class="outline-text-3" id="text-org15dbd1d">
+<div id="outline-container-org96926cd" class="outline-3">
+<h3 id="org96926cd">2019-03-29</h3>
+<div class="outline-text-3" id="text-org96926cd">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Ou60v6mqhx0v6z35Iy7isQ">《韩寒郭敬明出道 20 年了，我们的青春早已截稿》</a> 再看到新概念的消息，都
 觉得熟悉。再看到他们的消息，都有一种师出同门的归属感。那是你青春时第一
@@ -2942,9 +2981,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-org2643c14" class="outline-3">
-<h3 id="org2643c14">2019-03-28</h3>
-<div class="outline-text-3" id="text-org2643c14">
+<div id="outline-container-org722cb57" class="outline-3">
+<h3 id="org722cb57">2019-03-28</h3>
+<div class="outline-text-3" id="text-org722cb57">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/wH5og2TL-VrK9JdMlfmLVQ">《广告公司、MCN 机构、KOL，未来谁将占据主导？》</a> 微信和微博竞争，是让双
 方都更好，受益于普通网民。广告公司和 MCN 机构/KOL 的竞争，也会使得行业
@@ -2982,9 +3021,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-org930d410" class="outline-3">
-<h3 id="org930d410">2019-03-27</h3>
-<div class="outline-text-3" id="text-org930d410">
+<div id="outline-container-orga505e4d" class="outline-3">
+<h3 id="orga505e4d">2019-03-27</h3>
+<div class="outline-text-3" id="text-orga505e4d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/bzs2P3mWR5Uu13a1_ICiww">《淘宝推出特卖区：下沉市场巨变在即》</a> 相较于京东的“渠道下沉”计划和苏宁
 的“社区电商”，淘宝才是拼多多在下沉市场的最大对手。手淘在昨天发布的特卖
@@ -3022,9 +3061,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-org7a96c9e" class="outline-3">
-<h3 id="org7a96c9e">2019-03-26</h3>
-<div class="outline-text-3" id="text-org7a96c9e">
+<div id="outline-container-orgfeddc88" class="outline-3">
+<h3 id="orgfeddc88">2019-03-26</h3>
+<div class="outline-text-3" id="text-orgfeddc88">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/zblPMUzDmkZ-BGr1Pdn0kg">《互联网新人待价而沽》</a> 现实存在着吊诡的矛盾：一面是随着新技术与新行业
 的兴起，年轻人有了更多元的从业选择；一面是毕业生供应量逐年攀升，逢经济
@@ -3062,9 +3101,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-org6161a61" class="outline-3">
-<h3 id="org6161a61">2019-03-25</h3>
-<div class="outline-text-3" id="text-org6161a61">
+<div id="outline-container-org3ed12f9" class="outline-3">
+<h3 id="org3ed12f9">2019-03-25</h3>
+<div class="outline-text-3" id="text-org3ed12f9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/pQbQIbmVv1P7arUcwZ-8zw">《手游业绩好于预期，19 年下半年增长有望反弹，公司转型继续》</a> 本文是针对
 《腾讯 2018Q4 财报》的点评：手游业绩好于预期……视频付费订阅数继续领先爱
@@ -3102,9 +3141,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf2a71c9" class="outline-3">
-<h3 id="orgf2a71c9">2019-03-22</h3>
-<div class="outline-text-3" id="text-orgf2a71c9">
+<div id="outline-container-orgd4539ba" class="outline-3">
+<h3 id="orgd4539ba">2019-03-22</h3>
+<div class="outline-text-3" id="text-orgd4539ba">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Kz4_W328qcplFQAsdGqrLw">《非洲，上千万中国人正在淘金》</a> 去非洲打拼的中国人，绝大多数都不是因为
 【想去】，毕竟那里远离故乡两万里。们中有一部分是看到了非洲的潜力，但更
@@ -3141,9 +3180,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-org67d6ca3" class="outline-3">
-<h3 id="org67d6ca3">2019-03-21</h3>
-<div class="outline-text-3" id="text-org67d6ca3">
+<div id="outline-container-org317856c" class="outline-3">
+<h3 id="org317856c">2019-03-21</h3>
+<div class="outline-text-3" id="text-org317856c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/ahNLsbkPYXj3hDP-5ag0MA">《雷军和小米进入“更年期”》</a> 在全球智能手机出货量放缓的背景下，Q4 财报显
 示，小米手机销售下降。卖不动的手机，小米究竟要如何应对以求软着陆？如何
@@ -3173,9 +3212,9 @@ Nadella）的领导下，微软的付费订阅用户超过 Netflix，云计算�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb75de5c" class="outline-3">
-<h3 id="orgb75de5c">2019-03-20</h3>
-<div class="outline-text-3" id="text-orgb75de5c">
+<div id="outline-container-orgbe0a0be" class="outline-3">
+<h3 id="orgbe0a0be">2019-03-20</h3>
+<div class="outline-text-3" id="text-orgbe0a0be">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/0EvRGm8bFbKwstma3oUJhg">《朱啸虎推荐超深度长文：地位即服务——重新审视社交网络》</a> 为什么一些巨型
 社交网络会突然失宠或是被一些新平台颠覆？为什么一些工具没能如期演化成社
@@ -3221,9 +3260,9 @@ Canalys 称，智能音箱 2018 年全球出货量达到 7800 万台，与 2017 
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd6e3fae" class="outline-3">
-<h3 id="orgd6e3fae">2019-03-18</h3>
-<div class="outline-text-3" id="text-orgd6e3fae">
+<div id="outline-container-org9e757a1" class="outline-3">
+<h3 id="org9e757a1">2019-03-18</h3>
+<div class="outline-text-3" id="text-org9e757a1">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/-5LgXLKG_b-7Kt9_tRDW3w">《传奇 EA：一个伟大公司走向平庸的故事》</a> 为什么不受 EA 重视的产品可以爆
 红，而全公司倾力投入的大作却难以达到预期？外挂问题在游戏界十分常见，为
@@ -3259,9 +3298,9 @@ Canalys 称，智能音箱 2018 年全球出货量达到 7800 万台，与 2017 
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb537731" class="outline-3">
-<h3 id="orgb537731">2019-03-15</h3>
-<div class="outline-text-3" id="text-orgb537731">
+<div id="outline-container-orgd3717b7" class="outline-3">
+<h3 id="orgd3717b7">2019-03-15</h3>
+<div class="outline-text-3" id="text-orgd3717b7">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/xctQe30HcNtliZyiUtq9Mw">《《财富》深度专访：脸书“换脸”》</a> 美国《财富杂志》专访 Facebook CEO 扎
 克伯格、COO 桑德伯格等管理层人员，试图揭开遭遇泄露用户隐私危机、被美国
@@ -3299,9 +3338,9 @@ Canalys 称，智能音箱 2018 年全球出货量达到 7800 万台，与 2017 
 </ul>
 </div>
 </div>
-<div id="outline-container-org07fa7fa" class="outline-3">
-<h3 id="org07fa7fa">2019-03-14</h3>
-<div class="outline-text-3" id="text-org07fa7fa">
+<div id="outline-container-org096db01" class="outline-3">
+<h3 id="org096db01">2019-03-14</h3>
+<div class="outline-text-3" id="text-org096db01">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/5UiXEla_sbDI20WldBjuHA">《搜索战争暗流涌动》</a> PC 时代向移动互联网时代的转变，改变了众多领域的格
 局，包括资讯、电商、社交和游戏和视频。很多事情在 PC 端是很小的，在移动
@@ -3336,9 +3375,9 @@ Canalys 称，智能音箱 2018 年全球出货量达到 7800 万台，与 2017 
 </ul>
 </div>
 </div>
-<div id="outline-container-org7431bee" class="outline-3">
-<h3 id="org7431bee">2019-03-13</h3>
-<div class="outline-text-3" id="text-org7431bee">
+<div id="outline-container-org121bbca" class="outline-3">
+<h3 id="org121bbca">2019-03-13</h3>
+<div class="outline-text-3" id="text-org121bbca">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/waA5V-8iqcZf7FFmClFnqw">《我混进了 00 后的 QQ 群，试图弄懂 00 后是怎么想的》</a> QQ 承载了很多 80
 后和 90 后的青春，如今已经被 00 占领。如果你已经太久没登陆 QQ，应该不
@@ -3376,9 +3415,9 @@ cqy、nss……</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org4fde989" class="outline-3">
-<h3 id="org4fde989">2019-03-11</h3>
-<div class="outline-text-3" id="text-org4fde989">
+<div id="outline-container-org61302b0" class="outline-3">
+<h3 id="org61302b0">2019-03-11</h3>
+<div class="outline-text-3" id="text-org61302b0">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/KGWyaZ8cdQkmR1UviK29vw">《头条的七年，很痒》</a> 在人口红利已经见顶的前提下，3000 亿的移动广告里，
 头条已经拿走两成。要继续保持增长，要不上马新赛道，要不提升用户规模与时
@@ -3415,9 +3454,9 @@ cqy、nss……</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org5948972" class="outline-3">
-<h3 id="org5948972">2019-03-08</h3>
-<div class="outline-text-3" id="text-org5948972">
+<div id="outline-container-orgb5dd0ed" class="outline-3">
+<h3 id="orgb5dd0ed">2019-03-08</h3>
+<div class="outline-text-3" id="text-orgb5dd0ed">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/PEWrE51JOgii8TQ9a573iA">《妇女能买半边天》</a> 几千年积累的包袱和糟粕，需要由蛇行斗折的觉醒、摧枯
 拉朽的革命、经济地位的独立，以及一场场润物无声的消费运动来击碎。不理解
@@ -3457,9 +3496,9 @@ cqy、nss……</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org259c451" class="outline-3">
-<h3 id="org259c451">2019-03-07</h3>
-<div class="outline-text-3" id="text-org259c451">
+<div id="outline-container-org96021b2" class="outline-3">
+<h3 id="org96021b2">2019-03-07</h3>
+<div class="outline-text-3" id="text-org96021b2">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/KVdKYvH7geJZVwIIsP3piwhttps://mp.weixin.qq.com/s/KVdKYvH7geJZVwIIsP3piw">《券业寒冬，大裁员 ？头部券商这一业务收入逆势大增 65%！一文揭秘广发证
 券财富管理转型》</a> 2018 年上半年，广发证券产品代销收入同比增长 65%。近日，
@@ -3497,9 +3536,9 @@ Alexa 上最高排名前 30，2018 年全年独立访客访问量高达 335 亿�
 </ul>
 </div>
 </div>
-<div id="outline-container-org2b676e5" class="outline-3">
-<h3 id="org2b676e5">2019-03-06</h3>
-<div class="outline-text-3" id="text-org2b676e5">
+<div id="outline-container-orgcac2dd0" class="outline-3">
+<h3 id="orgcac2dd0">2019-03-06</h3>
+<div class="outline-text-3" id="text-orgcac2dd0">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/RTTQA1jQlvDcVfhISiNvNQ">《微信前员工怎么看：15 亿用户的 WhatsApp 的变现之旅》</a> 反广告是
 WhatsApp 的创立基石，但是 Facebook 的并购彻底改变了其命运……面对理想与
@@ -3538,9 +3577,9 @@ WhatsApp 的创立基石，但是 Facebook 的并购彻底改变了其命运…�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc3a446e" class="outline-3">
-<h3 id="orgc3a446e">2019-03-05</h3>
-<div class="outline-text-3" id="text-orgc3a446e">
+<div id="outline-container-orge0f2645" class="outline-3">
+<h3 id="orge0f2645">2019-03-05</h3>
+<div class="outline-text-3" id="text-orge0f2645">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/hEtjoWjuyueTtoduLwPqrw">《爱奇艺和奈飞财报对比，两者的相似和不同》</a> 奈飞作为全球视频龙头，其市
 值已经超过了绝大多数的娱乐平台型公司，并且是过去 10 年表现最佳的美股之
@@ -3570,9 +3609,9 @@ Hulu、Flipboard 的产品负责人。原文标题 Status as a Service (StaaS)�
 </ul>
 </div>
 </div>
-<div id="outline-container-org9be5d87" class="outline-3">
-<h3 id="org9be5d87">2019-03-04</h3>
-<div class="outline-text-3" id="text-org9be5d87">
+<div id="outline-container-org87c3f9a" class="outline-3">
+<h3 id="org87c3f9a">2019-03-04</h3>
+<div class="outline-text-3" id="text-org87c3f9a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/L_t3h9Y4nPQkMHvhT4Xutg">《冷静看 5G：不应捧杀，更别抹杀》</a> 有的人认为 5G 绝对就是好的，光这一项
 技术就能推动一系列应用场景（如 VR、自动驾驶）的进展； 有的人则认为 4G
@@ -3612,13 +3651,13 @@ Hulu、Flipboard 的产品负责人。原文标题 Status as a Service (StaaS)�
 </div>
 </div>
 </div>
-<div id="outline-container-org740c230" class="outline-2">
-<h2 id="org740c230">二月</h2>
-<div class="outline-text-2" id="text-org740c230">
+<div id="outline-container-org47f9f8f" class="outline-2">
+<h2 id="org47f9f8f">二月</h2>
+<div class="outline-text-2" id="text-org47f9f8f">
 </div>
-<div id="outline-container-orgb8a26e4" class="outline-3">
-<h3 id="orgb8a26e4">2019-02-27</h3>
-<div class="outline-text-3" id="text-orgb8a26e4">
+<div id="outline-container-org6031c0e" class="outline-3">
+<h3 id="org6031c0e">2019-02-27</h3>
+<div class="outline-text-3" id="text-org6031c0e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/s6POkfDGdo_MO7D1sq66Cg">《百度的春晚战事》</a> 2019 年，央视春晚红包招标时间很晚，距离除夕只有一个
 多月的时间。巨头们都觉得凶险异常，百度却高高举手：我来！我来！所有吃瓜
@@ -3658,9 +3697,9 @@ Hulu、Flipboard 的产品负责人。原文标题 Status as a Service (StaaS)�
 </ul>
 </div>
 </div>
-<div id="outline-container-org4be65be" class="outline-3">
-<h3 id="org4be65be">2019-02-26</h3>
-<div class="outline-text-3" id="text-org4be65be">
+<div id="outline-container-org0096e23" class="outline-3">
+<h3 id="org0096e23">2019-02-26</h3>
+<div class="outline-text-3" id="text-org0096e23">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/trotYwVWd6B5R1vXXtw7Zw">《奥美巨变之后》</a> “一个奥美（One Ogilvy）”的改革计划，即奥美集团旗下的
 各个子公司——奥美广告、奥美公关、奥美互动等，都要合并为单一的“奥美”来经
@@ -3698,9 +3737,9 @@ Hulu、Flipboard 的产品负责人。原文标题 Status as a Service (StaaS)�
 </ul>
 </div>
 </div>
-<div id="outline-container-org89ea5d8" class="outline-3">
-<h3 id="org89ea5d8">2019-02-25</h3>
-<div class="outline-text-3" id="text-org89ea5d8">
+<div id="outline-container-org5cda1c6" class="outline-3">
+<h3 id="org5cda1c6">2019-02-25</h3>
+<div class="outline-text-3" id="text-org5cda1c6">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/dFeL4kcr6URz1kgSw41kFg">《结果来了！延后加税！第七轮中美经贸磋商结束，释放了 3 个清晰的信号！》</a>
 信号一，谈判已进入到最后阶段，开始准备协议文本了。信号二，谈判取得重大
@@ -3738,9 +3777,9 @@ Hulu、Flipboard 的产品负责人。原文标题 Status as a Service (StaaS)�
 </ul>
 </div>
 </div>
-<div id="outline-container-org68d48e0" class="outline-3">
-<h3 id="org68d48e0">2019-02-22</h3>
-<div class="outline-text-3" id="text-org68d48e0">
+<div id="outline-container-orge45b2c6" class="outline-3">
+<h3 id="orge45b2c6">2019-02-22</h3>
+<div class="outline-text-3" id="text-orge45b2c6">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Zx_UhBTaJcV4TbdPvGWo9w">《爆红土味视频，是打工青年们与城市的距离》</a> 他从评论里知道土味奥特曼上
 了微博热搜。广告商和媒体也在联系他。“我好像又火了。”他说，“不过火得快，
@@ -3776,9 +3815,9 @@ Hulu、Flipboard 的产品负责人。原文标题 Status as a Service (StaaS)�
 </ul>
 </div>
 </div>
-<div id="outline-container-orge2e00b4" class="outline-3">
-<h3 id="orge2e00b4">2019-02-21</h3>
-<div class="outline-text-3" id="text-orge2e00b4">
+<div id="outline-container-org2a54edf" class="outline-3">
+<h3 id="org2a54edf">2019-02-21</h3>
+<div class="outline-text-3" id="text-org2a54edf">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/fo7fbDNcSJgaslQD5ilCWA">《亚马逊为什么玩不转中国市场？》</a> 自 2004 年收购卓越网进入中国，亚马逊
 在此已打拼近 15 年，却不是第一次被传要卖中国业务。简单来说，就是水土不
@@ -3815,9 +3854,9 @@ Hulu、Flipboard 的产品负责人。原文标题 Status as a Service (StaaS)�
 </ul>
 </div>
 </div>
-<div id="outline-container-org54725b8" class="outline-3">
-<h3 id="org54725b8">2019-02-20</h3>
-<div class="outline-text-3" id="text-org54725b8">
+<div id="outline-container-org7756873" class="outline-3">
+<h3 id="org7756873">2019-02-20</h3>
+<div class="outline-text-3" id="text-org7756873">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/MnvDwzZGjvr0KsHuzZwoIg">《李善友：简单到让对手震惊，进取到让自己毛骨悚然！》</a> 视频网站 Netflix，
 用户数量超过美国全部有线电视用户的总和，成为全球最大的娱乐供应商。它的
@@ -3854,9 +3893,9 @@ CEO 哈斯廷斯被评为最糟糕的 CEO，但哈斯廷斯却只在乎一件事
 </ul>
 </div>
 </div>
-<div id="outline-container-org84fef62" class="outline-3">
-<h3 id="org84fef62">2019-02-19</h3>
-<div class="outline-text-3" id="text-org84fef62">
+<div id="outline-container-org99e12ac" class="outline-3">
+<h3 id="org99e12ac">2019-02-19</h3>
+<div class="outline-text-3" id="text-org99e12ac">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/W-dRZOkmGRH3Xo-mDD3xAw">《互联网圈的庙堂与江湖》</a> 互联网江湖类似于这样的“战争”，其实并不少见，
 隔空放枪、喊话于是便成了最基本的招数。就像《笑傲江湖》里说的那样：派别
@@ -3891,9 +3930,9 @@ CEO 哈斯廷斯被评为最糟糕的 CEO，但哈斯廷斯却只在乎一件事
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb439bfc" class="outline-3">
-<h3 id="orgb439bfc">2019-02-18</h3>
-<div class="outline-text-3" id="text-orgb439bfc">
+<div id="outline-container-org957a1ea" class="outline-3">
+<h3 id="org957a1ea">2019-02-18</h3>
+<div class="outline-text-3" id="text-org957a1ea">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/zfPnfrBwFpCtRxpq9PWRiQ">《疯狂的「新造烟」运动 | 36 氪新风向》</a> 在目标人群上，电子烟的玩家们其
 实并不想和万宝路们抢夺存量用户，他们更看重的是年轻人们带来的市场增量，
@@ -3929,9 +3968,9 @@ CEO 哈斯廷斯被评为最糟糕的 CEO，但哈斯廷斯却只在乎一件事
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc47f6c6" class="outline-3">
-<h3 id="orgc47f6c6">2019-02-15</h3>
-<div class="outline-text-3" id="text-orgc47f6c6">
+<div id="outline-container-orgde0246e" class="outline-3">
+<h3 id="orgde0246e">2019-02-15</h3>
+<div class="outline-text-3" id="text-orgde0246e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/v_cQyRcMf4eNLfBt6x39eA">《复盘 Twitter 发展迷思：为何生于移动却错过移动？》</a> 移动大潮来临时，
 Twitter 跟 Facebook 还是一个级别的公司，Facebook 一开始对移动也出现了
@@ -3970,9 +4009,9 @@ Benedict Evans 在其博客上发表了一篇文章，讨论了 5G 可能带来�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf46beda" class="outline-3">
-<h3 id="orgf46beda">2019-02-13</h3>
-<div class="outline-text-3" id="text-orgf46beda">
+<div id="outline-container-org8fe2a46" class="outline-3">
+<h3 id="org8fe2a46">2019-02-13</h3>
+<div class="outline-text-3" id="text-org8fe2a46">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/jRR6Hl-jDEhDq2cb0R97Gg">《1 元钱看《流浪地球》：春节档盗版损失已超 10 亿？》</a> 随着多个片源链接
 被举报，一座庞大的盗版产业链冰山随之浮出水面。从大年初二开始，《流浪地
@@ -4008,13 +4047,13 @@ Benedict Evans 在其博客上发表了一篇文章，讨论了 5G 可能带来�
 </div>
 </div>
 </div>
-<div id="outline-container-orgdfbd14a" class="outline-2">
-<h2 id="orgdfbd14a">一月</h2>
-<div class="outline-text-2" id="text-orgdfbd14a">
+<div id="outline-container-orga3a479a" class="outline-2">
+<h2 id="orga3a479a">一月</h2>
+<div class="outline-text-2" id="text-orga3a479a">
 </div>
-<div id="outline-container-org770fb0b" class="outline-3">
-<h3 id="org770fb0b">2019-01-29</h3>
-<div class="outline-text-3" id="text-org770fb0b">
+<div id="outline-container-orgf9bc22d" class="outline-3">
+<h3 id="orgf9bc22d">2019-01-29</h3>
+<div class="outline-text-3" id="text-orgf9bc22d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/EQa6H5XsgqxcPJ4hzKpyvQ">《多闪有机会吗？》</a> 几天过去了，多闪还在 App Store 的总榜前列，根据披露，
 在其上线当日，就有超过 100 万用户涌入下载，即使是在字节跳动这家公司的
@@ -4052,9 +4091,9 @@ Benedict Evans 在其博客上发表了一篇文章，讨论了 5G 可能带来�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc8732c0" class="outline-3">
-<h3 id="orgc8732c0">2019-01-25</h3>
-<div class="outline-text-3" id="text-orgc8732c0">
+<div id="outline-container-org0ab2370" class="outline-3">
+<h3 id="org0ab2370">2019-01-25</h3>
+<div class="outline-text-3" id="text-org0ab2370">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/2ROEPuJYLLlFk3S1kfRlAQ">《百家号不等于搜索，但百度走向封闭在所难免》</a> 把百度搜索拦在门外的，包
 括微信公众号和头条号。至于百度是否在走向封闭？百家号未来的角色究竟是什
@@ -4091,9 +4130,9 @@ Carlos Ghosn。然而 11 月 19 日，日本检察官在 Ghosn 的私人飞机�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgee3b660" class="outline-3">
-<h3 id="orgee3b660">2019-01-24</h3>
-<div class="outline-text-3" id="text-orgee3b660">
+<div id="outline-container-org5281676" class="outline-3">
+<h3 id="org5281676">2019-01-24</h3>
+<div class="outline-text-3" id="text-org5281676">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/HnJr6Efzw8oX3u_4vY8gDA">《裁员潮背后：疯狂扩张的代价》</a> 如文中所言：“互联网公司野蛮成长的时代过
 去了，与此同时，互联网行业从业者的门槛越来越高。”</li>
@@ -4130,9 +4169,9 @@ Carlos Ghosn。然而 11 月 19 日，日本检察官在 Ghosn 的私人飞机�
 </ul>
 </div>
 </div>
-<div id="outline-container-org5302d1a" class="outline-3">
-<h3 id="org5302d1a">2019-01-23</h3>
-<div class="outline-text-3" id="text-org5302d1a">
+<div id="outline-container-orgd33fc4a" class="outline-3">
+<h3 id="orgd33fc4a">2019-01-23</h3>
+<div class="outline-text-3" id="text-orgd33fc4a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/2hP6kR1hiEb6fWK52Bfyrg">《这 5 个变化，影响下一个 50 年》</a> 著名经济学家、清华大学国家金融研究院
 院长朱民做了以“危机 10 年，我们面对的未知经济”主题演讲。笔记侠作为合作
@@ -4171,9 +4210,9 @@ Carlos Ghosn。然而 11 月 19 日，日本检察官在 Ghosn 的私人飞机�
 </ul>
 </div>
 </div>
-<div id="outline-container-org564ab48" class="outline-3">
-<h3 id="org564ab48">2019-01-22</h3>
-<div class="outline-text-3" id="text-org564ab48">
+<div id="outline-container-org21a6cd6" class="outline-3">
+<h3 id="org21a6cd6">2019-01-22</h3>
+<div class="outline-text-3" id="text-org21a6cd6">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/UYYrgucDpGrVaPpIyU1cjQ">《QuestMobile《中国移动互联网 2018 年度大报告》》</a> 中国商业智能服务商
 QuestMobile 发布《中国移动互联网 2018 年度大报告》。将 2018 年中国移动
@@ -4212,9 +4251,9 @@ QuestMobile 发布《中国移动互联网 2018 年度大报告》。将 2018 �
 </ul>
 </div>
 </div>
-<div id="outline-container-orga09c6eb" class="outline-3">
-<h3 id="orga09c6eb">2019-01-21</h3>
-<div class="outline-text-3" id="text-orga09c6eb">
+<div id="outline-container-orga28edf9" class="outline-3">
+<h3 id="orga28edf9">2019-01-21</h3>
+<div class="outline-text-3" id="text-orga28edf9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/7swRELPUcZz9MqCD3xCk5A">《徐汇大神》</a> QQ 和微信一样，都是「徐汇大神」的小号，是专门拿来“赚钱”用
 的。因为打开之后，看到了二三十个群，都非常活跃，每天几百条消息。这些群
@@ -4251,9 +4290,9 @@ Readhub 整体的数据情况，然后基于 Readhub 的特性我们整理了一
 </ul>
 </div>
 </div>
-<div id="outline-container-org9532e11" class="outline-3">
-<h3 id="org9532e11">2019-01-18</h3>
-<div class="outline-text-3" id="text-org9532e11">
+<div id="outline-container-org6da53fa" class="outline-3">
+<h3 id="org6da53fa">2019-01-18</h3>
+<div class="outline-text-3" id="text-org6da53fa">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Se3xyO0sCYPjOjeDbkWtlg">《专访小猪佩奇：哼哼！你才是社会人》</a> 对于佩奇这位“宇宙现象级网红”为何
 如此有感染力，我们很好奇。于是，我们跟她进行了一场隔空虚拟对话。作为
@@ -4294,9 +4333,9 @@ Readhub 整体的数据情况，然后基于 Readhub 的特性我们整理了一
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf7ba4df" class="outline-3">
-<h3 id="orgf7ba4df">2019-01-17</h3>
-<div class="outline-text-3" id="text-orgf7ba4df">
+<div id="outline-container-orgec4832e" class="outline-3">
+<h3 id="orgec4832e">2019-01-17</h3>
+<div class="outline-text-3" id="text-orgec4832e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/yvX7XhaEV8y_Q8O_SDKFgg">《越来越胖的中国人》</a> 似乎不知不觉，营养不足的人数还不及超重的人多。这
 一切，不仅仅是个人健康意识的问题，背后还涉及着社会阶级、“富态”文化传统，
@@ -4332,9 +4371,9 @@ Readhub 整体的数据情况，然后基于 Readhub 的特性我们整理了一
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb1b68b0" class="outline-3">
-<h3 id="orgb1b68b0">2019-01-16</h3>
-<div class="outline-text-3" id="text-orgb1b68b0">
+<div id="outline-container-orgeee57d1" class="outline-3">
+<h3 id="orgeee57d1">2019-01-16</h3>
+<div class="outline-text-3" id="text-orgeee57d1">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/mUY3JMOTakdRzX7Vjrz0Tg">《创业这么苦逼的事，没病到一定程度你千万别来》</a> 《燃点》，这是首部记录
 中国当下创业者的电影，14 个月拍了 14 位创业者：罗永浩、戴威、张颖、papi、
@@ -4372,9 +4411,9 @@ Readhub 整体的数据情况，然后基于 Readhub 的特性我们整理了一
 </ul>
 </div>
 </div>
-<div id="outline-container-org1adfbef" class="outline-3">
-<h3 id="org1adfbef">2019-01-15</h3>
-<div class="outline-text-3" id="text-org1adfbef">
+<div id="outline-container-orga2ae8ad" class="outline-3">
+<h3 id="orga2ae8ad">2019-01-15</h3>
+<div class="outline-text-3" id="text-orga2ae8ad">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/ZLLCY7CSFqfnE-sC21Bwlw">《短视频超级工厂 | 深网》</a> MCN 是舶来品，是网红经纪公司的简称，目前已经
 演化成拥有多账号内容生产机构的的代名词。MCN 是网红产业中的核心角色，他
@@ -4411,9 +4450,9 @@ Readhub 整体的数据情况，然后基于 Readhub 的特性我们整理了一
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd8edb30" class="outline-3">
-<h3 id="orgd8edb30">2019-01-14</h3>
-<div class="outline-text-3" id="text-orgd8edb30">
+<div id="outline-container-org0b85be9" class="outline-3">
+<h3 id="org0b85be9">2019-01-14</h3>
+<div class="outline-text-3" id="text-org0b85be9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/aXpI_YlkItq4L_wbTIELaA">《年货简史：见证中国社会巨大变迁》</a> 说到春节，除了回家，最紧要的就是买
 年货。一句歇后语，就叫“八月十五购年货——赶早不赶晚”。如果我们放宽视界，
@@ -4448,9 +4487,9 @@ Readhub 整体的数据情况，然后基于 Readhub 的特性我们整理了一
 </ul>
 </div>
 </div>
-<div id="outline-container-org8da383a" class="outline-3">
-<h3 id="org8da383a">2019-01-11</h3>
-<div class="outline-text-3" id="text-org8da383a">
+<div id="outline-container-orgfb20645" class="outline-3">
+<h3 id="orgfb20645">2019-01-11</h3>
+<div class="outline-text-3" id="text-orgfb20645">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Nvc5UEJ68cVjSx_1EADNCw">《雷军：不服就干，教一教对手什么叫性价比（附采访实录）》</a> 雷军在发布会
 上多次怒怼友商的表现也十分反常，这种情绪延续到了采访阶段。值得一提的是，
@@ -4491,9 +4530,9 @@ Readhub 整体的数据情况，然后基于 Readhub 的特性我们整理了一
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb3c7aec" class="outline-3">
-<h3 id="orgb3c7aec">2019-01-10</h3>
-<div class="outline-text-3" id="text-orgb3c7aec">
+<div id="outline-container-org88a3271" class="outline-3">
+<h3 id="org88a3271">2019-01-10</h3>
+<div class="outline-text-3" id="text-org88a3271">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/r8mcY9TVQR6Uy1vZoTMUAQ">《张小龙演讲完整视频新鲜出炉 错过直播看这里》</a>昨日晚间，2019 微信公开课
 PRO 微信之夜，张小龙有史以来最长一次演讲</li>
@@ -4531,9 +4570,9 @@ PRO 微信之夜，张小龙有史以来最长一次演讲</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org5112aa9" class="outline-3">
-<h3 id="org5112aa9">2019-01-09</h3>
-<div class="outline-text-3" id="text-org5112aa9">
+<div id="outline-container-orge370275" class="outline-3">
+<h3 id="orge370275">2019-01-09</h3>
+<div class="outline-text-3" id="text-orge370275">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/gqhNhtjreU98Sti6AG16ow">《媒体行业：中国科技创投界的摇篮》</a> 乍看上去，如履薄冰的媒体世界和热闹
 非凡的科技互联网根本就是两个互不干涉的独立空间。然而细究之下，你才会明
@@ -4571,9 +4610,9 @@ PRO 微信之夜，张小龙有史以来最长一次演讲</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf238fec" class="outline-3">
-<h3 id="orgf238fec">2019-01-08</h3>
-<div class="outline-text-3" id="text-orgf238fec">
+<div id="outline-container-org62a8a07" class="outline-3">
+<h3 id="org62a8a07">2019-01-08</h3>
+<div class="outline-text-3" id="text-org62a8a07">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/YRByQPAgK3fTsWsNtqxCxQ">《繁荣抖音背后，焦虑的底层内容工厂》</a> 一家 2018 年营收几千万的 MCN 负责
 人李祥（化名）表示，抖音下半年已经非常难做了，涨粉难是一方面，更让他没
@@ -4613,9 +4652,9 @@ Nicholas Quah 是尼曼实验室 Hot Pod 栏目的创始人和作者，Hot Pod �
 </ul>
 </div>
 </div>
-<div id="outline-container-org47ecdc4" class="outline-3">
-<h3 id="org47ecdc4">2019-01-07</h3>
-<div class="outline-text-3" id="text-org47ecdc4">
+<div id="outline-container-orga273f6b" class="outline-3">
+<h3 id="orga273f6b">2019-01-07</h3>
+<div class="outline-text-3" id="text-orga273f6b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/YuJJL5QsBgcMHz3vOBfNAw">《周鸿祎：所有的商业模式都是试出来的》</a> 本文为国民级产品打造者、360 集
 团创始人兼 CEO 周鸿祎倾囊相授从 0 到 1 打造爆品的实战指南《极致产品》
@@ -4655,9 +4694,9 @@ Nicholas Quah 是尼曼实验室 Hot Pod 栏目的创始人和作者，Hot Pod �
 </ul>
 </div>
 </div>
-<div id="outline-container-org1ba9350" class="outline-3">
-<h3 id="org1ba9350">2019-01-04</h3>
-<div class="outline-text-3" id="text-org1ba9350">
+<div id="outline-container-org5645f73" class="outline-3">
+<h3 id="org5645f73">2019-01-04</h3>
+<div class="outline-text-3" id="text-org5645f73">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/riw2rye54IopziBDe4yPOQ">《公众号的 2018》</a> 公众号的 2018 到底过得怎么样呢？新榜为此梳理了年度回
 顾 H5 背后的大数据，从中我们多少能窥见一二。18 一整年，公众号发文总篇
@@ -4697,9 +4736,9 @@ Nicholas Quah 是尼曼实验室 Hot Pod 栏目的创始人和作者，Hot Pod �
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb1bcd7a" class="outline-3">
-<h3 id="orgb1bcd7a">2019-01-03</h3>
-<div class="outline-text-3" id="text-orgb1bcd7a">
+<div id="outline-container-orgc7f7d7f" class="outline-3">
+<h3 id="orgc7f7d7f">2019-01-03</h3>
+<div class="outline-text-3" id="text-orgc7f7d7f">
 <ul class="org-ul">
 <li><a href="https://atlas.yidianzixun.com/hotevent/page?id=5c171c7cc1d19e004a9b80f5&amp;yidian_docid=0Kr6wSXX">《2018 中国上市公司盘点》</a> 2018 有一批科技公司集中上市，尽管这些公司上
 市地点不尽相同，也不一定都是中资企业，但有一点是相同的，那就是它们都已
@@ -4739,9 +4778,9 @@ Nicholas Quah 是尼曼实验室 Hot Pod 栏目的创始人和作者，Hot Pod �
 </ul>
 </div>
 </div>
-<div id="outline-container-orgad43242" class="outline-3">
-<h3 id="orgad43242">2019-01-02</h3>
-<div class="outline-text-3" id="text-orgad43242">
+<div id="outline-container-orgd300e24" class="outline-3">
+<h3 id="orgd300e24">2019-01-02</h3>
+<div class="outline-text-3" id="text-orgd300e24">
 <ul class="org-ul">
 <li><a href="https://36kr.com/p/5170184.html?from=singlemessage&amp;tar_foid">《张一鸣的 APP 工厂》</a> 抖音是唯一，成为抖音的路径却不唯一。这家公司批量
 生产 APP 能力如此之强，而且历史成绩显示，核心产品成功的概率很大。欢迎
@@ -4783,7 +4822,7 @@ Nicholas Quah 是尼曼实验室 Hot Pod 栏目的创始人和作者，Hot Pod �
     </div>
 </section>
 ]]></description>
-      <pubDate>2019-08-28</pubDate>
+      <pubDate>2019-08-30</pubDate>
       <guid>http://lijigang.github.io/blog/2019/01/02/优质文章每日精华选(2019-年)/</guid>
     </item>
     <item>
@@ -4801,15 +4840,15 @@ Emacs 中主要是靠纯文本的一些骚操作来实现各种功能, 其中有
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgd456c56">PlantUML 是什么</a></li>
-<li><a href="#org37c13e0">PlantUML 如何在 Emacs 中配置</a></li>
-<li><a href="#org40b1353">PlantUML 如何使用</a></li>
+<li><a href="#org9eb0ac7">PlantUML 是什么</a></li>
+<li><a href="#org970c4da">PlantUML 如何在 Emacs 中配置</a></li>
+<li><a href="#org471b68e">PlantUML 如何使用</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd456c56" class="outline-2">
-<h2 id="orgd456c56">PlantUML 是什么</h2>
-<div class="outline-text-2" id="text-orgd456c56">
+<div id="outline-container-org9eb0ac7" class="outline-2">
+<h2 id="org9eb0ac7">PlantUML 是什么</h2>
+<div class="outline-text-2" id="text-org9eb0ac7">
 <p>
 PlantUML 是用来快速创建 UML 图形的组件. 通过简单的语法来定义图形, 然后它就可以生成 PNG 图片. 比如:
 </p>
@@ -4829,9 +4868,9 @@ Server --[#0c0f0a]&gt; Phone : 返回 HTML
 </div>
 </div>
 
-<div id="outline-container-org37c13e0" class="outline-2">
-<h2 id="org37c13e0">PlantUML 如何在 Emacs 中配置</h2>
-<div class="outline-text-2" id="text-org37c13e0">
+<div id="outline-container-org970c4da" class="outline-2">
+<h2 id="org970c4da">PlantUML 如何在 Emacs 中配置</h2>
+<div class="outline-text-2" id="text-org970c4da">
 <ol class="org-ol">
 <li><a href="http://plantuml.com/zh/download">下载</a> plantuml.jar</li>
 <li><p>
@@ -4863,9 +4902,9 @@ Server --[#0c0f0a]&gt; Phone : 返回 HTML
 </div>
 </div>
 
-<div id="outline-container-org40b1353" class="outline-2">
-<h2 id="org40b1353">PlantUML 如何使用</h2>
-<div class="outline-text-2" id="text-org40b1353">
+<div id="outline-container-org471b68e" class="outline-2">
+<h2 id="org471b68e">PlantUML 如何使用</h2>
+<div class="outline-text-2" id="text-org471b68e">
 <ol class="org-ol">
 <li><p>
 基础用法
@@ -5055,47 +5094,47 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org96461eb">安装 Org-mode</a></li>
-<li><a href="#org7b92eee">美化外观</a>
+<li><a href="#orgc492692">安装 Org-mode</a></li>
+<li><a href="#org1b0f855">美化外观</a>
 <ul>
-<li><a href="#orgf6d6442">美化: Headline</a></li>
-<li><a href="#orgc26ed2a">美化: Todo Keyword</a></li>
-<li><a href="#org4380866">美化: agenda</a></li>
+<li><a href="#org99d890f">美化: Headline</a></li>
+<li><a href="#org802581d">美化: Todo Keyword</a></li>
+<li><a href="#org1b44c71">美化: agenda</a></li>
 </ul>
 </li>
-<li><a href="#org16d18e1">快速记录</a>
+<li><a href="#orgc808ad0">快速记录</a>
 <ul>
-<li><a href="#org8ecd864">Capture : 快速记录任务</a></li>
+<li><a href="#org72eed4b">Capture : 快速记录任务</a></li>
 </ul>
 </li>
-<li><a href="#orgcd18372">快速归档</a>
+<li><a href="#orga3b6631">快速归档</a>
 <ul>
-<li><a href="#org44708dd">Archive : 归档任务</a></li>
+<li><a href="#org097ce67">Archive : 归档任务</a></li>
 </ul>
 </li>
-<li><a href="#org05c5102">任务属性</a>
+<li><a href="#org270613b">任务属性</a>
 <ul>
-<li><a href="#orgc359edf">Time Clocking : 记录任务用时</a></li>
-<li><a href="#org15507eb">Time Reporting: 时间都去哪儿了</a></li>
-<li><a href="#org81dd848">Deadline: 设置死线</a></li>
-<li><a href="#org8d41a20">Tags : 换个角度看世界</a></li>
-<li><a href="#org0409ae2">Properties: 再换个角度看看</a></li>
+<li><a href="#orgc17925e">Time Clocking : 记录任务用时</a></li>
+<li><a href="#orgbcb6b68">Time Reporting: 时间都去哪儿了</a></li>
+<li><a href="#org38acaf0">Deadline: 设置死线</a></li>
+<li><a href="#org30094c4">Tags : 换个角度看世界</a></li>
+<li><a href="#org37d53d5">Properties: 再换个角度看看</a></li>
 </ul>
 </li>
-<li><a href="#orga8bbc05">超级应用</a>
+<li><a href="#orgca61bd9">超级应用</a>
 <ul>
-<li><a href="#orgc394afa">Tables : 其实我也能当 Excel 使</a></li>
-<li><a href="#org26068ef">Hypelinks: 把我当浏览器使也可以</a></li>
-<li><a href="#org78783e9">Export : 分享给不使用 Orgmode 的人</a></li>
+<li><a href="#org16c75cb">Tables : 其实我也能当 Excel 使</a></li>
+<li><a href="#org51a93d4">Hypelinks: 把我当浏览器使也可以</a></li>
+<li><a href="#org8ae17bb">Export : 分享给不使用 Orgmode 的人</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org96461eb" class="outline-2">
-<h2 id="org96461eb">安装 Org-mode</h2>
-<div class="outline-text-2" id="text-org96461eb">
+<div id="outline-container-orgc492692" class="outline-2">
+<h2 id="orgc492692">安装 Org-mode</h2>
+<div class="outline-text-2" id="text-orgc492692">
 <p>
 Org 现在已经是 Emacs 出厂自带的一部分了，所以只要你现在打开 Emacs 就可以直接使用 Org. 但如果你不想使用 Emacs 自带的 Org 版本，想安装一个更新版本，你可以有三种办法来实现：
 </p>
@@ -5152,17 +5191,17 @@ $ make autoloads
 </div>
 </div>
 
-<div id="outline-container-org7b92eee" class="outline-2">
-<h2 id="org7b92eee">美化外观</h2>
-<div class="outline-text-2" id="text-org7b92eee">
+<div id="outline-container-org1b0f855" class="outline-2">
+<h2 id="org1b0f855">美化外观</h2>
+<div class="outline-text-2" id="text-org1b0f855">
 </div>
-<div id="outline-container-orgf6d6442" class="outline-3">
-<h3 id="orgf6d6442">美化: Headline</h3>
-<div class="outline-text-3" id="text-orgf6d6442">
+<div id="outline-container-org99d890f" class="outline-3">
+<h3 id="org99d890f">美化: Headline</h3>
+<div class="outline-text-3" id="text-org99d890f">
 </div>
-<div id="outline-container-org0e86056" class="outline-4">
-<h4 id="org0e86056">需求任务</h4>
-<div class="outline-text-4" id="text-org0e86056">
+<div id="outline-container-org40bc359" class="outline-4">
+<h4 id="org40bc359">需求任务</h4>
+<div class="outline-text-4" id="text-org40bc359">
 <p>
 默认显示 Headline 的 <code>*</code> 符号看着和内容无关, 又特别扎眼, 希望让它显示美观些, 同时又不影响查看内容和缩进.
 </p>
@@ -5173,9 +5212,9 @@ $ make autoloads
 </div>
 </div>
 </div>
-<div id="outline-container-orgbaa0e24" class="outline-4">
-<h4 id="orgbaa0e24">解决方法</h4>
-<div class="outline-text-4" id="text-orgbaa0e24">
+<div id="outline-container-orgcbf7459" class="outline-4">
+<h4 id="orgcbf7459">解决方法</h4>
+<div class="outline-text-4" id="text-orgcbf7459">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; 打开 org-indent mode
 (setq org-startup-indented t)
@@ -5199,13 +5238,13 @@ $ make autoloads
 </div>
 </div>
 
-<div id="outline-container-orgc26ed2a" class="outline-3">
-<h3 id="orgc26ed2a">美化: Todo Keyword</h3>
-<div class="outline-text-3" id="text-orgc26ed2a">
+<div id="outline-container-org802581d" class="outline-3">
+<h3 id="org802581d">美化: Todo Keyword</h3>
+<div class="outline-text-3" id="text-org802581d">
 </div>
-<div id="outline-container-orge5b05e5" class="outline-4">
-<h4 id="orge5b05e5">需求任务</h4>
-<div class="outline-text-4" id="text-orge5b05e5">
+<div id="outline-container-org7d8cf22" class="outline-4">
+<h4 id="org7d8cf22">需求任务</h4>
+<div class="outline-text-4" id="text-org7d8cf22">
 <p>
 每个 Headline 都可以有不同状态, 比如待启动/进行中/阻塞中/已完成 等等, 可以根据自己的实际需求来定义这些状态, 定义方法也很简单, 只要设置下面这个变量就好:
 </p>
@@ -5222,9 +5261,9 @@ $ make autoloads
 </div>
 </div>
 
-<div id="outline-container-orgbd01895" class="outline-4">
-<h4 id="orgbd01895">解决方法</h4>
-<div class="outline-text-4" id="text-orgbd01895">
+<div id="outline-container-org0a7f185" class="outline-4">
+<h4 id="org0a7f185">解决方法</h4>
+<div class="outline-text-4" id="text-org0a7f185">
 <p>
 可以针对这些状态关键词设置单独的前景色和背景色，看看效果：
 </p>
@@ -5249,22 +5288,22 @@ $ make autoloads
 </div>
 </div>
 
-<div id="outline-container-org4380866" class="outline-3">
-<h3 id="org4380866">美化: agenda</h3>
-<div class="outline-text-3" id="text-org4380866">
+<div id="outline-container-org1b44c71" class="outline-3">
+<h3 id="org1b44c71">美化: agenda</h3>
+<div class="outline-text-3" id="text-org1b44c71">
 </div>
-<div id="outline-container-orgb6e06be" class="outline-4">
-<h4 id="orgb6e06be">需求任务</h4>
-<div class="outline-text-4" id="text-orgb6e06be">
+<div id="outline-container-org04372a7" class="outline-4">
+<h4 id="org04372a7">需求任务</h4>
+<div class="outline-text-4" id="text-org04372a7">
 <p>
 agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行文本. 能不能按时间段大小显示成区块样式, 更直观显示时间计划?
 </p>
 </div>
 </div>
 
-<div id="outline-container-org7c2276e" class="outline-4">
-<h4 id="org7c2276e">解决方法</h4>
-<div class="outline-text-4" id="text-org7c2276e">
+<div id="outline-container-orgfa9fd69" class="outline-4">
+<h4 id="orgfa9fd69">解决方法</h4>
+<div class="outline-text-4" id="text-orgfa9fd69">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; agenda 里面时间块彩色显示
 ;; From: https://emacs-china.org/t/org-agenda/8679/3
@@ -5309,26 +5348,26 @@ agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行�
 </div>
 </div>
 
-<div id="outline-container-org16d18e1" class="outline-2">
-<h2 id="org16d18e1">快速记录</h2>
-<div class="outline-text-2" id="text-org16d18e1">
+<div id="outline-container-orgc808ad0" class="outline-2">
+<h2 id="orgc808ad0">快速记录</h2>
+<div class="outline-text-2" id="text-orgc808ad0">
 </div>
-<div id="outline-container-org8ecd864" class="outline-3">
-<h3 id="org8ecd864">Capture : 快速记录任务</h3>
-<div class="outline-text-3" id="text-org8ecd864">
+<div id="outline-container-org72eed4b" class="outline-3">
+<h3 id="org72eed4b">Capture : 快速记录任务</h3>
+<div class="outline-text-3" id="text-org72eed4b">
 </div>
-<div id="outline-container-org2262fa9" class="outline-4">
-<h4 id="org2262fa9">需求任务</h4>
-<div class="outline-text-4" id="text-org2262fa9">
+<div id="outline-container-org4fcecd6" class="outline-4">
+<h4 id="org4fcecd6">需求任务</h4>
+<div class="outline-text-4" id="text-org4fcecd6">
 <p>
 有时候正在 A 文件中写东西, 突然有个想法想记录到你的 idea list 中, 希望可以实现不管当前在哪个地方, 都能一键记录文字到指定文件中.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgbd37e12" class="outline-4">
-<h4 id="orgbd37e12">解决方法</h4>
-<div class="outline-text-4" id="text-orgbd37e12">
+<div id="outline-container-orgecdfd44" class="outline-4">
+<h4 id="orgecdfd44">解决方法</h4>
+<div class="outline-text-4" id="text-orgecdfd44">
 <p>
 Org mode 的 org-capture 功能正是实现这个需求的自带功能. 只需要简单配置一下即可:
 </p>
@@ -5369,26 +5408,26 @@ Org mode 的 org-capture 功能正是实现这个需求的自带功能. 只需�
 </div>
 </div>
 </div>
-<div id="outline-container-orgcd18372" class="outline-2">
-<h2 id="orgcd18372">快速归档</h2>
-<div class="outline-text-2" id="text-orgcd18372">
+<div id="outline-container-orga3b6631" class="outline-2">
+<h2 id="orga3b6631">快速归档</h2>
+<div class="outline-text-2" id="text-orga3b6631">
 </div>
-<div id="outline-container-org44708dd" class="outline-3">
-<h3 id="org44708dd">Archive : 归档任务</h3>
-<div class="outline-text-3" id="text-org44708dd">
+<div id="outline-container-org097ce67" class="outline-3">
+<h3 id="org097ce67">Archive : 归档任务</h3>
+<div class="outline-text-3" id="text-org097ce67">
 </div>
-<div id="outline-container-orgccd09cd" class="outline-4">
-<h4 id="orgccd09cd">需求任务</h4>
-<div class="outline-text-4" id="text-orgccd09cd">
+<div id="outline-container-orga91ee67" class="outline-4">
+<h4 id="orga91ee67">需求任务</h4>
+<div class="outline-text-4" id="text-orga91ee67">
 <p>
 随着任务记录越来越多, 历史上已完成的任务如果一直累积在任务文件中, 文件会越来越大, 也会影响搜索结果和速度. 希望可以将已完成的任务快速归档存储到指定文件, 实现任务文件精简, 同时历史已完成任务还不会丢弃, 有需要时可随时搜索查看归档文件.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgcde1eb1" class="outline-4">
-<h4 id="orgcde1eb1">解决方法</h4>
-<div class="outline-text-4" id="text-orgcde1eb1">
+<div id="outline-container-org2ec55cf" class="outline-4">
+<h4 id="org2ec55cf">解决方法</h4>
+<div class="outline-text-4" id="text-org2ec55cf">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; 在 Spacemacs 中设置归档命令的快捷键
 (evil-leader/set-key "od" 'org-archive-subtree)
@@ -5421,17 +5460,17 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 
-<div id="outline-container-org05c5102" class="outline-2">
-<h2 id="org05c5102">任务属性</h2>
-<div class="outline-text-2" id="text-org05c5102">
+<div id="outline-container-org270613b" class="outline-2">
+<h2 id="org270613b">任务属性</h2>
+<div class="outline-text-2" id="text-org270613b">
 </div>
-<div id="outline-container-orgc359edf" class="outline-3">
-<h3 id="orgc359edf">Time Clocking : 记录任务用时</h3>
-<div class="outline-text-3" id="text-orgc359edf">
+<div id="outline-container-orgc17925e" class="outline-3">
+<h3 id="orgc17925e">Time Clocking : 记录任务用时</h3>
+<div class="outline-text-3" id="text-orgc17925e">
 </div>
-<div id="outline-container-orga01947c" class="outline-4">
-<h4 id="orga01947c">需求任务</h4>
-<div class="outline-text-4" id="text-orga01947c">
+<div id="outline-container-orgf26497f" class="outline-4">
+<h4 id="orgf26497f">需求任务</h4>
+<div class="outline-text-4" id="text-orgf26497f">
 <p>
 希望记录任务的开始时间和结束时间, 并自动显示经历时长.
 </p>
@@ -5442,9 +5481,9 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 
-<div id="outline-container-orga520017" class="outline-4">
-<h4 id="orga520017">解决方法</h4>
-<div class="outline-text-4" id="text-orga520017">
+<div id="outline-container-orgf8919bf" class="outline-4">
+<h4 id="orgf8919bf">解决方法</h4>
+<div class="outline-text-4" id="text-orgf8919bf">
 <p>
 除了可以根据任务的状态变更进行管理之外, Emacs 还支持对任务进行时间管理. 在 Emacs 中, 一切都是 <code>纯文本 (Plain text)</code> , 时间的表示, 在 Emacs 中也不过就是一串字符串而已, 只是有很多相关的函数来解析这个指定格式的字符串, 提供了超级强大的时间管理的功能.
 </p>
@@ -5462,22 +5501,22 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 
-<div id="outline-container-org15507eb" class="outline-3">
-<h3 id="org15507eb">Time Reporting: 时间都去哪儿了</h3>
-<div class="outline-text-3" id="text-org15507eb">
+<div id="outline-container-orgbcb6b68" class="outline-3">
+<h3 id="orgbcb6b68">Time Reporting: 时间都去哪儿了</h3>
+<div class="outline-text-3" id="text-orgbcb6b68">
 </div>
-<div id="outline-container-org40bdc22" class="outline-4">
-<h4 id="org40bdc22">需求任务</h4>
-<div class="outline-text-4" id="text-org40bdc22">
+<div id="outline-container-orgd2235ba" class="outline-4">
+<h4 id="orgd2235ba">需求任务</h4>
+<div class="outline-text-4" id="text-orgd2235ba">
 <p>
 我们已经在每个任务开始和结果时都打了时间戳, 那生成一个时间花费的报表应该也不在话下了.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orge5cc3f7" class="outline-4">
-<h4 id="orge5cc3f7">解决方法</h4>
-<div class="outline-text-4" id="text-orge5cc3f7">
+<div id="outline-container-orgadfcf4f" class="outline-4">
+<h4 id="orgadfcf4f">解决方法</h4>
+<div class="outline-text-4" id="text-orgadfcf4f">
 <p>
 通过调用 <code>org-clock-report</code> 命令, 可以生成下面的这种样式的 time table, 看看你之前的时间都花在哪了, 生成表格相关参数的修改, 可以参考 <a href="https://orgmode.org/org.html#Deadlines-and-scheduling">官方文档</a>:
 </p>
@@ -5490,13 +5529,13 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 </div>
-<div id="outline-container-org81dd848" class="outline-3">
-<h3 id="org81dd848">Deadline: 设置死线</h3>
-<div class="outline-text-3" id="text-org81dd848">
+<div id="outline-container-org38acaf0" class="outline-3">
+<h3 id="org38acaf0">Deadline: 设置死线</h3>
+<div class="outline-text-3" id="text-org38acaf0">
 </div>
-<div id="outline-container-orgae5dd84" class="outline-4">
-<h4 id="orgae5dd84">需求任务</h4>
-<div class="outline-text-4" id="text-orgae5dd84">
+<div id="outline-container-org81b0218" class="outline-4">
+<h4 id="org81b0218">需求任务</h4>
+<div class="outline-text-4" id="text-org81b0218">
 <p>
 在日常 GTD 过程中, 还经常会有的需求是给某一任务设定 Deadline (org-deadline ,d) 或 Schedule (org-schedule ,s) .
 </p>
@@ -5507,9 +5546,9 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 
-<div id="outline-container-org65e81d6" class="outline-4">
-<h4 id="org65e81d6">解决方法</h4>
-<div class="outline-text-4" id="text-org65e81d6">
+<div id="outline-container-org4b297a9" class="outline-4">
+<h4 id="org4b297a9">解决方法</h4>
+<div class="outline-text-4" id="text-org4b297a9">
 <p>
 上面的需求基本都是自带函数功能可以解决:
 </p>
@@ -5527,22 +5566,22 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 </div>
-<div id="outline-container-org8d41a20" class="outline-3">
-<h3 id="org8d41a20">Tags : 换个角度看世界</h3>
-<div class="outline-text-3" id="text-org8d41a20">
+<div id="outline-container-org30094c4" class="outline-3">
+<h3 id="org30094c4">Tags : 换个角度看世界</h3>
+<div class="outline-text-3" id="text-org30094c4">
 </div>
-<div id="outline-container-orgd060406" class="outline-4">
-<h4 id="orgd060406">需求任务</h4>
-<div class="outline-text-4" id="text-orgd060406">
+<div id="outline-container-org12015be" class="outline-4">
+<h4 id="org12015be">需求任务</h4>
+<div class="outline-text-4" id="text-org12015be">
 <p>
 使用时间久了之后, 历史任务积累了很多. 想筛选或查找某个任务, 只能靠印象中任务标题中的文本来查找, 很低效. 希望可以在每个任务上面打标签, 这样后面可以筛选标签来找到一类任务.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org073cc53" class="outline-4">
-<h4 id="org073cc53">解决方法</h4>
-<div class="outline-text-4" id="text-org073cc53">
+<div id="outline-container-orgc181622" class="outline-4">
+<h4 id="orgc181622">解决方法</h4>
+<div class="outline-text-4" id="text-orgc181622">
 <p>
 Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或某些 tags 的任务全找出来. 而添加 Tags 的方法也很简单, 只需调用 <b>org-set-tags-command 快捷键 C-c C-c (Spacemacs 中 ,,)</b> , 就会在当前 Headline 后面添加你指定的 tags. 显示样式为前后冒号分隔, 比如 <code>:work:</code> , 基本用法就这一个命令就够了, 如果有更深入的使用需求, 读下 <a href="https://orgmode.org/org.html#Tags">官方文档</a> 就好了.
 </p>
@@ -5550,22 +5589,22 @@ Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或某些 
 </div>
 </div>
 
-<div id="outline-container-org0409ae2" class="outline-3">
-<h3 id="org0409ae2">Properties: 再换个角度看看</h3>
-<div class="outline-text-3" id="text-org0409ae2">
+<div id="outline-container-org37d53d5" class="outline-3">
+<h3 id="org37d53d5">Properties: 再换个角度看看</h3>
+<div class="outline-text-3" id="text-org37d53d5">
 </div>
-<div id="outline-container-orgd122980" class="outline-4">
-<h4 id="orgd122980">需求任务</h4>
-<div class="outline-text-4" id="text-orgd122980">
+<div id="outline-container-org0d99232" class="outline-4">
+<h4 id="org0d99232">需求任务</h4>
+<div class="outline-text-4" id="text-org0d99232">
 <p>
 使用 tags 已经可以解决一部分筛选查找历史任务的问题了, 但如果你想针对某一个任务做些类似数据库似的字段存储, 比如你记录了吃过的五星级餐厅的列表, 想针对每个餐厅单独记录其地址/联系电话/特色菜/个人评价 等, 把这些全放到 tags 中, 显示不合适.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orga9ff4cb" class="outline-4">
-<h4 id="orga9ff4cb">解决方法</h4>
-<div class="outline-text-4" id="text-orga9ff4cb">
+<div id="outline-container-org8df8430" class="outline-4">
+<h4 id="org8df8430">解决方法</h4>
+<div class="outline-text-4" id="text-org8df8430">
 <p>
 这时候就适合使用 Properties 了. 插入 Property 需要调用 org-set-property 命令. Property 是 key-value 形式出现, 调用命令后会提示你输入 key 和 value, 显示时一个 Property 占一行.
 </p>
@@ -5579,26 +5618,26 @@ Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或某些 
 </div>
 </div>
 </div>
-<div id="outline-container-orga8bbc05" class="outline-2">
-<h2 id="orga8bbc05">超级应用</h2>
-<div class="outline-text-2" id="text-orga8bbc05">
+<div id="outline-container-orgca61bd9" class="outline-2">
+<h2 id="orgca61bd9">超级应用</h2>
+<div class="outline-text-2" id="text-orgca61bd9">
 </div>
-<div id="outline-container-orgc394afa" class="outline-3">
-<h3 id="orgc394afa">Tables : 其实我也能当 Excel 使</h3>
-<div class="outline-text-3" id="text-orgc394afa">
+<div id="outline-container-org16c75cb" class="outline-3">
+<h3 id="org16c75cb">Tables : 其实我也能当 Excel 使</h3>
+<div class="outline-text-3" id="text-org16c75cb">
 </div>
-<div id="outline-container-org172bbf4" class="outline-4">
-<h4 id="org172bbf4">需求任务</h4>
-<div class="outline-text-4" id="text-org172bbf4">
+<div id="outline-container-orgecba5f2" class="outline-4">
+<h4 id="orgecba5f2">需求任务</h4>
+<div class="outline-text-4" id="text-orgecba5f2">
 <p>
 在文本中当然也少不了记录表格的需求, 比如做会议纪要, 时间/地点/人员/主题/结论/后续安排这些内容通过表格整理记录就会很方便. 怎么实现表格?
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgc4ed0a0" class="outline-4">
-<h4 id="orgc4ed0a0">解决方法</h4>
-<div class="outline-text-4" id="text-orgc4ed0a0">
+<div id="outline-container-orgc362954" class="outline-4">
+<h4 id="orgc362954">解决方法</h4>
+<div class="outline-text-4" id="text-orgc362954">
 <p>
 在 Org 中, 只要以 | 开头的一行, 就认为它是表格的一部分了. 表格中各单元格的区分符号也是 | , 每次你输入完一个单元格, 可以通过 TAB 切换到下一单元格, 通过 RET 切换到下一行. 日常的基本表格操作, 这些功能已经足够用的了. 想了解细节, 可以阅读下<a href="https://orgmode.org/org.html#Tables">官方文档</a> . Org 中的表格大概长下面这样:
 </p>
@@ -5627,22 +5666,22 @@ Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或某些 
 </div>
 </div>
 </div>
-<div id="outline-container-org26068ef" class="outline-3">
-<h3 id="org26068ef">Hypelinks: 把我当浏览器使也可以</h3>
-<div class="outline-text-3" id="text-org26068ef">
+<div id="outline-container-org51a93d4" class="outline-3">
+<h3 id="org51a93d4">Hypelinks: 把我当浏览器使也可以</h3>
+<div class="outline-text-3" id="text-org51a93d4">
 </div>
-<div id="outline-container-org2ce5c8e" class="outline-4">
-<h4 id="org2ce5c8e">需求任务</h4>
-<div class="outline-text-4" id="text-org2ce5c8e">
+<div id="outline-container-org8a6421e" class="outline-4">
+<h4 id="org8a6421e">需求任务</h4>
+<div class="outline-text-4" id="text-org8a6421e">
 <p>
 Org mode 是记录纯文本的, 但如果有超链接想存储的话, 能支持点击跳转浏览器访问吗?
 </p>
 </div>
 </div>
 
-<div id="outline-container-org14170dd" class="outline-4">
-<h4 id="org14170dd">解决方法</h4>
-<div class="outline-text-4" id="text-org14170dd">
+<div id="outline-container-org80ec5ef" class="outline-4">
+<h4 id="org80ec5ef">解决方法</h4>
+<div class="outline-text-4" id="text-org80ec5ef">
 <p>
 org mode 支持超链接跳转到文件, 邮件, 网页等等.
 </p>
@@ -5653,22 +5692,22 @@ org mode 支持超链接跳转到文件, 邮件, 网页等等.
 </div>
 </div>
 </div>
-<div id="outline-container-org78783e9" class="outline-3">
-<h3 id="org78783e9">Export : 分享给不使用 Orgmode 的人</h3>
-<div class="outline-text-3" id="text-org78783e9">
+<div id="outline-container-org8ae17bb" class="outline-3">
+<h3 id="org8ae17bb">Export : 分享给不使用 Orgmode 的人</h3>
+<div class="outline-text-3" id="text-org8ae17bb">
 </div>
-<div id="outline-container-org203df87" class="outline-4">
-<h4 id="org203df87">需求任务</h4>
-<div class="outline-text-4" id="text-org203df87">
+<div id="outline-container-org701bf4f" class="outline-4">
+<h4 id="org701bf4f">需求任务</h4>
+<div class="outline-text-4" id="text-org701bf4f">
 <p>
 如果要分享文档给别人, 他们不使用 org mode 怎么办? 能支持导出成其它通用的文档格式吗?
 </p>
 </div>
 </div>
 
-<div id="outline-container-org678cacd" class="outline-4">
-<h4 id="org678cacd">解决方法</h4>
-<div class="outline-text-4" id="text-org678cacd">
+<div id="outline-container-org0d26b4f" class="outline-4">
+<h4 id="org0d26b4f">解决方法</h4>
+<div class="outline-text-4" id="text-org0d26b4f">
 <p>
 Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通过网页访问).
 </p>
@@ -5698,21 +5737,21 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org64534c8">需求任务</a></li>
-<li><a href="#org0091c4c">解决方案</a>
+<li><a href="#org8106c21">需求任务</a></li>
+<li><a href="#org17442a1">解决方案</a>
 <ul>
-<li><a href="#orge752380">安装 Karabiner</a></li>
-<li><a href="#org9e3bcd5">配置修改</a></li>
-<li><a href="#org8735831">加载配置</a></li>
+<li><a href="#orga460050">安装 Karabiner</a></li>
+<li><a href="#orgc3f515b">配置修改</a></li>
+<li><a href="#org013ccb5">加载配置</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org64534c8" class="outline-2">
-<h2 id="org64534c8">需求任务</h2>
-<div class="outline-text-2" id="text-org64534c8">
+<div id="outline-container-org8106c21" class="outline-2">
+<h2 id="org8106c21">需求任务</h2>
+<div class="outline-text-2" id="text-org8106c21">
 <p>
 而 Home Row 上面的按键 (ASDFGHJKL:") 基本上都是比较常用的基础按键, 另边还有一个回车键, 更加常用, 都没有什么修改空间, 只有 Home Row 最左侧的 Caps Lock 按键可以做些文章来提升输入效率了.
 </p>
@@ -5753,22 +5792,22 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
 </div>
 </div>
 
-<div id="outline-container-org0091c4c" class="outline-2">
-<h2 id="org0091c4c">解决方案</h2>
-<div class="outline-text-2" id="text-org0091c4c">
+<div id="outline-container-org17442a1" class="outline-2">
+<h2 id="org17442a1">解决方案</h2>
+<div class="outline-text-2" id="text-org17442a1">
 </div>
-<div id="outline-container-orge752380" class="outline-3">
-<h3 id="orge752380">安装 Karabiner</h3>
-<div class="outline-text-3" id="text-orge752380">
+<div id="outline-container-orga460050" class="outline-3">
+<h3 id="orga460050">安装 Karabiner</h3>
+<div class="outline-text-3" id="text-orga460050">
 <p>
 在 macOS 上面有个现成的软件已经实现了这个功能, 首先去<a href="https://pqrs.org/osx/karabiner/"> 官网</a>  下载安装.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org9e3bcd5" class="outline-3">
-<h3 id="org9e3bcd5">配置修改</h3>
-<div class="outline-text-3" id="text-org9e3bcd5">
+<div id="outline-container-orgc3f515b" class="outline-3">
+<h3 id="orgc3f515b">配置修改</h3>
+<div class="outline-text-3" id="text-orgc3f515b">
 <p>
 在目录 <code>~/.config/karabiner/assets/complex_modifications/</code> 中建一个文件, 命名为 custom-capslock.json , 然后把下面的代码复制进去并保存:
 </p>
@@ -5811,9 +5850,9 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
 </div>
 </div>
 
-<div id="outline-container-org8735831" class="outline-3">
-<h3 id="org8735831">加载配置</h3>
-<div class="outline-text-3" id="text-org8735831">
+<div id="outline-container-org013ccb5" class="outline-3">
+<h3 id="org013ccb5">加载配置</h3>
+<div class="outline-text-3" id="text-org013ccb5">
 <ol class="org-ol">
 <li>打开安装好的 Karabiner 软件, 打开其设置界面</li>
 <li>选中 <code>Complex Modifications</code> 选项卡, 点击 <code>Add rule</code> 按钮.</li>
@@ -6060,28 +6099,28 @@ MVP 是一种思维方式， 更是一种生活哲学。
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org7316795">Spacemacs</a>
+<li><a href="#org174764f">Spacemacs</a>
 <ul>
-<li><a href="#orgea3d5e3">小修</a></li>
-<li><a href="#org267105b">大改</a>
+<li><a href="#orgdb9b4cb">小修</a></li>
+<li><a href="#org3e4331b">大改</a>
 <ul>
-<li><a href="#org18d96fb">packages.el</a></li>
-<li><a href="#org77b677b">funcs.el</a></li>
-<li><a href="#orgfed58bb">config.el</a></li>
-<li><a href="#org4795b5d">keybindings.el</a></li>
+<li><a href="#org1480b68">packages.el</a></li>
+<li><a href="#org87d4fb1">funcs.el</a></li>
+<li><a href="#orgcdd41ee">config.el</a></li>
+<li><a href="#org4a479e3">keybindings.el</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgb0cc204">zsh</a>
+<li><a href="#orgc5875d3">zsh</a>
 <ul>
-<li><a href="#org289241a">安装 oh-my-shell</a></li>
-<li><a href="#org574e673">备份现有的配置文件 ~/.zshrc</a></li>
-<li><a href="#org31f3224">创建自己的配置文件</a></li>
-<li><a href="#orgc47e7f4">将 zsh 设置为默认 shell</a></li>
+<li><a href="#org628a2fe">安装 oh-my-shell</a></li>
+<li><a href="#orgc37426e">备份现有的配置文件 ~/.zshrc</a></li>
+<li><a href="#org6ceadbd">创建自己的配置文件</a></li>
+<li><a href="#org5f06ede">将 zsh 设置为默认 shell</a></li>
 </ul>
 </li>
-<li><a href="#orge1a2aeb">iTerm</a></li>
+<li><a href="#orgf3cf628">iTerm</a></li>
 </ul>
 </div>
 </div>
@@ -6092,9 +6131,9 @@ MVP 是一种思维方式， 更是一种生活哲学。
 一个 org file 中.
 </p>
 
-<div id="outline-container-org7316795" class="outline-2">
-<h2 id="org7316795">Spacemacs</h2>
-<div class="outline-text-2" id="text-org7316795">
+<div id="outline-container-org174764f" class="outline-2">
+<h2 id="org174764f">Spacemacs</h2>
+<div class="outline-text-2" id="text-org174764f">
 <p>
 <a href="https://github.com/syl20bnr/spacemacs">Spacemacs</a> 就是 Emacs 的一套配置。它对 evil 的支持，它的文档完善程度，极大的
 减少了 Emacs 的使用门槛, 让你可以将更多精力花在如何使用 Emacs/Org mode 上面.
@@ -6124,9 +6163,9 @@ Spacemacs 变量配置来定制, 另一种是 <code>大改</code> 你通过 Spac
 </p>
 </div>
 
-<div id="outline-container-orgea3d5e3" class="outline-3">
-<h3 id="orgea3d5e3">小修</h3>
-<div class="outline-text-3" id="text-orgea3d5e3">
+<div id="outline-container-orgdb9b4cb" class="outline-3">
+<h3 id="orgdb9b4cb">小修</h3>
+<div class="outline-text-3" id="text-orgdb9b4cb">
 <p>
 Spacemacs 默认生成的 ~/.spacemacs 文件中有四个函数:
 </p>
@@ -6728,9 +6767,9 @@ you should place your code here."
 </ol>
 </div>
 </div>
-<div id="outline-container-org267105b" class="outline-3">
-<h3 id="org267105b">大改</h3>
-<div class="outline-text-3" id="text-org267105b">
+<div id="outline-container-org3e4331b" class="outline-3">
+<h3 id="org3e4331b">大改</h3>
+<div class="outline-text-3" id="text-org3e4331b">
 <p>
 Spacemacs 默认支持了很多的 layer, 常用的功能组合场景都已经设置的很赞了, 只
 需要在 <code>小修</code> 里配置相应的 layer 就可以开箱即用. 但总有一些自己独有的需求,
@@ -6801,9 +6840,9 @@ keybindings.el
 </blockquote>
 </div>
 
-<div id="outline-container-org18d96fb" class="outline-4">
-<h4 id="org18d96fb">packages.el</h4>
-<div class="outline-text-4" id="text-org18d96fb">
+<div id="outline-container-org1480b68" class="outline-4">
+<h4 id="org1480b68">packages.el</h4>
+<div class="outline-text-4" id="text-org1480b68">
 <div class="org-src-container">
 <pre class="src src-lisp">;;; Code:
 
@@ -6931,9 +6970,9 @@ keybindings.el
 </div>
 </div>
 
-<div id="outline-container-org77b677b" class="outline-4">
-<h4 id="org77b677b">funcs.el</h4>
-<div class="outline-text-4" id="text-org77b677b">
+<div id="outline-container-org87d4fb1" class="outline-4">
+<h4 id="org87d4fb1">funcs.el</h4>
+<div class="outline-text-4" id="text-org87d4fb1">
 <div class="org-src-container">
 <pre class="src src-lisp">(defun make-progress (width percent has-number?)
   (let* ((done (/ percent 100.0))
@@ -7004,18 +7043,18 @@ keybindings.el
 </div>
 </div>
 </div>
-<div id="outline-container-orgfed58bb" class="outline-4">
-<h4 id="orgfed58bb">config.el</h4>
-<div class="outline-text-4" id="text-orgfed58bb">
+<div id="outline-container-orgcdd41ee" class="outline-4">
+<h4 id="orgcdd41ee">config.el</h4>
+<div class="outline-text-4" id="text-orgcdd41ee">
 <div class="org-src-container">
 <pre class="src src-lisp">(add-to-list 'auto-mode-alist '("\\.org_archive\\'" . org-mode))
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org4795b5d" class="outline-4">
-<h4 id="org4795b5d">keybindings.el</h4>
-<div class="outline-text-4" id="text-org4795b5d">
+<div id="outline-container-org4a479e3" class="outline-4">
+<h4 id="org4a479e3">keybindings.el</h4>
+<div class="outline-text-4" id="text-org4a479e3">
 <div class="org-src-container">
 <pre class="src src-lisp">(evil-leader/set-key "op" 'org-pomodoro)
 
@@ -7045,17 +7084,17 @@ keybindings.el
 </div>
 </div>
 
-<div id="outline-container-orgb0cc204" class="outline-2">
-<h2 id="orgb0cc204">zsh</h2>
-<div class="outline-text-2" id="text-orgb0cc204">
+<div id="outline-container-orgc5875d3" class="outline-2">
+<h2 id="orgc5875d3">zsh</h2>
+<div class="outline-text-2" id="text-orgc5875d3">
 <p>
 除了 Emacs, Shell 的配置也是比较需要跨机器使用的. 本着拿来主义精神, 我平时以 oh-my-shell 为主:
 </p>
 </div>
 
-<div id="outline-container-org289241a" class="outline-3">
-<h3 id="org289241a">安装 oh-my-shell</h3>
-<div class="outline-text-3" id="text-org289241a">
+<div id="outline-container-org628a2fe" class="outline-3">
+<h3 id="org628a2fe">安装 oh-my-shell</h3>
+<div class="outline-text-3" id="text-org628a2fe">
 <div class="org-src-container">
 <pre class="src src-shell">git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 </pre>
@@ -7063,9 +7102,9 @@ keybindings.el
 </div>
 </div>
 
-<div id="outline-container-org574e673" class="outline-3">
-<h3 id="org574e673">备份现有的配置文件 ~/.zshrc</h3>
-<div class="outline-text-3" id="text-org574e673">
+<div id="outline-container-orgc37426e" class="outline-3">
+<h3 id="orgc37426e">备份现有的配置文件 ~/.zshrc</h3>
+<div class="outline-text-3" id="text-orgc37426e">
 <div class="org-src-container">
 <pre class="src src-shell">mv ~/.zshrc ~/.zshrc.bak
 </pre>
@@ -7073,9 +7112,9 @@ keybindings.el
 </div>
 </div>
 
-<div id="outline-container-org31f3224" class="outline-3">
-<h3 id="org31f3224">创建自己的配置文件</h3>
-<div class="outline-text-3" id="text-org31f3224">
+<div id="outline-container-org6ceadbd" class="outline-3">
+<h3 id="org6ceadbd">创建自己的配置文件</h3>
+<div class="outline-text-3" id="text-org6ceadbd">
 <div class="org-src-container">
 <pre class="src src-shell">touch ~/.zshrc
 </pre>
@@ -7105,9 +7144,9 @@ source $ZSH/oh-my-zsh.sh
 </div>
 </div>
 </div>
-<div id="outline-container-orgc47e7f4" class="outline-3">
-<h3 id="orgc47e7f4">将 zsh 设置为默认 shell</h3>
-<div class="outline-text-3" id="text-orgc47e7f4">
+<div id="outline-container-org5f06ede" class="outline-3">
+<h3 id="org5f06ede">将 zsh 设置为默认 shell</h3>
+<div class="outline-text-3" id="text-org5f06ede">
 <div class="org-src-container">
 <pre class="src src-shell">chsh -s /bin/zsh
 </pre>
@@ -7115,9 +7154,9 @@ source $ZSH/oh-my-zsh.sh
 </div>
 </div>
 </div>
-<div id="outline-container-orge1a2aeb" class="outline-2">
-<h2 id="orge1a2aeb">iTerm</h2>
-<div class="outline-text-2" id="text-orge1a2aeb">
+<div id="outline-container-orgf3cf628" class="outline-2">
+<h2 id="orgf3cf628">iTerm</h2>
+<div class="outline-text-2" id="text-orgf3cf628">
 <p>
 配置一个喜欢的 iTerm 主題配色文件:
 </p>
@@ -7373,9 +7412,9 @@ source $ZSH/oh-my-zsh.sh
 个发展史时, 人类所处的几个特色鲜明的历史时期是如此清晰.
 </p>
 
-<div id="outline-container-org3d43e4b" class="outline-2">
-<h2 id="org3d43e4b">认知革命</h2>
-<div class="outline-text-2" id="text-org3d43e4b">
+<div id="outline-container-org4bb11a9" class="outline-2">
+<h2 id="org4bb11a9">认知革命</h2>
+<div class="outline-text-2" id="text-org4bb11a9">
 <p>
 人类进化起缘于森林古猿, 经历了南方古猿→能人→直立人→智人阶段， 在这过程中，
 人类直立行走是个标志性事件，导致了人类脑容量的持续提升。
@@ -7393,9 +7432,9 @@ source $ZSH/oh-my-zsh.sh
 </div>
 </div>
 
-<div id="outline-container-orgf7d9e5a" class="outline-2">
-<h2 id="orgf7d9e5a">农业革命</h2>
-<div class="outline-text-2" id="text-orgf7d9e5a">
+<div id="outline-container-orgd472c47" class="outline-2">
+<h2 id="orgd472c47">农业革命</h2>
+<div class="outline-text-2" id="text-orgd472c47">
 <p>
 随着人类逐渐拥有种植农作物的能力， 人类进入到了农业文明。人类不再游猎，
 而是定居在一个地区， 在田地里进行劳作， 并逐渐分化出国王、官吏、战士等等
@@ -7408,9 +7447,9 @@ source $ZSH/oh-my-zsh.sh
 </div>
 </div>
 
-<div id="outline-container-org388d73e" class="outline-2">
-<h2 id="org388d73e">三大信念</h2>
-<div class="outline-text-2" id="text-org388d73e">
+<div id="outline-container-org7c20220" class="outline-2">
+<h2 id="org7c20220">三大信念</h2>
+<div class="outline-text-2" id="text-org7c20220">
 <p>
 人类很早就产生了天下一家的理念， 而 <b>金钱</b> 、 <b>帝国</b> 、 <b>宗教</b> 这三大力量成为
 全球统一的重要推力。
@@ -7433,9 +7472,9 @@ source $ZSH/oh-my-zsh.sh
 </div>
 </div>
 
-<div id="outline-container-org1ceda7a" class="outline-2">
-<h2 id="org1ceda7a">科学革命</h2>
-<div class="outline-text-2" id="text-org1ceda7a">
+<div id="outline-container-org79c5c19" class="outline-2">
+<h2 id="org79c5c19">科学革命</h2>
+<div class="outline-text-2" id="text-org79c5c19">
 <p>
 在牛顿创立数学工具之后， 人类终于拥有了坚实的工具进行科学研究。牛顿不仅
 奠定了现代工程学的基础，更开启了现代理性价值观和方法论。
@@ -7467,9 +7506,9 @@ source $ZSH/oh-my-zsh.sh
         <div class="col-md-2"></div>
             <h1>未来简史: 人类如何从智人到神人</h1>
             
-<div id="outline-container-orgb2199b0" class="outline-2">
-<h2 id="orgb2199b0">宗教统治世界</h2>
-<div class="outline-text-2" id="text-orgb2199b0">
+<div id="outline-container-org2b2ca9d" class="outline-2">
+<h2 id="org2b2ca9d">宗教统治世界</h2>
+<div class="outline-text-2" id="text-org2b2ca9d">
 <p>
 宗教给世界带来了秩序, 也为社会带来了意义.
 </p>
@@ -7499,9 +7538,9 @@ source $ZSH/oh-my-zsh.sh
 </div>
 </div>
 
-<div id="outline-container-org5dec0fb" class="outline-2">
-<h2 id="org5dec0fb">人文主义征服世界</h2>
-<div class="outline-text-2" id="text-org5dec0fb">
+<div id="outline-container-org6230107" class="outline-2">
+<h2 id="org6230107">人文主义征服世界</h2>
+<div class="outline-text-2" id="text-org6230107">
 <p>
 近代以后, 人文主义诞生了, 它认为 <code>人</code> 才是世界的根本意义.
 </p>
@@ -7534,9 +7573,9 @@ source $ZSH/oh-my-zsh.sh
 </div>
 </div>
 
-<div id="outline-container-org8eb5fd7" class="outline-2">
-<h2 id="org8eb5fd7">数据主义接管世界</h2>
-<div class="outline-text-2" id="text-org8eb5fd7">
+<div id="outline-container-org2af6e26" class="outline-2">
+<h2 id="org2af6e26">数据主义接管世界</h2>
+<div class="outline-text-2" id="text-org2af6e26">
 <p>
 现代生物科学将人的行为看作是体内生物算法的作用表现, 输入数据, 算法预算后
 得出结果, 而生物在受到刺激后作出适当反应.
@@ -7586,9 +7625,9 @@ source $ZSH/oh-my-zsh.sh
         <div class="col-md-2"></div>
             <h1>Excel: 必会技能之一</h1>
             
-<div id="outline-container-org9ba36fe" class="outline-2">
-<h2 id="org9ba36fe">表格 <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></h2>
-<div class="outline-text-2" id="text-org9ba36fe">
+<div id="outline-container-orga8954ca" class="outline-2">
+<h2 id="orga8954ca">表格 <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></h2>
+<div class="outline-text-2" id="text-orga8954ca">
 
 <div class="figure">
 <p><img src="/assets/blog/2019/03/19/excel-必会技能之一/excel-table.png" alt="excel-table.png" />
@@ -7600,10 +7639,10 @@ source $ZSH/oh-my-zsh.sh
 </p>
 </div>
 <ul class="org-ul">
-<li><a id="orgc5c6146"></a>字体统一, 字号统一<br /></li>
-<li><a id="orgcc80b87"></a>数字用千位分隔样式<br /></li>
-<li><a id="org35f937f"></a>细项要缩进<br />
-<div class="outline-text-5" id="text-org35f937f">
+<li><a id="org2ded782"></a>字体统一, 字号统一<br /></li>
+<li><a id="org923b947"></a>数字用千位分隔样式<br /></li>
+<li><a id="org61efd2f"></a>细项要缩进<br />
+<div class="outline-text-5" id="text-org61efd2f">
 <ul class="org-ul">
 <li>不要用 A1 开始使用, 从 B2 开始</li>
 <li>B/C 列宽度设置为 1, 方便缩进呈现</li>
@@ -7611,35 +7650,35 @@ source $ZSH/oh-my-zsh.sh
 </ul>
 </div>
 </li>
-<li><a id="org4d04d7d"></a>单位要自成一栏<br /></li>
-<li><a id="org664aeb5"></a>上下边框用粗线, 中间用细虚线<br />
-<div class="outline-text-5" id="text-org664aeb5">
+<li><a id="org7104373"></a>单位要自成一栏<br /></li>
+<li><a id="orged447a1"></a>上下边框用粗线, 中间用细虚线<br />
+<div class="outline-text-5" id="text-orged447a1">
 <ul class="org-ul">
 <li>隐藏网格线 或者 整张表格背景色设置为白色</li>
 </ul>
 </div>
 </li>
-<li><a id="org34acf79"></a>文字左对齐, 数字右对齐, 慎用居中<br />
-<div class="outline-text-5" id="text-org34acf79">
+<li><a id="org456985c"></a>文字左对齐, 数字右对齐, 慎用居中<br />
+<div class="outline-text-5" id="text-org456985c">
 <ul class="org-ul">
 <li>列标题中, 如该列为数字列, 标题文字右对齐, 和该列数据估计一致</li>
 </ul>
 </div>
 </li>
-<li><a id="orgf67e901"></a>手动输入数字用蓝色, 公式计算数字用黑色<br />
-<div class="outline-text-5" id="text-orgf67e901">
+<li><a id="org19adb45"></a>手动输入数字用蓝色, 公式计算数字用黑色<br />
+<div class="outline-text-5" id="text-org19adb45">
 <ul class="org-ul">
 <li>如有不需要填入数据单元格, 可用 N/A (not applicable) 表示</li>
 <li>重点数据行, 可填充颜色来强调</li>
 </ul>
 </div>
 </li>
-<li><a id="org720d737"></a>凡使用的工作表, 设定名称; 凡不使用的工作表, 删之<br /></li>
+<li><a id="org93e6a23"></a>凡使用的工作表, 设定名称; 凡不使用的工作表, 删之<br /></li>
 </ul>
 </div>
-<div id="outline-container-org70c04a2" class="outline-2">
-<h2 id="org70c04a2">图表 <sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></h2>
-<div class="outline-text-2" id="text-org70c04a2">
+<div id="outline-container-org8633091" class="outline-2">
+<h2 id="org8633091">图表 <sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></h2>
+<div class="outline-text-2" id="text-org8633091">
 <p>
 to be continued..
 </p>
@@ -7676,18 +7715,18 @@ to be continued..
             <p>
 之前看了 <a href="https://refactoringui.com/previews/building-your-color-palette/">一篇文章</a> , 对如何配色讲解的非常好. 它的方法是通过三步来配置一套属于自己的颜色:
 </p>
-<div id="outline-container-org0d71db6" class="outline-2">
-<h2 id="org0d71db6">灰色</h2>
-<div class="outline-text-2" id="text-org0d71db6">
+<div id="outline-container-org9e0fa85" class="outline-2">
+<h2 id="org9e0fa85">灰色</h2>
+<div class="outline-text-2" id="text-org9e0fa85">
 <p>
 Text, backgrounds, panels, form controls — almost everything in an interface is grey.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgd2e8dc3" class="outline-2">
-<h2 id="orgd2e8dc3">主色调</h2>
-<div class="outline-text-2" id="text-orgd2e8dc3">
+<div id="outline-container-org6c91511" class="outline-2">
+<h2 id="org6c91511">主色调</h2>
+<div class="outline-text-2" id="text-org6c91511">
 <p>
 Most sites need one, maybe two colors that are used for primary actions,
 emphasizing navigation elements, etc. These are the colors that
@@ -7700,9 +7739,9 @@ Facebook as "blue", even though it's really mostly grey.
 </p>
 </div>
 </div>
-<div id="outline-container-orgf67637f" class="outline-2">
-<h2 id="orgf67637f">强调色</h2>
-<div class="outline-text-2" id="text-orgf67637f">
+<div id="outline-container-orgb73f42a" class="outline-2">
+<h2 id="orgb73f42a">强调色</h2>
+<div class="outline-text-2" id="text-orgb73f42a">
 <p>
 On top of primary colors, every site needs a few accent colors for
 communicating different things to the user.
