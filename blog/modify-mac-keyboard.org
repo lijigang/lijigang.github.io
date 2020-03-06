@@ -1,4 +1,4 @@
-#+TITLE: 键盘: 就应该这么改键
+#+TITLE: 效率: 键盘就应该这么改键
 #+DATE: <2019-08-06 Tue>
 #+OPTIONS: toc:nil num:nil
 

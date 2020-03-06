@@ -1,4 +1,4 @@
-#+title: 在 Orgmode 中使用 PlantUML 画图
+#+title: Emacs: 在 Orgmode 中使用 PlantUML 画图
 #+DATE: <2018-06-15 Fri>
 #+options: toc:nil num:nil
 

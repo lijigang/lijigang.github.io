@@ -1,4 +1,4 @@
-#+TITLE: 人类简史: 人类如何从动物到文明
+#+TITLE: 读书: 人类简史
 #+DATE: <2019-04-12 Fri>
 #+options: toc:nil num:nil
 

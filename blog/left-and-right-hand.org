@@ -1,4 +1,4 @@
-#+title: 互联网公司: 左手用户至上, 右手售卖用户
+#+title: 学习: 互联网公司(数据公司)
 #+DATE: <2018-12-13 Thu 20:17>
 #+options: toc:nil num:nil
 

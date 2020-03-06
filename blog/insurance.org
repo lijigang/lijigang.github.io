@@ -1,4 +1,4 @@
-#+TITLE: 常识: 五险一金
+#+TITLE: 学习: 五险一金
 #+DATE: <2019-09-30 Mon>
 #+OPTIONS: toc:nil num:nil
 

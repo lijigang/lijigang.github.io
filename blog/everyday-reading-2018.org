@@ -1,4 +1,4 @@
-#+title: 优质文章每日精华选(2018 年)
+#+title: 汇总: 优质文章每日精华选(2018 年)
 #+DATE: <2018-04-07 Sat 19:10>
 #+options: toc:nil num:nil date:t
 

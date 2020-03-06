@@ -1,4 +1,4 @@
-#+TITLE: 你这一辈子, 发财机会就两次
+#+TITLE: 学习: 你这一辈子, 发财机会就两次
 #+DATE: <2019-12-27 Fri>
 #+OPTIONS: toc:nil num:nil
 

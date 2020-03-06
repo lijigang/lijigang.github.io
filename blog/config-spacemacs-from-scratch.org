@@ -1,4 +1,4 @@
-#+title: 从零开始配置 Spacemacs
+#+title: Emacs: 从零开始配置 Spacemacs
 #+author: lijigang <i@lijigang.com>
 #+DATE: <2018-06-14 Thu 19:30>
 #+OPTIONS: toc:nil date:t

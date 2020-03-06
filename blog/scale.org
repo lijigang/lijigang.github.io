@@ -1,4 +1,4 @@
-#+title: 规模: 增长的底层原理
+#+title: 读书: 规模
 #+DATE: <2018-11-01 Thu 20:00>
 #+options: toc:nil num:nil
 

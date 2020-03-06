@@ -1,4 +1,4 @@
-#+TITLE: 如何制定靠谱计划
+#+TITLE: 学习: 如何制定靠谱计划
 #+DATE: <2020-01-15 Wed>
 #+OPTIONS: toc:nil num:nil
 

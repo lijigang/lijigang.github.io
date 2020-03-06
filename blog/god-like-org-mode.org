@@ -1,4 +1,4 @@
-#+TITLE: 神器 Org-mode
+#+TITLE: Emacs: 神器 Org-mode
 #+DATE: <2018-08-08 Wed>
 #+options: toc:nil num:nil
 

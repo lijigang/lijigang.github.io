@@ -1,4 +1,4 @@
-#+title: 未来简史: 人类如何从智人到神人
+#+title: 读书: 未来简史
 #+DATE: <2019-04-12 Fri>
 #+options: toc:nil num:nil date:t
 

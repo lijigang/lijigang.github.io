@@ -1,4 +1,4 @@
-#+title: 技术简史: 从野蛮生长到垄断
+#+title: 读书: 技术简史
 #+DATE: <2018-11-05 Mon 20:02>
 
 #+DOWNLOADED: file:/Users/ljg/Downloads/technology-history.png @ 2018-11-01 18:33:54

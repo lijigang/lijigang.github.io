@@ -1,4 +1,4 @@
-#+TITLE: 配色: 必会技能之一
+#+TITLE: 学习: 必会技能之一 配色
 #+DATE: <2019-03-20 Wed>
 #+options: toc:nil num:nil
 

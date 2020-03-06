@@ -1,4 +1,4 @@
-#+title: 知识的边界: 你想知道知识长什么形状吗
+#+title: 读书: 知识的边界
 #+DATE: <2018-11-04 Sun 20:01>
 #+options: toc:nil num:nil date:t
 

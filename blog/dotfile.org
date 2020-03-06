@@ -1,4 +1,4 @@
-#+TITLE: Dotfile: 用一个 Org 文件管理所有配置
+#+TITLE: Emacs: 用一个 Org 文件管理所有配置
 #+DATE: <2019-04-14 Sun>
 #+OPTIONS: toc:t num:nil
 #+PROPERTY: header-args :mkdirp yes

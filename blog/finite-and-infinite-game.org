@@ -1,4 +1,4 @@
-#+title: 有限与无限的游戏： 改变世界观的世界观
+#+title: 读书: 有限与无限的游戏
 #+DATE: <2018-11-06 Tue 20:02>
 #+options: toc:nil num:nil date:t
 
