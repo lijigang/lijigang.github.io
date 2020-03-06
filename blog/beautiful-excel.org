@@ -1,4 +1,4 @@
-#+TITLE: 效率: 必会技能之一 Excel
+#+TITLE: 学习: 必会技能之一 Excel
 #+DATE: <2019-03-19 Tue>
 #+options: toc:nil num:nil
 
