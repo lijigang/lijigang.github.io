@@ -9,6 +9,28 @@
 其不便,故起意将每日推荐文章列表整理到此, 方便随时查阅.
 
 * 三月
+** 2020-03-12
+- [[https://mp.weixin.qq.com/s/egHU0HVoqOUZn6PptPtMQw][《他们在微博上，也曾说过真话啊》]] 王兴的饭否走的最早，死的最快。因为监
+  管原因，“删帖、限制敏感关键字、暂停搜索、域名解析、服务器关闭”类饭否的
+  叽歪，嘀咕，最终夭折……
+
+
+- [[https://m.21jingji.com/article/20200312/herald/608e8cffddfdd861ed3db0a86379f04b.html?layer=6&from=singlemessage][《Soul 运营合伙人被批捕 作案手法凸显行业竞争焦虑》]] Soul 案可能是国内互
+  联网圈被公布的第一起，其背后凸显出了陌生人社交领域的焦虑和竞争无序。
+
+
+- [[https://mp.weixin.qq.com/s/OWrC9iXHxgUZtaLm8GN4ow][《字节跳动 8 周年：张一鸣公布组织升级，未来将关注三大重点》]] 在这个特殊
+  的时间，一鸣给全球员工写了一封全员信，分享了他的新想法。在信中，他公布
+  了组织升级，以应对业务变化和组织成长的挑战。
+
+
+- [[https://mp.weixin.qq.com/s/tte0xoBh9YFN7BWiWz9pWQ][《毕业 2020：令人心碎的 offer 》]] “说实话经过这次疫情看到私企大量裁员减
+  薪，会有冲动想要去到更稳妥的‘中’字头国企里了 ”，她说。
+
+
+- [[https://view.inews.qq.com/a/20200312A09R6600?openid=o04IBAIcpwWaEWjrcugG7ftYl5UI&key=&version=17000b24&devicetype=iOS13.3.1&wuid=oDdoCtyJCEnOg2uIXKSP1Sbqor-Y&sharer=o04IBAIcpwWaEWjrcugG7ftYl5UI&uid=&shareto=&from=singlemessag][《疫情中的硅谷：微软谷歌亚马逊都有确诊员工 几乎所有大会取消》]] 在没有统
+  一监测和监管下，那些重灾区中的科技巨头们纷纷选择“自治”，以保护自身和员
+  工的利益，抑制更加严峻的疫情势态发生。
 ** 2020-03-11
 - [[https://mp.weixin.qq.com/s/roTg_r57btmPD_vXa21Izg][《今天是微信公号诞生以来最荒谬的一天》]] 这是由一篇文章引发的荒谬喜剧；
   但也完美诠释了，喜剧的内核，就是一场悲剧。
