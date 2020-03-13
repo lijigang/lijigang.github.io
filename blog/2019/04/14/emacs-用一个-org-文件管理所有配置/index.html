@@ -45,28 +45,28 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orge5152d5">Spacemacs</a>
+<li><a href="#orgd3e2f99">Spacemacs</a>
 <ul>
-<li><a href="#org64b7d13">小修</a></li>
-<li><a href="#org9785ab1">大改</a>
+<li><a href="#orgb6b7222">小修</a></li>
+<li><a href="#orgcc03fd7">大改</a>
 <ul>
-<li><a href="#org6911e10">packages.el</a></li>
-<li><a href="#org6e8fb19">funcs.el</a></li>
-<li><a href="#org409727d">config.el</a></li>
-<li><a href="#org8f8596e">keybindings.el</a></li>
+<li><a href="#org9bf4649">packages.el</a></li>
+<li><a href="#org6e07982">funcs.el</a></li>
+<li><a href="#orgbf22f04">config.el</a></li>
+<li><a href="#orgda9341b">keybindings.el</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgaa05ce9">zsh</a>
+<li><a href="#orga2dcf50">zsh</a>
 <ul>
-<li><a href="#org6768346">安装 oh-my-shell</a></li>
-<li><a href="#org60a0730">备份现有的配置文件 ~/.zshrc</a></li>
-<li><a href="#org3cad559">创建自己的配置文件</a></li>
-<li><a href="#orgb4505f2">将 zsh 设置为默认 shell</a></li>
+<li><a href="#orga6c9b63">安装 oh-my-shell</a></li>
+<li><a href="#org78d896b">备份现有的配置文件 ~/.zshrc</a></li>
+<li><a href="#org1f67270">创建自己的配置文件</a></li>
+<li><a href="#org09f2447">将 zsh 设置为默认 shell</a></li>
 </ul>
 </li>
-<li><a href="#org00116a6">iTerm</a></li>
+<li><a href="#orgadd39b6">iTerm</a></li>
 </ul>
 </div>
 </div>
@@ -77,9 +77,9 @@
 一个 org file 中.
 </p>
 
-<div id="outline-container-orge5152d5" class="outline-2">
-<h2 id="orge5152d5">Spacemacs</h2>
-<div class="outline-text-2" id="text-orge5152d5">
+<div id="outline-container-orgd3e2f99" class="outline-2">
+<h2 id="orgd3e2f99">Spacemacs</h2>
+<div class="outline-text-2" id="text-orgd3e2f99">
 <p>
 <a href="https://github.com/syl20bnr/spacemacs">Spacemacs</a> 就是 Emacs 的一套配置。它对 evil 的支持，它的文档完善程度，极大的
 减少了 Emacs 的使用门槛, 让你可以将更多精力花在如何使用 Emacs/Org mode 上面.
@@ -109,9 +109,9 @@ Spacemacs 变量配置来定制, 另一种是 <code>大改</code> 你通过 Spac
 </p>
 </div>
 
-<div id="outline-container-org64b7d13" class="outline-3">
-<h3 id="org64b7d13">小修</h3>
-<div class="outline-text-3" id="text-org64b7d13">
+<div id="outline-container-orgb6b7222" class="outline-3">
+<h3 id="orgb6b7222">小修</h3>
+<div class="outline-text-3" id="text-orgb6b7222">
 <p>
 Spacemacs 默认生成的 ~/.spacemacs 文件中有四个函数:
 </p>
@@ -713,9 +713,9 @@ you should place your code here."
 </ol>
 </div>
 </div>
-<div id="outline-container-org9785ab1" class="outline-3">
-<h3 id="org9785ab1">大改</h3>
-<div class="outline-text-3" id="text-org9785ab1">
+<div id="outline-container-orgcc03fd7" class="outline-3">
+<h3 id="orgcc03fd7">大改</h3>
+<div class="outline-text-3" id="text-orgcc03fd7">
 <p>
 Spacemacs 默认支持了很多的 layer, 常用的功能组合场景都已经设置的很赞了, 只
 需要在 <code>小修</code> 里配置相应的 layer 就可以开箱即用. 但总有一些自己独有的需求,
@@ -786,9 +786,9 @@ keybindings.el
 </blockquote>
 </div>
 
-<div id="outline-container-org6911e10" class="outline-4">
-<h4 id="org6911e10">packages.el</h4>
-<div class="outline-text-4" id="text-org6911e10">
+<div id="outline-container-org9bf4649" class="outline-4">
+<h4 id="org9bf4649">packages.el</h4>
+<div class="outline-text-4" id="text-org9bf4649">
 <div class="org-src-container">
 <pre class="src src-lisp">;;; Code:
 
@@ -916,9 +916,9 @@ keybindings.el
 </div>
 </div>
 
-<div id="outline-container-org6e8fb19" class="outline-4">
-<h4 id="org6e8fb19">funcs.el</h4>
-<div class="outline-text-4" id="text-org6e8fb19">
+<div id="outline-container-org6e07982" class="outline-4">
+<h4 id="org6e07982">funcs.el</h4>
+<div class="outline-text-4" id="text-org6e07982">
 <div class="org-src-container">
 <pre class="src src-lisp">(defun make-progress (width percent has-number?)
   (let* ((done (/ percent 100.0))
@@ -989,18 +989,18 @@ keybindings.el
 </div>
 </div>
 </div>
-<div id="outline-container-org409727d" class="outline-4">
-<h4 id="org409727d">config.el</h4>
-<div class="outline-text-4" id="text-org409727d">
+<div id="outline-container-orgbf22f04" class="outline-4">
+<h4 id="orgbf22f04">config.el</h4>
+<div class="outline-text-4" id="text-orgbf22f04">
 <div class="org-src-container">
 <pre class="src src-lisp">(add-to-list 'auto-mode-alist '("\\.org_archive\\'" . org-mode))
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org8f8596e" class="outline-4">
-<h4 id="org8f8596e">keybindings.el</h4>
-<div class="outline-text-4" id="text-org8f8596e">
+<div id="outline-container-orgda9341b" class="outline-4">
+<h4 id="orgda9341b">keybindings.el</h4>
+<div class="outline-text-4" id="text-orgda9341b">
 <div class="org-src-container">
 <pre class="src src-lisp">(evil-leader/set-key "op" 'org-pomodoro)
 
@@ -1030,17 +1030,17 @@ keybindings.el
 </div>
 </div>
 
-<div id="outline-container-orgaa05ce9" class="outline-2">
-<h2 id="orgaa05ce9">zsh</h2>
-<div class="outline-text-2" id="text-orgaa05ce9">
+<div id="outline-container-orga2dcf50" class="outline-2">
+<h2 id="orga2dcf50">zsh</h2>
+<div class="outline-text-2" id="text-orga2dcf50">
 <p>
 除了 Emacs, Shell 的配置也是比较需要跨机器使用的. 本着拿来主义精神, 我平时以 oh-my-shell 为主:
 </p>
 </div>
 
-<div id="outline-container-org6768346" class="outline-3">
-<h3 id="org6768346">安装 oh-my-shell</h3>
-<div class="outline-text-3" id="text-org6768346">
+<div id="outline-container-orga6c9b63" class="outline-3">
+<h3 id="orga6c9b63">安装 oh-my-shell</h3>
+<div class="outline-text-3" id="text-orga6c9b63">
 <div class="org-src-container">
 <pre class="src src-shell">git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 </pre>
@@ -1048,9 +1048,9 @@ keybindings.el
 </div>
 </div>
 
-<div id="outline-container-org60a0730" class="outline-3">
-<h3 id="org60a0730">备份现有的配置文件 ~/.zshrc</h3>
-<div class="outline-text-3" id="text-org60a0730">
+<div id="outline-container-org78d896b" class="outline-3">
+<h3 id="org78d896b">备份现有的配置文件 ~/.zshrc</h3>
+<div class="outline-text-3" id="text-org78d896b">
 <div class="org-src-container">
 <pre class="src src-shell">mv ~/.zshrc ~/.zshrc.bak
 </pre>
@@ -1058,9 +1058,9 @@ keybindings.el
 </div>
 </div>
 
-<div id="outline-container-org3cad559" class="outline-3">
-<h3 id="org3cad559">创建自己的配置文件</h3>
-<div class="outline-text-3" id="text-org3cad559">
+<div id="outline-container-org1f67270" class="outline-3">
+<h3 id="org1f67270">创建自己的配置文件</h3>
+<div class="outline-text-3" id="text-org1f67270">
 <div class="org-src-container">
 <pre class="src src-shell">touch ~/.zshrc
 </pre>
@@ -1090,9 +1090,9 @@ source $ZSH/oh-my-zsh.sh
 </div>
 </div>
 </div>
-<div id="outline-container-orgb4505f2" class="outline-3">
-<h3 id="orgb4505f2">将 zsh 设置为默认 shell</h3>
-<div class="outline-text-3" id="text-orgb4505f2">
+<div id="outline-container-org09f2447" class="outline-3">
+<h3 id="org09f2447">将 zsh 设置为默认 shell</h3>
+<div class="outline-text-3" id="text-org09f2447">
 <div class="org-src-container">
 <pre class="src src-shell">chsh -s /bin/zsh
 </pre>
@@ -1100,9 +1100,9 @@ source $ZSH/oh-my-zsh.sh
 </div>
 </div>
 </div>
-<div id="outline-container-org00116a6" class="outline-2">
-<h2 id="org00116a6">iTerm</h2>
-<div class="outline-text-2" id="text-org00116a6">
+<div id="outline-container-orgadd39b6" class="outline-2">
+<h2 id="orgadd39b6">iTerm</h2>
+<div class="outline-text-2" id="text-orgadd39b6">
 <p>
 配置一个喜欢的 iTerm 主題配色文件:
 </p>
