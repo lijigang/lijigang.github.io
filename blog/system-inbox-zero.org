@@ -10,7 +10,7 @@
 
 #+BEGIN_EXPORT html
 <img
-  src="images/inbox-zero.png"
+  src="../images/inbox-zero.png"
   width="50%"
 />
 #+END_EXPORT

@@ -59,8 +59,14 @@ Org 现在已经是 Emacs 出厂自带的一部分了，所以只要你现在打
 ** 美化: Headline
 *** 需求任务
 默认显示 Headline 的 =*= 符号看着和内容无关, 又特别扎眼, 希望让它显示美观些, 同时又不影响查看内容和缩进.
-#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-07_12-21-11.png @ 2018-09-07 12:21:27
-[[file:../images/2018-09-07_12-21-11.png]]
+
+#+BEGIN_EXPORT html
+<img
+  src="../images/2018-09-07_12-21-11.png"
+  width="80%"
+/>
+#+END_EXPORT
+
 *** 解决方法
 
   #+begin_src emacs-lisp
@@ -74,8 +80,12 @@ Org 现在已经是 Emacs 出厂自带的一部分了，所以只要你现在打
 
 配置上面那行代码后，显示效果如下：
 
-#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-07_12-25-06.png @ 2018-09-07 12:25:24
-[[file:../images/2018-09-07_12-25-06.png]]
+#+BEGIN_EXPORT html
+<img
+  src="../images/2018-09-07_12-25-06.png"
+  width="80%"
+/>
+#+END_EXPORT
 
 ** 美化: Todo Keyword
 *** 需求任务
@@ -100,8 +110,12 @@ Org 现在已经是 Emacs 出厂自带的一部分了，所以只要你现在打
 #+end_src
 让我们看看现在的显示效果：
 
-#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-07_12-26-04.png @ 2018-09-07 12:26:18
-[[file:../images/2018-09-07_12-26-04.png]]
+#+BEGIN_EXPORT html
+<img
+  src="../images/2018-09-07_12-26-04.png"
+  width="80%"
+/>
+#+END_EXPORT
 
 ** 美化: agenda
 *** 需求任务
@@ -140,8 +154,13 @@ agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行�
 
 显示效果如下:
 
-#+DOWNLOADED: file:/Users/arthur/Downloads/Jietu20190807-195307.png @ 2019-08-07 19:53:32
-[[file:images/Jietu20190807-195307.png]]
+
+#+BEGIN_EXPORT html
+<img
+  src="../images/Jietu20190807-195307.png"
+  width="80%"
+/>
+#+END_EXPORT
 
 * 快速记录
 ** Capture : 快速记录任务
