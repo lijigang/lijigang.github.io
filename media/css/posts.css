@@ -138,4 +138,7 @@ hr {
         font-size: 4rem;
         width: 100%;
     }
+    .post-content {
+        max-width: 100%;
+    }
 }
