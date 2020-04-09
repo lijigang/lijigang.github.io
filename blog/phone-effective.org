@@ -2,7 +2,7 @@
 #+DATE: <2020-03-05 Thu>
 #+OPTIONS: toc:nil num:nil
 
-* 目标: 在手机端实现高效管理事项
+** 目标: 在手机端实现高效管理事项
 
 具体来说, 需求包括两项:
 1. 极高效的输入事项
@@ -11,23 +11,31 @@
 =极高效= 的输入, 指的是在任意手机软件界面中(比如正在微信聊天), 可以立马唤
 醒输入入口.
 
-* 解决: 华为 =字母手势=
+** 解决: 华为 =字母手势=
 1. 极高效的输入事项
 
    打开华为设置-辅助功能-手势控制-字母手势, 选择你喜欢的字母, 设置打开应
    用为 =日历= .
 
-   #+DOWNLOADED: file:/Users/arthur/Downloads/WechatIMG9.jpeg @ 2020-03-05 18:16:55
-   [[file:images/WechatIMG9.jpeg]]
+   #+BEGIN_EXPORT html
+   <img
+     src="images/WechatIMG9.jpeg"
+     width="60%"
+   />
+   #+END_EXPORT
 
 2. 直观的呈现和提醒
 
    在手机桌面长按-窗口小工具-日历-日程, 拖放到桌面首屏.
 
-   #+DOWNLOADED: file:/Users/arthur/Downloads/WechatIMG10.jpeg @ 2020-03-05 18:16:55
-   [[file:images/WechatIMG10.jpeg]]
+   #+BEGIN_EXPORT html
+   <img
+     src="images/WechatIMG10.jpeg"
+     width="60%"
+   />
+   #+END_EXPORT
 
-* 效果
+** 效果
 
 现在已经可以在任意软件界面中, 指关节画 C 唤醒日历, 添加事项和时间.
 
