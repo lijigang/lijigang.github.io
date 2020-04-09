@@ -144,4 +144,9 @@ hr {
         padding-right: 0px;
         width: 100%;
     }
+
+    .post-content {
+        max-width: 100%;
+    }
+
 }
