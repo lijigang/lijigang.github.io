@@ -132,3 +132,9 @@ hr {
     text-align: justify;
     border: 1px solid LightGrey;
 }
+
+@media screen and (max-width: 1026px) {
+    body {
+        font-size: 4rem;
+    }
+}
