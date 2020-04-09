@@ -20,7 +20,7 @@
    #+BEGIN_EXPORT html
    <img
      src="images/WechatIMG9.jpeg"
-     width="60%"
+     width="40%"
    />
    #+END_EXPORT
 
@@ -31,7 +31,7 @@
    #+BEGIN_EXPORT html
    <img
      src="images/WechatIMG10.jpeg"
-     width="60%"
+     width="40%"
    />
    #+END_EXPORT
 
