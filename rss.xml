@@ -4,8 +4,8 @@
     <title>常识</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Thu, 09 Apr 2020 23:09:00 CST</pubDate>
-    <lastBuildDate>Thu, 09 Apr 2020 23:09:00 CST</lastBuildDate>
+    <pubDate>Thu, 09 Apr 2020 23:16:57 CST</pubDate>
+    <lastBuildDate>Thu, 09 Apr 2020 23:16:57 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -16,9 +16,9 @@
         <div class="col-md-2"></div>
             <h1>学习: 必会技能之一 Excel</h1>
             
-<div id="outline-container-org190db5a" class="outline-2">
-<h2 id="org190db5a">表格 <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></h2>
-<div class="outline-text-2" id="text-org190db5a">
+<div id="outline-container-orgfaba95c" class="outline-2">
+<h2 id="orgfaba95c">表格 <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></h2>
+<div class="outline-text-2" id="text-orgfaba95c">
 <img
   src="/assets/blog/2019/03/19/学习-必会技能之一-excel/excel-table.png"
   width="50%"
@@ -29,10 +29,10 @@
 </p>
 </div>
 <ul class="org-ul">
-<li><a id="org2ca2306"></a>字体统一, 字号统一<br /></li>
-<li><a id="org86fc789"></a>数字用千位分隔样式<br /></li>
-<li><a id="org78b66e8"></a>细项要缩进<br />
-<div class="outline-text-5" id="text-org78b66e8">
+<li><a id="orgef898d1"></a>字体统一, 字号统一<br /></li>
+<li><a id="org21e64af"></a>数字用千位分隔样式<br /></li>
+<li><a id="orgde23a7f"></a>细项要缩进<br />
+<div class="outline-text-5" id="text-orgde23a7f">
 <ul class="org-ul">
 <li>不要用 A1 开始使用, 从 B2 开始</li>
 <li>B/C 列宽度设置为 1, 方便缩进呈现</li>
@@ -40,35 +40,35 @@
 </ul>
 </div>
 </li>
-<li><a id="orgef6e15f"></a>单位要自成一栏<br /></li>
-<li><a id="org61869e6"></a>上下边框用粗线, 中间用细虚线<br />
-<div class="outline-text-5" id="text-org61869e6">
+<li><a id="org75f1873"></a>单位要自成一栏<br /></li>
+<li><a id="orgec1e0de"></a>上下边框用粗线, 中间用细虚线<br />
+<div class="outline-text-5" id="text-orgec1e0de">
 <ul class="org-ul">
 <li>隐藏网格线 或者 整张表格背景色设置为白色</li>
 </ul>
 </div>
 </li>
-<li><a id="orgb8d934d"></a>文字左对齐, 数字右对齐, 慎用居中<br />
-<div class="outline-text-5" id="text-orgb8d934d">
+<li><a id="org4c8ccb2"></a>文字左对齐, 数字右对齐, 慎用居中<br />
+<div class="outline-text-5" id="text-org4c8ccb2">
 <ul class="org-ul">
 <li>列标题中, 如该列为数字列, 标题文字右对齐, 和该列数据估计一致</li>
 </ul>
 </div>
 </li>
-<li><a id="org27b39eb"></a>手动输入数字用蓝色, 公式计算数字用黑色<br />
-<div class="outline-text-5" id="text-org27b39eb">
+<li><a id="org6f59bd6"></a>手动输入数字用蓝色, 公式计算数字用黑色<br />
+<div class="outline-text-5" id="text-org6f59bd6">
 <ul class="org-ul">
 <li>如有不需要填入数据单元格, 可用 N/A (not applicable) 表示</li>
 <li>重点数据行, 可填充颜色来强调</li>
 </ul>
 </div>
 </li>
-<li><a id="org3874ae5"></a>凡使用的工作表, 设定名称; 凡不使用的工作表, 删之<br /></li>
+<li><a id="org7e62f85"></a>凡使用的工作表, 设定名称; 凡不使用的工作表, 删之<br /></li>
 </ul>
 </div>
-<div id="outline-container-org31b3e6a" class="outline-2">
-<h2 id="org31b3e6a">图表 <sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></h2>
-<div class="outline-text-2" id="text-org31b3e6a">
+<div id="outline-container-orgc685df8" class="outline-2">
+<h2 id="orgc685df8">图表 <sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></h2>
+<div class="outline-text-2" id="text-orgc685df8">
 <p>
 to be continued..
 </p>
@@ -112,13 +112,13 @@ to be continued..
 其不便,故起意将每日推荐文章列表整理到此, 方便随时查阅.
 </p>
 
-<div id="outline-container-orgad148b2" class="outline-2">
-<h2 id="orgad148b2">四月</h2>
-<div class="outline-text-2" id="text-orgad148b2">
+<div id="outline-container-orgd782501" class="outline-2">
+<h2 id="orgd782501">四月</h2>
+<div class="outline-text-2" id="text-orgd782501">
 </div>
-<div id="outline-container-org5bf4508" class="outline-3">
-<h3 id="org5bf4508">2020-04-08</h3>
-<div class="outline-text-3" id="text-org5bf4508">
+<div id="outline-container-orgaec09e8" class="outline-3">
+<h3 id="orgaec09e8">2020-04-08</h3>
+<div class="outline-text-3" id="text-orgaec09e8">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/8vjybcdv-jvRxGCU8qS6xw">《万字长文实录：消费者变了！》</a> 新冠疫情让人们发现，增长和营销，一定要
 围绕消费者增长来审视。那么我们的市场、消费者发生了什么样的变化？</li>
@@ -154,9 +154,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org4097b42" class="outline-3">
-<h3 id="org4097b42">2020-04-07</h3>
-<div class="outline-text-3" id="text-org4097b42">
+<div id="outline-container-orgcd678b9" class="outline-3">
+<h3 id="orgcd678b9">2020-04-07</h3>
+<div class="outline-text-3" id="text-orgcd678b9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Cq5G_Uo775t288urlHL52g">《为什么半个互联网都在玩直播带货？》</a> 疫情黑天鹅之下，众多线下业态停摆，
 越来越多商家将业务搬到线上，企业的老板们纷纷加入到直播带货的大军中。</li>
@@ -191,9 +191,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbb0de9f" class="outline-3">
-<h3 id="orgbb0de9f">2020-04-06</h3>
-<div class="outline-text-3" id="text-orgbb0de9f">
+<div id="outline-container-orge09454a" class="outline-3">
+<h3 id="orge09454a">2020-04-06</h3>
+<div class="outline-text-3" id="text-orge09454a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/WreFPdVyrC2riEFcXl4e2g">《尤瓦尔·赫拉利《冠状病毒之后的世界》》</a> 他谈到疫情结束后，世界向何处去
 的问题，以及对目前各国没有统一行动的计划，反而各自为战、竞相关闭边境的
@@ -228,9 +228,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org3ab6b7f" class="outline-3">
-<h3 id="org3ab6b7f">2020-04-03</h3>
-<div class="outline-text-3" id="text-org3ab6b7f">
+<div id="outline-container-orgc854ed7" class="outline-3">
+<h3 id="orgc854ed7">2020-04-03</h3>
+<div class="outline-text-3" id="text-orgc854ed7">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/cvHzZbag0OqO-KV1G-_TRg">《瑞幸遭做空报告全文：欺诈 + 基本崩溃的业务》</a> 这一份长达 89 页的报告直
 指瑞幸咖啡(LK.US)正在捏造公司财务和运营数据。</li>
@@ -266,13 +266,13 @@ to be continued..
 </div>
 </div>
 </div>
-<div id="outline-container-org8727fc5" class="outline-2">
-<h2 id="org8727fc5">三月</h2>
-<div class="outline-text-2" id="text-org8727fc5">
+<div id="outline-container-orgd406543" class="outline-2">
+<h2 id="orgd406543">三月</h2>
+<div class="outline-text-2" id="text-orgd406543">
 </div>
-<div id="outline-container-orgc28f16c" class="outline-3">
-<h3 id="orgc28f16c">2020-03-26</h3>
-<div class="outline-text-3" id="text-orgc28f16c">
+<div id="outline-container-orged84f8d" class="outline-3">
+<h3 id="orged84f8d">2020-03-26</h3>
+<div class="outline-text-3" id="text-orged84f8d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/U3vf4CRiief5Dj2veOVMKA">《评分 9.9！科幻迷改编的《我的三体》，是怎么让粉丝燃爆的？》</a> 这个画风
 奇特，人物、场景由一个个方块组成的系列作品，被苛刻的粉丝们认为精准还原
@@ -307,9 +307,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org5414b22" class="outline-3">
-<h3 id="org5414b22">2020-03-24</h3>
-<div class="outline-text-3" id="text-org5414b22">
+<div id="outline-container-orgec68096" class="outline-3">
+<h3 id="orgec68096">2020-03-24</h3>
+<div class="outline-text-3" id="text-orgec68096">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/YGZYZlWpPqknwxeERxAcqg">《疫情结束后，该换个活法了》</a> 基础设施变了、协作模式变了，“他人利益”与
 “自我发展”的关系也变了，究竟是要继续逞英雄，还是学会“概率化生存”？</li>
@@ -344,9 +344,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org7a0a3de" class="outline-3">
-<h3 id="org7a0a3de">2020-03-20</h3>
-<div class="outline-text-3" id="text-org7a0a3de">
+<div id="outline-container-orged171fb" class="outline-3">
+<h3 id="orged171fb">2020-03-20</h3>
+<div class="outline-text-3" id="text-orged171fb">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/FSQnXJXLGQwhoc51HybQDw">《上抖音直播的中国县长们》</a> 越来越多的基层公务人员走进直播间，用屏幕为
 乡亲带去便利与服务。而在此次疫情期间，直播间里的县长为了“带货”，更是使
@@ -379,9 +379,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgeb841bf" class="outline-3">
-<h3 id="orgeb841bf">2020-03-19</h3>
-<div class="outline-text-3" id="text-orgeb841bf">
+<div id="outline-container-org38dd8f5" class="outline-3">
+<h3 id="org38dd8f5">2020-03-19</h3>
+<div class="outline-text-3" id="text-org38dd8f5">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/FSQnXJXLGQwhoc51HybQDw">《上抖音直播的中国县长们》</a> 越来越多的基层公务人员走进直播间，用屏幕为
 乡亲带去便利与服务。而在此次疫情期间，直播间里的县长为了“带货”，更是使
@@ -414,9 +414,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgab7e679" class="outline-3">
-<h3 id="orgab7e679">2020-03-18</h3>
-<div class="outline-text-3" id="text-orgab7e679">
+<div id="outline-container-org4ffb558" class="outline-3">
+<h3 id="org4ffb558">2020-03-18</h3>
+<div class="outline-text-3" id="text-org4ffb558">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/L1sgro3hosRjySYiBayrfg">《进击的比尔·盖茨》</a> 高晓松难得把胡子刮得精光、长发梳得倍儿顺，问盖茨：
 “你和马云等中国的许多企业家有什么不同？”盖茨回答：“没什么不同。”</li>
@@ -449,9 +449,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org10839e5" class="outline-3">
-<h3 id="org10839e5">2020-03-12</h3>
-<div class="outline-text-3" id="text-org10839e5">
+<div id="outline-container-org451078c" class="outline-3">
+<h3 id="org451078c">2020-03-12</h3>
+<div class="outline-text-3" id="text-org451078c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/egHU0HVoqOUZn6PptPtMQw">《他们在微博上，也曾说过真话啊》</a> 王兴的饭否走的最早，死的最快。因为监
 管原因，“删帖、限制敏感关键字、暂停搜索、域名解析、服务器关闭”类饭否的
@@ -485,9 +485,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org6328b68" class="outline-3">
-<h3 id="org6328b68">2020-03-11</h3>
-<div class="outline-text-3" id="text-org6328b68">
+<div id="outline-container-orgd7be9b1" class="outline-3">
+<h3 id="orgd7be9b1">2020-03-11</h3>
+<div class="outline-text-3" id="text-orgd7be9b1">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/roTg_r57btmPD_vXa21Izg">《今天是微信公号诞生以来最荒谬的一天》</a> 这是由一篇文章引发的荒谬喜剧；
 但也完美诠释了，喜剧的内核，就是一场悲剧。</li>
@@ -520,9 +520,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org4e44467" class="outline-3">
-<h3 id="org4e44467">2020-03-10</h3>
-<div class="outline-text-3" id="text-org4e44467">
+<div id="outline-container-orgf4fad51" class="outline-3">
+<h3 id="orgf4fad51">2020-03-10</h3>
+<div class="outline-text-3" id="text-orgf4fad51">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/gKYRRYJnw8VR7H2UzgHNBA">《谷歌与中国开发者的恩怨情仇》</a> 2 月 20 日，谷歌以存在 App 外广告等干扰
 性广告问题为由移除了近 600 款安卓应用，并禁止其开发者进入 Play 软件商
@@ -558,9 +558,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orge6142c0" class="outline-3">
-<h3 id="orge6142c0">2020-03-09</h3>
-<div class="outline-text-3" id="text-orge6142c0">
+<div id="outline-container-org22e6053" class="outline-3">
+<h3 id="org22e6053">2020-03-09</h3>
+<div class="outline-text-3" id="text-org22e6053">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/11_yAhI12UqYF0hg0CLaFQ">《知识星球吴鲁加和他的 2000 万名星球成员》</a> 截至目前，知识星球拥有近
 2000 个活跃星球，此外，知识星球积累了超过 2000 万用户，其中有 200 多万
@@ -594,9 +594,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org6874110" class="outline-3">
-<h3 id="org6874110">2020-03-05</h3>
-<div class="outline-text-3" id="text-org6874110">
+<div id="outline-container-org5f4077a" class="outline-3">
+<h3 id="org5f4077a">2020-03-05</h3>
+<div class="outline-text-3" id="text-org5f4077a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NNX-QImafTW9kxpcmKwZxg">《“斗鱼一姐”冯提莫来到 B 站的 75 天》</a> 80 天前离开自己发迹的平台斗鱼直播，
 在下一个 80 天里，冯提莫和她的粉丝似乎已然习惯了 B 站。</li>
@@ -619,9 +619,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgec0e48d" class="outline-3">
-<h3 id="orgec0e48d">2020-03-02</h3>
-<div class="outline-text-3" id="text-orgec0e48d">
+<div id="outline-container-org85cf4e0" class="outline-3">
+<h3 id="org85cf4e0">2020-03-02</h3>
+<div class="outline-text-3" id="text-org85cf4e0">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/U0CoxTNupeDg5z5_J9XBqg">《快手信息收集 2017-2019》</a> 文章都是乱翻书基于团队日常信息收集所做出的
 分析评论，将乱翻书公众号 2017 年-2019 年部分相关快手的文章做了一次信息
@@ -656,13 +656,13 @@ to be continued..
 </div>
 </div>
 </div>
-<div id="outline-container-orgdf7968b" class="outline-2">
-<h2 id="orgdf7968b">二月</h2>
-<div class="outline-text-2" id="text-orgdf7968b">
+<div id="outline-container-orgbed5b56" class="outline-2">
+<h2 id="orgbed5b56">二月</h2>
+<div class="outline-text-2" id="text-orgbed5b56">
 </div>
-<div id="outline-container-orga9c5243" class="outline-3">
-<h3 id="orga9c5243">2020-02-28</h3>
-<div class="outline-text-3" id="text-orga9c5243">
+<div id="outline-container-orgeb30c7f" class="outline-3">
+<h3 id="orgeb30c7f">2020-02-28</h3>
+<div class="outline-text-3" id="text-orgeb30c7f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/QEBzvJCc7toelzpvP6YRPA">《称陆奇为“人生导师”，90 后创业者离开百度“漂流记”》</a> 2018 年 8 月，从百
 度离开不久，吕骋在洛杉矶好莱坞附近开始了新的创业项目 rct studio，致力
@@ -697,9 +697,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org4685d0c" class="outline-3">
-<h3 id="org4685d0c">2020-02-27</h3>
-<div class="outline-text-3" id="text-org4685d0c">
+<div id="outline-container-org0f91d7d" class="outline-3">
+<h3 id="org0f91d7d">2020-02-27</h3>
+<div class="outline-text-3" id="text-org0f91d7d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/q8ZRXoFBPCcrcq2Y4dLwwg">《隔离、疾病与权力》</a> 碰上未知的疾病，很多人心中第一个想法还是：这病会
 不会传染？快把得病的人关起来！对人类来说，隔离到底意味着什么？</li>
@@ -732,9 +732,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org0062d40" class="outline-3">
-<h3 id="org0062d40">2020-02-26</h3>
-<div class="outline-text-3" id="text-org0062d40">
+<div id="outline-container-orgab01f26" class="outline-3">
+<h3 id="orgab01f26">2020-02-26</h3>
+<div class="outline-text-3" id="text-orgab01f26">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/tmo7Xmduvb4WzRtGcr1Kig">《Google 是如何远程办公的？》</a> 作为以人性管理和多元办公著称的 Google，
 也是最早拥抱远程办公的大公司之一。Google 不仅允许部分员工，让员工在特
@@ -768,9 +768,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org625e1ec" class="outline-3">
-<h3 id="org625e1ec">2020-02-25</h3>
-<div class="outline-text-3" id="text-org625e1ec">
+<div id="outline-container-orga0db11a" class="outline-3">
+<h3 id="orga0db11a">2020-02-25</h3>
+<div class="outline-text-3" id="text-orga0db11a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/GScKaWmU_u4gfzNBMFSO8w">《许知远不会做生意？单向跟西西弗、茑屋书店差在哪？》</a> 今日，单向空间书
 店在官方微信号发起“续命”众筹，恳请粉丝们通过提前购买储值卡的方式给单向
@@ -805,9 +805,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org7a322a4" class="outline-3">
-<h3 id="org7a322a4">2020-02-24</h3>
-<div class="outline-text-3" id="text-org7a322a4">
+<div id="outline-container-org19b0c2b" class="outline-3">
+<h3 id="org19b0c2b">2020-02-24</h3>
+<div class="outline-text-3" id="text-org19b0c2b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Kzb02__dywWoPVC4S-VWDw">《我总结了一本营销手册：激活中国人的情绪，这四大变化正在发生&#x2026;》</a>
 疫情之下，没有什么特效药，个人和企业都要纯靠免疫力挺过来。如何提高自己
@@ -842,9 +842,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgca0e682" class="outline-3">
-<h3 id="orgca0e682">2020-02-21</h3>
-<div class="outline-text-3" id="text-orgca0e682">
+<div id="outline-container-org12e38ba" class="outline-3">
+<h3 id="org12e38ba">2020-02-21</h3>
+<div class="outline-text-3" id="text-org12e38ba">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/kPWmVW-zLICEHAwbkPHlEw">《从六大趋势看美国超级碗：折射时代文化与商业的万花筒》</a> 超级碗的文化影
 响力是毋庸置疑的，它仍然牵连着公众的脉搏。对于这样高水准的文化盛事，社
@@ -877,9 +877,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orga3589f9" class="outline-3">
-<h3 id="orga3589f9">2020-02-19</h3>
-<div class="outline-text-3" id="text-orga3589f9">
+<div id="outline-container-org3128e43" class="outline-3">
+<h3 id="org3128e43">2020-02-19</h3>
+<div class="outline-text-3" id="text-org3128e43">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/0LiBpKgGPwcigOSiat5Q_g">《疫情之下，各行业下个黄金期正在到来？》</a> 近日，第一太平戴维斯的一份报
 告指出：零售市场有望在 3 月底逐步回归常态，品牌年度焦点已转至夏季后的
@@ -914,9 +914,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orga3b219f" class="outline-3">
-<h3 id="orga3b219f">2020-02-18</h3>
-<div class="outline-text-3" id="text-orga3b219f">
+<div id="outline-container-org1b3161c" class="outline-3">
+<h3 id="org1b3161c">2020-02-18</h3>
+<div class="outline-text-3" id="text-org1b3161c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/8oP2qPhqdEvUN6amrEJZIA">《危险的现金流》</a> 对于创业者而言，现金流不仅是一个复杂的会计问题，更是
 一个企业经营的艰难选择题。疫情面前，所有人都在补一堂关于现金流的课。</li>
@@ -948,9 +948,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org155ba9f" class="outline-3">
-<h3 id="org155ba9f">2020-02-17</h3>
-<div class="outline-text-3" id="text-org155ba9f">
+<div id="outline-container-org9d66f10" class="outline-3">
+<h3 id="org9d66f10">2020-02-17</h3>
+<div class="outline-text-3" id="text-org9d66f10">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NCYr8Vm8Axc-G4NMxIMWYA">《2 亿中国人，宅家工作 14 天》</a> “谁家怎么有韩国人在讲话？”在跟 CEO 对齐
 年度 KPI 业绩目标的电话会议上，居然传来了播放韩剧的声音。主持人只好如
@@ -984,9 +984,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org718dde6" class="outline-3">
-<h3 id="org718dde6">2020-02-16</h3>
-<div class="outline-text-3" id="text-org718dde6">
+<div id="outline-container-org5cf363c" class="outline-3">
+<h3 id="org5cf363c">2020-02-16</h3>
+<div class="outline-text-3" id="text-org5cf363c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/DKwQkXjyp0Up77uGkJFPmg">《疫情之下，哪些行业正在逆势爆发？》</a> 非常时期、非常事件会压垮一些商业
 形态，但非常时期也是一个重塑人们消费观念与消费习惯的机会。</li>
@@ -1019,13 +1019,13 @@ to be continued..
 </div>
 </div>
 </div>
-<div id="outline-container-orgab8441c" class="outline-2">
-<h2 id="orgab8441c">一月</h2>
-<div class="outline-text-2" id="text-orgab8441c">
+<div id="outline-container-org4593029" class="outline-2">
+<h2 id="org4593029">一月</h2>
+<div class="outline-text-2" id="text-org4593029">
 </div>
-<div id="outline-container-org1b93604" class="outline-3">
-<h3 id="org1b93604">2020-01-16</h3>
-<div class="outline-text-3" id="text-org1b93604">
+<div id="outline-container-org2578dd4" class="outline-3">
+<h3 id="org2578dd4">2020-01-16</h3>
+<div class="outline-text-3" id="text-org2578dd4">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/haxNtd4luBc0BBcWCI4R0g">《独家：掌管百度战投三年后，马东敏把权力重新移交李彦宏》</a> 战投汇报线的
 变化意味着，李彦宏全面收拢兵权，马东敏退后掌管部分职能线，二人正在重新
@@ -1060,9 +1060,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgdf98463" class="outline-3">
-<h3 id="orgdf98463">2020-01-14</h3>
-<div class="outline-text-3" id="text-orgdf98463">
+<div id="outline-container-org381d7ff" class="outline-3">
+<h3 id="org381d7ff">2020-01-14</h3>
+<div class="outline-text-3" id="text-org381d7ff">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/DhvXAH4VcCCE3X3GACDQmA">《春节薅羊毛指南》</a> 今年你准备好蹲守谁家的红包，集哪家的卡？今年的“羊毛”哪
 家强？废话不多说，一起来看一下。</li>
@@ -1097,9 +1097,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org6f1240f" class="outline-3">
-<h3 id="org6f1240f">2020-01-13</h3>
-<div class="outline-text-3" id="text-org6f1240f">
+<div id="outline-container-org9f09f5c" class="outline-3">
+<h3 id="org9f09f5c">2020-01-13</h3>
+<div class="outline-text-3" id="text-org9f09f5c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/-6Sh3FhKypYq2O2ftfVxBA">《CES 无新事》</a> 主线其实非常清晰：不管产品如何更迭，底层的需求却鲜有改
 变。荒凉沙漠中的繁荣赌城，再次展现了多变的载体与永恒的内容需求之间碰撞
@@ -1134,9 +1134,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org16c2518" class="outline-3">
-<h3 id="org16c2518">2020-01-10</h3>
-<div class="outline-text-3" id="text-org16c2518">
+<div id="outline-container-orga80bde6" class="outline-3">
+<h3 id="orga80bde6">2020-01-10</h3>
+<div class="outline-text-3" id="text-orga80bde6">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/vps3nzX5BvAhNw7za_ma8w">《一晚 70 亿阅读量，单篇涨粉 17 万，GQ 打造爆款内容的幕后故事》</a> 为什么
 所有人都觉得有点焦虑，觉得可能公众号也许是夕阳产业了呢？是不是觉得过去
@@ -1171,9 +1171,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org2e2ab1b" class="outline-3">
-<h3 id="org2e2ab1b">2020-01-09</h3>
-<div class="outline-text-3" id="text-org2e2ab1b">
+<div id="outline-container-org97c4a6f" class="outline-3">
+<h3 id="org97c4a6f">2020-01-09</h3>
+<div class="outline-text-3" id="text-org97c4a6f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/sZkkQOPz834KcKY1aWWayw">《张小龙缺席，微信“未完成” 》</a> 没有了张小龙长达四小时的深夜即兴分享，今
 年的微信公开课 PRO 还有哪些看点？</li>
@@ -1206,9 +1206,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orga17d439" class="outline-3">
-<h3 id="orga17d439">2020-01-07</h3>
-<div class="outline-text-3" id="text-orga17d439">
+<div id="outline-container-org4c1a918" class="outline-3">
+<h3 id="org4c1a918">2020-01-07</h3>
+<div class="outline-text-3" id="text-org4c1a918">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/6_KtRKTNzVi87EpL8vp6aQ">《B 站选出百大 up 主，他们才是大宝藏》</a> 阿婆主在做什么？他们在养竹鼠、
 在探店、在开箱测评，他们在放大日常生活，有时候即使你不知道他们在做什么，
@@ -1237,9 +1237,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orge60fd47" class="outline-3">
-<h3 id="orge60fd47">2020-01-06</h3>
-<div class="outline-text-3" id="text-orge60fd47">
+<div id="outline-container-org70e1142" class="outline-3">
+<h3 id="org70e1142">2020-01-06</h3>
+<div class="outline-text-3" id="text-org70e1142">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/2tInJqxrNvQz8UYuu4aMyg">《重磅发布！2020 内容产业年度报告》</a> 这份报告围绕“科技赋能、内容破界”的
 大会主题，从内容受众破界、内容创作者破界、内容职能破界三个部分展开，以
@@ -1275,9 +1275,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgcafb86e" class="outline-3">
-<h3 id="orgcafb86e">2020-01-02</h3>
-<div class="outline-text-3" id="text-orgcafb86e">
+<div id="outline-container-org03110a4" class="outline-3">
+<h3 id="org03110a4">2020-01-02</h3>
+<div class="outline-text-3" id="text-org03110a4">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/lpsXyAymzd3fk5pMjBizEA">《罗振宇 2019-2020“时间的朋友”跨年演讲未删减全文》</a> 今年的演讲主题是——
 基本盘。也就是不去看那些一惊一乍的标题，人云亦云的情绪，而是转过头，看
@@ -1322,6 +1322,24 @@ to be continued..
       <guid>http://lijigang.github.io/blog/2020/01/02/汇总-优质文章每日精华选(2020-年)/</guid>
     </item>
     <item>
+      <title>读书: 游戏化实战</title>
+      <link>http://lijigang.github.io/blog/2018/10/10/读书-游戏化实战/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>读书: 游戏化实战</h1>
+            <img
+  src="/assets/blog/2018/10/10/读书-游戏化实战/gamefication.png"
+  width="70%"
+/>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2020-04-09</pubDate>
+      <guid>http://lijigang.github.io/blog/2018/10/10/读书-游戏化实战/</guid>
+    </item>
+    <item>
       <title>效率: 手机如何高效做事项管理</title>
       <link>http://lijigang.github.io/blog/2020/03/05/效率-手机如何高效做事项管理/</link>
       <description><![CDATA[<section id="content" role="main">
@@ -1329,9 +1347,9 @@ to be continued..
         <div class="col-md-2"></div>
             <h1>效率: 手机如何高效做事项管理</h1>
             
-<div id="outline-container-org38e9076" class="outline-2">
-<h2 id="org38e9076">目标: 在手机端实现高效管理事项</h2>
-<div class="outline-text-2" id="text-org38e9076">
+<div id="outline-container-org446f41f" class="outline-2">
+<h2 id="org446f41f">目标: 在手机端实现高效管理事项</h2>
+<div class="outline-text-2" id="text-org446f41f">
 <p>
 具体来说, 需求包括两项:
 </p>
@@ -1347,9 +1365,9 @@ to be continued..
 </div>
 </div>
 
-<div id="outline-container-orgef0c128" class="outline-2">
-<h2 id="orgef0c128">解决: 华为 <code>字母手势</code></h2>
-<div class="outline-text-2" id="text-orgef0c128">
+<div id="outline-container-org6b98bf8" class="outline-2">
+<h2 id="org6b98bf8">解决: 华为 <code>字母手势</code></h2>
+<div class="outline-text-2" id="text-org6b98bf8">
 <ol class="org-ol">
 <li><p>
 极高效的输入事项
@@ -1381,9 +1399,9 @@ to be continued..
 </div>
 </div>
 
-<div id="outline-container-org0682d91" class="outline-2">
-<h2 id="org0682d91">效果</h2>
-<div class="outline-text-2" id="text-org0682d91">
+<div id="outline-container-orgaa00b4e" class="outline-2">
+<h2 id="orgaa00b4e">效果</h2>
+<div class="outline-text-2" id="text-orgaa00b4e">
 <p>
 现在已经可以在任意软件界面中, 指关节画 C 唤醒日历, 添加事项和时间.
 </p>
@@ -1426,9 +1444,9 @@ to be continued..
 这种实践方法的精髓在于, <code>input 很简单, filter 很重要</code>.
 </p>
 
-<div id="outline-container-org70546de" class="outline-2">
-<h2 id="org70546de">邮件</h2>
-<div class="outline-text-2" id="text-org70546de">
+<div id="outline-container-orgc7c4a58" class="outline-2">
+<h2 id="orgc7c4a58">邮件</h2>
+<div class="outline-text-2" id="text-orgc7c4a58">
 <blockquote>
 <p>
 邮件输入原则: 挡住所有不想接收的发件人(Block or Unsubscribe)
@@ -1458,9 +1476,9 @@ to be continued..
 </div>
 </div>
 
-<div id="outline-container-orgab2f250" class="outline-2">
-<h2 id="orgab2f250">IM</h2>
-<div class="outline-text-2" id="text-orgab2f250">
+<div id="outline-container-org89d822c" class="outline-2">
+<h2 id="org89d822c">IM</h2>
+<div class="outline-text-2" id="text-org89d822c">
 <blockquote>
 <p>
 IM 输入原则一: 关闭所有群通知, 仅有 @你 消息可提醒.
@@ -1484,9 +1502,9 @@ IM 消息处理原则: 待做事项的消息置顶, 完成任务后, 引用消�
 </p>
 </div>
 </div>
-<div id="outline-container-orgaa8452c" class="outline-2">
-<h2 id="orgaa8452c">电脑文件</h2>
-<div class="outline-text-2" id="text-orgaa8452c">
+<div id="outline-container-org48cdbb7" class="outline-2">
+<h2 id="org48cdbb7">电脑文件</h2>
+<div class="outline-text-2" id="text-org48cdbb7">
 <blockquote>
 <p>
 文件输入原则: 将所有能设置的软件都设置下, 文件下载保存默认文件夹为 <code>下载</code> 文件夹.
@@ -1518,9 +1536,9 @@ IM 消息处理原则: 待做事项的消息置顶, 完成任务后, 引用消�
 </div>
 </div>
 
-<div id="outline-container-org41bde8a" class="outline-2">
-<h2 id="org41bde8a">RSS</h2>
-<div class="outline-text-2" id="text-org41bde8a">
+<div id="outline-container-orge97cca7" class="outline-2">
+<h2 id="orge97cca7">RSS</h2>
+<div class="outline-text-2" id="text-orge97cca7">
 <p>
 经过一番尝试, 终于找到了解决多个信息源消息汇总阅读的解决方案 <a href="https://sspai.com/post/55691">快知</a>.
 </p>
@@ -1639,13 +1657,13 @@ IM 消息处理原则: 待做事项的消息置顶, 完成任务后, 引用消�
 各行业的商业模型会有些差异, 对应到这个公式中的指标会有细拆或组合的情况. 但本质上, 都是这四个关键因素的乘积.
 </p>
 
-<div id="outline-container-org1f815b0" class="outline-2">
-<h2 id="org1f815b0">流量</h2>
-<div class="outline-text-2" id="text-org1f815b0">
+<div id="outline-container-org0070828" class="outline-2">
+<h2 id="org0070828">流量</h2>
+<div class="outline-text-2" id="text-org0070828">
 </div>
-<div id="outline-container-org84d01d8" class="outline-3">
-<h3 id="org84d01d8">流量洼地 = 低获客成本</h3>
-<div class="outline-text-3" id="text-org84d01d8">
+<div id="outline-container-orge080d9f" class="outline-3">
+<h3 id="orge080d9f">流量洼地 = 低获客成本</h3>
+<div class="outline-text-3" id="text-orge080d9f">
 <p>
 在商人眼中，对于流量就是一句：如何以 <code>尽可能低的价格</code> 获得 <code>尽可能多的流量</code> 。
 </p>
@@ -1675,9 +1693,9 @@ IM 消息处理原则: 待做事项的消息置顶, 完成任务后, 引用消�
 </div>
 </div>
 
-<div id="outline-container-org8d54b7f" class="outline-3">
-<h3 id="org8d54b7f">引流品 = 抓手</h3>
-<div class="outline-text-3" id="text-org8d54b7f">
+<div id="outline-container-orgd043ffa" class="outline-3">
+<h3 id="orgd043ffa">引流品 = 抓手</h3>
+<div class="outline-text-3" id="text-orgd043ffa">
 <p>
 除了花钱买流量以外，还可以通过利润换流量的玩法来创造流量。
 </p>
@@ -1702,9 +1720,9 @@ IM 消息处理原则: 待做事项的消息置顶, 完成任务后, 引用消�
 </div>
 </div>
 
-<div id="outline-container-org97d521b" class="outline-3">
-<h3 id="org97d521b">关联流量 = 精准流量</h3>
-<div class="outline-text-3" id="text-org97d521b">
+<div id="outline-container-org1b18f0e" class="outline-3">
+<h3 id="org1b18f0e">关联流量 = 精准流量</h3>
+<div class="outline-text-3" id="text-org1b18f0e">
 <p>
 想获得流量，要先分析你的用户群体都在哪，然后去他们经常在的地方吸引他们的注意力，把他们拉到你的地方去消费。
 </p>
@@ -1720,17 +1738,17 @@ IM 消息处理原则: 待做事项的消息置顶, 完成任务后, 引用消�
 </div>
 </div>
 
-<div id="outline-container-orgc5b2da4" class="outline-2">
-<h2 id="orgc5b2da4">转化率</h2>
-<div class="outline-text-2" id="text-orgc5b2da4">
+<div id="outline-container-org77f8680" class="outline-2">
+<h2 id="org77f8680">转化率</h2>
+<div class="outline-text-2" id="text-org77f8680">
 <p>
 你通过购买流量或者创造流量的方式，吸引了大量目标用户进来。下一步就是要解决如何让他们掏腰包购买你产品的问题了。
 </p>
 </div>
 
-<div id="outline-container-orgf8c61b6" class="outline-3">
-<h3 id="orgf8c61b6">展示设计</h3>
-<div class="outline-text-3" id="text-orgf8c61b6">
+<div id="outline-container-org05934ea" class="outline-3">
+<h3 id="org05934ea">展示设计</h3>
+<div class="outline-text-3" id="text-org05934ea">
 <p>
 除了产品本身的包装设计以外， 还有一个 <code>动线设计</code> 的基本功需要修炼。
 </p>
@@ -1756,9 +1774,9 @@ IM 消息处理原则: 待做事项的消息置顶, 完成任务后, 引用消�
 </div>
 </div>
 
-<div id="outline-container-orgedd42e5" class="outline-3">
-<h3 id="orgedd42e5">决策时间</h3>
-<div class="outline-text-3" id="text-orgedd42e5">
+<div id="outline-container-org78f2649" class="outline-3">
+<h3 id="org78f2649">决策时间</h3>
+<div class="outline-text-3" id="text-org78f2649">
 <p>
 消费者在线下购买一个产品，平均决策时间是 13 秒； 线上是 19 秒。
 </p>
@@ -1813,9 +1831,9 @@ IM 消息处理原则: 待做事项的消息置顶, 完成任务后, 引用消�
 </div>
 </div>
 
-<div id="outline-container-org760cb5f" class="outline-2">
-<h2 id="org760cb5f">客单价</h2>
-<div class="outline-text-2" id="text-org760cb5f">
+<div id="outline-container-org83b2a9d" class="outline-2">
+<h2 id="org83b2a9d">客单价</h2>
+<div class="outline-text-2" id="text-org83b2a9d">
 <p>
 用户被你吸引到店里，也确实下单了，如何提升客单价？
 </p>
@@ -1846,13 +1864,13 @@ IM 消息处理原则: 待做事项的消息置顶, 完成任务后, 引用消�
 </div>
 </div>
 
-<div id="outline-container-org72e0cb4" class="outline-2">
-<h2 id="org72e0cb4">复购率</h2>
-<div class="outline-text-2" id="text-org72e0cb4">
+<div id="outline-container-org9d985bf" class="outline-2">
+<h2 id="org9d985bf">复购率</h2>
+<div class="outline-text-2" id="text-org9d985bf">
 </div>
-<div id="outline-container-org7adde65" class="outline-3">
-<h3 id="org7adde65">会员制</h3>
-<div class="outline-text-3" id="text-org7adde65">
+<div id="outline-container-org3a9113b" class="outline-3">
+<h3 id="org3a9113b">会员制</h3>
+<div class="outline-text-3" id="text-org3a9113b">
 <p>
 用户永远想要更优惠的价格， 商家是想更多的流量，可以接受薄利多销。
 </p>
@@ -1974,18 +1992,18 @@ IM 消息处理原则: 待做事项的消息置顶, 完成任务后, 引用消�
             <p>
 之前看了 <a href="https://refactoringui.com/previews/building-your-color-palette/">一篇文章</a> , 对如何配色讲解的非常好. 它的方法是通过三步来配置一套属于自己的颜色:
 </p>
-<div id="outline-container-org085eed2" class="outline-2">
-<h2 id="org085eed2">灰色</h2>
-<div class="outline-text-2" id="text-org085eed2">
+<div id="outline-container-orgda957ca" class="outline-2">
+<h2 id="orgda957ca">灰色</h2>
+<div class="outline-text-2" id="text-orgda957ca">
 <p>
 Text, backgrounds, panels, form controls — almost everything in an interface is grey.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org12500c8" class="outline-2">
-<h2 id="org12500c8">主色调</h2>
-<div class="outline-text-2" id="text-org12500c8">
+<div id="outline-container-org4aad0fa" class="outline-2">
+<h2 id="org4aad0fa">主色调</h2>
+<div class="outline-text-2" id="text-org4aad0fa">
 <p>
 Most sites need one, maybe two colors that are used for primary actions,
 emphasizing navigation elements, etc. These are the colors that
@@ -1998,9 +2016,9 @@ Facebook as "blue", even though it's really mostly grey.
 </p>
 </div>
 </div>
-<div id="outline-container-org782353b" class="outline-2">
-<h2 id="org782353b">强调色</h2>
-<div class="outline-text-2" id="text-org782353b">
+<div id="outline-container-org64251a6" class="outline-2">
+<h2 id="org64251a6">强调色</h2>
+<div class="outline-text-2" id="text-org64251a6">
 <p>
 On top of primary colors, every site needs a few accent colors for
 communicating different things to the user.
@@ -2052,8 +2070,8 @@ Spacemacs = Vim + Emacs
 这篇文章，就记录一下自己是怎么从零开始配置一个符合自己使用习惯的 Spacemacs。
 </p>
 
-<div id="outline-container-org51a422b" class="outline-2">
-<h2 id="org51a422b"><span class="section-number-2">1</span> 安装</h2>
+<div id="outline-container-org147c9a1" class="outline-2">
+<h2 id="org147c9a1"><span class="section-number-2">1</span> 安装</h2>
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
 <li>安装 <a href="https://emacsformacosx.com/">Emacs</a></li>
@@ -2073,8 +2091,8 @@ clone 完成后，会多两个东西，
 </div>
 </div>
 
-<div id="outline-container-org384604c" class="outline-2">
-<h2 id="org384604c"><span class="section-number-2">2</span> 配置</h2>
+<div id="outline-container-orgd7fb709" class="outline-2">
+<h2 id="orgd7fb709"><span class="section-number-2">2</span> 配置</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 安装完成后，对于常规的配置，可以放置到 <code>~/.spacemacs</code> 文件中，就像 Vim 和 Zsh 一样。
@@ -2086,8 +2104,8 @@ clone 完成后，会多两个东西，
 </p>
 </div>
 
-<div id="outline-container-org8d9409f" class="outline-3">
-<h3 id="org8d9409f"><span class="section-number-3">2.1</span> .spacemacs</h3>
+<div id="outline-container-org1833027" class="outline-3">
+<h3 id="org1833027"><span class="section-number-3">2.1</span> .spacemacs</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li><p>
@@ -2246,8 +2264,8 @@ you should place your code here."
 </div>
 </div>
 
-<div id="outline-container-org5fcd1d3" class="outline-3">
-<h3 id="org5fcd1d3"><span class="section-number-3">2.2</span> private layer</h3>
+<div id="outline-container-org4155e88" class="outline-3">
+<h3 id="org4155e88"><span class="section-number-3">2.2</span> private layer</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 首先把自己 layer 中想要的 packages 给列好, 并设置相应的启动配置项:
@@ -2460,1317 +2478,6 @@ you should place your code here."
 ]]></description>
       <pubDate>2020-03-06</pubDate>
       <guid>http://lijigang.github.io/blog/2018/06/14/emacs-从零开始配置-spacemacs/</guid>
-    </item>
-    <item>
-      <title>Emacs: 用一个 Org 文件管理所有配置</title>
-      <link>http://lijigang.github.io/blog/2019/04/14/emacs-用一个-org-文件管理所有配置/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>Emacs: 用一个 Org 文件管理所有配置</h1>
-            <div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orgfa76b2b">Spacemacs</a>
-<ul>
-<li><a href="#org90fd337">小修</a></li>
-<li><a href="#org24c36ae">大改</a>
-<ul>
-<li><a href="#org450f143">packages.el</a></li>
-<li><a href="#orgc005256">funcs.el</a></li>
-<li><a href="#org2da7138">config.el</a></li>
-<li><a href="#org97058e5">keybindings.el</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#org2fc1542">zsh</a>
-<ul>
-<li><a href="#org8d73144">安装 oh-my-shell</a></li>
-<li><a href="#orgf650a00">备份现有的配置文件 ~/.zshrc</a></li>
-<li><a href="#org35ccf98">创建自己的配置文件</a></li>
-<li><a href="#org4c8e9a5">将 zsh 设置为默认 shell</a></li>
-</ul>
-</li>
-<li><a href="#orgb8b1e4b">iTerm</a></li>
-</ul>
-</div>
-</div>
-<p>
-<a href="https://github.com/lujun9972/emacs-document/blob/master/org-mode/%E6%95%99%E4%BD%A0%E7%94%A8Org-mode%E7%AE%A1%E7%90%86dotfiles.org">Darksun</a> 在 <a href="https://github.com/lujun9972/emacs-document/blob/master/org-mode/%E6%95%99%E4%BD%A0%E7%94%A8Org-mode%E7%AE%A1%E7%90%86dotfiles.org">这篇文章</a> 里介绍了如何通过一个 org file 管理自己的各种配置文件.
-思路简单来说, 就是通过 tangle org 文件的代码块, 将其插入座到它们应该在的
-地方. 目前我主要使用的还是 Spacemacs 居多, 就试着在这篇文章中将其配置放到
-一个 org file 中.
-</p>
-
-<div id="outline-container-orgfa76b2b" class="outline-2">
-<h2 id="orgfa76b2b">Spacemacs</h2>
-<div class="outline-text-2" id="text-orgfa76b2b">
-<p>
-<a href="https://github.com/syl20bnr/spacemacs">Spacemacs</a> 就是 Emacs 的一套配置。它对 evil 的支持，它的文档完善程度，极大的
-减少了 Emacs 的使用门槛, 让你可以将更多精力花在如何使用 Emacs/Org mode 上面.
-</p>
-
-<p>
-首先确保你电脑上已经安装了 Emacs, 然后可以通过下面的命令将 Spacemacs 默
-认配置下载到本地.
-</p>
-
-<div class="org-src-container">
-<pre class="src src-shell">mv ~/.emacs.d ~/.emacs.d.bak
-git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
-</pre>
-</div>
-
-<p>
-Spacemacs 有两种配置方法, 一种是通过 <code>~/.spacemacs</code> 文件, 将所有配置都在其
-中. 另一种是可以通过 <code>.spacemaacs.d</code> 目录中的 <code>~/init.el</code> 来配置. 我个人采用
-的是第二种(需确保先删除 ~/.spacemacs 文件).
-</p>
-
-<p>
-然后就可以开始你的个性化定制了, 这里分为两种定制, 一种是 <code>小修</code> 你通过修改
-Spacemacs 变量配置来定制, 另一种是 <code>大改</code> 你通过 Spacemacs 的 layer 机制,
-定制自己的使用场景.
-</p>
-</div>
-
-<div id="outline-container-org90fd337" class="outline-3">
-<h3 id="org90fd337">小修</h3>
-<div class="outline-text-3" id="text-org90fd337">
-<p>
-Spacemacs 默认生成的 ~/.spacemacs 文件中有四个函数:
-</p>
-
-<ol class="org-ol">
-<li><p>
-dotspacemacs/layers       :: 和 layer 相关的配置在这里, 在这里改一些变量值就行
-</p>
-
-<div class="org-src-container">
-<pre class="src src-lisp">(defun dotspacemacs/layers ()
-  "Configuration Layers declaration.
-You should not put any user code in this function besides modifying the
-variable values."
-  (setq-default
-   ;; Base distribution to use. This is a layer contained in the directory
-   ;; `+distribution'. For now available distributions are `spacemacs-base'
-   ;; or `spacemacs'. (default 'spacemacs)
-   dotspacemacs-distribution 'spacemacs
-   ;; Lazy installation of layers (i.e. layers are installed only when a file
-   ;; with a supported type is opened). Possible values are `all', `unused'
-   ;; and `nil'. `unused' will lazy install only unused layers (i.e. layers
-   ;; not listed in variable `dotspacemacs-configuration-layers'), `all' will
-   ;; lazy install any layer that support lazy installation even the layers
-   ;; listed in `dotspacemacs-configuration-layers'. `nil' disable the lazy
-   ;; installation feature and you have to explicitly list a layer in the
-   ;; variable `dotspacemacs-configuration-layers' to install it.
-   ;; (default 'unused)
-   dotspacemacs-enable-lazy-installation 'unused
-   ;; If non-nil then Spacemacs will ask for confirmation before installing
-   ;; a layer lazily. (default t)
-   dotspacemacs-ask-for-lazy-installation t
-   ;; If non-nil layers with lazy install support are lazy installed.
-   ;; List of additional paths where to look for configuration layers.
-   ;; Paths must have a trailing slash (i.e. `~/.mycontribs/')
-   dotspacemacs-configuration-layer-path '()
-   ;; List of configuration layers to load.
-   dotspacemacs-configuration-layers
-   '(
-     yaml
-     python
-     html
-     helm
-     (auto-completion :variables auto-completion-enable-sort-by-usage t
-                      :disabled-for org markdown)
-     better-defaults
-     emacs-lisp
-     osx
-     git
-     lijigang
-     (org :variables
-          org-enable-reveal-js-support t
-          org-download-screenshot-method "screencapture"
-          org-download-image-dir "../images"
-          org-download-heading-lvl nil
-          org-download-timestamp "")
-     )
-   ;; List of additional packages that will be installed without being
-   ;; wrapped in a layer. If you need some configuration for these
-   ;; packages, then consider creating a layer. You can also put the
-   ;; configuration in `dotspacemacs/user-config'.
-   dotspacemacs-additional-packages '()
-   ;; A list of packages that cannot be updated.
-   dotspacemacs-frozen-packages '()
-   ;; A list of packages that will not be installed and loaded.
-   dotspacemacs-excluded-packages '(org-projectile)
-   ;; Defines the behaviour of Spacemacs when installing packages.
-   ;; Possible values are `used-only', `used-but-keep-unused' and `all'.
-   ;; `used-only' installs only explicitly used packages and uninstall any
-   ;; unused packages as well as their unused dependencies.
-   ;; `used-but-keep-unused' installs only the used packages but won't uninstall
-   ;; them if they become unused. `all' installs *all* packages supported by
-   ;; Spacemacs and never uninstall them. (default is `used-only')
-   dotspacemacs-install-packages 'used-only))
-
-</pre>
-</div></li>
-<li><p>
-dotspacemacs/init         :: Spacemacs 初始化的时候调用这里, 同样只在这里改一些变量值就行
-</p>
-
-<div class="org-src-container">
-<pre class="src src-lisp">(defun dotspacemacs/init ()
-  "Initialization function.
-This function is called at the very startup of Spacemacs initialization
-before layers configuration.
-You should not put any user code in there besides modifying the variable
-values."
-  (setq-default
-   dotspacemacs-elpa-https t
-
-   ;; Maximum allowed time in seconds to contact an ELPA repository.
-   dotspacemacs-elpa-timeout 5
-
-   dotspacemacs-check-for-update nil
-
-   dotspacemacs-elpa-subdirectory nil
-
-   ;; One of `vim', `emacs' or `hybrid'.
-   dotspacemacs-editing-style 'vim
-
-   ;; If non nil output loading progress in `*Messages*' buffer. (default nil)
-   dotspacemacs-verbose-loading nil
-
-   ;; 在这里修改你的启动显示图片
-   dotspacemacs-startup-banner "~/Library/Mobile Documents/com~apple~CloudDocs/1-参考/8-Personal/head.png"
-
-   ;; List of items to show in startup buffer or an association list of
-   ;; the form `(list-type . list-size)`. If nil then it is disabled.
-   ;; `recents' `bookmarks' `projects' `agenda' `todos'."
-   ;; List sizes may be nil, in which case
-   ;; `spacemacs-buffer-startup-lists-length' takes effect.
-   dotspacemacs-startup-lists '((recents . 5)
-                                (projects . 3))
-
-   ;; True if the home buffer should respond to resize events.
-   dotspacemacs-startup-buffer-responsive t
-
-   ;; Default major mode of the scratch buffer (default `text-mode')
-   dotspacemacs-scratch-mode 'emacs-lisp-mode
-
-   ;; List of themes, the first of the list is loaded when spacemacs starts.
-   ;; 在这里设置你想的主题配色
-   dotspacemacs-themes '(
-                         material
-                         solarized-light
-                         monokai
-                         spacemacs-light
-                         zenburn
-                         dracula
-                         )
-
-   ;; If non nil the cursor color matches the state color in GUI Emacs.
-   dotspacemacs-colorize-cursor-according-to-state t
-
-   ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
-   ;; quickly tweak the mode-line size to make separators look not too crappy.
-   dotspacemacs-default-font '("Source Code Pro"
-                               :size 15
-                               :weight normal
-                               :width normal
-                               :powerline-scale 1.1)
-
-   ;; The leader key
-   dotspacemacs-leader-key "SPC"
-
-   ;; The key used for Emacs commands (M-x) (after pressing on the leader key).
-   dotspacemacs-emacs-command-key "SPC"
-
-   ;; The key used for Vim Ex commands (default ":")
-   dotspacemacs-ex-command-key ":"
-
-   ;; The leader key accessible in `emacs state' and `insert state'
-   dotspacemacs-emacs-leader-key "M-m"
-
-   ;; Major mode leader key is a shortcut key which is the equivalent of
-   ;; pressing `&lt;leader&gt; m`. Set it to `nil` to disable it. (default ",")
-   dotspacemacs-major-mode-leader-key ","
-
-   ;; Major mode leader key accessible in `emacs state' and `insert state'.
-   ;; (default "C-M-m")
-   dotspacemacs-major-mode-emacs-leader-key "C-M-m"
-
-   ;; These variables control whether separate commands are bound in the GUI to
-   ;; the key pairs C-i, TAB and C-m, RET.
-   ;; Setting it to a non-nil value, allows for separate commands under &lt;C-i&gt;
-   ;; and TAB or &lt;C-m&gt; and RET.
-   ;; In the terminal, these pairs are generally indistinguishable, so this only
-   ;; works in the GUI. (default nil)
-   dotspacemacs-distinguish-gui-tab nil
-   ;; If non nil `Y' is remapped to `y$' in Evil states. (default nil)
-   dotspacemacs-remap-Y-to-y$ nil
-   ;; If non-nil, the shift mappings `&lt;' and `&gt;' retain visual state if used
-   ;; there. (default t)
-   dotspacemacs-retain-visual-state-on-shift t
-   ;; If non-nil, J and K move lines up and down when in visual mode.
-   ;; (default nil)
-   dotspacemacs-visual-line-move-text nil
-   ;; If non nil, inverse the meaning of `g' in `:substitute' Evil ex-command.
-   ;; (default nil)
-   dotspacemacs-ex-substitute-global nil
-   ;; Name of the default layout (default "Default")
-   dotspacemacs-default-layout-name "Default"
-   ;; If non nil the default layout name is displayed in the mode-line.
-   ;; (default nil)
-   dotspacemacs-display-default-layout nil
-   ;; If non nil then the last auto saved layouts are resume automatically upon
-   ;; start. (default nil)
-   dotspacemacs-auto-resume-layouts nil
-   ;; Size (in MB) above which spacemacs will prompt to open the large file
-   ;; literally to avoid performance issues. Opening a file literally means that
-   ;; no major mode or minor modes are active. (default is 1)
-   dotspacemacs-large-file-size 1
-   ;; Location where to auto-save files. Possible values are `original' to
-   ;; auto-save the file in-place, `cache' to auto-save the file to another
-   ;; file stored in the cache directory and `nil' to disable auto-saving.
-   ;; (default 'cache)
-   dotspacemacs-auto-save-file-location 'cache
-   ;; Maximum number of rollback slots to keep in the cache. (default 5)
-   dotspacemacs-max-rollback-slots 5
-   ;; If non nil, `helm' will try to minimize the space it uses. (default nil)
-   dotspacemacs-helm-resize nil
-   ;; if non nil, the helm header is hidden when there is only one source.
-   ;; (default nil)
-   dotspacemacs-helm-no-header nil
-   ;; define the position to display `helm', options are `bottom', `top',
-   ;; `left', or `right'. (default 'bottom)
-   dotspacemacs-helm-position 'bottom
-   ;; Controls fuzzy matching in helm. If set to `always', force fuzzy matching
-   ;; in all non-asynchronous sources. If set to `source', preserve individual
-   ;; source settings. Else, disable fuzzy matching in all sources.
-   ;; (default 'always)
-   dotspacemacs-helm-use-fuzzy 'always
-   ;; If non nil the paste micro-state is enabled. When enabled pressing `p`
-   ;; several times cycle between the kill ring content. (default nil)
-   dotspacemacs-enable-paste-transient-state nil
-   ;; Which-key delay in seconds. The which-key buffer is the popup listing
-   ;; the commands bound to the current keystroke sequence. (default 0.4)
-   dotspacemacs-which-key-delay 0.4
-   ;; Which-key frame position. Possible values are `right', `bottom' and
-   ;; `right-then-bottom'. right-then-bottom tries to display the frame to the
-   ;; right; if there is insufficient space it displays it at the bottom.
-   ;; (default 'bottom)
-   dotspacemacs-which-key-position 'bottom
-   ;; If non nil a progress bar is displayed when spacemacs is loading. This
-   ;; may increase the boot time on some systems and emacs builds, set it to
-   ;; nil to boost the loading time. (default t)
-   dotspacemacs-loading-progress-bar t
-   ;; If non nil the frame is fullscreen when Emacs starts up. (default nil)
-   ;; (Emacs 24.4+ only)
-   dotspacemacs-fullscreen-at-startup t
-   ;; If non nil `spacemacs/toggle-fullscreen' will not use native fullscreen.
-   ;; Use to disable fullscreen animations in OSX. (default nil)
-   dotspacemacs-fullscreen-use-non-native nil
-   ;; If non nil the frame is maximized when Emacs starts up.
-   ;; Takes effect only if `dotspacemacs-fullscreen-at-startup' is nil.
-   ;; (default nil) (Emacs 24.4+ only)
-   dotspacemacs-maximized-at-startup nil
-   ;; A value from the range (0..100), in increasing opacity, which describes
-   ;; the transparency level of a frame when it's active or selected.
-   ;; Transparency can be toggled through `toggle-transparency'. (default 90)
-   dotspacemacs-active-transparency 90
-   ;; A value from the range (0..100), in increasing opacity, which describes
-   ;; the transparency level of a frame when it's inactive or deselected.
-   ;; Transparency can be toggled through `toggle-transparency'. (default 90)
-   dotspacemacs-inactive-transparency 90
-   ;; If non nil show the titles of transient states. (default t)
-   dotspacemacs-show-transient-state-title t
-   ;; If non nil show the color guide hint for transient state keys. (default t)
-   dotspacemacs-show-transient-state-color-guide t
-   ;; If non nil unicode symbols are displayed in the mode line. (default t)
-   dotspacemacs-mode-line-unicode-symbols t
-   ;; If non nil smooth scrolling (native-scrolling) is enabled. Smooth
-   ;; scrolling overrides the default behavior of Emacs which recenters point
-   ;; when it reaches the top or bottom of the screen. (default t)
-   dotspacemacs-smooth-scrolling t
-   ;; Control line numbers activation.
-   ;; If set to `t' or `relative' line numbers are turned on in all `prog-mode' and
-   ;; `text-mode' derivatives. If set to `relative', line numbers are relative.
-   ;; This variable can also be set to a property list for finer control:
-   ;; '(:relative nil
-   ;;   :disabled-for-modes dired-mode
-   ;;                       doc-view-mode
-   ;;                       markdown-mode
-   ;;                       org-mode
-   ;;                       pdf-view-mode
-   ;;                       text-mode
-   ;;   :size-limit-kb 1000)
-   ;; (default nil)
-   dotspacemacs-line-numbers nil
-   ;; Code folding method. Possible values are `evil' and `origami'.
-   ;; (default 'evil)
-   dotspacemacs-folding-method 'evil
-   ;; If non-nil smartparens-strict-mode will be enabled in programming modes.
-   ;; (default nil)
-   dotspacemacs-smartparens-strict-mode nil
-   ;; If non-nil pressing the closing parenthesis `)' key in insert mode passes
-   ;; over any automatically added closing parenthesis, bracket, quote, etc…
-   ;; This can be temporary disabled by pressing `C-q' before `)'. (default nil)
-   dotspacemacs-smart-closing-parenthesis nil
-   ;; Select a scope to highlight delimiters. Possible values are `any',
-   ;; `current', `all' or `nil'. Default is `all' (highlight any scope and
-   ;; emphasis the current one). (default 'all)
-   dotspacemacs-highlight-delimiters 'all
-   ;; If non nil, advise quit functions to keep server open when quitting.
-   ;; (default nil)
-   dotspacemacs-persistent-server nil
-   ;; List of search tool executable names. Spacemacs uses the first installed
-   ;; tool of the list. Supported tools are `ag', `pt', `ack' and `grep'.
-   ;; (default '("ag" "pt" "ack" "grep"))
-   dotspacemacs-search-tools '("ag" "pt" "ack" "grep")
-   ;; The default package repository used if no explicit repository has been
-   ;; specified with an installed package.
-   ;; Not used for now. (default nil)
-   dotspacemacs-default-package-repository nil
-   ;; Delete whitespace while saving buffer. Possible values are `all'
-   ;; to aggressively delete empty line and long sequences of whitespace,
-   ;; `trailing' to delete only the whitespace at end of lines, `changed'to
-   ;; delete only whitespace for changed lines or `nil' to disable cleanup.
-   ;; (default nil)
-   dotspacemacs-whitespace-cleanup 'trailing
-   ))
-
-</pre>
-</div></li>
-<li><p>
-dotspacemacs/user-init    :: 你自己的配置可以放这里, 在各种 package 装载之前执行
-</p>
-
-<div class="org-src-container">
-<pre class="src src-lisp">(defun dotspacemacs/user-init ()
-  "Initialization function for user code.
-It is called immediately after `dotspacemacs/init', before layer configuration
-executes.
- This function is mostly useful for variables that need to be set
-before packages are loaded. If you are unsure, you should try in setting them in
-`dotspacemacs/user-config' first."
-
-  ;; 默认源太慢了, 建议使用子龙山人的国内镜像源
-  (setq configuration-layer--elpa-archives
-        '(("melpai-cn" . "http://elpa.zilongshanren.com/melpa/")
-          ("org-cn"   . "http://elpa.zilongshanren.com/org/")
-          ("gnu-cn" . "http://elpa.zilongshanren.com/gnu/")))
-
-  ;; 指定自己的 layer 路径
-  (setq dotspacemacs-configuration-layer-path "~/.spacemacs.d/layers/")
-
-  ;; 新版插入 source code 快捷键需要这个
-  (require 'org-tempo)
-
-  ;; https://orgmode.org/manual/Installation.html
-  ;; 解决 spacemacs 从 elpa 加载 org 和 emacs 自带 org 版本不一致的冲突
-  ;; 可以从源下载最新版本的 Org，并指定该版本的路径
-  ;; $ cd ~/src/
-  ;; $ git clone https://code.orgmode.org/bzg/org-mode.git
-  ;; $ cd org-mode/
-  ;; $ make autoloads
-  (add-to-list 'load-path "~/Library/Mobile Documents/com~apple~CloudDocs/org/org-mode/lisp")
-
-
-  ;; https://github.com/manateelazycat/
-  ;; 大佬不喜欢 melpa, 插件需要保存到本地, 单独为大佬的插件设置一下存放地址
-  (add-to-list 'load-path "~/Library/Mobile Documents/com~apple~CloudDocs/org/ljg-packages")
-
-  (require 'insert-translated-name)
-  )
-
-
-</pre>
-</div></li>
-<li><p>
-dotspacemacs/user-config  :: 你大多数的配置应该放在这里
-</p>
-
-<div class="org-src-container">
-<pre class="src src-lisp">(defun dotspacemacs/user-config ()
-  "Configuration function for user code.
-This function is called at the very end of Spacemacs initialization after
-layers configuration.
-This is the place where most of your configurations should be done. Unless it is
-explicitly specified that a variable should be set before a package is loaded,
-you should place your code here."
-
-
-  ;;;;;;;;;;;;;;;;;;;;;;;
-  ;; org-mode 相关设置 ;;
-  ;;;;;;;;;;;;;;;;;;;;;;;
-
-  ;; Since version 0.104, spacemacs uses the org version from the org ELPA
-  ;; repository instead of the one shipped with emacs. Then, any org related
-  ;; code should not be loaded before dotspacemacs/user-config, otherwise both
-  ;; versions will be loaded and will conflict. Because of autoloading, calling
-  ;; to org functions will trigger the loading up of the org shipped with emacs
-  ;; which will induce conflicts. One way to avoid conflict is to wrap your org
-  ;; config code in a with-eval-after-load block like this:
-  (with-eval-after-load 'org
-    ;; 设置 todo keywords
-    (setq org-todo-keywords
-          '((sequence "TODO" "HAND" "|" "DONE")))
-
-    ;; 调试好久的颜色，效果超赞！todo keywords 增加背景色
-    (setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
-                                   ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
-                                   ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
-
-    ;; 设置 bullet list
-    (setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
-
-    ;; 打开 org-indent mode
-    (setq org-startup-indented t)
-
-    ;; Let's have pretty source code blocks
-    (setq org-edit-src-content-indentation 0
-          org-src-tab-acts-natively t
-          org-src-fontify-natively t
-          org-confirm-babel-evaluate nil
-          org-support-shift-select 'always)
-
-    ;; Org archive
-    (setq org-archive-location "%s_archive::date-tree")
-
-    (defadvice org-archive-subtree
-      (around org-archive-subtree-to-data-tree activate)
-      "org-archive-subtree to date-tree"
-      (if
-          (string= "date-tree"
-                  (org-extract-archive-heading
-                    (org-get-local-archive-location)))
-          (let* ((dct (decode-time (org-current-time)))
-                (y (nth 5 dct))
-                (m (nth 4 dct))
-                (d (nth 3 dct))
-                (this-buffer (current-buffer))
-                (location (org-get-local-archive-location))
-                (afile (org-extract-archive-file location))
-                (org-archive-location
-                  (format "%s::*** %04d-%02d-%02d %s" afile y m d
-                          (format-time-string "%A" (encode-time 0 0 0 d m y)))))
-            (message "afile=%s" afile)
-            (unless afile
-              (error "Invalid `org-archive-location'"))
-            (save-excursion
-              (switch-to-buffer (find-file-noselect afile))
-              ;; (org-datetree-find-year-create y)
-              ;; (org-datetree-find-month-create y m)
-              ;; (org-datetree-find-day-create y m d)
-              (widen)
-              (switch-to-buffer this-buffer))
-            ad-do-it)
-        ad-do-it))
-
-    ;; Agenda clock report parameters
-
-    (setq org-agenda-prefix-format '((agenda . "%t %s ")))
-    (setq org-agenda-clockreport-parameter-plist
-          '(:link t :maxlevel 6 :fileskip0 t :compact t :narrow 60 :score 0))
-
-    (setq org-agenda-start-on-weekday nil)
-    (setq org-agenda-log-mode-items '(clock))
-    (setq org-agenda-include-all-todo t)
-    (setq org-agenda-time-leading-zero t)
-    (setq org-agenda-use-time-grid nil)
-
-    (setq org-agenda-include-diary nil)
-    (setq org-agenda-files (list  "~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org"
-                                  "~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org_archive"))
-
-    (setq org-default-notes-file "~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org")
-    (setq org-refile-targets '("~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org" :maxlevel . 3))
-
-    ;; 使用 reveal.js 来生成 html 版本的 ppt
-    ;; https://opensource.com/article/18/2/how-create-slides-emacs-org-mode-and-revealjs
-
-    (require 'ox-reveal)
-    (setq org-reveal-root (concat (expand-file-name "~/Library/Mobile Documents/com~apple~CloudDocs/org/reveal.js")))
-    (setq org-reveal-theme "black")
-    (setq org-reveal-control t)
-    (setq org-reveal-center t)
-    (setq org-reveal-progress t)
-
-    ;; 设置快捷键
-    (evil-leader/set-key "oc" 'org-capture)
-    (evil-leader/set-key "oa" 'org-agenda)
-    (evil-leader/set-key "ol" 'org-store-link)
-    (evil-leader/set-key "el" 'eval-print-last-sexp)
-    (evil-leader/set-key "od" 'org-archive-subtree)
-
-    (evil-leader/set-key "oip" 'org-set-property)
-    (evil-leader/set-key "oil" 'org-insert-link)
-    (evil-leader/set-key "ois" 'org-time-stamp)
-    (evil-leader/set-key "oid" 'org-insert-drawer)
-    (evil-leader/set-key "oif" 'org-footnote-action)
-
-    (evil-leader/set-key "oog" (lambda () (interactive) (find-file "~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org")))
-    (evil-leader/set-key "ool" (lambda () (interactive) (find-file "~/.spacemacs.d/layers/lijigang/packages.el")))
-
-    (evil-leader/set-key "oit" 'insert-day-progress)
-
-    (global-set-key (kbd "C--") 'org-table-insert-hline)
-
-    )
-
-  ;;;;;;;;;;;;;;
-  ;; 显示相关 ;;
-  ;;;;;;;;;;;;;;
-
-  ;; 在状态栏显示时间
-  (display-time-mode 1)
-
-  ;; 折叠时不再显示「...」
-  (setq org-ellipsis "▼")
-
-  ;; inline image 不用展示实际大小，可以自定义大小显示
-  (setq org-image-actual-width nil)
-
-  (global-hl-line-mode -1)
-  (setq-default fill-column 72)
-
-  ;; 打开黄金比例模式, 当前使用的窗口所占比例为 0.618
-  (golden-ratio-mode)
-
-  ;; 默认把新开的 Window 显示在右侧
-  (setq split-height-threshold nil)
-  (setq split-width-threshold 0)
-
-
-  ;; Remove the markup characters, i.e., "/text/" becomes (italized) "text"
-  (setq org-hide-emphasis-markers t)
-
-  ;; Turn on visual-line-mode for Org-mode only
-  ;; Also install "adaptive-wrap" from elpa
-  (add-hook 'org-mode-hook 'turn-on-visual-line-mode)
-
-  ;; more useful frame title, that show either a file or a
-  ;; buffer name (if the buffer isn't visiting a file)
-  (setq frame-title-format
-        '("" " 為學日益, 為道日損 - "
-          (:eval (if (buffer-file-name)
-                     (abbreviate-file-name (buffer-file-name)) "%b"))))
-  ;;;;;;;;;;;;;;
-  ;; 导出相关 ;;
-  ;;;;;;;;;;;;;;
-
-  ;; 安装 XeLaTeX 是另外一个故事了..
-  (setq Tex-command-default "XeLaTeX")
-
-
-  ;;;;;;;;;;;;;;;;;;
-  ;; 文学编程相关 ;;
-  ;;;;;;;;;;;;;;;;;;
-  ;; Tangle Org files when we save them
-  (defun tangle-on-save-org-mode-file()
-    (when (string= (message "%s" major-mode) "org-mode")
-      (org-babel-tangle)))
-
-  (add-hook 'after-save-hook 'tangle-on-save-org-mode-file)
-
-  ;; Enable the auto-revert mode globally. This is quite useful when you have
-  ;; multiple buffers opened that Org-mode can update after tangling.
-  ;; All the buffers will be updated with what changed on the disk.
-  (global-auto-revert-mode)
-
-
-  ;;;;;;;;;;;;;;
-  ;; 其它杂项 ;;
-  ;;;;;;;;;;;;;;
-
-  (setq default-major-mode 'org-mode)
-
-  (prefer-coding-system 'utf-8)
-  (set-default-coding-systems 'utf-8)
-  (setq default-buffer-file-coding-system 'utf-8)
-
-  ;; 时间戳使用英文星期
-  (setq system-time-locale "C")
-
-  ;; Agenda clock report parameters
-  (setq org-agenda-clockreport-parameter-plist
-        '(:link t :maxlevel 6 :fileskip0 t :compact t :narrow 60 :score 0))
-
-  (setq org-hierarchical-todo-statistics nil)
-
-  ;; stop emacs asking for confirmation when eval source code
-  (setq org-confirm-babel-evaluate nil)
-
-  ;; active Org-babel languages
-  (org-babel-do-load-languages
-   'org-babel-load-languages
-   '(;; other Babel languages
-     (emacs-lisp . t)
-     (ditaa . t)
-     (python . t)
-     (shell . t)
-     (plantuml . t)))
-
-  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-  ;; https://github.com/syl20bnr/spacemacs/issues/4926 ;;
-  ;; artist-mode 左键不能画, 状态问题                  ;;
-  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-  (defun artist-mode-toggle-emacs-state ()
-    (if artist-mode
-        (evil-emacs-state)
-      (evil-exit-emacs-state)))
-
-  (unless (eq dotspacemacs-editing-style 'emacs)
-    (add-hook 'artist-mode-hook #'artist-mode-toggle-emacs-state))
-
-  (global-visual-line-mode 1)
-
-  (setq org-ditaa-jar-path "~/Library/Mobile Documents/com~apple~CloudDocs/org/org-mode/contrib/scripts/ditaa.jar")
-
-  (setq org-plantuml-jar-path
-        (expand-file-name "~/Library/Mobile Documents/com~apple~CloudDocs/org/org-resources/plantuml.jar"))
-  )
-
-
-</pre>
-</div></li>
-</ol>
-</div>
-</div>
-<div id="outline-container-org24c36ae" class="outline-3">
-<h3 id="org24c36ae">大改</h3>
-<div class="outline-text-3" id="text-org24c36ae">
-<p>
-Spacemacs 默认支持了很多的 layer, 常用的功能组合场景都已经设置的很赞了, 只
-需要在 <code>小修</code> 里配置相应的 layer 就可以开箱即用. 但总有一些自己独有的需求,
-需要按需定制自己的 layer.
-</p>
-
-<p>
-<a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/LAYERS.org">官方文档</a>上面对 package 和 layer 的解释:
-</p>
-<blockquote>
-<p>
-Layers and packages. What gives?
-</p>
-
-<p>
-Package
-</p>
-
-<p>
-A set of Emacs Lisp files that, taken together, provide some
-feature. Packages may be available on a package repository, such as
-ELPA or MELPA or on a third-party service provider (such as github)
-or even locally on the disk.
-</p>
-
-<p>
-Layer
-</p>
-
-<p>
-A collected unit of configuration that can be enabled (or disabled)
-in Spacemacs. A layer typically brings together one or more
-packages, as well as the glue configuration code required to make
-them play well with each other and Spacemacs in general.
-</p>
-</blockquote>
-
-<blockquote>
-<p>
-A layer is simply a folder somewhere in Spacemacs’ layer search path
-that usually contains these files (listed in loading order).
-</p>
-
-<p>
-layers.el
-    declare additional layers
-</p>
-
-<p>
-packages.el
-    the packages list and configuration
-</p>
-
-<p>
-funcs.el
-    all functions used in the layer should be declared here
-</p>
-
-<p>
-config.el
-    layer specific configuration
-</p>
-
-<p>
-keybindings.el
-    general key bindings
-</p>
-</blockquote>
-</div>
-
-<div id="outline-container-org450f143" class="outline-4">
-<h4 id="org450f143">packages.el</h4>
-<div class="outline-text-4" id="text-org450f143">
-<div class="org-src-container">
-<pre class="src src-lisp">;;; Code:
-
-(defconst lijigang-packages
-  '(org-page
-    dired-icon
-    cnfonts
-    swiper
-    wttrin
-    beacon
-    pangu-spacing
-    pyim
-    posframe
-    )
-)
-
-(defun lijigang/init-org-page()
-  "Initialize org-page to publish blog."
-  (use-package org-page
-    :ensure t
-    :config (progn
-          (setq op/site-main-title "遁其一")
-          (setq op/personal-github-link "https://github.com/lijigang")
-          (setq op/repository-directory "~/lijigang")
-          (setq op/site-domain "http://lijigang.github.io/")
-          (setq op/theme-root-directory (car (file-expand-wildcards "~/.emacs.d/elpa/org-page-*/themes" t)))
-          (setq op/theme 'ljg)
-          (setq op/highlight-render 'js)
-          (setq op/category-ignore-list '("themes" "assets" "images"))
-          (setq op/category-config-alist
-            '(("blog"
-              :show-meta t
-              :show-comment t
-              :uri-generator op/generate-uri
-              :uri-template "/blog/%y/%m/%d/%t/"
-              :sort-by :date     ;; how to sort the posts
-              :category-index nil) ;; generate category index or not
-              ("index"
-              :show-meta nil
-              :show-comment nil
-              :uri-generator op/generate-uri
-              :uri-template "/"
-              :sort-by :date
-              :category-index nil)
-              ("about"
-              :show-meta nil
-              :show-comment nil
-              :uri-generator op/generate-uri
-              :uri-template "/about/"
-              :sort-by :date
-              :category-index nil)))
-          (bind-key "C-c M-p" 'op/do-publication-and-preview-site)))
-    )
-
-(defun lijigang/init-dired-icon ()
-  "Initialize dired-icon"
-  (add-hook 'dired-mode-hook 'dired-icon-mode)
-  (add-hook 'dired-mode-hook
-            (lambda ()
-              (highlight-lines-matching-regexp "\.org$" 'hi-yellow))))
-
-(defun lijigang/init-cnfonts()
-  "Initialize cnfonts"
-  (use-package cnfonts
-    :init
-    (cnfonts-enable)
-    (cnfonts-set-spacemacs-fallback-fonts)))
-
-(defun lijigang/init-swiper()
-  "Initialize swiper"
-  (use-package swiper
-    :init
-    (define-key global-map (kbd "C-s") 'swiper)))
-
-
-(defun lijigang/init-wttrin()
-  (use-package wttrin
-    :ensure t
-    :commands (wttrin)
-    :init
-    (setq wttrin-default-cities '("Beijing"
-                                  "Bristol")))
-  )
-
-(defun lijigang/init-beacon()
-  "Initialize beacon"
-  (use-package beacon
-    :init
-    (beacon-mode 1)
-    (setq beacon-color "#666600")))
-
-(defun lijigang/init-pangu-spacing()
-  "Initialize pangu-spacing"
-  (use-package pangu-spacing
-    :init
-    (global-pangu-spacing-mode 1)
-    (setq pangu-spacing-real-insert-separtor t)))
-
-(defun lijigang/init-pyim()
-  "Initialize pyim"
-  (use-package pyim
-    :ensure nil
-    :demand t
-    :init
-    (setq pyim-punctuation-translate-p '(no yes auto))
-    :config
-    (setq default-input-method "pyim")
-    (setq pyim-default-scheme 'wubi)
-
-    ;; 让 Emacs 启动时自动加载 pyim 词库
-    (add-hook 'emacs-startup-hook
-              #'(lambda () (pyim-restart-1 t)))
-
-    (setq pyim-page-tooltip 'posframe)
-    (setq pyim-dicts '((:name "基础词库" :file "~/Library/Mobile Documents/com~apple~CloudDocs/3-config/wbdict.pyim")))
-    (global-set-key (kbd "C-9") 'toggle-input-method)
-    ))
-
-(defun lijigang/init-posframe ()
-  (use-package posframe))
-;;; packages.el ends here
-
-</pre>
-</div>
-</div>
-</div>
-
-<div id="outline-container-orgc005256" class="outline-4">
-<h4 id="orgc005256">funcs.el</h4>
-<div class="outline-text-4" id="text-orgc005256">
-<div class="org-src-container">
-<pre class="src src-lisp">(defun make-progress (width percent has-number?)
-  (let* ((done (/ percent 100.0))
-         (done-width (floor (* width done))))
-    (concat
-     "["
-     (make-string done-width ?/)
-     (make-string (- width done-width) ? )
-     "]"
-     (if has-number? (concat " " (number-to-string percent) "%"))
-     )))
-
-(defun insert-day-progress ()
-  (interactive)
-  (let* ((today (time-to-day-in-year (current-time)))
-         (percent (floor (* 100 (/ today 365.0)))))
-    (insert (make-progress 30 percent t))
-    ))
-
-;; latex 支持中文
-(require 'ox)
-(require 'ox-html)
-(require 'ox-publish)
-
-(add-to-list 'org-latex-classes '("pdf" "\\documentclass[fontset = mac]{ctexart}
-[NO-DEFAULT-PACKAGES]
-\\usepackage[colorlinks,linkcolor=black,anchorcolor=black,
-             citecolor=black]{hyperref}
-\\usepackage[top=3truecm,bottom=2.5truecm,
-            left=1.1truecm,right=1.1truecm,
-            bindingoffset=1.0truecm,
-            headsep=1.6truecm,
-            footskip=1.5truecm,
-            headheight=15pt    % 标准中没有要求页眉的高度，这里设置成
-                               % 15pt 了
-           ]{geometry}
-\\setCJKmainfont[BoldFont={Microsoft YaHei},ItalicFont={Microsoft YaHei}]{Microsoft YaHei}
-"
-                  ("\\section{%s}" . "\\section*{%s}")
-                  ("\\subsection{%s}" . "\\subsection*{%s}")
-                  ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
-                  ("\\paragraph{%s}" . "\\paragraph*{%s}")
-                  ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
-
-(setq org-latex-default-class "pdf")
-
-(setq org-latex-pdf-process
-      '(
-        "xelatex -interaction nonstopmode -output-directory %o %f"
-        "xelatex -interaction nonstopmode -output-directory %o %f"
-        "xelatex -interaction nonstopmode -output-directory %o %f"
-        "rm -fr %b.out %b.log %b.tex auto"
-        ))
-
-(defun peng-use-xelatex ()
-  (interactive)
-  (let* ((tempfile
-      (file-name-base))) (progn (shell-command (concat "rm -rf " tempfile
-                               ".bbl " tempfile ".blg " tempfile ".out " tempfile ".log " tempfile
-                               ".aux " tempfile ".toc" tempfile ".pdf"))
-                    (compile (concat "xelatex "
-                             (concat tempfile ".tex")
-                             (concat ";rm -rf " tempfile ".bbl " tempfile
-                                 ".blg " tempfile ".out " tempfile ".log " tempfile ".aux " tempfile
-".toc" ";open " tempfile ".pdf"))))))
-
-</pre>
-</div>
-</div>
-</div>
-<div id="outline-container-org2da7138" class="outline-4">
-<h4 id="org2da7138">config.el</h4>
-<div class="outline-text-4" id="text-org2da7138">
-<div class="org-src-container">
-<pre class="src src-lisp">(add-to-list 'auto-mode-alist '("\\.org_archive\\'" . org-mode))
-</pre>
-</div>
-</div>
-</div>
-<div id="outline-container-org97058e5" class="outline-4">
-<h4 id="org97058e5">keybindings.el</h4>
-<div class="outline-text-4" id="text-org97058e5">
-<div class="org-src-container">
-<pre class="src src-lisp">(evil-leader/set-key "op" 'org-pomodoro)
-
-(global-set-key
- (kbd "C-c p")
- (defhydra hydra-blog (:color blue :hint nil)
-   "
-    blog  _n_: new post                        _l_: publish last commit
-          _r_: reset &amp; publish all             _p_: publish interactively
-          _t_: reset &amp; publish to /tmp/blog    _e_: new-repository
-          "
-   ("n" op/new-post)
-   ("r" (progn
-          (setq op/item-cache nil)
-          (op/do-publication t nil nil t t)))
-   ("t" (progn
-          (setq op/item-cache nil)
-          (op/do-publication t "/tmp/blog" nil t nil)))
-   ("l" (op/do-publication nil "HEAD~1" nil t t))
-   ("p" op/do-publication)
-   ("e" op/new-repository)))
-
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org2fc1542" class="outline-2">
-<h2 id="org2fc1542">zsh</h2>
-<div class="outline-text-2" id="text-org2fc1542">
-<p>
-除了 Emacs, Shell 的配置也是比较需要跨机器使用的. 本着拿来主义精神, 我平时以 oh-my-shell 为主:
-</p>
-</div>
-
-<div id="outline-container-org8d73144" class="outline-3">
-<h3 id="org8d73144">安装 oh-my-shell</h3>
-<div class="outline-text-3" id="text-org8d73144">
-<div class="org-src-container">
-<pre class="src src-shell">git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-</pre>
-</div>
-</div>
-</div>
-
-<div id="outline-container-orgf650a00" class="outline-3">
-<h3 id="orgf650a00">备份现有的配置文件 ~/.zshrc</h3>
-<div class="outline-text-3" id="text-orgf650a00">
-<div class="org-src-container">
-<pre class="src src-shell">mv ~/.zshrc ~/.zshrc.bak
-</pre>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org35ccf98" class="outline-3">
-<h3 id="org35ccf98">创建自己的配置文件</h3>
-<div class="outline-text-3" id="text-org35ccf98">
-<div class="org-src-container">
-<pre class="src src-shell">touch ~/.zshrc
-</pre>
-</div>
-
-<div class="org-src-container">
-<pre class="src src-shell"># Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
-
-# 设置主題
-ZSH_THEME="agnoster"
-
-plugins=(
-battery
-colored-man-pages
-command-not-found
-git
-git-prompt
-osx
-themes
-vi-mode
-z
-)
-
-source $ZSH/oh-my-zsh.sh
-</pre>
-</div>
-</div>
-</div>
-<div id="outline-container-org4c8e9a5" class="outline-3">
-<h3 id="org4c8e9a5">将 zsh 设置为默认 shell</h3>
-<div class="outline-text-3" id="text-org4c8e9a5">
-<div class="org-src-container">
-<pre class="src src-shell">chsh -s /bin/zsh
-</pre>
-</div>
-</div>
-</div>
-</div>
-<div id="outline-container-orgb8b1e4b" class="outline-2">
-<h2 id="orgb8b1e4b">iTerm</h2>
-<div class="outline-text-2" id="text-orgb8b1e4b">
-<p>
-配置一个喜欢的 iTerm 主題配色文件:
-</p>
-<div class="org-src-container">
-<pre class="src src-shell">touch ~/Arthur.itermcolors
-</pre>
-</div>
-
-<div class="org-src-container">
-<pre class="src src-xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
-&lt;plist version="1.0"&gt;
-  &lt;dict&gt;
-    &lt;key&gt;Ansi 0 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.16470588743686676&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.20784313976764679&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.23921568691730499&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 1 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.36078432202339172&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.36078432202339172&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.80392158031463623&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 10 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.13333334028720856&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.66666668653488159&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.53333336114883423&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 11 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.364705890417099&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.65490198135375977&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;1&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 12 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.92156863212585449&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.80784314870834351&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.52941179275512695&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 13 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.0&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.40000000596046448&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.60000002384185791&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 14 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.87058824300765991&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.76862746477127075&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.69019609689712524&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 15 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.73333334922790527&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.80000001192092896&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.86666667461395264&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 2 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.50196081399917603&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.68627452850341797&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.52549022436141968&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 3 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.35686275362968445&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.68235296010971069&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.90980392694473267&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 4 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.92941176891326904&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.58431375026702881&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.39215686917304993&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 5 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.52941179275512695&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.72156864404678345&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.87058824300765991&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 6 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.87058824300765991&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.76862746477127075&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.69019609689712524&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 7 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.60000002384185791&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.66666668653488159&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.73333334922790527&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 8 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.26666668057441711&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.26666668057441711&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.3333333432674408&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Ansi 9 Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.20000000298023224&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.3333333432674408&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.80000001192092896&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Background Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.10980392247438431&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.10980392247438431&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.10980392247438431&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Bold Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;1&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;1&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;1&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Cursor Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.93725490570068359&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.73333334922790527&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.88627451658248901&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Cursor Text Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.0&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.0&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.0&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Foreground Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.86666667461395264&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.93333333730697632&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.86666667461395264&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Selected Text Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;1&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;1&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;1&lt;/real&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;Selection Color&lt;/key&gt;
-    &lt;dict&gt;
-      &lt;key&gt;Blue Component&lt;/key&gt;
-      &lt;real&gt;0.30241936445236206&lt;/real&gt;
-      &lt;key&gt;Green Component&lt;/key&gt;
-      &lt;real&gt;0.30241936445236206&lt;/real&gt;
-      &lt;key&gt;Red Component&lt;/key&gt;
-      &lt;real&gt;0.30241936445236206&lt;/real&gt;
-    &lt;/dict&gt;
-  &lt;/dict&gt;
-&lt;/plist&gt;
-</pre>
-</div>
-
-<p>
-在 iTerm 的配置中, Preferences -&gt; Profiles -&gt; Colors -&gt; Color presets -&gt; Import
-选中 Arthur.itemcolors.
-</p>
-
-<p>
-然后选择导入的 Arthur 主題即可.
-</p>
-</div>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2020-03-06</pubDate>
-      <guid>http://lijigang.github.io/blog/2019/04/14/emacs-用一个-org-文件管理所有配置/</guid>
     </item>
   </channel>
 </rss>
