@@ -8,9 +8,12 @@
 2. 原则上收件箱每日清空
 3. 查询历史信息只要在归档箱中搜索即可
 
-#+caption: Inbox Zero
-[[file:images/inbox-zero.png]]
-
+#+BEGIN_EXPORT html
+<img
+  src="images/inbox-zero.png"
+  width="50%"
+/>
+#+END_EXPORT
 
 这种实践方法的精髓在于, =input 很简单, filter 很重要=.
 
