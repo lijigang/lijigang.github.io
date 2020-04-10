@@ -21,43 +21,8 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 
 #+TOC: headlines 2
 
-* 安装 Org-mode
-Org 现在已经是 Emacs 出厂自带的一部分了，所以只要你现在打开 Emacs 就可以直接使用 Org. 但如果你不想使用 Emacs 自带的 Org 版本，想安装一个更新版本，你可以有三种办法来实现：
-
-1. 使用 Emacs package system
-
-   #+begin_src emacs-lisp
-   M-x package-install RET org
-   #+end_src
-
-   这种安装方法，安装的 org 版本，需要看你配置源中对应的版本，而且安装时需要确保没有 org 相关函数装载，不推荐使用。
-
-2. 把新版 Org 下载到本地
-
-   [[https://orgmode.org/][Org 官网]] 有最新版本的压缩包可下载到本地，然后只需要将解压后的目录加到 load-path 变量即可。
-
-   #+begin_src emacs-lisp
-   (add-to-list 'load-path "~/path/to/orgdir/lisp")
-   #+end_src
-
-3. 使用 Org 的 git 仓库
-
-   #+begin_src bash
-   $ git clone https://code.orgmode.org/bzg/org-mode.git
-
-   $ cd org-mode/
-
-   $ make autoloads
-   #+end_src
-
-   时刻与最新版本保持同步，但也相对容易出问题。
-
-
-不管你选择哪个方式，安装成功后，每当你打开 .org 后缀的文件时，Emacs 默认会使用 Org mode。
-
 * 美化外观
-** 美化: Headline
-*** 需求任务
+*** 美化: Headline
 默认显示 Headline 的 =*= 符号看着和内容无关, 又特别扎眼, 希望让它显示美观些, 同时又不影响查看内容和缩进.
 
 #+BEGIN_EXPORT html
@@ -67,16 +32,13 @@ Org 现在已经是 Emacs 出厂自带的一部分了，所以只要你现在打
 />
 #+END_EXPORT
 
-*** 解决方法
+#+begin_src emacs-lisp
+;; 打开 org-indent mode
+(setq org-startup-indented t)
 
-  #+begin_src emacs-lisp
-  ;; 打开 org-indent mode
-  (setq org-startup-indented t)
-
-  ;; 设置 bullet list
-  (setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
-  #+end_src
-
+;; 设置 bullet list
+(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
+#+end_src
 
 配置上面那行代码后，显示效果如下：
 
@@ -87,8 +49,7 @@ Org 现在已经是 Emacs 出厂自带的一部分了，所以只要你现在打
 />
 #+END_EXPORT
 
-** 美化: Todo Keyword
-*** 需求任务
+*** 美化: Todo Keyword
 每个 Headline 都可以有不同状态, 比如待启动/进行中/阻塞中/已完成 等等, 可以根据自己的实际需求来定义这些状态, 定义方法也很简单, 只要设置下面这个变量就好:
 #+begin_src emacs-lisp
 ;; 设置 todo keywords
@@ -96,9 +57,7 @@ Org 现在已经是 Emacs 出厂自带的一部分了，所以只要你现在打
       '((sequence "TODO" "HAND" "|" "DONE")))
 #+end_src
 
-但这样配置后, 只是显示一个 TODO 关键启事，也不是很漂亮。 希望可以美化下显示效果.
-
-*** 解决方法
+但这样配置后, 只是显示一个 TODO 关键词，也不是很漂亮。
 
 可以针对这些状态关键词设置单独的前景色和背景色，看看效果：
 
@@ -117,11 +76,10 @@ Org 现在已经是 Emacs 出厂自带的一部分了，所以只要你现在打
 />
 #+END_EXPORT
 
-** 美化: agenda
-*** 需求任务
-agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行文本. 能不能按时间段大小显示成区块样式, 更直观显示时间计划?
+*** 美化: Agenda
+Agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行文本. 能不能按时间段大小显示成区块样式, 更直观显示时间计划?
 
-*** 解决方法
+[[https://emacs-china.org/t/org-agenda/8679/3][Emacs-china]] 论坛中就有一个很赞的改进方案:
 
 #+begin_src emacs-lisp
 ;; agenda 里面时间块彩色显示
@@ -152,8 +110,7 @@ agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行�
 (add-hook 'org-agenda-finalize-hook #'ljg/org-agenda-time-grid-spacing)
 #+end_src
 
-显示效果如下:
-
+显示效果如下, 时间长短决定了显示的时间块的大小:
 
 #+BEGIN_EXPORT html
 <img
@@ -163,11 +120,9 @@ agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行�
 #+END_EXPORT
 
 * 快速记录
-** Capture : 快速记录任务
-*** 需求任务
+*** Capture : 快速记录任务
 有时候正在 A 文件中写东西, 突然有个想法想记录到你的 idea list 中, 希望可以实现不管当前在哪个地方, 都能一键记录文字到指定文件中.
 
-*** 解决方法
 Org mode 的 org-capture 功能正是实现这个需求的自带功能. 只需要简单配置一下即可:
 
 #+begin_src emacs-lisp
@@ -197,11 +152,8 @@ Org mode 的 org-capture 功能正是实现这个需求的自带功能. 只需�
 
 说复杂的话, 设置不同模板的字段可以各种个性化, 比如可以在插入任务的同时 [[http://www.windley.com/archives/2010/12/capture_mode_and_emacs.shtml][插入当地 天气]] , 或者 [[http://cestlaz.github.io/posts/using-emacs-23-capture-1/#.W5IV5o6QH-A][各种场景]] , 甚至有人可以把这功能集成到 [[https://blog.sleeplessbeastie.eu/2016/04/22/how-to-use-org-capture-from-system-tray/][桌面托盘位置]] .
 * 快速归档
-** Archive : 归档任务
-*** 需求任务
 随着任务记录越来越多, 历史上已完成的任务如果一直累积在任务文件中, 文件会越来越大, 也会影响搜索结果和速度. 希望可以将已完成的任务快速归档存储到指定文件, 实现任务文件精简, 同时历史已完成任务还不会丢弃, 有需要时可随时搜索查看归档文件.
 
-*** 解决方法
 #+begin_src emacs-lisp
 ;; 在 Spacemacs 中设置归档命令的快捷键
 (evil-leader/set-key "od" 'org-archive-subtree)
@@ -218,82 +170,104 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 上面配置的完整释义可以参看 org-archive-location 的帮助手册, 配置后的归档文件中的
 显示效果如下:
 
-#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-07_18-01-34.png @ 2018-09-07 18:01:47
-#+attr_latex: :width 600
-[[file:../images/2018-09-07_18-01-34.png]]
+#+begin_export html
+<img
+  src="../images/2018-09-07_18-01-34.png"
+  width="80%"
+  />
+#+end_export
 
 * 任务属性
-** Time Clocking : 记录任务用时
-*** 需求任务
+*** Time Clocking : 记录任务用时
 
 希望记录任务的开始时间和结束时间, 并自动显示经历时长.
 
 有时候任务是分多个时间段完成, 希望能有每个时间段的刻录.
 
-*** 解决方法
-除了可以根据任务的状态变更进行管理之外, Emacs 还支持对任务进行时间管理. 在 Emacs 中, 一切都是 =纯文本 (Plain text)= , 时间的表示, 在 Emacs 中也不过就是一串字符串而已, 只是有很多相关的函数来解析这个指定格式的字符串, 提供了超级强大的时间管理的功能.
+除了可以根据任务的状态变更进行管理之外, Emacs 还支持对任务进行时间管理. 在 Emacs
+中, 一切都是 =纯文本 (Plain text)= , 时间的表示, 在 Emacs 中也不过就是一串字符串而
+已, 只是有很多相关的函数来解析这个指定格式的字符串, 提供了超级强大的时间管理的功
+能.
 
 我个人最常用的记录时间的操作是在某项任务开始时 org-clock-in (快捷键 =,I= ) 结束时 org-clock-out (快捷键 =,O= ). 这样一项任务就有了清晰的一段时间记录, 如果过了一阵子又投入时间在这项任务, 同样 clock-in/clock-out 就好, Org 支持一个任务记录多条时间段.
 
-#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-07_18-34-16.png @ 2018-09-07 18:34:37
-#+attr_latex: :width 600
-[[file:../images/2018-09-07_18-34-16.png]]
+#+begin_export html
+<img
+  src="../images/2018-09-07_18-01-34.png"
+  width="80%"
+  />
+#+end_export
 
-** Time Reporting: 时间都去哪儿了
-*** 需求任务
+*** Time Reporting: 时间都去哪儿了
 
-我们已经在每个任务开始和结果时都打了时间戳, 那生成一个时间花费的报表应该也不在话下了.
+我们已经在每个任务开始和结果时都打了时间戳, 那生成一个时间花费的报表应该也不在话
+下了.
 
-*** 解决方法
-通过调用 =org-clock-report= 命令, 可以生成下面的这种样式的 time table, 看看你之前的时间都花在哪了, 生成表格相关参数的修改, 可以参考 [[https://orgmode.org/org.html#Deadlines-and-scheduling][官方文档]]:
+通过调用 =org-clock-report= 命令, 可以生成下面的这种样式的 time table, 看看你之前
+的时间都花在哪了, 生成表格相关参数的修改, 可以参考 [[https://orgmode.org/org.html#Deadlines-and-scheduling][官方文档]]:
 
-#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-13_17-28-41.png @ 2018-09-13 17:29:23
-#+attr_latex: :width 600
-[[file:../images/2018-09-13_17-28-41.png]]
-** Deadline: 设置死线
-*** 需求任务
-在日常 GTD 过程中, 还经常会有的需求是给某一任务设定 Deadline (org-deadline ,d) 或 Schedule (org-schedule ,s) .
+#+begin_export html
+<img
+  src="../images/2018-09-13_17-28-41.png"
+  width="80%"
+  />
+#+end_export
+*** Deadline: 设置死线
+在日常 GTD 过程中, 还经常会有的需求是给某一任务设定 Deadline (org-deadline ,d)
+或 Schedule (org-schedule ,s) .
 
 当然, 还会有些 Routine 的任务, 比如每周一上午 10 点开例会, 每周五下午 6 点发周报等, 这种定期任务的设定, 可以先设置一个 Schedule, 然后在时间字符串后面添加 +1d (每一天循环) / +2w (每两周循环) / +3m (每三个月循环) / +1y (每一年循环):
 
-*** 解决方法
 上面的需求基本都是自带函数功能可以解决:
 - org-deadline 插入 deadline
 - org-schedule 插入 schedule
 - 在 schedule 日期后面添加 +1d(每一天循环)  +2w(每两周循环)
 
-#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-10_16-10-08.png @ 2018-09-10 16:10:21
-#+attr_latex: :width 600
-[[file:../images/2018-09-10_16-10-08.png]]
-** Tags : 换个角度看世界
-*** 需求任务
-使用时间久了之后, 历史任务积累了很多. 想筛选或查找某个任务, 只能靠印象中任务标题中的文本来查找, 很低效. 希望可以在每个任务上面打标签, 这样后面可以筛选标签来找到一类任务.
+#+begin_export html
+<img
+  src="../images/2018-09-10_16-10-08.png"
+  width="80%"
+  />
+#+end_export
+*** Tags : 换个角度看世界
+使用时间久了之后, 历史任务积累了很多. 想筛选或查找某个任务, 只能靠印象中任务标题
+中的文本来查找, 很低效. 希望可以在每个任务上面打标签, 这样后面可以筛选标签来找到
+一类任务.
 
-*** 解决方法
-Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或某些 tags 的任务全找出来. 而添加 Tags 的方法也很简单, 只需调用 *org-set-tags-command 快捷键 C-c C-c (Spacemacs 中 ,,)* , 就会在当前 Headline 后面添加你指定的 tags. 显示样式为前后冒号分隔, 比如 =:work:= , 基本用法就这一个命令就够了, 如果有更深入的使用需求, 读下 [[https://orgmode.org/org.html#Tags][官方文档]] 就好了.
+Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或某些 tags 的任务全找出来.
+而添加 Tags 的方法也很简单, 只需调用 *org-set-tags-command 快捷键 C-c C-c
+(Spacemacs 中 ,,)* , 就会在当前 Headline 后面添加你指定的 tags. 显示样式为前后冒
+号分隔, 比如 =:work:= , 基本用法就这一个命令就够了, 如果有更深入的使用需求, 读下
+[[https://orgmode.org/org.html#Tags][官方文档]] 就好了.
 
-** Properties: 再换个角度看看
-*** 需求任务
-使用 tags 已经可以解决一部分筛选查找历史任务的问题了, 但如果你想针对某一个任务做些类似数据库似的字段存储, 比如你记录了吃过的五星级餐厅的列表, 想针对每个餐厅单独记录其地址/联系电话/特色菜/个人评价 等, 把这些全放到 tags 中, 显示不合适.
+*** Properties: 再换个角度看看
+使用 tags 已经可以解决一部分筛选查找历史任务的问题了, 但如果你想针对某一个任务做
+些类似数据库似的字段存储, 比如你记录了吃过的五星级餐厅的列表, 想针对每个餐厅单独
+记录其地址/联系电话/特色菜/个人评价 等, 把这些全放到 tags 中, 显示不合适.
 
-*** 解决方法
-这时候就适合使用 Properties 了. 插入 Property 需要调用 org-set-property 命令. Property 是 key-value 形式出现, 调用命令后会提示你输入 key 和 value, 显示时一个 Property 占一行.
+这时候就适合使用 Properties 了. 插入 Property 需要调用 org-set-property 命令.
+Property 是 key-value 形式出现, 调用命令后会提示你输入 key 和 value, 显示时一个
+Property 占一行.
 
-#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-10_16-02-31.png @ 2018-09-10 16:02:47
-#+attr_latex: :width 600
-[[file:../images/2018-09-10_16-02-31.png]]
+#+begin_export html
+<img
+  src="../images/2018-09-10_16-02-31.png"
+  width="80%"
+  />
+#+end_export
 * 超级应用
 ** Tables : 其实我也能当 Excel 使
-*** 需求任务
-在文本中当然也少不了记录表格的需求, 比如做会议纪要, 时间/地点/人员/主题/结论/后续安排这些内容通过表格整理记录就会很方便. 怎么实现表格?
-
-*** 解决方法
+在文本中当然也少不了记录表格的需求, 比如做会议纪要, 时间/地点/人员/主题/结论/后
+续安排这些内容通过表格整理记录就会很方便. 怎么实现表格?
 
 在 Org 中, 只要以 | 开头的一行, 就认为它是表格的一部分了. 表格中各单元格的区分符号也是 | , 每次你输入完一个单元格, 可以通过 TAB 切换到下一单元格, 通过 RET 切换到下一行. 日常的基本表格操作, 这些功能已经足够用的了. 想了解细节, 可以阅读下[[https://orgmode.org/org.html#Tables][官方文档]] . Org 中的表格大概长下面这样:
 
-#+DOWNLOADED: file:/Users/ljg/Downloads/2018-09-13_17-15-56.png @ 2018-09-13 17:16:23
-#+attr_latex: :width 600
-[[file:../images/2018-09-13_17-15-56.png]]
+#+begin_export html
+<img
+  src="../images/2018-09-13_17-15-56.png"
+  width="80%"
+  />
+#+end_export
 
 补充两个让人对 Org 表格功能很爽的小细节:
 1. 切换单元格 (TAB/RET/C-c C-c) , Org 会自动根据单元格内容进行宽度调整
@@ -303,16 +277,12 @@ Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或某些 
 
 如果你想把它当作 Excel 来使用, 可以参看 [[https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][这篇文章]] ; 如果你想通过表格中的数据来画图, 可以参看 [[https://orgmode.org/worg/org-tutorials/org-plot.html][这篇文章]] .
 ** Hypelinks: 把我当浏览器使也可以
-*** 需求任务
 Org mode 是记录纯文本的, 但如果有超链接想存储的话, 能支持点击跳转浏览器访问吗?
 
-*** 解决方法
 org mode 支持超链接跳转到文件, 邮件, 网页等等.
 
 通用的链接形式为 =[[link][descriptio] ]= (后面那个空格要去掉), 也可能通过快捷键快速插入链接（C-c C-l）
 ** Export : 分享给不使用 Orgmode 的人
-*** 需求任务
 如果要分享文档给别人, 他们不使用 org mode 怎么办? 能支持导出成其它通用的文档格式吗?
 
-*** 解决方法
 Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通过网页访问).
