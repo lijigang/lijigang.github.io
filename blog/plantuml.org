@@ -7,18 +7,18 @@ Emacs 中主要是靠纯文本的一些骚操作来实现各种功能, 其中有
 * PlantUML 是什么
 PlantUML 是用来快速创建 UML 图形的组件. 通过简单的语法来定义图形, 然后它就可以生成 PNG 图片. 比如:
 
-    #+begin_src :exports code
-    autonumber
-    Phone -> Server : 请求网页
-    Server --[#0c0f0a]> Phone : 返回 HTML
-    #+end_src
+#+begin_src :exports code
+autonumber
+Phone -> Server : 请求网页
+Server --[#0c0f0a]> Phone : 返回 HTML
+#+end_src
 
-    #+begin_export html
-    <img
-      src="../images/basic.png"
-      width="60%
-    />
-    #+end_export
+#+begin_export html
+<img
+  src="../images/basic-sequence-uml.png"
+  width="80%
+/>
+#+end_export
 
 * PlantUML 如何在 Emacs 中配置
 1. [[http://plantuml.com/zh/download][下载]] plantuml.jar 到本地
@@ -72,7 +72,7 @@ PlantUML 是用来快速创建 UML 图形的组件. 通过简单的语法来定�
    #+begin_export html
    <img
      src="../images/participant.png"
-     width="60%"
+     width="80%"
    />
    #+end_export
 
@@ -93,7 +93,7 @@ PlantUML 是用来快速创建 UML 图形的组件. 通过简单的语法来定�
    #+begin_export html
    <img
      src="../images/delay.png"
-     width="70%"
+     width="80%"
      />
    #+end_export
 
@@ -135,6 +135,6 @@ PlantUML 是用来快速创建 UML 图形的组件. 通过简单的语法来定�
     #+begin_export html
     <img
       src="../images/skinparam.png"
-      width="70%"
+      width="80%"
       />
     #+end_export
