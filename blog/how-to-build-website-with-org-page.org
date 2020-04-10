@@ -57,9 +57,8 @@
 #+END_SRC
 
 * 安装主题
-
-1. git clone https://github.com/lijigang/ljg
-
-2. cp -r ljg ~/.emacs.d/elpa/org-page-xxxx.xx/themes/
-
-3. add (setq op/theme ‘ljg)
+可以参照 [[https://github.com/lijigang/ljg][这个主题说明
+]]
+1. 切换到 org-page 目录: cd ~/.emacs.d/elpa/org-page-xxxx.xx/themes
+2. 下载到本地: git clone https://github.com/lijigang/ljg
+3. 配置 org-page 的主题变量: (setq op/theme ‘ljg)
