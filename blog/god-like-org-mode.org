@@ -27,7 +27,7 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 
 #+BEGIN_EXPORT html
 <img
-  src="../images/2018-09-07_12-21-11.png"
+  src="../images/default-headline-sample.png"
   width="80%"
 />
 #+END_EXPORT
@@ -44,7 +44,7 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 
 #+BEGIN_EXPORT html
 <img
-  src="../images/2018-09-07_12-25-06.png"
+  src="../images/beautify-headline-sample.png"
   width="80%"
 />
 #+END_EXPORT
@@ -71,7 +71,7 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 
 #+BEGIN_EXPORT html
 <img
-  src="../images/2018-09-07_12-26-04.png"
+  src="../images/beautify-todo-sample.png"
   width="80%"
 />
 #+END_EXPORT
@@ -114,7 +114,7 @@ Agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行�
 
 #+BEGIN_EXPORT html
 <img
-  src="../images/Jietu20190807-195307.png"
+  src="../images/beautify-org-agenda.png"
   width="80%"
 />
 #+END_EXPORT
@@ -172,7 +172,7 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 
 #+begin_export html
 <img
-  src="../images/2018-09-07_18-01-34.png"
+  src="../images/org-archive-sample.png"
   width="80%"
   />
 #+end_export
@@ -193,7 +193,7 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 
 #+begin_export html
 <img
-  src="../images/2018-09-07_18-01-34.png"
+  src="../images/org-clock-sample.png"
   width="80%"
   />
 #+end_export
@@ -208,7 +208,7 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 
 #+begin_export html
 <img
-  src="../images/2018-09-13_17-28-41.png"
+  src="../images/org-report-sample.png"
   width="80%"
   />
 #+end_export
@@ -225,7 +225,7 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 
 #+begin_export html
 <img
-  src="../images/2018-09-10_16-10-08.png"
+  src="../images/org-deadline-sample.png"
   width="80%"
   />
 #+end_export
@@ -251,7 +251,7 @@ Property 占一行.
 
 #+begin_export html
 <img
-  src="../images/2018-09-10_16-02-31.png"
+  src="../images/org-property-sample.png"
   width="80%"
   />
 #+end_export
@@ -264,7 +264,7 @@ Property 占一行.
 
 #+begin_export html
 <img
-  src="../images/2018-09-13_17-15-56.png"
+  src="../images/org-table-samples.png"
   width="80%"
   />
 #+end_export

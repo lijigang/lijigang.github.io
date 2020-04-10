@@ -19,7 +19,7 @@
 
    #+BEGIN_EXPORT html
    <img
-     src="../images/WechatIMG9.jpeg"
+     src="../images/huawei-hand-setting.jpeg"
      width="50%"
    />
    #+END_EXPORT
@@ -30,7 +30,7 @@
 
    #+BEGIN_EXPORT html
    <img
-     src="../images/WechatIMG10.jpeg"
+     src="../images/phone-screen.jpeg"
      width="50%"
    />
    #+END_EXPORT
