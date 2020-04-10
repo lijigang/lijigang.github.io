@@ -4,10 +4,807 @@
     <title>常识</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Fri, 10 Apr 2020 13:40:48 CST</pubDate>
-    <lastBuildDate>Fri, 10 Apr 2020 13:40:48 CST</lastBuildDate>
+    <pubDate>Fri, 10 Apr 2020 14:17:02 CST</pubDate>
+    <lastBuildDate>Fri, 10 Apr 2020 14:17:02 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>Emacs: 用一个 Org 文件管理所有配置</title>
+      <link>http://lijigang.github.io/blog/2019/04/14/emacs-用一个-org-文件管理所有配置/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>Emacs: 用一个 Org 文件管理所有配置</h1>
+            <div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org47e6b12">小修: 修改 init.el</a></li>
+<li><a href="#org0ff4726">大改: 定义 private layer</a></li>
+</ul>
+</div>
+</div>
+<p>
+<a href="https://github.com/lujun9972/emacs-document/blob/master/org-mode/%E6%95%99%E4%BD%A0%E7%94%A8Org-mode%E7%AE%A1%E7%90%86dotfiles.org">Darksun</a> 在 <a href="https://github.com/lujun9972/emacs-document/blob/master/org-mode/%E6%95%99%E4%BD%A0%E7%94%A8Org-mode%E7%AE%A1%E7%90%86dotfiles.org">这篇文章</a> 里介绍了如何通过一个 org file 管理自己的各种配置文件. 思路简单来说, 就是通过 tangle 文件中的 org 代码块(执行 org-babel-tangle-file 命令)的代码块, 将配置代码插入到它们应该在的地方.
+</p>
+
+<p>
+<a href="https://github.com/syl20bnr/spacemacs">Spacemacs</a> 就是 Emacs 的一套配置。它对 evil 的支持，它的文档完善程度，极大的减少了 Emacs 的使用门槛, 让你可以将更多精力花在如何使用 Emacs/Org mode 上面.
+</p>
+
+<p>
+首先确保你电脑上已经:
+</p>
+<ol class="org-ol">
+<li>安装了 Emacs</li>
+<li>将 Spacemacs 默认配置下载到本地</li>
+</ol>
+
+<p>
+然后就可以开始你的个性化定制了, 这里分为两种定制, 一种是 <code>小修</code> 你通过修改 Spacemacs 变量配置来定制, 另一种是 <code>大改</code> 你通过 Spacemacs 的 layer 机制, 定制自己的使用场景.
+</p>
+
+<div id="outline-container-org47e6b12" class="outline-2">
+<h2 id="org47e6b12">小修: 修改 init.el</h2>
+<div class="outline-text-2" id="text-org47e6b12">
+<p>
+init.el 中一共有四个函数:
+</p>
+<ol class="org-ol">
+<li>dotspacemacs/layers
+启动 Emacs 时被调用的函数, 在这里配置想要使用的 layer 和 package</li>
+<li>dotspacemacs/init
+最早被调用的函数, 在这里不要添加任何自定义代码, 只修改变量值即可</li>
+<li>dotspacemacs/user-init
+在 2 之后, 在 layer 之前被调用, 在这里配置 package 的变量</li>
+<li>dotspacemacs/user-config
+在 layer 之后被调用, 绝大部分个人配置应该在这里, 除非有些变量明确要求在 package 加载之前配置.</li>
+</ol>
+
+<p>
+前三个函数只是微调一些参数, 按自己需求来简单搞下即可.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="orgb315b5d">;; 出厂自带的基础 layer, 默认选择 spacemacs 就好.
+dotspacemacs-distribution 'spacemacs
+
+;; 使用到了某些 layer 再安装就行
+dotspacemacs-enable-lazy-installation 'unused
+dotspacemacs-ask-for-lazy-installation t
+
+;; 查找其它 layer 配置的路径列表, 末尾需以"/"结尾
+dotspacemacs-configuration-layer-path '()
+
+;; 需要加载的配置 layers
+dotspacemacs-configuration-layers
+'(
+  yaml
+  plantuml
+  python
+  html
+  helm
+  (auto-completion :variables auto-completion-enable-sort-by-usage t
+                    :disabled-for org markdown)
+  better-defaults
+  emacs-lisp
+  osx
+  git
+  lijigang
+  (org :variables
+        org-enable-reveal-js-support t
+        org-download-screenshot-method "screencapture"
+        org-download-image-dir "./images"
+        org-download-heading-lvl nil
+        org-download-timestamp "")
+)
+
+;; 如果有些 package, 不想加到 layer 中, 但又想使用, 可以加到这里
+;; 如果这些 package 还需要一些配置项, 可以把配置项放在 dotspace/user-config
+dotspacemacs-additional-packages '()
+
+;; 如果有些 package 不想升级, 可以放到这里
+dotspacemacs-frozen-packages '()
+
+;; 如果有些 packages 不想安装或加载, 可以放到这里
+dotspacemacs-excluded-packages '(org-projectile)
+
+;; 只有在使用的 package(in dotspacemacs-configuration-layers or dotspacemacs-additional-packages) 才会安装, 其它的删除掉.
+dotspacemacs-install-packages 'used-only
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="orgb601950">;; 使用 https 连接服务器下载 packages
+dotspacemacs-elpa-https t
+
+;; 连接超时时间设置为 5 秒
+dotspacemacs-elpa-timeout 5
+
+;; 默认不要升级 spacemacs
+dotspacemacs-check-for-update nil
+
+;; 如果电脑上有不同版本的 emacs, 可以配置这个变量来区分
+dotspacemacs-elpa-subdirectory nil
+
+;; 编辑模式,三个可选项: vim emacs hybrid
+dotspacemacs-editing-style 'vim
+
+
+;; 不需要将启动过程信息打印到 *Messages* buffer
+dotspacemacs-verbose-loading nil
+
+;; 在这里修改你的启动显示图片
+dotspacemacs-startup-banner "~/Library/Mobile Documents/com~apple~CloudDocs/1-参考/8-Personal/head.png"
+
+;; 设置 *scratch* buffer 为 emacs-lisp 模式
+dotspacemacs-scratch-mode 'emacs-lisp-mode
+
+;; 在这里设置你想的主题配色, 启动时加载的是第一个主題
+dotspacemacs-themes '(
+                      doom-peacock
+                      srcery
+                      tao-yin
+                      tao-yang
+                      material
+                      solarized-light
+                      monokai
+                      spacemacs-light
+                      zenburn
+                      dracula
+                      )
+
+;; 光标颜色与当前编辑状态保持一致
+dotspacemacs-colorize-cursor-according-to-state t
+
+;; The leader key
+dotspacemacs-leader-key "SPC"
+
+;; The key used for Emacs commands (M-x) (after pressing on the leader key).
+dotspacemacs-emacs-command-key "SPC"
+
+;; The key used for Vim Ex commands (default ":")
+dotspacemacs-ex-command-key ":"
+
+;; Major mode leader key is a shortcut key which is the equivalent of
+;; pressing `&lt;leader&gt; m`. Set it to `nil` to disable it. (default ",")
+dotspacemacs-major-mode-leader-key ","
+
+;; 设置大文件的定义标准(MB), 如果超过标准, 不激活 major/minor mode, 提升效能
+dotspacemacs-large-file-size 5
+
+;; 默认开启时全屏
+dotspacemacs-fullscreen-at-startup t
+
+;; 保存文件时删除每行尾部空白符(space/tab)
+dotspacemacs-whitespace-cleanup 'trailing
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="org9334df6">;; 默认源太慢了, 建议使用子龙山人的国内镜像源
+(setq configuration-layer--elpa-archives
+      '(("melpai-cn" . "http://elpa.zilongshanren.com/melpa/")
+        ("org-cn"   . "http://elpa.zilongshanren.com/org/")
+        ("gnu-cn" . "http://elpa.zilongshanren.com/gnu/")))
+
+;; 指定自己的 layer 路径
+(setq dotspacemacs-configuration-layer-path "~/.spacemacs.d/layers/")
+
+;; https://stackoverflow.com/questions/35286203/exec-path-from-shell-message-when-starting-emacs
+;; 解决启动 warning
+(setq exec-path-from-shell-check-startup-files nil)
+
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="orgafa1dac">;; 设置 todo keywords
+(setq org-todo-keywords
+      '((sequence "TODO" "HACK" "|" "DONE")))
+
+;; 设置 bullet list, 让 headline 变漂亮
+(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
+
+;; 打开 org-indent mode
+(setq org-startup-indented t)
+
+(setq org-remember-clock-out-on-exit t)
+
+;; 折叠时不再显示「...」, 换个你喜欢的符号
+(setq org-ellipsis "▼")
+
+;; inline image 不用展示实际大小，可以自定义大小显示
+(setq org-image-actual-width '(450))
+
+(setq org-hierarchical-todo-statistics nil)
+
+(setq org-html-validation-link nil)
+
+;; Let's have pretty source code blocks
+(setq org-edit-src-content-indentation 0
+      org-src-tab-acts-natively t
+      org-src-fontify-natively t
+      org-confirm-babel-evaluate nil
+      org-support-shift-select 'always)
+
+(setq org-default-notes-file "~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd/gtd.org")
+
+(setq org-refile-targets '("~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd/gtd.org" :maxlevel . 3))
+
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="org6a81720">;; stop emacs asking for confirmation when eval source code
+(setq org-confirm-babel-evaluate nil)
+
+;; active Org-babel languages
+(org-babel-do-load-languages
+  'org-babel-load-languages
+    '(;; other Babel languages
+      (emacs-lisp . t)
+      (ditaa . t)
+      (python . t)
+      (shell . t)
+      (plantuml . t)))
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="orgc4a1831">;; 调试好久的颜色，效果超赞！todo keywords 增加背景色
+(setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
+                               ("HACK" . (:foreground "white" :background "#2E8B57"  :weight bold))
+                               ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="orgbae85cd">;; Org archive
+(setq org-archive-location "%s_archive::date-tree")
+
+(defadvice org-archive-subtree
+    (around org-archive-subtree-to-data-tree activate)
+  "org-archive-subtree to date-tree"
+  (if
+      (string= "date-tree"
+               (org-extract-archive-heading
+                (org-get-local-archive-location)))
+      (let* ((dct (decode-time (org-current-time)))
+             (y (nth 5 dct))
+             (m (nth 4 dct))
+             (d (nth 3 dct))
+             (this-buffer (current-buffer))
+             (location (org-get-local-archive-location))
+             (afile (org-extract-archive-file location))
+             (org-archive-location
+              (format "%s::*** %04d-%02d-%02d %s" afile y m d
+                      (format-time-string "%A" (encode-time 0 0 0 d m y)))))
+        (message "afile=%s" afile)
+        (unless afile
+          (error "Invalid `org-archive-location'"))
+        (save-excursion
+          (switch-to-buffer (find-file-noselect afile))
+          ;; (org-datetree-find-year-create y)
+          ;; (org-datetree-find-month-create y m)
+          ;; (org-datetree-find-day-create y m d)
+          (widen)
+          (switch-to-buffer this-buffer))
+        ad-do-it)
+    ad-do-it))
+
+
+;; 把 org_archive 文件设置为 org-mode
+(add-to-list 'auto-mode-alist '("\\.org_archive\\'" . org-mode))
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="org2d85c85">;; agenda 里面时间块彩色显示
+;; From: https://emacs-china.org/t/org-agenda/8679/3
+(defun ljg/org-agenda-time-grid-spacing ()
+  "Set different line spacing w.r.t. time duration."
+  (save-excursion
+    (let* ((background (alist-get 'background-mode (frame-parameters)))
+           (background-dark-p (string= background "dark"))
+           (colors (list "#1ABC9C" "#2ECC71" "#3498DB" "#9966ff"))
+           pos
+           duration)
+      (nconc colors colors)
+      (goto-char (point-min))
+      (while (setq pos (next-single-property-change (point) 'duration))
+        (goto-char pos)
+        (when (and (not (equal pos (point-at-eol)))
+                   (setq duration (org-get-at-bol 'duration)))
+          (let ((line-height (if (&lt; duration 30) 1.0 (+ 0.5 (/ duration 60))))
+                (ov (make-overlay (point-at-bol) (1+ (point-at-eol)))))
+            (overlay-put ov 'face `(:background ,(car colors)
+                                                :foreground
+                                                ,(if background-dark-p "black" "white")))
+            (setq colors (cdr colors))
+            (overlay-put ov 'line-height line-height)
+            (overlay-put ov 'line-spacing (1- line-height))))))))
+
+(add-hook 'org-agenda-finalize-hook #'ljg/org-agenda-time-grid-spacing)
+
+(setq org-agenda-prefix-format '((agenda . "%t %s ")))
+(setq org-agenda-clockreport-parameter-plist
+      '(:link t :maxlevel 6 :fileskip0 t :compact t :narrow 60 :score 0))
+
+(setq org-agenda-start-on-weekday nil)
+(setq org-agenda-log-mode-items '(clock))
+(setq org-agenda-include-all-todo t)
+(setq org-agenda-time-leading-zero t)
+(setq org-agenda-use-time-grid nil)
+
+(setq org-agenda-include-diary nil)
+(setq org-agenda-files (list  "~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd/gtd.org"
+                              "~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd/gtd.org_archive"))
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="org57dfbfe">
+;; 使用 reveal.js 来生成 html 版本的 ppt
+;; https://opensource.com/article/18/2/how-create-slides-emacs-org-mode-and-revealjs
+
+(require 'ox-reveal)
+(setq org-reveal-root (concat (expand-file-name "~/Library/Mobile Documents/com~apple~CloudDocs/org/reveal.js")))
+
+;; 可选主题在 reveal.js 安装目录的 css/theme/
+;; beige/black/white/blood/league/moon/night/serif/simple/sky/solarized
+(setq org-reveal-theme "simple")
+(setq org-reveal-control t)
+(setq org-reveal-center t)
+(setq org-reveal-progress t)
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="orga8237f2">;; 设置快捷键
+
+(evil-leader/set-key "op" 'org-pomodoro)
+(evil-leader/set-key "oc" 'org-capture)
+(evil-leader/set-key "oa" 'org-agenda)
+(evil-leader/set-key "ol" 'org-store-link)
+(evil-leader/set-key "el" 'eval-print-last-sexp)
+(evil-leader/set-key "od" 'org-archive-subtree)
+
+(evil-leader/set-key "oip" 'org-set-property)
+(evil-leader/set-key "oil" 'org-insert-link)
+(evil-leader/set-key "ois" 'org-time-stamp)
+(evil-leader/set-key "oid" 'org-insert-drawer)
+(evil-leader/set-key "oif" 'org-footnote-action)
+
+(evil-leader/set-key "ood" (lambda () (interactive) (find-file "~/spacemacs-config/spacemacs-config.org")))
+(evil-leader/set-key "oog" (lambda () (interactive) (find-file "~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd/gtd.org")))
+(evil-leader/set-key "ool" (lambda () (interactive) (find-file "~/.spacemacs.d/layers/lijigang/packages.el")))
+
+;; 插入 easy template
+(evil-leader/set-key "ds" 'org-insert-structure-template)
+
+(global-set-key (kbd "C--") 'org-table-insert-hline)
+</pre>
+</div>
+
+<p>
+再来显示相关的:
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="orgd2c5ceb">;;;;;;;;;;;;;;;;;;;;;;
+;; 外观展示相关配置 ;;
+;;;;;;;;;;;;;;;;;;;;;;
+
+;; 在状态栏显示时间
+(display-time-mode 1)
+
+(global-hl-line-mode -1)
+
+(global-visual-line-mode 1)
+
+;; 换行宽度
+(setq-default fill-column 80)
+
+;; 打开黄金比例模式, 当前使用的窗口所占比例为 0.618
+(golden-ratio-mode)
+
+;; 默认把新开的 Window 显示在右侧
+(setq split-height-threshold nil)
+(setq split-width-threshold 0)
+
+;; Remove the markup characters, i.e., "/text/" becomes (italized) "text"
+(setq org-hide-emphasis-markers t)
+
+;; more useful frame title, that show either a file or a
+;; buffer name (if the buffer isn't visiting a file)
+(setq frame-title-format
+      '("" " 為學日益, 為道日損 - "
+        (:eval (if (buffer-file-name)
+                   (abbreviate-file-name (buffer-file-name)) "%b"))))
+</pre>
+</div>
+
+<p>
+配置下 LaTeX 相关内容:
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="org5748cd9">
+;; LaTeX 配置
+(setq Tex-command-default "XeLaTeX")
+
+;; latex 支持中文
+(require 'ox)
+(require 'ox-html)
+(require 'ox-publish)
+
+(add-to-list 'org-latex-classes '("pdf" "\\documentclass[fontset = mac]{ctexart}
+[NO-DEFAULT-PACKAGES]
+\\usepackage[colorlinks,linkcolor=black,anchorcolor=black,
+             citecolor=black]{hyperref}
+\\usepackage[top=3truecm,bottom=2.5truecm,
+            left=1.1truecm,right=1.1truecm,
+            bindingoffset=1.0truecm,
+            headsep=1.6truecm,
+            footskip=1.5truecm,
+            headheight=15pt    % 标准中没有要求页眉的高度，这里设置成
+                               % 15pt 了
+           ]{geometry}
+\\setCJKmainfont[BoldFont={Microsoft YaHei},ItalicFont={Microsoft YaHei}]{Microsoft YaHei}
+"
+                  ("\\section{%s}" . "\\section*{%s}")
+                  ("\\subsection{%s}" . "\\subsection*{%s}")
+                  ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+                  ("\\paragraph{%s}" . "\\paragraph*{%s}")
+                  ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+
+(setq org-latex-default-class "pdf")
+
+(setq org-latex-pdf-process
+      '(
+        "xelatex -interaction nonstopmode -output-directory %o %f"
+        "xelatex -interaction nonstopmode -output-directory %o %f"
+        "xelatex -interaction nonstopmode -output-directory %o %f"
+        "rm -fr %b.out %b.log %b.tex auto"
+        ))
+
+(defun peng-use-xelatex ()
+  (interactive)
+  (let* ((tempfile
+      (file-name-base))) (progn (shell-command (concat "rm -rf " tempfile
+                               ".bbl " tempfile ".blg " tempfile ".out " tempfile ".log " tempfile
+                               ".aux " tempfile ".toc" tempfile ".pdf"))
+                    (compile (concat "xelatex "
+                             (concat tempfile ".tex")
+                             (concat ";rm -rf " tempfile ".bbl " tempfile
+                                 ".blg " tempfile ".out " tempfile ".log " tempfile ".aux " tempfile
+".toc" ";open " tempfile ".pdf"))))))
+</pre>
+</div>
+
+<p>
+其它配置项:
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="org2ee39dd">
+;; Tangle Org files when we save them
+;; 一保存文件直接 tangle 代码
+;; (defun tangle-on-save-org-mode-file()
+;;   (when (string= (message "%s" major-mode) "org-mode")
+;;     (org-babel-tangle)))
+
+;; (add-hook 'after-save-hook 'tangle-on-save-org-mode-file)
+
+;; 文件有更新, buffer 自动更新
+(global-auto-revert-mode)
+
+;; 编码选用 UTF-8
+(prefer-coding-system 'utf-8)
+(set-default-coding-systems 'utf-8)
+(setq default-buffer-file-coding-system 'utf-8)
+
+;; gpg related
+(setq epg-gpg-program "gpg2")
+(setq epa-pinentry-mode 'loopback)
+
+
+(setq user-full-name "lijigang"
+      user-mail-address "i@lijigang.com")
+
+;; 插入今年的时间进度条
+(defun make-progress (width percent has-number?)
+  (let* ((done (/ percent 100.0))
+         (done-width (floor (* width done))))
+    (concat
+     "["
+     (make-string done-width ?/)
+     (make-string (- width done-width) ? )
+     "]"
+     (if has-number? (concat " " (number-to-string percent) "%"))
+     )))
+
+(defun insert-day-progress ()
+  (interactive)
+  (let* ((today (time-to-day-in-year (current-time)))
+         (percent (floor (* 100 (/ today 365.0)))))
+    (insert (make-progress 30 percent t))
+    ))
+
+(evil-leader/set-key "oit" 'insert-day-progress)
+
+(add-to-list 'org-src-lang-modes '("plantuml" . plantuml))
+
+;; 时间戳使用英文星期
+(setq system-time-locale "C")
+
+(global-company-mode)
+
+(setq org-ditaa-jar-path "~/Library/Mobile Documents/com~apple~CloudDocs/org/org-mode/contrib/scripts/ditaa.jar")
+
+(setq plantuml-default-exec-mode 'jar)
+(setq org-plantuml-jar-path
+      (expand-file-name "~/Library/Mobile Documents/com~apple~CloudDocs/org/org-resources/plantuml.jar"))
+
+(setq yas-snippet-dirs (list "~/.spacemacs.d/snippets/"))
+
+(setq dired-use-ls-dired nil)
+</pre>
+</div>
+
+<p>
+全部梳理完毕, 现在可以生成配置文件 init.el 了:
+</p>
+<pre class="example" id="init.el">
+#+BEGIN_SRC emacs-lisp :tangle ~/.spacemacs.d/init.el :exports none :noweb yes :mkdirp yes
+(defun dotspacemacs/layers ()
+  (setq-default
+   &lt;&lt;spacemacs-layers&gt;&gt;
+))
+
+(defun dotspacemacs/init ()
+  (setq-default
+   &lt;&lt;spacemacs-init&gt;&gt;
+))
+
+
+(defun dotspacemacs/user-init ()
+  &lt;&lt;spacemacs-user-init&gt;&gt;
+)
+
+
+(defun dotspacemacs/user-config ()
+  (with-eval-after-load 'org
+    &lt;&lt;spacemacs-user-config-org-base&gt;&gt;
+    &lt;&lt;spacemacs-user-config-org-babel&gt;&gt;
+    &lt;&lt;spacemacs-user-config-org-appearance&gt;&gt;
+    &lt;&lt;spacemacs-user-config-org-archive&gt;&gt;
+    &lt;&lt;spacemacs-user-config-org-agenda&gt;&gt;
+    &lt;&lt;spacemacs-user-config-org-reveal&gt;&gt;
+    &lt;&lt;spacemacs-user-config-org-keyboard&gt;&gt;
+  )
+  &lt;&lt;spacemacs-user-config-display&gt;&gt;
+  &lt;&lt;spacemacs-user-config-latex&gt;&gt;
+  &lt;&lt;spacemacs-user-config-others&gt;&gt;
+)
+#+END_SRC
+</pre>
+</div>
+</div>
+<div id="outline-container-org0ff4726" class="outline-2">
+<h2 id="org0ff4726">大改: 定义 private layer</h2>
+<div class="outline-text-2" id="text-org0ff4726">
+<p>
+除了配置一个个 package 这个笨办法以外, Spacemacs 引入了 layer 的概念, 即将一个场景(比如使用 org-mode 或者 python)常用的一些 package 给打包放一起, 统称为一个 layer.
+</p>
+
+<p>
+Spacemacs 出厂自带了很多常用的 layer, 但同时也支持你自定义. 我会把日常使用到的一些 package 放到自己的 layer 中.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="org2626bac">(defconst lijigang-packages
+  '(org-page
+    dired-icon
+    cnfonts
+    swiper
+    wttrin
+    beacon
+    pangu-spacing
+    pyim
+    posframe
+    org-kanban
+    visual-fill-column
+    all-the-icons
+    doom-modeline
+    org-analyzer
+    org-brain
+    )
+)
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp" id="orge8a0a2c">(defun lijigang/init-org-page()
+  "Initialize org-page to publish blog."
+  (use-package org-page
+    :ensure t
+    :config (progn
+          (setq op/site-main-title "常识")
+          (setq op/personal-github-link "https://github.com/lijigang")
+          (setq op/repository-directory "~/lijigang")
+          (setq op/site-domain "http://lijigang.github.io/")
+          (setq op/theme-root-directory (car (file-expand-wildcards "~/.emacs.d/elpa/org-page-*/themes" t)))
+          (setq op/theme 'ljg)
+          (setq op/highlight-render 'js)
+          (setq op/category-ignore-list '("themes" "assets" "images"))
+          (setq op/category-config-alist
+            '(("blog"
+              :show-meta t
+              :show-comment t
+              :uri-generator op/generate-uri
+              :uri-template "/blog/%y/%m/%d/%t/"
+              :sort-by :date     ;; how to sort the posts
+              :category-index nil) ;; generate category index or not
+              ("index"
+              :show-meta nil
+              :show-comment nil
+              :uri-generator op/generate-uri
+              :uri-template "/"
+              :sort-by :date
+              :category-index nil)
+              ("about"
+              :show-meta nil
+              :show-comment nil
+              :uri-generator op/generate-uri
+              :uri-template "/about/"
+              :sort-by :date
+              :category-index nil)))
+          (bind-key "C-c M-p" 'op/do-publication-and-preview-site)))
+    )
+
+(defun lijigang/init-dired-icon ()
+  "Initialize dired-icon"
+  (add-hook 'dired-mode-hook 'dired-icon-mode)
+  (add-hook 'dired-mode-hook
+            (lambda ()
+              (highlight-lines-matching-regexp "\.org$" 'hi-yellow))))
+
+(defun lijigang/init-cnfonts()
+  "Initialize cnfonts"
+  (use-package cnfonts
+    :init
+    (cnfonts-enable)
+    (cnfonts-set-spacemacs-fallback-fonts)))
+
+(defun lijigang/init-swiper()
+  "Initialize swiper"
+  (use-package swiper
+    :init
+    (define-key global-map (kbd "C-s") 'swiper)))
+
+
+(defun lijigang/init-wttrin()
+  (use-package wttrin
+    :ensure t
+    :commands (wttrin)
+    :init
+    (setq wttrin-default-cities '("Beijing"
+                                  "Bristol")))
+  )
+
+(defun lijigang/init-beacon()
+  "Initialize beacon"
+  (use-package beacon
+    :init
+    (beacon-mode 1)
+    (setq beacon-color "#666600")))
+
+(defun lijigang/init-pangu-spacing()
+  "Initialize pangu-spacing"
+  (use-package pangu-spacing
+    :init
+    (global-pangu-spacing-mode 1)
+    (setq pangu-spacing-real-insert-separtor t)))
+
+(defun lijigang/init-pyim()
+  "Initialize pyim"
+  (use-package pyim
+    :ensure nil
+    :demand t
+    :init
+    (setq pyim-punctuation-translate-p '(no yes auto))
+    :config
+    (setq default-input-method "pyim")
+    (setq pyim-default-scheme 'wubi)
+
+    ;; 让 Emacs 启动时自动加载 pyim 词库
+    (add-hook 'emacs-startup-hook
+              #'(lambda () (pyim-restart-1 t)))
+
+    (setq pyim-page-tooltip 'posframe)
+    (setq pyim-dicts '((:name "基础词库" :file "~/Library/Mobile Documents/com~apple~CloudDocs/3-config/wbdict.pyim")))
+    (global-set-key (kbd "C-9") 'toggle-input-method)
+    ))
+
+(defun lijigang/init-posframe ()
+  (use-package posframe))
+
+(defun lijigang/init-org-kanban ()
+  (use-package org-kanban))
+
+(defun lijigang/init-visual-fill-column ()
+  (use-package visual-fill-column
+    :ensure t
+    :defer t
+    :init
+    (dolist (hook '(visual-line-mode-hook
+                    org-mode-hook
+                    text-mode-hook
+                    ))
+      (add-hook hook #'visual-fill-column-mode))
+    :config (setq-default visual-fill-column-width 90
+                          ;; visual-fill-column-center-text t
+                          visual-fill-column-fringes-outside-margins nil)))
+
+(defun lijigang/init-all-the-icons ()
+  (use-package all-the-icons))
+
+(defun lijigang/init-doom-modeline ()
+  (use-package doom-modeline
+    :ensure t
+    :hook (after-init . doom-modeline-mode)
+    :config
+    (setq doom-modeline-major-mode-color-icon t)
+    (setq doom-modeline-buffer-state-icon t)
+    (setq doom-modeline-buffer-modification-icon t)
+    (setq doom-modeline-enable-word-count t)
+    (setq doom-modeline-vcs-max-length 12)
+    ))
+
+(defun lijigang/init-org-analyzer ()
+  (use-package org-analyzer))
+
+;; see https://github.com/Kungsgeten/org-brain#setup-and-requirements
+(defun lijigang/init-org-brain ()
+  (use-package org-brain
+    :ensure t
+    :init
+    (setq org-brain-path "~/Library/Mobile Documents/com~apple~CloudDocs/org/brain/")
+    ;; For Evil users
+    (with-eval-after-load 'evil
+      (evil-set-initial-state 'org-brain-visualize-mode 'emacs))
+    :config
+    (setq org-id-track-globally t)
+    (setq org-id-locations-file "~/library/Mobile Documents/com~apple~CloudDocs/org/.org-id-locations")
+    (push '("b" "Brain" plain (function org-brain-goto-end)
+            "* %i%?" :empty-lines 1)
+          org-capture-templates)
+    (setq org-brain-visualize-default-choices 'all)
+    (setq org-brain-title-max-length 12)
+    (setq org-brain-include-file-entries nil
+          org-brain-file-entries-use-title nil)
+  )
+)
+</pre>
+</div>
+
+<p>
+把上面配置生成文件即可:
+</p>
+<pre class="example">
+#+BEGIN_SRC emacs-lisp :tangle ~/.spacemacs.d/layers/lijigang/packages.el :exports none :noweb yes :mkdirp yes
+&lt;&lt;private-layer-lijigang-packages&gt;&gt;
+&lt;&lt;private-layer-lijigang-init&gt;&gt;
+#+END_SRC
+</pre>
+</div>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2020-04-10</pubDate>
+      <guid>http://lijigang.github.io/blog/2019/04/14/emacs-用一个-org-文件管理所有配置/</guid>
+    </item>
     <item>
       <title>Emacs: 神器 Org-mode</title>
       <link>http://lijigang.github.io/blog/2018/08/08/emacs-神器-org-mode/</link>
@@ -46,28 +843,28 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org89c0216">美化外观</a></li>
-<li><a href="#orgba857f1">快速记录</a></li>
-<li><a href="#org1feea31">快速归档</a></li>
-<li><a href="#org59161fe">任务属性</a></li>
-<li><a href="#org8ec77d6">超级应用</a>
+<li><a href="#orgef7af4d">美化外观</a></li>
+<li><a href="#orgd593589">快速记录</a></li>
+<li><a href="#orgac24997">快速归档</a></li>
+<li><a href="#orgd8daae8">任务属性</a></li>
+<li><a href="#org5fb8265">超级应用</a>
 <ul>
-<li><a href="#org6a59858">Tables : 其实我也能当 Excel 使</a></li>
-<li><a href="#orgc20ea39">Hypelinks: 把我当浏览器使也可以</a></li>
-<li><a href="#org6b959aa">Export : 分享给不使用 Orgmode 的人</a></li>
+<li><a href="#orgf2dddf6">Tables : 其实我也能当 Excel 使</a></li>
+<li><a href="#orgc446372">Hypelinks: 把我当浏览器使也可以</a></li>
+<li><a href="#org3449f83">Export : 分享给不使用 Orgmode 的人</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org89c0216" class="outline-2">
-<h2 id="org89c0216">美化外观</h2>
-<div class="outline-text-2" id="text-org89c0216">
+<div id="outline-container-orgef7af4d" class="outline-2">
+<h2 id="orgef7af4d">美化外观</h2>
+<div class="outline-text-2" id="text-orgef7af4d">
 </div>
-<div id="outline-container-org961208c" class="outline-4">
-<h4 id="org961208c">美化: Headline</h4>
-<div class="outline-text-4" id="text-org961208c">
+<div id="outline-container-org2fedb6a" class="outline-4">
+<h4 id="org2fedb6a">美化: Headline</h4>
+<div class="outline-text-4" id="text-org2fedb6a">
 <p>
 默认显示 Headline 的 <code>*</code> 符号看着和内容无关, 又特别扎眼, 希望让它显示美观些, 同时又不影响查看内容和缩进.
 </p>
@@ -97,9 +894,9 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 </div>
 </div>
 
-<div id="outline-container-org9e348ed" class="outline-4">
-<h4 id="org9e348ed">美化: Todo Keyword</h4>
-<div class="outline-text-4" id="text-org9e348ed">
+<div id="outline-container-orgc84a72b" class="outline-4">
+<h4 id="orgc84a72b">美化: Todo Keyword</h4>
+<div class="outline-text-4" id="text-orgc84a72b">
 <p>
 每个 Headline 都可以有不同状态, 比如待启动/进行中/阻塞中/已完成 等等, 可以根据自己的实际需求来定义这些状态, 定义方法也很简单, 只要设置下面这个变量就好:
 </p>
@@ -136,9 +933,9 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 </div>
 </div>
 
-<div id="outline-container-orgc61c4ea" class="outline-4">
-<h4 id="orgc61c4ea">美化: Agenda</h4>
-<div class="outline-text-4" id="text-orgc61c4ea">
+<div id="outline-container-orga6fb40b" class="outline-4">
+<h4 id="orga6fb40b">美化: Agenda</h4>
+<div class="outline-text-4" id="text-orga6fb40b">
 <p>
 Agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行文本. 能不能按时间段大小显示成区块样式, 更直观显示时间计划?
 </p>
@@ -189,13 +986,13 @@ Agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行�
 </div>
 </div>
 
-<div id="outline-container-orgba857f1" class="outline-2">
-<h2 id="orgba857f1">快速记录</h2>
-<div class="outline-text-2" id="text-orgba857f1">
+<div id="outline-container-orgd593589" class="outline-2">
+<h2 id="orgd593589">快速记录</h2>
+<div class="outline-text-2" id="text-orgd593589">
 </div>
-<div id="outline-container-org9c2fcee" class="outline-4">
-<h4 id="org9c2fcee">Capture : 快速记录任务</h4>
-<div class="outline-text-4" id="text-org9c2fcee">
+<div id="outline-container-orgbba7d47" class="outline-4">
+<h4 id="orgbba7d47">Capture : 快速记录任务</h4>
+<div class="outline-text-4" id="text-orgbba7d47">
 <p>
 有时候正在 A 文件中写东西, 突然有个想法想记录到你的 idea list 中, 希望可以实现不管当前在哪个地方, 都能一键记录文字到指定文件中.
 </p>
@@ -239,9 +1036,9 @@ Org mode 的 org-capture 功能正是实现这个需求的自带功能. 只需�
 </div>
 </div>
 </div>
-<div id="outline-container-org1feea31" class="outline-2">
-<h2 id="org1feea31">快速归档</h2>
-<div class="outline-text-2" id="text-org1feea31">
+<div id="outline-container-orgac24997" class="outline-2">
+<h2 id="orgac24997">快速归档</h2>
+<div class="outline-text-2" id="text-orgac24997">
 <p>
 随着任务记录越来越多, 历史上已完成的任务如果一直累积在任务文件中, 文件会越来越大, 也会影响搜索结果和速度. 希望可以将已完成的任务快速归档存储到指定文件, 实现任务文件精简, 同时历史已完成任务还不会丢弃, 有需要时可随时搜索查看归档文件.
 </p>
@@ -275,13 +1072,13 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 
-<div id="outline-container-org59161fe" class="outline-2">
-<h2 id="org59161fe">任务属性</h2>
-<div class="outline-text-2" id="text-org59161fe">
+<div id="outline-container-orgd8daae8" class="outline-2">
+<h2 id="orgd8daae8">任务属性</h2>
+<div class="outline-text-2" id="text-orgd8daae8">
 </div>
-<div id="outline-container-orgd5b27f8" class="outline-4">
-<h4 id="orgd5b27f8">Time Clocking : 记录任务用时</h4>
-<div class="outline-text-4" id="text-orgd5b27f8">
+<div id="outline-container-org2d9df63" class="outline-4">
+<h4 id="org2d9df63">Time Clocking : 记录任务用时</h4>
+<div class="outline-text-4" id="text-org2d9df63">
 <p>
 希望记录任务的开始时间和结束时间, 并自动显示经历时长.
 </p>
@@ -308,9 +1105,9 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 
-<div id="outline-container-orgb3ac704" class="outline-4">
-<h4 id="orgb3ac704">Time Reporting: 时间都去哪儿了</h4>
-<div class="outline-text-4" id="text-orgb3ac704">
+<div id="outline-container-org12180ce" class="outline-4">
+<h4 id="org12180ce">Time Reporting: 时间都去哪儿了</h4>
+<div class="outline-text-4" id="text-org12180ce">
 <p>
 我们已经在每个任务开始和结果时都打了时间戳, 那生成一个时间花费的报表应该也不在话
 下了.
@@ -327,9 +1124,9 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
   />
 </div>
 </div>
-<div id="outline-container-orgf226478" class="outline-4">
-<h4 id="orgf226478">Deadline: 设置死线</h4>
-<div class="outline-text-4" id="text-orgf226478">
+<div id="outline-container-org8d5d42b" class="outline-4">
+<h4 id="org8d5d42b">Deadline: 设置死线</h4>
+<div class="outline-text-4" id="text-org8d5d42b">
 <p>
 在日常 GTD 过程中, 还经常会有的需求是给某一任务设定 Deadline (org-deadline ,d)
 或 Schedule (org-schedule ,s) .
@@ -354,9 +1151,9 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
   />
 </div>
 </div>
-<div id="outline-container-org9fd2e00" class="outline-4">
-<h4 id="org9fd2e00">Tags : 换个角度看世界</h4>
-<div class="outline-text-4" id="text-org9fd2e00">
+<div id="outline-container-orge35c4cf" class="outline-4">
+<h4 id="orge35c4cf">Tags : 换个角度看世界</h4>
+<div class="outline-text-4" id="text-orge35c4cf">
 <p>
 使用时间久了之后, 历史任务积累了很多. 想筛选或查找某个任务, 只能靠印象中任务标题
 中的文本来查找, 很低效. 希望可以在每个任务上面打标签, 这样后面可以筛选标签来找到
@@ -373,9 +1170,9 @@ Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或某些 
 </div>
 </div>
 
-<div id="outline-container-org7f58e5b" class="outline-4">
-<h4 id="org7f58e5b">Properties: 再换个角度看看</h4>
-<div class="outline-text-4" id="text-org7f58e5b">
+<div id="outline-container-orgcb561ce" class="outline-4">
+<h4 id="orgcb561ce">Properties: 再换个角度看看</h4>
+<div class="outline-text-4" id="text-orgcb561ce">
 <p>
 使用 tags 已经可以解决一部分筛选查找历史任务的问题了, 但如果你想针对某一个任务做
 些类似数据库似的字段存储, 比如你记录了吃过的五星级餐厅的列表, 想针对每个餐厅单独
@@ -395,13 +1192,13 @@ Property 占一行.
 </div>
 </div>
 </div>
-<div id="outline-container-org8ec77d6" class="outline-2">
-<h2 id="org8ec77d6">超级应用</h2>
-<div class="outline-text-2" id="text-org8ec77d6">
+<div id="outline-container-org5fb8265" class="outline-2">
+<h2 id="org5fb8265">超级应用</h2>
+<div class="outline-text-2" id="text-org5fb8265">
 </div>
-<div id="outline-container-org6a59858" class="outline-3">
-<h3 id="org6a59858">Tables : 其实我也能当 Excel 使</h3>
-<div class="outline-text-3" id="text-org6a59858">
+<div id="outline-container-orgf2dddf6" class="outline-3">
+<h3 id="orgf2dddf6">Tables : 其实我也能当 Excel 使</h3>
+<div class="outline-text-3" id="text-orgf2dddf6">
 <p>
 在文本中当然也少不了记录表格的需求, 比如做会议纪要, 时间/地点/人员/主题/结论/后
 续安排这些内容通过表格整理记录就会很方便. 怎么实现表格?
@@ -433,9 +1230,9 @@ Property 占一行.
 </p>
 </div>
 </div>
-<div id="outline-container-orgc20ea39" class="outline-3">
-<h3 id="orgc20ea39">Hypelinks: 把我当浏览器使也可以</h3>
-<div class="outline-text-3" id="text-orgc20ea39">
+<div id="outline-container-orgc446372" class="outline-3">
+<h3 id="orgc446372">Hypelinks: 把我当浏览器使也可以</h3>
+<div class="outline-text-3" id="text-orgc446372">
 <p>
 Org mode 是记录纯文本的, 但如果有超链接想存储的话, 能支持点击跳转浏览器访问吗?
 </p>
@@ -449,9 +1246,9 @@ org mode 支持超链接跳转到文件, 邮件, 网页等等.
 </p>
 </div>
 </div>
-<div id="outline-container-org6b959aa" class="outline-3">
-<h3 id="org6b959aa">Export : 分享给不使用 Orgmode 的人</h3>
-<div class="outline-text-3" id="text-org6b959aa">
+<div id="outline-container-org3449f83" class="outline-3">
+<h3 id="org3449f83">Export : 分享给不使用 Orgmode 的人</h3>
+<div class="outline-text-3" id="text-org3449f83">
 <p>
 如果要分享文档给别人, 他们不使用 org mode 怎么办? 能支持导出成其它通用的文档格式吗?
 </p>
@@ -470,6 +1267,101 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
       <guid>http://lijigang.github.io/blog/2018/08/08/emacs-神器-org-mode/</guid>
     </item>
     <item>
+      <title>Emacs: 使用 Org-Page 搭建网站</title>
+      <link>http://lijigang.github.io/blog/2018/08/18/emacs-使用-org-page-搭建网站/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>Emacs: 使用 Org-Page 搭建网站</h1>
+            
+<div id="outline-container-org1c7da90" class="outline-2">
+<h2 id="org1c7da90">安装 Org-Page</h2>
+<div class="outline-text-2" id="text-org1c7da90">
+<p>
+使用 <code>Spacemacs</code> 安装 Org-Page 极其方便. 只需要在自己的 layer 中增加 org-page 即可:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(defconst lijigang-packages
+  '(org-page
+    cnfonts
+    swiper
+    wttrin
+    beacon)
+)
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge21f0e7" class="outline-2">
+<h2 id="orge21f0e7">配置 Org-Page</h2>
+<div class="outline-text-2" id="text-orge21f0e7">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(defun lijigang/init-org-page()
+  "Initialize org-page to publish blog."
+  (use-package org-page
+    :ensure t
+    :config (progn
+          (setq op/site-main-title "為學日益, 為道日損")
+          (setq op/personal-github-link "https://github.com/lijigang")
+          (setq op/repository-directory "~/lijigang")
+          (setq op/site-domain "http://lijigang.github.io/")
+          (setq op/theme-root-directory "~/.emacs.d/elpa/org-page-20170806.1924/themes")
+          (setq op/theme 'ljg)
+          (setq op/personal-google-analytics-id "your_id")
+          (setq op/highlight-render 'js)
+          (setq op/category-config-alist
+            '(("blog"
+              :show-meta t
+              :show-comment t
+              :uri-generator op/generate-uri
+              :uri-template "/blog/%t/"
+              :sort-by :date     ;; how to sort the posts
+              :category-index nil) ;; generate category index or not
+              ("index"
+              :show-meta nil
+              :show-comment nil
+              :uri-generator op/generate-uri
+              :uri-template "/"
+              :sort-by :date
+              :category-index nil)
+              ("about"
+              :show-meta nil
+              :show-comment nil
+              :uri-generator op/generate-uri
+              :uri-template "/about/"
+              :sort-by :date
+              :category-index nil)))
+          (bind-key "C-c M-p" 'op/do-publication-and-preview-site)))
+    )
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org15135b6" class="outline-2">
+<h2 id="org15135b6">安装主题</h2>
+<div class="outline-text-2" id="text-org15135b6">
+<p>
+可以参照 <a href="https://github.com/lijigang/ljg">这个主题说明
+</a>
+</p>
+<ol class="org-ol">
+<li>切换到 org-page 目录: cd ~/.emacs.d/elpa/org-page-xxxx.xx/themes</li>
+<li>下载到本地: git clone <a href="https://github.com/lijigang/ljg">https://github.com/lijigang/ljg</a></li>
+<li>配置 org-page 的主题变量: (setq op/theme ‘ljg)</li>
+</ol>
+</div>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2020-04-10</pubDate>
+      <guid>http://lijigang.github.io/blog/2018/08/18/emacs-使用-org-page-搭建网站/</guid>
+    </item>
+    <item>
       <title>效率: 手机如何高效做事项管理</title>
       <link>http://lijigang.github.io/blog/2020/03/05/效率-手机如何高效做事项管理/</link>
       <description><![CDATA[<section id="content" role="main">
@@ -477,9 +1369,9 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
         <div class="col-md-2"></div>
             <h1>效率: 手机如何高效做事项管理</h1>
             
-<div id="outline-container-org4199997" class="outline-2">
-<h2 id="org4199997">目标: 在手机端实现高效管理事项</h2>
-<div class="outline-text-2" id="text-org4199997">
+<div id="outline-container-org4ef30f1" class="outline-2">
+<h2 id="org4ef30f1">目标: 在手机端实现高效管理事项</h2>
+<div class="outline-text-2" id="text-org4ef30f1">
 <p>
 具体来说, 需求包括两项:
 </p>
@@ -495,9 +1387,9 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
 </div>
 </div>
 
-<div id="outline-container-org8d491f6" class="outline-2">
-<h2 id="org8d491f6">解决: 华为 <code>字母手势</code></h2>
-<div class="outline-text-2" id="text-org8d491f6">
+<div id="outline-container-org1d93d3c" class="outline-2">
+<h2 id="org1d93d3c">解决: 华为 <code>字母手势</code></h2>
+<div class="outline-text-2" id="text-org1d93d3c">
 <ol class="org-ol">
 <li><p>
 极高效的输入事项
@@ -529,9 +1421,9 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
 </div>
 </div>
 
-<div id="outline-container-orge5eecda" class="outline-2">
-<h2 id="orge5eecda">效果</h2>
-<div class="outline-text-2" id="text-orge5eecda">
+<div id="outline-container-orgece9d2f" class="outline-2">
+<h2 id="orgece9d2f">效果</h2>
+<div class="outline-text-2" id="text-orgece9d2f">
 <p>
 现在已经可以在任意软件界面中, 指关节画 C 唤醒日历, 添加事项和时间.
 </p>
@@ -559,9 +1451,9 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
 Emacs 中主要是靠纯文本的一些骚操作来实现各种功能, 其中有一项是把输入的文本生成图片. 这就是今天要说的 <code>PlantUML</code>.
 </p>
 
-<div id="outline-container-orgb0a26b3" class="outline-2">
-<h2 id="orgb0a26b3">PlantUML 是什么</h2>
-<div class="outline-text-2" id="text-orgb0a26b3">
+<div id="outline-container-orgeed28ce" class="outline-2">
+<h2 id="orgeed28ce">PlantUML 是什么</h2>
+<div class="outline-text-2" id="text-orgeed28ce">
 <p>
 PlantUML 是用来快速创建 UML 图形的组件. 通过简单的语法来定义图形, 然后它就可以生成 PNG 图片. 比如:
 </p>
@@ -580,9 +1472,9 @@ Server --[#0c0f0a]&gt; Phone : 返回 HTML
 </div>
 </div>
 
-<div id="outline-container-org66ae294" class="outline-2">
-<h2 id="org66ae294">PlantUML 如何在 Emacs 中配置</h2>
-<div class="outline-text-2" id="text-org66ae294">
+<div id="outline-container-org75e5b79" class="outline-2">
+<h2 id="org75e5b79">PlantUML 如何在 Emacs 中配置</h2>
+<div class="outline-text-2" id="text-org75e5b79">
 <ol class="org-ol">
 <li><a href="http://plantuml.com/zh/download">下载</a> plantuml.jar 到本地</li>
 <li><p>
@@ -614,9 +1506,9 @@ Server --[#0c0f0a]&gt; Phone : 返回 HTML
 </div>
 </div>
 
-<div id="outline-container-org1172348" class="outline-2">
-<h2 id="org1172348">PlantUML 如何使用</h2>
-<div class="outline-text-2" id="text-org1172348">
+<div id="outline-container-orga2d5b76" class="outline-2">
+<h2 id="orga2d5b76">PlantUML 如何使用</h2>
+<div class="outline-text-2" id="text-orga2d5b76">
 <ol class="org-ol">
 <li><p>
 基础用法
@@ -771,9 +1663,9 @@ Phone -&gt; Phone : 成功加载
         <div class="col-md-2"></div>
             <h1>学习: 必会技能之一 Excel</h1>
             
-<div id="outline-container-orgcf84b55" class="outline-2">
-<h2 id="orgcf84b55">表格 <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></h2>
-<div class="outline-text-2" id="text-orgcf84b55">
+<div id="outline-container-org97e5b3b" class="outline-2">
+<h2 id="org97e5b3b">表格 <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></h2>
+<div class="outline-text-2" id="text-org97e5b3b">
 <img
   src="/assets/blog/2019/03/19/学习-必会技能之一-excel/excel-table.png"
   width="50%"
@@ -784,10 +1676,10 @@ Phone -&gt; Phone : 成功加载
 </p>
 </div>
 <ul class="org-ul">
-<li><a id="orgb9a6164"></a>字体统一, 字号统一<br /></li>
-<li><a id="orge2a6f3f"></a>数字用千位分隔样式<br /></li>
-<li><a id="orgc063bdb"></a>细项要缩进<br />
-<div class="outline-text-5" id="text-orgc063bdb">
+<li><a id="orgead63cd"></a>字体统一, 字号统一<br /></li>
+<li><a id="org77d5a82"></a>数字用千位分隔样式<br /></li>
+<li><a id="org6fcc810"></a>细项要缩进<br />
+<div class="outline-text-5" id="text-org6fcc810">
 <ul class="org-ul">
 <li>不要用 A1 开始使用, 从 B2 开始</li>
 <li>B/C 列宽度设置为 1, 方便缩进呈现</li>
@@ -795,35 +1687,35 @@ Phone -&gt; Phone : 成功加载
 </ul>
 </div>
 </li>
-<li><a id="org7277214"></a>单位要自成一栏<br /></li>
-<li><a id="org657c7b2"></a>上下边框用粗线, 中间用细虚线<br />
-<div class="outline-text-5" id="text-org657c7b2">
+<li><a id="org4240c7b"></a>单位要自成一栏<br /></li>
+<li><a id="org3b5ceb7"></a>上下边框用粗线, 中间用细虚线<br />
+<div class="outline-text-5" id="text-org3b5ceb7">
 <ul class="org-ul">
 <li>隐藏网格线 或者 整张表格背景色设置为白色</li>
 </ul>
 </div>
 </li>
-<li><a id="org1f1a778"></a>文字左对齐, 数字右对齐, 慎用居中<br />
-<div class="outline-text-5" id="text-org1f1a778">
+<li><a id="org1e17410"></a>文字左对齐, 数字右对齐, 慎用居中<br />
+<div class="outline-text-5" id="text-org1e17410">
 <ul class="org-ul">
 <li>列标题中, 如该列为数字列, 标题文字右对齐, 和该列数据估计一致</li>
 </ul>
 </div>
 </li>
-<li><a id="org13eef14"></a>手动输入数字用蓝色, 公式计算数字用黑色<br />
-<div class="outline-text-5" id="text-org13eef14">
+<li><a id="org86e4b3a"></a>手动输入数字用蓝色, 公式计算数字用黑色<br />
+<div class="outline-text-5" id="text-org86e4b3a">
 <ul class="org-ul">
 <li>如有不需要填入数据单元格, 可用 N/A (not applicable) 表示</li>
 <li>重点数据行, 可填充颜色来强调</li>
 </ul>
 </div>
 </li>
-<li><a id="orgce4c064"></a>凡使用的工作表, 设定名称; 凡不使用的工作表, 删之<br /></li>
+<li><a id="orgfaa38b6"></a>凡使用的工作表, 设定名称; 凡不使用的工作表, 删之<br /></li>
 </ul>
 </div>
-<div id="outline-container-org0f2fe81" class="outline-2">
-<h2 id="org0f2fe81">图表 <sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></h2>
-<div class="outline-text-2" id="text-org0f2fe81">
+<div id="outline-container-orgaf876af" class="outline-2">
+<h2 id="orgaf876af">图表 <sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></h2>
+<div class="outline-text-2" id="text-orgaf876af">
 <p>
 to be continued..
 </p>
@@ -867,13 +1759,13 @@ to be continued..
 其不便,故起意将每日推荐文章列表整理到此, 方便随时查阅.
 </p>
 
-<div id="outline-container-org70127da" class="outline-2">
-<h2 id="org70127da">四月</h2>
-<div class="outline-text-2" id="text-org70127da">
+<div id="outline-container-orgf4d5606" class="outline-2">
+<h2 id="orgf4d5606">四月</h2>
+<div class="outline-text-2" id="text-orgf4d5606">
 </div>
-<div id="outline-container-org8e362df" class="outline-3">
-<h3 id="org8e362df">2020-04-09</h3>
-<div class="outline-text-3" id="text-org8e362df">
+<div id="outline-container-org87ea117" class="outline-3">
+<h3 id="org87ea117">2020-04-09</h3>
+<div class="outline-text-3" id="text-org87ea117">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/LXr-BNAZ_gyKgYwmtLckLQ">《为什么抖音做社交这么难？》</a> 抖音社交化的信号来自于最近在内测的两项新
 功能：“连线”和“熟人”。前者的核心功能点是一对一真实视频交友，后者为抖音
@@ -907,9 +1799,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd7237cd" class="outline-3">
-<h3 id="orgd7237cd">2020-04-08</h3>
-<div class="outline-text-3" id="text-orgd7237cd">
+<div id="outline-container-orgd6f5dbf" class="outline-3">
+<h3 id="orgd6f5dbf">2020-04-08</h3>
+<div class="outline-text-3" id="text-orgd6f5dbf">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/8vjybcdv-jvRxGCU8qS6xw">《万字长文实录：消费者变了！》</a> 新冠疫情让人们发现，增长和营销，一定要
 围绕消费者增长来审视。那么我们的市场、消费者发生了什么样的变化？</li>
@@ -945,9 +1837,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org4f20ca9" class="outline-3">
-<h3 id="org4f20ca9">2020-04-07</h3>
-<div class="outline-text-3" id="text-org4f20ca9">
+<div id="outline-container-org4061094" class="outline-3">
+<h3 id="org4061094">2020-04-07</h3>
+<div class="outline-text-3" id="text-org4061094">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Cq5G_Uo775t288urlHL52g">《为什么半个互联网都在玩直播带货？》</a> 疫情黑天鹅之下，众多线下业态停摆，
 越来越多商家将业务搬到线上，企业的老板们纷纷加入到直播带货的大军中。</li>
@@ -982,9 +1874,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org3e4c14d" class="outline-3">
-<h3 id="org3e4c14d">2020-04-06</h3>
-<div class="outline-text-3" id="text-org3e4c14d">
+<div id="outline-container-org9fa1066" class="outline-3">
+<h3 id="org9fa1066">2020-04-06</h3>
+<div class="outline-text-3" id="text-org9fa1066">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/WreFPdVyrC2riEFcXl4e2g">《尤瓦尔·赫拉利《冠状病毒之后的世界》》</a> 他谈到疫情结束后，世界向何处去
 的问题，以及对目前各国没有统一行动的计划，反而各自为战、竞相关闭边境的
@@ -1019,9 +1911,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org8506f3f" class="outline-3">
-<h3 id="org8506f3f">2020-04-03</h3>
-<div class="outline-text-3" id="text-org8506f3f">
+<div id="outline-container-org68adeca" class="outline-3">
+<h3 id="org68adeca">2020-04-03</h3>
+<div class="outline-text-3" id="text-org68adeca">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/cvHzZbag0OqO-KV1G-_TRg">《瑞幸遭做空报告全文：欺诈 + 基本崩溃的业务》</a> 这一份长达 89 页的报告直
 指瑞幸咖啡(LK.US)正在捏造公司财务和运营数据。</li>
@@ -1057,13 +1949,13 @@ to be continued..
 </div>
 </div>
 </div>
-<div id="outline-container-org7503101" class="outline-2">
-<h2 id="org7503101">三月</h2>
-<div class="outline-text-2" id="text-org7503101">
+<div id="outline-container-orgda43507" class="outline-2">
+<h2 id="orgda43507">三月</h2>
+<div class="outline-text-2" id="text-orgda43507">
 </div>
-<div id="outline-container-orgd730dc4" class="outline-3">
-<h3 id="orgd730dc4">2020-03-26</h3>
-<div class="outline-text-3" id="text-orgd730dc4">
+<div id="outline-container-orgc69d258" class="outline-3">
+<h3 id="orgc69d258">2020-03-26</h3>
+<div class="outline-text-3" id="text-orgc69d258">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/U3vf4CRiief5Dj2veOVMKA">《评分 9.9！科幻迷改编的《我的三体》，是怎么让粉丝燃爆的？》</a> 这个画风
 奇特，人物、场景由一个个方块组成的系列作品，被苛刻的粉丝们认为精准还原
@@ -1098,9 +1990,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org9dbc84d" class="outline-3">
-<h3 id="org9dbc84d">2020-03-24</h3>
-<div class="outline-text-3" id="text-org9dbc84d">
+<div id="outline-container-org6a23734" class="outline-3">
+<h3 id="org6a23734">2020-03-24</h3>
+<div class="outline-text-3" id="text-org6a23734">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/YGZYZlWpPqknwxeERxAcqg">《疫情结束后，该换个活法了》</a> 基础设施变了、协作模式变了，“他人利益”与
 “自我发展”的关系也变了，究竟是要继续逞英雄，还是学会“概率化生存”？</li>
@@ -1135,9 +2027,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org40b41a6" class="outline-3">
-<h3 id="org40b41a6">2020-03-20</h3>
-<div class="outline-text-3" id="text-org40b41a6">
+<div id="outline-container-orgd13f78e" class="outline-3">
+<h3 id="orgd13f78e">2020-03-20</h3>
+<div class="outline-text-3" id="text-orgd13f78e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/FSQnXJXLGQwhoc51HybQDw">《上抖音直播的中国县长们》</a> 越来越多的基层公务人员走进直播间，用屏幕为
 乡亲带去便利与服务。而在此次疫情期间，直播间里的县长为了“带货”，更是使
@@ -1170,9 +2062,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgcbb571d" class="outline-3">
-<h3 id="orgcbb571d">2020-03-19</h3>
-<div class="outline-text-3" id="text-orgcbb571d">
+<div id="outline-container-org61dbe8b" class="outline-3">
+<h3 id="org61dbe8b">2020-03-19</h3>
+<div class="outline-text-3" id="text-org61dbe8b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/FSQnXJXLGQwhoc51HybQDw">《上抖音直播的中国县长们》</a> 越来越多的基层公务人员走进直播间，用屏幕为
 乡亲带去便利与服务。而在此次疫情期间，直播间里的县长为了“带货”，更是使
@@ -1205,9 +2097,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org7bde93f" class="outline-3">
-<h3 id="org7bde93f">2020-03-18</h3>
-<div class="outline-text-3" id="text-org7bde93f">
+<div id="outline-container-org9bfce2c" class="outline-3">
+<h3 id="org9bfce2c">2020-03-18</h3>
+<div class="outline-text-3" id="text-org9bfce2c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/L1sgro3hosRjySYiBayrfg">《进击的比尔·盖茨》</a> 高晓松难得把胡子刮得精光、长发梳得倍儿顺，问盖茨：
 “你和马云等中国的许多企业家有什么不同？”盖茨回答：“没什么不同。”</li>
@@ -1240,9 +2132,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org378dad2" class="outline-3">
-<h3 id="org378dad2">2020-03-12</h3>
-<div class="outline-text-3" id="text-org378dad2">
+<div id="outline-container-orgcd4581a" class="outline-3">
+<h3 id="orgcd4581a">2020-03-12</h3>
+<div class="outline-text-3" id="text-orgcd4581a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/egHU0HVoqOUZn6PptPtMQw">《他们在微博上，也曾说过真话啊》</a> 王兴的饭否走的最早，死的最快。因为监
 管原因，“删帖、限制敏感关键字、暂停搜索、域名解析、服务器关闭”类饭否的
@@ -1276,9 +2168,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc75f9e7" class="outline-3">
-<h3 id="orgc75f9e7">2020-03-11</h3>
-<div class="outline-text-3" id="text-orgc75f9e7">
+<div id="outline-container-orgd4c2734" class="outline-3">
+<h3 id="orgd4c2734">2020-03-11</h3>
+<div class="outline-text-3" id="text-orgd4c2734">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/roTg_r57btmPD_vXa21Izg">《今天是微信公号诞生以来最荒谬的一天》</a> 这是由一篇文章引发的荒谬喜剧；
 但也完美诠释了，喜剧的内核，就是一场悲剧。</li>
@@ -1311,9 +2203,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org3a4b82d" class="outline-3">
-<h3 id="org3a4b82d">2020-03-10</h3>
-<div class="outline-text-3" id="text-org3a4b82d">
+<div id="outline-container-orgbf2187c" class="outline-3">
+<h3 id="orgbf2187c">2020-03-10</h3>
+<div class="outline-text-3" id="text-orgbf2187c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/gKYRRYJnw8VR7H2UzgHNBA">《谷歌与中国开发者的恩怨情仇》</a> 2 月 20 日，谷歌以存在 App 外广告等干扰
 性广告问题为由移除了近 600 款安卓应用，并禁止其开发者进入 Play 软件商
@@ -1349,9 +2241,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org5e77bce" class="outline-3">
-<h3 id="org5e77bce">2020-03-09</h3>
-<div class="outline-text-3" id="text-org5e77bce">
+<div id="outline-container-org81ad861" class="outline-3">
+<h3 id="org81ad861">2020-03-09</h3>
+<div class="outline-text-3" id="text-org81ad861">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/11_yAhI12UqYF0hg0CLaFQ">《知识星球吴鲁加和他的 2000 万名星球成员》</a> 截至目前，知识星球拥有近
 2000 个活跃星球，此外，知识星球积累了超过 2000 万用户，其中有 200 多万
@@ -1385,9 +2277,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgda710e1" class="outline-3">
-<h3 id="orgda710e1">2020-03-05</h3>
-<div class="outline-text-3" id="text-orgda710e1">
+<div id="outline-container-org60db67f" class="outline-3">
+<h3 id="org60db67f">2020-03-05</h3>
+<div class="outline-text-3" id="text-org60db67f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NNX-QImafTW9kxpcmKwZxg">《“斗鱼一姐”冯提莫来到 B 站的 75 天》</a> 80 天前离开自己发迹的平台斗鱼直播，
 在下一个 80 天里，冯提莫和她的粉丝似乎已然习惯了 B 站。</li>
@@ -1410,9 +2302,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org093b8e4" class="outline-3">
-<h3 id="org093b8e4">2020-03-02</h3>
-<div class="outline-text-3" id="text-org093b8e4">
+<div id="outline-container-org12cee7c" class="outline-3">
+<h3 id="org12cee7c">2020-03-02</h3>
+<div class="outline-text-3" id="text-org12cee7c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/U0CoxTNupeDg5z5_J9XBqg">《快手信息收集 2017-2019》</a> 文章都是乱翻书基于团队日常信息收集所做出的
 分析评论，将乱翻书公众号 2017 年-2019 年部分相关快手的文章做了一次信息
@@ -1447,13 +2339,13 @@ to be continued..
 </div>
 </div>
 </div>
-<div id="outline-container-orgd681b7e" class="outline-2">
-<h2 id="orgd681b7e">二月</h2>
-<div class="outline-text-2" id="text-orgd681b7e">
+<div id="outline-container-org0d841c4" class="outline-2">
+<h2 id="org0d841c4">二月</h2>
+<div class="outline-text-2" id="text-org0d841c4">
 </div>
-<div id="outline-container-org94c88bb" class="outline-3">
-<h3 id="org94c88bb">2020-02-28</h3>
-<div class="outline-text-3" id="text-org94c88bb">
+<div id="outline-container-org576635f" class="outline-3">
+<h3 id="org576635f">2020-02-28</h3>
+<div class="outline-text-3" id="text-org576635f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/QEBzvJCc7toelzpvP6YRPA">《称陆奇为“人生导师”，90 后创业者离开百度“漂流记”》</a> 2018 年 8 月，从百
 度离开不久，吕骋在洛杉矶好莱坞附近开始了新的创业项目 rct studio，致力
@@ -1488,9 +2380,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org0987872" class="outline-3">
-<h3 id="org0987872">2020-02-27</h3>
-<div class="outline-text-3" id="text-org0987872">
+<div id="outline-container-org6d3d205" class="outline-3">
+<h3 id="org6d3d205">2020-02-27</h3>
+<div class="outline-text-3" id="text-org6d3d205">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/q8ZRXoFBPCcrcq2Y4dLwwg">《隔离、疾病与权力》</a> 碰上未知的疾病，很多人心中第一个想法还是：这病会
 不会传染？快把得病的人关起来！对人类来说，隔离到底意味着什么？</li>
@@ -1523,9 +2415,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org569d527" class="outline-3">
-<h3 id="org569d527">2020-02-26</h3>
-<div class="outline-text-3" id="text-org569d527">
+<div id="outline-container-org09ff785" class="outline-3">
+<h3 id="org09ff785">2020-02-26</h3>
+<div class="outline-text-3" id="text-org09ff785">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/tmo7Xmduvb4WzRtGcr1Kig">《Google 是如何远程办公的？》</a> 作为以人性管理和多元办公著称的 Google，
 也是最早拥抱远程办公的大公司之一。Google 不仅允许部分员工，让员工在特
@@ -1559,9 +2451,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org6999093" class="outline-3">
-<h3 id="org6999093">2020-02-25</h3>
-<div class="outline-text-3" id="text-org6999093">
+<div id="outline-container-org34c1f8f" class="outline-3">
+<h3 id="org34c1f8f">2020-02-25</h3>
+<div class="outline-text-3" id="text-org34c1f8f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/GScKaWmU_u4gfzNBMFSO8w">《许知远不会做生意？单向跟西西弗、茑屋书店差在哪？》</a> 今日，单向空间书
 店在官方微信号发起“续命”众筹，恳请粉丝们通过提前购买储值卡的方式给单向
@@ -1596,9 +2488,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org0d55ce4" class="outline-3">
-<h3 id="org0d55ce4">2020-02-24</h3>
-<div class="outline-text-3" id="text-org0d55ce4">
+<div id="outline-container-org9fff49c" class="outline-3">
+<h3 id="org9fff49c">2020-02-24</h3>
+<div class="outline-text-3" id="text-org9fff49c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Kzb02__dywWoPVC4S-VWDw">《我总结了一本营销手册：激活中国人的情绪，这四大变化正在发生&#x2026;》</a>
 疫情之下，没有什么特效药，个人和企业都要纯靠免疫力挺过来。如何提高自己
@@ -1633,9 +2525,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgec76c96" class="outline-3">
-<h3 id="orgec76c96">2020-02-21</h3>
-<div class="outline-text-3" id="text-orgec76c96">
+<div id="outline-container-org4678456" class="outline-3">
+<h3 id="org4678456">2020-02-21</h3>
+<div class="outline-text-3" id="text-org4678456">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/kPWmVW-zLICEHAwbkPHlEw">《从六大趋势看美国超级碗：折射时代文化与商业的万花筒》</a> 超级碗的文化影
 响力是毋庸置疑的，它仍然牵连着公众的脉搏。对于这样高水准的文化盛事，社
@@ -1668,9 +2560,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org9abce9e" class="outline-3">
-<h3 id="org9abce9e">2020-02-19</h3>
-<div class="outline-text-3" id="text-org9abce9e">
+<div id="outline-container-org874943f" class="outline-3">
+<h3 id="org874943f">2020-02-19</h3>
+<div class="outline-text-3" id="text-org874943f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/0LiBpKgGPwcigOSiat5Q_g">《疫情之下，各行业下个黄金期正在到来？》</a> 近日，第一太平戴维斯的一份报
 告指出：零售市场有望在 3 月底逐步回归常态，品牌年度焦点已转至夏季后的
@@ -1705,9 +2597,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org1a48dfc" class="outline-3">
-<h3 id="org1a48dfc">2020-02-18</h3>
-<div class="outline-text-3" id="text-org1a48dfc">
+<div id="outline-container-org25a6eed" class="outline-3">
+<h3 id="org25a6eed">2020-02-18</h3>
+<div class="outline-text-3" id="text-org25a6eed">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/8oP2qPhqdEvUN6amrEJZIA">《危险的现金流》</a> 对于创业者而言，现金流不仅是一个复杂的会计问题，更是
 一个企业经营的艰难选择题。疫情面前，所有人都在补一堂关于现金流的课。</li>
@@ -1739,9 +2631,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org6a57a77" class="outline-3">
-<h3 id="org6a57a77">2020-02-17</h3>
-<div class="outline-text-3" id="text-org6a57a77">
+<div id="outline-container-org5aeab94" class="outline-3">
+<h3 id="org5aeab94">2020-02-17</h3>
+<div class="outline-text-3" id="text-org5aeab94">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NCYr8Vm8Axc-G4NMxIMWYA">《2 亿中国人，宅家工作 14 天》</a> “谁家怎么有韩国人在讲话？”在跟 CEO 对齐
 年度 KPI 业绩目标的电话会议上，居然传来了播放韩剧的声音。主持人只好如
@@ -1775,9 +2667,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbb8ed56" class="outline-3">
-<h3 id="orgbb8ed56">2020-02-16</h3>
-<div class="outline-text-3" id="text-orgbb8ed56">
+<div id="outline-container-org9524264" class="outline-3">
+<h3 id="org9524264">2020-02-16</h3>
+<div class="outline-text-3" id="text-org9524264">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/DKwQkXjyp0Up77uGkJFPmg">《疫情之下，哪些行业正在逆势爆发？》</a> 非常时期、非常事件会压垮一些商业
 形态，但非常时期也是一个重塑人们消费观念与消费习惯的机会。</li>
@@ -1810,13 +2702,13 @@ to be continued..
 </div>
 </div>
 </div>
-<div id="outline-container-orgfff8403" class="outline-2">
-<h2 id="orgfff8403">一月</h2>
-<div class="outline-text-2" id="text-orgfff8403">
+<div id="outline-container-org60e85b5" class="outline-2">
+<h2 id="org60e85b5">一月</h2>
+<div class="outline-text-2" id="text-org60e85b5">
 </div>
-<div id="outline-container-org4a682dc" class="outline-3">
-<h3 id="org4a682dc">2020-01-16</h3>
-<div class="outline-text-3" id="text-org4a682dc">
+<div id="outline-container-org3652b94" class="outline-3">
+<h3 id="org3652b94">2020-01-16</h3>
+<div class="outline-text-3" id="text-org3652b94">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/haxNtd4luBc0BBcWCI4R0g">《独家：掌管百度战投三年后，马东敏把权力重新移交李彦宏》</a> 战投汇报线的
 变化意味着，李彦宏全面收拢兵权，马东敏退后掌管部分职能线，二人正在重新
@@ -1851,9 +2743,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orga3de678" class="outline-3">
-<h3 id="orga3de678">2020-01-14</h3>
-<div class="outline-text-3" id="text-orga3de678">
+<div id="outline-container-orgd397907" class="outline-3">
+<h3 id="orgd397907">2020-01-14</h3>
+<div class="outline-text-3" id="text-orgd397907">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/DhvXAH4VcCCE3X3GACDQmA">《春节薅羊毛指南》</a> 今年你准备好蹲守谁家的红包，集哪家的卡？今年的“羊毛”哪
 家强？废话不多说，一起来看一下。</li>
@@ -1888,9 +2780,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org859e872" class="outline-3">
-<h3 id="org859e872">2020-01-13</h3>
-<div class="outline-text-3" id="text-org859e872">
+<div id="outline-container-org138a5e7" class="outline-3">
+<h3 id="org138a5e7">2020-01-13</h3>
+<div class="outline-text-3" id="text-org138a5e7">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/-6Sh3FhKypYq2O2ftfVxBA">《CES 无新事》</a> 主线其实非常清晰：不管产品如何更迭，底层的需求却鲜有改
 变。荒凉沙漠中的繁荣赌城，再次展现了多变的载体与永恒的内容需求之间碰撞
@@ -1925,9 +2817,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org80b2ede" class="outline-3">
-<h3 id="org80b2ede">2020-01-10</h3>
-<div class="outline-text-3" id="text-org80b2ede">
+<div id="outline-container-orgfcc0e91" class="outline-3">
+<h3 id="orgfcc0e91">2020-01-10</h3>
+<div class="outline-text-3" id="text-orgfcc0e91">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/vps3nzX5BvAhNw7za_ma8w">《一晚 70 亿阅读量，单篇涨粉 17 万，GQ 打造爆款内容的幕后故事》</a> 为什么
 所有人都觉得有点焦虑，觉得可能公众号也许是夕阳产业了呢？是不是觉得过去
@@ -1962,9 +2854,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfbf2417" class="outline-3">
-<h3 id="orgfbf2417">2020-01-09</h3>
-<div class="outline-text-3" id="text-orgfbf2417">
+<div id="outline-container-org8f9c53b" class="outline-3">
+<h3 id="org8f9c53b">2020-01-09</h3>
+<div class="outline-text-3" id="text-org8f9c53b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/sZkkQOPz834KcKY1aWWayw">《张小龙缺席，微信“未完成” 》</a> 没有了张小龙长达四小时的深夜即兴分享，今
 年的微信公开课 PRO 还有哪些看点？</li>
@@ -1997,9 +2889,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orga61424a" class="outline-3">
-<h3 id="orga61424a">2020-01-07</h3>
-<div class="outline-text-3" id="text-orga61424a">
+<div id="outline-container-org973c0c3" class="outline-3">
+<h3 id="org973c0c3">2020-01-07</h3>
+<div class="outline-text-3" id="text-org973c0c3">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/6_KtRKTNzVi87EpL8vp6aQ">《B 站选出百大 up 主，他们才是大宝藏》</a> 阿婆主在做什么？他们在养竹鼠、
 在探店、在开箱测评，他们在放大日常生活，有时候即使你不知道他们在做什么，
@@ -2028,9 +2920,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb41662b" class="outline-3">
-<h3 id="orgb41662b">2020-01-06</h3>
-<div class="outline-text-3" id="text-orgb41662b">
+<div id="outline-container-org51b4262" class="outline-3">
+<h3 id="org51b4262">2020-01-06</h3>
+<div class="outline-text-3" id="text-org51b4262">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/2tInJqxrNvQz8UYuu4aMyg">《重磅发布！2020 内容产业年度报告》</a> 这份报告围绕“科技赋能、内容破界”的
 大会主题，从内容受众破界、内容创作者破界、内容职能破界三个部分展开，以
@@ -2066,9 +2958,9 @@ to be continued..
 </ul>
 </div>
 </div>
-<div id="outline-container-org8b72434" class="outline-3">
-<h3 id="org8b72434">2020-01-02</h3>
-<div class="outline-text-3" id="text-org8b72434">
+<div id="outline-container-org42a9bdb" class="outline-3">
+<h3 id="org42a9bdb">2020-01-02</h3>
+<div class="outline-text-3" id="text-org42a9bdb">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/lpsXyAymzd3fk5pMjBizEA">《罗振宇 2019-2020“时间的朋友”跨年演讲未删减全文》</a> 今年的演讲主题是——
 基本盘。也就是不去看那些一惊一乍的标题，人云亦云的情绪，而是转过头，看
@@ -2156,9 +3048,9 @@ to be continued..
 这种实践方法的精髓在于, <code>input 很简单, filter 很重要</code>.
 </p>
 
-<div id="outline-container-orga2f9a4c" class="outline-2">
-<h2 id="orga2f9a4c">邮件</h2>
-<div class="outline-text-2" id="text-orga2f9a4c">
+<div id="outline-container-orgdbdc9af" class="outline-2">
+<h2 id="orgdbdc9af">邮件</h2>
+<div class="outline-text-2" id="text-orgdbdc9af">
 <blockquote>
 <p>
 邮件输入原则: 挡住所有不想接收的发件人(Block or Unsubscribe)
@@ -2188,9 +3080,9 @@ to be continued..
 </div>
 </div>
 
-<div id="outline-container-org79321f6" class="outline-2">
-<h2 id="org79321f6">IM</h2>
-<div class="outline-text-2" id="text-org79321f6">
+<div id="outline-container-orgbb54a42" class="outline-2">
+<h2 id="orgbb54a42">IM</h2>
+<div class="outline-text-2" id="text-orgbb54a42">
 <blockquote>
 <p>
 IM 输入原则一: 关闭所有群通知, 仅有 @你 消息可提醒.
@@ -2214,9 +3106,9 @@ IM 消息处理原则: 待做事项的消息置顶, 完成任务后, 引用消�
 </p>
 </div>
 </div>
-<div id="outline-container-orge6130cc" class="outline-2">
-<h2 id="orge6130cc">电脑文件</h2>
-<div class="outline-text-2" id="text-orge6130cc">
+<div id="outline-container-orgeb869a6" class="outline-2">
+<h2 id="orgeb869a6">电脑文件</h2>
+<div class="outline-text-2" id="text-orgeb869a6">
 <blockquote>
 <p>
 文件输入原则: 将所有能设置的软件都设置下, 文件下载保存默认文件夹为 <code>下载</code> 文件夹.
@@ -2248,9 +3140,9 @@ IM 消息处理原则: 待做事项的消息置顶, 完成任务后, 引用消�
 </div>
 </div>
 
-<div id="outline-container-org62e0bb8" class="outline-2">
-<h2 id="org62e0bb8">RSS</h2>
-<div class="outline-text-2" id="text-org62e0bb8">
+<div id="outline-container-org547baa4" class="outline-2">
+<h2 id="org547baa4">RSS</h2>
+<div class="outline-text-2" id="text-org547baa4">
 <p>
 经过一番尝试, 终于找到了解决多个信息源消息汇总阅读的解决方案 <a href="https://sspai.com/post/55691">快知</a>.
 </p>
@@ -2337,362 +3229,6 @@ IM 消息处理原则: 待做事项的消息置顶, 完成任务后, 引用消�
 ]]></description>
       <pubDate>2020-03-06</pubDate>
       <guid>http://lijigang.github.io/blog/2020/02/24/读书-在线广告/</guid>
-    </item>
-    <item>
-      <title>学习: 商业本质</title>
-      <link>http://lijigang.github.io/blog/2018/05/14/学习-商业本质/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>学习: 商业本质</h1>
-            <p>
-最近在学习 <code>得到</code> 上面 <b>刘润</b> 的五分钟商学院，很受启发，记录下学习总结。
-</p>
-
-<blockquote>
-<p>
-生意的本质就是创造产品价值，然后把产品价值交换给有需要的人。
-</p>
-</blockquote>
-
-<p>
-产品价值的创造过程不是今天讨论的重点，今天主要想聊下产品价值交换出去并从中获利的过程。 这个过程可以用公式表达为：
-</p>
-
-<blockquote>
-<p>
-<span class="underline">收入 = 流量 * 转化率 * 客单价 * 复购率</span>
-</p>
-</blockquote>
-
-<p>
-各行业的商业模型会有些差异, 对应到这个公式中的指标会有细拆或组合的情况. 但本质上, 都是这四个关键因素的乘积.
-</p>
-
-<div id="outline-container-orgdeb7eca" class="outline-2">
-<h2 id="orgdeb7eca">流量</h2>
-<div class="outline-text-2" id="text-orgdeb7eca">
-</div>
-<div id="outline-container-org9b7eddd" class="outline-3">
-<h3 id="org9b7eddd">流量洼地 = 低获客成本</h3>
-<div class="outline-text-3" id="text-org9b7eddd">
-<p>
-在商人眼中，对于流量就是一句：如何以 <code>尽可能低的价格</code> 获得 <code>尽可能多的流量</code> 。
-</p>
-
-<p>
-坐地铁上下班换乘的路上，是不是经常遇到面包店的妹子在人流中间推广当日特价面包？
-</p>
-
-<p>
-早上在公司楼下，是不是经常遇到一个推着早餐车卖早饭的流动商贩？
-</p>
-
-<p>
-晚上回家在小区门口，是不是时不时会遇到骑着三轮车卖鲜花或水果的流量商贩？
-</p>
-
-<p>
-有想过为什么会在这些时间和地点遇到他们吗？ 他们就是找到了 <code>流量洼地</code> 。所谓流量洼地，就是获客成本比较低的流量渠道。
-</p>
-
-<p>
-如果你明天要开一家快餐店，你是要找一个房租贼贵的商场或写字楼， 还是要找一个偏远
-但便宜的小角落门店？ 只要算下你的获客成本就好了，如果算下来都不划算， 你就需要再
-去找找有没有新的流量洼地存在。 一般来说，如果有一个新的技术改进或商业模式出现，
-都会存在一个流量洼地红利期， 尽可能快地抓住这波红利， 狠狠赚上一票吧。
-</p>
-</div>
-</div>
-
-<div id="outline-container-org1ca02dc" class="outline-3">
-<h3 id="org1ca02dc">引流品 = 抓手</h3>
-<div class="outline-text-3" id="text-org1ca02dc">
-<p>
-除了花钱买流量以外，还可以通过利润换流量的玩法来创造流量。
-</p>
-
-<p>
-所谓引流品， 就是通过让出利润，以接近成本价甚至略赔的价格，吸引流量的产品。
-</p>
-
-<p>
-同样是卖早餐，你的鸡蛋比旁边那家便宜 3 毛， 其它产品价格不变或者略贵。 鸡蛋就是你的引流品。
-</p>
-
-<p>
-同样是卖咖啡，你的某一款咖啡卖的超便宜，吸引很多用户进来购买，这款咖啡就是你的引流品。
-</p>
-
-<p>
-杭州西湖不要门票; 酒吧对女生免费，对男生收费； 电影院门票超便宜，但爆米花贼贵；
-药店免费使用体重计，减肥药价格高； 超市限时限量供应超便宜鸡蛋， 这些都是引流品的
-玩法。
-</p>
-</div>
-</div>
-
-<div id="outline-container-org2e68e3f" class="outline-3">
-<h3 id="org2e68e3f">关联流量 = 精准流量</h3>
-<div class="outline-text-3" id="text-org2e68e3f">
-<p>
-想获得流量，要先分析你的用户群体都在哪，然后去他们经常在的地方吸引他们的注意力，把他们拉到你的地方去消费。
-</p>
-
-<p>
-这些 <code>他们经常在的地方</code> 就是关联流量。 你和这些流量方不是同一个行业，没有直接竞争关系，但你们又都服务着同样的用户群体， 就有着合作的空间。
-</p>
-
-<p>
-比如航空公司和酒店的积分打通， 比如生活用品品牌和酒店的合作， 比如 Uber 之前搞的一键呼叫面试官活动， 等等。
-</p>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org7af968b" class="outline-2">
-<h2 id="org7af968b">转化率</h2>
-<div class="outline-text-2" id="text-org7af968b">
-<p>
-你通过购买流量或者创造流量的方式，吸引了大量目标用户进来。下一步就是要解决如何让他们掏腰包购买你产品的问题了。
-</p>
-</div>
-
-<div id="outline-container-org50511f2" class="outline-3">
-<h3 id="org50511f2">展示设计</h3>
-<div class="outline-text-3" id="text-org50511f2">
-<p>
-除了产品本身的包装设计以外， 还有一个 <code>动线设计</code> 的基本功需要修炼。
-</p>
-
-<blockquote>
-<p>
-<code>动线</code> 就是注意力流动的路线。 动线设计就是把最希望用户购买的产品，放在用户必经的动线上。
-</p>
-</blockquote>
-
-<p>
-关于动线设计，宜家绝对是大师中的大师。 只要进了门， 一条路线让你从头走到尾， 不买东西出不来。
-</p>
-
-<p>
-另外还有一个用户心理可以利用，就是 <code>影响力</code> 这本书中介绍的其中一项 <code>服从权威</code> 。
-</p>
-
-<p>
-书店经常会在最显眼的位置摆一个畅销书专区， 超市会放一个热卖产品重点展示位， 酒店
-或者私人医院经常会展示名人合影， 这些都是在利用 <code>服从权威</code> 的方法使人就范。
-</p>
-</div>
-</div>
-
-<div id="outline-container-org77e5953" class="outline-3">
-<h3 id="org77e5953">决策时间</h3>
-<div class="outline-text-3" id="text-org77e5953">
-<p>
-消费者在线下购买一个产品，平均决策时间是 13 秒； 线上是 19 秒。
-</p>
-
-<p>
-为了提升转化率，要想尽办法减少用户的决策时间。
-</p>
-
-<p>
-电商平台在商品详情页的设计方案中， 一个只放购物车图标的方案和 <code>加入购物车</code> 文案的方案， 下单率能差 30%以上。
-</p>
-
-<p>
-特价优惠，最后十件； 跳楼价大甩卖，最后三天； 限量发行，先到先得。 这些文案都是
-为了通过短缺来刺激用户减少决策时间。
-</p>
-
-<p>
-还有一个减少用户决策时间的终极大招： <code>打折</code> 。
-</p>
-
-<p>
-在使用打折过程，需要特别注意一点， 不能让用户感觉到你的产品价值低，原来的定价是虚高的。 具体玩法可以有下面几种：
-</p>
-
-<ol class="org-ol">
-<li><p>
-低价高购
-</p>
-
-<p>
-花较低价格，可以买到价格贵贵的东西，你会有赚到便宜的感觉。 很多服装店的 加价购， 消费满 1000 元，可加价 149 元，在原价 300 元区域任选一件。
-</p></li>
-
-<li><p>
-充值免单
-</p>
-
-<p>
-充值 1000 元，可以免掉今天消费的 188 元。 你算下这是打了几折？ 你充值后，以后是不是得经常来这家店消费？
-</p></li>
-
-<li><p>
-赠而不折
-</p>
-
-<p>
-你要买的这件商品不能再便宜了，但我们可以再赠送你一件新品小样或者赠送您一张 50 元折扣券，下次可随时用。
-</p></li>
-</ol>
-</div>
-</div>
-</div>
-
-<div id="outline-container-orgcf42563" class="outline-2">
-<h2 id="orgcf42563">客单价</h2>
-<div class="outline-text-2" id="text-orgcf42563">
-<p>
-用户被你吸引到店里，也确实下单了，如何提升客单价？
-</p>
-
-<p>
-上淘宝看看那些店铺是怎么玩的：
-</p>
-
-<p>
-消费满 199 元包邮，你现在买的商品 180 元，会不会想多搞两个小件凑够 199 元省掉 10 元运费？
-</p>
-
-<p>
-进店送 50 元优惠券，但满 800 元可用。 你下单的商品是 700 元， 会不会想再搞 100 元的商品来使用这张优惠券？
-</p>
-
-<p>
-你本来就是想进去买一件 T 恤，下单时发现这衣服搭配的裤子和鞋子超好看， 会不会顺带着把这一身搭配全买了？
-</p>
-
-<p>
-还有一种单产品的价格太高，用户有需求但就是买不起怎么办？ <code>分期</code> 。
-</p>
-
-<p>
-看看出租车行业的每月份子钱，就是用这些钱分期还车钱； 更不用提买房子， 买车子这些典型的分期场景了。
-</p>
-</div>
-</div>
-
-<div id="outline-container-org18f9eaa" class="outline-2">
-<h2 id="org18f9eaa">复购率</h2>
-<div class="outline-text-2" id="text-org18f9eaa">
-</div>
-<div id="outline-container-org67200df" class="outline-3">
-<h3 id="org67200df">会员制</h3>
-<div class="outline-text-3" id="text-org67200df">
-<p>
-用户永远想要更优惠的价格， 商家是想更多的流量，可以接受薄利多销。
-</p>
-
-<p>
-但这里有一个鸡生蛋，收生鸡的问题。 到底是用户先涌入商家这里， 还是商家先让利降价？
-</p>
-
-<blockquote>
-<p>
-会员制的本质，是一种类似于团购的契约关系：用户承诺在商家这里更多地消费，商家承诺给用户更便宜的价格或更多优惠。
-</p>
-</blockquote>
-
-<p>
-会员制有两种玩法： 一是设置进入门槛， 二是设置逃离成本。
-</p>
-
-<p>
-如果商家的话语权更高， 就可以采用进入门槛的玩法。Costco 的会员制是典型的进入门槛玩法，加入会员需要收会员费。
-</p>
-
-<p>
-如果用户的话语权更高， 就可以采用逃离成本的玩法。 会员免费加入，用户任意消费都有
-积分，随着消费越多，积分也越多。航空公司和连锁酒店，都是这种玩法的典型。
-</p>
-</div>
-</div>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2020-03-06</pubDate>
-      <guid>http://lijigang.github.io/blog/2018/05/14/学习-商业本质/</guid>
-    </item>
-    <item>
-      <title>读书: 远见</title>
-      <link>http://lijigang.github.io/blog/2020/02/24/读书-远见/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>读书: 远见</h1>
-            <p>
-职业生涯可以被分成三个主要阶段，每一阶段都持续大约 15 年，且各有各的主导策略。
-</p>
-
-<ol class="org-ol">
-<li><p>
-第一阶段：寻找短板, 加添燃料
-</p>
-
-<p>
-整个第一阶段往往长达 15 年，是一个学习和探索的过程，充满了尝试和错误。
-这时并不是为了找到一份你每天都津津乐道的神话般的工作，而是要找出你擅
-长什么、不擅长什么、喜欢做什么，以及不喜欢做什么。
-</p></li>
-
-<li>第二阶段：聚焦长板, 达到高点；</li>
-<li>第三阶段：个人品牌, 持续发挥影响力</li>
-</ol>
-
-
-<p>
-职业生涯中存在三种基本形式的职场燃料:
-</p>
-<ol class="org-ol">
-<li>可迁移技能
-<ol class="org-ol">
-<li>解决问题能力</li>
-<li>说服力</li>
-<li>搜集信息能力</li>
-<li>学历/语言</li>
-</ol></li>
-<li>有意义的经验</li>
-<li>持久的关系
-<ol class="org-ol">
-<li>联系人</li>
-<li>专家团</li>
-<li>关键同事</li>
-<li>支持者</li>
-</ol></li>
-</ol>
-
-<p>
-职场思维:
-</p>
-<ol class="org-ol">
-<li>职业生涯长度: 45 年</li>
-<li>精通业务时间: 10000 小时</li>
-<li>40 岁后的收入占比: 80%</li>
-<li>社交货币: 300 人</li>
-<li>职场支持者人数: 3-5 人</li>
-</ol>
-
-<p>
-年度复盘要考虑的四个要素:
-</p>
-<ol class="org-ol">
-<li>成长</li>
-<li>影响力</li>
-<li>乐趣</li>
-<li>经济</li>
-</ol>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2020-03-06</pubDate>
-      <guid>http://lijigang.github.io/blog/2020/02/24/读书-远见/</guid>
     </item>
   </channel>
 </rss>
