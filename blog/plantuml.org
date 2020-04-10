@@ -21,7 +21,7 @@ PlantUML 是用来快速创建 UML 图形的组件. 通过简单的语法来定�
     #+end_export
 
 * PlantUML 如何在 Emacs 中配置
-1. [[http://plantuml.com/zh/download][下载]] plantuml.jar
+1. [[http://plantuml.com/zh/download][下载]] plantuml.jar 到本地
 2. 安装 Graphviz
   #+begin_src :exports code
   brew install graphviz
