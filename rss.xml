@@ -4,10 +4,219 @@
     <title>常识</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Sat, 18 Apr 2020 17:46:34 CST</pubDate>
-    <lastBuildDate>Sat, 18 Apr 2020 17:46:34 CST</lastBuildDate>
+    <pubDate>Sun, 19 Apr 2020 19:48:56 CST</pubDate>
+    <lastBuildDate>Sun, 19 Apr 2020 19:48:56 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>效率: Rime 输入法(五笔)</title>
+      <link>http://lijigang.github.io/blog/2020/04/19/效率-rime-输入法(五笔)/</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>效率: Rime 输入法(五笔)</h1>
+            <p>
+有些工具, 属于前期投入成本高, 但价值半衰弱期长, 对应到重要不紧急的象限, 值得你花时间去研究. 输入法就是其中之一, 本文记录自己折腾 <a href="https://rime.im/">Rime</a> 输入法的过程.
+</p>
+
+<div id="outline-container-orge2556bd" class="outline-2">
+<h2 id="orge2556bd">下载安装 Rime</h2>
+<div class="outline-text-2" id="text-orge2556bd">
+<ol class="org-ol">
+<li>下载 Mac 对应的安装包 Squirrel-X.XX.X.zip</li>
+<li>解压后安装 PKG</li>
+<li>重启电脑</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org4c0d44a" class="outline-2">
+<h2 id="org4c0d44a">了解用户配置</h2>
+<div class="outline-text-2" id="text-org4c0d44a">
+<p>
+Rime 输入法也有 <code>文本为王</code> 的理念. 它的 <code>配置文件</code> <code>输入方案定义</code> 以及 <code>词典文件</code> , 均是文本文件(YAML 格式), 使用 Emacs 编辑刚刚好.
+</p>
+
+<p>
+在安装部署完成后, Rime 会在路径 <code>~/Library/Rime/</code> 存放 <span class="underline">用户资料</span> , 主要包括:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-shell">ls ~/Library/Rime
+</pre>
+</div>
+
+<p>
+<b>方案定义</b>
+</p>
+
+<pre class="example">
+Rime 中的输入方案 = 方案定义(&lt;方案标识&gt;.schema.yaml) +
+                    词典文件(&lt;词典名&gt;.dict.yaml)
+</pre>
+
+<p>
+方案定义以 <code>wubi86_jidian.schema.yaml</code> 为例:
+</p>
+<pre class="example">
+schema:
+  schema_id: wubi86_jidian  #Rime 识别的 ID
+  name: "极点五笔 86"       #选择方案时显示的名称
+  version: "1.0"
+  author:
+    - 创始人 王永民先生
+  description: |
+    五笔字形 86 极点极爽版
+  dependencies:
+    - pinyin_simp
+</pre>
+
+<p>
+词典文件以 <code>wubi86_jidian.dict.yaml</code> 为例:
+</p>
+<pre class="example">
+name: wubi86_jidian
+version: "4.3"
+sort: by_weight #by_weight/权重 original/原始
+import_tables: #此处是添加用户自定义词库的地方
+  - wubi86_jidian_user
+columns: #码表格式
+  - text #文字
+  - code #输入码
+  - weight #权重
+  - stem
+</pre>
+</div>
+</div>
+
+<div id="outline-container-org83142a0" class="outline-2">
+<h2 id="org83142a0">配置五笔</h2>
+<div class="outline-text-2" id="text-org83142a0">
+<ol class="org-ol">
+<li><p>
+下载五笔配置文件
+</p>
+<div class="org-src-container">
+<pre class="src src-shell">#+begin_src shell
+cd ~/Downloads
+git clone https://github.com/KyleBing/rime-wubi86-jidian
+mv rime-wubi86-jidian/* ~/library/Rime/
+#+end_src
+</pre>
+</div>
+
+<p>
+拷贝后文件列表如下:
+</p>
+<pre class="example">
+.
+├── README.md                               # 当前说明文档
+├── numbers.schema.yaml                     # 输入方案 - 大写数字
+├── rime.lua                                # 可以输出系统变量的函数
+├── default.custom.yaml                     # 自定义一些输入法的功能：标点，二三候选等
+├── pinyin_simp.dict.yaml                   # 简体拼音码表 - 五笔中拼音输入需要的
+├── pinyin_simp.schema.yaml                 # 输入方案 - 简体拼音
+├── squirrel.custom.yaml                    # 鼠须管（for macOS）输入法候选词界面
+├── weasel.custom.yaml                      # 小狼毫（for Windows）输入法候选词界面
+├── wubi86_jidian.dict.yaml                 # 极点 - 五笔码表
+├── wubi86_jidian.schema.yaml               # 输入方案 - 极点五笔
+├── wubi86_jidian_user.dict.yaml            # 扩展词库 - 用户个人词库
+├── wubi86_jidian_extra_brand.dict.yaml     # 扩展词库 - 品牌
+├── wubi86_jidian_extra_event.dict.yaml     # 扩展词库 - 事件相关
+├── wubi86_jidian_extra_english.dict.yaml   # 扩展词库 - 常用英文
+├── wubi86_jidian_extra_location.dict.yaml  # 扩展词库 - 地名
+├── wubi86_jidian_extra_media.dict.yaml     # 扩展词库 - 影视名，音乐名
+├── wubi86_jidian_extra_people.dict.yaml    # 扩展词库 - 名人
+├── wubi86_jidian_extra_pro.dict.yaml       # 扩展词库 - 专业名词
+├── wubi86_jidian_extra_game.dict.yaml      # 扩展词库 - 游戏
+├── wubi86_jidian_pinyin.schema.yaml        # 输入方案 - 五笔拼音混输
+└── wubi86_jidian_trad.schema.yaml          # 输入方案 - 五笔简入繁出
+</pre></li>
+
+<li>按自己需求自定义
+<ul class="org-ul">
+<li class="on"><code>[X]</code> <p>
+自定义输入框样式
+</p>
+<div class="org-src-container">
+<pre class="src src-yaml"># squirrel.custom.yaml
+patch:
+  style:
+    color_scheme: ljg
+    horizontal: true
+    font_point: 28
+    label_font_point: 11
+    fullscreen: true
+    inline_preedit: true # 单行显示
+    corner_radius: 6     # 窗口圆角半径
+
+  preset_color_schemes:
+    ljg:
+      name: ljg
+      author: Arthur &lt;i@lijigang.com&gt;
+      text_color: 0x666666
+      candidate_text_color: 0x000000
+      back_color: 0xFFFFFF
+      border_color: 0xE2E2E2
+      hilited_text_color: 0x000000
+      hilited_back_color: 0xFFFFFF
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_candidate_back_color: 0xCE7539
+</pre>
+</div></li>
+
+<li class="on"><code>[X]</code> <p>
+定制候选项的数目为 3 个
+</p>
+<div class="org-src-container">
+<pre class="src src-yaml"># default.custom.yaml
+patch:
+  "menu/page_size": 3
+</pre>
+</div>
+
+<p>
+〔注意〕 如果 default.custom.yaml 裏面已經有其他設定內容，只要以相同的縮進
+方式添加 patch: 以下的部分，不可重複 patch: 這一行。
+</p>
+
+<p>
+重新布署后可生效.
+</p></li>
+
+<li class="on"><code>[X]</code> <p>
+定制标点符号 <code>/</code> 键输入 <code>、</code>
+</p>
+<div class="org-src-container">
+<pre class="src src-yaml"># wubi86_jidian.schema.yaml
+punctuator:
+  import_preset: default
+  full_shape:     # 增加这个
+    "/" : "、"    # 增加这个
+  half_shape:     # 增加这个
+    "/" : "、"    # 增加这个
+
+</pre>
+</div></li>
+</ul></li>
+
+<li><p>
+重新布署
+</p>
+
+<p>
+【鼠鬚管】在系统输入法菜单中选择「重新布署」即可.
+</p></li>
+</ol>
+</div>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2020-04-19</pubDate>
+      <guid>http://lijigang.github.io/blog/2020/04/19/效率-rime-输入法(五笔)/</guid>
+    </item>
     <item>
       <title>汇总: 优质文章每日精华选(2020 年)</title>
       <link>http://lijigang.github.io/blog/2020/01/02/汇总-优质文章每日精华选(2020-年)/</link>
@@ -25,13 +234,13 @@
 其不便,故起意将每日推荐文章列表整理到此, 方便随时查阅.
 </p>
 
-<div id="outline-container-org5f6c203" class="outline-2">
-<h2 id="org5f6c203">四月</h2>
-<div class="outline-text-2" id="text-org5f6c203">
+<div id="outline-container-org9f01989" class="outline-2">
+<h2 id="org9f01989">四月</h2>
+<div class="outline-text-2" id="text-org9f01989">
 </div>
-<div id="outline-container-org8ecbe6e" class="outline-3">
-<h3 id="org8ecbe6e">2020-04-16</h3>
-<div class="outline-text-3" id="text-org8ecbe6e">
+<div id="outline-container-org8dcce6e" class="outline-3">
+<h3 id="org8dcce6e">2020-04-16</h3>
+<div class="outline-text-3" id="text-org8dcce6e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/2ITtFTzCT71PfFbXhU4byQ">《网红如何对抗 MCN？》</a> 对于很多草根网红而言，MCN 属于难以绕过的一道坎，毕竟很
 多人只擅长内容，对于商业上的事情并不专业。</li>
@@ -64,9 +273,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgda272b2" class="outline-3">
-<h3 id="orgda272b2">2020-04-15</h3>
-<div class="outline-text-3" id="text-orgda272b2">
+<div id="outline-container-org27b559a" class="outline-3">
+<h3 id="org27b559a">2020-04-15</h3>
+<div class="outline-text-3" id="text-org27b559a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/PIzDMdavQASgwBeW6QJUmg">《疫情下，拿什么来保护我们的隐私》</a> 电子码像一张通关卡，按照你的健康状况决定你
 是否拥有进入办公大楼、出入社区的资格。</li>
@@ -99,9 +308,9 @@ works （《世界是怎样运转的》）写于 1993 年 12 月， 现在看也
 </ul>
 </div>
 </div>
-<div id="outline-container-org4b0fd5c" class="outline-3">
-<h3 id="org4b0fd5c">2020-04-14</h3>
-<div class="outline-text-3" id="text-org4b0fd5c">
+<div id="outline-container-orgf0734e7" class="outline-3">
+<h3 id="orgf0734e7">2020-04-14</h3>
+<div class="outline-text-3" id="text-orgf0734e7">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Ti5jSBfXn5EECTLxP4ZTzQ">《狙击拼多多，淘宝特价版有戏吗？》</a> 2019 年阿里内部成立 C2M 事业部，经过一年内
 测，淘宝特价板正式上线。C2M 的核心是去掉品牌商和渠道商等中间环节，提高效率，降
@@ -134,9 +343,9 @@ works （《世界是怎样运转的》）写于 1993 年 12 月， 现在看也
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb2fa08c" class="outline-3">
-<h3 id="orgb2fa08c">2020-04-13</h3>
-<div class="outline-text-3" id="text-orgb2fa08c">
+<div id="outline-container-orgfca14bc" class="outline-3">
+<h3 id="orgfca14bc">2020-04-13</h3>
+<div class="outline-text-3" id="text-orgfca14bc">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/4kt4EVEwPwQuiNVbgiw7jA">《危机时刻：互联网公司 IPO 大撤退》</a> 上市、退市，都不是一家企业的终点，资本市场
 短期的股价或许无法预判，但长期价值最后还是会回归经济规律。</li>
@@ -170,9 +379,9 @@ works （《世界是怎样运转的》）写于 1993 年 12 月， 现在看也
 </ul>
 </div>
 </div>
-<div id="outline-container-org62ba75e" class="outline-3">
-<h3 id="org62ba75e">2020-04-10</h3>
-<div class="outline-text-3" id="text-org62ba75e">
+<div id="outline-container-org48dc44a" class="outline-3">
+<h3 id="org48dc44a">2020-04-10</h3>
+<div class="outline-text-3" id="text-org48dc44a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/ScRLzsZTAxkPSAVT9lSZfg">《这场疫情，暴露了 5 个商业机会！》</a> 宝洁和通用电气诞生于 1873 年经济大恐慌时期。
 通用汽车诞生于 1907 年的经济大萧条时期。IBM 诞生于 1911 年的一战前夕。</li>
@@ -205,9 +414,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb480c9b" class="outline-3">
-<h3 id="orgb480c9b">2020-04-09</h3>
-<div class="outline-text-3" id="text-orgb480c9b">
+<div id="outline-container-orgaf8fd89" class="outline-3">
+<h3 id="orgaf8fd89">2020-04-09</h3>
+<div class="outline-text-3" id="text-orgaf8fd89">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/LXr-BNAZ_gyKgYwmtLckLQ">《为什么抖音做社交这么难？》</a> 抖音社交化的信号来自于最近在内测的两项新
 功能：“连线”和“熟人”。前者的核心功能点是一对一真实视频交友，后者为抖音
@@ -241,9 +450,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org6b25298" class="outline-3">
-<h3 id="org6b25298">2020-04-08</h3>
-<div class="outline-text-3" id="text-org6b25298">
+<div id="outline-container-orga20ca0e" class="outline-3">
+<h3 id="orga20ca0e">2020-04-08</h3>
+<div class="outline-text-3" id="text-orga20ca0e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/8vjybcdv-jvRxGCU8qS6xw">《万字长文实录：消费者变了！》</a> 新冠疫情让人们发现，增长和营销，一定要
 围绕消费者增长来审视。那么我们的市场、消费者发生了什么样的变化？</li>
@@ -279,9 +488,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfa1abbb" class="outline-3">
-<h3 id="orgfa1abbb">2020-04-07</h3>
-<div class="outline-text-3" id="text-orgfa1abbb">
+<div id="outline-container-org6667c6f" class="outline-3">
+<h3 id="org6667c6f">2020-04-07</h3>
+<div class="outline-text-3" id="text-org6667c6f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Cq5G_Uo775t288urlHL52g">《为什么半个互联网都在玩直播带货？》</a> 疫情黑天鹅之下，众多线下业态停摆，
 越来越多商家将业务搬到线上，企业的老板们纷纷加入到直播带货的大军中。</li>
@@ -316,9 +525,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org44310a6" class="outline-3">
-<h3 id="org44310a6">2020-04-06</h3>
-<div class="outline-text-3" id="text-org44310a6">
+<div id="outline-container-org5bac82e" class="outline-3">
+<h3 id="org5bac82e">2020-04-06</h3>
+<div class="outline-text-3" id="text-org5bac82e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/WreFPdVyrC2riEFcXl4e2g">《尤瓦尔·赫拉利《冠状病毒之后的世界》》</a> 他谈到疫情结束后，世界向何处去
 的问题，以及对目前各国没有统一行动的计划，反而各自为战、竞相关闭边境的
@@ -353,9 +562,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org0627c76" class="outline-3">
-<h3 id="org0627c76">2020-04-03</h3>
-<div class="outline-text-3" id="text-org0627c76">
+<div id="outline-container-orgfee529e" class="outline-3">
+<h3 id="orgfee529e">2020-04-03</h3>
+<div class="outline-text-3" id="text-orgfee529e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/cvHzZbag0OqO-KV1G-_TRg">《瑞幸遭做空报告全文：欺诈 + 基本崩溃的业务》</a> 这一份长达 89 页的报告直
 指瑞幸咖啡(LK.US)正在捏造公司财务和运营数据。</li>
@@ -391,13 +600,13 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </div>
 </div>
 </div>
-<div id="outline-container-orgaa83f4b" class="outline-2">
-<h2 id="orgaa83f4b">三月</h2>
-<div class="outline-text-2" id="text-orgaa83f4b">
+<div id="outline-container-orgad837ca" class="outline-2">
+<h2 id="orgad837ca">三月</h2>
+<div class="outline-text-2" id="text-orgad837ca">
 </div>
-<div id="outline-container-orgd74038f" class="outline-3">
-<h3 id="orgd74038f">2020-03-26</h3>
-<div class="outline-text-3" id="text-orgd74038f">
+<div id="outline-container-orga63a04d" class="outline-3">
+<h3 id="orga63a04d">2020-03-26</h3>
+<div class="outline-text-3" id="text-orga63a04d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/U3vf4CRiief5Dj2veOVMKA">《评分 9.9！科幻迷改编的《我的三体》，是怎么让粉丝燃爆的？》</a> 这个画风
 奇特，人物、场景由一个个方块组成的系列作品，被苛刻的粉丝们认为精准还原
@@ -432,9 +641,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org0a21d5d" class="outline-3">
-<h3 id="org0a21d5d">2020-03-24</h3>
-<div class="outline-text-3" id="text-org0a21d5d">
+<div id="outline-container-org42b7a44" class="outline-3">
+<h3 id="org42b7a44">2020-03-24</h3>
+<div class="outline-text-3" id="text-org42b7a44">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/YGZYZlWpPqknwxeERxAcqg">《疫情结束后，该换个活法了》</a> 基础设施变了、协作模式变了，“他人利益”与
 “自我发展”的关系也变了，究竟是要继续逞英雄，还是学会“概率化生存”？</li>
@@ -469,9 +678,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org6dbb6b9" class="outline-3">
-<h3 id="org6dbb6b9">2020-03-20</h3>
-<div class="outline-text-3" id="text-org6dbb6b9">
+<div id="outline-container-org3cb5f4d" class="outline-3">
+<h3 id="org3cb5f4d">2020-03-20</h3>
+<div class="outline-text-3" id="text-org3cb5f4d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/FSQnXJXLGQwhoc51HybQDw">《上抖音直播的中国县长们》</a> 越来越多的基层公务人员走进直播间，用屏幕为
 乡亲带去便利与服务。而在此次疫情期间，直播间里的县长为了“带货”，更是使
@@ -504,9 +713,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org49621ac" class="outline-3">
-<h3 id="org49621ac">2020-03-19</h3>
-<div class="outline-text-3" id="text-org49621ac">
+<div id="outline-container-org03d0db4" class="outline-3">
+<h3 id="org03d0db4">2020-03-19</h3>
+<div class="outline-text-3" id="text-org03d0db4">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/FSQnXJXLGQwhoc51HybQDw">《上抖音直播的中国县长们》</a> 越来越多的基层公务人员走进直播间，用屏幕为
 乡亲带去便利与服务。而在此次疫情期间，直播间里的县长为了“带货”，更是使
@@ -539,9 +748,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org6edc601" class="outline-3">
-<h3 id="org6edc601">2020-03-18</h3>
-<div class="outline-text-3" id="text-org6edc601">
+<div id="outline-container-orgd661f15" class="outline-3">
+<h3 id="orgd661f15">2020-03-18</h3>
+<div class="outline-text-3" id="text-orgd661f15">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/L1sgro3hosRjySYiBayrfg">《进击的比尔·盖茨》</a> 高晓松难得把胡子刮得精光、长发梳得倍儿顺，问盖茨：
 “你和马云等中国的许多企业家有什么不同？”盖茨回答：“没什么不同。”</li>
@@ -574,9 +783,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc6e239c" class="outline-3">
-<h3 id="orgc6e239c">2020-03-12</h3>
-<div class="outline-text-3" id="text-orgc6e239c">
+<div id="outline-container-org689c99a" class="outline-3">
+<h3 id="org689c99a">2020-03-12</h3>
+<div class="outline-text-3" id="text-org689c99a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/egHU0HVoqOUZn6PptPtMQw">《他们在微博上，也曾说过真话啊》</a> 王兴的饭否走的最早，死的最快。因为监
 管原因，“删帖、限制敏感关键字、暂停搜索、域名解析、服务器关闭”类饭否的
@@ -610,9 +819,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org561fd83" class="outline-3">
-<h3 id="org561fd83">2020-03-11</h3>
-<div class="outline-text-3" id="text-org561fd83">
+<div id="outline-container-org63aea36" class="outline-3">
+<h3 id="org63aea36">2020-03-11</h3>
+<div class="outline-text-3" id="text-org63aea36">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/roTg_r57btmPD_vXa21Izg">《今天是微信公号诞生以来最荒谬的一天》</a> 这是由一篇文章引发的荒谬喜剧；
 但也完美诠释了，喜剧的内核，就是一场悲剧。</li>
@@ -645,9 +854,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org7294ced" class="outline-3">
-<h3 id="org7294ced">2020-03-10</h3>
-<div class="outline-text-3" id="text-org7294ced">
+<div id="outline-container-org6756a64" class="outline-3">
+<h3 id="org6756a64">2020-03-10</h3>
+<div class="outline-text-3" id="text-org6756a64">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/gKYRRYJnw8VR7H2UzgHNBA">《谷歌与中国开发者的恩怨情仇》</a> 2 月 20 日，谷歌以存在 App 外广告等干扰
 性广告问题为由移除了近 600 款安卓应用，并禁止其开发者进入 Play 软件商
@@ -683,9 +892,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc4505f4" class="outline-3">
-<h3 id="orgc4505f4">2020-03-09</h3>
-<div class="outline-text-3" id="text-orgc4505f4">
+<div id="outline-container-orgde4eb0a" class="outline-3">
+<h3 id="orgde4eb0a">2020-03-09</h3>
+<div class="outline-text-3" id="text-orgde4eb0a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/11_yAhI12UqYF0hg0CLaFQ">《知识星球吴鲁加和他的 2000 万名星球成员》</a> 截至目前，知识星球拥有近
 2000 个活跃星球，此外，知识星球积累了超过 2000 万用户，其中有 200 多万
@@ -719,9 +928,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org6ca1777" class="outline-3">
-<h3 id="org6ca1777">2020-03-05</h3>
-<div class="outline-text-3" id="text-org6ca1777">
+<div id="outline-container-org2c67e2b" class="outline-3">
+<h3 id="org2c67e2b">2020-03-05</h3>
+<div class="outline-text-3" id="text-org2c67e2b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NNX-QImafTW9kxpcmKwZxg">《“斗鱼一姐”冯提莫来到 B 站的 75 天》</a> 80 天前离开自己发迹的平台斗鱼直播，
 在下一个 80 天里，冯提莫和她的粉丝似乎已然习惯了 B 站。</li>
@@ -744,9 +953,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org9e309c8" class="outline-3">
-<h3 id="org9e309c8">2020-03-02</h3>
-<div class="outline-text-3" id="text-org9e309c8">
+<div id="outline-container-org0cce938" class="outline-3">
+<h3 id="org0cce938">2020-03-02</h3>
+<div class="outline-text-3" id="text-org0cce938">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/U0CoxTNupeDg5z5_J9XBqg">《快手信息收集 2017-2019》</a> 文章都是乱翻书基于团队日常信息收集所做出的
 分析评论，将乱翻书公众号 2017 年-2019 年部分相关快手的文章做了一次信息
@@ -781,13 +990,13 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </div>
 </div>
 </div>
-<div id="outline-container-orgaeaacb1" class="outline-2">
-<h2 id="orgaeaacb1">二月</h2>
-<div class="outline-text-2" id="text-orgaeaacb1">
+<div id="outline-container-org50555ac" class="outline-2">
+<h2 id="org50555ac">二月</h2>
+<div class="outline-text-2" id="text-org50555ac">
 </div>
-<div id="outline-container-org2b2bff7" class="outline-3">
-<h3 id="org2b2bff7">2020-02-28</h3>
-<div class="outline-text-3" id="text-org2b2bff7">
+<div id="outline-container-orgf7183c9" class="outline-3">
+<h3 id="orgf7183c9">2020-02-28</h3>
+<div class="outline-text-3" id="text-orgf7183c9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/QEBzvJCc7toelzpvP6YRPA">《称陆奇为“人生导师”，90 后创业者离开百度“漂流记”》</a> 2018 年 8 月，从百
 度离开不久，吕骋在洛杉矶好莱坞附近开始了新的创业项目 rct studio，致力
@@ -822,9 +1031,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org5616262" class="outline-3">
-<h3 id="org5616262">2020-02-27</h3>
-<div class="outline-text-3" id="text-org5616262">
+<div id="outline-container-orgcd3f5f5" class="outline-3">
+<h3 id="orgcd3f5f5">2020-02-27</h3>
+<div class="outline-text-3" id="text-orgcd3f5f5">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/q8ZRXoFBPCcrcq2Y4dLwwg">《隔离、疾病与权力》</a> 碰上未知的疾病，很多人心中第一个想法还是：这病会
 不会传染？快把得病的人关起来！对人类来说，隔离到底意味着什么？</li>
@@ -857,9 +1066,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfb96b5d" class="outline-3">
-<h3 id="orgfb96b5d">2020-02-26</h3>
-<div class="outline-text-3" id="text-orgfb96b5d">
+<div id="outline-container-orge52e2e8" class="outline-3">
+<h3 id="orge52e2e8">2020-02-26</h3>
+<div class="outline-text-3" id="text-orge52e2e8">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/tmo7Xmduvb4WzRtGcr1Kig">《Google 是如何远程办公的？》</a> 作为以人性管理和多元办公著称的 Google，
 也是最早拥抱远程办公的大公司之一。Google 不仅允许部分员工，让员工在特
@@ -893,9 +1102,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfd414d3" class="outline-3">
-<h3 id="orgfd414d3">2020-02-25</h3>
-<div class="outline-text-3" id="text-orgfd414d3">
+<div id="outline-container-org33ad521" class="outline-3">
+<h3 id="org33ad521">2020-02-25</h3>
+<div class="outline-text-3" id="text-org33ad521">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/GScKaWmU_u4gfzNBMFSO8w">《许知远不会做生意？单向跟西西弗、茑屋书店差在哪？》</a> 今日，单向空间书
 店在官方微信号发起“续命”众筹，恳请粉丝们通过提前购买储值卡的方式给单向
@@ -930,9 +1139,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org52d50cd" class="outline-3">
-<h3 id="org52d50cd">2020-02-24</h3>
-<div class="outline-text-3" id="text-org52d50cd">
+<div id="outline-container-orgacc4734" class="outline-3">
+<h3 id="orgacc4734">2020-02-24</h3>
+<div class="outline-text-3" id="text-orgacc4734">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Kzb02__dywWoPVC4S-VWDw">《我总结了一本营销手册：激活中国人的情绪，这四大变化正在发生&#x2026;》</a>
 疫情之下，没有什么特效药，个人和企业都要纯靠免疫力挺过来。如何提高自己
@@ -967,9 +1176,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org06ad403" class="outline-3">
-<h3 id="org06ad403">2020-02-21</h3>
-<div class="outline-text-3" id="text-org06ad403">
+<div id="outline-container-org58093c2" class="outline-3">
+<h3 id="org58093c2">2020-02-21</h3>
+<div class="outline-text-3" id="text-org58093c2">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/kPWmVW-zLICEHAwbkPHlEw">《从六大趋势看美国超级碗：折射时代文化与商业的万花筒》</a> 超级碗的文化影
 响力是毋庸置疑的，它仍然牵连着公众的脉搏。对于这样高水准的文化盛事，社
@@ -1002,9 +1211,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org862dd50" class="outline-3">
-<h3 id="org862dd50">2020-02-19</h3>
-<div class="outline-text-3" id="text-org862dd50">
+<div id="outline-container-orgd9fd706" class="outline-3">
+<h3 id="orgd9fd706">2020-02-19</h3>
+<div class="outline-text-3" id="text-orgd9fd706">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/0LiBpKgGPwcigOSiat5Q_g">《疫情之下，各行业下个黄金期正在到来？》</a> 近日，第一太平戴维斯的一份报
 告指出：零售市场有望在 3 月底逐步回归常态，品牌年度焦点已转至夏季后的
@@ -1039,9 +1248,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org5809ac8" class="outline-3">
-<h3 id="org5809ac8">2020-02-18</h3>
-<div class="outline-text-3" id="text-org5809ac8">
+<div id="outline-container-org594e5a8" class="outline-3">
+<h3 id="org594e5a8">2020-02-18</h3>
+<div class="outline-text-3" id="text-org594e5a8">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/8oP2qPhqdEvUN6amrEJZIA">《危险的现金流》</a> 对于创业者而言，现金流不仅是一个复杂的会计问题，更是
 一个企业经营的艰难选择题。疫情面前，所有人都在补一堂关于现金流的课。</li>
@@ -1073,9 +1282,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org50b36e1" class="outline-3">
-<h3 id="org50b36e1">2020-02-17</h3>
-<div class="outline-text-3" id="text-org50b36e1">
+<div id="outline-container-orgf2d79b4" class="outline-3">
+<h3 id="orgf2d79b4">2020-02-17</h3>
+<div class="outline-text-3" id="text-orgf2d79b4">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NCYr8Vm8Axc-G4NMxIMWYA">《2 亿中国人，宅家工作 14 天》</a> “谁家怎么有韩国人在讲话？”在跟 CEO 对齐
 年度 KPI 业绩目标的电话会议上，居然传来了播放韩剧的声音。主持人只好如
@@ -1109,9 +1318,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf487102" class="outline-3">
-<h3 id="orgf487102">2020-02-16</h3>
-<div class="outline-text-3" id="text-orgf487102">
+<div id="outline-container-org00bcfdb" class="outline-3">
+<h3 id="org00bcfdb">2020-02-16</h3>
+<div class="outline-text-3" id="text-org00bcfdb">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/DKwQkXjyp0Up77uGkJFPmg">《疫情之下，哪些行业正在逆势爆发？》</a> 非常时期、非常事件会压垮一些商业
 形态，但非常时期也是一个重塑人们消费观念与消费习惯的机会。</li>
@@ -1144,13 +1353,13 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </div>
 </div>
 </div>
-<div id="outline-container-org135f752" class="outline-2">
-<h2 id="org135f752">一月</h2>
-<div class="outline-text-2" id="text-org135f752">
+<div id="outline-container-org74a20f8" class="outline-2">
+<h2 id="org74a20f8">一月</h2>
+<div class="outline-text-2" id="text-org74a20f8">
 </div>
-<div id="outline-container-org9e3b744" class="outline-3">
-<h3 id="org9e3b744">2020-01-16</h3>
-<div class="outline-text-3" id="text-org9e3b744">
+<div id="outline-container-orgc257550" class="outline-3">
+<h3 id="orgc257550">2020-01-16</h3>
+<div class="outline-text-3" id="text-orgc257550">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/haxNtd4luBc0BBcWCI4R0g">《独家：掌管百度战投三年后，马东敏把权力重新移交李彦宏》</a> 战投汇报线的
 变化意味着，李彦宏全面收拢兵权，马东敏退后掌管部分职能线，二人正在重新
@@ -1185,9 +1394,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org35f635d" class="outline-3">
-<h3 id="org35f635d">2020-01-14</h3>
-<div class="outline-text-3" id="text-org35f635d">
+<div id="outline-container-org3e5efd4" class="outline-3">
+<h3 id="org3e5efd4">2020-01-14</h3>
+<div class="outline-text-3" id="text-org3e5efd4">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/DhvXAH4VcCCE3X3GACDQmA">《春节薅羊毛指南》</a> 今年你准备好蹲守谁家的红包，集哪家的卡？今年的“羊毛”哪
 家强？废话不多说，一起来看一下。</li>
@@ -1222,9 +1431,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orge3ee43c" class="outline-3">
-<h3 id="orge3ee43c">2020-01-13</h3>
-<div class="outline-text-3" id="text-orge3ee43c">
+<div id="outline-container-orga0cdd11" class="outline-3">
+<h3 id="orga0cdd11">2020-01-13</h3>
+<div class="outline-text-3" id="text-orga0cdd11">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/-6Sh3FhKypYq2O2ftfVxBA">《CES 无新事》</a> 主线其实非常清晰：不管产品如何更迭，底层的需求却鲜有改
 变。荒凉沙漠中的繁荣赌城，再次展现了多变的载体与永恒的内容需求之间碰撞
@@ -1259,9 +1468,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org03952e8" class="outline-3">
-<h3 id="org03952e8">2020-01-10</h3>
-<div class="outline-text-3" id="text-org03952e8">
+<div id="outline-container-org8810930" class="outline-3">
+<h3 id="org8810930">2020-01-10</h3>
+<div class="outline-text-3" id="text-org8810930">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/vps3nzX5BvAhNw7za_ma8w">《一晚 70 亿阅读量，单篇涨粉 17 万，GQ 打造爆款内容的幕后故事》</a> 为什么
 所有人都觉得有点焦虑，觉得可能公众号也许是夕阳产业了呢？是不是觉得过去
@@ -1296,9 +1505,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc2e0f42" class="outline-3">
-<h3 id="orgc2e0f42">2020-01-09</h3>
-<div class="outline-text-3" id="text-orgc2e0f42">
+<div id="outline-container-orgc7cbac4" class="outline-3">
+<h3 id="orgc7cbac4">2020-01-09</h3>
+<div class="outline-text-3" id="text-orgc7cbac4">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/sZkkQOPz834KcKY1aWWayw">《张小龙缺席，微信“未完成” 》</a> 没有了张小龙长达四小时的深夜即兴分享，今
 年的微信公开课 PRO 还有哪些看点？</li>
@@ -1331,9 +1540,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd9872a1" class="outline-3">
-<h3 id="orgd9872a1">2020-01-07</h3>
-<div class="outline-text-3" id="text-orgd9872a1">
+<div id="outline-container-org490f7cd" class="outline-3">
+<h3 id="org490f7cd">2020-01-07</h3>
+<div class="outline-text-3" id="text-org490f7cd">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/6_KtRKTNzVi87EpL8vp6aQ">《B 站选出百大 up 主，他们才是大宝藏》</a> 阿婆主在做什么？他们在养竹鼠、
 在探店、在开箱测评，他们在放大日常生活，有时候即使你不知道他们在做什么，
@@ -1362,9 +1571,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org66ea31d" class="outline-3">
-<h3 id="org66ea31d">2020-01-06</h3>
-<div class="outline-text-3" id="text-org66ea31d">
+<div id="outline-container-orgab0948b" class="outline-3">
+<h3 id="orgab0948b">2020-01-06</h3>
+<div class="outline-text-3" id="text-orgab0948b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/2tInJqxrNvQz8UYuu4aMyg">《重磅发布！2020 内容产业年度报告》</a> 这份报告围绕“科技赋能、内容破界”的
 大会主题，从内容受众破界、内容创作者破界、内容职能破界三个部分展开，以
@@ -1400,9 +1609,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orge275aba" class="outline-3">
-<h3 id="orge275aba">2020-01-02</h3>
-<div class="outline-text-3" id="text-orge275aba">
+<div id="outline-container-org3ccb267" class="outline-3">
+<h3 id="org3ccb267">2020-01-02</h3>
+<div class="outline-text-3" id="text-org3ccb267">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/lpsXyAymzd3fk5pMjBizEA">《罗振宇 2019-2020“时间的朋友”跨年演讲未删减全文》</a> 今年的演讲主题是——
 基本盘。也就是不去看那些一惊一乍的标题，人云亦云的情绪，而是转过头，看
@@ -1454,9 +1663,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
         <div class="col-md-2"></div>
             <h1>管理: 销售管理体系</h1>
             
-<div id="outline-container-org064535d" class="outline-2">
-<h2 id="org064535d">战略制定: 生产增长版图与市场策略</h2>
-<div class="outline-text-2" id="text-org064535d">
+<div id="outline-container-orga6ca96c" class="outline-2">
+<h2 id="orga6ca96c">战略制定: 生产增长版图与市场策略</h2>
+<div class="outline-text-2" id="text-orga6ca96c">
 <p>
 你的生意版图来源于你所切入的市场, 画三个同心圆:
 </p>
@@ -1467,9 +1676,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ol>
 </div>
 
-<div id="outline-container-orgf6d8634" class="outline-3">
-<h3 id="orgf6d8634">管什么: 制定生意版图</h3>
-<div class="outline-text-3" id="text-orgf6d8634">
+<div id="outline-container-org47abdab" class="outline-3">
+<h3 id="org47abdab">管什么: 制定生意版图</h3>
+<div class="outline-text-3" id="text-org47abdab">
 <ol class="org-ol">
 <li>目标设定与分解
 <dl class="org-dl">
@@ -1531,13 +1740,13 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </div>
 </div>
 </div>
-<div id="outline-container-orgca26039" class="outline-2">
-<h2 id="orgca26039">战略执行: 团队协同与 PDCA</h2>
-<div class="outline-text-2" id="text-orgca26039">
+<div id="outline-container-orgf88232e" class="outline-2">
+<h2 id="orgf88232e">战略执行: 团队协同与 PDCA</h2>
+<div class="outline-text-2" id="text-orgf88232e">
 </div>
-<div id="outline-container-org8e74098" class="outline-3">
-<h3 id="org8e74098">怎么管: 抓规定销售动作</h3>
-<div class="outline-text-3" id="text-org8e74098">
+<div id="outline-container-org1443a9e" class="outline-3">
+<h3 id="org1443a9e">怎么管: 抓规定销售动作</h3>
+<div class="outline-text-3" id="text-org1443a9e">
 <ol class="org-ol">
 <li>资源分配</li>
 <li><p>
@@ -1574,13 +1783,13 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </div>
 </div>
 </div>
-<div id="outline-container-org2ca888e" class="outline-2">
-<h2 id="org2ca888e">战略保障: 数字化运营 与 团队管理</h2>
-<div class="outline-text-2" id="text-org2ca888e">
+<div id="outline-container-org03fbe83" class="outline-2">
+<h2 id="org03fbe83">战略保障: 数字化运营 与 团队管理</h2>
+<div class="outline-text-2" id="text-org03fbe83">
 </div>
-<div id="outline-container-org1334e3b" class="outline-3">
-<h3 id="org1334e3b">用什么管: 报表体现动作</h3>
-<div class="outline-text-3" id="text-org1334e3b">
+<div id="outline-container-org89b50fb" class="outline-3">
+<h3 id="org89b50fb">用什么管: 报表体现动作</h3>
+<div class="outline-text-3" id="text-org89b50fb">
 <ol class="org-ol">
 <li>指标与报表
 <ul class="org-ul">
@@ -1634,8 +1843,8 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org87aa08e">小修: 修改 init.el</a></li>
-<li><a href="#org1296c78">大改: 定义 private layer</a></li>
+<li><a href="#org6b6a70e">小修: 修改 init.el</a></li>
+<li><a href="#org34ce613">大改: 定义 private layer</a></li>
 </ul>
 </div>
 </div>
@@ -1659,9 +1868,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 然后就可以开始你的个性化定制了, 这里分为两种定制, 一种是 <code>小修</code> 你通过修改 Spacemacs 变量配置来定制, 另一种是 <code>大改</code> 你通过 Spacemacs 的 layer 机制, 定制自己的使用场景.
 </p>
 
-<div id="outline-container-org87aa08e" class="outline-2">
-<h2 id="org87aa08e">小修: 修改 init.el</h2>
-<div class="outline-text-2" id="text-org87aa08e">
+<div id="outline-container-org6b6a70e" class="outline-2">
+<h2 id="org6b6a70e">小修: 修改 init.el</h2>
+<div class="outline-text-2" id="text-org6b6a70e">
 <p>
 init.el 中一共有四个函数:
 </p>
@@ -1681,7 +1890,7 @@ init.el 中一共有四个函数:
 </p>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org286f782">;; 出厂自带的基础 layer, 默认选择 spacemacs 就好.
+<pre class="src src-emacs-lisp" id="orga7a1336">;; 出厂自带的基础 layer, 默认选择 spacemacs 就好.
 dotspacemacs-distribution 'spacemacs
 
 ;; 使用到了某些 layer 再安装就行
@@ -1730,7 +1939,7 @@ dotspacemacs-install-packages 'used-only
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org42ae6e3">;; 使用 https 连接服务器下载 packages
+<pre class="src src-emacs-lisp" id="org9ceb9c9">;; 使用 https 连接服务器下载 packages
 dotspacemacs-elpa-https t
 
 ;; 连接超时时间设置为 5 秒
@@ -1797,7 +2006,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org5da29cc">;; 默认源太慢了, 建议使用子龙山人的国内镜像源
+<pre class="src src-emacs-lisp" id="org1cfbc1f">;; 默认源太慢了, 建议使用子龙山人的国内镜像源
 (setq configuration-layer--elpa-archives
       '(("melpai-cn" . "http://elpa.zilongshanren.com/melpa/")
         ("org-cn"   . "http://elpa.zilongshanren.com/org/")
@@ -1814,7 +2023,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="orgb7ad5e5">;; 设置 todo keywords
+<pre class="src src-emacs-lisp" id="orgcca098f">;; 设置 todo keywords
 (setq org-todo-keywords
       '((sequence "TODO" "HACK" "|" "DONE")))
 
@@ -1851,7 +2060,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org7e88629">;; stop emacs asking for confirmation when eval source code
+<pre class="src src-emacs-lisp" id="orged8a67c">;; stop emacs asking for confirmation when eval source code
 (setq org-confirm-babel-evaluate nil)
 
 ;; active Org-babel languages
@@ -1867,7 +2076,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="orgfea610b">;; 调试好久的颜色，效果超赞！todo keywords 增加背景色
+<pre class="src src-emacs-lisp" id="org654e47d">;; 调试好久的颜色，效果超赞！todo keywords 增加背景色
 (setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
                                ("HACK" . (:foreground "white" :background "#2E8B57"  :weight bold))
                                ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
@@ -1875,7 +2084,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org080b2b8">;; Org archive
+<pre class="src src-emacs-lisp" id="orgb43ca9d">;; Org archive
 (setq org-archive-location "%s_archive::date-tree")
 
 (defadvice org-archive-subtree
@@ -1915,7 +2124,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="orgdf2cb24">;; agenda 里面时间块彩色显示
+<pre class="src src-emacs-lisp" id="org13084bb">;; agenda 里面时间块彩色显示
 ;; From: https://emacs-china.org/t/org-agenda/8679/3
 (defun ljg/org-agenda-time-grid-spacing ()
   "Set different line spacing w.r.t. time duration."
@@ -1959,7 +2168,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org56abd52">
+<pre class="src src-emacs-lisp" id="orgd027bb7">
 ;; 使用 reveal.js 来生成 html 版本的 ppt
 ;; https://opensource.com/article/18/2/how-create-slides-emacs-org-mode-and-revealjs
 
@@ -1976,7 +2185,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org96f7e90">;; 设置快捷键
+<pre class="src src-emacs-lisp" id="org58a5577">;; 设置快捷键
 
 (evil-leader/set-key "op" 'org-pomodoro)
 (evil-leader/set-key "oc" 'org-capture)
@@ -2006,7 +2215,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 再来显示相关的:
 </p>
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="orgac65b99">;;;;;;;;;;;;;;;;;;;;;;
+<pre class="src src-emacs-lisp" id="org4e26689">;;;;;;;;;;;;;;;;;;;;;;
 ;; 外观展示相关配置 ;;
 ;;;;;;;;;;;;;;;;;;;;;;
 
@@ -2043,7 +2252,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 配置下 LaTeX 相关内容:
 </p>
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="orgf4563bf">
+<pre class="src src-emacs-lisp" id="orgb914b88">
 ;; LaTeX 配置
 (setq Tex-command-default "XeLaTeX")
 
@@ -2100,7 +2309,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 其它配置项:
 </p>
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org6daa94a">
+<pre class="src src-emacs-lisp" id="orgdb8d0f6">
 ;; Tangle Org files when we save them
 ;; 一保存文件直接 tangle 代码
 ;; (defun tangle-on-save-org-mode-file()
@@ -2204,9 +2413,9 @@ dotspacemacs-whitespace-cleanup 'trailing
 </pre>
 </div>
 </div>
-<div id="outline-container-org1296c78" class="outline-2">
-<h2 id="org1296c78">大改: 定义 private layer</h2>
-<div class="outline-text-2" id="text-org1296c78">
+<div id="outline-container-org34ce613" class="outline-2">
+<h2 id="org34ce613">大改: 定义 private layer</h2>
+<div class="outline-text-2" id="text-org34ce613">
 <p>
 除了配置一个个 package 这个笨办法以外, Spacemacs 引入了 layer 的概念, 即将一个场景(比如使用 org-mode 或者 python)常用的一些 package 给打包放一起, 统称为一个 layer.
 </p>
@@ -2216,7 +2425,7 @@ Spacemacs 出厂自带了很多常用的 layer, 但同时也支持你自定义. 
 </p>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org4c0b3eb">(defconst lijigang-packages
+<pre class="src src-emacs-lisp" id="orge188d66">(defconst lijigang-packages
   '(org-page
     dired-icon
     cnfonts
@@ -2238,7 +2447,7 @@ Spacemacs 出厂自带了很多常用的 layer, 但同时也支持你自定义. 
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org3d7807f">(defun lijigang/init-org-page()
+<pre class="src src-emacs-lisp" id="org9103be6">(defun lijigang/init-org-page()
   "Initialize org-page to publish blog."
   (use-package org-page
     :ensure t
@@ -2458,28 +2667,28 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orga2e17f7">美化外观</a></li>
-<li><a href="#org73ae67a">快速记录</a></li>
-<li><a href="#org2abc1e5">快速归档</a></li>
-<li><a href="#org842831c">任务属性</a></li>
-<li><a href="#orgf04063e">超级应用</a>
+<li><a href="#org473855e">美化外观</a></li>
+<li><a href="#org35daef0">快速记录</a></li>
+<li><a href="#org78f75bc">快速归档</a></li>
+<li><a href="#org97a7f00">任务属性</a></li>
+<li><a href="#orgf73baa9">超级应用</a>
 <ul>
-<li><a href="#org4477168">Tables : 其实我也能当 Excel 使</a></li>
-<li><a href="#orgcb8c8f1">Hypelinks: 把我当浏览器使也可以</a></li>
-<li><a href="#orgcdd028a">Export : 分享给不使用 Orgmode 的人</a></li>
+<li><a href="#org41d6a55">Tables : 其实我也能当 Excel 使</a></li>
+<li><a href="#org7eea98f">Hypelinks: 把我当浏览器使也可以</a></li>
+<li><a href="#org8dd5a37">Export : 分享给不使用 Orgmode 的人</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orga2e17f7" class="outline-2">
-<h2 id="orga2e17f7">美化外观</h2>
-<div class="outline-text-2" id="text-orga2e17f7">
+<div id="outline-container-org473855e" class="outline-2">
+<h2 id="org473855e">美化外观</h2>
+<div class="outline-text-2" id="text-org473855e">
 </div>
-<div id="outline-container-org3f4a2cb" class="outline-4">
-<h4 id="org3f4a2cb">美化: Headline</h4>
-<div class="outline-text-4" id="text-org3f4a2cb">
+<div id="outline-container-org94f5efd" class="outline-4">
+<h4 id="org94f5efd">美化: Headline</h4>
+<div class="outline-text-4" id="text-org94f5efd">
 <p>
 默认显示 Headline 的 <code>*</code> 符号看着和内容无关, 又特别扎眼, 希望让它显示美观些, 同时又不影响查看内容和缩进.
 </p>
@@ -2509,9 +2718,9 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 </div>
 </div>
 
-<div id="outline-container-orged3387e" class="outline-4">
-<h4 id="orged3387e">美化: Todo Keyword</h4>
-<div class="outline-text-4" id="text-orged3387e">
+<div id="outline-container-org96f6cc1" class="outline-4">
+<h4 id="org96f6cc1">美化: Todo Keyword</h4>
+<div class="outline-text-4" id="text-org96f6cc1">
 <p>
 每个 Headline 都可以有不同状态, 比如待启动/进行中/阻塞中/已完成 等等, 可以根据自己的实际需求来定义这些状态, 定义方法也很简单, 只要设置下面这个变量就好:
 </p>
@@ -2548,9 +2757,9 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 </div>
 </div>
 
-<div id="outline-container-org28f1fdd" class="outline-4">
-<h4 id="org28f1fdd">美化: Agenda</h4>
-<div class="outline-text-4" id="text-org28f1fdd">
+<div id="outline-container-org6fce5f0" class="outline-4">
+<h4 id="org6fce5f0">美化: Agenda</h4>
+<div class="outline-text-4" id="text-org6fce5f0">
 <p>
 Agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行文本. 能不能按时间段大小显示成区块样式, 更直观显示时间计划?
 </p>
@@ -2601,13 +2810,13 @@ Agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行�
 </div>
 </div>
 
-<div id="outline-container-org73ae67a" class="outline-2">
-<h2 id="org73ae67a">快速记录</h2>
-<div class="outline-text-2" id="text-org73ae67a">
+<div id="outline-container-org35daef0" class="outline-2">
+<h2 id="org35daef0">快速记录</h2>
+<div class="outline-text-2" id="text-org35daef0">
 </div>
-<div id="outline-container-org1d60697" class="outline-4">
-<h4 id="org1d60697">Capture : 快速记录任务</h4>
-<div class="outline-text-4" id="text-org1d60697">
+<div id="outline-container-org07c38a3" class="outline-4">
+<h4 id="org07c38a3">Capture : 快速记录任务</h4>
+<div class="outline-text-4" id="text-org07c38a3">
 <p>
 有时候正在 A 文件中写东西, 突然有个想法想记录到你的 idea list 中, 希望可以实现不管当前在哪个地方, 都能一键记录文字到指定文件中.
 </p>
@@ -2651,9 +2860,9 @@ Org mode 的 org-capture 功能正是实现这个需求的自带功能. 只需�
 </div>
 </div>
 </div>
-<div id="outline-container-org2abc1e5" class="outline-2">
-<h2 id="org2abc1e5">快速归档</h2>
-<div class="outline-text-2" id="text-org2abc1e5">
+<div id="outline-container-org78f75bc" class="outline-2">
+<h2 id="org78f75bc">快速归档</h2>
+<div class="outline-text-2" id="text-org78f75bc">
 <p>
 随着任务记录越来越多, 历史上已完成的任务如果一直累积在任务文件中, 文件会越来越大, 也会影响搜索结果和速度. 希望可以将已完成的任务快速归档存储到指定文件, 实现任务文件精简, 同时历史已完成任务还不会丢弃, 有需要时可随时搜索查看归档文件.
 </p>
@@ -2687,13 +2896,13 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 
-<div id="outline-container-org842831c" class="outline-2">
-<h2 id="org842831c">任务属性</h2>
-<div class="outline-text-2" id="text-org842831c">
+<div id="outline-container-org97a7f00" class="outline-2">
+<h2 id="org97a7f00">任务属性</h2>
+<div class="outline-text-2" id="text-org97a7f00">
 </div>
-<div id="outline-container-orgcb17ada" class="outline-4">
-<h4 id="orgcb17ada">Time Clocking : 记录任务用时</h4>
-<div class="outline-text-4" id="text-orgcb17ada">
+<div id="outline-container-org1985fcb" class="outline-4">
+<h4 id="org1985fcb">Time Clocking : 记录任务用时</h4>
+<div class="outline-text-4" id="text-org1985fcb">
 <p>
 希望记录任务的开始时间和结束时间, 并自动显示经历时长.
 </p>
@@ -2720,9 +2929,9 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
 </div>
 </div>
 
-<div id="outline-container-orgb326f61" class="outline-4">
-<h4 id="orgb326f61">Time Reporting: 时间都去哪儿了</h4>
-<div class="outline-text-4" id="text-orgb326f61">
+<div id="outline-container-orgc1ca322" class="outline-4">
+<h4 id="orgc1ca322">Time Reporting: 时间都去哪儿了</h4>
+<div class="outline-text-4" id="text-orgc1ca322">
 <p>
 我们已经在每个任务开始和结果时都打了时间戳, 那生成一个时间花费的报表应该也不在话
 下了.
@@ -2739,9 +2948,9 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
   />
 </div>
 </div>
-<div id="outline-container-org329962f" class="outline-4">
-<h4 id="org329962f">Deadline: 设置死线</h4>
-<div class="outline-text-4" id="text-org329962f">
+<div id="outline-container-org84544ec" class="outline-4">
+<h4 id="org84544ec">Deadline: 设置死线</h4>
+<div class="outline-text-4" id="text-org84544ec">
 <p>
 在日常 GTD 过程中, 还经常会有的需求是给某一任务设定 Deadline (org-deadline ,d)
 或 Schedule (org-schedule ,s) .
@@ -2766,9 +2975,9 @@ Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同�
   />
 </div>
 </div>
-<div id="outline-container-org49a5cde" class="outline-4">
-<h4 id="org49a5cde">Tags : 换个角度看世界</h4>
-<div class="outline-text-4" id="text-org49a5cde">
+<div id="outline-container-orgdfb3de5" class="outline-4">
+<h4 id="orgdfb3de5">Tags : 换个角度看世界</h4>
+<div class="outline-text-4" id="text-orgdfb3de5">
 <p>
 使用时间久了之后, 历史任务积累了很多. 想筛选或查找某个任务, 只能靠印象中任务标题
 中的文本来查找, 很低效. 希望可以在每个任务上面打标签, 这样后面可以筛选标签来找到
@@ -2785,9 +2994,9 @@ Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或某些 
 </div>
 </div>
 
-<div id="outline-container-org4afb8ea" class="outline-4">
-<h4 id="org4afb8ea">Properties: 再换个角度看看</h4>
-<div class="outline-text-4" id="text-org4afb8ea">
+<div id="outline-container-org86c10c9" class="outline-4">
+<h4 id="org86c10c9">Properties: 再换个角度看看</h4>
+<div class="outline-text-4" id="text-org86c10c9">
 <p>
 使用 tags 已经可以解决一部分筛选查找历史任务的问题了, 但如果你想针对某一个任务做
 些类似数据库似的字段存储, 比如你记录了吃过的五星级餐厅的列表, 想针对每个餐厅单独
@@ -2807,13 +3016,13 @@ Property 占一行.
 </div>
 </div>
 </div>
-<div id="outline-container-orgf04063e" class="outline-2">
-<h2 id="orgf04063e">超级应用</h2>
-<div class="outline-text-2" id="text-orgf04063e">
+<div id="outline-container-orgf73baa9" class="outline-2">
+<h2 id="orgf73baa9">超级应用</h2>
+<div class="outline-text-2" id="text-orgf73baa9">
 </div>
-<div id="outline-container-org4477168" class="outline-3">
-<h3 id="org4477168">Tables : 其实我也能当 Excel 使</h3>
-<div class="outline-text-3" id="text-org4477168">
+<div id="outline-container-org41d6a55" class="outline-3">
+<h3 id="org41d6a55">Tables : 其实我也能当 Excel 使</h3>
+<div class="outline-text-3" id="text-org41d6a55">
 <p>
 在文本中当然也少不了记录表格的需求, 比如做会议纪要, 时间/地点/人员/主题/结论/后
 续安排这些内容通过表格整理记录就会很方便. 怎么实现表格?
@@ -2845,9 +3054,9 @@ Property 占一行.
 </p>
 </div>
 </div>
-<div id="outline-container-orgcb8c8f1" class="outline-3">
-<h3 id="orgcb8c8f1">Hypelinks: 把我当浏览器使也可以</h3>
-<div class="outline-text-3" id="text-orgcb8c8f1">
+<div id="outline-container-org7eea98f" class="outline-3">
+<h3 id="org7eea98f">Hypelinks: 把我当浏览器使也可以</h3>
+<div class="outline-text-3" id="text-org7eea98f">
 <p>
 Org mode 是记录纯文本的, 但如果有超链接想存储的话, 能支持点击跳转浏览器访问吗?
 </p>
@@ -2861,9 +3070,9 @@ org mode 支持超链接跳转到文件, 邮件, 网页等等.
 </p>
 </div>
 </div>
-<div id="outline-container-orgcdd028a" class="outline-3">
-<h3 id="orgcdd028a">Export : 分享给不使用 Orgmode 的人</h3>
-<div class="outline-text-3" id="text-orgcdd028a">
+<div id="outline-container-org8dd5a37" class="outline-3">
+<h3 id="org8dd5a37">Export : 分享给不使用 Orgmode 的人</h3>
+<div class="outline-text-3" id="text-org8dd5a37">
 <p>
 如果要分享文档给别人, 他们不使用 org mode 怎么办? 能支持导出成其它通用的文档格式吗?
 </p>
@@ -2889,9 +3098,9 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
         <div class="col-md-2"></div>
             <h1>Emacs: 使用 Org-Page 搭建网站</h1>
             
-<div id="outline-container-orgb10953b" class="outline-2">
-<h2 id="orgb10953b">安装 Org-Page</h2>
-<div class="outline-text-2" id="text-orgb10953b">
+<div id="outline-container-orgc2c4c66" class="outline-2">
+<h2 id="orgc2c4c66">安装 Org-Page</h2>
+<div class="outline-text-2" id="text-orgc2c4c66">
 <p>
 使用 <code>Spacemacs</code> 安装 Org-Page 极其方便. 只需要在自己的 layer 中增加 org-page 即可:
 </p>
@@ -2909,9 +3118,9 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
 </div>
 </div>
 
-<div id="outline-container-org0ac8d23" class="outline-2">
-<h2 id="org0ac8d23">配置 Org-Page</h2>
-<div class="outline-text-2" id="text-org0ac8d23">
+<div id="outline-container-org06377c8" class="outline-2">
+<h2 id="org06377c8">配置 Org-Page</h2>
+<div class="outline-text-2" id="text-org06377c8">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(defun lijigang/init-org-page()
   "Initialize org-page to publish blog."
@@ -2955,9 +3164,9 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
 </div>
 </div>
 
-<div id="outline-container-org24fe110" class="outline-2">
-<h2 id="org24fe110">安装主题</h2>
-<div class="outline-text-2" id="text-org24fe110">
+<div id="outline-container-orgec19be0" class="outline-2">
+<h2 id="orgec19be0">安装主题</h2>
+<div class="outline-text-2" id="text-orgec19be0">
 <p>
 可以参照 <a href="https://github.com/lijigang/ljg">这个主题说明
 </a>
@@ -2984,9 +3193,9 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
         <div class="col-md-2"></div>
             <h1>效率: 手机如何高效做事项管理</h1>
             
-<div id="outline-container-org79aac48" class="outline-2">
-<h2 id="org79aac48">目标: 在手机端实现高效管理事项</h2>
-<div class="outline-text-2" id="text-org79aac48">
+<div id="outline-container-orgefa3da7" class="outline-2">
+<h2 id="orgefa3da7">目标: 在手机端实现高效管理事项</h2>
+<div class="outline-text-2" id="text-orgefa3da7">
 <p>
 具体来说, 需求包括两项:
 </p>
@@ -3002,9 +3211,9 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
 </div>
 </div>
 
-<div id="outline-container-org1e47278" class="outline-2">
-<h2 id="org1e47278">解决: 华为 <code>字母手势</code></h2>
-<div class="outline-text-2" id="text-org1e47278">
+<div id="outline-container-org1fab099" class="outline-2">
+<h2 id="org1fab099">解决: 华为 <code>字母手势</code></h2>
+<div class="outline-text-2" id="text-org1fab099">
 <ol class="org-ol">
 <li><p>
 极高效的输入事项
@@ -3036,9 +3245,9 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
 </div>
 </div>
 
-<div id="outline-container-orgeb39d08" class="outline-2">
-<h2 id="orgeb39d08">效果</h2>
-<div class="outline-text-2" id="text-orgeb39d08">
+<div id="outline-container-orgd53f1eb" class="outline-2">
+<h2 id="orgd53f1eb">效果</h2>
+<div class="outline-text-2" id="text-orgd53f1eb">
 <p>
 现在已经可以在任意软件界面中, 指关节画 C 唤醒日历, 添加事项和时间.
 </p>
@@ -3066,9 +3275,9 @@ Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通�
 Emacs 中主要是靠纯文本的一些骚操作来实现各种功能, 其中有一项是把输入的文本生成图片. 这就是今天要说的 <code>PlantUML</code>.
 </p>
 
-<div id="outline-container-orgefb5f93" class="outline-2">
-<h2 id="orgefb5f93">PlantUML 是什么</h2>
-<div class="outline-text-2" id="text-orgefb5f93">
+<div id="outline-container-org262ca76" class="outline-2">
+<h2 id="org262ca76">PlantUML 是什么</h2>
+<div class="outline-text-2" id="text-org262ca76">
 <p>
 PlantUML 是用来快速创建 UML 图形的组件. 通过简单的语法来定义图形, 然后它就可以生成 PNG 图片. 比如:
 </p>
@@ -3087,9 +3296,9 @@ Server --[#0c0f0a]&gt; Phone : 返回 HTML
 </div>
 </div>
 
-<div id="outline-container-orgf5439ff" class="outline-2">
-<h2 id="orgf5439ff">PlantUML 如何在 Emacs 中配置</h2>
-<div class="outline-text-2" id="text-orgf5439ff">
+<div id="outline-container-org04d1b3e" class="outline-2">
+<h2 id="org04d1b3e">PlantUML 如何在 Emacs 中配置</h2>
+<div class="outline-text-2" id="text-org04d1b3e">
 <ol class="org-ol">
 <li><a href="http://plantuml.com/zh/download">下载</a> plantuml.jar 到本地</li>
 <li><p>
@@ -3121,9 +3330,9 @@ Server --[#0c0f0a]&gt; Phone : 返回 HTML
 </div>
 </div>
 
-<div id="outline-container-org8bf476d" class="outline-2">
-<h2 id="org8bf476d">PlantUML 如何使用</h2>
-<div class="outline-text-2" id="text-org8bf476d">
+<div id="outline-container-org2ad4133" class="outline-2">
+<h2 id="org2ad4133">PlantUML 如何使用</h2>
+<div class="outline-text-2" id="text-org2ad4133">
 <ol class="org-ol">
 <li><p>
 基础用法
@@ -3278,9 +3487,9 @@ Phone -&gt; Phone : 成功加载
         <div class="col-md-2"></div>
             <h1>学习: 必会技能之一 Excel</h1>
             
-<div id="outline-container-org73708b2" class="outline-2">
-<h2 id="org73708b2">表格 <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></h2>
-<div class="outline-text-2" id="text-org73708b2">
+<div id="outline-container-orgf4b580b" class="outline-2">
+<h2 id="orgf4b580b">表格 <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></h2>
+<div class="outline-text-2" id="text-orgf4b580b">
 <img
   src="/assets/blog/2019/03/19/学习-必会技能之一-excel/excel-table.png"
   width="50%"
@@ -3291,10 +3500,10 @@ Phone -&gt; Phone : 成功加载
 </p>
 </div>
 <ul class="org-ul">
-<li><a id="org49d1590"></a>字体统一, 字号统一<br /></li>
-<li><a id="orgf716d67"></a>数字用千位分隔样式<br /></li>
-<li><a id="org5b73486"></a>细项要缩进<br />
-<div class="outline-text-5" id="text-org5b73486">
+<li><a id="org5de4638"></a>字体统一, 字号统一<br /></li>
+<li><a id="org717fd95"></a>数字用千位分隔样式<br /></li>
+<li><a id="orge9ba684"></a>细项要缩进<br />
+<div class="outline-text-5" id="text-orge9ba684">
 <ul class="org-ul">
 <li>不要用 A1 开始使用, 从 B2 开始</li>
 <li>B/C 列宽度设置为 1, 方便缩进呈现</li>
@@ -3302,35 +3511,35 @@ Phone -&gt; Phone : 成功加载
 </ul>
 </div>
 </li>
-<li><a id="org90b84d8"></a>单位要自成一栏<br /></li>
-<li><a id="org0788d7c"></a>上下边框用粗线, 中间用细虚线<br />
-<div class="outline-text-5" id="text-org0788d7c">
+<li><a id="org7f4e1c2"></a>单位要自成一栏<br /></li>
+<li><a id="orgece83ba"></a>上下边框用粗线, 中间用细虚线<br />
+<div class="outline-text-5" id="text-orgece83ba">
 <ul class="org-ul">
 <li>隐藏网格线 或者 整张表格背景色设置为白色</li>
 </ul>
 </div>
 </li>
-<li><a id="org5b381a0"></a>文字左对齐, 数字右对齐, 慎用居中<br />
-<div class="outline-text-5" id="text-org5b381a0">
+<li><a id="org55c9e7a"></a>文字左对齐, 数字右对齐, 慎用居中<br />
+<div class="outline-text-5" id="text-org55c9e7a">
 <ul class="org-ul">
 <li>列标题中, 如该列为数字列, 标题文字右对齐, 和该列数据估计一致</li>
 </ul>
 </div>
 </li>
-<li><a id="org8531bac"></a>手动输入数字用蓝色, 公式计算数字用黑色<br />
-<div class="outline-text-5" id="text-org8531bac">
+<li><a id="org9303434"></a>手动输入数字用蓝色, 公式计算数字用黑色<br />
+<div class="outline-text-5" id="text-org9303434">
 <ul class="org-ul">
 <li>如有不需要填入数据单元格, 可用 N/A (not applicable) 表示</li>
 <li>重点数据行, 可填充颜色来强调</li>
 </ul>
 </div>
 </li>
-<li><a id="orgfd17c48"></a>凡使用的工作表, 设定名称; 凡不使用的工作表, 删之<br /></li>
+<li><a id="org55246d9"></a>凡使用的工作表, 设定名称; 凡不使用的工作表, 删之<br /></li>
 </ul>
 </div>
-<div id="outline-container-org5aa98a4" class="outline-2">
-<h2 id="org5aa98a4">图表 <sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></h2>
-<div class="outline-text-2" id="text-org5aa98a4">
+<div id="outline-container-orgd2626a7" class="outline-2">
+<h2 id="orgd2626a7">图表 <sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></h2>
+<div class="outline-text-2" id="text-orgd2626a7">
 <p>
 to be continued..
 </p>
@@ -3374,160 +3583,6 @@ to be continued..
 ]]></description>
       <pubDate>2020-04-09</pubDate>
       <guid>http://lijigang.github.io/blog/2018/10/10/读书-游戏化实战/</guid>
-    </item>
-    <item>
-      <title>系统: 信息处理</title>
-      <link>http://lijigang.github.io/blog/2020/04/01/系统-信息处理/</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>系统: 信息处理</h1>
-            <p>
-信息过载时代, 我个人实践 Inbox Zero 理念的方式很简单:
-</p>
-
-<ol class="org-ol">
-<li>把收件箱分为 <code>Inbox</code> 和 <code>Archive</code></li>
-<li>原则上收件箱每日清空</li>
-<li>查询历史信息只要在归档箱中搜索即可</li>
-</ol>
-
-<img
-  src="/assets/blog/2020/04/01/系统-信息处理/inbox-zero.png"
-  width="50%"
-/>
-
-<p>
-这种实践方法的精髓在于, <code>input 很简单, filter 很重要</code>.
-</p>
-
-<div id="outline-container-orga7a53e3" class="outline-2">
-<h2 id="orga7a53e3">邮件</h2>
-<div class="outline-text-2" id="text-orga7a53e3">
-<blockquote>
-<p>
-邮件输入原则: 挡住所有不想接收的发件人(Block or Unsubscribe)
-</p>
-</blockquote>
-
-<p>
-这样可保证接收的邮件信息, 起码是自己需要接收的, 而不是别人硬塞过来的.
-</p>
-
-
-<blockquote>
-<p>
-邮件处理原则: 定时查看, 而不是时时查看
-</p>
-</blockquote>
-
-<p>
-邮件的处理, 即可按 Inbox Zero 流程进行, 每天早上 10 点和每天下午 6 点,
-尽量保证每天晚上睡觉前收件箱为空.
-</p>
-
-<p>
-邮件的搜索, 不管是邮件客户端(如 Spark) 还是网页版(如 Gmail), 都提供了高级
-搜索(fliter)功能, 如 from: XX, to: XX 等等, 足够日常使用.
-</p>
-</div>
-</div>
-
-<div id="outline-container-org8cddea5" class="outline-2">
-<h2 id="org8cddea5">IM</h2>
-<div class="outline-text-2" id="text-org8cddea5">
-<blockquote>
-<p>
-IM 输入原则一: 关闭所有群通知, 仅有 @你 消息可提醒.
-</p>
-</blockquote>
-
-<p>
-绝大部分消息没那么重要, 真有重要消息的时候, 会@你或@所有人(如果你用的是
-钉钉, 还会有连环夺命 Call 的 <code>钉一下</code> 功能).
-</p>
-
-<blockquote>
-<p>
-IM 消息处理原则: 待做事项的消息置顶, 完成任务后, 引用消息回复, 然后取消置顶.
-</p>
-</blockquote>
-
-<p>
-每天晚上下班前, 把所有有小红点未读消息的群迅速浏览一遍, 了解下各群当天的
-讨论内容即可.
-</p>
-</div>
-</div>
-<div id="outline-container-org0767f6d" class="outline-2">
-<h2 id="org0767f6d">电脑文件</h2>
-<div class="outline-text-2" id="text-org0767f6d">
-<blockquote>
-<p>
-文件输入原则: 将所有能设置的软件都设置下, 文件下载保存默认文件夹为 <code>下载</code> 文件夹.
-</p>
-</blockquote>
-
-<p>
-这样可保证桌面完全没有任何文件, 所有新增文件都进入了 <code>下载</code> 文件夹.
-</p>
-
-<p>
-然后怎么解决 <code>下载</code> 文件夹混乱的问题? 通过 <a href="https://sspai.com/post/35212">Hazel</a> 自动化规则, 可以将文件夹自动处理.
-</p>
-
-<blockquote>
-<p>
-文件处理原则: 通过自动化规则, 文件自动归类
-</p>
-</blockquote>
-
-<p>
-比如可以从这样简单设置 Hazel 开始:
-</p>
-<ol class="org-ol">
-<li>每天下班前把 <code>下载文件夹</code> 扫一遍, 需要保存的文件拉到云盘中, 其它的不用管</li>
-<li>规则一: <code>下载文件夹</code> 每天自动清空 (这样每天打开电脑都是空的)</li>
-<li>规则二: <code>废纸篓</code> 每七天自动清空 (这样保留了找回七天内文件的机会)</li>
-</ol>
-</div>
-</div>
-
-<div id="outline-container-orga1a9783" class="outline-2">
-<h2 id="orga1a9783">RSS</h2>
-<div class="outline-text-2" id="text-orga1a9783">
-<p>
-经过一番尝试, 终于找到了解决多个信息源消息汇总阅读的解决方案 <a href="https://sspai.com/post/55691">快知</a>.
-</p>
-
-<p>
-具体功能介绍, 点击上面链接可以查看, 不再赘述. 主要说下这个方案的好处:
-</p>
-
-<ol class="org-ol">
-<li>可以取关所有微信公众号, 把想看的公众号在这里订阅.</li>
-<li>可以不再频繁打开资讯网站, 主流的几家都可以在这里订阅.</li>
-<li>可以不再频繁打开关注的博客网站, 这里支持 RSS 订阅.</li>
-<li>可以减少微博打开次数, 支持订阅指定人的微博更新.</li>
-</ol>
-
-<p>
-更棒的一点是, 快知的阅读设置, 支持已读信息不再显示, 即每次打开时, 看到的
-都是更新的仅有几条, 信息压力减少太多了.
-</p>
-
-<p>
-这样只需要在固定时间, 比如通勤时间和晚上休息时间, 打开快知阅读自己订阅的
-信息, 即可满足每日信息输入的需求.
-</p>
-</div>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2020-04-09</pubDate>
-      <guid>http://lijigang.github.io/blog/2020/04/01/系统-信息处理/</guid>
     </item>
   </channel>
 </rss>
