@@ -14,11 +14,6 @@ Rime 输入法也有 =文本为王= 的理念. 它的 =配置文件= =输入方�
 
 在安装部署完成后, Rime 会在路径 =~/Library/Rime/= 存放 _用户资料_ , 主要包括:
 
- #+begin_src shell
- ls ~/Library/Rime
- #+end_src
-
- #+RESULTS:
  | installation.yaml | 安装信息     |
  | user.yaml         | 用户状态信息 |
 
