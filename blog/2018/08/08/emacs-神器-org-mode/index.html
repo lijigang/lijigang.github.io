@@ -72,73 +72,79 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org745f59d">Beautify</a>
+<li><a href="#orgb90fcc3">Beautify</a>
 <ul>
-<li><a href="#org2765556">如何隐藏 headlines 前面的一堆*符号？</a></li>
-<li><a href="#org6de6cde">如何将 headlines 的符号从*变成其它符号？</a></li>
-<li><a href="#orge1435a2">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <span class="underline">下划线</span> 样式？</a></li>
-<li><a href="#org592fc4a">如何设置 headline 的 TODO keywords？</a></li>
-<li><a href="#orgc47697d">如何给 TODO keywords 增加前景色、背景色？</a></li>
-<li><a href="#orgfec9817">如何将 Agenda 中不同时间长度的事项显示不同的大小？</a></li>
+<li><a href="#orga84e03d">如何隐藏 headlines 前面的一堆*符号？</a></li>
+<li><a href="#org5353cbe">如何将 headlines 的符号从*变成其它符号？</a></li>
+<li><a href="#org2df0a2b">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <span class="underline">下划线</span> 样式？</a></li>
+<li><a href="#orgcc5e006">如何设置 headline 的 TODO keywords？</a></li>
+<li><a href="#org8587f5f">如何给 TODO keywords 增加前景色、背景色？</a></li>
 </ul>
 </li>
-<li><a href="#org30cf03b">Capture-Refile-Archive</a>
+<li><a href="#orga348407">Capture-Refile-Archive</a>
 <ul>
-<li><a href="#org4e1bcb6">如何快速记录一些内容到指定文件？</a></li>
-<li><a href="#org7124628">如何设置不同的快速记录模板？</a></li>
-<li><a href="#org98515e5">如何快速移动 headline 到指定文件中？</a></li>
-<li><a href="#orgb7c6f3c">如何归档已完成事项到其它文件？</a></li>
+<li><a href="#org83e32f0">如何快速记录一些内容到指定文件？</a></li>
+<li><a href="#org4918b79">如何设置不同的快速记录模板？</a></li>
+<li><a href="#org6893a14">如何快速移动 headline 到指定文件中？</a></li>
+<li><a href="#orgdb68316">如何归档已完成事项到其它文件？</a></li>
 </ul>
 </li>
-<li><a href="#orgd849a88">Tables</a>
+<li><a href="#org914f8ab">Tables</a>
 <ul>
-<li><a href="#org0d5be1f">如何像 Excel 一样，在表格中插入 <code>mini graph</code> ？</a></li>
+<li><a href="#org3927904">如何像 Excel 一样，在表格中插入 <code>mini graph</code> ？</a></li>
 </ul>
 </li>
-<li><a href="#org5638971">Agendas</a></li>
-<li><a href="#org3d93044">Others</a>
+<li><a href="#orgadea860">Agendas</a>
 <ul>
-<li><a href="#org29e2717">如何用 org 文件管理 RSS 订阅？</a></li>
+<li><a href="#org1fe259b">如何将 Agenda 中不同时间长度的事项显示不同的大小？</a></li>
+<li><a href="#org52ec64a">如何设置 agenda 中时间的显示格式？</a></li>
+<li><a href="#org1fb368e">如何隐藏 agenda 中的分隔线？</a></li>
+<li><a href="#org7573283">如何在 agenda 中显示本地的日出日落时间？</a></li>
+</ul>
+</li>
+<li><a href="#org3ddc2b7">Others</a>
+<ul>
+<li><a href="#org4f2babb">如何用 org 文件管理 RSS 订阅？</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org745f59d" class="outline-2">
-<h2 id="org745f59d">Beautify</h2>
-<div class="outline-text-2" id="text-org745f59d">
+<div id="outline-container-orgb90fcc3" class="outline-2">
+<h2 id="orgb90fcc3">Beautify</h2>
+<div class="outline-text-2" id="text-orgb90fcc3">
 </div>
-<div id="outline-container-org2765556" class="outline-3">
-<h3 id="org2765556">如何隐藏 headlines 前面的一堆*符号？</h3>
-<div class="outline-text-3" id="text-org2765556">
+<div id="outline-container-orga84e03d" class="outline-3">
+<h3 id="orga84e03d">如何隐藏 headlines 前面的一堆*符号？</h3>
+<div class="outline-text-3" id="text-orga84e03d">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-startup-indented t)
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org6de6cde" class="outline-3">
-<h3 id="org6de6cde">如何将 headlines 的符号从*变成其它符号？</h3>
-<div class="outline-text-3" id="text-org6de6cde">
+<div id="outline-container-org5353cbe" class="outline-3">
+<h3 id="org5353cbe">如何将 headlines 的符号从*变成其它符号？</h3>
+<div class="outline-text-3" id="text-org5353cbe">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-orge1435a2" class="outline-3">
-<h3 id="orge1435a2">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <span class="underline">下划线</span> 样式？</h3>
-<div class="outline-text-3" id="text-orge1435a2">
+<div id="outline-container-org2df0a2b" class="outline-3">
+<h3 id="org2df0a2b">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <span class="underline">下划线</span> 样式？</h3>
+<div class="outline-text-3" id="text-org2df0a2b">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-hide-emphasis-markers t)
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org592fc4a" class="outline-3">
-<h3 id="org592fc4a">如何设置 headline 的 TODO keywords？</h3>
-<div class="outline-text-3" id="text-org592fc4a">
+<div id="outline-container-orgcc5e006" class="outline-3">
+<h3 id="orgcc5e006">如何设置 headline 的 TODO keywords？</h3>
+<div class="outline-text-3" id="text-orgcc5e006">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; "|"之前的为进行中的状态， 之后的为结束的状态
 (setq org-todo-keywords
@@ -147,9 +153,9 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 </div>
 </div>
 </div>
-<div id="outline-container-orgc47697d" class="outline-3">
-<h3 id="orgc47697d">如何给 TODO keywords 增加前景色、背景色？</h3>
-<div class="outline-text-3" id="text-orgc47697d">
+<div id="outline-container-org8587f5f" class="outline-3">
+<h3 id="org8587f5f">如何给 TODO keywords 增加前景色、背景色？</h3>
+<div class="outline-text-3" id="text-org8587f5f">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
                                 ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
@@ -158,49 +164,14 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 </div>
 </div>
 </div>
-<div id="outline-container-orgfec9817" class="outline-3">
-<h3 id="orgfec9817">如何将 Agenda 中不同时间长度的事项显示不同的大小？</h3>
-<div class="outline-text-3" id="text-orgfec9817">
-<div class="org-src-container">
-<pre class="src src-emacs-lisp">;; agenda 里面时间块彩色显示
-;; From: https://emacs-china.org/t/org-agenda/8679/3
-(defun ljg/org-agenda-time-grid-spacing ()
-  "Set different line spacing w.r.t. time duration."
-  (save-excursion
-    (let* ((background (alist-get 'background-mode (frame-parameters)))
-           (background-dark-p (string= background "dark"))
-           (colors (list "#1ABC9C" "#2ECC71" "#3498DB" "#9966ff"))
-           pos
-           duration)
-      (nconc colors colors)
-      (goto-char (point-min))
-      (while (setq pos (next-single-property-change (point) 'duration))
-        (goto-char pos)
-        (when (and (not (equal pos (point-at-eol)))
-                   (setq duration (org-get-at-bol 'duration)))
-          (let ((line-height (if (&lt; duration 30) 1.0 (+ 0.5 (/ duration 60))))
-                (ov (make-overlay (point-at-bol) (1+ (point-at-eol)))))
-            (overlay-put ov 'face `(:background ,(car colors)
-                                                :foreground
-                                                ,(if background-dark-p "black" "white")))
-            (setq colors (cdr colors))
-            (overlay-put ov 'line-height line-height)
-            (overlay-put ov 'line-spacing (1- line-height))))))))
-
-(add-hook 'org-agenda-finalize-hook #'ljg/org-agenda-time-grid-spacing)
-</pre>
 </div>
+<div id="outline-container-orga348407" class="outline-2">
+<h2 id="orga348407">Capture-Refile-Archive</h2>
+<div class="outline-text-2" id="text-orga348407">
 </div>
-</div>
-</div>
-
-<div id="outline-container-org30cf03b" class="outline-2">
-<h2 id="org30cf03b">Capture-Refile-Archive</h2>
-<div class="outline-text-2" id="text-org30cf03b">
-</div>
-<div id="outline-container-org4e1bcb6" class="outline-3">
-<h3 id="org4e1bcb6">如何快速记录一些内容到指定文件？</h3>
-<div class="outline-text-3" id="text-org4e1bcb6">
+<div id="outline-container-org83e32f0" class="outline-3">
+<h3 id="org83e32f0">如何快速记录一些内容到指定文件？</h3>
+<div class="outline-text-3" id="text-org83e32f0">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; 设置默认保存到哪个文件中
 (setq org-default-notes-file "path/to/your/notes")
@@ -211,9 +182,9 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 </div>
 </div>
 </div>
-<div id="outline-container-org7124628" class="outline-3">
-<h3 id="org7124628">如何设置不同的快速记录模板？</h3>
-<div class="outline-text-3" id="text-org7124628">
+<div id="outline-container-org4918b79" class="outline-3">
+<h3 id="org4918b79">如何设置不同的快速记录模板？</h3>
+<div class="outline-text-3" id="text-org4918b79">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-capture-templates
               '(("p"  ;;快捷键
@@ -242,9 +213,9 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 </div>
 </div>
 </div>
-<div id="outline-container-org98515e5" class="outline-3">
-<h3 id="org98515e5">如何快速移动 headline 到指定文件中？</h3>
-<div class="outline-text-3" id="text-org98515e5">
+<div id="outline-container-org6893a14" class="outline-3">
+<h3 id="org6893a14">如何快速移动 headline 到指定文件中？</h3>
+<div class="outline-text-3" id="text-org6893a14">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; 设置移动到的目标文件列表为 agenda-files
 (setq org-refile-targets '((org-agenda-files :maxlevel . 3)))
@@ -256,9 +227,9 @@ More info: <a href="https://blog.aaronbieber.com/2017/03/19/organizing-notes-wit
 </p>
 </div>
 </div>
-<div id="outline-container-orgb7c6f3c" class="outline-3">
-<h3 id="orgb7c6f3c">如何归档已完成事项到其它文件？</h3>
-<div class="outline-text-3" id="text-orgb7c6f3c">
+<div id="outline-container-orgdb68316" class="outline-3">
+<h3 id="orgdb68316">如何归档已完成事项到其它文件？</h3>
+<div class="outline-text-3" id="text-orgdb68316">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; this is the default: current file is a.org, archive in file a.org_archive
 (setq org-archive-location "%s_archive")
@@ -331,13 +302,13 @@ More info: <a href="https://blog.aaronbieber.com/2017/03/19/organizing-notes-wit
 </div>
 </div>
 </div>
-<div id="outline-container-orgd849a88" class="outline-2">
-<h2 id="orgd849a88">Tables</h2>
-<div class="outline-text-2" id="text-orgd849a88">
+<div id="outline-container-org914f8ab" class="outline-2">
+<h2 id="org914f8ab">Tables</h2>
+<div class="outline-text-2" id="text-org914f8ab">
 </div>
-<div id="outline-container-org0d5be1f" class="outline-3">
-<h3 id="org0d5be1f">如何像 Excel 一样，在表格中插入 <code>mini graph</code> ？</h3>
-<div class="outline-text-3" id="text-org0d5be1f">
+<div id="outline-container-org3927904" class="outline-3">
+<h3 id="org3927904">如何像 Excel 一样，在表格中插入 <code>mini graph</code> ？</h3>
+<div class="outline-text-3" id="text-org3927904">
 <pre class="example">
 ;; while the cursor is on a column,
 ;; this command will create a new column
@@ -389,15 +360,153 @@ M-x: orgtble-ascii-plot
 </div>
 </div>
 
-<div id="outline-container-org5638971" class="outline-2">
-<h2 id="org5638971">Agendas</h2>
+<div id="outline-container-orgadea860" class="outline-2">
+<h2 id="orgadea860">Agendas</h2>
+<div class="outline-text-2" id="text-orgadea860">
 </div>
-<div id="outline-container-org3d93044" class="outline-2">
-<h2 id="org3d93044">Others</h2>
-<div class="outline-text-2" id="text-org3d93044">
+<div id="outline-container-org1fe259b" class="outline-3">
+<h3 id="org1fe259b">如何将 Agenda 中不同时间长度的事项显示不同的大小？</h3>
+<div class="outline-text-3" id="text-org1fe259b">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; agenda 里面时间块彩色显示
+;; From: https://emacs-china.org/t/org-agenda/8679/3
+(defun ljg/org-agenda-time-grid-spacing ()
+  "Set different line spacing w.r.t. time duration."
+  (save-excursion
+    (let* ((background (alist-get 'background-mode (frame-parameters)))
+           (background-dark-p (string= background "dark"))
+           (colors (list "#1ABC9C" "#2ECC71" "#3498DB" "#9966ff"))
+           pos
+           duration)
+      (nconc colors colors)
+      (goto-char (point-min))
+      (while (setq pos (next-single-property-change (point) 'duration))
+        (goto-char pos)
+        (when (and (not (equal pos (point-at-eol)))
+                   (setq duration (org-get-at-bol 'duration)))
+          (let ((line-height (if (&lt; duration 30) 1.0 (+ 0.5 (/ duration 60))))
+                (ov (make-overlay (point-at-bol) (1+ (point-at-eol)))))
+            (overlay-put ov 'face `(:background ,(car colors)
+                                                :foreground
+                                                ,(if background-dark-p "black" "white")))
+            (setq colors (cdr colors))
+            (overlay-put ov 'line-height line-height)
+            (overlay-put ov 'line-spacing (1- line-height))))))))
+
+(add-hook 'org-agenda-finalize-hook #'ljg/org-agenda-time-grid-spacing)
+</pre>
 </div>
-<div id="outline-container-org29e2717" class="outline-3">
-<h3 id="org29e2717">如何用 org 文件管理 RSS 订阅？</h3>
+</div>
+</div>
+<div id="outline-container-org52ec64a" class="outline-3">
+<h3 id="org52ec64a">如何设置 agenda 中时间的显示格式？</h3>
+<div class="outline-text-3" id="text-org52ec64a">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; if set it to t, 9:30am would become 09:30.
+(setq org-agenda-time-leading-zero t)
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org1fb368e" class="outline-3">
+<h3 id="org1fb368e">如何隐藏 agenda 中的分隔线？</h3>
+<div class="outline-text-3" id="text-org1fb368e">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(setq org-agenda-use-time-grid nil)
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org7573283" class="outline-3">
+<h3 id="org7573283">如何在 agenda 中显示本地的日出日落时间？</h3>
+<div class="outline-text-3" id="text-org7573283">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; learn from https://github.com/AbstProcDo/Master-Emacs-From-Scrach-with-Solid-Procedures/blob/master/05.Emacs-as-a-Agenda-by-Org.org
+
+(setq org-agenda-include-diary t)
+(setq org-agenda-diary-file "your/path/to/standard-diary")
+(setq diary-file "your/path/to/standard-diary")
+
+;; 设置本地经纬度坐标
+(setq calendar-latitude 39.9042)
+(setq calendar-longitude 116.4074)
+
+;;Sunrise and Sunset
+;;日出而作, 日落而息
+(defun diary-sunrise ()
+  (let ((dss (diary-sunrise-sunset)))
+    (with-temp-buffer
+      (insert dss)
+      (goto-char (point-min))
+      (while (re-search-forward " ([^)]*)" nil t)
+        (replace-match "" nil nil))
+      (goto-char (point-min))
+      (search-forward ",")
+      (buffer-substring (point-min) (match-beginning 0)))))
+
+(defun diary-sunset ()
+  (let ((dss (diary-sunrise-sunset))
+        start end)
+    (with-temp-buffer
+      (insert dss)
+      (goto-char (point-min))
+      (while (re-search-forward " ([^)]*)" nil t)
+        (replace-match "" nil nil))
+      (goto-char (point-min))
+      (search-forward ", ")
+      (setq start (match-end 0))
+      (search-forward " at")
+      (setq end (match-beginning 0))
+      (goto-char start)
+      (capitalize-word 1)
+      (buffer-substring start end))))
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; content of file standard-diary
+
+;;Day info
+;; 日出而作, 日落而息
+%%(diary-sunrise)
+%%(diary-sunset)
+</pre>
+</div>
+
+<p>
+设置后的效果如下：
+</p>
+<pre class="example">
+Day-agenda (W17):
+Tuesday    21 April 2020
+05:29......  Sunrise
+12:00-13:00 Scheduled:  DONE 和 @XX 吃饭 1on1
+18:58......  Sunset
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org3ddc2b7" class="outline-2">
+<h2 id="org3ddc2b7">Others</h2>
+<div class="outline-text-2" id="text-org3ddc2b7">
+</div>
+<div id="outline-container-org4f2babb" class="outline-3">
+<h3 id="org4f2babb">如何用 org 文件管理 RSS 订阅？</h3>
+<div class="outline-text-3" id="text-org4f2babb">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; use an org file to organise feeds
+(use-package elfeed-org
+  :ensure t
+  :config
+  (elfeed-org)
+  (setq rmh-elfeed-org-files (list "/path/to/elfeed.org")))
+</pre>
+</div>
+
+<p>
+More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs-with-elfeed/">Pragmatic emacs's article</a>
+</p>
+</div>
 </div>
 </div>
 
