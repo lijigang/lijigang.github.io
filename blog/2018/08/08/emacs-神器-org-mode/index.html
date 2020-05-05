@@ -72,69 +72,73 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org8214d76">Beautify</a>
+<li><a href="#org745f59d">Beautify</a>
 <ul>
-<li><a href="#orgcd57be4"><span class="done DONE">DONE</span> 如何隐藏 headlines 前面的一堆*符号？</a></li>
-<li><a href="#org4bb51bf"><span class="done DONE">DONE</span> 如何将 headlines 的符号从*变成其它符号？</a></li>
-<li><a href="#org6ae04a7"><span class="done DONE">DONE</span> 如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <span class="underline">下划线</span> 样式？</a></li>
-<li><a href="#org1b3d8e6"><span class="done DONE">DONE</span> 如何设置 headline 的 TODO keywords？</a></li>
-<li><a href="#org3e21a78"><span class="done DONE">DONE</span> 如何给 TODO keywords 增加前景色、背景色？</a></li>
-<li><a href="#org0af538c"><span class="done DONE">DONE</span> 如何将 Agenda 中不同时间长度的事项显示不同的大小？</a></li>
+<li><a href="#org2765556">如何隐藏 headlines 前面的一堆*符号？</a></li>
+<li><a href="#org6de6cde">如何将 headlines 的符号从*变成其它符号？</a></li>
+<li><a href="#orge1435a2">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <span class="underline">下划线</span> 样式？</a></li>
+<li><a href="#org592fc4a">如何设置 headline 的 TODO keywords？</a></li>
+<li><a href="#orgc47697d">如何给 TODO keywords 增加前景色、背景色？</a></li>
+<li><a href="#orgfec9817">如何将 Agenda 中不同时间长度的事项显示不同的大小？</a></li>
 </ul>
 </li>
-<li><a href="#org4246b09">Capture-Refile-Archive</a>
+<li><a href="#org30cf03b">Capture-Refile-Archive</a>
 <ul>
-<li><a href="#org0406c43"><span class="done DONE">DONE</span> 如何快速记录一些内容到指定文件？</a></li>
-<li><a href="#orgf82d2e9"><span class="done DONE">DONE</span> 如何设置不同的快速记录模板？</a></li>
-<li><a href="#org7d7c163"><span class="done DONE">DONE</span> 如何快速移动 headline 到指定文件中？</a></li>
-<li><a href="#org82f8c5d"><span class="done DONE">DONE</span> 如何归档已完成事项到其它文件？</a></li>
+<li><a href="#org4e1bcb6">如何快速记录一些内容到指定文件？</a></li>
+<li><a href="#org7124628">如何设置不同的快速记录模板？</a></li>
+<li><a href="#org98515e5">如何快速移动 headline 到指定文件中？</a></li>
+<li><a href="#orgb7c6f3c">如何归档已完成事项到其它文件？</a></li>
 </ul>
 </li>
-<li><a href="#org5d2be45">Tables</a></li>
-<li><a href="#orgbddf2fa">Agendas</a></li>
-<li><a href="#orge28c4ce">Others</a>
+<li><a href="#orgd849a88">Tables</a>
 <ul>
-<li><a href="#org6be4165"><span class="todo TODO">TODO</span> 如何用 org 文件管理 RSS 订阅？</a></li>
+<li><a href="#org0d5be1f">如何像 Excel 一样，在表格中插入 <code>mini graph</code> ？</a></li>
+</ul>
+</li>
+<li><a href="#org5638971">Agendas</a></li>
+<li><a href="#org3d93044">Others</a>
+<ul>
+<li><a href="#org29e2717">如何用 org 文件管理 RSS 订阅？</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org8214d76" class="outline-2">
-<h2 id="org8214d76">Beautify</h2>
-<div class="outline-text-2" id="text-org8214d76">
+<div id="outline-container-org745f59d" class="outline-2">
+<h2 id="org745f59d">Beautify</h2>
+<div class="outline-text-2" id="text-org745f59d">
 </div>
-<div id="outline-container-orgcd57be4" class="outline-3">
-<h3 id="orgcd57be4"><span class="done DONE">DONE</span> 如何隐藏 headlines 前面的一堆*符号？</h3>
-<div class="outline-text-3" id="text-orgcd57be4">
+<div id="outline-container-org2765556" class="outline-3">
+<h3 id="org2765556">如何隐藏 headlines 前面的一堆*符号？</h3>
+<div class="outline-text-3" id="text-org2765556">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-startup-indented t)
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org4bb51bf" class="outline-3">
-<h3 id="org4bb51bf"><span class="done DONE">DONE</span> 如何将 headlines 的符号从*变成其它符号？</h3>
-<div class="outline-text-3" id="text-org4bb51bf">
+<div id="outline-container-org6de6cde" class="outline-3">
+<h3 id="org6de6cde">如何将 headlines 的符号从*变成其它符号？</h3>
+<div class="outline-text-3" id="text-org6de6cde">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org6ae04a7" class="outline-3">
-<h3 id="org6ae04a7"><span class="done DONE">DONE</span> 如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <span class="underline">下划线</span> 样式？</h3>
-<div class="outline-text-3" id="text-org6ae04a7">
+<div id="outline-container-orge1435a2" class="outline-3">
+<h3 id="orge1435a2">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <span class="underline">下划线</span> 样式？</h3>
+<div class="outline-text-3" id="text-orge1435a2">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-hide-emphasis-markers t)
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org1b3d8e6" class="outline-3">
-<h3 id="org1b3d8e6"><span class="done DONE">DONE</span> 如何设置 headline 的 TODO keywords？</h3>
-<div class="outline-text-3" id="text-org1b3d8e6">
+<div id="outline-container-org592fc4a" class="outline-3">
+<h3 id="org592fc4a">如何设置 headline 的 TODO keywords？</h3>
+<div class="outline-text-3" id="text-org592fc4a">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; "|"之前的为进行中的状态， 之后的为结束的状态
 (setq org-todo-keywords
@@ -143,9 +147,9 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 </div>
 </div>
 </div>
-<div id="outline-container-org3e21a78" class="outline-3">
-<h3 id="org3e21a78"><span class="done DONE">DONE</span> 如何给 TODO keywords 增加前景色、背景色？</h3>
-<div class="outline-text-3" id="text-org3e21a78">
+<div id="outline-container-orgc47697d" class="outline-3">
+<h3 id="orgc47697d">如何给 TODO keywords 增加前景色、背景色？</h3>
+<div class="outline-text-3" id="text-orgc47697d">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
                                 ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
@@ -154,9 +158,9 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 </div>
 </div>
 </div>
-<div id="outline-container-org0af538c" class="outline-3">
-<h3 id="org0af538c"><span class="done DONE">DONE</span> 如何将 Agenda 中不同时间长度的事项显示不同的大小？</h3>
-<div class="outline-text-3" id="text-org0af538c">
+<div id="outline-container-orgfec9817" class="outline-3">
+<h3 id="orgfec9817">如何将 Agenda 中不同时间长度的事项显示不同的大小？</h3>
+<div class="outline-text-3" id="text-orgfec9817">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; agenda 里面时间块彩色显示
 ;; From: https://emacs-china.org/t/org-agenda/8679/3
@@ -190,13 +194,13 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 </div>
 </div>
 
-<div id="outline-container-org4246b09" class="outline-2">
-<h2 id="org4246b09">Capture-Refile-Archive</h2>
-<div class="outline-text-2" id="text-org4246b09">
+<div id="outline-container-org30cf03b" class="outline-2">
+<h2 id="org30cf03b">Capture-Refile-Archive</h2>
+<div class="outline-text-2" id="text-org30cf03b">
 </div>
-<div id="outline-container-org0406c43" class="outline-3">
-<h3 id="org0406c43"><span class="done DONE">DONE</span> 如何快速记录一些内容到指定文件？</h3>
-<div class="outline-text-3" id="text-org0406c43">
+<div id="outline-container-org4e1bcb6" class="outline-3">
+<h3 id="org4e1bcb6">如何快速记录一些内容到指定文件？</h3>
+<div class="outline-text-3" id="text-org4e1bcb6">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; 设置默认保存到哪个文件中
 (setq org-default-notes-file "path/to/your/notes")
@@ -207,9 +211,9 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 </div>
 </div>
 </div>
-<div id="outline-container-orgf82d2e9" class="outline-3">
-<h3 id="orgf82d2e9"><span class="done DONE">DONE</span> 如何设置不同的快速记录模板？</h3>
-<div class="outline-text-3" id="text-orgf82d2e9">
+<div id="outline-container-org7124628" class="outline-3">
+<h3 id="org7124628">如何设置不同的快速记录模板？</h3>
+<div class="outline-text-3" id="text-org7124628">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-capture-templates
               '(("p"  ;;快捷键
@@ -238,9 +242,9 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 </div>
 </div>
 </div>
-<div id="outline-container-org7d7c163" class="outline-3">
-<h3 id="org7d7c163"><span class="done DONE">DONE</span> 如何快速移动 headline 到指定文件中？</h3>
-<div class="outline-text-3" id="text-org7d7c163">
+<div id="outline-container-org98515e5" class="outline-3">
+<h3 id="org98515e5">如何快速移动 headline 到指定文件中？</h3>
+<div class="outline-text-3" id="text-org98515e5">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; 设置移动到的目标文件列表为 agenda-files
 (setq org-refile-targets '((org-agenda-files :maxlevel . 3)))
@@ -252,16 +256,16 @@ More info: <a href="https://blog.aaronbieber.com/2017/03/19/organizing-notes-wit
 </p>
 </div>
 </div>
-<div id="outline-container-org82f8c5d" class="outline-3">
-<h3 id="org82f8c5d"><span class="done DONE">DONE</span> 如何归档已完成事项到其它文件？</h3>
-<div class="outline-text-3" id="text-org82f8c5d">
+<div id="outline-container-orgb7c6f3c" class="outline-3">
+<h3 id="orgb7c6f3c">如何归档已完成事项到其它文件？</h3>
+<div class="outline-text-3" id="text-orgb7c6f3c">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; this is the default: current file is a.org, archive in file a.org_archive
 (setq org-archive-location "%s_archive")
 </pre>
 </div>
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table border="2" cellspacing="0" cellpadding="6" rules="all" frame="border">
 <caption class="t-above"><span class="table-number">Table 1:</span> org-archive-location options</caption>
 
 <colgroup>
@@ -327,18 +331,73 @@ More info: <a href="https://blog.aaronbieber.com/2017/03/19/organizing-notes-wit
 </div>
 </div>
 </div>
-<div id="outline-container-org5d2be45" class="outline-2">
-<h2 id="org5d2be45">Tables</h2>
+<div id="outline-container-orgd849a88" class="outline-2">
+<h2 id="orgd849a88">Tables</h2>
+<div class="outline-text-2" id="text-orgd849a88">
 </div>
-<div id="outline-container-orgbddf2fa" class="outline-2">
-<h2 id="orgbddf2fa">Agendas</h2>
+<div id="outline-container-org0d5be1f" class="outline-3">
+<h3 id="org0d5be1f">如何像 Excel 一样，在表格中插入 <code>mini graph</code> ？</h3>
+<div class="outline-text-3" id="text-org0d5be1f">
+<pre class="example">
+;; while the cursor is on a column,
+;; this command will create a new column
+;; containing an ascii-art bars plot.
+
+M-x: orgtble-ascii-plot
+
+;; this command insert a formula:
+;; (orgtbl-ascii-draw COLUMN MIN MAX WIDTH)
+</pre>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="all" frame="border">
+<caption class="t-above"><span class="table-number">Table 2:</span> insert ascii chart into table</caption>
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-right">date</td>
+<td class="org-right">money</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">20100101</td>
+<td class="org-right">9.92</td>
+<td class="org-left">WWWWWWWWWH</td>
+</tr>
+
+<tr>
+<td class="org-right">20100201</td>
+<td class="org-right">4.52</td>
+<td class="org-left">WWWW!</td>
+</tr>
+
+<tr>
+<td class="org-right">20210301</td>
+<td class="org-right">15.99</td>
+<td class="org-left">WWWWWWWWWWWWWWWW</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div id="outline-container-orge28c4ce" class="outline-2">
-<h2 id="orge28c4ce">Others</h2>
-<div class="outline-text-2" id="text-orge28c4ce">
 </div>
-<div id="outline-container-org6be4165" class="outline-3">
-<h3 id="org6be4165"><span class="todo TODO">TODO</span> 如何用 org 文件管理 RSS 订阅？</h3>
+</div>
+
+<div id="outline-container-org5638971" class="outline-2">
+<h2 id="org5638971">Agendas</h2>
+</div>
+<div id="outline-container-org3d93044" class="outline-2">
+<h2 id="org3d93044">Others</h2>
+<div class="outline-text-2" id="text-org3d93044">
+</div>
+<div id="outline-container-org29e2717" class="outline-3">
+<h3 id="org29e2717">如何用 org 文件管理 RSS 订阅？</h3>
 </div>
 </div>
 
