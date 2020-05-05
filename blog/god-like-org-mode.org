@@ -44,10 +44,19 @@ Org mode 称为神器一点都不为过，如果你平时工作内容有和文�
 ** 如何给 TODO keywords 增加前景色、背景色？
 
 #+begin_src emacs-lisp
-(setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
-                                ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
-                                ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
+(setf org-todo-keyword-faces
+      '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
+        ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
+        ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
 #+end_src
+
+配置效果如下图：
+#+begin_export html
+<img
+  src="../images/todo-keywords-face.png"
+  width="80%"
+  />
+#+end_export
 * Capture-Refile-Archive
 ** 如何快速记录一些内容到指定文件？
 
@@ -98,7 +107,7 @@ More info: [[https://blog.aaronbieber.com/2017/03/19/organizing-notes-with-refil
 #+end_src
 
 #+caption: org-archive-location options
-#+attr_html: :border 2 :rules all :frame border
+#+attr_html: :border 2 :frame border
 | location value                 | meaning                               |
 |--------------------------------+---------------------------------------|
 | "::*Archived Tasks"            | Archive in the current file           |
@@ -114,7 +123,7 @@ More info: [[https://blog.aaronbieber.com/2017/03/19/organizing-notes-with-refil
 |                                | after datetree)                       |
 |--------------------------------+---------------------------------------|
 * Tables
-** 如何像 Excel 一样，在表格中插入 =mini graph= ？
+** 如何像 Excel 一样，在表格中插入 =mini chart= ？
 #+begin_src
 ;; while the cursor is on a column,
 ;; this command will create a new column
@@ -122,49 +131,29 @@ More info: [[https://blog.aaronbieber.com/2017/03/19/organizing-notes-with-refil
 
 M-x: orgtble-ascii-plot
 
-;; this command insert a formula:
+;; this command insert a table formula:
 ;; (orgtbl-ascii-draw COLUMN MIN MAX WIDTH)
 #+end_src
 
 #+caption: insert ascii chart into table
 #+attr_html: :border 2 :rules all :frame border
-|     date | money |                  |
-| 20100101 |  9.92 | WWWWWWWWWH       |
-| 20100201 |  4.52 | WWWW!            |
-| 20210301 | 15.99 | WWWWWWWWWWWWWWWW |
+|     date | money | auto-inserted chart |
+|----------+-------+---------------------|
+| 20100101 |  9.92 | WWWWWWWWWH          |
+| 20100201 |  4.52 | WWWW!               |
+| 20210301 | 15.99 | WWWWWWWWWWWWWWWW    |
 #+tblfm: $3='(orgtbl-ascii-draw $2 0.0 20.0 20)
 
 * Agendas
 ** 如何将 Agenda 中不同时间长度的事项显示不同的大小？
+Dotfile Configuration 见 [[https://gist.github.com/lijigang/3c9326a2cf86b50f9041c20c74398bb1][gist]]
 
-#+begin_src emacs-lisp
-;; agenda 里面时间块彩色显示
-;; From: https://emacs-china.org/t/org-agenda/8679/3
-(defun ljg/org-agenda-time-grid-spacing ()
-  "Set different line spacing w.r.t. time duration."
-  (save-excursion
-    (let* ((background (alist-get 'background-mode (frame-parameters)))
-           (background-dark-p (string= background "dark"))
-           (colors (list "#1ABC9C" "#2ECC71" "#3498DB" "#9966ff"))
-           pos
-           duration)
-      (nconc colors colors)
-      (goto-char (point-min))
-      (while (setq pos (next-single-property-change (point) 'duration))
-        (goto-char pos)
-        (when (and (not (equal pos (point-at-eol)))
-                   (setq duration (org-get-at-bol 'duration)))
-          (let ((line-height (if (< duration 30) 1.0 (+ 0.5 (/ duration 60))))
-                (ov (make-overlay (point-at-bol) (1+ (point-at-eol)))))
-            (overlay-put ov 'face `(:background ,(car colors)
-                                                :foreground
-                                                ,(if background-dark-p "black" "white")))
-            (setq colors (cdr colors))
-            (overlay-put ov 'line-height line-height)
-            (overlay-put ov 'line-spacing (1- line-height))))))))
-
-(add-hook 'org-agenda-finalize-hook #'ljg/org-agenda-time-grid-spacing)
-#+end_src
+#+begin_export html
+<img
+  src="../images/org-agenda-colorful-block.png"
+  width="80%"
+  />
+#+end_export
 ** 如何设置 agenda 中时间的显示格式？
 #+begin_src emacs-lisp
 ;; if set it to t, 9:30am would become 09:30.
@@ -175,48 +164,8 @@ M-x: orgtble-ascii-plot
 (setq org-agenda-use-time-grid nil)
 #+end_src
 ** 如何在 agenda 中显示本地的日出日落时间？
-#+begin_src emacs-lisp
-;; learn from https://github.com/AbstProcDo/Master-Emacs-From-Scrach-with-Solid-Procedures/blob/master/05.Emacs-as-a-Agenda-by-Org.org
-
-(setq org-agenda-include-diary t)
-(setq org-agenda-diary-file "your/path/to/standard-diary")
-(setq diary-file "your/path/to/standard-diary")
-
-;; 设置本地经纬度坐标
-(setq calendar-latitude 39.9042)
-(setq calendar-longitude 116.4074)
-
-;;Sunrise and Sunset
-;;日出而作, 日落而息
-(defun diary-sunrise ()
-  (let ((dss (diary-sunrise-sunset)))
-    (with-temp-buffer
-      (insert dss)
-      (goto-char (point-min))
-      (while (re-search-forward " ([^)]*)" nil t)
-        (replace-match "" nil nil))
-      (goto-char (point-min))
-      (search-forward ",")
-      (buffer-substring (point-min) (match-beginning 0)))))
-
-(defun diary-sunset ()
-  (let ((dss (diary-sunrise-sunset))
-        start end)
-    (with-temp-buffer
-      (insert dss)
-      (goto-char (point-min))
-      (while (re-search-forward " ([^)]*)" nil t)
-        (replace-match "" nil nil))
-      (goto-char (point-min))
-      (search-forward ", ")
-      (setq start (match-end 0))
-      (search-forward " at")
-      (setq end (match-beginning 0))
-      (goto-char start)
-      (capitalize-word 1)
-      (buffer-substring start end))))
-#+end_src
-
+1. 相关 Dotfile configuration 见 [[https://gist.github.com/lijigang/c865a2a4d075c75b4aeb61fe0f9102b6][gist]]
+2. 在 standard-dairy 文件中写入下面内容
 #+begin_src emacs-lisp
 ;; content of file standard-diary
 
