@@ -10,14 +10,12 @@ It also is an authoring system with unique support for literate programming and
 reproducible research.
 #+END_QUOTE
 
-Org mode 官网上介绍的这段文字基本描述清了它可实现的功能, 但用词还是腼腆了点, 它
-就是效率之神. 如果你喜欢管理记录, 喜欢 GTD, 一定一定要学习下 =Org mode= , 学会它,
-你会放弃你所知道的一切其它的效率软件.
+Org mode 称为神器一点都不为过，如果你平时工作内容有和文字处理相关的，绝对值得花一个月时间好好学习下 Emacs 中的 Orgmode。
 
 关于 Org mode 在各方面使用的总结, 有很多优秀文章: [[https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html][GTD]] , [[http://cachestocaches.com/2018/6/org-literate-programming/][Literate Programming]] ,
-[[http://ehneilsen.net/notebook/orgExamples/org-examples.html][Cookbook]] , 当然也少不了最最经典的 [[http://doc.norang.ca/org-mode.html][Organize Your Life In Plain Text!]] .
+[[http://ehneilsen.net/notebook/orgExamples/org-examples.html][Cookbook]] , 当然也少不了经典的 [[http://doc.norang.ca/org-mode.html][Organize Your Life In Plain Text!]] .
 
-Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把纯文本应用到炉火纯青的地步了. 大部分人, 不需要使用 Emacs 写代码, 但日常效率管理或者文档记录的需求, 完全可以通过 Org mode 满足.
+本文旨在将平时收集使用的 snippets 汇总成 orgmode handbook， 方便同道中人随时取用。
 
 #+TOC: headlines 2
 
@@ -31,7 +29,7 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 #+begin_src emacs-lisp
 (setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
 #+end_src
-** 如何直接显示 *加粗* 、 +删除线+ 、 _下划线_ 样式？
+** 如何直接显示 *加粗* 、 +删除线+ 、 =强调= 等样式？
 
   #+begin_src emacs-lisp
   (setq org-hide-emphasis-markers t)
