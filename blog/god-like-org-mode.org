@@ -22,35 +22,35 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 #+TOC: headlines 2
 
 * Beautify
-** DONE 如何隐藏 headlines 前面的一堆*符号？
+** 如何隐藏 headlines 前面的一堆*符号？
 #+begin_src emacs-lisp
 (setq org-startup-indented t)
 #+end_src
-** DONE 如何将 headlines 的符号从*变成其它符号？
+** 如何将 headlines 的符号从*变成其它符号？
 
 #+begin_src emacs-lisp
 (setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
 #+end_src
-** DONE 如何直接显示 *加粗* 、 +删除线+ 、 _下划线_ 样式？
+** 如何直接显示 *加粗* 、 +删除线+ 、 _下划线_ 样式？
 
   #+begin_src emacs-lisp
   (setq org-hide-emphasis-markers t)
   #+end_src
-** DONE 如何设置 headline 的 TODO keywords？
+** 如何设置 headline 的 TODO keywords？
 
 #+begin_src emacs-lisp
 ;; "|"之前的为进行中的状态， 之后的为结束的状态
 (setq org-todo-keywords
       '((sequence "TODO" "HAND" "|" "DONE")))
 #+end_src
-** DONE 如何给 TODO keywords 增加前景色、背景色？
+** 如何给 TODO keywords 增加前景色、背景色？
 
 #+begin_src emacs-lisp
 (setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
                                 ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
                                 ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
 #+end_src
-** DONE 如何将 Agenda 中不同时间长度的事项显示不同的大小？
+** 如何将 Agenda 中不同时间长度的事项显示不同的大小？
 
 #+begin_src emacs-lisp
 ;; agenda 里面时间块彩色显示
@@ -82,7 +82,7 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 #+end_src
 
 * Capture-Refile-Archive
-** DONE 如何快速记录一些内容到指定文件？
+** 如何快速记录一些内容到指定文件？
 
 #+begin_src emacs-lisp
 ;; 设置默认保存到哪个文件中
@@ -91,7 +91,7 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 ;; 设置快捷键来调用 org-capture
 (global-set-key (kbd "C-c c") 'org-capture)
 #+end_src
-** DONE 如何设置不同的快速记录模板？
+** 如何设置不同的快速记录模板？
 #+begin_src emacs-lisp
 (setq org-capture-templates
               '(("p"  ;;快捷键
@@ -117,20 +117,21 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
                  "** TODO %?\n  %i\n")
                   ))
 #+end_src
-** DONE 如何快速移动 headline 到指定文件中？
+** 如何快速移动 headline 到指定文件中？
 #+begin_src emacs-lisp
 ;; 设置移动到的目标文件列表为 agenda-files
 (setq org-refile-targets '((org-agenda-files :maxlevel . 3)))
 #+end_src
 
 More info: [[https://blog.aaronbieber.com/2017/03/19/organizing-notes-with-refile.html][Aaron Bieber's article]]
-** DONE 如何归档已完成事项到其它文件？
+** 如何归档已完成事项到其它文件？
 #+begin_src emacs-lisp
 ;; this is the default: current file is a.org, archive in file a.org_archive
 (setq org-archive-location "%s_archive")
 #+end_src
 
 #+caption: org-archive-location options
+#+attr_html: :border 2 :rules all :frame border
 | location value                 | meaning                               |
 |--------------------------------+---------------------------------------|
 | "::*Archived Tasks"            | Archive in the current file           |
@@ -146,6 +147,26 @@ More info: [[https://blog.aaronbieber.com/2017/03/19/organizing-notes-with-refil
 |                                | after datetree)                       |
 |--------------------------------+---------------------------------------|
 * Tables
+** 如何像 Excel 一样，在表格中插入 =mini graph= ？
+#+begin_src
+;; while the cursor is on a column,
+;; this command will create a new column
+;; containing an ascii-art bars plot.
+
+M-x: orgtble-ascii-plot
+
+;; this command insert a formula:
+;; (orgtbl-ascii-draw COLUMN MIN MAX WIDTH)
+#+end_src
+
+#+caption: insert ascii chart into table
+#+attr_html: :border 2 :rules all :frame border
+|     date | money |                  |
+| 20100101 |  9.92 | WWWWWWWWWH       |
+| 20100201 |  4.52 | WWWW!            |
+| 20210301 | 15.99 | WWWWWWWWWWWWWWWW |
+#+tblfm: $3='(orgtbl-ascii-draw $2 0.0 20.0 20)
+
 * Agendas
 * Others
-** TODO 如何用 org 文件管理 RSS 订阅？
+** 如何用 org 文件管理 RSS 订阅？
