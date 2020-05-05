@@ -72,107 +72,91 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org7b575e2">美化外观</a></li>
-<li><a href="#org449a355">快速记录</a></li>
-<li><a href="#orgfcd058d">快速归档</a></li>
-<li><a href="#org658db92">任务属性</a></li>
-<li><a href="#orge13e2fb">超级应用</a>
+<li><a href="#org8214d76">Beautify</a>
 <ul>
-<li><a href="#org5263402">Tables : 其实我也能当 Excel 使</a></li>
-<li><a href="#orge8bcdf7">Hypelinks: 把我当浏览器使也可以</a></li>
-<li><a href="#orgace0588">Export : 分享给不使用 Orgmode 的人</a></li>
+<li><a href="#orgcd57be4"><span class="done DONE">DONE</span> 如何隐藏 headlines 前面的一堆*符号？</a></li>
+<li><a href="#org4bb51bf"><span class="done DONE">DONE</span> 如何将 headlines 的符号从*变成其它符号？</a></li>
+<li><a href="#org6ae04a7"><span class="done DONE">DONE</span> 如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <span class="underline">下划线</span> 样式？</a></li>
+<li><a href="#org1b3d8e6"><span class="done DONE">DONE</span> 如何设置 headline 的 TODO keywords？</a></li>
+<li><a href="#org3e21a78"><span class="done DONE">DONE</span> 如何给 TODO keywords 增加前景色、背景色？</a></li>
+<li><a href="#org0af538c"><span class="done DONE">DONE</span> 如何将 Agenda 中不同时间长度的事项显示不同的大小？</a></li>
+</ul>
+</li>
+<li><a href="#org4246b09">Capture-Refile-Archive</a>
+<ul>
+<li><a href="#org0406c43"><span class="done DONE">DONE</span> 如何快速记录一些内容到指定文件？</a></li>
+<li><a href="#orgf82d2e9"><span class="done DONE">DONE</span> 如何设置不同的快速记录模板？</a></li>
+<li><a href="#org7d7c163"><span class="done DONE">DONE</span> 如何快速移动 headline 到指定文件中？</a></li>
+<li><a href="#org82f8c5d"><span class="done DONE">DONE</span> 如何归档已完成事项到其它文件？</a></li>
+</ul>
+</li>
+<li><a href="#org5d2be45">Tables</a></li>
+<li><a href="#orgbddf2fa">Agendas</a></li>
+<li><a href="#orge28c4ce">Others</a>
+<ul>
+<li><a href="#org6be4165"><span class="todo TODO">TODO</span> 如何用 org 文件管理 RSS 订阅？</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org7b575e2" class="outline-2">
-<h2 id="org7b575e2">美化外观</h2>
-<div class="outline-text-2" id="text-org7b575e2">
+<div id="outline-container-org8214d76" class="outline-2">
+<h2 id="org8214d76">Beautify</h2>
+<div class="outline-text-2" id="text-org8214d76">
 </div>
-<div id="outline-container-org097bc4c" class="outline-4">
-<h4 id="org097bc4c">美化: Headline</h4>
-<div class="outline-text-4" id="text-org097bc4c">
-<p>
-默认显示 Headline 的 <code>*</code> 符号看着和内容无关, 又特别扎眼, 希望让它显示美观些, 同时又不影响查看内容和缩进.
-</p>
-
-<img
-  src="/assets/blog/2018/08/08/emacs-神器-org-mode/default-headline-sample.png"
-  width="80%"
-/>
-
+<div id="outline-container-orgcd57be4" class="outline-3">
+<h3 id="orgcd57be4"><span class="done DONE">DONE</span> 如何隐藏 headlines 前面的一堆*符号？</h3>
+<div class="outline-text-3" id="text-orgcd57be4">
 <div class="org-src-container">
-<pre class="src src-emacs-lisp">;; 打开 org-indent mode
-(setq org-startup-indented t)
-
-;; 设置 bullet list
-(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
+<pre class="src src-emacs-lisp">(setq org-startup-indented t)
 </pre>
 </div>
-
-<p>
-配置上面那行代码后，显示效果如下：
-</p>
-
-<img
-  src="/assets/blog/2018/08/08/emacs-神器-org-mode/beautify-headline-sample.png"
-  width="80%"
-/>
 </div>
 </div>
-
-<div id="outline-container-orgb2711af" class="outline-4">
-<h4 id="orgb2711af">美化: Todo Keyword</h4>
-<div class="outline-text-4" id="text-orgb2711af">
-<p>
-每个 Headline 都可以有不同状态, 比如待启动/进行中/阻塞中/已完成 等等, 可以根据自己的实际需求来定义这些状态, 定义方法也很简单, 只要设置下面这个变量就好:
-</p>
+<div id="outline-container-org4bb51bf" class="outline-3">
+<h3 id="org4bb51bf"><span class="done DONE">DONE</span> 如何将 headlines 的符号从*变成其它符号？</h3>
+<div class="outline-text-3" id="text-org4bb51bf">
 <div class="org-src-container">
-<pre class="src src-emacs-lisp">;; 设置 todo keywords
+<pre class="src src-emacs-lisp">(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org6ae04a7" class="outline-3">
+<h3 id="org6ae04a7"><span class="done DONE">DONE</span> 如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <span class="underline">下划线</span> 样式？</h3>
+<div class="outline-text-3" id="text-org6ae04a7">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(setq org-hide-emphasis-markers t)
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org1b3d8e6" class="outline-3">
+<h3 id="org1b3d8e6"><span class="done DONE">DONE</span> 如何设置 headline 的 TODO keywords？</h3>
+<div class="outline-text-3" id="text-org1b3d8e6">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; "|"之前的为进行中的状态， 之后的为结束的状态
 (setq org-todo-keywords
       '((sequence "TODO" "HAND" "|" "DONE")))
 </pre>
 </div>
-
-<p>
-但这样配置后, 只是显示一个 TODO 关键词，也不是很漂亮。
-</p>
-
-<p>
-可以针对这些状态关键词设置单独的前景色和背景色，看看效果：
-</p>
-
+</div>
+</div>
+<div id="outline-container-org3e21a78" class="outline-3">
+<h3 id="org3e21a78"><span class="done DONE">DONE</span> 如何给 TODO keywords 增加前景色、背景色？</h3>
+<div class="outline-text-3" id="text-org3e21a78">
 <div class="org-src-container">
-<pre class="src src-emacs-lisp">;; 调试好久的颜色，效果超赞！todo keywords 增加背景色
-(setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
+<pre class="src src-emacs-lisp">(setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
                                 ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
                                 ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
 </pre>
 </div>
-<p>
-让我们看看现在的显示效果：
-</p>
-
-<img
-  src="/assets/blog/2018/08/08/emacs-神器-org-mode/beautify-todo-sample.png"
-  width="80%"
-/>
 </div>
 </div>
-
-<div id="outline-container-org0a523d5" class="outline-4">
-<h4 id="org0a523d5">美化: Agenda</h4>
-<div class="outline-text-4" id="text-org0a523d5">
-<p>
-Agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行文本. 能不能按时间段大小显示成区块样式, 更直观显示时间计划?
-</p>
-
-<p>
-<a href="https://emacs-china.org/t/org-agenda/8679/3">Emacs-china</a> 论坛中就有一个很赞的改进方案:
-</p>
-
+<div id="outline-container-org0af538c" class="outline-3">
+<h3 id="org0af538c"><span class="done DONE">DONE</span> 如何将 Agenda 中不同时间长度的事项显示不同的大小？</h3>
+<div class="outline-text-3" id="text-org0af538c">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; agenda 里面时间块彩色显示
 ;; From: https://emacs-china.org/t/org-agenda/8679/3
@@ -202,290 +186,159 @@ Agenda 中不论是五分钟还是一个小时, 显示的时间段都是一行�
 (add-hook 'org-agenda-finalize-hook #'ljg/org-agenda-time-grid-spacing)
 </pre>
 </div>
-
-<p>
-显示效果如下, 时间长短决定了显示的时间块的大小:
-</p>
-
-<img
-  src="/assets/blog/2018/08/08/emacs-神器-org-mode/beautify-org-agenda.png"
-  width="80%"
-/>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org449a355" class="outline-2">
-<h2 id="org449a355">快速记录</h2>
-<div class="outline-text-2" id="text-org449a355">
+<div id="outline-container-org4246b09" class="outline-2">
+<h2 id="org4246b09">Capture-Refile-Archive</h2>
+<div class="outline-text-2" id="text-org4246b09">
 </div>
-<div id="outline-container-org5ed99ae" class="outline-4">
-<h4 id="org5ed99ae">Capture : 快速记录任务</h4>
-<div class="outline-text-4" id="text-org5ed99ae">
-<p>
-有时候正在 A 文件中写东西, 突然有个想法想记录到你的 idea list 中, 希望可以实现不管当前在哪个地方, 都能一键记录文字到指定文件中.
-</p>
-
-<p>
-Org mode 的 org-capture 功能正是实现这个需求的自带功能. 只需要简单配置一下即可:
-</p>
-
+<div id="outline-container-org0406c43" class="outline-3">
+<h3 id="org0406c43"><span class="done DONE">DONE</span> 如何快速记录一些内容到指定文件？</h3>
+<div class="outline-text-3" id="text-org0406c43">
 <div class="org-src-container">
-<pre class="src src-emacs-lisp">;; 设置全局快捷键, 方便随时使用这个功能
+<pre class="src src-emacs-lisp">;; 设置默认保存到哪个文件中
+(setq org-default-notes-file "path/to/your/notes")
+
+;; 设置快捷键来调用 org-capture
 (global-set-key (kbd "C-c c") 'org-capture)
-
-;; 我使用的 Spacemacs , 实际使用的是下面的快捷键
-(evil-leader/set-key "oc" 'org-capture)
-
-;; 设置默认情况下, 添加的任务到哪个文件中, 根据你自己需要修改
-(setq org-default-notes-file "~/Library/Mobile Documents/com~apple~CloudDocs/org/gtd.org")
 </pre>
 </div>
-
-<p>
-该功能默认已经有一个模板可以使用, 但一般每个人都会根据自己的实际使用情况定制自己的模板. 只需要查阅变量 <code>org-capture-templates</code> 的说明文档, 设置一下这个变量就可以了, 比如下面这样:
-</p>
-
+</div>
+</div>
+<div id="outline-container-orgf82d2e9" class="outline-3">
+<h3 id="orgf82d2e9"><span class="done DONE">DONE</span> 如何设置不同的快速记录模板？</h3>
+<div class="outline-text-3" id="text-orgf82d2e9">
 <div class="org-src-container">
-<pre class="src src-emacs-lisp">;; configure org-capture templates
-(setq org-capture-templates
-      '(("t" ; hotkey
-         "Todo list item" ; name
-         entry ; type
-         ; heading type and title
-         (file+headline org-default-notes-file "Tasks")
-         "* TODO %?\n  %i\n  %a") ; template
-        ))
+<pre class="src src-emacs-lisp">(setq org-capture-templates
+              '(("p"  ;;快捷键
+                 "Personal" ;; 描述
+                 entry ;; 填充类型为 heading
+                 (file+headline org-default-notes-file  "Personal")
+                 "** TODO %?\n  %i\n")
+                ;; %?: 填完后光标所在位置
+                ;; %U: 非活跃的时间戳
+                ;; %i: 初始内容. 如果有选中区域, 即为该区域内容
+                ;; %a: 注释. 通常为 org-store-link 创建的链接
+
+                ("m"
+                 "Meeting"
+                 entry
+                 (file+headline "path/to/your/meeting/file" "Meetings")
+                 "** TODO %?\n  %i\n")
+
+                ("w"
+                 "Work"
+                 entry
+                 (file+headline org-default-notes-file "Work")
+                 "** TODO %?\n  %i\n")
+                  ))
 </pre>
 </div>
-
-<p>
-说复杂的话, 设置不同模板的字段可以各种个性化, 比如可以在插入任务的同时 <a href="http://www.windley.com/archives/2010/12/capture_mode_and_emacs.shtml">插入当地 天气</a> , 或者 <a href="http://cestlaz.github.io/posts/using-emacs-23-capture-1/#.W5IV5o6QH-A">各种场景</a> , 甚至有人可以把这功能集成到 <a href="https://blog.sleeplessbeastie.eu/2016/04/22/how-to-use-org-capture-from-system-tray/">桌面托盘位置</a> .
-</p>
 </div>
 </div>
-</div>
-<div id="outline-container-orgfcd058d" class="outline-2">
-<h2 id="orgfcd058d">快速归档</h2>
-<div class="outline-text-2" id="text-orgfcd058d">
-<p>
-随着任务记录越来越多, 历史上已完成的任务如果一直累积在任务文件中, 文件会越来越大, 也会影响搜索结果和速度. 希望可以将已完成的任务快速归档存储到指定文件, 实现任务文件精简, 同时历史已完成任务还不会丢弃, 有需要时可随时搜索查看归档文件.
-</p>
-
+<div id="outline-container-org7d7c163" class="outline-3">
+<h3 id="org7d7c163"><span class="done DONE">DONE</span> 如何快速移动 headline 到指定文件中？</h3>
+<div class="outline-text-3" id="text-org7d7c163">
 <div class="org-src-container">
-<pre class="src src-emacs-lisp">;; 在 Spacemacs 中设置归档命令的快捷键
-(evil-leader/set-key "od" 'org-archive-subtree)
+<pre class="src src-emacs-lisp">;; 设置移动到的目标文件列表为 agenda-files
+(setq org-refile-targets '((org-agenda-files :maxlevel . 3)))
 </pre>
 </div>
 
 <p>
-Emacs 默认会在任务文档当前目录生成一个后缀为 _archive 的同名文件做为归档文件. 当
-然你也可以指定你想要的归档目录和文件名称:
+More info: <a href="https://blog.aaronbieber.com/2017/03/19/organizing-notes-with-refile.html">Aaron Bieber's article</a>
 </p>
-
+</div>
+</div>
+<div id="outline-container-org82f8c5d" class="outline-3">
+<h3 id="org82f8c5d"><span class="done DONE">DONE</span> 如何归档已完成事项到其它文件？</h3>
+<div class="outline-text-3" id="text-org82f8c5d">
 <div class="org-src-container">
-<pre class="src src-emacs-lisp">;; 配置归档文件的名称和 Headline 格式
-(setq org-archive-location "%s_archive::date-tree")
+<pre class="src src-emacs-lisp">;; this is the default: current file is a.org, archive in file a.org_archive
+(setq org-archive-location "%s_archive")
 </pre>
 </div>
 
-<p>
-上面配置的完整释义可以参看 org-archive-location 的帮助手册, 配置后的归档文件中的
-显示效果如下:
-</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 1:</span> org-archive-location options</caption>
 
-<img
-  src="/assets/blog/2018/08/08/emacs-神器-org-mode/org-archive-sample.png"
-  width="80%"
-  />
-</div>
-</div>
+<colgroup>
+<col  class="org-left" />
 
-<div id="outline-container-org658db92" class="outline-2">
-<h2 id="org658db92">任务属性</h2>
-<div class="outline-text-2" id="text-org658db92">
-</div>
-<div id="outline-container-orgcbdbb78" class="outline-4">
-<h4 id="orgcbdbb78">Time Clocking : 记录任务用时</h4>
-<div class="outline-text-4" id="text-orgcbdbb78">
-<p>
-希望记录任务的开始时间和结束时间, 并自动显示经历时长.
-</p>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">location value</th>
+<th scope="col" class="org-left">meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">"::*Archived Tasks"</td>
+<td class="org-left">Archive in the current file</td>
+</tr>
 
-<p>
-有时候任务是分多个时间段完成, 希望能有每个时间段的刻录.
-</p>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">under the top level headline</td>
+</tr>
 
-<p>
-除了可以根据任务的状态变更进行管理之外, Emacs 还支持对任务进行时间管理. 在 Emacs
-中, 一切都是 <code>纯文本 (Plain text)</code> , 时间的表示, 在 Emacs 中也不过就是一串字符串而
-已, 只是有很多相关的函数来解析这个指定格式的字符串, 提供了超级强大的时间管理的功
-能.
-</p>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">*Archived Tasks</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">"~/org/archive.org"</td>
+<td class="org-left">Archive in file ~/org/archive.org</td>
+</tr>
 
-<p>
-我个人最常用的记录时间的操作是在某项任务开始时 org-clock-in (快捷键 <code>,I</code> ) 结束时 org-clock-out (快捷键 <code>,O</code> ). 这样一项任务就有了清晰的一段时间记录, 如果过了一阵子又投入时间在这项任务, 同样 clock-in/clock-out 就好, Org 支持一个任务记录多条时间段.
-</p>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">as top level trees</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">"~/org/archive.org::datetree/"</td>
+<td class="org-left">datetree is special. the heading will</td>
+</tr>
 
-<img
-  src="/assets/blog/2018/08/08/emacs-神器-org-mode/org-clock-sample.png"
-  width="80%"
-  />
-</div>
-</div>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">be a subentry to the current date.</td>
+</tr>
 
-<div id="outline-container-orgc446f88" class="outline-4">
-<h4 id="orgc446f88">Time Reporting: 时间都去哪儿了</h4>
-<div class="outline-text-4" id="text-orgc446f88">
-<p>
-我们已经在每个任务开始和结果时都打了时间戳, 那生成一个时间花费的报表应该也不在话
-下了.
-</p>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">(there always need to be a "/"</td>
+</tr>
 
-<p>
-通过调用 <code>org-clock-report</code> 命令, 可以生成下面的这种样式的 time table, 看看你之前
-的时间都花在哪了, 生成表格相关参数的修改, 可以参考 <a href="https://orgmode.org/org.html#Deadlines-and-scheduling">官方文档</a>:
-</p>
-
-<img
-  src="/assets/blog/2018/08/08/emacs-神器-org-mode/org-report-sample.png"
-  width="80%"
-  />
-</div>
-</div>
-<div id="outline-container-org6759dae" class="outline-4">
-<h4 id="org6759dae">Deadline: 设置死线</h4>
-<div class="outline-text-4" id="text-org6759dae">
-<p>
-在日常 GTD 过程中, 还经常会有的需求是给某一任务设定 Deadline (org-deadline ,d)
-或 Schedule (org-schedule ,s) .
-</p>
-
-<p>
-当然, 还会有些 Routine 的任务, 比如每周一上午 10 点开例会, 每周五下午 6 点发周报等, 这种定期任务的设定, 可以先设置一个 Schedule, 然后在时间字符串后面添加 +1d (每一天循环) / +2w (每两周循环) / +3m (每三个月循环) / +1y (每一年循环):
-</p>
-
-<p>
-上面的需求基本都是自带函数功能可以解决:
-</p>
-<ul class="org-ul">
-<li>org-deadline 插入 deadline</li>
-<li>org-schedule 插入 schedule</li>
-<li>在 schedule 日期后面添加 +1d(每一天循环)  +2w(每两周循环)</li>
-</ul>
-
-<img
-  src="/assets/blog/2018/08/08/emacs-神器-org-mode/org-deadline-sample.png"
-  width="80%"
-  />
-</div>
-</div>
-<div id="outline-container-org0a604de" class="outline-4">
-<h4 id="org0a604de">Tags : 换个角度看世界</h4>
-<div class="outline-text-4" id="text-org0a604de">
-<p>
-使用时间久了之后, 历史任务积累了很多. 想筛选或查找某个任务, 只能靠印象中任务标题
-中的文本来查找, 很低效. 希望可以在每个任务上面打标签, 这样后面可以筛选标签来找到
-一类任务.
-</p>
-
-<p>
-Org 支持在 Headline 上添加 Tags , 这样可以将标记了某个或某些 tags 的任务全找出来.
-而添加 Tags 的方法也很简单, 只需调用 <b>org-set-tags-command 快捷键 C-c C-c
-(Spacemacs 中 ,,)</b> , 就会在当前 Headline 后面添加你指定的 tags. 显示样式为前后冒
-号分隔, 比如 <code>:work:</code> , 基本用法就这一个命令就够了, 如果有更深入的使用需求, 读下
-<a href="https://orgmode.org/org.html#Tags">官方文档</a> 就好了.
-</p>
-</div>
-</div>
-
-<div id="outline-container-orgf094ebd" class="outline-4">
-<h4 id="orgf094ebd">Properties: 再换个角度看看</h4>
-<div class="outline-text-4" id="text-orgf094ebd">
-<p>
-使用 tags 已经可以解决一部分筛选查找历史任务的问题了, 但如果你想针对某一个任务做
-些类似数据库似的字段存储, 比如你记录了吃过的五星级餐厅的列表, 想针对每个餐厅单独
-记录其地址/联系电话/特色菜/个人评价 等, 把这些全放到 tags 中, 显示不合适.
-</p>
-
-<p>
-这时候就适合使用 Properties 了. 插入 Property 需要调用 org-set-property 命令.
-Property 是 key-value 形式出现, 调用命令后会提示你输入 key 和 value, 显示时一个
-Property 占一行.
-</p>
-
-<img
-  src="/assets/blog/2018/08/08/emacs-神器-org-mode/org-property-sample.png"
-  width="80%"
-  />
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">after datetree)</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
-<div id="outline-container-orge13e2fb" class="outline-2">
-<h2 id="orge13e2fb">超级应用</h2>
-<div class="outline-text-2" id="text-orge13e2fb">
+<div id="outline-container-org5d2be45" class="outline-2">
+<h2 id="org5d2be45">Tables</h2>
 </div>
-<div id="outline-container-org5263402" class="outline-3">
-<h3 id="org5263402">Tables : 其实我也能当 Excel 使</h3>
-<div class="outline-text-3" id="text-org5263402">
-<p>
-在文本中当然也少不了记录表格的需求, 比如做会议纪要, 时间/地点/人员/主题/结论/后
-续安排这些内容通过表格整理记录就会很方便. 怎么实现表格?
-</p>
-
-<p>
-在 Org 中, 只要以 | 开头的一行, 就认为它是表格的一部分了. 表格中各单元格的区分符号也是 | , 每次你输入完一个单元格, 可以通过 TAB 切换到下一单元格, 通过 RET 切换到下一行. 日常的基本表格操作, 这些功能已经足够用的了. 想了解细节, 可以阅读下<a href="https://orgmode.org/org.html#Tables">官方文档</a> . Org 中的表格大概长下面这样:
-</p>
-
-<img
-  src="/assets/blog/2018/08/08/emacs-神器-org-mode/org-table-samples.png"
-  width="80%"
-  />
-
-<p>
-补充两个让人对 Org 表格功能很爽的小细节:
-</p>
-<ol class="org-ol">
-<li>切换单元格 (TAB/RET/C-c C-c) , Org 会自动根据单元格内容进行宽度调整</li>
-<li>|- 开头的, 按下 TAB, 即可插入一行分隔线.</li>
-</ol>
-
-<p>
-基本的表格功能, 已经足够日常使用了, 但 Org 的强大远不止于此.
-</p>
-
-<p>
-如果你想把它当作 Excel 来使用, 可以参看 <a href="https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html">这篇文章</a> ; 如果你想通过表格中的数据来画图, 可以参看 <a href="https://orgmode.org/worg/org-tutorials/org-plot.html">这篇文章</a> .
-</p>
+<div id="outline-container-orgbddf2fa" class="outline-2">
+<h2 id="orgbddf2fa">Agendas</h2>
 </div>
+<div id="outline-container-orge28c4ce" class="outline-2">
+<h2 id="orge28c4ce">Others</h2>
+<div class="outline-text-2" id="text-orge28c4ce">
 </div>
-<div id="outline-container-orge8bcdf7" class="outline-3">
-<h3 id="orge8bcdf7">Hypelinks: 把我当浏览器使也可以</h3>
-<div class="outline-text-3" id="text-orge8bcdf7">
-<p>
-Org mode 是记录纯文本的, 但如果有超链接想存储的话, 能支持点击跳转浏览器访问吗?
-</p>
-
-<p>
-org mode 支持超链接跳转到文件, 邮件, 网页等等.
-</p>
-
-<p>
-通用的链接形式为 <code>[[link][descriptio] ]</code> (后面那个空格要去掉), 也可能通过快捷键快速插入链接（C-c C-l）
-</p>
-</div>
-</div>
-<div id="outline-container-orgace0588" class="outline-3">
-<h3 id="orgace0588">Export : 分享给不使用 Orgmode 的人</h3>
-<div class="outline-text-3" id="text-orgace0588">
-<p>
-如果要分享文档给别人, 他们不使用 org mode 怎么办? 能支持导出成其它通用的文档格式吗?
-</p>
-
-<p>
-Org mode 支持导出文件为各种常见文档格式, 比如 HTML/PDF/PPT(通过网页访问).
-</p>
-</div>
+<div id="outline-container-org6be4165" class="outline-3">
+<h3 id="org6be4165"><span class="todo TODO">TODO</span> 如何用 org 文件管理 RSS 订阅？</h3>
 </div>
 </div>
 
