@@ -50,37 +50,6 @@ Emacs 本质上就是强调使用纯文本, Org mode 是其中一个 mode, 把�
                                 ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
                                 ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
 #+end_src
-** 如何将 Agenda 中不同时间长度的事项显示不同的大小？
-
-#+begin_src emacs-lisp
-;; agenda 里面时间块彩色显示
-;; From: https://emacs-china.org/t/org-agenda/8679/3
-(defun ljg/org-agenda-time-grid-spacing ()
-  "Set different line spacing w.r.t. time duration."
-  (save-excursion
-    (let* ((background (alist-get 'background-mode (frame-parameters)))
-           (background-dark-p (string= background "dark"))
-           (colors (list "#1ABC9C" "#2ECC71" "#3498DB" "#9966ff"))
-           pos
-           duration)
-      (nconc colors colors)
-      (goto-char (point-min))
-      (while (setq pos (next-single-property-change (point) 'duration))
-        (goto-char pos)
-        (when (and (not (equal pos (point-at-eol)))
-                   (setq duration (org-get-at-bol 'duration)))
-          (let ((line-height (if (< duration 30) 1.0 (+ 0.5 (/ duration 60))))
-                (ov (make-overlay (point-at-bol) (1+ (point-at-eol)))))
-            (overlay-put ov 'face `(:background ,(car colors)
-                                                :foreground
-                                                ,(if background-dark-p "black" "white")))
-            (setq colors (cdr colors))
-            (overlay-put ov 'line-height line-height)
-            (overlay-put ov 'line-spacing (1- line-height))))))))
-
-(add-hook 'org-agenda-finalize-hook #'ljg/org-agenda-time-grid-spacing)
-#+end_src
-
 * Capture-Refile-Archive
 ** 如何快速记录一些内容到指定文件？
 
@@ -168,5 +137,114 @@ M-x: orgtble-ascii-plot
 #+tblfm: $3='(orgtbl-ascii-draw $2 0.0 20.0 20)
 
 * Agendas
+** 如何将 Agenda 中不同时间长度的事项显示不同的大小？
+
+#+begin_src emacs-lisp
+;; agenda 里面时间块彩色显示
+;; From: https://emacs-china.org/t/org-agenda/8679/3
+(defun ljg/org-agenda-time-grid-spacing ()
+  "Set different line spacing w.r.t. time duration."
+  (save-excursion
+    (let* ((background (alist-get 'background-mode (frame-parameters)))
+           (background-dark-p (string= background "dark"))
+           (colors (list "#1ABC9C" "#2ECC71" "#3498DB" "#9966ff"))
+           pos
+           duration)
+      (nconc colors colors)
+      (goto-char (point-min))
+      (while (setq pos (next-single-property-change (point) 'duration))
+        (goto-char pos)
+        (when (and (not (equal pos (point-at-eol)))
+                   (setq duration (org-get-at-bol 'duration)))
+          (let ((line-height (if (< duration 30) 1.0 (+ 0.5 (/ duration 60))))
+                (ov (make-overlay (point-at-bol) (1+ (point-at-eol)))))
+            (overlay-put ov 'face `(:background ,(car colors)
+                                                :foreground
+                                                ,(if background-dark-p "black" "white")))
+            (setq colors (cdr colors))
+            (overlay-put ov 'line-height line-height)
+            (overlay-put ov 'line-spacing (1- line-height))))))))
+
+(add-hook 'org-agenda-finalize-hook #'ljg/org-agenda-time-grid-spacing)
+#+end_src
+** 如何设置 agenda 中时间的显示格式？
+#+begin_src emacs-lisp
+;; if set it to t, 9:30am would become 09:30.
+(setq org-agenda-time-leading-zero t)
+#+end_src
+** 如何隐藏 agenda 中的分隔线？
+#+begin_src emacs-lisp
+(setq org-agenda-use-time-grid nil)
+#+end_src
+** 如何在 agenda 中显示本地的日出日落时间？
+#+begin_src emacs-lisp
+;; learn from https://github.com/AbstProcDo/Master-Emacs-From-Scrach-with-Solid-Procedures/blob/master/05.Emacs-as-a-Agenda-by-Org.org
+
+(setq org-agenda-include-diary t)
+(setq org-agenda-diary-file "your/path/to/standard-diary")
+(setq diary-file "your/path/to/standard-diary")
+
+;; 设置本地经纬度坐标
+(setq calendar-latitude 39.9042)
+(setq calendar-longitude 116.4074)
+
+;;Sunrise and Sunset
+;;日出而作, 日落而息
+(defun diary-sunrise ()
+  (let ((dss (diary-sunrise-sunset)))
+    (with-temp-buffer
+      (insert dss)
+      (goto-char (point-min))
+      (while (re-search-forward " ([^)]*)" nil t)
+        (replace-match "" nil nil))
+      (goto-char (point-min))
+      (search-forward ",")
+      (buffer-substring (point-min) (match-beginning 0)))))
+
+(defun diary-sunset ()
+  (let ((dss (diary-sunrise-sunset))
+        start end)
+    (with-temp-buffer
+      (insert dss)
+      (goto-char (point-min))
+      (while (re-search-forward " ([^)]*)" nil t)
+        (replace-match "" nil nil))
+      (goto-char (point-min))
+      (search-forward ", ")
+      (setq start (match-end 0))
+      (search-forward " at")
+      (setq end (match-beginning 0))
+      (goto-char start)
+      (capitalize-word 1)
+      (buffer-substring start end))))
+#+end_src
+
+#+begin_src emacs-lisp
+;; content of file standard-diary
+
+;;Day info
+;; 日出而作, 日落而息
+%%(diary-sunrise)
+%%(diary-sunset)
+#+end_src
+
+设置后的效果如下：
+#+begin_example
+Day-agenda (W17):
+Tuesday    21 April 2020
+05:29......  Sunrise
+12:00-13:00 Scheduled:  DONE 和 @XX 吃饭 1on1
+18:58......  Sunset
+#+end_example
 * Others
 ** 如何用 org 文件管理 RSS 订阅？
+#+begin_src emacs-lisp
+;; use an org file to organise feeds
+(use-package elfeed-org
+  :ensure t
+  :config
+  (elfeed-org)
+  (setq rmh-elfeed-org-files (list "/path/to/elfeed.org")))
+#+end_src
+
+More info: [[http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs-with-elfeed/][Pragmatic emacs's article]]
