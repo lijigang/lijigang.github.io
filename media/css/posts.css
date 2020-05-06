@@ -53,6 +53,9 @@ li {
     margin-left: 10px;
 }
 
+table {
+    margin: 16px auto;
+}
 
 blockquote {
     /*border-left: 4px lightgrey solid;*/
