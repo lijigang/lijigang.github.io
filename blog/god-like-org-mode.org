@@ -195,3 +195,4 @@ Tuesday    21 April 2020
 #+end_src
 
 More info: [[http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs-with-elfeed/][Pragmatic emacs's article]]
+** 如何在 org 中使用 PlantUML？
