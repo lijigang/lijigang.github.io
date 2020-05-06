@@ -196,3 +196,15 @@ Tuesday    21 April 2020
 
 More info: [[http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs-with-elfeed/][Pragmatic emacs's article]]
 ** 如何在 org 中使用 PlantUML？
+1. 下载编译好的 [[https://plantuml.com/zh/download][PlantUML jar file]]
+2. 安装 Graphviz ~brew install graphviz~
+3. 配置可参考 [[https://www.onwebsecurity.com/configuration/use-emacs-to-create-oauth-2-0-uml-sequence-diagrams.html][这篇文章]]
+
+如果平时画 UML 图比较多，建议多看下 [[https://real-world-plantuml.com/][Real-world-plantuml]] 这个网站的示例。
+
+#+begin_export html
+<img
+  src="../images/oauth2-abstract-protocol-flow.png"
+  width="80%"
+  />
+#+end_export
