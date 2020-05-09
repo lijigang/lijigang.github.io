@@ -58,7 +58,7 @@ table {
 }
 
 p {
-    line-height: 2;
+    line-height: 1.5;
 }
 
 blockquote {
@@ -171,6 +171,6 @@ hr {
 
     p {
         margin: 40px 0;
-        line-height: 2;
+        line-height: 1.5;
     }
 }
