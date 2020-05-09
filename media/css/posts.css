@@ -57,6 +57,10 @@ table {
     margin: 16px auto;
 }
 
+p {
+    line-height: 2;
+}
+
 blockquote {
     /*border-left: 4px lightgrey solid;*/
     /*padding-left: 5px;*/
@@ -167,5 +171,6 @@ hr {
 
     p {
         margin: 40px 0;
+        line-height: 2;
     }
 }
