@@ -5,7 +5,7 @@
 之前读过 [[https://github.com/alex/what-happens-when][Github]] 上面的关于从浏览器输入 google.com 到浏览器加载出 google
 首页, 整个技术细节流程的介绍. 最近又在出差的路上读完了 [[https://book.douban.com/subject/26941639/][网络是怎样连接的]]
 这本书, 对输入网址或者点击一个链接时, 发生的整个流程终于比较清晰了. 记录
-于此, 供有类似好奇心的朋友参考.
+于此, 供有类似好奇心的朋友参考. 另外 Youtube 上 Vox 有一个 [[https://www.youtube.com/watch?v=TNQsmPf24go][视频]] 讲解网络是如何运行的，也非常清晰，可以一看。
 
 抽象的说, 整个网络是由两部分构成:
 
