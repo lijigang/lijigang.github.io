@@ -7,6 +7,12 @@
 这本书, 对输入网址或者点击一个链接时, 发生的整个流程终于比较清晰了. 记录
 于此, 供有类似好奇心的朋友参考. 另外 Youtube 上 Vox 有一个 [[https://www.youtube.com/watch?v=TNQsmPf24go][视频]] 讲解网络是如何运行的，也非常清晰，可以一看。
 
+#+begin_export html
+<img
+  src="../images/how-internet-works.png"
+  width="80%"
+/>
+#+end_export
 抽象的说, 整个网络是由两部分构成:
 
 1. 浏览器和 Web 服务器这类网络应用程序: 负责发起请求和响应请求
