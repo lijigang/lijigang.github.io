@@ -1,6 +1,7 @@
 #+TITLE: 学习: 必会技能之一 配色
 #+DATE: <2019-03-20 Wed>
 #+options: toc:nil num:nil
+#+URI:         /blog/%y/%m/%d/learn-colors
 
 之前看了 [[https://refactoringui.com/previews/building-your-color-palette/][一篇文章]] , 对如何配色讲解的非常好. 它的方法是通过三步来配置一套属于自己的颜色:
 *** 灰色
