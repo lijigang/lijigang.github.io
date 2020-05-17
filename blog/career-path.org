@@ -1,6 +1,7 @@
 #+TITLE: 读书: 远见
 #+DATE: <2020-02-24 Mon>
 #+OPTIONS: toc:nil num:nil
+#+URI:         /blog/%y/%m/%d/read-the-long-view
 
 在这本书中, 作者把职业生涯分成三个主要阶段，每一阶段都持续大约 15 年，且各有各的
 主导策略。

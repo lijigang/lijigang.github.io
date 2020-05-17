@@ -1,6 +1,7 @@
 #+title: 学习: 商业本质
 #+DATE: <2018-05-14 Fri 19:15>
 #+options: toc:nil num:nil date:t
+#+URI:         /blog/%y/%m/%d/learn-business
 
 最近在学习 =得到= 上面 *刘润* 的五分钟商学院，很受启发，记录下学习总结。
 

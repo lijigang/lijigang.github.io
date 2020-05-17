@@ -1,6 +1,7 @@
 #+TITLE: Emacs: 用一个 Org 文件管理所有配置
 #+DATE: <2019-04-14 Sun>
 #+OPTIONS: toc:t num:nil
+#+URI:         /blog/%y/%m/%d/emacs-dotfiles-in-org
 #+PROPERTY: header-args :mkdirp yes
 
 [[https://github.com/lujun9972/emacs-document/blob/master/org-mode/%25E6%2595%2599%25E4%25BD%25A0%25E7%2594%25A8Org-mode%25E7%25AE%25A1%25E7%2590%2586dotfiles.org][Darksun]] 在 [[https://github.com/lujun9972/emacs-document/blob/master/org-mode/%25E6%2595%2599%25E4%25BD%25A0%25E7%2594%25A8Org-mode%25E7%25AE%25A1%25E7%2590%2586dotfiles.org][这篇文章]] 里介绍了如何通过一个 org file 管理自己的各种配置文件. 思路简单来说, 就是通过 tangle 文件中的 org 代码块(执行 org-babel-tangle-file 命令)的代码块, 将配置代码插入到它们应该在的地方.
