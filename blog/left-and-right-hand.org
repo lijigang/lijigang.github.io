@@ -1,9 +1,10 @@
-#+title: 学习: 互联网公司(数据公司)
+#+title: 学习: 数据公司
 #+DATE: <2018-12-13 Thu 20:17>
 #+options: toc:nil num:nil
+#+URI:         /blog/%y/%m/%d/learn-data-company
 
 今天看到 [[https://stratechery.com/2018/data-factories/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website][一篇文章]], 里面将互联网公司比喻为数据工厂, 同时这篇文章也指出了
-互联网公司的一个关键矛盾: 一边要求用户至上, 一边确要售卖用户(注意力).
+互联网公司的一个关键矛盾: 一边要求用户至上, 一边要售卖用户(注意力).
 
 * 左手: 用户至上
 互联网公司对比传统公司, 最主要的特点在于业务数据化和在线化.
