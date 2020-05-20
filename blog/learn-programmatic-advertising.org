@@ -35,7 +35,7 @@
 
 #+begin_export html
 <img
-  sr="../images/prgrammatic-advertising-exchange.png"
+  src="../images/prgrammatic-advertising-exchange.png"
   width="80%"
   />
 #+end_export
@@ -101,7 +101,7 @@
 
 #+begin_export html
 <img
-  sr="../images/user-data-center.png"
+  src="../images/user-data-center.png"
   width="80%"
   />
 #+end_export
@@ -110,7 +110,7 @@
 
 #+begin_export html
 <img
-  sr="../images/web-statistic.png"
+  src="../images/web-statistic.png"
   width="80%"
   />
 #+end_export
@@ -118,7 +118,7 @@
 *APP 数据统计*
 #+begin_export html
 <img
-  sr="../images/app-statistic.png"
+  src="../images/app-statistic.png"
   width="80%"
   />
 #+end_export
