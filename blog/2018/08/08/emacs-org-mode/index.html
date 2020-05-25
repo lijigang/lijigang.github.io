@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Emacs: 神器 Org-mode - 你对这个世界要有点意见</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="lijigang" />
+
+
+  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
+</head>
+
+  <body class="container">
+<header id="header">
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
+        <div class="container-fluid">
+<div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">你对这个世界要有点意见</a>
+        </div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/">Blog</a></li>
+          <li><a href="https://github.com/lijigang">GitHub</a></li>
+          <li><a href="http://www.zhihu.com/people/lijigang.com">知乎</a></li>
+        </ul>
+</div>
+</div>
+    </nav>
+</body>
+</header>
+
+<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>Emacs: 神器 Org-mode</h1>
+            <blockquote>
+<p>
+Org is a mode for keeping notes, maintaining TODO lists, and project planning
+with a fast and effective plain-text system.
+</p>
+
+<p>
+It also is an authoring system with unique support for literate programming and
+reproducible research.
+</p>
+</blockquote>
+
+<p>
+Org mode 称为神器一点都不为过，如果你平时工作内容有和文字处理相关的，绝对值得花一个月时间好好学习下 Emacs 中的 Orgmode。
+</p>
+
+<p>
+关于 Org mode 在各方面使用的总结, 有很多优秀文章: <a href="https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html">GTD</a> , <a href="http://cachestocaches.com/2018/6/org-literate-programming/">Literate Programming</a> ,
+<a href="http://ehneilsen.net/notebook/orgExamples/org-examples.html">Cookbook</a> , 当然也少不了经典的 <a href="http://doc.norang.ca/org-mode.html">Organize Your Life In Plain Text!</a> .
+</p>
+
+<p>
+本文旨在将平时收集使用的 snippets 汇总成 orgmode handbook， 方便同道中人随时取用。
+</p>
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org3f3ac57">Beautify</a>
+<ul>
+<li><a href="#org0aec174">如何隐藏 headlines 前面的一堆*符号？</a></li>
+<li><a href="#org27255ca">如何将 headlines 的符号从*变成其它符号？</a></li>
+<li><a href="#org3bdd6c7">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <code>强调</code> 等样式？</a></li>
+<li><a href="#org9cd3d60">如何设置 headline 的 TODO keywords？</a></li>
+<li><a href="#orgcf243c9">如何给 TODO keywords 增加前景色、背景色？</a></li>
+</ul>
+</li>
+<li><a href="#orgb957e28">Capture-Refile-Archive</a>
+<ul>
+<li><a href="#orgcf3ef0c">如何快速记录一些内容到指定文件？</a></li>
+<li><a href="#orgd5e1937">如何设置不同的快速记录模板？</a></li>
+<li><a href="#org5e36ff1">如何快速移动 headline 到指定文件中？</a></li>
+<li><a href="#org7343d51">如何归档已完成事项到其它文件？</a></li>
+</ul>
+</li>
+<li><a href="#orged201df">Tables</a>
+<ul>
+<li><a href="#org7b02c53">如何像 Excel 一样，在表格中插入 <code>mini chart</code> ？</a></li>
+</ul>
+</li>
+<li><a href="#orgc6d0d12">Agendas</a>
+<ul>
+<li><a href="#org2d9c865">如何将 Agenda 中不同时间长度的事项显示不同的大小？</a></li>
+<li><a href="#orgbc651b9">如何设置 agenda 中时间的显示格式？</a></li>
+<li><a href="#org57909b2">如何隐藏 agenda 中的分隔线？</a></li>
+<li><a href="#org0716846">如何在 agenda 中显示本地的日出日落时间？</a></li>
+</ul>
+</li>
+<li><a href="#orgc9f50be">Others</a>
+<ul>
+<li><a href="#orgfdd8f18">如何用 org 文件管理 RSS 订阅？</a></li>
+<li><a href="#org0600436">如何在 org 中使用 PlantUML？</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org3f3ac57" class="outline-2">
+<h2 id="org3f3ac57">Beautify</h2>
+<div class="outline-text-2" id="text-org3f3ac57">
+</div>
+<div id="outline-container-org0aec174" class="outline-3">
+<h3 id="org0aec174">如何隐藏 headlines 前面的一堆*符号？</h3>
+<div class="outline-text-3" id="text-org0aec174">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(setq org-startup-indented t)
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org27255ca" class="outline-3">
+<h3 id="org27255ca">如何将 headlines 的符号从*变成其它符号？</h3>
+<div class="outline-text-3" id="text-org27255ca">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org3bdd6c7" class="outline-3">
+<h3 id="org3bdd6c7">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <code>强调</code> 等样式？</h3>
+<div class="outline-text-3" id="text-org3bdd6c7">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(setq org-hide-emphasis-markers t)
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org9cd3d60" class="outline-3">
+<h3 id="org9cd3d60">如何设置 headline 的 TODO keywords？</h3>
+<div class="outline-text-3" id="text-org9cd3d60">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; "|"之前的为进行中的状态， 之后的为结束的状态
+(setq org-todo-keywords
+      '((sequence "TODO" "HAND" "|" "DONE")))
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcf243c9" class="outline-3">
+<h3 id="orgcf243c9">如何给 TODO keywords 增加前景色、背景色？</h3>
+<div class="outline-text-3" id="text-orgcf243c9">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(setf org-todo-keyword-faces
+      '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
+        ("HAND" . (:foreground "white" :background "#2E8B57"  :weight bold))
+        ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
+</pre>
+</div>
+
+<p>
+配置效果如下图：
+</p>
+<img
+  src="/assets/blog/2018/08/08/emacs-org-mode/todo-keywords-face.png"
+  width="80%"
+  />
+</div>
+</div>
+</div>
+<div id="outline-container-orgb957e28" class="outline-2">
+<h2 id="orgb957e28">Capture-Refile-Archive</h2>
+<div class="outline-text-2" id="text-orgb957e28">
+</div>
+<div id="outline-container-orgcf3ef0c" class="outline-3">
+<h3 id="orgcf3ef0c">如何快速记录一些内容到指定文件？</h3>
+<div class="outline-text-3" id="text-orgcf3ef0c">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; 设置默认保存到哪个文件中
+(setq org-default-notes-file "path/to/your/notes")
+
+;; 设置快捷键来调用 org-capture
+(global-set-key (kbd "C-c c") 'org-capture)
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd5e1937" class="outline-3">
+<h3 id="orgd5e1937">如何设置不同的快速记录模板？</h3>
+<div class="outline-text-3" id="text-orgd5e1937">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(setq org-capture-templates
+              '(("p"  ;;快捷键
+                 "Personal" ;; 描述
+                 entry ;; 填充类型为 heading
+                 (file+headline org-default-notes-file  "Personal")
+                 "** TODO %?\n  %i\n")
+                ;; %?: 填完后光标所在位置
+                ;; %U: 非活跃的时间戳
+                ;; %i: 初始内容. 如果有选中区域, 即为该区域内容
+                ;; %a: 注释. 通常为 org-store-link 创建的链接
+
+                ("m"
+                 "Meeting"
+                 entry
+                 (file+headline "path/to/your/meeting/file" "Meetings")
+                 "** TODO %?\n  %i\n")
+
+                ("w"
+                 "Work"
+                 entry
+                 (file+headline org-default-notes-file "Work")
+                 "** TODO %?\n  %i\n")
+                  ))
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org5e36ff1" class="outline-3">
+<h3 id="org5e36ff1">如何快速移动 headline 到指定文件中？</h3>
+<div class="outline-text-3" id="text-org5e36ff1">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; 设置移动到的目标文件列表为 agenda-files
+(setq org-refile-targets '((org-agenda-files :maxlevel . 3)))
+</pre>
+</div>
+
+<p>
+More info: <a href="https://blog.aaronbieber.com/2017/03/19/organizing-notes-with-refile.html">Aaron Bieber's article</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org7343d51" class="outline-3">
+<h3 id="org7343d51">如何归档已完成事项到其它文件？</h3>
+<div class="outline-text-3" id="text-org7343d51">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; this is the default: current file is a.org, archive in file a.org_archive
+(setq org-archive-location "%s_archive")
+</pre>
+</div>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="border">
+<caption class="t-above"><span class="table-number">Table 1:</span> org-archive-location options</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">location value</th>
+<th scope="col" class="org-left">meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">"::*Archived Tasks"</td>
+<td class="org-left">Archive in the current file</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">under the top level headline</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">*Archived Tasks</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">"~/org/archive.org"</td>
+<td class="org-left">Archive in file ~/org/archive.org</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">as top level trees</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">"~/org/archive.org::datetree/"</td>
+<td class="org-left">datetree is special. the heading will</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">be a subentry to the current date.</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">(there always need to be a "/"</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">after datetree)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-orged201df" class="outline-2">
+<h2 id="orged201df">Tables</h2>
+<div class="outline-text-2" id="text-orged201df">
+</div>
+<div id="outline-container-org7b02c53" class="outline-3">
+<h3 id="org7b02c53">如何像 Excel 一样，在表格中插入 <code>mini chart</code> ？</h3>
+<div class="outline-text-3" id="text-org7b02c53">
+<pre class="example">
+;; while the cursor is on a column,
+;; this command will create a new column
+;; containing an ascii-art bars plot.
+
+M-x: orgtble-ascii-plot
+
+;; this command insert a table formula:
+;; (orgtbl-ascii-draw COLUMN MIN MAX WIDTH)
+</pre>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="all" frame="border">
+<caption class="t-above"><span class="table-number">Table 2:</span> insert ascii chart into table</caption>
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">date</th>
+<th scope="col" class="org-right">money</th>
+<th scope="col" class="org-left">auto-inserted chart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">20100101</td>
+<td class="org-right">9.92</td>
+<td class="org-left">WWWWWWWWWH</td>
+</tr>
+
+<tr>
+<td class="org-right">20100201</td>
+<td class="org-right">4.52</td>
+<td class="org-left">WWWW!</td>
+</tr>
+
+<tr>
+<td class="org-right">20210301</td>
+<td class="org-right">15.99</td>
+<td class="org-left">WWWWWWWWWWWWWWWW</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc6d0d12" class="outline-2">
+<h2 id="orgc6d0d12">Agendas</h2>
+<div class="outline-text-2" id="text-orgc6d0d12">
+</div>
+<div id="outline-container-org2d9c865" class="outline-3">
+<h3 id="org2d9c865">如何将 Agenda 中不同时间长度的事项显示不同的大小？</h3>
+<div class="outline-text-3" id="text-org2d9c865">
+<p>
+Dotfile Configuration 见 <a href="https://gist.github.com/lijigang/3c9326a2cf86b50f9041c20c74398bb1">gist</a>
+</p>
+
+<img
+  src="/assets/blog/2018/08/08/emacs-org-mode/org-agenda-colorful-block.png"
+  width="80%"
+  />
+</div>
+</div>
+<div id="outline-container-orgbc651b9" class="outline-3">
+<h3 id="orgbc651b9">如何设置 agenda 中时间的显示格式？</h3>
+<div class="outline-text-3" id="text-orgbc651b9">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; if set it to t, 9:30am would become 09:30.
+(setq org-agenda-time-leading-zero t)
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org57909b2" class="outline-3">
+<h3 id="org57909b2">如何隐藏 agenda 中的分隔线？</h3>
+<div class="outline-text-3" id="text-org57909b2">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(setq org-agenda-use-time-grid nil)
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org0716846" class="outline-3">
+<h3 id="org0716846">如何在 agenda 中显示本地的日出日落时间？</h3>
+<div class="outline-text-3" id="text-org0716846">
+<ol class="org-ol">
+<li>相关 Dotfile configuration 见 <a href="https://gist.github.com/lijigang/c865a2a4d075c75b4aeb61fe0f9102b6">gist</a></li>
+<li>在 standard-dairy 文件中写入下面内容</li>
+</ol>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; content of file standard-diary
+
+;;Day info
+;; 日出而作, 日落而息
+%%(diary-sunrise)
+%%(diary-sunset)
+</pre>
+</div>
+
+<p>
+设置后的效果如下：
+</p>
+<pre class="example">
+Day-agenda (W17):
+Tuesday    21 April 2020
+05:29......  Sunrise
+12:00-13:00 Scheduled:  DONE 和 @XX 吃饭 1on1
+18:58......  Sunset
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc9f50be" class="outline-2">
+<h2 id="orgc9f50be">Others</h2>
+<div class="outline-text-2" id="text-orgc9f50be">
+</div>
+<div id="outline-container-orgfdd8f18" class="outline-3">
+<h3 id="orgfdd8f18">如何用 org 文件管理 RSS 订阅？</h3>
+<div class="outline-text-3" id="text-orgfdd8f18">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">;; use an org file to organise feeds
+(use-package elfeed-org
+  :ensure t
+  :config
+  (elfeed-org)
+  (setq rmh-elfeed-org-files (list "/path/to/elfeed.org")))
+</pre>
+</div>
+
+<p>
+More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs-with-elfeed/">Pragmatic emacs's article</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org0600436" class="outline-3">
+<h3 id="org0600436">如何在 org 中使用 PlantUML？</h3>
+<div class="outline-text-3" id="text-org0600436">
+<ol class="org-ol">
+<li>下载编译好的 <a href="https://plantuml.com/zh/download">PlantUML jar file</a></li>
+<li>安装 Graphviz <code>brew install graphviz</code></li>
+<li>配置可参考 <a href="https://www.onwebsecurity.com/configuration/use-emacs-to-create-oauth-2-0-uml-sequence-diagrams.html">这篇文章</a></li>
+</ol>
+
+<p>
+如果平时画 UML 图比较多，建议多看下 <a href="https://real-world-plantuml.com/">Real-world-plantuml</a> 这个网站的示例。
+</p>
+
+<img
+  src="/assets/blog/2018/08/08/emacs-org-mode/oauth2-abstract-protocol-flow.png"
+  width="80%"
+  />
+</div>
+</div>
+</div>
+
+    </div>
+</section>
+
+
+
+
+<footer id="footer">
+    <br />
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?36d44a2295ffa55a3ab51c6aa7a71733";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</footer>
+
+  </body>
+</html>
