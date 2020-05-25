@@ -1,6 +1,7 @@
 #+TITLE: Emacs: 神器 Org-mode
 #+DATE: <2018-08-08 Wed>
 #+options: toc:nil num:nil
+#+URI:         /blog/%y/%m/%d/emacs-org-mode
 
 #+BEGIN_QUOTE
 Org is a mode for keeping notes, maintaining TODO lists, and project planning
