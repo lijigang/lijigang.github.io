@@ -142,7 +142,7 @@
 * 你想当什么商业角色
 #+begin_export html
 <img
-  src="..images/business-roles.jpeg"
+  src="../images/business-roles.jpeg"
   width="80%"
   />
 #+end_export

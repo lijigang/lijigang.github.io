@@ -1,6 +1,7 @@
 #+TITLE: 读书: 人类简史
 #+DATE: <2019-04-12 Fri>
 #+options: toc:nil num:nil
+#+URI:         /blog/%y/%m/%d/read-history-of-humankind
 
 站在今天回看昨天, 没什么太大的不同; 设想明天, 好像也不会有太多的惊喜. 但
 当你像这本书作者一样, 把视野提升的足够高, 以一种历史哲学的眼光回顾人类整
