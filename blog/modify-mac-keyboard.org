@@ -1,6 +1,7 @@
 #+TITLE: 效率: 键盘就应该这么改键
 #+DATE: <2019-08-06 Tue>
 #+OPTIONS: toc:nil num:nil
+#+URI:         /blog/%y/%m/%d/how-to-modify-keys
 
 键盘使用原则: 尽量让手停留在 =home row= (ASDF 这一排) 上面.
 
