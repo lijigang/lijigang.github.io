@@ -1,0 +1,18 @@
+#+TITLE:       学习: 公域流量与私域流量
+#+AUTHOR:      lijigang
+#+EMAIL:       i@lijigang.com
+#+DATE:        2020-08-04 Tue
+#+URI:         /blog/%y/%m/%d/public-private-traffic
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+
+#+BEGIN_EXPORT html
+<img
+  src="../images/public-private-traffic.png"
+  width="50%"
+/>
+#+END_EXPORT
+
+1. 公域流量是首次接触的陌生流量, 私域流量是重复接触的信任流量.
+2. 公域流量是平台流量, 私域流量是自有流量.
+3. 公域流量在于割, 私域流量在于养.
