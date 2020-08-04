@@ -4,10 +4,113 @@
     <title>你对这个世界要有点意见</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Fri, 31 Jul 2020 11:23:22 CST</pubDate>
-    <lastBuildDate>Fri, 31 Jul 2020 11:23:22 CST</lastBuildDate>
+    <pubDate>Tue, 04 Aug 2020 11:53:08 CST</pubDate>
+    <lastBuildDate>Tue, 04 Aug 2020 11:53:08 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>阅读: 丰田一页纸极简思考法</title>
+      <link>http://lijigang.github.io/blog/2020/08/04/toyota-one-page-report</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>阅读: 丰田一页纸极简思考法</h1>
+            <p>
+你有没有过在想一个问题解决方案的时候, 大脑一片空白, 完全不知道从哪下手的感觉?
+</p>
+
+<p>
+你有没有过在想汇报方案的时候, 明明方案所有细节信息都已经掌握, 但就是不知道该如何汇报才能让老板满意?
+</p>
+
+<p>
+这本书中提出了两个思维辅助工具(Excel1 和 Logic3), 可以解决这类逻辑思考困惑.
+</p>
+
+<div id="outline-container-org020e9d3" class="outline-2">
+<h2 id="org020e9d3">Excel1</h2>
+<div class="outline-text-2" id="text-org020e9d3">
+<img
+  src="/assets/blog/2020/08/04/toyota-one-page-report/excel1.png"
+  width="50%"
+/>
+
+<p>
+Excel1 主要解决面对一个具体问题, 大脑一片空白, 完全没有思路的情况.
+</p>
+
+<p>
+具体使用方法如下:
+</p>
+<ol class="org-ol">
+<li>把具体问题写在左上角的格子里</li>
+<li>然后在剩下的格子里, 填写你能想到的和这问题相关联的关键词</li>
+<li>审视填完的关键词, 圈出你认为最重要的几个词</li>
+<li>针对每个词, 使用 Logic3 方法</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org91ae8f2" class="outline-2">
+<h2 id="org91ae8f2">Logic3</h2>
+<div class="outline-text-2" id="text-org91ae8f2">
+<img
+  src="/assets/blog/2020/08/04/toyota-one-page-report/logic3.png"
+  width="50%"
+/>
+
+<p>
+Logic3 主要解决面对一堆信息, 不知道该以什么逻辑进行表达的情况.
+</p>
+
+<p>
+具体使用方法如下:
+</p>
+<ol class="org-ol">
+<li>左上角写下要讨论的主题</li>
+<li>回答三个问题(Q3)
+<ul class="org-ul">
+<li>这三个问题, 可以是 Excel1 中发散出来的三个关键词</li>
+<li>也可以是按某种逻辑发展出来的:
+<ul class="org-ul">
+<li>事情同步: what? why? how?</li>
+<li>会议安排: 目的? 成果? 将来如何?</li>
+<li>读书记录: 为什么感兴趣? 重点是什么? 如何应用?</li>
+</ul></li>
+</ul></li>
+<li>一句话总结(1P)
+回答完三个问题后, 用一句话总结出来.</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org89e8560" class="outline-2">
+<h2 id="org89e8560">和思维导图的区别</h2>
+<div class="outline-text-2" id="text-org89e8560">
+<p>
+这俩工具粗看起来没什么深刻的, 尤其是 Excel1, 看起来好像就是思维导图的平铺版本, 为什么要单独写成书?
+</p>
+
+<p>
+我个人实际使用下来, 觉得还是值得好好学习使用下的. Excel1 和思维导图看起来像的地方
+在于, 都是围绕一个主题, 进行思维发散, 找出主题相关内容. 并且两个工具还都具备了一
+览性, 即一眼可看全局.
+</p>
+
+<p>
+但他们的区别在于 Excel1 的层级性比思维导图要更弱些. 思维导图在发散的时候, 会不由地
+考虑到层级问题. 比如针对旅游方案, 会第一层先想到时间, 地点, 喜好等. 再针对第一层
+的每个内容项, 往下发展第二层更细节内容. 但这里存在着很多时候第一时间发散的思维不见得就是同一层级的, 在使用思维导图时, 不由地会将精力分散一部分在层级管理上面. Excel1 弱化了这一部分的精力分散, 可以随意发散, 在后面 Review 时再做统一梳理, 更符合思维发散的本意.
+</p>
+</div>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2020-08-04</pubDate>
+      <guid>http://lijigang.github.io/blog/2020/08/04/toyota-one-page-report</guid>
+    </item>
     <item>
       <title>汇总: 优质文章每日精华选(2020 年)</title>
       <link>http://lijigang.github.io/blog/2020/01/02/2020-year-articles</link>
@@ -25,13 +128,13 @@
 其不便,故起意将每日推荐文章列表整理到此, 方便随时查阅.
 </p>
 
-<div id="outline-container-org5e859ab" class="outline-2">
-<h2 id="org5e859ab">七月</h2>
-<div class="outline-text-2" id="text-org5e859ab">
+<div id="outline-container-org7fb6bc3" class="outline-2">
+<h2 id="org7fb6bc3">七月</h2>
+<div class="outline-text-2" id="text-org7fb6bc3">
 </div>
-<div id="outline-container-orge6cf150" class="outline-3">
-<h3 id="orge6cf150">2020-07-30</h3>
-<div class="outline-text-3" id="text-orge6cf150">
+<div id="outline-container-org731dd51" class="outline-3">
+<h3 id="org731dd51">2020-07-30</h3>
+<div class="outline-text-3" id="text-org731dd51">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/RCvZQRGJgD5gDbKs-TOAoA">《我想用这段无脑血泪史来还原一下国内 MCN 并购第一股失败经过》</a> 在当时国内资本市
 场大暴跌的大趋势下，且三五互联业绩巨亏下，这支股票却能连续八个涨停。</li>
@@ -64,9 +167,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfb89483" class="outline-3">
-<h3 id="orgfb89483">2020-07-29</h3>
-<div class="outline-text-3" id="text-orgfb89483">
+<div id="outline-container-orge86349b" class="outline-3">
+<h3 id="orge86349b">2020-07-29</h3>
+<div class="outline-text-3" id="text-orge86349b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/U8pM4Q983yxlTLm8C_436w">《微信大号能在 B 站乘风破浪吗？》</a> 今日头条、抖音、快手、B站等多个内容平台用户
 数据攀升，越来越多新媒体人不再“把鸡蛋放在同一个篮子里”，开始尝试在其他内容平台
@@ -100,9 +203,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf685ac2" class="outline-3">
-<h3 id="orgf685ac2">2020-07-27</h3>
-<div class="outline-text-3" id="text-orgf685ac2">
+<div id="outline-container-org0063c63" class="outline-3">
+<h3 id="org0063c63">2020-07-27</h3>
+<div class="outline-text-3" id="text-org0063c63">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/-QXCMGT7rf8iP1UZqL7a_g">《频繁更新背后，微信究竟在思考什么？》</a> 一旦其他快速崛起的产品重构用户获取信息、
 社交娱乐的使用习惯后，社交关系链带来的迁移成本便存在被削薄的可能，微信看似稳固
@@ -137,9 +240,9 @@
 </div>
 </div>
 
-<div id="outline-container-org8cc7018" class="outline-3">
-<h3 id="org8cc7018">2020-07-24</h3>
-<div class="outline-text-3" id="text-org8cc7018">
+<div id="outline-container-org102eb64" class="outline-3">
+<h3 id="org102eb64">2020-07-24</h3>
+<div class="outline-text-3" id="text-org102eb64">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/GtIgy3EZs0EyvUcAmlDP4A">《小蓝车反围剿：下沉、联姻、阿里味》</a> 从支付宝到高德，哈啰在阿里系产品中拥有了
 两个入口。一边是拓展新流量入口透露的增长需求，另一边哈啰单车刚经历的一场用户的
@@ -173,9 +276,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-org75015cb" class="outline-3">
-<h3 id="org75015cb">2020-07-23</h3>
-<div class="outline-text-3" id="text-org75015cb">
+<div id="outline-container-orga9502ea" class="outline-3">
+<h3 id="orga9502ea">2020-07-23</h3>
+<div class="outline-text-3" id="text-orga9502ea">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/52DA6HlkvHBARW1Y_D5gnA">《为什么有人开始不相信奋斗了？》</a> 从小家长老师教育的“奋斗改变人生”正能量，为啥
 会在当代变成一个值得探讨的社会现象呢？而奋斗的人，怎么又会成为不少人辱骂的奋斗
@@ -210,9 +313,9 @@
 </div>
 </div>
 
-<div id="outline-container-org442dde9" class="outline-3">
-<h3 id="org442dde9">2020-07-22</h3>
-<div class="outline-text-3" id="text-org442dde9">
+<div id="outline-container-orgf353526" class="outline-3">
+<h3 id="orgf353526">2020-07-22</h3>
+<div class="outline-text-3" id="text-orgf353526">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/-sSKgN07nTCQ-jFqSWGcoQ">《字节教育大跃进》</a> 几乎都在教育产业遭遇挫折过后，张一鸣对字节教育的热情并没有
 冷却，字节跳动注定要在教育市场掀起“腥风血雨”。</li>
@@ -246,9 +349,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgd61d961" class="outline-3">
-<h3 id="orgd61d961">2020-07-21</h3>
-<div class="outline-text-3" id="text-orgd61d961">
+<div id="outline-container-orgeffc469" class="outline-3">
+<h3 id="orgeffc469">2020-07-21</h3>
+<div class="outline-text-3" id="text-orgeffc469">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/4XVEO76MtpCdlHxTlHr8Aw">《黄峥：我不是典型意义的 CEO》</a> 两年前，大多数人对拼多多的印象还是“五环外”的下
 沉市场。今天，一二线城市的白领精英也会一边买着百亿补贴的商品，一边感慨“拼多多
@@ -274,9 +377,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-org2cc3380" class="outline-3">
-<h3 id="org2cc3380">2020-07-20</h3>
-<div class="outline-text-3" id="text-org2cc3380">
+<div id="outline-container-org423615b" class="outline-3">
+<h3 id="org423615b">2020-07-20</h3>
+<div class="outline-text-3" id="text-org423615b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/3o0qAi9nQcjDCrrrHRXSuA">《半年巨亏 700 亿，航空公司靠什么“随心飞”？》</a> “随心飞”产品更深远的意义在于，用
 有限的成本去挽回长期的市场信心，同时还附带着品牌营销、拉动旅游消费、培养航空直
@@ -308,9 +411,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-org22c7f6a" class="outline-3">
-<h3 id="org22c7f6a">2020-07-16</h3>
-<div class="outline-text-3" id="text-org22c7f6a">
+<div id="outline-container-org5b75330" class="outline-3">
+<h3 id="org5b75330">2020-07-16</h3>
+<div class="outline-text-3" id="text-org5b75330">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/a2kBVusG-cW12jM_X4Q-EQ">《割裂的中国：一列贫富分化的高速快车》</a> 我们来看一下当今世界研究贫富分化、资本
 积累、财富分配规律最权威的团队，是怎样看待中国问题的。</li>
@@ -344,9 +447,9 @@ Greatness），希望延续他 2016 年“让美国再次伟大”的竞选愿�
 </div>
 </div>
 
-<div id="outline-container-org195ce93" class="outline-3">
-<h3 id="org195ce93">2020-07-15</h3>
-<div class="outline-text-3" id="text-org195ce93">
+<div id="outline-container-orgc22f620" class="outline-3">
+<h3 id="orgc22f620">2020-07-15</h3>
+<div class="outline-text-3" id="text-orgc22f620">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/LTrVTtk4pOMSuiRajOVHyQ">《微博的三次短视频冲锋》</a> 这一次，带着视频号、星球视频重新进场，誓要从短视频平
 台，夺回最“kill Time”的社交媒体的宝座，微博又将会讲出怎样的新故事？</li>
@@ -378,9 +481,9 @@ Greatness），希望延续他 2016 年“让美国再次伟大”的竞选愿�
 </div>
 </div>
 
-<div id="outline-container-orgb36aed9" class="outline-3">
-<h3 id="orgb36aed9">2020-07-14</h3>
-<div class="outline-text-3" id="text-orgb36aed9">
+<div id="outline-container-orgf764b22" class="outline-3">
+<h3 id="orgf764b22">2020-07-14</h3>
+<div class="outline-text-3" id="text-orgf764b22">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/uaCGrV8uLzehEF6e9hjTww">《华为还活着》</a> 刚刚华为发表了 2020 年上半年的业绩，先不论华为这半年业绩再次刷
 新了近年新高（半年计），最少，华为已经完成了一半的目标，尚能在美国的各种压力下，
@@ -414,9 +517,9 @@ Greatness），希望延续他 2016 年“让美国再次伟大”的竞选愿�
 </div>
 </div>
 
-<div id="outline-container-orgbfc4e98" class="outline-3">
-<h3 id="orgbfc4e98">2020-07-10</h3>
-<div class="outline-text-3" id="text-orgbfc4e98">
+<div id="outline-container-org81a7c28" class="outline-3">
+<h3 id="org81a7c28">2020-07-10</h3>
+<div class="outline-text-3" id="text-org81a7c28">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/CdxMPan6zlD4Mhj96Mufzg">《保守的豆瓣和求变的知乎》</a> 我们将逐一来讨论知乎和豆瓣的共同点和差异，回顾这两
 家有着鲜明特征的中国互联网公司在产品和商业化上的探索历程——</li>
@@ -450,9 +553,9 @@ Greatness），希望延续他 2016 年“让美国再次伟大”的竞选愿�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd77d0b4" class="outline-3">
-<h3 id="orgd77d0b4">2020-07-09</h3>
-<div class="outline-text-3" id="text-orgd77d0b4">
+<div id="outline-container-org96631da" class="outline-3">
+<h3 id="org96631da">2020-07-09</h3>
+<div class="outline-text-3" id="text-org96631da">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/s9Uz9M-GfVHf4_hHh2A7KA">《盒马下“神坛”》</a> 如今，盒马的目标看起来更清晰了，但同时，一场新的竞速也在盒马
 和传统零售商，还有生鲜电商玩家们之间展开了。</li>
@@ -488,9 +591,9 @@ Greatness），希望延续他 2016 年“让美国再次伟大”的竞选愿�
 </ul>
 </div>
 </div>
-<div id="outline-container-org88168f7" class="outline-3">
-<h3 id="org88168f7">2020-07-08</h3>
-<div class="outline-text-3" id="text-org88168f7">
+<div id="outline-container-orgda901e5" class="outline-3">
+<h3 id="orgda901e5">2020-07-08</h3>
+<div class="outline-text-3" id="text-orgda901e5">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/MKlITFOeFv0cYUzQkSvlew">《TikTok 印度被禁后：小镇青年梦碎，本土团队收割空白市场》</a> TikTok 被印度政府封
 杀的第五天，它还静静地躺在巴瓦那（Bhavana Srivastava）的手机里。她舍不得删了它。</li>
@@ -526,9 +629,9 @@ Greatness），希望延续他 2016 年“让美国再次伟大”的竞选愿�
 </div>
 </div>
 
-<div id="outline-container-org114b67c" class="outline-3">
-<h3 id="org114b67c">2020-07-06</h3>
-<div class="outline-text-3" id="text-org114b67c">
+<div id="outline-container-orgf75c920" class="outline-3">
+<h3 id="orgf75c920">2020-07-06</h3>
+<div class="outline-text-3" id="text-orgf75c920">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/QUAfN_4WUvltyEaDBns2lw">《2020，我不想奋斗了》</a> 或许只有穿越疫情、穿越这巨大的不确定，我们才能得到最终
 答案。但首先，这里有八个人的故事，他们的心态，或许能代表那么一小部分人的真实想
@@ -564,9 +667,9 @@ Greatness），希望延续他 2016 年“让美国再次伟大”的竞选愿�
 </div>
 </div>
 
-<div id="outline-container-org4eab877" class="outline-3">
-<h3 id="org4eab877">2020-07-02</h3>
-<div class="outline-text-3" id="text-org4eab877">
+<div id="outline-container-org3dcfa01" class="outline-3">
+<h3 id="org3dcfa01">2020-07-02</h3>
+<div class="outline-text-3" id="text-org3dcfa01">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/qlTalDNkXz1lAq5SKzbpSg">《字节跳动电商史：真正的历史刚刚开始》</a> 比起突飞猛进的内容业务，电商业务推进得
 较为缓慢。2020 年前的动作都算小打小闹，今年才算是在电商领域真正发力。</li>
@@ -607,9 +710,9 @@ Greatness），希望延续他 2016 年“让美国再次伟大”的竞选愿�
 </ul>
 </div>
 </div>
-<div id="outline-container-org3d87b58" class="outline-3">
-<h3 id="org3d87b58">2020-07-01</h3>
-<div class="outline-text-3" id="text-org3d87b58">
+<div id="outline-container-org5759e55" class="outline-3">
+<h3 id="org5759e55">2020-07-01</h3>
+<div class="outline-text-3" id="text-org5759e55">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/BKIF_pZJbtwW3HeZ_Ey7jQ">《印度禁掉 59 款中国应用背后：一个奇葩的印度互联网市场》</a> 其实，“意想不到的骚操
 作”一直是印度政府的一贯的作风，毕竟这是一个曾经一言不合就禁掉可口可乐长达 15
@@ -646,13 +749,13 @@ Greatness），希望延续他 2016 年“让美国再次伟大”的竞选愿�
 </div>
 </div>
 
-<div id="outline-container-org4bda2ce" class="outline-2">
-<h2 id="org4bda2ce">六月</h2>
-<div class="outline-text-2" id="text-org4bda2ce">
+<div id="outline-container-org01c6b08" class="outline-2">
+<h2 id="org01c6b08">六月</h2>
+<div class="outline-text-2" id="text-org01c6b08">
 </div>
-<div id="outline-container-orgfa8929f" class="outline-3">
-<h3 id="orgfa8929f">2020-06-28</h3>
-<div class="outline-text-3" id="text-orgfa8929f">
+<div id="outline-container-orgb379cb5" class="outline-3">
+<h3 id="orgb379cb5">2020-06-28</h3>
+<div class="outline-text-3" id="text-orgb379cb5">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Do8Ix6xcfZKVD70Vy8a--A">《这 50 个思维方法，深刻改变了我的人生》</a> 这些都是我的指导原则，也是我的知识生
 活之光。这些思维方法能帮助你更好地思考，我希望它们能激发你的好奇心。</li>
@@ -686,9 +789,9 @@ Greatness），希望延续他 2016 年“让美国再次伟大”的竞选愿�
 </div>
 </div>
 
-<div id="outline-container-org00cb59e" class="outline-3">
-<h3 id="org00cb59e">2020-06-24</h3>
-<div class="outline-text-3" id="text-org00cb59e">
+<div id="outline-container-orgc730afd" class="outline-3">
+<h3 id="orgc730afd">2020-06-24</h3>
+<div class="outline-text-3" id="text-orgc730afd">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/dJEZOkfvTb1I5NJVcfP3Tg">《美国贫富差距扩大，如何阻碍复苏、扭曲投资？》</a> 日益加剧的不平等现象是各种令人
 担忧的问题的温床，会造成经济的长期停滞，由于关乎利率、股市估值和长期回报等问题，
@@ -725,9 +828,9 @@ Greatness），希望延续他 2016 年“让美国再次伟大”的竞选愿�
 </div>
 </div>
 
-<div id="outline-container-orgc81e86a" class="outline-3">
-<h3 id="orgc81e86a">2020-06-23</h3>
-<div class="outline-text-3" id="text-orgc81e86a">
+<div id="outline-container-orgc3a3473" class="outline-3">
+<h3 id="orgc3a3473">2020-06-23</h3>
+<div class="outline-text-3" id="text-orgc3a3473">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/iLO5wuRWwda0ayiOBRVj_Q">《微信视频号日活 2 亿之后》</a> 张小龙自己发了条朋友圈算是官宣，尽管表示这只是个开
 始而且需要继续迭代，不过从文字里看得出，他还是有点小骄傲和兴奋的。</li>
@@ -761,9 +864,9 @@ Greatness），希望延续他 2016 年“让美国再次伟大”的竞选愿�
 </div>
 </div>
 
-<div id="outline-container-orgc913b7b" class="outline-3">
-<h3 id="orgc913b7b">2020-06-22</h3>
-<div class="outline-text-3" id="text-orgc913b7b">
+<div id="outline-container-orgb501f86" class="outline-3">
+<h3 id="orgb501f86">2020-06-22</h3>
+<div class="outline-text-3" id="text-orgb501f86">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/xN2ziHP62owpHeFGr0g9jA">《疫情之下，17 万亿之上：中国数字经济如何裂变》</a> 有关医疗数字化、城市管理数字化、
 教育数字化，及企业办公数字化等方面的需求巨量爆发，数字化产业急剧增长。</li>
@@ -796,9 +899,9 @@ Greatness），希望延续他 2016 年“让美国再次伟大”的竞选愿�
 </div>
 </div>
 
-<div id="outline-container-orgc00b128" class="outline-3">
-<h3 id="orgc00b128">2020-06-19</h3>
-<div class="outline-text-3" id="text-orgc00b128">
+<div id="outline-container-org58a8041" class="outline-3">
+<h3 id="org58a8041">2020-06-19</h3>
+<div class="outline-text-3" id="text-org58a8041">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/CyM3z37OPPPQJvkPuFEMsA">《爱腾合并也救不了长视频》</a> 视频网站三国杀多年，终于有人坐不住了。在路透社的报
 道中，知情人士表示，合作将提高腾讯和爱奇艺在制作和购买内容时的议价能力，并降低
@@ -835,9 +938,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-org1493351" class="outline-3">
-<h3 id="org1493351">2020-06-17</h3>
-<div class="outline-text-3" id="text-org1493351">
+<div id="outline-container-orgb7f4095" class="outline-3">
+<h3 id="orgb7f4095">2020-06-17</h3>
+<div class="outline-text-3" id="text-orgb7f4095">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/bU-U53r170uvqaJCzRRsSg">《马化腾围剿张一鸣》</a> 爱奇艺、腾讯视频成为视频行业的双寡头，如果腾讯此番入股成
 功，不仅国内的视频平台发生翻天覆地的变化，也将对整个文娱产业产生巨大的影响。</li>
@@ -870,9 +973,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-org9c2c704" class="outline-3">
-<h3 id="org9c2c704">2020-06-16</h3>
-<div class="outline-text-3" id="text-org9c2c704">
+<div id="outline-container-org9712fe6" class="outline-3">
+<h3 id="org9712fe6">2020-06-16</h3>
+<div class="outline-text-3" id="text-org9712fe6">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/2R8HLVrZoVeIU58Va_fb4g">《万字长文——互联网广告到底是如何运行的？》</a> 卫夕希望这个科普课程视频可以达到两
 个目标——第一，即便是没有从事过广告的小白用户也能看懂，明白其中的逻辑。第二，即
@@ -909,9 +1012,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org9e8a88b" class="outline-3">
-<h3 id="org9e8a88b">2020-06-15</h3>
-<div class="outline-text-3" id="text-org9e8a88b">
+<div id="outline-container-orgdf0198e" class="outline-3">
+<h3 id="orgdf0198e">2020-06-15</h3>
+<div class="outline-text-3" id="text-orgdf0198e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/VEuUpAYhIpt8Y5RhAMTdaw">《向死而生：生鲜电商是疫情最大赢家吗？》</a> 这数千万的普通人不会想到，这个稳固的
 链条在短短五六年时间里，会被电商、补贴、前置仓、新冠这些平时八竿子打不着的词汇
@@ -946,9 +1049,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org266b490" class="outline-3">
-<h3 id="org266b490">2020-06-12</h3>
-<div class="outline-text-3" id="text-org266b490">
+<div id="outline-container-org78cc96f" class="outline-3">
+<h3 id="org78cc96f">2020-06-12</h3>
+<div class="outline-text-3" id="text-org78cc96f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/ruJ8BstCheGWACH7o7KUpw">《失去微博热搜的一周，绿洲成了艺人撒野之地》</a> 在绿洲，艺人们暂时还能自己把控绿
 洲账号；不再转发表忠心的主旋律宣传；也没有影视、商业推广，而是分享更多的生活琐
@@ -981,9 +1084,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-orge4c8c0b" class="outline-3">
-<h3 id="orge4c8c0b">2020-06-10</h3>
-<div class="outline-text-3" id="text-orge4c8c0b">
+<div id="outline-container-org29d1dd7" class="outline-3">
+<h3 id="org29d1dd7">2020-06-10</h3>
+<div class="outline-text-3" id="text-org29d1dd7">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/k6SiZhRionzik1blPaonxQ">《即刻消失的那一夜》</a> 在即刻测试版 jellow 运行的 300 多天里，叶锡东没再使用机器
 人。他仍是一个点赞狂魔，不过是用手动的方式，并因此患上了腱鞘炎。</li>
@@ -1015,9 +1118,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-org4ad4c27" class="outline-3">
-<h3 id="org4ad4c27">2020-06-09</h3>
-<div class="outline-text-3" id="text-org4ad4c27">
+<div id="outline-container-org88c986c" class="outline-3">
+<h3 id="org88c986c">2020-06-09</h3>
+<div class="outline-text-3" id="text-org88c986c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/jZXuNu9S4-S09JnvjrzkDg">《李佳琦，掉队了？》</a> 在享受过快速成名破圈的红利后，如今的李佳琦不得不面对流量
 分流、选品品类单一、手里没有培养起红人矩阵等难题。</li>
@@ -1050,9 +1153,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-org4589e4a" class="outline-3">
-<h3 id="org4589e4a">2020-06-08</h3>
-<div class="outline-text-3" id="text-org4589e4a">
+<div id="outline-container-org4c769b9" class="outline-3">
+<h3 id="org4c769b9">2020-06-08</h3>
+<div class="outline-text-3" id="text-org4c769b9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/4Vlo2uguMjz_CIaOatPOKQ">《今年是中国互联网广告最困难的一年？》</a> 疫情对广告供给的影响一定程度上是长期的，
 因为“线上化”是大趋势，但疫情对广告需求的冲击则是短期的。从这个意义上，互联网广
@@ -1086,9 +1189,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-orgaa2d78e" class="outline-3">
-<h3 id="orgaa2d78e">2020-06-05</h3>
-<div class="outline-text-3" id="text-orgaa2d78e">
+<div id="outline-container-org60d52ba" class="outline-3">
+<h3 id="org60d52ba">2020-06-05</h3>
+<div class="outline-text-3" id="text-org60d52ba">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/JWj-Beu96wyey81GzK6EVw">《失去的黄金时代，创业者熬过 2020》</a> 清华、北大联合调研了 995 家中小企业，结果
 显示，受到疫情影响，只有 9.96%的企业能维持 6 个月以上运营，85.01%的企业最多维
@@ -1117,9 +1220,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-orgf93ea72" class="outline-3">
-<h3 id="orgf93ea72">2020-06-04</h3>
-<div class="outline-text-3" id="text-orgf93ea72">
+<div id="outline-container-orgc6bb292" class="outline-3">
+<h3 id="orgc6bb292">2020-06-04</h3>
+<div class="outline-text-3" id="text-orgc6bb292">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/g1Jpl7zybGhj4EzHi0ljQw">《越南，会是下一个中国吗？》</a> 这个毗邻中国，国土面积与我国长三角城市群相当，人
 口近亿的东南亚国家，已是全球产业转移最炙手可热的选项，随着投资越南的热度一浪高
@@ -1152,9 +1255,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-org903d345" class="outline-3">
-<h3 id="org903d345">2020-06-01</h3>
-<div class="outline-text-3" id="text-org903d345">
+<div id="outline-container-org2966fbd" class="outline-3">
+<h3 id="org2966fbd">2020-06-01</h3>
+<div class="outline-text-3" id="text-org2966fbd">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/O0tedweuC-lHWhpGG0plKQ">《B 站 UP 主靠肺癌卖惨月入十万，割韭菜的财富密码又多了一个》</a> 这位 UP 主掌握了
 这个时代的「财富密码」——编故事。从「咪蒙系」公众号到「人均抑郁，满屏癌症」的 B
@@ -1174,13 +1277,13 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 </div>
-<div id="outline-container-org2fa9873" class="outline-2">
-<h2 id="org2fa9873">五月</h2>
-<div class="outline-text-2" id="text-org2fa9873">
+<div id="outline-container-org55323b9" class="outline-2">
+<h2 id="org55323b9">五月</h2>
+<div class="outline-text-2" id="text-org55323b9">
 </div>
-<div id="outline-container-orgaae5ef7" class="outline-3">
-<h3 id="orgaae5ef7">2020-05-28</h3>
-<div class="outline-text-3" id="text-orgaae5ef7">
+<div id="outline-container-orgf1652b9" class="outline-3">
+<h3 id="orgf1652b9">2020-05-28</h3>
+<div class="outline-text-3" id="text-orgf1652b9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/jsU_GI42GnaaYb3q9UgGfg">《何鸿燊的不败筹码：凯利公式》</a> 一个现代的赌场，它集中了概率学、统计学等诸多知
 识。所谓的各种致胜绝技，除了《赌圣》里的周星驰，现实世界里的周润发都不信。</li>
@@ -1212,9 +1315,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org417bc68" class="outline-3">
-<h3 id="org417bc68">2020-05-27</h3>
-<div class="outline-text-3" id="text-org417bc68">
+<div id="outline-container-org92fc177" class="outline-3">
+<h3 id="org92fc177">2020-05-27</h3>
+<div class="outline-text-3" id="text-org92fc177">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Tbe-b_8yZqOSoeyeUQFaRA">《如果失去华为，中国会怎样？》</a> 华为的问题，不是一个简单的企业问题，美国已经将
 华为的问题，上升到了政治和国家安全的角度，这背后一定是有战略性考量的。</li>
@@ -1247,9 +1350,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-org3bc77d8" class="outline-3">
-<h3 id="org3bc77d8">2020-05-26</h3>
-<div class="outline-text-3" id="text-org3bc77d8">
+<div id="outline-container-org68299c3" class="outline-3">
+<h3 id="org68299c3">2020-05-26</h3>
+<div class="outline-text-3" id="text-org68299c3">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/h6iOsQOhoYx4x03RfaYMjA">《快手辛巴，带货王必须先是影帝》</a> 快手主播辛巴账号被封半个月后，5月 23 日，辛巴
 的徒弟蛋蛋“代父出征”。55 分钟销售额破亿，蛋蛋含泪哽咽着感谢师父师娘和 818 的家
@@ -1283,9 +1386,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org78864dd" class="outline-3">
-<h3 id="org78864dd">2020-05-25</h3>
-<div class="outline-text-3" id="text-org78864dd">
+<div id="outline-container-org39069df" class="outline-3">
+<h3 id="org39069df">2020-05-25</h3>
+<div class="outline-text-3" id="text-org39069df">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/TwnW7EreHGfa_guVJpAGqA">《农村主播：去年还被村里人当成是骗子，今年抢着要我帮带货》</a> 县长们除了跟我直播，
 还会跟我交流，让我帮着发展一下当地的农民主播，帮着在当地打造直播基地，把农民也
@@ -1310,9 +1413,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgcbbba1d" class="outline-3">
-<h3 id="orgcbbba1d">2020-05-22</h3>
-<div class="outline-text-3" id="text-orgcbbba1d">
+<div id="outline-container-orgdba7ac8" class="outline-3">
+<h3 id="orgdba7ac8">2020-05-22</h3>
+<div class="outline-text-3" id="text-orgdba7ac8">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Ahh_nhR52hVOZBbrdzS2nA">《老微视生错了年代？》</a> 马化腾在老微视的最后一条记录停留在广研新办公室滑梯上，
 2014 年后他再也没有更新过微视。</li>
@@ -1346,9 +1449,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-orgf9829f6" class="outline-3">
-<h3 id="orgf9829f6">2020-05-21</h3>
-<div class="outline-text-3" id="text-orgf9829f6">
+<div id="outline-container-org19303b0" class="outline-3">
+<h3 id="org19303b0">2020-05-21</h3>
+<div class="outline-text-3" id="text-org19303b0">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/PyMbVnrNeM3B1A8-hLHRfg">《被罢黜的迅雷 CEO 陈磊：祸起打算关停软件，和创始团队决裂》</a> 陈磊说，据他所知，
 仅仅一个多月，就有约近 200 名网心员工被迅雷裁员，而网心员工总共也就 400 多人……</li>
@@ -1380,9 +1483,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org9ec0643" class="outline-3">
-<h3 id="org9ec0643">2020-05-19</h3>
-<div class="outline-text-3" id="text-org9ec0643">
+<div id="outline-container-org2f2049a" class="outline-3">
+<h3 id="org2f2049a">2020-05-19</h3>
+<div class="outline-text-3" id="text-org2f2049a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/MLkWDehC9gCpIn8ox0He_A">《太阳照常升起：2020 年下半场怎么办？》</a> 瞬息万变中，唯一不变的底层逻辑，就是让
 你自己增值的速度快过这个时代本身的资本收益率。</li>
@@ -1415,9 +1518,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-orgc84aec5" class="outline-3">
-<h3 id="orgc84aec5">2020-05-18</h3>
-<div class="outline-text-3" id="text-orgc84aec5">
+<div id="outline-container-orgb800029" class="outline-3">
+<h3 id="orgb800029">2020-05-18</h3>
+<div class="outline-text-3" id="text-orgb800029">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/TyZCrixYgqlMm_p_4LVzHw">《Quibi 仅靠 ppt 融资 17.5 亿美金，短视频内容瓶颈的新出路？》</a> 原本，这家集合了
 好莱坞+硅谷、含着“金汤匙”出生的短视频公司，计划在 4 月 5 日举办仿照奥斯卡颁奖
@@ -1451,9 +1554,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org7bfb7f4" class="outline-3">
-<h3 id="org7bfb7f4">2020-05-15</h3>
-<div class="outline-text-3" id="text-org7bfb7f4">
+<div id="outline-container-org8f01cc9" class="outline-3">
+<h3 id="org8f01cc9">2020-05-15</h3>
+<div class="outline-text-3" id="text-org8f01cc9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/B8WglQYIuOXnt2XT4BI2iQ">《拼多多崛起的深度复盘》</a> 在我看来，拼多多迄今的崛起过程是一场非常值得研究的战
 役，其重要性和趣味堪比人类历史上那些最大规模的诸兵种合成战役……</li>
@@ -1488,9 +1591,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org834d98c" class="outline-3">
-<h3 id="org834d98c">2020-05-14</h3>
-<div class="outline-text-3" id="text-org834d98c">
+<div id="outline-container-org71c1d3d" class="outline-3">
+<h3 id="org71c1d3d">2020-05-14</h3>
+<div class="outline-text-3" id="text-org71c1d3d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/WgGXj6-ykH7FmAf_x6bp1A">《支付战争：互联网最大战役的落幕》</a> 面对市场的饱和、监管的压力、垄断的质疑，双
 方在边界上默契停步，并一起迎来了新的挑战。</li>
@@ -1522,9 +1625,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org21d8d89" class="outline-3">
-<h3 id="org21d8d89">2020-05-12</h3>
-<div class="outline-text-3" id="text-org21d8d89">
+<div id="outline-container-orgff54800" class="outline-3">
+<h3 id="orgff54800">2020-05-12</h3>
+<div class="outline-text-3" id="text-orgff54800">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/ySQqdOah9ev5UCGB_UTP3Q">《王卫 PK 王兴，还需要个大众点评》</a> 尽管丰食背后有数百家优质餐饮商户，但美团数
 百万家商户中，连锁、高端餐饮商户少说也有数十万家，这样一比较，丰食的团餐想与美
@@ -1558,9 +1661,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org8aa06bb" class="outline-3">
-<h3 id="org8aa06bb">2020-05-11</h3>
-<div class="outline-text-3" id="text-org8aa06bb">
+<div id="outline-container-org5666ab4" class="outline-3">
+<h3 id="org5666ab4">2020-05-11</h3>
+<div class="outline-text-3" id="text-org5666ab4">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/VVZjjm7Th2HCAZfJKcp7yQ">《对垒疫后衰退：中国力推 10 万亿财政刺激计划，能兜得住吗》</a> 新冠肺炎疫情全球大
 暴发和全球衰退风险下，中国政府实现 2020 年全面建成小康社会的目标似乎并未松动，
@@ -1596,9 +1699,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org4bc4b38" class="outline-3">
-<h3 id="org4bc4b38">2020-05-09</h3>
-<div class="outline-text-3" id="text-org4bc4b38">
+<div id="outline-container-org17f5cba" class="outline-3">
+<h3 id="org17f5cba">2020-05-09</h3>
+<div class="outline-text-3" id="text-org17f5cba">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/j9PDysTVkd_byueAdervfw">《程维放不过王兴》</a> 他说，那一刻我是这么想的，大家都不松油门的话，可能双双车毁
 人亡，然而他有小孩，我没小孩，他应该会让我。</li>
@@ -1627,9 +1730,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org1e38400" class="outline-3">
-<h3 id="org1e38400">2020-05-08</h3>
-<div class="outline-text-3" id="text-org1e38400">
+<div id="outline-container-org4b223e9" class="outline-3">
+<h3 id="org4b223e9">2020-05-08</h3>
+<div class="outline-text-3" id="text-org4b223e9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/6Nq34UhPdknhTR1eSOfFIg">《快手正在抛弃辛巴散打哥》</a> 在快手独特的家族主播生态中，私域流量价值极高，但并
 不利于其商业化，因此快手正在加速其 MCN 化的进程。以辛巴、散打哥为代表的头部家
@@ -1666,9 +1769,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-orgfe404ff" class="outline-3">
-<h3 id="orgfe404ff">2020-05-07</h3>
-<div class="outline-text-3" id="text-orgfe404ff">
+<div id="outline-container-orgfa8d8c5" class="outline-3">
+<h3 id="orgfa8d8c5">2020-05-07</h3>
+<div class="outline-text-3" id="text-orgfa8d8c5">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NeUZi5Y6YpK8h3AzasTa6A">《“中浪”正在离开北京》</a> 30 岁的赵子健就是一朵“中浪”，他曾满怀热望来到北京打拼，
 偿清债务，开启了崭新的职业履历。然而疫情影响的当下，他成了最先受到冲击的人……</li>
@@ -1698,9 +1801,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-orga81f4ab" class="outline-3">
-<h3 id="orga81f4ab">2020-05-06</h3>
-<div class="outline-text-3" id="text-orga81f4ab">
+<div id="outline-container-org0e0d1b9" class="outline-3">
+<h3 id="org0e0d1b9">2020-05-06</h3>
+<div class="outline-text-3" id="text-org0e0d1b9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/KrXgnCoQTy6g8Xiwn3mcJg">《公司的第一曲线瞬间崩塌后，我如何两个月强攻第二曲线？》</a> 在这样困境中，企业领
 导者一定要对未来进行初步的预测，并且要有勇气根据整个市场实情，做出让企业在最坏
@@ -1736,13 +1839,13 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-orgbb6154c" class="outline-2">
-<h2 id="orgbb6154c">四月</h2>
-<div class="outline-text-2" id="text-orgbb6154c">
+<div id="outline-container-orgc2a3728" class="outline-2">
+<h2 id="orgc2a3728">四月</h2>
+<div class="outline-text-2" id="text-orgc2a3728">
 </div>
-<div id="outline-container-orgabdcd66" class="outline-3">
-<h3 id="orgabdcd66">2020-04-29</h3>
-<div class="outline-text-3" id="text-orgabdcd66">
+<div id="outline-container-org15be347" class="outline-3">
+<h3 id="org15be347">2020-04-29</h3>
+<div class="outline-text-3" id="text-org15be347">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/y0FNEDEzPMQ5ax-Efq-J2w">《李国庆夺取当当公章始末》</a> 无论纠纷何时结束、结果如何，这种上升到创始人层面的
 争斗对一家商业公司都是巨大的伤害。</li>
@@ -1776,9 +1879,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org7913ed2" class="outline-3">
-<h3 id="org7913ed2">2020-04-28</h3>
-<div class="outline-text-3" id="text-org7913ed2">
+<div id="outline-container-orgcd8571e" class="outline-3">
+<h3 id="orgcd8571e">2020-04-28</h3>
+<div class="outline-text-3" id="text-orgcd8571e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/G7qh6Kwlq5se2pi0zu_7xQ">《中国 VC 大迁徙：得 toB 者得天下》</a> 风口是玄学。当一些东西消失，上一秒还在等风
 的人，都知道风停了。而 ToB 是一座新矿。</li>
@@ -1812,9 +1915,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org4dd64c7" class="outline-3">
-<h3 id="org4dd64c7">2020-04-27</h3>
-<div class="outline-text-3" id="text-org4dd64c7">
+<div id="outline-container-org89fbe0a" class="outline-3">
+<h3 id="org89fbe0a">2020-04-27</h3>
+<div class="outline-text-3" id="text-org89fbe0a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/eDsD0CyQPyMtlXDA0EMUMg">《蒋凡还能等来第二个“双 11”吗？》</a> 阿里电商业务最基础的淘宝、天猫以及阿里妈妈这
 三大重要事业群，都还稳稳的躺在蒋凡的手上。</li>
@@ -1847,9 +1950,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-orgca27360" class="outline-3">
-<h3 id="orgca27360">2020-04-24</h3>
-<div class="outline-text-3" id="text-orgca27360">
+<div id="outline-container-org955f388" class="outline-3">
+<h3 id="org955f388">2020-04-24</h3>
+<div class="outline-text-3" id="text-org955f388">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/mAgSuFxjfu_rXZCTOhPDYw">《比尔 · 盖茨：1号大流行病将重新定义这个时代》</a> 尽管这篇文章里的部分内容技术性
 很强，但我希望它能帮助人们理解正在发生的事情，明白我们仍然急需的创新，并就应对
@@ -1885,9 +1988,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org4b6d4d9" class="outline-3">
-<h3 id="org4b6d4d9">2020-04-23</h3>
-<div class="outline-text-3" id="text-org4b6d4d9">
+<div id="outline-container-org75831d5" class="outline-3">
+<h3 id="org75831d5">2020-04-23</h3>
+<div class="outline-text-3" id="text-org75831d5">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/eGHtOm94Viif9uMnE95gGQ">《出轨经济学 | 自命不凡，大意失金》</a> 本文运用边际效用理论、机会成本、信息不对称
 及帕累托最优，探讨出轨、爱情、婚姻与幸福。</li>
@@ -1922,9 +2025,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org8ba567e" class="outline-3">
-<h3 id="org8ba567e">2020-04-22</h3>
-<div class="outline-text-3" id="text-org8ba567e">
+<div id="outline-container-org50348c8" class="outline-3">
+<h3 id="org50348c8">2020-04-22</h3>
+<div class="outline-text-3" id="text-org50348c8">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/TH_Fn21rrPpsjyQ7JwI3Ew">《瘟疫、危机与不确定性》</a> 新冠疫情突袭人间，打乱了几乎所有人的预期，推翻了所有
 经济学家对今年的经济预测。经济学家的数学模型没能捕捉到新冠疫情这只“黑天鹅”。这
@@ -1959,9 +2062,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-org7b001c5" class="outline-3">
-<h3 id="org7b001c5">2020-04-20</h3>
-<div class="outline-text-3" id="text-org7b001c5">
+<div id="outline-container-org4aeb81e" class="outline-3">
+<h3 id="org4aeb81e">2020-04-20</h3>
+<div class="outline-text-3" id="text-org4aeb81e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/hZl57BBZquo4HTkEQ-IWkA">《化学阉割真的可以阻止性侵儿童吗》</a> 什么是化学阉割？它真的能像人们想象的那样严
 惩性犯罪者，杜绝「恋童癖」作恶吗？</li>
@@ -2001,9 +2104,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </div>
 </div>
 
-<div id="outline-container-orgb71a04b" class="outline-3">
-<h3 id="orgb71a04b">2020-04-16</h3>
-<div class="outline-text-3" id="text-orgb71a04b">
+<div id="outline-container-org21bdca8" class="outline-3">
+<h3 id="org21bdca8">2020-04-16</h3>
+<div class="outline-text-3" id="text-org21bdca8">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/2ITtFTzCT71PfFbXhU4byQ">《网红如何对抗 MCN？》</a> 对于很多草根网红而言，MCN 属于难以绕过的一道坎，毕竟很
 多人只擅长内容，对于商业上的事情并不专业。</li>
@@ -2035,9 +2138,9 @@ FM、喜马拉雅以及蜻蜓 FM 形成竞争关系。这种竞争关系可能�
 </ul>
 </div>
 </div>
-<div id="outline-container-org990b550" class="outline-3">
-<h3 id="org990b550">2020-04-15</h3>
-<div class="outline-text-3" id="text-org990b550">
+<div id="outline-container-org326b3b3" class="outline-3">
+<h3 id="org326b3b3">2020-04-15</h3>
+<div class="outline-text-3" id="text-org326b3b3">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/PIzDMdavQASgwBeW6QJUmg">《疫情下，拿什么来保护我们的隐私》</a> 电子码像一张通关卡，按照你的健康状况决定你
 是否拥有进入办公大楼、出入社区的资格。</li>
@@ -2070,9 +2173,9 @@ works （《世界是怎样运转的》）写于 1993 年 12 月， 现在看也
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbe59623" class="outline-3">
-<h3 id="orgbe59623">2020-04-14</h3>
-<div class="outline-text-3" id="text-orgbe59623">
+<div id="outline-container-org1df3c56" class="outline-3">
+<h3 id="org1df3c56">2020-04-14</h3>
+<div class="outline-text-3" id="text-org1df3c56">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Ti5jSBfXn5EECTLxP4ZTzQ">《狙击拼多多，淘宝特价版有戏吗？》</a> 2019 年阿里内部成立 C2M 事业部，经过一年内
 测，淘宝特价板正式上线。C2M 的核心是去掉品牌商和渠道商等中间环节，提高效率，降
@@ -2105,9 +2208,9 @@ works （《世界是怎样运转的》）写于 1993 年 12 月， 现在看也
 </ul>
 </div>
 </div>
-<div id="outline-container-org60602c0" class="outline-3">
-<h3 id="org60602c0">2020-04-13</h3>
-<div class="outline-text-3" id="text-org60602c0">
+<div id="outline-container-org33a8b51" class="outline-3">
+<h3 id="org33a8b51">2020-04-13</h3>
+<div class="outline-text-3" id="text-org33a8b51">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/4kt4EVEwPwQuiNVbgiw7jA">《危机时刻：互联网公司 IPO 大撤退》</a> 上市、退市，都不是一家企业的终点，资本市场
 短期的股价或许无法预判，但长期价值最后还是会回归经济规律。</li>
@@ -2141,9 +2244,9 @@ works （《世界是怎样运转的》）写于 1993 年 12 月， 现在看也
 </ul>
 </div>
 </div>
-<div id="outline-container-org3f43a36" class="outline-3">
-<h3 id="org3f43a36">2020-04-10</h3>
-<div class="outline-text-3" id="text-org3f43a36">
+<div id="outline-container-org6a7334b" class="outline-3">
+<h3 id="org6a7334b">2020-04-10</h3>
+<div class="outline-text-3" id="text-org6a7334b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/ScRLzsZTAxkPSAVT9lSZfg">《这场疫情，暴露了 5 个商业机会！》</a> 宝洁和通用电气诞生于 1873 年经济大恐慌时期。
 通用汽车诞生于 1907 年的经济大萧条时期。IBM 诞生于 1911 年的一战前夕。</li>
@@ -2176,9 +2279,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orga0871bd" class="outline-3">
-<h3 id="orga0871bd">2020-04-09</h3>
-<div class="outline-text-3" id="text-orga0871bd">
+<div id="outline-container-orgd128297" class="outline-3">
+<h3 id="orgd128297">2020-04-09</h3>
+<div class="outline-text-3" id="text-orgd128297">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/LXr-BNAZ_gyKgYwmtLckLQ">《为什么抖音做社交这么难？》</a> 抖音社交化的信号来自于最近在内测的两项新
 功能：“连线”和“熟人”。前者的核心功能点是一对一真实视频交友，后者为抖音
@@ -2212,9 +2315,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org505a947" class="outline-3">
-<h3 id="org505a947">2020-04-08</h3>
-<div class="outline-text-3" id="text-org505a947">
+<div id="outline-container-org0346178" class="outline-3">
+<h3 id="org0346178">2020-04-08</h3>
+<div class="outline-text-3" id="text-org0346178">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/8vjybcdv-jvRxGCU8qS6xw">《万字长文实录：消费者变了！》</a> 新冠疫情让人们发现，增长和营销，一定要
 围绕消费者增长来审视。那么我们的市场、消费者发生了什么样的变化？</li>
@@ -2250,9 +2353,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org7b5cf63" class="outline-3">
-<h3 id="org7b5cf63">2020-04-07</h3>
-<div class="outline-text-3" id="text-org7b5cf63">
+<div id="outline-container-org666bbb6" class="outline-3">
+<h3 id="org666bbb6">2020-04-07</h3>
+<div class="outline-text-3" id="text-org666bbb6">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Cq5G_Uo775t288urlHL52g">《为什么半个互联网都在玩直播带货？》</a> 疫情黑天鹅之下，众多线下业态停摆，
 越来越多商家将业务搬到线上，企业的老板们纷纷加入到直播带货的大军中。</li>
@@ -2287,9 +2390,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org88f7bdb" class="outline-3">
-<h3 id="org88f7bdb">2020-04-06</h3>
-<div class="outline-text-3" id="text-org88f7bdb">
+<div id="outline-container-org0659a63" class="outline-3">
+<h3 id="org0659a63">2020-04-06</h3>
+<div class="outline-text-3" id="text-org0659a63">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/WreFPdVyrC2riEFcXl4e2g">《尤瓦尔·赫拉利《冠状病毒之后的世界》》</a> 他谈到疫情结束后，世界向何处去
 的问题，以及对目前各国没有统一行动的计划，反而各自为战、竞相关闭边境的
@@ -2324,9 +2427,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org4158795" class="outline-3">
-<h3 id="org4158795">2020-04-03</h3>
-<div class="outline-text-3" id="text-org4158795">
+<div id="outline-container-org640b717" class="outline-3">
+<h3 id="org640b717">2020-04-03</h3>
+<div class="outline-text-3" id="text-org640b717">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/cvHzZbag0OqO-KV1G-_TRg">《瑞幸遭做空报告全文：欺诈 + 基本崩溃的业务》</a> 这一份长达 89 页的报告直
 指瑞幸咖啡(LK.US)正在捏造公司财务和运营数据。</li>
@@ -2362,13 +2465,13 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </div>
 </div>
 </div>
-<div id="outline-container-org87c5600" class="outline-2">
-<h2 id="org87c5600">三月</h2>
-<div class="outline-text-2" id="text-org87c5600">
+<div id="outline-container-orgbddbf9c" class="outline-2">
+<h2 id="orgbddbf9c">三月</h2>
+<div class="outline-text-2" id="text-orgbddbf9c">
 </div>
-<div id="outline-container-orgd19a990" class="outline-3">
-<h3 id="orgd19a990">2020-03-26</h3>
-<div class="outline-text-3" id="text-orgd19a990">
+<div id="outline-container-orgaac746e" class="outline-3">
+<h3 id="orgaac746e">2020-03-26</h3>
+<div class="outline-text-3" id="text-orgaac746e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/U3vf4CRiief5Dj2veOVMKA">《评分 9.9！科幻迷改编的《我的三体》，是怎么让粉丝燃爆的？》</a> 这个画风
 奇特，人物、场景由一个个方块组成的系列作品，被苛刻的粉丝们认为精准还原
@@ -2403,9 +2506,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb884a9e" class="outline-3">
-<h3 id="orgb884a9e">2020-03-24</h3>
-<div class="outline-text-3" id="text-orgb884a9e">
+<div id="outline-container-org7639276" class="outline-3">
+<h3 id="org7639276">2020-03-24</h3>
+<div class="outline-text-3" id="text-org7639276">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/YGZYZlWpPqknwxeERxAcqg">《疫情结束后，该换个活法了》</a> 基础设施变了、协作模式变了，“他人利益”与
 “自我发展”的关系也变了，究竟是要继续逞英雄，还是学会“概率化生存”？</li>
@@ -2440,9 +2543,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgdec098e" class="outline-3">
-<h3 id="orgdec098e">2020-03-20</h3>
-<div class="outline-text-3" id="text-orgdec098e">
+<div id="outline-container-org0675590" class="outline-3">
+<h3 id="org0675590">2020-03-20</h3>
+<div class="outline-text-3" id="text-org0675590">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/FSQnXJXLGQwhoc51HybQDw">《上抖音直播的中国县长们》</a> 越来越多的基层公务人员走进直播间，用屏幕为
 乡亲带去便利与服务。而在此次疫情期间，直播间里的县长为了“带货”，更是使
@@ -2475,9 +2578,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org09e9c17" class="outline-3">
-<h3 id="org09e9c17">2020-03-19</h3>
-<div class="outline-text-3" id="text-org09e9c17">
+<div id="outline-container-orgc6f995b" class="outline-3">
+<h3 id="orgc6f995b">2020-03-19</h3>
+<div class="outline-text-3" id="text-orgc6f995b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/FSQnXJXLGQwhoc51HybQDw">《上抖音直播的中国县长们》</a> 越来越多的基层公务人员走进直播间，用屏幕为
 乡亲带去便利与服务。而在此次疫情期间，直播间里的县长为了“带货”，更是使
@@ -2510,9 +2613,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org6c8b366" class="outline-3">
-<h3 id="org6c8b366">2020-03-18</h3>
-<div class="outline-text-3" id="text-org6c8b366">
+<div id="outline-container-orgb2b4ce4" class="outline-3">
+<h3 id="orgb2b4ce4">2020-03-18</h3>
+<div class="outline-text-3" id="text-orgb2b4ce4">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/L1sgro3hosRjySYiBayrfg">《进击的比尔·盖茨》</a> 高晓松难得把胡子刮得精光、长发梳得倍儿顺，问盖茨：
 “你和马云等中国的许多企业家有什么不同？”盖茨回答：“没什么不同。”</li>
@@ -2545,9 +2648,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc39a5c2" class="outline-3">
-<h3 id="orgc39a5c2">2020-03-12</h3>
-<div class="outline-text-3" id="text-orgc39a5c2">
+<div id="outline-container-org4d071a9" class="outline-3">
+<h3 id="org4d071a9">2020-03-12</h3>
+<div class="outline-text-3" id="text-org4d071a9">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/egHU0HVoqOUZn6PptPtMQw">《他们在微博上，也曾说过真话啊》</a> 王兴的饭否走的最早，死的最快。因为监
 管原因，“删帖、限制敏感关键字、暂停搜索、域名解析、服务器关闭”类饭否的
@@ -2581,9 +2684,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org7fee5d3" class="outline-3">
-<h3 id="org7fee5d3">2020-03-11</h3>
-<div class="outline-text-3" id="text-org7fee5d3">
+<div id="outline-container-orgdfafd5a" class="outline-3">
+<h3 id="orgdfafd5a">2020-03-11</h3>
+<div class="outline-text-3" id="text-orgdfafd5a">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/roTg_r57btmPD_vXa21Izg">《今天是微信公号诞生以来最荒谬的一天》</a> 这是由一篇文章引发的荒谬喜剧；
 但也完美诠释了，喜剧的内核，就是一场悲剧。</li>
@@ -2616,9 +2719,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orga9b0cd6" class="outline-3">
-<h3 id="orga9b0cd6">2020-03-10</h3>
-<div class="outline-text-3" id="text-orga9b0cd6">
+<div id="outline-container-org7a722ed" class="outline-3">
+<h3 id="org7a722ed">2020-03-10</h3>
+<div class="outline-text-3" id="text-org7a722ed">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/gKYRRYJnw8VR7H2UzgHNBA">《谷歌与中国开发者的恩怨情仇》</a> 2 月 20 日，谷歌以存在 App 外广告等干扰
 性广告问题为由移除了近 600 款安卓应用，并禁止其开发者进入 Play 软件商
@@ -2654,9 +2757,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc330833" class="outline-3">
-<h3 id="orgc330833">2020-03-09</h3>
-<div class="outline-text-3" id="text-orgc330833">
+<div id="outline-container-orgd7b0797" class="outline-3">
+<h3 id="orgd7b0797">2020-03-09</h3>
+<div class="outline-text-3" id="text-orgd7b0797">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/11_yAhI12UqYF0hg0CLaFQ">《知识星球吴鲁加和他的 2000 万名星球成员》</a> 截至目前，知识星球拥有近
 2000 个活跃星球，此外，知识星球积累了超过 2000 万用户，其中有 200 多万
@@ -2690,9 +2793,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org7875c72" class="outline-3">
-<h3 id="org7875c72">2020-03-05</h3>
-<div class="outline-text-3" id="text-org7875c72">
+<div id="outline-container-org5e98f9d" class="outline-3">
+<h3 id="org5e98f9d">2020-03-05</h3>
+<div class="outline-text-3" id="text-org5e98f9d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NNX-QImafTW9kxpcmKwZxg">《“斗鱼一姐”冯提莫来到 B 站的 75 天》</a> 80 天前离开自己发迹的平台斗鱼直播，
 在下一个 80 天里，冯提莫和她的粉丝似乎已然习惯了 B 站。</li>
@@ -2715,9 +2818,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org95d0348" class="outline-3">
-<h3 id="org95d0348">2020-03-02</h3>
-<div class="outline-text-3" id="text-org95d0348">
+<div id="outline-container-org499f835" class="outline-3">
+<h3 id="org499f835">2020-03-02</h3>
+<div class="outline-text-3" id="text-org499f835">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/U0CoxTNupeDg5z5_J9XBqg">《快手信息收集 2017-2019》</a> 文章都是乱翻书基于团队日常信息收集所做出的
 分析评论，将乱翻书公众号 2017 年-2019 年部分相关快手的文章做了一次信息
@@ -2752,13 +2855,13 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </div>
 </div>
 </div>
-<div id="outline-container-orgb656fab" class="outline-2">
-<h2 id="orgb656fab">二月</h2>
-<div class="outline-text-2" id="text-orgb656fab">
+<div id="outline-container-org29ff8dd" class="outline-2">
+<h2 id="org29ff8dd">二月</h2>
+<div class="outline-text-2" id="text-org29ff8dd">
 </div>
-<div id="outline-container-org9b773c0" class="outline-3">
-<h3 id="org9b773c0">2020-02-28</h3>
-<div class="outline-text-3" id="text-org9b773c0">
+<div id="outline-container-orge14c244" class="outline-3">
+<h3 id="orge14c244">2020-02-28</h3>
+<div class="outline-text-3" id="text-orge14c244">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/QEBzvJCc7toelzpvP6YRPA">《称陆奇为“人生导师”，90 后创业者离开百度“漂流记”》</a> 2018 年 8 月，从百
 度离开不久，吕骋在洛杉矶好莱坞附近开始了新的创业项目 rct studio，致力
@@ -2793,9 +2896,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org434c4be" class="outline-3">
-<h3 id="org434c4be">2020-02-27</h3>
-<div class="outline-text-3" id="text-org434c4be">
+<div id="outline-container-org86fbf47" class="outline-3">
+<h3 id="org86fbf47">2020-02-27</h3>
+<div class="outline-text-3" id="text-org86fbf47">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/q8ZRXoFBPCcrcq2Y4dLwwg">《隔离、疾病与权力》</a> 碰上未知的疾病，很多人心中第一个想法还是：这病会
 不会传染？快把得病的人关起来！对人类来说，隔离到底意味着什么？</li>
@@ -2828,9 +2931,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org45f4e71" class="outline-3">
-<h3 id="org45f4e71">2020-02-26</h3>
-<div class="outline-text-3" id="text-org45f4e71">
+<div id="outline-container-orgf60a4e5" class="outline-3">
+<h3 id="orgf60a4e5">2020-02-26</h3>
+<div class="outline-text-3" id="text-orgf60a4e5">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/tmo7Xmduvb4WzRtGcr1Kig">《Google 是如何远程办公的？》</a> 作为以人性管理和多元办公著称的 Google，
 也是最早拥抱远程办公的大公司之一。Google 不仅允许部分员工，让员工在特
@@ -2864,9 +2967,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org37852e6" class="outline-3">
-<h3 id="org37852e6">2020-02-25</h3>
-<div class="outline-text-3" id="text-org37852e6">
+<div id="outline-container-orgeff5150" class="outline-3">
+<h3 id="orgeff5150">2020-02-25</h3>
+<div class="outline-text-3" id="text-orgeff5150">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/GScKaWmU_u4gfzNBMFSO8w">《许知远不会做生意？单向跟西西弗、茑屋书店差在哪？》</a> 今日，单向空间书
 店在官方微信号发起“续命”众筹，恳请粉丝们通过提前购买储值卡的方式给单向
@@ -2901,9 +3004,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org8d218a5" class="outline-3">
-<h3 id="org8d218a5">2020-02-24</h3>
-<div class="outline-text-3" id="text-org8d218a5">
+<div id="outline-container-org0d7f7e0" class="outline-3">
+<h3 id="org0d7f7e0">2020-02-24</h3>
+<div class="outline-text-3" id="text-org0d7f7e0">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Kzb02__dywWoPVC4S-VWDw">《我总结了一本营销手册：激活中国人的情绪，这四大变化正在发生&#x2026;》</a>
 疫情之下，没有什么特效药，个人和企业都要纯靠免疫力挺过来。如何提高自己
@@ -2938,9 +3041,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org6e1f0e9" class="outline-3">
-<h3 id="org6e1f0e9">2020-02-21</h3>
-<div class="outline-text-3" id="text-org6e1f0e9">
+<div id="outline-container-org671a90f" class="outline-3">
+<h3 id="org671a90f">2020-02-21</h3>
+<div class="outline-text-3" id="text-org671a90f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/kPWmVW-zLICEHAwbkPHlEw">《从六大趋势看美国超级碗：折射时代文化与商业的万花筒》</a> 超级碗的文化影
 响力是毋庸置疑的，它仍然牵连着公众的脉搏。对于这样高水准的文化盛事，社
@@ -2973,9 +3076,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org027c1df" class="outline-3">
-<h3 id="org027c1df">2020-02-19</h3>
-<div class="outline-text-3" id="text-org027c1df">
+<div id="outline-container-orgee65c1b" class="outline-3">
+<h3 id="orgee65c1b">2020-02-19</h3>
+<div class="outline-text-3" id="text-orgee65c1b">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/0LiBpKgGPwcigOSiat5Q_g">《疫情之下，各行业下个黄金期正在到来？》</a> 近日，第一太平戴维斯的一份报
 告指出：零售市场有望在 3 月底逐步回归常态，品牌年度焦点已转至夏季后的
@@ -3010,9 +3113,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgda4fabb" class="outline-3">
-<h3 id="orgda4fabb">2020-02-18</h3>
-<div class="outline-text-3" id="text-orgda4fabb">
+<div id="outline-container-org9bf2049" class="outline-3">
+<h3 id="org9bf2049">2020-02-18</h3>
+<div class="outline-text-3" id="text-org9bf2049">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/8oP2qPhqdEvUN6amrEJZIA">《危险的现金流》</a> 对于创业者而言，现金流不仅是一个复杂的会计问题，更是
 一个企业经营的艰难选择题。疫情面前，所有人都在补一堂关于现金流的课。</li>
@@ -3044,9 +3147,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org8102719" class="outline-3">
-<h3 id="org8102719">2020-02-17</h3>
-<div class="outline-text-3" id="text-org8102719">
+<div id="outline-container-org31fa9eb" class="outline-3">
+<h3 id="org31fa9eb">2020-02-17</h3>
+<div class="outline-text-3" id="text-org31fa9eb">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/NCYr8Vm8Axc-G4NMxIMWYA">《2 亿中国人，宅家工作 14 天》</a> “谁家怎么有韩国人在讲话？”在跟 CEO 对齐
 年度 KPI 业绩目标的电话会议上，居然传来了播放韩剧的声音。主持人只好如
@@ -3080,9 +3183,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org177838c" class="outline-3">
-<h3 id="org177838c">2020-02-16</h3>
-<div class="outline-text-3" id="text-org177838c">
+<div id="outline-container-orgfffffb7" class="outline-3">
+<h3 id="orgfffffb7">2020-02-16</h3>
+<div class="outline-text-3" id="text-orgfffffb7">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/DKwQkXjyp0Up77uGkJFPmg">《疫情之下，哪些行业正在逆势爆发？》</a> 非常时期、非常事件会压垮一些商业
 形态，但非常时期也是一个重塑人们消费观念与消费习惯的机会。</li>
@@ -3115,13 +3218,13 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </div>
 </div>
 </div>
-<div id="outline-container-org4bb902f" class="outline-2">
-<h2 id="org4bb902f">一月</h2>
-<div class="outline-text-2" id="text-org4bb902f">
+<div id="outline-container-org57f29a2" class="outline-2">
+<h2 id="org57f29a2">一月</h2>
+<div class="outline-text-2" id="text-org57f29a2">
 </div>
-<div id="outline-container-orgbe24f68" class="outline-3">
-<h3 id="orgbe24f68">2020-01-16</h3>
-<div class="outline-text-3" id="text-orgbe24f68">
+<div id="outline-container-org8f3fff3" class="outline-3">
+<h3 id="org8f3fff3">2020-01-16</h3>
+<div class="outline-text-3" id="text-org8f3fff3">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/haxNtd4luBc0BBcWCI4R0g">《独家：掌管百度战投三年后，马东敏把权力重新移交李彦宏》</a> 战投汇报线的
 变化意味着，李彦宏全面收拢兵权，马东敏退后掌管部分职能线，二人正在重新
@@ -3156,9 +3259,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgce3d617" class="outline-3">
-<h3 id="orgce3d617">2020-01-14</h3>
-<div class="outline-text-3" id="text-orgce3d617">
+<div id="outline-container-orgf45ee47" class="outline-3">
+<h3 id="orgf45ee47">2020-01-14</h3>
+<div class="outline-text-3" id="text-orgf45ee47">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/DhvXAH4VcCCE3X3GACDQmA">《春节薅羊毛指南》</a> 今年你准备好蹲守谁家的红包，集哪家的卡？今年的“羊毛”哪
 家强？废话不多说，一起来看一下。</li>
@@ -3193,9 +3296,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf42891d" class="outline-3">
-<h3 id="orgf42891d">2020-01-13</h3>
-<div class="outline-text-3" id="text-orgf42891d">
+<div id="outline-container-org6b341d6" class="outline-3">
+<h3 id="org6b341d6">2020-01-13</h3>
+<div class="outline-text-3" id="text-org6b341d6">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/-6Sh3FhKypYq2O2ftfVxBA">《CES 无新事》</a> 主线其实非常清晰：不管产品如何更迭，底层的需求却鲜有改
 变。荒凉沙漠中的繁荣赌城，再次展现了多变的载体与永恒的内容需求之间碰撞
@@ -3230,9 +3333,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org69b08c2" class="outline-3">
-<h3 id="org69b08c2">2020-01-10</h3>
-<div class="outline-text-3" id="text-org69b08c2">
+<div id="outline-container-orgb0f5431" class="outline-3">
+<h3 id="orgb0f5431">2020-01-10</h3>
+<div class="outline-text-3" id="text-orgb0f5431">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/vps3nzX5BvAhNw7za_ma8w">《一晚 70 亿阅读量，单篇涨粉 17 万，GQ 打造爆款内容的幕后故事》</a> 为什么
 所有人都觉得有点焦虑，觉得可能公众号也许是夕阳产业了呢？是不是觉得过去
@@ -3267,9 +3370,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org7d3a13f" class="outline-3">
-<h3 id="org7d3a13f">2020-01-09</h3>
-<div class="outline-text-3" id="text-org7d3a13f">
+<div id="outline-container-org6a65359" class="outline-3">
+<h3 id="org6a65359">2020-01-09</h3>
+<div class="outline-text-3" id="text-org6a65359">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/sZkkQOPz834KcKY1aWWayw">《张小龙缺席，微信“未完成” 》</a> 没有了张小龙长达四小时的深夜即兴分享，今
 年的微信公开课 PRO 还有哪些看点？</li>
@@ -3302,9 +3405,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb213e04" class="outline-3">
-<h3 id="orgb213e04">2020-01-07</h3>
-<div class="outline-text-3" id="text-orgb213e04">
+<div id="outline-container-org36afcb5" class="outline-3">
+<h3 id="org36afcb5">2020-01-07</h3>
+<div class="outline-text-3" id="text-org36afcb5">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/6_KtRKTNzVi87EpL8vp6aQ">《B 站选出百大 up 主，他们才是大宝藏》</a> 阿婆主在做什么？他们在养竹鼠、
 在探店、在开箱测评，他们在放大日常生活，有时候即使你不知道他们在做什么，
@@ -3333,9 +3436,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org4cd55b4" class="outline-3">
-<h3 id="org4cd55b4">2020-01-06</h3>
-<div class="outline-text-3" id="text-org4cd55b4">
+<div id="outline-container-org49d1807" class="outline-3">
+<h3 id="org49d1807">2020-01-06</h3>
+<div class="outline-text-3" id="text-org49d1807">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/2tInJqxrNvQz8UYuu4aMyg">《重磅发布！2020 内容产业年度报告》</a> 这份报告围绕“科技赋能、内容破界”的
 大会主题，从内容受众破界、内容创作者破界、内容职能破界三个部分展开，以
@@ -3371,9 +3474,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </ul>
 </div>
 </div>
-<div id="outline-container-org70d4de2" class="outline-3">
-<h3 id="org70d4de2">2020-01-02</h3>
-<div class="outline-text-3" id="text-org70d4de2">
+<div id="outline-container-org853c404" class="outline-3">
+<h3 id="org853c404">2020-01-02</h3>
+<div class="outline-text-3" id="text-org853c404">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/lpsXyAymzd3fk5pMjBizEA">《罗振宇 2019-2020“时间的朋友”跨年演讲未删减全文》</a> 今年的演讲主题是——
 基本盘。也就是不去看那些一惊一乍的标题，人云亦云的情绪，而是转过头，看
@@ -3432,21 +3535,21 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org5231dd9">需求任务</a></li>
-<li><a href="#orgc5e3b6f">解决方案</a>
+<li><a href="#org74afa32">需求任务</a></li>
+<li><a href="#org9cc9f43">解决方案</a>
 <ul>
-<li><a href="#org88b8592">安装 Karabiner</a></li>
-<li><a href="#org3b7daba">配置修改</a></li>
-<li><a href="#orgb96bb1f">加载配置</a></li>
+<li><a href="#orgf93a1dc">安装 Karabiner</a></li>
+<li><a href="#org7fe1953">配置修改</a></li>
+<li><a href="#org3725128">加载配置</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org5231dd9" class="outline-2">
-<h2 id="org5231dd9">需求任务</h2>
-<div class="outline-text-2" id="text-org5231dd9">
+<div id="outline-container-org74afa32" class="outline-2">
+<h2 id="org74afa32">需求任务</h2>
+<div class="outline-text-2" id="text-org74afa32">
 <p>
 而 Home Row 上面的按键 (ASDFGHJKL:") 基本上都是比较常用的基础按键, 另边还有一个回车键, 更加常用, 都没有什么修改空间, 只有 Home Row 最左侧的 Caps Lock 按键可以做些文章来提升输入效率了.
 </p>
@@ -3487,22 +3590,22 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </div>
 </div>
 
-<div id="outline-container-orgc5e3b6f" class="outline-2">
-<h2 id="orgc5e3b6f">解决方案</h2>
-<div class="outline-text-2" id="text-orgc5e3b6f">
+<div id="outline-container-org9cc9f43" class="outline-2">
+<h2 id="org9cc9f43">解决方案</h2>
+<div class="outline-text-2" id="text-org9cc9f43">
 </div>
-<div id="outline-container-org88b8592" class="outline-3">
-<h3 id="org88b8592">安装 Karabiner</h3>
-<div class="outline-text-3" id="text-org88b8592">
+<div id="outline-container-orgf93a1dc" class="outline-3">
+<h3 id="orgf93a1dc">安装 Karabiner</h3>
+<div class="outline-text-3" id="text-orgf93a1dc">
 <p>
 在 macOS 上面有个现成的软件已经实现了这个功能, 首先去<a href="https://pqrs.org/osx/karabiner/"> 官网</a>  下载安装.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org3b7daba" class="outline-3">
-<h3 id="org3b7daba">配置修改</h3>
-<div class="outline-text-3" id="text-org3b7daba">
+<div id="outline-container-org7fe1953" class="outline-3">
+<h3 id="org7fe1953">配置修改</h3>
+<div class="outline-text-3" id="text-org7fe1953">
 <p>
 在目录 <code>~/.config/karabiner/assets/complex_modifications/</code> 中建一个文件, 命名为 custom-capslock.json , 然后把下面的代码复制进去并保存:
 </p>
@@ -3545,9 +3648,9 @@ Gaga 联系了中国、意大利、尼日利亚、印度、英国、加拿大、
 </div>
 </div>
 
-<div id="outline-container-orgb96bb1f" class="outline-3">
-<h3 id="orgb96bb1f">加载配置</h3>
-<div class="outline-text-3" id="text-orgb96bb1f">
+<div id="outline-container-org3725128" class="outline-3">
+<h3 id="org3725128">加载配置</h3>
+<div class="outline-text-3" id="text-org3725128">
 <ol class="org-ol">
 <li>打开安装好的 Karabiner 软件, 打开其设置界面</li>
 <li>选中 <code>Complex Modifications</code> 选项卡, 点击 <code>Add rule</code> 按钮.</li>
@@ -3607,80 +3710,80 @@ Org mode 称为神器一点都不为过，如果你平时工作内容有和文�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org15b2bf4">Beautify</a>
+<li><a href="#org25c9db5">Beautify</a>
 <ul>
-<li><a href="#orgbcbaa32">如何隐藏 headlines 前面的一堆*符号？</a></li>
-<li><a href="#org559b6b7">如何将 headlines 的符号从*变成其它符号？</a></li>
-<li><a href="#orgf9d8ed9">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <code>强调</code> 等样式？</a></li>
-<li><a href="#org1bf13c0">如何设置 headline 的 TODO keywords？</a></li>
-<li><a href="#orgb7c79d1">如何给 TODO keywords 增加前景色、背景色？</a></li>
+<li><a href="#org77e4e7d">如何隐藏 headlines 前面的一堆*符号？</a></li>
+<li><a href="#org1e99f45">如何将 headlines 的符号从*变成其它符号？</a></li>
+<li><a href="#orgaf4273b">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <code>强调</code> 等样式？</a></li>
+<li><a href="#org93c4bd6">如何设置 headline 的 TODO keywords？</a></li>
+<li><a href="#org5d1b83d">如何给 TODO keywords 增加前景色、背景色？</a></li>
 </ul>
 </li>
-<li><a href="#orgb0bc460">Capture-Refile-Archive</a>
+<li><a href="#orge085408">Capture-Refile-Archive</a>
 <ul>
-<li><a href="#org9feea4b">如何快速记录一些内容到指定文件？</a></li>
-<li><a href="#org2aedabf">如何设置不同的快速记录模板？</a></li>
-<li><a href="#org5d9d67b">如何快速移动 headline 到指定文件中？</a></li>
-<li><a href="#org9949878">如何归档已完成事项到其它文件？</a></li>
+<li><a href="#org7bdbf21">如何快速记录一些内容到指定文件？</a></li>
+<li><a href="#org0c612de">如何设置不同的快速记录模板？</a></li>
+<li><a href="#org0203f7c">如何快速移动 headline 到指定文件中？</a></li>
+<li><a href="#orgfd77028">如何归档已完成事项到其它文件？</a></li>
 </ul>
 </li>
-<li><a href="#org4d929e0">Tables</a>
+<li><a href="#org4357723">Tables</a>
 <ul>
-<li><a href="#org7d75fb1">如何像 Excel 一样，在表格中插入 <code>mini chart</code> ？</a></li>
+<li><a href="#org1d51581">如何像 Excel 一样，在表格中插入 <code>mini chart</code> ？</a></li>
 </ul>
 </li>
-<li><a href="#org4fd26ff">Agendas</a>
+<li><a href="#orgbc991d1">Agendas</a>
 <ul>
-<li><a href="#orgb11bcab">如何将 Agenda 中不同时间长度的事项显示不同的大小？</a></li>
-<li><a href="#org5fb20b8">如何设置 agenda 中时间的显示格式？</a></li>
-<li><a href="#org244fc59">如何隐藏 agenda 中的分隔线？</a></li>
-<li><a href="#orgfe105dd">如何在 agenda 中显示本地的日出日落时间？</a></li>
+<li><a href="#orgb88c3ea">如何将 Agenda 中不同时间长度的事项显示不同的大小？</a></li>
+<li><a href="#org52a89b3">如何设置 agenda 中时间的显示格式？</a></li>
+<li><a href="#org240263e">如何隐藏 agenda 中的分隔线？</a></li>
+<li><a href="#org331edf7">如何在 agenda 中显示本地的日出日落时间？</a></li>
 </ul>
 </li>
-<li><a href="#orgd11e2cf">Others</a>
+<li><a href="#org4417ace">Others</a>
 <ul>
-<li><a href="#orgf6a2c4c">如何用 org 文件管理 RSS 订阅？</a></li>
-<li><a href="#orgf1013dd">如何在 org 中使用 PlantUML？</a></li>
+<li><a href="#orge285d34">如何用 org 文件管理 RSS 订阅？</a></li>
+<li><a href="#org92e3132">如何在 org 中使用 PlantUML？</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org15b2bf4" class="outline-2">
-<h2 id="org15b2bf4">Beautify</h2>
-<div class="outline-text-2" id="text-org15b2bf4">
+<div id="outline-container-org25c9db5" class="outline-2">
+<h2 id="org25c9db5">Beautify</h2>
+<div class="outline-text-2" id="text-org25c9db5">
 </div>
-<div id="outline-container-orgbcbaa32" class="outline-3">
-<h3 id="orgbcbaa32">如何隐藏 headlines 前面的一堆*符号？</h3>
-<div class="outline-text-3" id="text-orgbcbaa32">
+<div id="outline-container-org77e4e7d" class="outline-3">
+<h3 id="org77e4e7d">如何隐藏 headlines 前面的一堆*符号？</h3>
+<div class="outline-text-3" id="text-org77e4e7d">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-startup-indented t)
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org559b6b7" class="outline-3">
-<h3 id="org559b6b7">如何将 headlines 的符号从*变成其它符号？</h3>
-<div class="outline-text-3" id="text-org559b6b7">
+<div id="outline-container-org1e99f45" class="outline-3">
+<h3 id="org1e99f45">如何将 headlines 的符号从*变成其它符号？</h3>
+<div class="outline-text-3" id="text-org1e99f45">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-orgf9d8ed9" class="outline-3">
-<h3 id="orgf9d8ed9">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <code>强调</code> 等样式？</h3>
-<div class="outline-text-3" id="text-orgf9d8ed9">
+<div id="outline-container-orgaf4273b" class="outline-3">
+<h3 id="orgaf4273b">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <code>强调</code> 等样式？</h3>
+<div class="outline-text-3" id="text-orgaf4273b">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-hide-emphasis-markers t)
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org1bf13c0" class="outline-3">
-<h3 id="org1bf13c0">如何设置 headline 的 TODO keywords？</h3>
-<div class="outline-text-3" id="text-org1bf13c0">
+<div id="outline-container-org93c4bd6" class="outline-3">
+<h3 id="org93c4bd6">如何设置 headline 的 TODO keywords？</h3>
+<div class="outline-text-3" id="text-org93c4bd6">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; "|"之前的为进行中的状态， 之后的为结束的状态
 (setq org-todo-keywords
@@ -3689,9 +3792,9 @@ Org mode 称为神器一点都不为过，如果你平时工作内容有和文�
 </div>
 </div>
 </div>
-<div id="outline-container-orgb7c79d1" class="outline-3">
-<h3 id="orgb7c79d1">如何给 TODO keywords 增加前景色、背景色？</h3>
-<div class="outline-text-3" id="text-orgb7c79d1">
+<div id="outline-container-org5d1b83d" class="outline-3">
+<h3 id="org5d1b83d">如何给 TODO keywords 增加前景色、背景色？</h3>
+<div class="outline-text-3" id="text-org5d1b83d">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setf org-todo-keyword-faces
       '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
@@ -3710,13 +3813,13 @@ Org mode 称为神器一点都不为过，如果你平时工作内容有和文�
 </div>
 </div>
 </div>
-<div id="outline-container-orgb0bc460" class="outline-2">
-<h2 id="orgb0bc460">Capture-Refile-Archive</h2>
-<div class="outline-text-2" id="text-orgb0bc460">
+<div id="outline-container-orge085408" class="outline-2">
+<h2 id="orge085408">Capture-Refile-Archive</h2>
+<div class="outline-text-2" id="text-orge085408">
 </div>
-<div id="outline-container-org9feea4b" class="outline-3">
-<h3 id="org9feea4b">如何快速记录一些内容到指定文件？</h3>
-<div class="outline-text-3" id="text-org9feea4b">
+<div id="outline-container-org7bdbf21" class="outline-3">
+<h3 id="org7bdbf21">如何快速记录一些内容到指定文件？</h3>
+<div class="outline-text-3" id="text-org7bdbf21">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; 设置默认保存到哪个文件中
 (setq org-default-notes-file "path/to/your/notes")
@@ -3727,9 +3830,9 @@ Org mode 称为神器一点都不为过，如果你平时工作内容有和文�
 </div>
 </div>
 </div>
-<div id="outline-container-org2aedabf" class="outline-3">
-<h3 id="org2aedabf">如何设置不同的快速记录模板？</h3>
-<div class="outline-text-3" id="text-org2aedabf">
+<div id="outline-container-org0c612de" class="outline-3">
+<h3 id="org0c612de">如何设置不同的快速记录模板？</h3>
+<div class="outline-text-3" id="text-org0c612de">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-capture-templates
               '(("p"  ;;快捷键
@@ -3758,9 +3861,9 @@ Org mode 称为神器一点都不为过，如果你平时工作内容有和文�
 </div>
 </div>
 </div>
-<div id="outline-container-org5d9d67b" class="outline-3">
-<h3 id="org5d9d67b">如何快速移动 headline 到指定文件中？</h3>
-<div class="outline-text-3" id="text-org5d9d67b">
+<div id="outline-container-org0203f7c" class="outline-3">
+<h3 id="org0203f7c">如何快速移动 headline 到指定文件中？</h3>
+<div class="outline-text-3" id="text-org0203f7c">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; 设置移动到的目标文件列表为 agenda-files
 (setq org-refile-targets '((org-agenda-files :maxlevel . 3)))
@@ -3772,9 +3875,9 @@ More info: <a href="https://blog.aaronbieber.com/2017/03/19/organizing-notes-wit
 </p>
 </div>
 </div>
-<div id="outline-container-org9949878" class="outline-3">
-<h3 id="org9949878">如何归档已完成事项到其它文件？</h3>
-<div class="outline-text-3" id="text-org9949878">
+<div id="outline-container-orgfd77028" class="outline-3">
+<h3 id="orgfd77028">如何归档已完成事项到其它文件？</h3>
+<div class="outline-text-3" id="text-orgfd77028">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; this is the default: current file is a.org, archive in file a.org_archive
 (setq org-archive-location "%s_archive")
@@ -3847,13 +3950,13 @@ More info: <a href="https://blog.aaronbieber.com/2017/03/19/organizing-notes-wit
 </div>
 </div>
 </div>
-<div id="outline-container-org4d929e0" class="outline-2">
-<h2 id="org4d929e0">Tables</h2>
-<div class="outline-text-2" id="text-org4d929e0">
+<div id="outline-container-org4357723" class="outline-2">
+<h2 id="org4357723">Tables</h2>
+<div class="outline-text-2" id="text-org4357723">
 </div>
-<div id="outline-container-org7d75fb1" class="outline-3">
-<h3 id="org7d75fb1">如何像 Excel 一样，在表格中插入 <code>mini chart</code> ？</h3>
-<div class="outline-text-3" id="text-org7d75fb1">
+<div id="outline-container-org1d51581" class="outline-3">
+<h3 id="org1d51581">如何像 Excel 一样，在表格中插入 <code>mini chart</code> ？</h3>
+<div class="outline-text-3" id="text-org1d51581">
 <pre class="example">
 ;; while the cursor is on a column,
 ;; this command will create a new column
@@ -3906,13 +4009,13 @@ M-x: orgtble-ascii-plot
 </div>
 </div>
 
-<div id="outline-container-org4fd26ff" class="outline-2">
-<h2 id="org4fd26ff">Agendas</h2>
-<div class="outline-text-2" id="text-org4fd26ff">
+<div id="outline-container-orgbc991d1" class="outline-2">
+<h2 id="orgbc991d1">Agendas</h2>
+<div class="outline-text-2" id="text-orgbc991d1">
 </div>
-<div id="outline-container-orgb11bcab" class="outline-3">
-<h3 id="orgb11bcab">如何将 Agenda 中不同时间长度的事项显示不同的大小？</h3>
-<div class="outline-text-3" id="text-orgb11bcab">
+<div id="outline-container-orgb88c3ea" class="outline-3">
+<h3 id="orgb88c3ea">如何将 Agenda 中不同时间长度的事项显示不同的大小？</h3>
+<div class="outline-text-3" id="text-orgb88c3ea">
 <p>
 Dotfile Configuration 见 <a href="https://gist.github.com/lijigang/3c9326a2cf86b50f9041c20c74398bb1">gist</a>
 </p>
@@ -3923,9 +4026,9 @@ Dotfile Configuration 见 <a href="https://gist.github.com/lijigang/3c9326a2cf86
   />
 </div>
 </div>
-<div id="outline-container-org5fb20b8" class="outline-3">
-<h3 id="org5fb20b8">如何设置 agenda 中时间的显示格式？</h3>
-<div class="outline-text-3" id="text-org5fb20b8">
+<div id="outline-container-org52a89b3" class="outline-3">
+<h3 id="org52a89b3">如何设置 agenda 中时间的显示格式？</h3>
+<div class="outline-text-3" id="text-org52a89b3">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; if set it to t, 9:30am would become 09:30.
 (setq org-agenda-time-leading-zero t)
@@ -3933,18 +4036,18 @@ Dotfile Configuration 见 <a href="https://gist.github.com/lijigang/3c9326a2cf86
 </div>
 </div>
 </div>
-<div id="outline-container-org244fc59" class="outline-3">
-<h3 id="org244fc59">如何隐藏 agenda 中的分隔线？</h3>
-<div class="outline-text-3" id="text-org244fc59">
+<div id="outline-container-org240263e" class="outline-3">
+<h3 id="org240263e">如何隐藏 agenda 中的分隔线？</h3>
+<div class="outline-text-3" id="text-org240263e">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-agenda-use-time-grid nil)
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-orgfe105dd" class="outline-3">
-<h3 id="orgfe105dd">如何在 agenda 中显示本地的日出日落时间？</h3>
-<div class="outline-text-3" id="text-orgfe105dd">
+<div id="outline-container-org331edf7" class="outline-3">
+<h3 id="org331edf7">如何在 agenda 中显示本地的日出日落时间？</h3>
+<div class="outline-text-3" id="text-org331edf7">
 <ol class="org-ol">
 <li>相关 Dotfile configuration 见 <a href="https://gist.github.com/lijigang/c865a2a4d075c75b4aeb61fe0f9102b6">gist</a></li>
 <li>在 standard-dairy 文件中写入下面内容</li>
@@ -3972,13 +4075,13 @@ Tuesday    21 April 2020
 </div>
 </div>
 </div>
-<div id="outline-container-orgd11e2cf" class="outline-2">
-<h2 id="orgd11e2cf">Others</h2>
-<div class="outline-text-2" id="text-orgd11e2cf">
+<div id="outline-container-org4417ace" class="outline-2">
+<h2 id="org4417ace">Others</h2>
+<div class="outline-text-2" id="text-org4417ace">
 </div>
-<div id="outline-container-orgf6a2c4c" class="outline-3">
-<h3 id="orgf6a2c4c">如何用 org 文件管理 RSS 订阅？</h3>
-<div class="outline-text-3" id="text-orgf6a2c4c">
+<div id="outline-container-orge285d34" class="outline-3">
+<h3 id="orge285d34">如何用 org 文件管理 RSS 订阅？</h3>
+<div class="outline-text-3" id="text-orge285d34">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; use an org file to organise feeds
 (use-package elfeed-org
@@ -3994,9 +4097,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </p>
 </div>
 </div>
-<div id="outline-container-orgf1013dd" class="outline-3">
-<h3 id="orgf1013dd">如何在 org 中使用 PlantUML？</h3>
-<div class="outline-text-3" id="text-orgf1013dd">
+<div id="outline-container-org92e3132" class="outline-3">
+<h3 id="org92e3132">如何在 org 中使用 PlantUML？</h3>
+<div class="outline-text-3" id="text-org92e3132">
 <ol class="org-ol">
 <li>下载编译好的 <a href="https://plantuml.com/zh/download">PlantUML jar file</a></li>
 <li>安装 Graphviz <code>brew install graphviz</code></li>
@@ -4034,9 +4137,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 个发展史时, 人类所处的几个特色鲜明的历史时期是如此清晰.
 </p>
 
-<div id="outline-container-org78ebb0e" class="outline-2">
-<h2 id="org78ebb0e">认知革命</h2>
-<div class="outline-text-2" id="text-org78ebb0e">
+<div id="outline-container-org4a2bd52" class="outline-2">
+<h2 id="org4a2bd52">认知革命</h2>
+<div class="outline-text-2" id="text-org4a2bd52">
 <p>
 人类进化起缘于森林古猿, 经历了南方古猿→能人→直立人→智人阶段， 在这过程中，
 人类直立行走是个标志性事件，导致了人类脑容量的持续提升。
@@ -4054,9 +4157,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-org6474839" class="outline-2">
-<h2 id="org6474839">农业革命</h2>
-<div class="outline-text-2" id="text-org6474839">
+<div id="outline-container-orgd024357" class="outline-2">
+<h2 id="orgd024357">农业革命</h2>
+<div class="outline-text-2" id="text-orgd024357">
 <p>
 随着人类逐渐拥有种植农作物的能力， 人类进入到了农业文明。人类不再游猎，
 而是定居在一个地区， 在田地里进行劳作， 并逐渐分化出国王、官吏、战士等等
@@ -4069,9 +4172,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-orgf469ae6" class="outline-2">
-<h2 id="orgf469ae6">三大信念</h2>
-<div class="outline-text-2" id="text-orgf469ae6">
+<div id="outline-container-org9131fd6" class="outline-2">
+<h2 id="org9131fd6">三大信念</h2>
+<div class="outline-text-2" id="text-org9131fd6">
 <p>
 人类很早就产生了天下一家的理念， 而 <b>金钱</b> 、 <b>帝国</b> 、 <b>宗教</b> 这三大力量成为
 全球统一的重要推力。
@@ -4094,9 +4197,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-org33e3ed7" class="outline-2">
-<h2 id="org33e3ed7">科学革命</h2>
-<div class="outline-text-2" id="text-org33e3ed7">
+<div id="outline-container-orgfaea1eb" class="outline-2">
+<h2 id="orgfaea1eb">科学革命</h2>
+<div class="outline-text-2" id="text-orgfaea1eb">
 <p>
 在牛顿创立数学工具之后， 人类终于拥有了坚实的工具进行科学研究。牛顿不仅
 奠定了现代工程学的基础，更开启了现代理性价值观和方法论。
@@ -4131,9 +4234,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 最近学习完了 <b>刘润</b> 在 <code>得到</code> 上面的商业通识课程, 收获颇丰, 记录于此.
 </p>
 
-<div id="outline-container-org3f51188" class="outline-2">
-<h2 id="org3f51188">交易成本</h2>
-<div class="outline-text-2" id="text-org3f51188">
+<div id="outline-container-org298896e" class="outline-2">
+<h2 id="org298896e">交易成本</h2>
+<div class="outline-text-2" id="text-org298896e">
 <blockquote>
 <p>
 商业的本质, 是 <b>交易</b>.
@@ -4149,9 +4252,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </p>
 </div>
 
-<div id="outline-container-org9e0e6e1" class="outline-3">
-<h3 id="org9e0e6e1">交易前: 搜寻成本</h3>
-<div class="outline-text-3" id="text-org9e0e6e1">
+<div id="outline-container-org3de7cd1" class="outline-3">
+<h3 id="org3de7cd1">交易前: 搜寻成本</h3>
+<div class="outline-text-3" id="text-org3de7cd1">
 <p>
 在你想买一件商品的时候, 你能不能便捷地接触到它?
 </p>
@@ -4170,9 +4273,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-orge49b38a" class="outline-3">
-<h3 id="orge49b38a">交易前: 比较成本</h3>
-<div class="outline-text-3" id="text-orge49b38a">
+<div id="outline-container-org0251fe6" class="outline-3">
+<h3 id="org0251fe6">交易前: 比较成本</h3>
+<div class="outline-text-3" id="text-org0251fe6">
 <p>
 在你想买一件商品的时候, 你能不能便捷地比较不同 <code>供应商</code> 的优劣?
 </p>
@@ -4195,9 +4298,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-orga98ff34" class="outline-3">
-<h3 id="orga98ff34">交易中: 法务成本</h3>
-<div class="outline-text-3" id="text-orga98ff34">
+<div id="outline-container-orge0d91b4" class="outline-3">
+<h3 id="orge0d91b4">交易中: 法务成本</h3>
+<div class="outline-text-3" id="text-orge0d91b4">
 <p>
 在你想购买一个商品的时候, 怎么能确保对方不是在给你设套, 回手告你一把?
 </p>
@@ -4213,9 +4316,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </p>
 </div>
 </div>
-<div id="outline-container-orgfb0c39d" class="outline-3">
-<h3 id="orgfb0c39d">交易中: 财务成本</h3>
-<div class="outline-text-3" id="text-orgfb0c39d">
+<div id="outline-container-org468b5e3" class="outline-3">
+<h3 id="org468b5e3">交易中: 财务成本</h3>
+<div class="outline-text-3" id="text-org468b5e3">
 <p>
 在你想买一件商品的时候, 怎么能确保对方不是在给你设套, 收到钱后不发货?
 </p>
@@ -4234,9 +4337,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-org9126647" class="outline-3">
-<h3 id="org9126647">交易后: 物流成本</h3>
-<div class="outline-text-3" id="text-org9126647">
+<div id="outline-container-org4211a99" class="outline-3">
+<h3 id="org4211a99">交易后: 物流成本</h3>
+<div class="outline-text-3" id="text-org4211a99">
 <p>
 为了物理上完成商品的交付, 必须付的运输、保管及管理成本.
 </p>
@@ -4257,9 +4360,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-org7a1290a" class="outline-3">
-<h3 id="org7a1290a">交易后: 售后成本</h3>
-<div class="outline-text-3" id="text-org7a1290a">
+<div id="outline-container-org600a9dc" class="outline-3">
+<h3 id="org600a9dc">交易后: 售后成本</h3>
+<div class="outline-text-3" id="text-org600a9dc">
 <p>
 为保障承诺的产品正常使用, 必须付出的服务成本.
 </p>
@@ -4280,9 +4383,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-org587a6de" class="outline-2">
-<h2 id="org587a6de">红利和利润</h2>
-<div class="outline-text-2" id="text-org587a6de">
+<div id="outline-container-orgedc76e9" class="outline-2">
+<h2 id="orgedc76e9">红利和利润</h2>
+<div class="outline-text-2" id="text-orgedc76e9">
 <blockquote>
 <p>
 你以为你在创业, 其实只是在为社会打工.
@@ -4320,9 +4423,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-org8df2f74" class="outline-2">
-<h2 id="org8df2f74">四种护城河</h2>
-<div class="outline-text-2" id="text-org8df2f74">
+<div id="outline-container-orgdd475d5" class="outline-2">
+<h2 id="orgdd475d5">四种护城河</h2>
+<div class="outline-text-2" id="text-orgdd475d5">
 <blockquote>
 <p>
 用护城河, 把时代降临的 <code>红利</code>, 守护为丰厚的 <code>利润</code>, 避免只拿微薄的 <code>工资</code>.
@@ -4330,9 +4433,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </blockquote>
 </div>
 
-<div id="outline-container-orgb3100a5" class="outline-3">
-<h3 id="orgb3100a5">无形资产: 许可和品牌</h3>
-<div class="outline-text-3" id="text-orgb3100a5">
+<div id="outline-container-orgfcecd8b" class="outline-3">
+<h3 id="orgfcecd8b">无形资产: 许可和品牌</h3>
+<div class="outline-text-3" id="text-orgfcecd8b">
 <p>
 <code>许可</code>, 就是我能做, 但你不能做的事.
 </p>
@@ -4371,9 +4474,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-orgeb3e4e4" class="outline-3">
-<h3 id="orgeb3e4e4">成本优势</h3>
-<div class="outline-text-3" id="text-orgeb3e4e4">
+<div id="outline-container-orgf3ebcbd" class="outline-3">
+<h3 id="orgf3ebcbd">成本优势</h3>
+<div class="outline-text-3" id="text-orgf3ebcbd">
 <p>
 成本 = (固定成本/销售规模) + 变动成本
 </p>
@@ -4384,9 +4487,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-org30a697a" class="outline-3">
-<h3 id="org30a697a">网络效应</h3>
-<div class="outline-text-3" id="text-org30a697a">
+<div id="outline-container-org7543437" class="outline-3">
+<h3 id="org7543437">网络效应</h3>
+<div class="outline-text-3" id="text-org7543437">
 <p>
 网络效应, 就是某种产品对一名用户的价值, 取决于使用这个产品的其它用户的数量.
 </p>
@@ -4407,9 +4510,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-orgadf2c05" class="outline-3">
-<h3 id="orgadf2c05">迁移成本</h3>
-<div class="outline-text-3" id="text-orgadf2c05">
+<div id="outline-container-org6b64d26" class="outline-3">
+<h3 id="org6b64d26">迁移成本</h3>
+<div class="outline-text-3" id="text-org6b64d26">
 <p>
 通过建立用户习惯和用户数据, 来提高用户外迁逃离的成本.
 </p>
@@ -4422,9 +4525,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 </div>
-<div id="outline-container-orga9ca227" class="outline-2">
-<h2 id="orga9ca227">你想当什么商业角色</h2>
-<div class="outline-text-2" id="text-orga9ca227">
+<div id="outline-container-orgba369cd" class="outline-2">
+<h2 id="orgba369cd">你想当什么商业角色</h2>
+<div class="outline-text-2" id="text-orgba369cd">
 <img
   src="/assets/blog/2020/05/25/learn-business-common-sense/business-roles.jpeg"
   width="80%"
@@ -4446,9 +4549,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
         <div class="col-md-2"></div>
             <h1>读书: 未来简史</h1>
             
-<div id="outline-container-orgef10b86" class="outline-2">
-<h2 id="orgef10b86">宗教统治世界</h2>
-<div class="outline-text-2" id="text-orgef10b86">
+<div id="outline-container-orgbc0aa02" class="outline-2">
+<h2 id="orgbc0aa02">宗教统治世界</h2>
+<div class="outline-text-2" id="text-orgbc0aa02">
 <p>
 宗教给世界带来了秩序, 也为社会带来了意义.
 </p>
@@ -4478,9 +4581,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-org23a783a" class="outline-2">
-<h2 id="org23a783a">人文主义征服世界</h2>
-<div class="outline-text-2" id="text-org23a783a">
+<div id="outline-container-org76a2d7b" class="outline-2">
+<h2 id="org76a2d7b">人文主义征服世界</h2>
+<div class="outline-text-2" id="text-org76a2d7b">
 <p>
 近代以后, 人文主义诞生了, 它认为 <code>人</code> 才是世界的根本意义.
 </p>
@@ -4513,9 +4616,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-orgf3accb8" class="outline-2">
-<h2 id="orgf3accb8">数据主义接管世界</h2>
-<div class="outline-text-2" id="text-orgf3accb8">
+<div id="outline-container-orgd64a4a6" class="outline-2">
+<h2 id="orgd64a4a6">数据主义接管世界</h2>
+<div class="outline-text-2" id="text-orgd64a4a6">
 <p>
 现代生物科学将人的行为看作是体内生物算法的作用表现, 输入数据, 算法预算后
 得出结果, 而生物在受到刺激后作出适当反应.
@@ -4633,9 +4736,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </tbody>
 </table>
 
-<div id="outline-container-orgba1aab5" class="outline-2">
-<h2 id="orgba1aab5">程序化交易模式</h2>
-<div class="outline-text-2" id="text-orgba1aab5">
+<div id="outline-container-org37c185b" class="outline-2">
+<h2 id="org37c185b">程序化交易模式</h2>
+<div class="outline-text-2" id="text-org37c185b">
 <img
   src="/assets/blog/2020/05/20/programmatic-advertising/prgrammatic-advertising-exchange.png"
   width="80%"
@@ -4653,9 +4756,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </p>
 </div>
 
-<div id="outline-container-org7ad09cc" class="outline-3">
-<h3 id="org7ad09cc">头部竞价(Header Bidding)</h3>
-<div class="outline-text-3" id="text-org7ad09cc">
+<div id="outline-container-org863b98a" class="outline-3">
+<h3 id="org863b98a">头部竞价(Header Bidding)</h3>
+<div class="outline-text-3" id="text-org863b98a">
 <p>
 广告主直接在媒体网站或 APP 中埋入 js 或 SDK 代码, 这样媒体加载广告时, 优先向已对
 接的广告主发送广告请求, 广告主未购买的剩余流量才会调用广告服务器, 进入广告交易平
@@ -4668,17 +4771,17 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </p>
 </div>
 </div>
-<div id="outline-container-orgb5b06d8" class="outline-3">
-<h3 id="orgb5b06d8">PDB(Programmatic Direct Buying)</h3>
-<div class="outline-text-3" id="text-orgb5b06d8">
+<div id="outline-container-org0f55767" class="outline-3">
+<h3 id="org0f55767">PDB(Programmatic Direct Buying)</h3>
+<div class="outline-text-3" id="text-org0f55767">
 <p>
 一对一交易: 媒体方和品牌广告主直接协商交易.
 </p>
 </div>
 
-<div id="outline-container-orgebf274a" class="outline-4">
-<h4 id="orgebf274a">首选交易(Preferred Deals)</h4>
-<div class="outline-text-4" id="text-orgebf274a">
+<div id="outline-container-orgc1806ae" class="outline-4">
+<h4 id="orgc1806ae">首选交易(Preferred Deals)</h4>
+<div class="outline-text-4" id="text-orgc1806ae">
 <ul class="org-ul">
 <li>保价不保量</li>
 <li>广告主方强势, 可以只买想要的流量</li>
@@ -4686,9 +4789,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-org9f676a0" class="outline-4">
-<h4 id="org9f676a0">程序化保量(Programmatic Guaranteed)</h4>
-<div class="outline-text-4" id="text-org9f676a0">
+<div id="outline-container-org9ae2f99" class="outline-4">
+<h4 id="org9ae2f99">程序化保量(Programmatic Guaranteed)</h4>
+<div class="outline-text-4" id="text-org9ae2f99">
 <ul class="org-ul">
 <li>国内目前主流保量玩法</li>
 <li>媒体方强势, 保量不保质, 广告主相当于是包断了一定的流量</li>
@@ -4696,9 +4799,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 </div>
-<div id="outline-container-org7b7b528" class="outline-3">
-<h3 id="org7b7b528">RTB(Real-time bidding)</h3>
-<div class="outline-text-3" id="text-org7b7b528">
+<div id="outline-container-org7bb0d6f" class="outline-3">
+<h3 id="org7bb0d6f">RTB(Real-time bidding)</h3>
+<div class="outline-text-3" id="text-org7bb0d6f">
 <p>
 一对多: 一个广告交易平台 对 多个广告主
 </p>
@@ -4708,9 +4811,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
   width="80%"
   />
 </div>
-<div id="outline-container-orgba3a078" class="outline-4">
-<h4 id="orgba3a078">Open RTB</h4>
-<div class="outline-text-4" id="text-orgba3a078">
+<div id="outline-container-org151badb" class="outline-4">
+<h4 id="org151badb">Open RTB</h4>
+<div class="outline-text-4" id="text-org151badb">
 <ul class="org-ul">
 <li>剩余流量(高价售卖后剩余的流量)</li>
 <li>价高者得, 次高价结算</li>
@@ -4719,9 +4822,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-org62ebbf0" class="outline-4">
-<h4 id="org62ebbf0">Private RTB 、PMP(Private Marketplace)</h4>
-<div class="outline-text-4" id="text-org62ebbf0">
+<div id="outline-container-org6e3e13c" class="outline-4">
+<h4 id="org6e3e13c">Private RTB 、PMP(Private Marketplace)</h4>
+<div class="outline-text-4" id="text-org6e3e13c">
 <ul class="org-ul">
 <li>价高者得, 次高价结算</li>
 <li>流量库存和价格不固定</li>
@@ -4755,22 +4858,22 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </div>
 </div>
 
-<div id="outline-container-orgcf24344" class="outline-2">
-<h2 id="orgcf24344">关键概念流程图</h2>
-<div class="outline-text-2" id="text-orgcf24344">
+<div id="outline-container-orgd778b97" class="outline-2">
+<h2 id="orgd778b97">关键概念流程图</h2>
+<div class="outline-text-2" id="text-orgd778b97">
 </div>
-<div id="outline-container-org5ddf0b6" class="outline-3">
-<h3 id="org5ddf0b6">用户数据中心</h3>
-<div class="outline-text-3" id="text-org5ddf0b6">
+<div id="outline-container-org165a96f" class="outline-3">
+<h3 id="org165a96f">用户数据中心</h3>
+<div class="outline-text-3" id="text-org165a96f">
 <img
   src="/assets/blog/2020/05/20/programmatic-advertising/user-data-center.png"
   width="80%"
   />
 </div>
 </div>
-<div id="outline-container-orgcac8bef" class="outline-3">
-<h3 id="orgcac8bef">数据统计</h3>
-<div class="outline-text-3" id="text-orgcac8bef">
+<div id="outline-container-orgd5fb822" class="outline-3">
+<h3 id="orgd5fb822">数据统计</h3>
+<div class="outline-text-3" id="text-orgd5fb822">
 <p>
 <b>Web 数据统计</b>
 </p>
@@ -4805,9 +4908,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
         <div class="col-md-2"></div>
             <h1>学习: 必会技能之一 Excel</h1>
             
-<div id="outline-container-orgf0cb1d9" class="outline-2">
-<h2 id="orgf0cb1d9">表格 <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></h2>
-<div class="outline-text-2" id="text-orgf0cb1d9">
+<div id="outline-container-org8df0657" class="outline-2">
+<h2 id="org8df0657">表格 <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></h2>
+<div class="outline-text-2" id="text-org8df0657">
 <img
   src="/assets/blog/2019/03/19/learn-excel/excel-table.png"
   width="50%"
@@ -4818,10 +4921,10 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </p>
 </div>
 <ul class="org-ul">
-<li><a id="org456db6e"></a>字体统一, 字号统一<br /></li>
-<li><a id="org9e76e3d"></a>数字用千位分隔样式<br /></li>
-<li><a id="org37cfa20"></a>细项要缩进<br />
-<div class="outline-text-5" id="text-org37cfa20">
+<li><a id="org1954c30"></a>字体统一, 字号统一<br /></li>
+<li><a id="orgfd9be38"></a>数字用千位分隔样式<br /></li>
+<li><a id="org209b869"></a>细项要缩进<br />
+<div class="outline-text-5" id="text-org209b869">
 <ul class="org-ul">
 <li>不要用 A1 开始使用, 从 B2 开始</li>
 <li>B/C 列宽度设置为 1, 方便缩进呈现</li>
@@ -4829,35 +4932,35 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </ul>
 </div>
 </li>
-<li><a id="org398b83a"></a>单位要自成一栏<br /></li>
-<li><a id="org7515481"></a>上下边框用粗线, 中间用细虚线<br />
-<div class="outline-text-5" id="text-org7515481">
+<li><a id="orgfd063fc"></a>单位要自成一栏<br /></li>
+<li><a id="orgef5d221"></a>上下边框用粗线, 中间用细虚线<br />
+<div class="outline-text-5" id="text-orgef5d221">
 <ul class="org-ul">
 <li>隐藏网格线 或者 整张表格背景色设置为白色</li>
 </ul>
 </div>
 </li>
-<li><a id="org088f026"></a>文字左对齐, 数字右对齐, 慎用居中<br />
-<div class="outline-text-5" id="text-org088f026">
+<li><a id="org497f912"></a>文字左对齐, 数字右对齐, 慎用居中<br />
+<div class="outline-text-5" id="text-org497f912">
 <ul class="org-ul">
 <li>列标题中, 如该列为数字列, 标题文字右对齐, 和该列数据估计一致</li>
 </ul>
 </div>
 </li>
-<li><a id="org6346f15"></a>手动输入数字用蓝色, 公式计算数字用黑色<br />
-<div class="outline-text-5" id="text-org6346f15">
+<li><a id="org6c6b984"></a>手动输入数字用蓝色, 公式计算数字用黑色<br />
+<div class="outline-text-5" id="text-org6c6b984">
 <ul class="org-ul">
 <li>如有不需要填入数据单元格, 可用 N/A (not applicable) 表示</li>
 <li>重点数据行, 可填充颜色来强调</li>
 </ul>
 </div>
 </li>
-<li><a id="org7f3355c"></a>凡使用的工作表, 设定名称; 凡不使用的工作表, 删之<br /></li>
+<li><a id="org6e3ebb1"></a>凡使用的工作表, 设定名称; 凡不使用的工作表, 删之<br /></li>
 </ul>
 </div>
-<div id="outline-container-org4937a57" class="outline-2">
-<h2 id="org4937a57">图表 <sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></h2>
-<div class="outline-text-2" id="text-org4937a57">
+<div id="outline-container-orgc812035" class="outline-2">
+<h2 id="orgc812035">图表 <sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></h2>
+<div class="outline-text-2" id="text-orgc812035">
 <p>
 to be continued..
 </p>
@@ -4915,13 +5018,13 @@ to be continued..
 各行业的商业模型会有些差异, 对应到这个公式中的指标会有细拆或组合的情况. 但本质上, 都是这四个关键因素的乘积.
 </p>
 
-<div id="outline-container-orgdc6c813" class="outline-2">
-<h2 id="orgdc6c813">流量</h2>
-<div class="outline-text-2" id="text-orgdc6c813">
+<div id="outline-container-orga62c11a" class="outline-2">
+<h2 id="orga62c11a">流量</h2>
+<div class="outline-text-2" id="text-orga62c11a">
 </div>
-<div id="outline-container-orgb30e474" class="outline-3">
-<h3 id="orgb30e474">流量洼地 = 低获客成本</h3>
-<div class="outline-text-3" id="text-orgb30e474">
+<div id="outline-container-org295e537" class="outline-3">
+<h3 id="org295e537">流量洼地 = 低获客成本</h3>
+<div class="outline-text-3" id="text-org295e537">
 <p>
 在商人眼中，对于流量就是一句：如何以 <code>尽可能低的价格</code> 获得 <code>尽可能多的流量</code> 。
 </p>
@@ -4951,9 +5054,9 @@ to be continued..
 </div>
 </div>
 
-<div id="outline-container-orge91b90f" class="outline-3">
-<h3 id="orge91b90f">引流品 = 抓手</h3>
-<div class="outline-text-3" id="text-orge91b90f">
+<div id="outline-container-org331f397" class="outline-3">
+<h3 id="org331f397">引流品 = 抓手</h3>
+<div class="outline-text-3" id="text-org331f397">
 <p>
 除了花钱买流量以外，还可以通过利润换流量的玩法来创造流量。
 </p>
@@ -4978,9 +5081,9 @@ to be continued..
 </div>
 </div>
 
-<div id="outline-container-orga8998c5" class="outline-3">
-<h3 id="orga8998c5">关联流量 = 精准流量</h3>
-<div class="outline-text-3" id="text-orga8998c5">
+<div id="outline-container-org2099c28" class="outline-3">
+<h3 id="org2099c28">关联流量 = 精准流量</h3>
+<div class="outline-text-3" id="text-org2099c28">
 <p>
 想获得流量，要先分析你的用户群体都在哪，然后去他们经常在的地方吸引他们的注意力，把他们拉到你的地方去消费。
 </p>
@@ -4996,17 +5099,17 @@ to be continued..
 </div>
 </div>
 
-<div id="outline-container-orgef52826" class="outline-2">
-<h2 id="orgef52826">转化率</h2>
-<div class="outline-text-2" id="text-orgef52826">
+<div id="outline-container-orge982e6d" class="outline-2">
+<h2 id="orge982e6d">转化率</h2>
+<div class="outline-text-2" id="text-orge982e6d">
 <p>
 你通过购买流量或者创造流量的方式，吸引了大量目标用户进来。下一步就是要解决如何让他们掏腰包购买你产品的问题了。
 </p>
 </div>
 
-<div id="outline-container-org255e40a" class="outline-3">
-<h3 id="org255e40a">展示设计</h3>
-<div class="outline-text-3" id="text-org255e40a">
+<div id="outline-container-org0328978" class="outline-3">
+<h3 id="org0328978">展示设计</h3>
+<div class="outline-text-3" id="text-org0328978">
 <p>
 除了产品本身的包装设计以外， 还有一个 <code>动线设计</code> 的基本功需要修炼。
 </p>
@@ -5032,9 +5135,9 @@ to be continued..
 </div>
 </div>
 
-<div id="outline-container-org8f12461" class="outline-3">
-<h3 id="org8f12461">决策时间</h3>
-<div class="outline-text-3" id="text-org8f12461">
+<div id="outline-container-org23dba7b" class="outline-3">
+<h3 id="org23dba7b">决策时间</h3>
+<div class="outline-text-3" id="text-org23dba7b">
 <p>
 消费者在线下购买一个产品，平均决策时间是 13 秒； 线上是 19 秒。
 </p>
@@ -5089,9 +5192,9 @@ to be continued..
 </div>
 </div>
 
-<div id="outline-container-orgfda44b6" class="outline-2">
-<h2 id="orgfda44b6">客单价</h2>
-<div class="outline-text-2" id="text-orgfda44b6">
+<div id="outline-container-orgf14e0ae" class="outline-2">
+<h2 id="orgf14e0ae">客单价</h2>
+<div class="outline-text-2" id="text-orgf14e0ae">
 <p>
 用户被你吸引到店里，也确实下单了，如何提升客单价？
 </p>
@@ -5122,13 +5225,13 @@ to be continued..
 </div>
 </div>
 
-<div id="outline-container-orge21f65b" class="outline-2">
-<h2 id="orge21f65b">复购率</h2>
-<div class="outline-text-2" id="text-orge21f65b">
+<div id="outline-container-org38074d2" class="outline-2">
+<h2 id="org38074d2">复购率</h2>
+<div class="outline-text-2" id="text-org38074d2">
 </div>
-<div id="outline-container-org01a2461" class="outline-3">
-<h3 id="org01a2461">会员制</h3>
-<div class="outline-text-3" id="text-org01a2461">
+<div id="outline-container-org77a66a4" class="outline-3">
+<h3 id="org77a66a4">会员制</h3>
+<div class="outline-text-3" id="text-org77a66a4">
 <p>
 用户永远想要更优惠的价格， 商家是想更多的流量，可以接受薄利多销。
 </p>
@@ -5164,167 +5267,6 @@ to be continued..
 ]]></description>
       <pubDate>2020-05-17</pubDate>
       <guid>http://lijigang.github.io/blog/2018/05/14/learn-business</guid>
-    </item>
-    <item>
-      <title>读书: 远见</title>
-      <link>http://lijigang.github.io/blog/2020/02/24/read-the-long-view</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>读书: 远见</h1>
-            <p>
-在这本书中, 作者把职业生涯分成三个主要阶段，每一阶段都持续大约 15 年，且各有各的
-主导策略。
-</p>
-
-<div id="outline-container-orgf372e2c" class="outline-2">
-<h2 id="orgf372e2c">职业阶段</h2>
-<div class="outline-text-2" id="text-orgf372e2c">
-<ol class="org-ol">
-<li><p>
-<b>第一阶段：寻找短板, 加添燃料</b>
-</p>
-
-<p>
-整个第一阶段往往长达 15 年，是一个学习和探索的过程，充满了尝试和错误。
-</p>
-
-<p>
-在这个阶段, 你的主要目标并不是找到一份你每天都津津乐道的神话般的工作，而
-是要找出你擅长什么、不擅长什么、喜欢做什么，不喜欢做什么。
-</p>
-
-<p>
-最终, 你要在这个阶段找到你的 <b>甜蜜区</b>.
-</p></li>
-
-<li><p>
-<b>第二阶段：锚定优势, 聚焦长板</b>
-</p>
-
-<p>
-在这个阶段, 你需要思考你能获得多高的成就, 你下一步的方向在哪里, 你要如何避免
-倦怠, 你要如何收割你第一阶段打下的红利.
-</p>
-
-<p>
-最终, 你要在这个阶段找到你的 <b>差异点</b>.
-</p></li>
-
-<li><p>
-<b>第三阶段：个人品牌, 持续影响</b>
-</p>
-
-<p>
-在这个阶段, 你要从执行或领导的角色, 转变成顾问或辅助的角色.
-</p></li>
-</ol>
-</div>
-</div>
-
-
-<div id="outline-container-org8058471" class="outline-2">
-<h2 id="org8058471">职场燃料</h2>
-<div class="outline-text-2" id="text-org8058471">
-<p>
-重点储备下面三类燃料, 他们可以让你获得更多地 <b>选择权</b>, 同时可以让你的 <b>适应性</b> 变得
-更强.
-</p>
-
-<ol class="org-ol">
-<li><p>
-可迁移技能
-</p>
-
-<p>
-指的是你在职业生涯中获取并拥有的各种基本能力, 搜集信息能力、解决问题能力、说
-服力、情商、以及沟通表达等等.
-</p></li>
-
-<li><p>
-有意义的经验
-</p>
-
-<p>
-不要当温室里的花朵, 不要只做确定性环境中的固定事情. 多接触些新的领域, 学习一
-些新的方法.
-</p>
-
-<p>
-世界一直在变化, 你不说要随时跟着世界变, 起码不能一成不变.
-</p></li>
-
-<li><p>
-持久的关系
-</p>
-
-<p>
-你工作这么久, 你的职业生态圈是什么样的?
-</p>
-
-<p>
-你的联系人有多少? 你有没有专家团? 现在的工作中有哪些关键同事是你的支持者?
-</p>
-
-<img
-  src="/assets/blog/2020/02/24/read-the-long-view/career-path.png"
-  width="80%"
-  /></li>
-</ol>
-</div>
-</div>
-<div id="outline-container-org77d9521" class="outline-2">
-<h2 id="org77d9521">年度复盘</h2>
-<div class="outline-text-2" id="text-org77d9521">
-<p>
-每年年底从这四个方面来回顾下自己是否赚到了:
-</p>
-
-<ol class="org-ol">
-<li><p>
-成长
-</p>
-
-<p>
-今年对比去年有什么进步? 学到了什么新的东西?
-</p></li>
-
-<li><p>
-影响力
-</p>
-
-<p>
-你在公司内的影响力有没有获得提升? 你在圈内的影响力有没有扩大?
-</p></li>
-
-<li><p>
-乐趣
-</p>
-
-<p>
-每天叫醒你的是闹钟还是想去公司做事的激情?
-</p>
-
-<p>
-每天上班如上坟? 还是上班如打仗? 还是工作使你快乐?
-</p></li>
-
-<li><p>
-经济
-</p>
-
-<p>
-冰山下的成长, 有没有体现冰山上面? 你的年薪是否有满意的提升?
-</p></li>
-</ol>
-</div>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2020-05-17</pubDate>
-      <guid>http://lijigang.github.io/blog/2020/02/24/read-the-long-view</guid>
     </item>
   </channel>
 </rss>
