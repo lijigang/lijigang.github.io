@@ -45,8 +45,8 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org4c0f109">小修: 修改 init.el</a></li>
-<li><a href="#org43054e0">大改: 定义 private layer</a></li>
+<li><a href="#orga6aa2b3">小修: 修改 init.el</a></li>
+<li><a href="#orgaacbf7f">大改: 定义 private layer</a></li>
 </ul>
 </div>
 </div>
@@ -70,9 +70,9 @@
 然后就可以开始你的个性化定制了, 这里分为两种定制, 一种是 <code>小修</code> 你通过修改 Spacemacs 变量配置来定制, 另一种是 <code>大改</code> 你通过 Spacemacs 的 layer 机制, 定制自己的使用场景.
 </p>
 
-<div id="outline-container-org4c0f109" class="outline-2">
-<h2 id="org4c0f109">小修: 修改 init.el</h2>
-<div class="outline-text-2" id="text-org4c0f109">
+<div id="outline-container-orga6aa2b3" class="outline-2">
+<h2 id="orga6aa2b3">小修: 修改 init.el</h2>
+<div class="outline-text-2" id="text-orga6aa2b3">
 <p>
 init.el 中一共有四个函数:
 </p>
@@ -92,7 +92,7 @@ init.el 中一共有四个函数:
 </p>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org2fd66cc">;; 出厂自带的基础 layer, 默认选择 spacemacs 就好.
+<pre class="src src-emacs-lisp" id="org4eb054c">;; 出厂自带的基础 layer, 默认选择 spacemacs 就好.
 dotspacemacs-distribution 'spacemacs
 
 ;; 使用到了某些 layer 再安装就行
@@ -141,7 +141,7 @@ dotspacemacs-install-packages 'used-only
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org012c4a7">;; 使用 https 连接服务器下载 packages
+<pre class="src src-emacs-lisp" id="org0501543">;; 使用 https 连接服务器下载 packages
 dotspacemacs-elpa-https t
 
 ;; 连接超时时间设置为 5 秒
@@ -208,7 +208,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="orgd7ae211">;; 默认源太慢了, 建议使用子龙山人的国内镜像源
+<pre class="src src-emacs-lisp" id="org51cf0e9">;; 默认源太慢了, 建议使用子龙山人的国内镜像源
 (setq configuration-layer--elpa-archives
       '(("melpai-cn" . "http://elpa.zilongshanren.com/melpa/")
         ("org-cn"   . "http://elpa.zilongshanren.com/org/")
@@ -225,7 +225,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="orga88bed9">;; 设置 todo keywords
+<pre class="src src-emacs-lisp" id="org4a942fb">;; 设置 todo keywords
 (setq org-todo-keywords
       '((sequence "TODO" "HACK" "|" "DONE")))
 
@@ -262,7 +262,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="orgf1d7d85">;; stop emacs asking for confirmation when eval source code
+<pre class="src src-emacs-lisp" id="org57131a9">;; stop emacs asking for confirmation when eval source code
 (setq org-confirm-babel-evaluate nil)
 
 ;; active Org-babel languages
@@ -278,7 +278,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org4fd00bf">;; 调试好久的颜色，效果超赞！todo keywords 增加背景色
+<pre class="src src-emacs-lisp" id="orgdd3b7c1">;; 调试好久的颜色，效果超赞！todo keywords 增加背景色
 (setf org-todo-keyword-faces '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
                                ("HACK" . (:foreground "white" :background "#2E8B57"  :weight bold))
                                ("DONE" . (:foreground "white" :background "#3498DB" :weight bold))))
@@ -286,7 +286,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org74da41f">;; Org archive
+<pre class="src src-emacs-lisp" id="org8b96e50">;; Org archive
 (setq org-archive-location "%s_archive::date-tree")
 
 (defadvice org-archive-subtree
@@ -326,7 +326,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="orgf03d7e5">;; agenda 里面时间块彩色显示
+<pre class="src src-emacs-lisp" id="org5f248be">;; agenda 里面时间块彩色显示
 ;; From: https://emacs-china.org/t/org-agenda/8679/3
 (defun ljg/org-agenda-time-grid-spacing ()
   "Set different line spacing w.r.t. time duration."
@@ -370,7 +370,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org0b5ae9e">
+<pre class="src src-emacs-lisp" id="orgda0ca2f">
 ;; 使用 reveal.js 来生成 html 版本的 ppt
 ;; https://opensource.com/article/18/2/how-create-slides-emacs-org-mode-and-revealjs
 
@@ -387,7 +387,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org594dec6">;; 设置快捷键
+<pre class="src src-emacs-lisp" id="org57418c7">;; 设置快捷键
 
 (evil-leader/set-key "op" 'org-pomodoro)
 (evil-leader/set-key "oc" 'org-capture)
@@ -417,7 +417,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 再来显示相关的:
 </p>
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="orgf76fe24">;;;;;;;;;;;;;;;;;;;;;;
+<pre class="src src-emacs-lisp" id="org0cab6c8">;;;;;;;;;;;;;;;;;;;;;;
 ;; 外观展示相关配置 ;;
 ;;;;;;;;;;;;;;;;;;;;;;
 
@@ -454,7 +454,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 配置下 LaTeX 相关内容:
 </p>
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="orga5aa831">
+<pre class="src src-emacs-lisp" id="org4f61e1c">
 ;; LaTeX 配置
 (setq Tex-command-default "XeLaTeX")
 
@@ -511,7 +511,7 @@ dotspacemacs-whitespace-cleanup 'trailing
 其它配置项:
 </p>
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="orgd23d8a8">
+<pre class="src src-emacs-lisp" id="org147967f">
 ;; Tangle Org files when we save them
 ;; 一保存文件直接 tangle 代码
 ;; (defun tangle-on-save-org-mode-file()
@@ -615,9 +615,9 @@ dotspacemacs-whitespace-cleanup 'trailing
 </pre>
 </div>
 </div>
-<div id="outline-container-org43054e0" class="outline-2">
-<h2 id="org43054e0">大改: 定义 private layer</h2>
-<div class="outline-text-2" id="text-org43054e0">
+<div id="outline-container-orgaacbf7f" class="outline-2">
+<h2 id="orgaacbf7f">大改: 定义 private layer</h2>
+<div class="outline-text-2" id="text-orgaacbf7f">
 <p>
 除了配置一个个 package 这个笨办法以外, Spacemacs 引入了 layer 的概念, 即将一个场景(比如使用 org-mode 或者 python)常用的一些 package 给打包放一起, 统称为一个 layer.
 </p>
@@ -627,7 +627,7 @@ Spacemacs 出厂自带了很多常用的 layer, 但同时也支持你自定义. 
 </p>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="orgae080ce">(defconst lijigang-packages
+<pre class="src src-emacs-lisp" id="orga94b653">(defconst lijigang-packages
   '(org-page
     dired-icon
     cnfonts
@@ -649,7 +649,7 @@ Spacemacs 出厂自带了很多常用的 layer, 但同时也支持你自定义. 
 </div>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp" id="org7b04112">(defun lijigang/init-org-page()
+<pre class="src src-emacs-lisp" id="org9e2c60f">(defun lijigang/init-org-page()
   "Initialize org-page to publish blog."
   (use-package org-page
     :ensure t
