@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <title>读书: 技术简史 - 你对这个世界要有点意见</title>
+  <title>总结: 系统配置常见问题及答案 - 你对这个世界要有点意见</title>
   <meta charset="utf-8" />
   <meta name="author" content="lijigang" />
 
@@ -40,11 +40,29 @@
 <section id="content" role="main">
     <div id="outline-container-sec-" class="row post-content">
         <div class="col-md-2"></div>
-            <h1>读书: 技术简史</h1>
+            <h1>总结: 系统配置常见问题及答案</h1>
             
-<div id="org9733805" class="figure">
-<p><img src="/assets/blog/2018/11/05/读书-技术简史/technology-history.png" alt="technology-history.png" />
+<div id="outline-container-org36d09e5" class="outline-2">
+<h2 id="org36d09e5">Homebrew</h2>
+<div class="outline-text-2" id="text-org36d09e5">
+<blockquote>
+<p>
+使用 Homebrew 安装 Emacs 时, 出现类似提示:
 </p>
+
+<p>
+Failed to connect to raw.githubusercontent.com port 443: Connection refused
+</p>
+</blockquote>
+
+<p class="verse">
+解答: 修改 Hosts<br />
+<br />
+1. 通过 <a href="https://www.ipaddress.com/">https://www.ipaddress.com/</a> 查询 raw.githubusercontent.com 的 IP 地址<br />
+2. 修改 /private/etc/hosts 文件, 增加一行:<br />
+&#xa0;&#xa0;&#xa0;查到的 IP raw.githubusercontent.com<br />
+</p>
+</div>
 </div>
 
     </div>
