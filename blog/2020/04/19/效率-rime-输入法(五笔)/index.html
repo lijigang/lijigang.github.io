@@ -45,9 +45,9 @@
 有些工具, 属于前期投入成本高, 但价值半衰弱期长, 对应到重要不紧急的象限, 值得你花时间去研究. 输入法就是其中之一, 本文记录自己折腾 <a href="https://rime.im/">Rime</a> 输入法的过程.
 </p>
 
-<div id="outline-container-orgf90e88c" class="outline-2">
-<h2 id="orgf90e88c">下载安装 Rime</h2>
-<div class="outline-text-2" id="text-orgf90e88c">
+<div id="outline-container-orgafa4b15" class="outline-2">
+<h2 id="orgafa4b15">下载安装 Rime</h2>
+<div class="outline-text-2" id="text-orgafa4b15">
 <ol class="org-ol">
 <li>下载 Mac 对应的安装包 Squirrel-X.XX.X.zip</li>
 <li>解压后安装 PKG</li>
@@ -56,9 +56,9 @@
 </div>
 </div>
 
-<div id="outline-container-org10eab7c" class="outline-2">
-<h2 id="org10eab7c">了解用户配置</h2>
-<div class="outline-text-2" id="text-org10eab7c">
+<div id="outline-container-org7d5e1c9" class="outline-2">
+<h2 id="org7d5e1c9">了解用户配置</h2>
+<div class="outline-text-2" id="text-org7d5e1c9">
 <p>
 Rime 输入法也有 <code>文本为王</code> 的理念. 它的 <code>配置文件</code> <code>输入方案定义</code> 以及 <code>词典文件</code> , 均是文本文件(YAML 格式), 使用 Emacs 编辑刚刚好.
 </p>
@@ -92,7 +92,7 @@ Rime 输入法也有 <code>文本为王</code> 的理念. 它的 <code>配置文
 <b>方案定义</b>
 </p>
 
-<pre class="example" id="org8c0eafb">
+<pre class="example" id="orgae430da">
 Rime 中的输入方案 = 方案定义(&lt;方案标识&gt;.schema.yaml) +
                     词典文件(&lt;词典名&gt;.dict.yaml)
 </pre>
@@ -100,7 +100,7 @@ Rime 中的输入方案 = 方案定义(&lt;方案标识&gt;.schema.yaml) +
 <p>
 方案定义以 <code>wubi86_jidian.schema.yaml</code> 为例:
 </p>
-<pre class="example" id="org33857a2">
+<pre class="example" id="orgdd405f7">
 schema:
   schema_id: wubi86_jidian  #Rime 识别的 ID
   name: "极点五笔 86"       #选择方案时显示的名称
@@ -116,7 +116,7 @@ schema:
 <p>
 词典文件以 <code>wubi86_jidian.dict.yaml</code> 为例:
 </p>
-<pre class="example" id="org81ce1e6">
+<pre class="example" id="orgcf6ef88">
 name: wubi86_jidian
 version: "4.3"
 sort: by_weight #by_weight/权重 original/原始
@@ -131,9 +131,9 @@ columns: #码表格式
 </div>
 </div>
 
-<div id="outline-container-orgb36d01e" class="outline-2">
-<h2 id="orgb36d01e">配置五笔</h2>
-<div class="outline-text-2" id="text-orgb36d01e">
+<div id="outline-container-org3f9ce6d" class="outline-2">
+<h2 id="org3f9ce6d">配置五笔</h2>
+<div class="outline-text-2" id="text-org3f9ce6d">
 <ol class="org-ol">
 <li><p>
 下载五笔配置文件
@@ -150,7 +150,7 @@ mv rime-wubi86-jidian/* ~/library/Rime/
 <p>
 拷贝后文件列表如下:
 </p>
-<pre class="example" id="orgfd19bda">
+<pre class="example" id="org4ff858d">
 .
 ├── README.md                               # 当前说明文档
 ├── numbers.schema.yaml                     # 输入方案 - 大写数字
