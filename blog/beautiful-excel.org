@@ -24,14 +24,14 @@
 #+BEGIN_EXPORT html
 <img
   src="../images/excel-table.png"
-  width="50%"
+  width="80%"
 />
 #+END_EXPORT
 
 #+BEGIN_EXPORT html
 <img
   src="../images/excel-table-contrast.png"
-  width="50%"
+  width="80%"
 />
 #+END_EXPORT
 ** 初级
@@ -61,7 +61,7 @@
 #+BEGIN_EXPORT html
 <img
   src="../images/excel-graph-contrast.png"
-  width="50%"
+  width="80%"
 />
 #+END_EXPORT
 
