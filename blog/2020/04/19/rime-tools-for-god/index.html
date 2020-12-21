@@ -45,9 +45,9 @@
 有些工具, 属于前期投入成本高, 但价值半衰弱期长, 对应到重要不紧急的象限, 值得你花时间去研究, 输入法就属于这类工具.
 </p>
 
-<div id="outline-container-org1775aba" class="outline-2">
-<h2 id="org1775aba">环境</h2>
-<div class="outline-text-2" id="text-org1775aba">
+<div id="outline-container-org23307fc" class="outline-2">
+<h2 id="org23307fc">环境</h2>
+<div class="outline-text-2" id="text-org23307fc">
 <ul class="org-ul">
 <li>你： 最好会写（或者抄）一点配置代码</li>
 <li>系统： macOS</li>
@@ -61,9 +61,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgad2f660" class="outline-2">
-<h2 id="orgad2f660">道生一： Rime 是什么</h2>
-<div class="outline-text-2" id="text-orgad2f660">
+<div id="outline-container-org061cfae" class="outline-2">
+<h2 id="org061cfae">道生一： Rime 是什么</h2>
+<div class="outline-text-2" id="text-org061cfae">
 <p>
 使用电脑过程中，打字是必不可少的操作。对于必要操作的效率的效率提升，可以大幅提升你的整体工作效率。
 </p>
@@ -82,9 +82,9 @@ Rime 是一个输入法框架，基于这套抽象出来的通用框架，你可
 </div>
 </div>
 
-<div id="outline-container-orga15fac2" class="outline-2">
-<h2 id="orga15fac2">一生二： 方案定义和对应词典</h2>
-<div class="outline-text-2" id="text-orga15fac2">
+<div id="outline-container-org3e0511f" class="outline-2">
+<h2 id="org3e0511f">一生二： 方案定义和对应词典</h2>
+<div class="outline-text-2" id="text-org3e0511f">
 <p>
 一个属于你的个性化输入法补丁，就是你使用 Rime 约定的语言（YAML），告诉它你准备怎么玩。
 </p>
@@ -102,18 +102,18 @@ Rime 会将你的这两部分 <code>插入</code> 到它的框架中， 编译�
 </p>
 
 <p>
-比如我定义玩法名称为 wubi86<sub>jidian</sub>, 那对应的两个配置文件就应该是 wubi86<sub>jidian.schema.yaml</sub> 和 wubi86<sub>jidian.dict.yaml</sub>
+比如我定义玩法名称为 wubi86_jidian, 那对应的两个配置文件就应该是 wubi86_jidian.schema.yaml 和 wubi86_jidian.dict.yaml
 </p>
 </div>
 
-<div id="outline-container-org27d7c49" class="outline-3">
-<h3 id="org27d7c49">玩法定义</h3>
-<div class="outline-text-3" id="text-org27d7c49">
+<div id="outline-container-org55ddddd" class="outline-3">
+<h3 id="org55ddddd">玩法定义</h3>
+<div class="outline-text-3" id="text-org55ddddd">
 <p>
 以 <code>wubi86_jidian.schema.yaml</code> 为例:
 </p>
 
-<pre class="example" id="org4cf0be0">
+<pre class="example" id="orgf28a70c">
 schema:
   schema_id: wubi86_jidian  #Rime 识别的 ID
   name: "极点五笔 86"       #选择方案时显示的名称
@@ -131,13 +131,13 @@ schema:
 </p>
 </div>
 </div>
-<div id="outline-container-orgd308cbc" class="outline-3">
-<h3 id="orgd308cbc">玩法词典</h3>
-<div class="outline-text-3" id="text-orgd308cbc">
+<div id="outline-container-org3329889" class="outline-3">
+<h3 id="org3329889">玩法词典</h3>
+<div class="outline-text-3" id="text-org3329889">
 <p>
 词典文件以 <code>wubi86_jidian.dict.yaml</code> 为例:
 </p>
-<pre class="example" id="org1460200">
+<pre class="example" id="org6ac14d1">
 name: wubi86_jidian
 version: "4.3"
 sort: by_weight #by_weight/权重 original/原始
@@ -156,9 +156,9 @@ columns: #码表格式
 </div>
 </div>
 </div>
-<div id="outline-container-org433b363" class="outline-2">
-<h2 id="org433b363">二生三：拼音反查</h2>
-<div class="outline-text-2" id="text-org433b363">
+<div id="outline-container-org000a0cc" class="outline-2">
+<h2 id="org000a0cc">二生三：拼音反查</h2>
+<div class="outline-text-2" id="text-org000a0cc">
 <p>
 如果突然遇到不会打的字（忘掉如何拆解五笔）怎么办？
 </p>
@@ -168,7 +168,7 @@ columns: #码表格式
 </p>
 
 <p>
-再搞一个输入法的方法还是同样的，新建 pinyin<sub>simp.schema.yaml</sub> 和 pinyin<sub>simp.dict.yaml</sub> 文件，分别在其中描述你对拼音输入法的想法。
+再搞一个输入法的方法还是同样的，新建 pinyin_simp.schema.yaml 和 pinyin_simp.dict.yaml 文件，分别在其中描述你对拼音输入法的想法。
 </p>
 
 <div class="org-src-container">
@@ -188,9 +188,9 @@ reverse_lookup:
 </div>
 </div>
 </div>
-<div id="outline-container-orgaeee658" class="outline-2">
-<h2 id="orgaeee658">三生万物： 自定义词典</h2>
-<div class="outline-text-2" id="text-orgaeee658">
+<div id="outline-container-org6daaffd" class="outline-2">
+<h2 id="org6daaffd">三生万物： 自定义词典</h2>
+<div class="outline-text-2" id="text-org6daaffd">
 <p>
 有了上面的玩法定义和玩法词典文件，已经可以编译生成属于你的五笔输入法了。
 </p>
@@ -200,15 +200,15 @@ reverse_lookup:
 </p>
 
 <p>
-可以单独建一个 wubi86<sub>jidian</sub><sub>user.dict.yaml</sub> (看后缀即可知它也是一个词典文件），在你的 wubi86<sub>jidian.dict.yaml</sub> 文件中引用它即可。
+可以单独建一个 wubi86_jidian_user.dict.yaml (看后缀即可知它也是一个词典文件），在你的 wubi86_jidian.dict.yaml 文件中引用它即可。
 </p>
 
 <p>
 这样，如果你经常
 </p>
 <ul class="org-ul">
-<li>看电视剧，电影，可以把常见的相关词组放进 wubi86<sub>jidian</sub><sub>movie.dict.yaml</sub></li>
-<li>玩王者荣耀， 可以把相关词组放进 wubi86<sub>jidian</sub><sub>king.dict.yaml</sub></li>
+<li>看电视剧，电影，可以把常见的相关词组放进 wubi86_jidian_movie.dict.yaml</li>
+<li>玩王者荣耀， 可以把相关词组放进 wubi86_jidian_king.dict.yaml</li>
 <li>&#x2026;</li>
 </ul>
 
@@ -221,9 +221,9 @@ import_tables: #此处是添加用户自定义词库的地方
 </div>
 </div>
 </div>
-<div id="outline-container-orgec70da6" class="outline-2">
-<h2 id="orgec70da6">变漂亮点</h2>
-<div class="outline-text-2" id="text-orgec70da6">
+<div id="outline-container-orgca9f873" class="outline-2">
+<h2 id="orgca9f873">变漂亮点</h2>
+<div class="outline-text-2" id="text-orgca9f873">
 <p>
 Hard core 部分上面已经全部完成，剩下的就是一些皮毛的东西。
 </p>
