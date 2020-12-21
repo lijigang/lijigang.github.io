@@ -1,6 +1,6 @@
 #+TITLE: Rime: 输入法神器
 #+DATE: <2020-04-19 Sun>
-#+OPTIONS: toc:nil num:nil
+#+OPTIONS: toc:nil num:nil ^:nil
 #+URI:         /blog/%y/%m/%d/rime-tools-for-god
 
 有些工具, 属于前期投入成本高, 但价值半衰弱期长, 对应到重要不紧急的象限, 值得你花时间去研究, 输入法就属于这类工具.
