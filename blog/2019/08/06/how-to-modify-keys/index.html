@@ -49,23 +49,23 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org92633a2">需求任务</a></li>
-<li><a href="#org06602da">解决方案</a>
+<li><a href="#orgce7c4f9">需求任务</a></li>
+<li><a href="#org582ee07">解决方案</a>
 <ul>
-<li><a href="#orga5fd989">安装 Karabiner</a></li>
-<li><a href="#org2795ff0">配置修改</a></li>
-<li><a href="#org5841f53">加载配置</a></li>
+<li><a href="#orge240edf">安装 Karabiner</a></li>
+<li><a href="#org5adf7f7">配置修改</a></li>
+<li><a href="#org3dcd718">加载配置</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org92633a2" class="outline-2">
-<h2 id="org92633a2">需求任务</h2>
-<div class="outline-text-2" id="text-org92633a2">
+<div id="outline-container-orgce7c4f9" class="outline-2">
+<h2 id="orgce7c4f9">需求任务</h2>
+<div class="outline-text-2" id="text-orgce7c4f9">
 <p>
-而 Home Row 上面的按键 (ASDFGHJKL:") 基本上都是比较常用的基础按键, 另边还有一个回车键, 更加常用, 都没有什么修改空间, 只有 Home Row 最左侧的 Caps Lock 按键可以做些文章来提升输入效率了.
+而 Home Row 上面的按键 (ASDFGHJKL:&ldquo;) 基本上都是比较常用的基础按键, 另边还有一个回车键, 更加常用, 都没有什么修改空间, 只有 Home Row 最左侧的 Caps Lock 按键可以做些文章来提升输入效率了.
 </p>
 
 <p>
@@ -104,22 +104,22 @@
 </div>
 </div>
 
-<div id="outline-container-org06602da" class="outline-2">
-<h2 id="org06602da">解决方案</h2>
-<div class="outline-text-2" id="text-org06602da">
+<div id="outline-container-org582ee07" class="outline-2">
+<h2 id="org582ee07">解决方案</h2>
+<div class="outline-text-2" id="text-org582ee07">
 </div>
-<div id="outline-container-orga5fd989" class="outline-3">
-<h3 id="orga5fd989">安装 Karabiner</h3>
-<div class="outline-text-3" id="text-orga5fd989">
+<div id="outline-container-orge240edf" class="outline-3">
+<h3 id="orge240edf">安装 Karabiner</h3>
+<div class="outline-text-3" id="text-orge240edf">
 <p>
 在 macOS 上面有个现成的软件已经实现了这个功能, 首先去<a href="https://pqrs.org/osx/karabiner/"> 官网</a>  下载安装.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org2795ff0" class="outline-3">
-<h3 id="org2795ff0">配置修改</h3>
-<div class="outline-text-3" id="text-org2795ff0">
+<div id="outline-container-org5adf7f7" class="outline-3">
+<h3 id="org5adf7f7">配置修改</h3>
+<div class="outline-text-3" id="text-org5adf7f7">
 <p>
 在目录 <code>~/.config/karabiner/assets/complex_modifications/</code> 中建一个文件, 命名为 custom-capslock.json , 然后把下面的代码复制进去并保存:
 </p>
@@ -128,9 +128,9 @@
 <pre class="src src-jason">{
   "title": "Change caps_lock to Esc and Control",
   "rules": [
-  {
-    "description": "Post Esc if Caps is tapped, Control if held.",
-    "manipulators": [
+	{
+	  "description": "Post Esc if Caps is tapped, Control if held.",
+	  "manipulators": [
         {
     "type": "basic",
     "from": {
@@ -153,8 +153,8 @@
         }
     ]
 }
-    ]
-  }
+	  ]
+	}
   ]
 }
 </pre>
@@ -162,9 +162,9 @@
 </div>
 </div>
 
-<div id="outline-container-org5841f53" class="outline-3">
-<h3 id="org5841f53">加载配置</h3>
-<div class="outline-text-3" id="text-org5841f53">
+<div id="outline-container-org3dcd718" class="outline-3">
+<h3 id="org3dcd718">加载配置</h3>
+<div class="outline-text-3" id="text-org3dcd718">
 <ol class="org-ol">
 <li>打开安装好的 Karabiner 软件, 打开其设置界面</li>
 <li>选中 <code>Complex Modifications</code> 选项卡, 点击 <code>Add rule</code> 按钮.</li>
