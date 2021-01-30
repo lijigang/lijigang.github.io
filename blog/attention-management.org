@@ -4,7 +4,7 @@
 #+DATE:        2021-01-30 Sat
 #+URI:         /blog/%y/%m/%d/attention-management
 #+LANGUAGE:    en
-#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:t -:nil f:t *:t <:t
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
 
 
 又到了新的一年, 回顾过去一年, 在Emacs 和 Orgmode 上陆陆续续投入了不少的精力。其
@@ -17,7 +17,7 @@
 
 * 注意力价值公式
 
-注意力总价值 = $\sum_{i=1}^n$ 单位注意力价值 * 时间总量 * 任务价值系数_i
+注意力总价值 = 单位注意力价值 * 时间总量 * 任务价值系数
 
 ** 单位注意力价值
 人与人之间的单位注意力价值并不相同。你和你的老板之间的单位注意力价值就存在差异,
