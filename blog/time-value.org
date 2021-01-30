@@ -1,4 +1,4 @@
-#+TITLE:       学习： 时间就是金钱
+#+TITLE:       学习：时间就是金钱
 #+AUTHOR:      lijigang
 #+EMAIL:       i@lijigang.com
 #+DATE:        2021-01-14 Thu
