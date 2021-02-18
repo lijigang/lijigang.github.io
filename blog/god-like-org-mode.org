@@ -209,3 +209,12 @@ More info: [[http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs-with-e
   width="80%"
   />
 #+end_export
+** 如何将PDF转化成org？
+#+begin_src shell
+brew install poppler
+#+end_src
+
+Then , cd to the pdf directory:
+#+begin_src shell
+pdftotext mypdf.pdf - >> mypdf.org
+#+end_src
