@@ -42,26 +42,158 @@
         <div class="col-md-2"></div>
             <h1>总结: 系统配置常见问题及答案</h1>
             
-<div id="outline-container-orgb2b9de7" class="outline-2">
-<h2 id="orgb2b9de7">Homebrew</h2>
-<div class="outline-text-2" id="text-orgb2b9de7">
+<div id="outline-container-org09301ae" class="outline-2">
+<h2 id="org09301ae">Github</h2>
+<div class="outline-text-2" id="text-org09301ae">
+<p class="verse">
+<br />
+使用 Homebrew 安装 Emacs 时, 出现类似提示:<br />
+<br />
+Failed to connect to raw.githubusercontent.com port 443: Connection refused<br />
+</p>
+
 <blockquote>
 <p>
-使用 Homebrew 安装 Emacs 时, 出现类似提示:
+解答: 修改 Hosts
+</p>
+
+<ol class="org-ol">
+<li>通过 <a href="https://www.ipaddress.com/">https://www.ipaddress.com/</a> 查询 raw.githubusercontent.com 的 IP 地址</li>
+<li>修改 /private/etc/hosts 文件, 增加一行:
+查到的 IP raw.githubusercontent.com</li>
+</ol>
+</blockquote>
+</div>
+</div>
+
+<div id="outline-container-orgb3d1076" class="outline-2">
+<h2 id="orgb3d1076">Homebrew</h2>
+<div class="outline-text-2" id="text-orgb3d1076">
+</div>
+<div id="outline-container-org943078f" class="outline-3">
+<h3 id="org943078f">是什么?</h3>
+<div class="outline-text-3" id="text-org943078f">
+<blockquote>
+<p>
+Homebrew是 mac的包管理器，仅需执行相应的命令,就能下载安装需要的软件包，可以省掉自己去下载、解压、拖拽(安装)等繁琐的步骤。
 </p>
 
 <p>
-Failed to connect to raw.githubusercontent.com port 443: Connection refused
+<a href="https://www.cnblogs.com/joyce33/p/13376752.html">This blog</a>
 </p>
 </blockquote>
 
-<p class="verse">
-解答: 修改 Hosts<br />
-<br />
-1. 通过 <a href="https://www.ipaddress.com/">https://www.ipaddress.com/</a> 查询 raw.githubusercontent.com 的 IP 地址<br />
-2. 修改 /private/etc/hosts 文件, 增加一行:<br />
-&#xa0;&#xa0;&#xa0;查到的 IP raw.githubusercontent.com<br />
+<p>
+Homebrew 主要由四个部分组成: brew、homebrew-core 、homebrew-cask、homebrew-bottles，它们对应的功能如下：
 </p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">组成</th>
+<th scope="col" class="org-left">功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Homebrew</td>
+<td class="org-left">源代码仓库</td>
+</tr>
+
+<tr>
+<td class="org-left">homebrew-core</td>
+<td class="org-left">Homebrew 核心源</td>
+</tr>
+
+<tr>
+<td class="org-left">homebrew-cask</td>
+<td class="org-left">提供macos应用和大型二进制文件的安装</td>
+</tr>
+
+<tr>
+<td class="org-left">homebrew-bottles</td>
+<td class="org-left">预编译二进制软件包</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org1be9674" class="outline-3">
+<h3 id="org1be9674">问题是?</h3>
+<div class="outline-text-3" id="text-org1be9674">
+<ol class="org-ol">
+<li><p>
+安装Homebrew 时速度超级慢
+</p>
+
+<blockquote>
+<p>
+解答: 从中科大的镜像源下载安装 Homebrew
+</p>
+</blockquote>
+<div class="org-src-container">
+<pre class="src src-shell">/usr/bin/ruby -e "$(curl -fsSL https://cdn.jsdelivr.net/gh/ineo6/homebrew-install/install)"
+</pre>
+</div></li>
+
+<li><p>
+安装Homebrew 时, 卡在了Cloning into 环节
+</p>
+
+<blockquote>
+<p>
+解答: 按C-c 中断下载, 更新下载源
+</p>
+</blockquote>
+
+<div class="org-src-container">
+<pre class="src src-shell">    cd "$(brew --repo)/Library/Taps/"
+    mkdir homebrew &amp;&amp; cd homebrew
+    git clone git://mirrors.ustc.edu.cn/homebrew-core.git
+
+</pre>
+</div></li>
+
+<li><p>
+安装成功后, 使用brew install 软件 速度超级慢
+</p>
+
+<blockquote>
+<p>
+解答: 继续更改软件包的下载源
+</p>
+</blockquote>
+<div class="org-src-container">
+<pre class="src src-shell">    # 替换 brew.git：
+    git -C "$(brew --repo)" remote set-url origin https://mirrors.ustc.edu.cn/brew.git
+
+    # 替换 homebrew-core.git：
+    git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
+
+    # 替换 homebrew-cask.git：
+    git -C "$(brew --repo homebrew/cask)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git
+
+    # 替换homebrew-bottles：
+    # 首先要先区分你的mac用哪种终端工具，如果是 bash，则执行：
+    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' &gt;&gt; ~/.bash_profile
+    source ~/.bash_profile
+
+    # 若是 zsh，则执行：
+    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' &gt;&gt; ~/.zshrc
+    source ~/.zshrc
+
+</pre>
+</div></li>
+</ol>
+</div>
 </div>
 </div>
 
