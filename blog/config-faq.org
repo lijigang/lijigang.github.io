@@ -8,18 +8,19 @@
 
 ** Github
 
-#+begin_verse
 
+#+begin_example
 使用 Homebrew 安装 Emacs 时, 出现类似提示:
 
 Failed to connect to raw.githubusercontent.com port 443: Connection refused
-#+end_verse
+#+end_example
 
 #+begin_quote
 解答: 修改 Hosts
 
 1. 通过 https://www.ipaddress.com/ 查询 raw.githubusercontent.com 的 IP 地址
 2. 修改 /private/etc/hosts 文件, 增加一行:
+
    查到的 IP raw.githubusercontent.com
 
 #+end_quote
