@@ -1,0 +1,57 @@
+#+TITLE:       Emacs: font
+#+AUTHOR:      lijigang
+#+EMAIL:       i@lijigang.com
+#+DATE:        2021-03-12 Fri
+#+URI:         /blog/%y/%m/%d/emacs-font
+#+LANGUAGE:    en
+#+OPTIONS:     H:5 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+
+
+Emacs中字体配置只需要两步即可搞定。
+
+** 第一步: 配置(英文) =默认字体=
+#+begin_quote
+Signature
+(set-face-attribute FACE FRAME &rest ARGS)
+
+Documentation
+Set attributes of FACE on FRAME from ARGS.
+
+ARGS must come in pairs ATTRIBUTE VALUE.
+
+Demos
+
+#+BEGIN_SRC elisp
+(set-face-attribute 'default nil :font "Source Code Pro-13")
+#+END_SRC
+
+#+end_quote
+
+只需要使用 =set-face-attribute= 函数，指定其中的 =:font= attribute 即可设定默认的字
+符(英文)的字体.
+
+** 第二步: 配置(中文) =补余字体=
+
+第一步设置的默认字体, 如果(大概率)未包含你想要显示的字符--比如中文,日文,或者
+Emoji--就会有一个Fallback 搜索字体的机制运行，这个结果不太可靠, 所以需要我们做第
+二步设置, 指定中文(或其它)的对应字体。
+
+#+begin_quote
+(set-fontset-font NAME TARGET FONT-SPEC &optional FRAME ADD)
+
+Documentation
+Modify fontset NAME to use FONT-SPEC for TARGET characters.
+
+#+end_quote
+
+只需要使用 =set-fontset-font= 函数, 注意其中的 *TARGET* 参数, 该参数决定了你的补余范
+围--比如中文字符集, 就可以指定 TARGET 相关的字符所对应的字体了。
+
+** 一些其它小事
+
+| Emacs 术语          | 日常用语          | 使用场景    |
+|---------------------+-------------------+-------------|
+| variable pitch font | proportional font | usual text  |
+|---------------------+-------------------+-------------|
+| fixed pitch font    | monospace font    | source code |
+|---------------------+-------------------+-------------|
