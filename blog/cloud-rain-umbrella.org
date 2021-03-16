@@ -1,0 +1,77 @@
+#+TITLE:       cloud-rain-umbrella.org
+#+AUTHOR:      lijigang
+#+EMAIL:       i@lijigang.com
+#+DATE:        2021-03-16 Tue
+#+URI:         <TODO: insert your uri here>
+#+KEYWORDS:    <TODO: insert your keywords here>
+#+TAGS:        <TODO: insert your tags here>
+#+LANGUAGE:    en
+#+OPTIONS:     H:5 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: <TODO: insert your description here>
+
+** 沟通信息模型
+#+begin_quote
+我明明说的那么清楚了, 对方怎么就是听不明白?
+
+我刚不是已经说过情况了吗? 怎么老板还问我 "所以呢?"
+
+我只是给出了自己的建议， 怎么老板要问我 "你凭什么这么说?"
+#+end_quote
+
+#+attr_org: :width 600px
+[[./images/communication-value.png]]
+
+你掌握的信息和你传达出去的信息之间有巨大的鸿沟, 这个鸿沟可以通过一些模型来填补.
+其中一个简单模型就是 _云雨伞模型_.
+
+*** 云雨伞模型
+
+我们经常会沟通能力很重要, 那么如何提升沟通能力? 有一个简单的信息模型可以帮到大
+家: _云雨伞模型._
+
+#+begin_quote
+云: 天上有一大片乌云 --> 事实
+
+雨：今天估计会下雨 --> 分析
+
+伞: 出门最好带上伞 --> 行动
+#+end_quote
+
+*** 反面例子
+常见的沟通效率低下的表现有:
+
+1. 只有雨, 没有云
+
+   #+begin_quote
+   我觉得这事成不了, 对方做的太差了, 我们内部流程太慢了,....
+   #+end_quote
+
+   你的云是什么? : *你基于什么事实这么说?*
+
+2. 只有云, 没有雨
+
+   #+begin_quote
+    上周收入 X 元, 本周收入 Y 元, 周环比下跌了 30%.
+   #+end_quote
+
+   你的雨是什么? : *下跌的原因是?*
+
+3. 只有伞， 没有云和雨
+   #+begin_quote
+    我觉得我们应该再招20个人来做这件事.
+   #+end_quote
+
+   你的云是什么? 你的雨是什么?
+
+*** 正面示例
+
+完整的高效的沟通应该包含云雨伞三部分， 例如:
+
+#+begin_quote
+云: 我们现在一共有4个人投在这个项目上, 人均贡献100万/月.
+
+雨：经过分析最近的流量数据和市场调研, 我们还有四个版图可以去拓展, 但目前的四人已
+经满负荷运转.
+
+伞: 我建议再增加四个人, 分别去扩展这四个新的版图, 很大可能会是我们的第二增长曲线.
+#+end_quote
