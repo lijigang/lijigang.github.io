@@ -2,7 +2,7 @@
 #+AUTHOR:      lijigang
 #+EMAIL:       i@lijigang.com
 #+DATE:        2021-03-16 Tue
-#+URI:         <TODO: insert your uri here>
+#+URI:         /blog/%y/%m/%d/cloud-rain-umbrella
 #+KEYWORDS:    <TODO: insert your keywords here>
 #+TAGS:        <TODO: insert your tags here>
 #+LANGUAGE:    en
