@@ -1,4 +1,4 @@
-#+TITLE:       cloud-rain-umbrella.org
+#+TITLE:       模型：云雨伞
 #+AUTHOR:      lijigang
 #+EMAIL:       i@lijigang.com
 #+DATE:        2021-03-16 Tue
@@ -19,14 +19,14 @@
 #+end_quote
 
 #+attr_org: :width 600px
-[[./images/communication-value.png]]
+[[../images/communication-value.png]]
 
-你掌握的信息和你传达出去的信息之间有巨大的鸿沟, 这个鸿沟可以通过一些模型来填补.
+你掌握的信息和你传达出去的信息之间有巨大的鸿沟, 这个鸿沟可以通过一些方法和技巧来填补.
 其中一个简单模型就是 _云雨伞模型_.
 
 *** 云雨伞模型
 
-我们经常会沟通能力很重要, 那么如何提升沟通能力? 有一个简单的信息模型可以帮到大
+我们经常强调沟通能力很重要, 那么如何提升沟通能力? 有一个简单的信息模型可以帮到大
 家: _云雨伞模型._
 
 #+begin_quote
