@@ -45,9 +45,9 @@
 有些工具, 属于前期投入成本高, 但价值半衰弱期长, 对应到重要不紧急的象限, 值得你花时间去研究, 输入法就属于这类工具.
 </p>
 
-<div id="outline-container-orgc9511aa" class="outline-2">
-<h2 id="orgc9511aa">环境</h2>
-<div class="outline-text-2" id="text-orgc9511aa">
+<div id="outline-container-orgb5e378c" class="outline-2">
+<h2 id="orgb5e378c">环境</h2>
+<div class="outline-text-2" id="text-orgb5e378c">
 <ul class="org-ul">
 <li>你： 最好会写（或者抄）一点配置代码</li>
 <li>系统： macOS</li>
@@ -61,9 +61,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgfd80cbe" class="outline-2">
-<h2 id="orgfd80cbe">道生一： Rime 是什么</h2>
-<div class="outline-text-2" id="text-orgfd80cbe">
+<div id="outline-container-org7cdd510" class="outline-2">
+<h2 id="org7cdd510">道生一： Rime 是什么</h2>
+<div class="outline-text-2" id="text-org7cdd510">
 <p>
 使用电脑过程中，打字是必不可少的操作。对于必要操作的效率的效率提升，可以大幅提升你的整体工作效率。
 </p>
@@ -82,9 +82,9 @@ Rime 是一个输入法框架，基于这套抽象出来的通用框架，你可
 </div>
 </div>
 
-<div id="outline-container-org1f1be1f" class="outline-2">
-<h2 id="org1f1be1f">一生二： 方案定义和对应词典</h2>
-<div class="outline-text-2" id="text-org1f1be1f">
+<div id="outline-container-org672eaf5" class="outline-2">
+<h2 id="org672eaf5">一生二： 方案定义和对应词典</h2>
+<div class="outline-text-2" id="text-org672eaf5">
 <p>
 一个属于你的个性化输入法补丁，就是你使用 Rime 约定的语言（YAML），告诉它你准备怎么玩。
 </p>
@@ -106,14 +106,14 @@ Rime 会将你的这两部分 <code>插入</code> 到它的框架中， 编译�
 </p>
 </div>
 
-<div id="outline-container-org9b2c979" class="outline-3">
-<h3 id="org9b2c979">玩法定义</h3>
-<div class="outline-text-3" id="text-org9b2c979">
+<div id="outline-container-org2887594" class="outline-3">
+<h3 id="org2887594">玩法定义</h3>
+<div class="outline-text-3" id="text-org2887594">
 <p>
 以 <code>wubi86_jidian.schema.yaml</code> 为例:
 </p>
 
-<pre class="example" id="org5efa0e0">
+<pre class="example" id="org79175c3">
 schema:
   schema_id: wubi86_jidian  #Rime 识别的 ID
   name: "极点五笔 86"       #选择方案时显示的名称
@@ -131,13 +131,13 @@ schema:
 </p>
 </div>
 </div>
-<div id="outline-container-orgaf9dfa0" class="outline-3">
-<h3 id="orgaf9dfa0">玩法词典</h3>
-<div class="outline-text-3" id="text-orgaf9dfa0">
+<div id="outline-container-org1c49622" class="outline-3">
+<h3 id="org1c49622">玩法词典</h3>
+<div class="outline-text-3" id="text-org1c49622">
 <p>
 词典文件以 <code>wubi86_jidian.dict.yaml</code> 为例:
 </p>
-<pre class="example" id="orgc56412e">
+<pre class="example" id="orgec19929">
 name: wubi86_jidian
 version: "4.3"
 sort: by_weight #by_weight/权重 original/原始
@@ -156,9 +156,9 @@ columns: #码表格式
 </div>
 </div>
 </div>
-<div id="outline-container-orga308d14" class="outline-2">
-<h2 id="orga308d14">二生三：拼音反查</h2>
-<div class="outline-text-2" id="text-orga308d14">
+<div id="outline-container-org53b25a2" class="outline-2">
+<h2 id="org53b25a2">二生三：拼音反查</h2>
+<div class="outline-text-2" id="text-org53b25a2">
 <p>
 如果突然遇到不会打的字（忘掉如何拆解五笔）怎么办？
 </p>
@@ -188,9 +188,9 @@ reverse_lookup:
 </div>
 </div>
 </div>
-<div id="outline-container-org72e94c6" class="outline-2">
-<h2 id="org72e94c6">三生万物： 自定义词典</h2>
-<div class="outline-text-2" id="text-org72e94c6">
+<div id="outline-container-orgb10a3e7" class="outline-2">
+<h2 id="orgb10a3e7">三生万物： 自定义词典</h2>
+<div class="outline-text-2" id="text-orgb10a3e7">
 <p>
 有了上面的玩法定义和玩法词典文件，已经可以编译生成属于你的五笔输入法了。
 </p>
@@ -221,9 +221,9 @@ import_tables: #此处是添加用户自定义词库的地方
 </div>
 </div>
 </div>
-<div id="outline-container-orga907dde" class="outline-2">
-<h2 id="orga907dde">变漂亮点</h2>
-<div class="outline-text-2" id="text-orga907dde">
+<div id="outline-container-org67e0afd" class="outline-2">
+<h2 id="org67e0afd">变漂亮点</h2>
+<div class="outline-text-2" id="text-org67e0afd">
 <p>
 Hard core 部分上面已经全部完成，剩下的就是一些皮毛的东西。
 </p>
