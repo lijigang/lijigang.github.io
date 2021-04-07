@@ -45,9 +45,9 @@
 有些工具, 属于前期投入成本高, 但价值半衰弱期长, 对应到重要不紧急的象限, 值得你花时间去研究, 输入法就属于这类工具.
 </p>
 
-<div id="outline-container-org61010b8" class="outline-2">
-<h2 id="org61010b8">环境</h2>
-<div class="outline-text-2" id="text-org61010b8">
+<div id="outline-container-orgd96c702" class="outline-2">
+<h2 id="orgd96c702">环境</h2>
+<div class="outline-text-2" id="text-orgd96c702">
 <ul class="org-ul">
 <li>你： 最好会写（或者抄）一点配置代码</li>
 <li>系统： macOS</li>
@@ -61,9 +61,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgb73b615" class="outline-2">
-<h2 id="orgb73b615">道生一： Rime 是什么</h2>
-<div class="outline-text-2" id="text-orgb73b615">
+<div id="outline-container-org59f0dca" class="outline-2">
+<h2 id="org59f0dca">道生一： Rime 是什么</h2>
+<div class="outline-text-2" id="text-org59f0dca">
 <p>
 使用电脑过程中，打字是必不可少的操作。对于必要操作的效率的效率提升，可以大幅提升你的整体工作效率。
 </p>
@@ -82,9 +82,9 @@ Rime 是一个输入法框架，基于这套抽象出来的通用框架，你可
 </div>
 </div>
 
-<div id="outline-container-org6c59c1c" class="outline-2">
-<h2 id="org6c59c1c">一生二： 方案定义和对应词典</h2>
-<div class="outline-text-2" id="text-org6c59c1c">
+<div id="outline-container-orgd62218f" class="outline-2">
+<h2 id="orgd62218f">一生二： 方案定义和对应词典</h2>
+<div class="outline-text-2" id="text-orgd62218f">
 <p>
 一个属于你的个性化输入法补丁，就是你使用 Rime 约定的语言（YAML），告诉它你准备怎么玩。
 </p>
@@ -106,14 +106,14 @@ Rime 会将你的这两部分 <code>插入</code> 到它的框架中， 编译�
 </p>
 </div>
 
-<div id="outline-container-org03cf104" class="outline-3">
-<h3 id="org03cf104">玩法定义</h3>
-<div class="outline-text-3" id="text-org03cf104">
+<div id="outline-container-org8e00553" class="outline-3">
+<h3 id="org8e00553">玩法定义</h3>
+<div class="outline-text-3" id="text-org8e00553">
 <p>
 以 <code>wubi86_jidian.schema.yaml</code> 为例:
 </p>
 
-<pre class="example" id="org346d99e">
+<pre class="example" id="org57280e8">
 schema:
   schema_id: wubi86_jidian  #Rime 识别的 ID
   name: "极点五笔 86"       #选择方案时显示的名称
@@ -131,13 +131,13 @@ schema:
 </p>
 </div>
 </div>
-<div id="outline-container-org9210ffa" class="outline-3">
-<h3 id="org9210ffa">玩法词典</h3>
-<div class="outline-text-3" id="text-org9210ffa">
+<div id="outline-container-org32cf8f4" class="outline-3">
+<h3 id="org32cf8f4">玩法词典</h3>
+<div class="outline-text-3" id="text-org32cf8f4">
 <p>
 词典文件以 <code>wubi86_jidian.dict.yaml</code> 为例:
 </p>
-<pre class="example" id="orgef3cf07">
+<pre class="example" id="org66e9679">
 name: wubi86_jidian
 version: "4.3"
 sort: by_weight #by_weight/权重 original/原始
@@ -156,9 +156,9 @@ columns: #码表格式
 </div>
 </div>
 </div>
-<div id="outline-container-org0edbe57" class="outline-2">
-<h2 id="org0edbe57">二生三：拼音反查</h2>
-<div class="outline-text-2" id="text-org0edbe57">
+<div id="outline-container-orgf2e8ee3" class="outline-2">
+<h2 id="orgf2e8ee3">二生三：拼音反查</h2>
+<div class="outline-text-2" id="text-orgf2e8ee3">
 <p>
 如果突然遇到不会打的字（忘掉如何拆解五笔）怎么办？
 </p>
@@ -188,9 +188,9 @@ reverse_lookup:
 </div>
 </div>
 </div>
-<div id="outline-container-org2df6acb" class="outline-2">
-<h2 id="org2df6acb">三生万物： 自定义词典</h2>
-<div class="outline-text-2" id="text-org2df6acb">
+<div id="outline-container-org5867687" class="outline-2">
+<h2 id="org5867687">三生万物： 自定义词典</h2>
+<div class="outline-text-2" id="text-org5867687">
 <p>
 有了上面的玩法定义和玩法词典文件，已经可以编译生成属于你的五笔输入法了。
 </p>
@@ -221,9 +221,9 @@ import_tables: #此处是添加用户自定义词库的地方
 </div>
 </div>
 </div>
-<div id="outline-container-org121cf5c" class="outline-2">
-<h2 id="org121cf5c">变漂亮点</h2>
-<div class="outline-text-2" id="text-org121cf5c">
+<div id="outline-container-org2971981" class="outline-2">
+<h2 id="org2971981">变漂亮点</h2>
+<div class="outline-text-2" id="text-org2971981">
 <p>
 Hard core 部分上面已经全部完成，剩下的就是一些皮毛的东西。
 </p>
@@ -242,30 +242,30 @@ Hard core 部分上面已经全部完成，剩下的就是一些皮毛的东西�
 </p>
 
 <div class="org-src-container">
-<pre class="src src-yaml">    # From squirrel.custom.yaml
-    patch:
-      style:
-        color_scheme: ink
-        horizontal: true
-        font_point: 28
-        label_font_point: 11
-        fullscreen: true
-        inline_preedit: true # 单行显示
-        corner_radius: 6     # 窗口圆角半径
+<pre class="src src-yaml"># From squirrel.custom.yaml
+patch:
+  style:
+    color_scheme: ink
+    horizontal: true
+    font_point: 28
+    label_font_point: 11
+    fullscreen: true
+    inline_preedit: true # 单行显示
+    corner_radius: 6     # 窗口圆角半径
 
-      preset_color_schemes:
-        ink:
-          name: 墨池／Ink
-          author: 佛振 &lt;chen.sst@gmail.com&gt;
-          text_color: 0x000000
-          back_color: 0xeeffffff
-          candidate_text_color: 0x000000
-          hilited_text_color: 0x000000
-          hilited_back_color: 0xdddddd
-          hilited_candidate_text_color: 0xffffff
-          hilited_candidate_back_color: 0xcc000000
-          comment_text_color: 0x5a5a5a
-          hilited_comment_text_color: 0x808080
+  preset_color_schemes:
+    ink:
+      name: 墨池／Ink
+      author: 佛振 &lt;chen.sst@gmail.com&gt;
+      text_color: 0x000000
+      back_color: 0xeeffffff
+      candidate_text_color: 0x000000
+      hilited_text_color: 0x000000
+      hilited_back_color: 0xdddddd
+      hilited_candidate_text_color: 0xffffff
+      hilited_candidate_back_color: 0xcc000000
+      comment_text_color: 0x5a5a5a
+      hilited_comment_text_color: 0x808080
 </pre>
 </div></li>
 
@@ -274,24 +274,24 @@ Hard core 部分上面已经全部完成，剩下的就是一些皮毛的东西�
 </p>
 
 <div class="org-src-container">
-<pre class="src src-yaml">     # From default.custom.yaml
-     patch:
-       schema_list:
-         - schema: wubi86_jidian
-         - schema: numbers
-         - schema: wubi86_jidian_pinyin
-         - schema: wubi86_jidian_trad
-         - schema: pinyin_simp
+<pre class="src src-yaml"># From default.custom.yaml
+patch:
+  schema_list:
+    - schema: wubi86_jidian
+    - schema: numbers
+    - schema: wubi86_jidian_pinyin
+    - schema: wubi86_jidian_trad
+    - schema: pinyin_simp
 
-       # Menu
-       menu:
-         page_size: 5                    # 候选词数量
-       switcher:
-         hotkeys:
-           - "Control+0"
-         abbreviate_options: true
-         caption: "【 输入法设置 】"
-         option_list_separator: "｜"
+  # Menu
+  menu:
+    page_size: 5                    # 候选词数量
+  switcher:
+    hotkeys:
+      - "Control+0"
+    abbreviate_options: true
+    caption: "【 输入法设置 】"
+    option_list_separator: "｜"
 </pre>
 </div></li>
 
