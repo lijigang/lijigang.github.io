@@ -42,10 +42,10 @@
         <div class="col-md-2"></div>
             <h1>总结: 系统配置常见问题及答案</h1>
             
-<div id="outline-container-orga1820ef" class="outline-2">
-<h2 id="orga1820ef">Github</h2>
-<div class="outline-text-2" id="text-orga1820ef">
-<pre class="example" id="org867116a">
+<div id="outline-container-orge26f4a3" class="outline-2">
+<h2 id="orge26f4a3">Github</h2>
+<div class="outline-text-2" id="text-orge26f4a3">
+<pre class="example" id="org84dd5cb">
 使用 Homebrew 安装 Emacs 时, 出现类似提示:
 
 Failed to connect to raw.githubusercontent.com port 443: Connection refused
@@ -70,13 +70,13 @@ Failed to connect to raw.githubusercontent.com port 443: Connection refused
 </div>
 </div>
 
-<div id="outline-container-orgf115b8c" class="outline-2">
-<h2 id="orgf115b8c">Homebrew</h2>
-<div class="outline-text-2" id="text-orgf115b8c">
+<div id="outline-container-org6a649a1" class="outline-2">
+<h2 id="org6a649a1">Homebrew</h2>
+<div class="outline-text-2" id="text-org6a649a1">
 </div>
-<div id="outline-container-org91e16bf" class="outline-3">
-<h3 id="org91e16bf">是什么?</h3>
-<div class="outline-text-3" id="text-org91e16bf">
+<div id="outline-container-org2298308" class="outline-3">
+<h3 id="org2298308">是什么?</h3>
+<div class="outline-text-3" id="text-org2298308">
 <blockquote>
 <p>
 Homebrew是 mac的包管理器，仅需执行相应的命令,就能下载安装需要的软件包，可以省掉自己去下载、解压、拖拽(安装)等繁琐的步骤。
@@ -130,9 +130,9 @@ Homebrew 主要由四个部分组成: brew、homebrew-core 、homebrew-cask、ho
 </div>
 </div>
 
-<div id="outline-container-org6fcc6cd" class="outline-3">
-<h3 id="org6fcc6cd">问题是?</h3>
-<div class="outline-text-3" id="text-org6fcc6cd">
+<div id="outline-container-orga2f2533" class="outline-3">
+<h3 id="orga2f2533">问题是?</h3>
+<div class="outline-text-3" id="text-orga2f2533">
 <ol class="org-ol">
 <li><p>
 安装Homebrew 时速度超级慢
@@ -159,9 +159,9 @@ Homebrew 主要由四个部分组成: brew、homebrew-core 、homebrew-cask、ho
 </blockquote>
 
 <div class="org-src-container">
-<pre class="src src-shell">    cd "$(brew --repo)/Library/Taps/"
-    mkdir homebrew &amp;&amp; cd homebrew
-    git clone git://mirrors.ustc.edu.cn/homebrew-core.git
+<pre class="src src-shell">cd "$(brew --repo)/Library/Taps/"
+mkdir homebrew &amp;&amp; cd homebrew
+git clone git://mirrors.ustc.edu.cn/homebrew-core.git
 
 </pre>
 </div></li>
@@ -176,23 +176,23 @@ Homebrew 主要由四个部分组成: brew、homebrew-core 、homebrew-cask、ho
 </p>
 </blockquote>
 <div class="org-src-container">
-<pre class="src src-shell">    # 替换 brew.git：
-    git -C "$(brew --repo)" remote set-url origin https://mirrors.ustc.edu.cn/brew.git
+<pre class="src src-shell"># 替换 brew.git：
+git -C "$(brew --repo)" remote set-url origin https://mirrors.ustc.edu.cn/brew.git
 
-    # 替换 homebrew-core.git：
-    git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
+# 替换 homebrew-core.git：
+git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
 
-    # 替换 homebrew-cask.git：
-    git -C "$(brew --repo homebrew/cask)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git
+# 替换 homebrew-cask.git：
+git -C "$(brew --repo homebrew/cask)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git
 
-    # 替换homebrew-bottles：
-    # 首先要先区分你的mac用哪种终端工具，如果是 bash，则执行：
-    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' &gt;&gt; ~/.bash_profile
-    source ~/.bash_profile
+# 替换homebrew-bottles：
+# 首先要先区分你的mac用哪种终端工具，如果是 bash，则执行：
+echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' &gt;&gt; ~/.bash_profile
+source ~/.bash_profile
 
-    # 若是 zsh，则执行：
-    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' &gt;&gt; ~/.zshrc
-    source ~/.zshrc
+# 若是 zsh，则执行：
+echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' &gt;&gt; ~/.zshrc
+source ~/.zshrc
 
 </pre>
 </div></li>
