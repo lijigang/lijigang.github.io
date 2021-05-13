@@ -4,10 +4,289 @@
     <title>你对这个世界要有点意见</title>
     <link>http://lijigang.github.io/</link>
     <description>static site generator</description>
-    <pubDate>Tue, 11 May 2021 18:41:49 CST</pubDate>
-    <lastBuildDate>Tue, 11 May 2021 18:41:49 CST</lastBuildDate>
+    <pubDate>Thu, 13 May 2021 09:53:05 CST</pubDate>
+    <lastBuildDate>Thu, 13 May 2021 09:53:05 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>模型: 商业模式</title>
+      <link>http://lijigang.github.io/blog/2021/04/26/business-model</link>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row post-content">
+        <div class="col-md-2"></div>
+            <h1>模型: 商业模式</h1>
+            
+<div id="org3856931" class="figure">
+<p><img src="images/business-model.png" alt="business-model.png" />
+</p>
+<p><span class="figure-number">Figure 1: </span>商业模式</p>
+</div>
+
+<blockquote>
+<p>
+所谓的商业模式，就是利益相关者的交易结构。
+</p>
+</blockquote>
+
+<p>
+剥繁就简, 商业的本质就在于 <code>交换</code> 。 客户有 <code>病</code>, 你有 <code>药</code> 。 你的药对于客户
+有价值, 提供给对方后, 收取相应的回报, 仅此而已。
+</p>
+
+<div id="outline-container-org61ab206" class="outline-2">
+<h2 id="org61ab206">细分客户(病)</h2>
+<div class="outline-text-2" id="text-org61ab206">
+<p>
+任何一个生意, 一定是针对 <code>特定人群</code> 的 <code>特定问题</code> 而引起的。 这个特定问题,
+你可以看作是一种 <code>病</code>, 病根可能是来自 <code>欲望</code> 或者 <code>恐惧</code>.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">产品</th>
+<th scope="col" class="org-left">细分客户</th>
+<th scope="col" class="org-left">病</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">微信</td>
+<td class="org-left">手机用户</td>
+<td class="org-left">想要: 社交</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">淘宝</td>
+<td class="org-left">网络用户</td>
+<td class="org-left">想要: 买买买</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">百度搜索</td>
+<td class="org-left">网络用户</td>
+<td class="org-left">想要: 寻找信息</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">360安全卫士</td>
+<td class="org-left">网络用户</td>
+<td class="org-left">恐惧: 木马病毒</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">保健品</td>
+<td class="org-left">中老年人</td>
+<td class="org-left">恐惧: 死亡</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">保险</td>
+<td class="org-left">中年人</td>
+<td class="org-left">恐惧: 不幸</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+不要想着去创造客户的病, 要想办法挖掘出来客户现在的病是什么。
+</p>
+
+<p>
+你的客户群体越是广大, 这个共同的病, 越是不好找。所以才需要想办法的细
+分客户，找到这个小群体共同的病。
+</p>
+
+<p>
+像BAT 这样, 基本上同时覆盖了全中国所有上网群体, 找到他们共同的病, 太
+难了。欲承王冠, 必承其重。想解决这么大体量的问题, 对你自身的要求会非
+常非常的高。
+</p>
+
+<p>
+建议还是有多大的碗, 吃多大的饭。
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd472e09" class="outline-2">
+<h2 id="orgd472e09">解决方案(药)</h2>
+<div class="outline-text-2" id="text-orgd472e09">
+<p>
+圈定了细分后的目标客户, 找到了他们共同的病。 下一步就是要想办法去拥有
+对应的解药。 同样的病, 不同的人会提供不同的解法。 有的解法是缓解, 有
+的解法是妙解, 有的解法是毒药。
+</p>
+
+<p>
+同样是 <code>想买买买</code> 的病, 有的人提供的是 <code>万能的淘宝</code>, 有的人提供的是 <code>海外
+   直购</code>, 有的人提供的是 <code>潮品专卖</code> 。
+</p>
+
+<p>
+你提供的解药, 得基于你的基因。 不能明明你手上全是土特产，却想着要去搞
+一个潮品专卖。
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgff29675" class="outline-2">
+<h2 id="orgff29675">合作伙伴(帮手)</h2>
+<div class="outline-text-2" id="text-orgff29675">
+<p>
+在如今这个全球大同的时代, 很少有什么事情是你要完全自研来搞定的。 或多
+或少, 都会需要一些合作伙伴。 有的伙伴是你的原料供应商, 有的伙伴是你的
+代理商, 有的伙伴是你的技术外包, 有的伙伴是你的售后支持。
+</p>
+
+<p>
+想下你在生产 <code>解药</code> 的时候, 有哪些工作是通过合作伙伴可以更好地完成生产
+效率提升的。
+</p>
+
+<p>
+别吃 <code>独食</code>, 给你的合作伙伴应拿的那部分价值支付费用, 这样才能长久合作。
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc8d0354" class="outline-2">
+<h2 id="orgc8d0354">独特价值(护城河)</h2>
+<div class="outline-text-2" id="text-orgc8d0354">
+<p>
+有合作伙伴的帮忙, 你现在可以高效地生产解药了。
+</p>
+
+<p>
+但如果这个解药的生产过程特别简单，别人一看就会。你的解药, 可以赚60%
+的利润, 对方只赚 50% 的利润, 你怎么办? 你也降到50% 吗? 那如果再来一个
+只赚 30% 的呢? 再来一个只赚10% 的呢?
+</p>
+
+<p>
+如果你的解药, 没有独特价值，那最后一定会沦落到打价格战的地步。到了这
+时候, 你赚的就不再是产品创新的价值, 而是赚的社会发给你的工资。
+</p>
+
+<p>
+从一开始, 你就应该天天琢磨你的护城河在哪里。是 <code>人无我有</code>, 还是 <code>人有我优</code> ?
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3ea1fdb" class="outline-2">
+<h2 id="org3ea1fdb">竞争对手(拦路虎)</h2>
+<div class="outline-text-2" id="text-org3ea1fdb">
+<p>
+你找到了自己的独特价值，就可以安枕无忧, 躺着赚钱了吗? 当然不是。
+</p>
+
+<p>
+这时候, 你一定会遇到一只拦路虎, 你的竞争对手出现了。
+</p>
+
+<p>
+对方也有它的独特价值, 价格比你还便宜，客户有什么理由非选你不可呢?
+</p>
+
+<p>
+这是一场仗, 一场注定要打的仗。
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8f57547" class="outline-2">
+<h2 id="org8f57547">触达通道(交付)</h2>
+<div class="outline-text-2" id="text-org8f57547">
+<p>
+你研究了那么久这个细分客户群体的病, 也终于搞出解药来了，和竞争对手的
+一PK, 你的效果明显要好的多。然后呢? 你的细分客户群体就应该堵上门来抢
+购吗? 他们还不知道你是谁呢!
+</p>
+
+<p>
+你的品牌是什么, 你的独特价值怎么包装下, 可以方便地传达给市场用户?
+</p>
+
+<p>
+你的售卖渠道是什么? 用户看了你的广告，想试下你的解药效果, 他们从哪可
+以买到它?
+</p>
+
+<p>
+是你开一个线下店铺, 所有广告指向这个店铺地址? 远处的用户怎么办?
+</p>
+
+<p>
+是你再开一个线上店铺, 广告包含店铺二维码? 那这个广告是投在抖音还是淘
+宝上面? 你了解你的目标用户经常出现在哪里吗?
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc3744c1" class="outline-2">
+<h2 id="orgc3744c1">客情关系(感情牌)</h2>
+<div class="outline-text-2" id="text-orgc3744c1">
+<p>
+如果你做的不是景区礼品之类的一锤子买卖, 大概率是希望和你的目标客户做
+多次合作的, 你希望他们能重复地来购买你的解药。
+</p>
+
+<p>
+如果你什么都不做, 只是客户来了, 就卖给他。 然后就坐在家里, 期待他尽快
+过来重复购买, 你觉得这种可能性大吗? 在这个过程中, 你怎么能确保他不会
+对其它家的解药给吸引走呢?
+</p>
+
+<p>
+你得做点什么, 来增加他来你这重复购买的概率。
+</p>
+
+<p>
+微信你用了一次, 会不会打开第二次? 会的, 为什么? 因为你的朋友都在使用
+它, 你们都在他这张社交网络上面呆着, 这种网自带粘性, 吸引着你重复打开
+使用。尽管如此, 微信还是在不断尝试着拓宽自己的功能, 增加了支付的功能,
+不仅是聊天的时候想用它, 在买东西的时候也能想用它; 增加了炒股的功能,
+在买卖股票的时候也能用它; 增加了社保卡绑定功能, 去医院看病的时候也能
+用它...
+</p>
+
+<p>
+你开了一家线下店铺卖衣服, 不会像微信一样开发和关联各种功能, 但你能做
+些什么事情来增加复购呢? 某天心血来潮进你店买了一件衣服的人, 你有什么
+办法可以让他下次想买衣服的时候, 能想到先来你店里看看?
+</p>
+
+<p>
+这种维系客户关系的方式有很多成熟的招式, 最近比较火的是拼多多使用的社
+交分享招式和私域流量运营的招式。 你可以把在你这里购买解药的人拉到一个
+微信群中(他们为什么要同意入群? 你给什么好处?), 有新品或者活动时, 可以
+在群中发些信息, 吸引他们来店查看或者远程下单。(他们为什么不退群, 呆在
+群里有什么好处?)
+</p>
+</div>
+</div>
+
+    </div>
+</section>
+]]></description>
+      <pubDate>2021-05-13</pubDate>
+      <guid>http://lijigang.github.io/blog/2021/04/26/business-model</guid>
+    </item>
     <item>
       <title>汇总: 优质文章每日精华选(2021 年)</title>
       <link>http://lijigang.github.io/blog/2021/01/05/everyday-reading-2021</link>
@@ -25,13 +304,13 @@
 其不便,故起意将每日推荐文章列表整理到此, 方便随时查阅.
 </p>
 
-<div id="outline-container-org065fed7" class="outline-2">
-<h2 id="org065fed7">五月</h2>
-<div class="outline-text-2" id="text-org065fed7">
+<div id="outline-container-org49e94eb" class="outline-2">
+<h2 id="org49e94eb">五月</h2>
+<div class="outline-text-2" id="text-org49e94eb">
 </div>
-<div id="outline-container-org9ef7744" class="outline-3">
-<h3 id="org9ef7744">2021-05-10</h3>
-<div class="outline-text-3" id="text-org9ef7744">
+<div id="outline-container-org13a9304" class="outline-3">
+<h3 id="org13a9304">2021-05-10</h3>
+<div class="outline-text-3" id="text-org13a9304">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/El22KsfvsZ8ltAenDsLzKw">《万字长文｜复盘Netflix与百视达的10年「商战史」》</a>
@@ -95,9 +374,9 @@
 </div>
 </div>
 
-<div id="outline-container-org781bbd4" class="outline-3">
-<h3 id="org781bbd4">2021-05-07</h3>
-<div class="outline-text-3" id="text-org781bbd4">
+<div id="outline-container-org8bfeb5c" class="outline-3">
+<h3 id="org8bfeb5c">2021-05-07</h3>
+<div class="outline-text-3" id="text-org8bfeb5c">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/S3JzSDflzxpb08Sf6zHXgA">《传奇永不落幕 —— 纪念大卫·史文森》</a>
@@ -173,13 +452,13 @@ B站、京东、知乎、小红书等数家互联网大厂，接连推出了以�
 </div>
 </div>
 
-<div id="outline-container-orge00dbf7" class="outline-2">
-<h2 id="orge00dbf7">四月</h2>
-<div class="outline-text-2" id="text-orge00dbf7">
+<div id="outline-container-org09584fc" class="outline-2">
+<h2 id="org09584fc">四月</h2>
+<div class="outline-text-2" id="text-org09584fc">
 </div>
-<div id="outline-container-orgf4204f2" class="outline-3">
-<h3 id="orgf4204f2">2021-04-28</h3>
-<div class="outline-text-3" id="text-orgf4204f2">
+<div id="outline-container-org93e6133" class="outline-3">
+<h3 id="org93e6133">2021-04-28</h3>
+<div class="outline-text-3" id="text-org93e6133">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/_gRPoA_AdWs3bduepD3V_Q">《深度复盘：亚马逊AWS帝国，是如何被微软奇袭的？》</a>
@@ -244,9 +523,9 @@ Facebook 的立场看，苹果一刀切的做法像是一种「懒政」。但�
 </div>
 </div>
 
-<div id="outline-container-orgb16f7c2" class="outline-3">
-<h3 id="orgb16f7c2">2021-04-27</h3>
-<div class="outline-text-3" id="text-orgb16f7c2">
+<div id="outline-container-org8ddcec5" class="outline-3">
+<h3 id="org8ddcec5">2021-04-27</h3>
+<div class="outline-text-3" id="text-org8ddcec5">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/EWOHA4AQDiBDAX5EdzItIg">《后厂村的秘密，都在网约车里》</a>
@@ -311,9 +590,9 @@ GE、苹果、腾讯等企业，获得超过当初做实业利润的巨额回报
 </ul>
 </div>
 </div>
-<div id="outline-container-org54481f4" class="outline-3">
-<h3 id="org54481f4">2021-04-26</h3>
-<div class="outline-text-3" id="text-org54481f4">
+<div id="outline-container-orgdf7771a" class="outline-3">
+<h3 id="orgdf7771a">2021-04-26</h3>
+<div class="outline-text-3" id="text-orgdf7771a">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/2pWM-ho7Vbl66BUkl4RejA">《掘金本地生活，抖音和快手的新战场》</a>
@@ -373,9 +652,9 @@ GE、苹果、腾讯等企业，获得超过当初做实业利润的巨额回报
 </div>
 </div>
 
-<div id="outline-container-org6c919af" class="outline-3">
-<h3 id="org6c919af">2021-04-22</h3>
-<div class="outline-text-3" id="text-org6c919af">
+<div id="outline-container-org39c7434" class="outline-3">
+<h3 id="org39c7434">2021-04-22</h3>
+<div class="outline-text-3" id="text-org39c7434">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/QNxwjYJax4dXCL-ubKR6Kg">《小程序之争，支付宝输了吗？》</a>
@@ -443,9 +722,9 @@ GE、苹果、腾讯等企业，获得超过当初做实业利润的巨额回报
 </div>
 </div>
 
-<div id="outline-container-orgd91c146" class="outline-3">
-<h3 id="orgd91c146">2021-04-21</h3>
-<div class="outline-text-3" id="text-orgd91c146">
+<div id="outline-container-orga851cc6" class="outline-3">
+<h3 id="orga851cc6">2021-04-21</h3>
+<div class="outline-text-3" id="text-orga851cc6">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/hlZKXb-03je3b-hQtmNtQg">《新电商七雄》</a>
@@ -508,9 +787,9 @@ GE、苹果、腾讯等企业，获得超过当初做实业利润的巨额回报
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb292b10" class="outline-3">
-<h3 id="orgb292b10">2021-04-20</h3>
-<div class="outline-text-3" id="text-orgb292b10">
+<div id="outline-container-orgf504358" class="outline-3">
+<h3 id="orgf504358">2021-04-20</h3>
+<div class="outline-text-3" id="text-orgf504358">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/GmDkqxdAO-8X5kH00nyOmw">《别人家展车，特斯拉展示韭菜》</a>
@@ -577,9 +856,9 @@ CEO魏哲家预测：“芯片需求将持续高涨，短缺状况将持续今�
 </div>
 </div>
 
-<div id="outline-container-org25014fe" class="outline-3">
-<h3 id="org25014fe">2021-04-19</h3>
-<div class="outline-text-3" id="text-org25014fe">
+<div id="outline-container-org0d2a9ed" class="outline-3">
+<h3 id="org0d2a9ed">2021-04-19</h3>
+<div class="outline-text-3" id="text-org0d2a9ed">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/oDALBIt_ejdnuNzmKOiM2g">《王兴，带头围观了华为第一辆车》</a>
@@ -645,9 +924,9 @@ CEO魏哲家预测：“芯片需求将持续高涨，短缺状况将持续今�
 </div>
 </div>
 
-<div id="outline-container-org83639a3" class="outline-3">
-<h3 id="org83639a3">2021-04-16</h3>
-<div class="outline-text-3" id="text-org83639a3">
+<div id="outline-container-orga0f6f9e" class="outline-3">
+<h3 id="orga0f6f9e">2021-04-16</h3>
+<div class="outline-text-3" id="text-orga0f6f9e">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/XDDegEwQvahfeTbzEoc03g">《新冠mRNA疫苗幕后英雄：曾不断被贬职拒绝，默默无闻30载，年收未过6万》</a>
@@ -711,9 +990,9 @@ MOB研究院数据显示，去年一年就有6000万新基民加入基金的狂�
 </ul>
 </div>
 </div>
-<div id="outline-container-org413c60d" class="outline-3">
-<h3 id="org413c60d">2021-04-15</h3>
-<div class="outline-text-3" id="text-org413c60d">
+<div id="outline-container-orgd69a75e" class="outline-3">
+<h3 id="orgd69a75e">2021-04-15</h3>
+<div class="outline-text-3" id="text-orgd69a75e">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/yCKQJk6OUdQaMhxblfIn9A">《围攻美团》</a>
@@ -778,9 +1057,9 @@ MOB研究院数据显示，去年一年就有6000万新基民加入基金的狂�
 </div>
 </div>
 
-<div id="outline-container-orgec6f5d3" class="outline-3">
-<h3 id="orgec6f5d3">2021-04-13</h3>
-<div class="outline-text-3" id="text-orgec6f5d3">
+<div id="outline-container-org1c43565" class="outline-3">
+<h3 id="org1c43565">2021-04-13</h3>
+<div class="outline-text-3" id="text-org1c43565">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/mgLBcv41Lyc9-ya3j9u8hA">《日本到底行不行？》</a>
@@ -849,9 +1128,9 @@ NextVR，索尼宣布正在为PS5开发一款新的VR设备……这一次，VR�
 </div>
 </div>
 
-<div id="outline-container-orgdd1fc49" class="outline-3">
-<h3 id="orgdd1fc49">2021-04-07</h3>
-<div class="outline-text-3" id="text-orgdd1fc49">
+<div id="outline-container-org10de75f" class="outline-3">
+<h3 id="org10de75f">2021-04-07</h3>
+<div class="outline-text-3" id="text-org10de75f">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/cIw8kGl000SyHuN-XZlXng">《科创板IPO大撤退》</a>
@@ -913,9 +1192,9 @@ IPO、股价、市值面前，“人设”已经不重要，财务报表、用�
 </ul>
 </div>
 </div>
-<div id="outline-container-org16dddde" class="outline-3">
-<h3 id="org16dddde">2021-04-06</h3>
-<div class="outline-text-3" id="text-org16dddde">
+<div id="outline-container-org0676c11" class="outline-3">
+<h3 id="org0676c11">2021-04-06</h3>
+<div class="outline-text-3" id="text-org0676c11">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/2%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20jifSX5vVl2ffbPAgK%20jkVQ">《这就是新经济 | 五万字拆解中国养老全产业链，80后是养老压力最大的一代人》</a>
@@ -979,9 +1258,9 @@ IPO、股价、市值面前，“人设”已经不重要，财务报表、用�
 </div>
 </div>
 
-<div id="outline-container-org4e720dc" class="outline-3">
-<h3 id="org4e720dc">2021-04-01</h3>
-<div class="outline-text-3" id="text-org4e720dc">
+<div id="outline-container-orge8643b6" class="outline-3">
+<h3 id="orge8643b6">2021-04-01</h3>
+<div class="outline-text-3" id="text-orge8643b6">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/Q9wXkOV2Wi5iekHa3GEDzA">《深度｜字节跳动的OKR也有不OK的时候》</a>
@@ -1044,13 +1323,13 @@ CEO 何小鹏接受了一个小范围的采访。
 </div>
 </div>
 
-<div id="outline-container-org81643c1" class="outline-2">
-<h2 id="org81643c1">三月</h2>
-<div class="outline-text-2" id="text-org81643c1">
+<div id="outline-container-orgeb717fc" class="outline-2">
+<h2 id="orgeb717fc">三月</h2>
+<div class="outline-text-2" id="text-orgeb717fc">
 </div>
-<div id="outline-container-org51fafe3" class="outline-3">
-<h3 id="org51fafe3">2021-03-31</h3>
-<div class="outline-text-3" id="text-org51fafe3">
+<div id="outline-container-orgc3612f2" class="outline-3">
+<h3 id="orgc3612f2">2021-03-31</h3>
+<div class="outline-text-3" id="text-orgc3612f2">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/zi9uG-92nzzooDYbNOm3Jw">《大科技停滞时代》</a>
@@ -1115,9 +1394,9 @@ CEO 何小鹏接受了一个小范围的采访。
 </div>
 </div>
 
-<div id="outline-container-orgd377741" class="outline-3">
-<h3 id="orgd377741">2021-03-30</h3>
-<div class="outline-text-3" id="text-orgd377741">
+<div id="outline-container-org651a7e7" class="outline-3">
+<h3 id="org651a7e7">2021-03-30</h3>
+<div class="outline-text-3" id="text-org651a7e7">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/5eP7TYSetFPFsmtWBcF3tQ">《小米投资百亿造汽车：雷军任CEO 将助推市值破千亿美元》</a>
@@ -1183,9 +1462,9 @@ CEO 何小鹏接受了一个小范围的采访。
 </div>
 </div>
 
-<div id="outline-container-org43167de" class="outline-3">
-<h3 id="org43167de">2021-03-29</h3>
-<div class="outline-text-3" id="text-org43167de">
+<div id="outline-container-org9063fd1" class="outline-3">
+<h3 id="org9063fd1">2021-03-29</h3>
+<div class="outline-text-3" id="text-org9063fd1">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/vHwlAi6iOpS_-FZQWdPYuQ">《用不起的充电宝，骑不起的自行车，共享经济“举起镰刀”》</a>
@@ -1250,9 +1529,9 @@ CEO 何小鹏接受了一个小范围的采访。
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfb540a8" class="outline-3">
-<h3 id="orgfb540a8">2021-03-26</h3>
-<div class="outline-text-3" id="text-orgfb540a8">
+<div id="outline-container-org1001e24" class="outline-3">
+<h3 id="org1001e24">2021-03-26</h3>
+<div class="outline-text-3" id="text-org1001e24">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/4KK%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20j0zEozkXpd_5_w67OsQ">《我们翻了13万字黄峥专访及公开信实录，发现了这些秘密》</a>
@@ -1299,9 +1578,9 @@ CEO 何小鹏接受了一个小范围的采访。
 </div>
 </div>
 
-<div id="outline-container-org3efef10" class="outline-3">
-<h3 id="org3efef10">2021-03-25</h3>
-<div class="outline-text-3" id="text-org3efef10">
+<div id="outline-container-orgcccaf09" class="outline-3">
+<h3 id="orgcccaf09">2021-03-25</h3>
+<div class="outline-text-3" id="text-orgcccaf09">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/RPL0D6BQoI3r0ZFOlBO0VA">《100 亿美元，微软收购了一个有 3 亿人口的「互联网社会」》</a>
@@ -1365,9 +1644,9 @@ CEO 何小鹏接受了一个小范围的采访。
 </div>
 </div>
 
-<div id="outline-container-org12d4af0" class="outline-3">
-<h3 id="org12d4af0">2021-03-22</h3>
-<div class="outline-text-3" id="text-org12d4af0">
+<div id="outline-container-org54942f3" class="outline-3">
+<h3 id="org54942f3">2021-03-22</h3>
+<div class="outline-text-3" id="text-org54942f3">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/L0VOUpRiqeGhrBlaeXvSxg">《一人食，一人玩，一人住，为孤独埋单的9200万单身青年》</a>
@@ -1421,9 +1700,9 @@ CEO 何小鹏接受了一个小范围的采访。
 </div>
 </div>
 
-<div id="outline-container-orgc1c4a0c" class="outline-3">
-<h3 id="orgc1c4a0c">2021-03-15</h3>
-<div class="outline-text-3" id="text-orgc1c4a0c">
+<div id="outline-container-orgcc62c28" class="outline-3">
+<h3 id="orgcc62c28">2021-03-15</h3>
+<div class="outline-text-3" id="text-orgcc62c28">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/evtV5om1yC3DMCGcqZ7ZJw">《新冠之谜：为什么疫情在某些国家看起来更严重？》</a>
@@ -1487,9 +1766,9 @@ Spotify，成为全美付费订户最多的流媒体音乐服务。在世界范�
 </div>
 </div>
 
-<div id="outline-container-org2d4dcda" class="outline-3">
-<h3 id="org2d4dcda">2021-03-12</h3>
-<div class="outline-text-3" id="text-org2d4dcda">
+<div id="outline-container-orga9a1bb7" class="outline-3">
+<h3 id="orga9a1bb7">2021-03-12</h3>
+<div class="outline-text-3" id="text-orga9a1bb7">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/KTFPHcXg9zzx9H9U72poWQ">《抖音电商大变局：品牌自播吃肉 达人喝汤 小主播被迫转行｜深网》</a>
@@ -1554,9 +1833,9 @@ Mac 上刷朋友圈喽。这次 Mac 版微信 3.0 提供了三个新特性：1�
 </div>
 </div>
 
-<div id="outline-container-org242fe73" class="outline-3">
-<h3 id="org242fe73">2021-03-11</h3>
-<div class="outline-text-3" id="text-org242fe73">
+<div id="outline-container-org756903a" class="outline-3">
+<h3 id="org756903a">2021-03-11</h3>
+<div class="outline-text-3" id="text-org756903a">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/o-1QSeNFF%20%20%20%20%20%20%20%20%20%20%20Jphw%20%20%20%20%20%20%20%20%20%20%20%20%20%20jPIvOrqEg">《大熊市，才是改变人生的最好机会》</a>
@@ -1620,9 +1899,9 @@ Mac 上刷朋友圈喽。这次 Mac 版微信 3.0 提供了三个新特性：1�
 </div>
 </div>
 
-<div id="outline-container-org5afb58c" class="outline-3">
-<h3 id="org5afb58c">2021-03-10</h3>
-<div class="outline-text-3" id="text-org5afb58c">
+<div id="outline-container-org2cb2323" class="outline-3">
+<h3 id="org2cb2323">2021-03-10</h3>
+<div class="outline-text-3" id="text-org2cb2323">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/t48bbKDDWcAsLYwG5aw6rQ">《推荐和视频开始侵蚀各行各业》</a>
@@ -1685,9 +1964,9 @@ TikTok在海外受挫后，字节跳动一直焦虑未来的增长在哪，而�
 </div>
 </div>
 
-<div id="outline-container-org4f5e5cd" class="outline-3">
-<h3 id="org4f5e5cd">2021-03-09</h3>
-<div class="outline-text-3" id="text-org4f5e5cd">
+<div id="outline-container-org3b99112" class="outline-3">
+<h3 id="org3b99112">2021-03-09</h3>
+<div class="outline-text-3" id="text-org3b99112">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/yc0b-cYYdDIK2TpQbPN3WQ">《深V反弹失败，A股跌够了吗？》</a>
@@ -1750,9 +2029,9 @@ TikTok在海外受挫后，字节跳动一直焦虑未来的增长在哪，而�
 </div>
 </div>
 
-<div id="outline-container-org79cb625" class="outline-3">
-<h3 id="org79cb625">2021-03-04</h3>
-<div class="outline-text-3" id="text-org79cb625">
+<div id="outline-container-org8537687" class="outline-3">
+<h3 id="org8537687">2021-03-04</h3>
+<div class="outline-text-3" id="text-org8537687">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/-G6HBaW7IDlp%20%20%20%20%20%20%20%20JukTlTQYEw">《为什么老板画大饼越来越没用了？》</a>
@@ -1815,9 +2094,9 @@ TikTok在海外受挫后，字节跳动一直焦虑未来的增长在哪，而�
 </div>
 </div>
 
-<div id="outline-container-org05ebc66" class="outline-3">
-<h3 id="org05ebc66">2021-03-01</h3>
-<div class="outline-text-3" id="text-org05ebc66">
+<div id="outline-container-org05b82f2" class="outline-3">
+<h3 id="org05b82f2">2021-03-01</h3>
+<div class="outline-text-3" id="text-org05b82f2">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/_ZfrE38z7g3fHtaxiZx__w">《为了劝我妈，我开了个老年公众号》</a>
@@ -1879,13 +2158,13 @@ TikTok在海外受挫后，字节跳动一直焦虑未来的增长在哪，而�
 </div>
 </div>
 
-<div id="outline-container-orgec50bfc" class="outline-2">
-<h2 id="orgec50bfc">二月</h2>
-<div class="outline-text-2" id="text-orgec50bfc">
+<div id="outline-container-org7c0e058" class="outline-2">
+<h2 id="org7c0e058">二月</h2>
+<div class="outline-text-2" id="text-org7c0e058">
 </div>
-<div id="outline-container-org00cfb19" class="outline-3">
-<h3 id="org00cfb19">2021-02-25</h3>
-<div class="outline-text-3" id="text-org00cfb19">
+<div id="outline-container-org73a996d" class="outline-3">
+<h3 id="org73a996d">2021-02-25</h3>
+<div class="outline-text-3" id="text-org73a996d">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/1-RUPpkImy%20%20%20%20%20%20%20%20%20%20JEp5H8rUNilw">《7图深扒中国百亿票房演员，第5名你想不到》</a>
@@ -1959,9 +2238,9 @@ TikTok在海外受挫后，字节跳动一直焦虑未来的增长在哪，而�
 </div>
 </div>
 
-<div id="outline-container-orgd652e4d" class="outline-3">
-<h3 id="orgd652e4d">2021-02-23</h3>
-<div class="outline-text-3" id="text-orgd652e4d">
+<div id="outline-container-org26cb70a" class="outline-3">
+<h3 id="org26cb70a">2021-02-23</h3>
+<div class="outline-text-3" id="text-org26cb70a">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/7rsEbd3qo%20%20%20%20%20%20%20%20%20%20%20jgYQi_EapRsSw">《有钱的码农，基金募资最后的「新大陆」》</a>
@@ -2037,9 +2316,9 @@ UP主生态如何实现正向循环？B站平台的运营政策以及产品的�
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfd0b834" class="outline-3">
-<h3 id="orgfd0b834">2021-02-22</h3>
-<div class="outline-text-3" id="text-orgfd0b834">
+<div id="outline-container-org065a13c" class="outline-3">
+<h3 id="org065a13c">2021-02-22</h3>
+<div class="outline-text-3" id="text-org065a13c">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/w0wNA6rK%20%20%20%20%20%20%20%20%20%20%20%20jxAqW4OsLACxwg">《这个「视频版 Clubhouse」，成立一年就盈利，估值 21 亿美元》</a>
@@ -2102,9 +2381,9 @@ ARR(年度经常性收入)3000 万美元，从 2020 年 2 月份开始，8 个�
 </div>
 </div>
 
-<div id="outline-container-orgfe6187f" class="outline-3">
-<h3 id="orgfe6187f">2021-02-18</h3>
-<div class="outline-text-3" id="text-orgfe6187f">
+<div id="outline-container-orge1e9fa4" class="outline-3">
+<h3 id="orge1e9fa4">2021-02-18</h3>
+<div class="outline-text-3" id="text-orge1e9fa4">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/INbSIgFtCiaIKzya%20%20%20%20jGdaeA">《你殊死进攻，也拼不过巨头一个部门？王兴切了三刀后……》</a>
@@ -2166,9 +2445,9 @@ ARR(年度经常性收入)3000 万美元，从 2020 年 2 月份开始，8 个�
 </div>
 </div>
 
-<div id="outline-container-orgfd60000" class="outline-3">
-<h3 id="orgfd60000">2021-02-05</h3>
-<div class="outline-text-3" id="text-orgfd60000">
+<div id="outline-container-org7757ae0" class="outline-3">
+<h3 id="org7757ae0">2021-02-05</h3>
+<div class="outline-text-3" id="text-org7757ae0">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/gXgPgxRDuvfbTyCQYIv8zw">《核酸检测是门好生意吗？上市公司净利润暴涨数十倍》</a>
@@ -2230,9 +2509,9 @@ ARR(年度经常性收入)3000 万美元，从 2020 年 2 月份开始，8 个�
 </div>
 </div>
 
-<div id="outline-container-org08148c1" class="outline-3">
-<h3 id="org08148c1">2021-02-04</h3>
-<div class="outline-text-3" id="text-org08148c1">
+<div id="outline-container-orge61f454" class="outline-3">
+<h3 id="orge61f454">2021-02-04</h3>
+<div class="outline-text-3" id="text-orge61f454">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/RwA4FH80MY-1GaMovFa-gQ">《快手上市，高光与隐忧》</a>
@@ -2290,9 +2569,9 @@ Space X，更是成为蓝色起源最大的竞争对手，这场太空竞赛也�
 </div>
 </div>
 
-<div id="outline-container-org577dd5c" class="outline-3">
-<h3 id="org577dd5c">2021-02-03</h3>
-<div class="outline-text-3" id="text-org577dd5c">
+<div id="outline-container-orgb328b4b" class="outline-3">
+<h3 id="orgb328b4b">2021-02-03</h3>
+<div class="outline-text-3" id="text-orgb328b4b">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/Q5D0x%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20JZ%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20jKTV-mC_1G6asig">《我所经历的字幕组消亡》</a>
@@ -2355,9 +2634,9 @@ Space X，更是成为蓝色起源最大的竞争对手，这场太空竞赛也�
 </div>
 </div>
 
-<div id="outline-container-org3db7168" class="outline-3">
-<h3 id="org3db7168">2021-02-02</h3>
-<div class="outline-text-3" id="text-org3db7168">
+<div id="outline-container-org4918547" class="outline-3">
+<h3 id="org4918547">2021-02-02</h3>
+<div class="outline-text-3" id="text-org4918547">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/quRq8zrUUXeOwlYnZx5RrA">《2021，残酷的K型复苏》</a>
@@ -2418,9 +2697,9 @@ Break却快速增长，开始长期盘踞在美国新闻类第一的位置，人
 </div>
 </div>
 
-<div id="outline-container-org3972250" class="outline-3">
-<h3 id="org3972250">2021-02-01</h3>
-<div class="outline-text-3" id="text-org3972250">
+<div id="outline-container-orga2ee15a" class="outline-3">
+<h3 id="orga2ee15a">2021-02-01</h3>
+<div class="outline-text-3" id="text-orga2ee15a">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/Q_0swDRzP7TXbdoHNSp8WQ">《吴声：2021，疫后商业的新去处》</a>
@@ -2481,13 +2760,13 @@ Break却快速增长，开始长期盘踞在美国新闻类第一的位置，人
 </div>
 </div>
 
-<div id="outline-container-org9f36141" class="outline-2">
-<h2 id="org9f36141">一月</h2>
-<div class="outline-text-2" id="text-org9f36141">
+<div id="outline-container-org6c7c284" class="outline-2">
+<h2 id="org6c7c284">一月</h2>
+<div class="outline-text-2" id="text-org6c7c284">
 </div>
-<div id="outline-container-org574d841" class="outline-3">
-<h3 id="org574d841">2021-01-29</h3>
-<div class="outline-text-3" id="text-org574d841">
+<div id="outline-container-orgf8c8fe2" class="outline-3">
+<h3 id="orgf8c8fe2">2021-01-29</h3>
+<div class="outline-text-3" id="text-orgf8c8fe2">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/Pkv0ooZ2POkn-no2qW7YwQ">《为什么微信的“视频动态”失败了，但视频号却成功了？》</a>
@@ -2549,9 +2828,9 @@ Break却快速增长，开始长期盘踞在美国新闻类第一的位置，人
 </div>
 </div>
 
-<div id="outline-container-org8b9f2f1" class="outline-3">
-<h3 id="org8b9f2f1">2021-01-28</h3>
-<div class="outline-text-3" id="text-org8b9f2f1">
+<div id="outline-container-orgaa04539" class="outline-3">
+<h3 id="orgaa04539">2021-01-28</h3>
+<div class="outline-text-3" id="text-orgaa04539">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/tEW8npHbzX84-TV2ogmm5g">《美国政治的起源与挑战》</a>
@@ -2614,9 +2893,9 @@ Break却快速增长，开始长期盘踞在美国新闻类第一的位置，人
 </div>
 </div>
 
-<div id="outline-container-org155e025" class="outline-3">
-<h3 id="org155e025">2021-01-27</h3>
-<div class="outline-text-3" id="text-org155e025">
+<div id="outline-container-org99623e3" class="outline-3">
+<h3 id="org99623e3">2021-01-27</h3>
+<div class="outline-text-3" id="text-org99623e3">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/9P7vmpTNvsb%20%20%20%20%20%20%20%20%20JxGsdLT5tsw">《职场生存指南 2021 版》</a>
@@ -2675,9 +2954,9 @@ Break却快速增长，开始长期盘踞在美国新闻类第一的位置，人
 </div>
 </div>
 
-<div id="outline-container-org021b956" class="outline-3">
-<h3 id="org021b956">2021-01-26</h3>
-<div class="outline-text-3" id="text-org021b956">
+<div id="outline-container-orge25244c" class="outline-3">
+<h3 id="orge25244c">2021-01-26</h3>
+<div class="outline-text-3" id="text-orge25244c">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/2zs8gS09-ubS12tzf1PNwQ">《新消费创业狂欢背后：95% 的品牌是平庸的》</a>
@@ -2746,9 +3025,9 @@ Break却快速增长，开始长期盘踞在美国新闻类第一的位置，人
 </div>
 </div>
 
-<div id="outline-container-org9fcdf8b" class="outline-3">
-<h3 id="org9fcdf8b">2021-01-25</h3>
-<div class="outline-text-3" id="text-org9fcdf8b">
+<div id="outline-container-orgaf0934c" class="outline-3">
+<h3 id="orgaf0934c">2021-01-25</h3>
+<div class="outline-text-3" id="text-orgaf0934c">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/nS_x7ldRXsfH0-xZX8eqUw">《微信为什么要做输入法？》</a>
@@ -2810,9 +3089,9 @@ Break却快速增长，开始长期盘踞在美国新闻类第一的位置，人
 </div>
 </div>
 
-<div id="outline-container-org3a30bca" class="outline-3">
-<h3 id="org3a30bca">2021-01-22</h3>
-<div class="outline-text-3" id="text-org3a30bca">
+<div id="outline-container-orge1de93f" class="outline-3">
+<h3 id="orge1de93f">2021-01-22</h3>
+<div class="outline-text-3" id="text-orge1de93f">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/iLUb8EPmZ77QYZinpbk0QA">《春晚红包里的巨头权力变迁史》</a>
@@ -2884,9 +3163,9 @@ Break却快速增长，开始长期盘踞在美国新闻类第一的位置，人
 </div>
 </div>
 
-<div id="outline-container-orgf9255ea" class="outline-3">
-<h3 id="orgf9255ea">2021-01-20</h3>
-<div class="outline-text-3" id="text-orgf9255ea">
+<div id="outline-container-orgdd07ce9" class="outline-3">
+<h3 id="orgdd07ce9">2021-01-20</h3>
+<div class="outline-text-3" id="text-orgdd07ce9">
 <ul class="org-ul">
 <li><p>
 <a href="https://mp.weixin.qq.com/s/vTF_7tlrGuRtA-0tFK-2QQ">《腾讯控股(0700.HK) 2021年微信公开课：生态能力愈发稳固，商业化大有可为》</a>
@@ -2959,9 +3238,9 @@ Break却快速增长，开始长期盘踞在美国新闻类第一的位置，人
 </div>
 </div>
 
-<div id="outline-container-org28558d2" class="outline-3">
-<h3 id="org28558d2">2021-01-19</h3>
-<div class="outline-text-3" id="text-org28558d2">
+<div id="outline-container-org2080280" class="outline-3">
+<h3 id="org2080280">2021-01-19</h3>
+<div class="outline-text-3" id="text-org2080280">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/xr5YxtxFZC960WA8s4ROVQ">《2021年微信公开课PRO最全干货集合，划重点啦！》</a> 一年一度的微信公开课，终于来了。今日早上，期待已久的2021微信公开课PRO在广州正式开讲，本届大会以“WeBuild 激发”为主题，对视频号、小程序、微信搜一搜、企业微信、微信支付、微信小游戏等六大生态领域进行了内容分享。</li>
 </ul>
@@ -2988,9 +3267,9 @@ Break却快速增长，开始长期盘踞在美国新闻类第一的位置，人
 </div>
 </div>
 
-<div id="outline-container-org55bc015" class="outline-3">
-<h3 id="org55bc015">2021-01-18</h3>
-<div class="outline-text-3" id="text-org55bc015">
+<div id="outline-container-org465061f" class="outline-3">
+<h3 id="org465061f">2021-01-18</h3>
+<div class="outline-text-3" id="text-org465061f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/MYvZ1zcG%20%20%20%20%20%20%20%20%20%20%20%20j9NO-EHcBzmQow">《B站，终于活成了抖音的样子》</a> 近日，B站APP端在内测单列信息流的沉浸模式，从外表看来和抖音的播放界面别无二致，最大的不同是，B站的“短视频模式”仍保留着弹幕功能和横屏切换选项。去年抖音博主大规模“入侵”B站，一年过去了，随着越来越多不同平台视频创作者的入驻，遗世独立了十年的B站，逐渐出现了被同化的迹象。B站越来越火，却越来越不像“B站”了。</li>
 </ul>
@@ -3017,9 +3296,9 @@ Break却快速增长，开始长期盘踞在美国新闻类第一的位置，人
 </div>
 </div>
 
-<div id="outline-container-org3ec1be3" class="outline-3">
-<h3 id="org3ec1be3">2021-01-15</h3>
-<div class="outline-text-3" id="text-org3ec1be3">
+<div id="outline-container-orga8b2d2d" class="outline-3">
+<h3 id="orga8b2d2d">2021-01-15</h3>
+<div class="outline-text-3" id="text-orga8b2d2d">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/IPlNQ%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20jQ1mBD%20%20%20%20%20%20%20%20%20%20%20%20JTRiNaQBcuw">《腾讯华为之争背后，一个时代正在落幕》</a> 华为游戏中心在1月1日发布公告宣布，因“腾讯单方面就双方合作做出重大变更”，华为应用商店将全面下架腾讯游戏。腾讯与华为的这次下架事件，让游戏公司与硬件分发渠道的冲突逐渐从幕后走向台前，应用商店的黄金时代正在过去，牢不可破的市场地位已经在悄然消融，也并非是两家公司层面的斗争，而是两个行业和一个时代变革的缩影。</li>
 </ul>
@@ -3046,9 +3325,9 @@ Break却快速增长，开始长期盘踞在美国新闻类第一的位置，人
 </div>
 </div>
 
-<div id="outline-container-org6c0bfd9" class="outline-3">
-<h3 id="org6c0bfd9">2021-01-14</h3>
-<div class="outline-text-3" id="text-org6c0bfd9">
+<div id="outline-container-org4a37db2" class="outline-3">
+<h3 id="org4a37db2">2021-01-14</h3>
+<div class="outline-text-3" id="text-org4a37db2">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/SOMTvXZP_dD1YISXf39Hsw">《围剿 B 站》</a> 一年股价翻三倍、最新市值达 414.5 亿美元、坐拥“Z 世代”年轻人，破
 圈后的 B 站是这两年视频行业绝对的主角。B站已经向港交所正式提交上市申请，此次上
@@ -3096,9 +3375,9 @@ A 股 IPO 上市背后，PE/VC 渗透率超过 70%，除 PE/VC 还包括国有�
 </div>
 </div>
 
-<div id="outline-container-org8af056e" class="outline-3">
-<h3 id="org8af056e">2021-01-13</h3>
-<div class="outline-text-3" id="text-org8af056e">
+<div id="outline-container-orgd75b89e" class="outline-3">
+<h3 id="orgd75b89e">2021-01-13</h3>
+<div class="outline-text-3" id="text-orgd75b89e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/DyC%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20JNLCX3DVVD_1UmGyuww">《拼多多员工自杀背后：什么在逼迫年轻人至死方休？》</a> 拼多多员工谭某林从家中 27
 楼坠落，他毕业于 2020 年，刚在拼多多转正。我们无法判断小谭究竟为何选择自杀，但
@@ -3144,9 +3423,9 @@ A 股 IPO 上市背后，PE/VC 渗透率超过 70%，除 PE/VC 还包括国有�
 </div>
 </div>
 
-<div id="outline-container-org8db7349" class="outline-3">
-<h3 id="org8db7349">2021-01-12</h3>
-<div class="outline-text-3" id="text-org8db7349">
+<div id="outline-container-orgc584307" class="outline-3">
+<h3 id="orgc584307">2021-01-12</h3>
+<div class="outline-text-3" id="text-orgc584307">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/tUfTwDHheOhHhYV_K2zNKQ">《施展：一种新的世界秩序，正在到来……》</a> 美国大选终局几乎落定，特朗普却仍在上演
 “最后的疯狂”。2021 年才刚开始，中美关系就迎来了一些全新变数：特朗普给制裁加码，
@@ -3191,9 +3470,9 @@ A 股 IPO 上市背后，PE/VC 渗透率超过 70%，除 PE/VC 还包括国有�
 </div>
 </div>
 
-<div id="outline-container-org3f728eb" class="outline-3">
-<h3 id="org3f728eb">2021-01-11</h3>
-<div class="outline-text-3" id="text-org3f728eb">
+<div id="outline-container-org6021569" class="outline-3">
+<h3 id="org6021569">2021-01-11</h3>
+<div class="outline-text-3" id="text-org6021569">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/VW9KeeRGgvET%20%20%20%20%20%20%20%20JNoB-ip7KA">《张一鸣：CEO 总想招一些便宜的人，这才是最贵的》</a> 历数中国互联网圈的高光并购事
 件，创始人出走的案例并不少见。然而在新巨头字节跳动的身上，却一批优秀的被收购团
@@ -3236,9 +3515,9 @@ A 股 IPO 上市背后，PE/VC 渗透率超过 70%，除 PE/VC 还包括国有�
 </div>
 </div>
 
-<div id="outline-container-org76e2f95" class="outline-3">
-<h3 id="org76e2f95">2021-01-08</h3>
-<div class="outline-text-3" id="text-org76e2f95">
+<div id="outline-container-org3f47670" class="outline-3">
+<h3 id="org3f47670">2021-01-08</h3>
+<div class="outline-text-3" id="text-org3f47670">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/mXvAAXmeH40h6cgnaR9dvA">《李善友：2021，人生皆有意义，使命终将降临！》</a> 越早的临在当下，越早找到自己的
 使命，你将越早的成为自己。我们怎么感知到自己的使命呢？我们可以间接感知它，即使
@@ -3282,9 +3561,9 @@ A 股 IPO 上市背后，PE/VC 渗透率超过 70%，除 PE/VC 还包括国有�
 </div>
 </div>
 
-<div id="outline-container-orgeaac8e8" class="outline-3">
-<h3 id="orgeaac8e8">2021-01-07</h3>
-<div class="outline-text-3" id="text-orgeaac8e8">
+<div id="outline-container-orge3cb31e" class="outline-3">
+<h3 id="orge3cb31e">2021-01-07</h3>
+<div class="outline-text-3" id="text-orge3cb31e">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/m_0uHKe0KkMM1-iMmp394w">《冲刺“方便面第一股”》</a> 中国快消品行业进入了一个高强度竞争的节点，今麦郎发展也
 需要突破，需要在多品牌、多场景、多品类、多渠道、多人群布局，投入会加大。如果不
@@ -3326,9 +3605,9 @@ A 股 IPO 上市背后，PE/VC 渗透率超过 70%，除 PE/VC 还包括国有�
 </div>
 </div>
 
-<div id="outline-container-org3f78107" class="outline-3">
-<h3 id="org3f78107">2021-01-06</h3>
-<div class="outline-text-3" id="text-org3f78107">
+<div id="outline-container-org6e9a7a0" class="outline-3">
+<h3 id="org6e9a7a0">2021-01-06</h3>
+<div class="outline-text-3" id="text-org6e9a7a0">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Chd2P4AFMrw9gMnOtIrcWw">《字节跳动怎么都十万人了？》</a> 到 10 万人，字节用了 8 年，阿里用了 19 年，腾讯还
 没到。2020 年，字节跳动的员工总数从 6 万蹿到近 10 万，一个主业在线上的公司有
@@ -3375,9 +3654,9 @@ A 股 IPO 上市背后，PE/VC 渗透率超过 70%，除 PE/VC 还包括国有�
 </div>
 </div>
 
-<div id="outline-container-org50208e0" class="outline-3">
-<h3 id="org50208e0">2021-01-05</h3>
-<div class="outline-text-3" id="text-org50208e0">
+<div id="outline-container-org755c62c" class="outline-3">
+<h3 id="org755c62c">2021-01-05</h3>
+<div class="outline-text-3" id="text-org755c62c">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/Vhw%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20jGkcIDPpI%20%20%20%20%20%20%20%20%20J8tOxM%20%20%20jTCg">《那些离开互联网大厂的年轻人》</a> 在 BOSS 直聘发布的《2020 年 Q3 人才吸引力报告》
 中，互联网行业在人才吸引指数排名中依然位居第二，第一则是和它紧密相关的 IT 行业。
@@ -3419,9 +3698,9 @@ A 股 IPO 上市背后，PE/VC 渗透率超过 70%，除 PE/VC 还包括国有�
 </div>
 </div>
 
-<div id="outline-container-orgcb38b22" class="outline-3">
-<h3 id="orgcb38b22">2021-01-04</h3>
-<div class="outline-text-3" id="text-orgcb38b22">
+<div id="outline-container-org0667c2f" class="outline-3">
+<h3 id="org0667c2f">2021-01-04</h3>
+<div class="outline-text-3" id="text-org0667c2f">
 <ul class="org-ul">
 <li><a href="https://mp.weixin.qq.com/s/zhIYcCMmIa-ipsurcyke3A">《特斯拉扔出了一片“二向箔”》</a> 补齐轿车与 SUV 这两个最主流车型后的特斯拉，开启了
 中国本土化的新篇章。国产版 Model Y，使得特斯拉在包括燃油车在内的整个汽车市场竞
@@ -3526,9 +3805,9 @@ A 股 IPO 上市背后，PE/VC 渗透率超过 70%，除 PE/VC 还包括国有�
 Emacs中字体配置只需要两步即可搞定。
 </p>
 
-<div id="outline-container-orgbe2e9cb" class="outline-2">
-<h2 id="orgbe2e9cb">第一步: 配置(英文) <code>默认字体</code></h2>
-<div class="outline-text-2" id="text-orgbe2e9cb">
+<div id="outline-container-org789076d" class="outline-2">
+<h2 id="org789076d">第一步: 配置(英文) <code>默认字体</code></h2>
+<div class="outline-text-2" id="text-org789076d">
 <blockquote>
 <p>
 Signature
@@ -3561,9 +3840,9 @@ Demos
 </div>
 </div>
 
-<div id="outline-container-org90af57e" class="outline-2">
-<h2 id="org90af57e">第二步: 配置(中文) <code>补余字体</code></h2>
-<div class="outline-text-2" id="text-org90af57e">
+<div id="outline-container-org99004f9" class="outline-2">
+<h2 id="org99004f9">第二步: 配置(中文) <code>补余字体</code></h2>
+<div class="outline-text-2" id="text-org99004f9">
 <p>
 第一步设置的默认字体, 如果(大概率)未包含你想要显示的字符--比如中文,日文,或者
 Emoji--就会有一个Fallback 搜索字体的机制运行，这个结果不太可靠, 所以需要我们做第
@@ -3588,9 +3867,9 @@ Modify fontset NAME to use FONT-SPEC for TARGET characters.
 </div>
 </div>
 
-<div id="outline-container-orgf137878" class="outline-2">
-<h2 id="orgf137878">一些其它小事</h2>
-<div class="outline-text-2" id="text-orgf137878">
+<div id="outline-container-org293102e" class="outline-2">
+<h2 id="org293102e">一些其它小事</h2>
+<div class="outline-text-2" id="text-org293102e">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -3640,9 +3919,9 @@ Modify fontset NAME to use FONT-SPEC for TARGET characters.
         <div class="col-md-2"></div>
             <h1>读书: 投资至简</h1>
             
-<div id="outline-container-org305efc3" class="outline-2">
-<h2 id="org305efc3">投资体系</h2>
-<div class="outline-text-2" id="text-org305efc3">
+<div id="outline-container-org0bf2ab1" class="outline-2">
+<h2 id="org0bf2ab1">投资体系</h2>
+<div class="outline-text-2" id="text-org0bf2ab1">
 <blockquote>
 <p>
 投资体系是投资者关于投资的认知和行为的集合，包含了投资者对投资目的和投资意义的选
@@ -3805,9 +4084,9 @@ Modify fontset NAME to use FONT-SPEC for TARGET characters.
 </div>
 </div>
 
-<div id="outline-container-org0c1d0f9" class="outline-2">
-<h2 id="org0c1d0f9">投资什么?</h2>
-<div class="outline-text-2" id="text-org0c1d0f9">
+<div id="outline-container-orgbacaa38" class="outline-2">
+<h2 id="orgbacaa38">投资什么?</h2>
+<div class="outline-text-2" id="text-orgbacaa38">
 <p>
 首先要回答的问题, 投资什么? 买房? 炒股? 存银行？ 买比特币?
 </p>
@@ -3850,9 +4129,9 @@ Modify fontset NAME to use FONT-SPEC for TARGET characters.
 </p>
 </div>
 </div>
-<div id="outline-container-org586e538" class="outline-2">
-<h2 id="org586e538">什么价格买?</h2>
-<div class="outline-text-2" id="text-org586e538">
+<div id="outline-container-orgcbc7982" class="outline-2">
+<h2 id="orgcbc7982">什么价格买?</h2>
+<div class="outline-text-2" id="text-orgcbc7982">
 <p>
 是否买入的唯一的判断标准, 就是当前股价与未来现金流折现值的差距。
 </p>
@@ -3879,9 +4158,9 @@ Modify fontset NAME to use FONT-SPEC for TARGET characters.
 </p>
 </div>
 </div>
-<div id="outline-container-orged8bab7" class="outline-2">
-<h2 id="orged8bab7">应该买多少?</h2>
-<div class="outline-text-2" id="text-orged8bab7">
+<div id="outline-container-org2a69d46" class="outline-2">
+<h2 id="org2a69d46">应该买多少?</h2>
+<div class="outline-text-2" id="text-org2a69d46">
 <p>
 AT&amp;T 的物理学家凯利, 通过研究信息率, 发现可以在知道胜率和赔率的情况下, 确定最优
 的下流比例, 从而使自己的长期复合收益最大化, 这就是著名的凯利公式:
@@ -3919,9 +4198,9 @@ AT&amp;T 的物理学家凯利, 通过研究信息率, 发现可以在知道胜�
 </div>
 
 
-<div id="outline-container-org7c0eb6e" class="outline-2">
-<h2 id="org7c0eb6e">什么时候卖?</h2>
-<div class="outline-text-2" id="text-org7c0eb6e">
+<div id="outline-container-org9eddc02" class="outline-2">
+<h2 id="org9eddc02">什么时候卖?</h2>
+<div class="outline-text-2" id="text-org9eddc02">
 <p>
 是否卖出的唯一的判断标准, 就是当前股价与未来现金流折现值的差距。
 </p>
@@ -3977,9 +4256,9 @@ AT&amp;T 的物理学家凯利, 通过研究信息率, 发现可以在知道胜�
 </ol>
 </div>
 </div>
-<div id="outline-container-orgbaf097d" class="outline-2">
-<h2 id="orgbaf097d">总结</h2>
-<div class="outline-text-2" id="text-orgbaf097d">
+<div id="outline-container-org3adef24" class="outline-2">
+<h2 id="org3adef24">总结</h2>
+<div class="outline-text-2" id="text-org3adef24">
 <blockquote>
 <p>
 不预测市场，但利用市场已经给出的机会，不断将自有资产转换为少数价格合理，且我们可
@@ -3995,179 +4274,6 @@ AT&amp;T 的物理学家凯利, 通过研究信息率, 发现可以在知道胜�
 ]]></description>
       <pubDate>2021-03-09</pubDate>
       <guid>http://lijigang.github.io/blog/2021/03/09/investment-is-simple</guid>
-    </item>
-    <item>
-      <title>总结: 系统配置常见问题及答案</title>
-      <link>http://lijigang.github.io/blog/2020/11/09/config-faq</link>
-      <description><![CDATA[<section id="content" role="main">
-    <div id="outline-container-sec-" class="row post-content">
-        <div class="col-md-2"></div>
-            <h1>总结: 系统配置常见问题及答案</h1>
-            
-<div id="outline-container-orgedf480f" class="outline-2">
-<h2 id="orgedf480f">Github</h2>
-<div class="outline-text-2" id="text-orgedf480f">
-<pre class="example" id="org726ebe6">
-使用 Homebrew 安装 Emacs 时, 出现类似提示:
-
-Failed to connect to raw.githubusercontent.com port 443: Connection refused
-</pre>
-
-<blockquote>
-<p>
-解答: 修改 Hosts
-</p>
-
-<ol class="org-ol">
-<li>通过 <a href="https://www.ipaddress.com/">https://www.ipaddress.com/</a> 查询 raw.githubusercontent.com 的 IP 地址</li>
-<li><p>
-修改 /private/etc/hosts 文件, 增加一行:
-</p>
-
-<p>
-查到的 IP raw.githubusercontent.com
-</p></li>
-</ol>
-</blockquote>
-</div>
-</div>
-
-<div id="outline-container-orgceee0a0" class="outline-2">
-<h2 id="orgceee0a0">Homebrew</h2>
-<div class="outline-text-2" id="text-orgceee0a0">
-</div>
-<div id="outline-container-orga30e4c2" class="outline-3">
-<h3 id="orga30e4c2">是什么?</h3>
-<div class="outline-text-3" id="text-orga30e4c2">
-<blockquote>
-<p>
-Homebrew是 mac的包管理器，仅需执行相应的命令,就能下载安装需要的软件包，可以省掉自己去下载、解压、拖拽(安装)等繁琐的步骤。
-</p>
-
-<p>
-<a href="https://www.cnblogs.com/joyce33/p/13376752.html">This blog</a>
-</p>
-</blockquote>
-
-<p>
-Homebrew 主要由四个部分组成: brew、homebrew-core 、homebrew-cask、homebrew-bottles，它们对应的功能如下：
-</p>
-
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="org-left">组成</th>
-<th scope="col" class="org-left">功能</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="org-left">Homebrew</td>
-<td class="org-left">源代码仓库</td>
-</tr>
-
-<tr>
-<td class="org-left">homebrew-core</td>
-<td class="org-left">Homebrew 核心源</td>
-</tr>
-
-<tr>
-<td class="org-left">homebrew-cask</td>
-<td class="org-left">提供macos应用和大型二进制文件的安装</td>
-</tr>
-
-<tr>
-<td class="org-left">homebrew-bottles</td>
-<td class="org-left">预编译二进制软件包</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-
-<div id="outline-container-orgd761de7" class="outline-3">
-<h3 id="orgd761de7">问题是?</h3>
-<div class="outline-text-3" id="text-orgd761de7">
-<ol class="org-ol">
-<li><p>
-安装Homebrew 时速度超级慢
-</p>
-
-<blockquote>
-<p>
-解答: 从中科大的镜像源下载安装 Homebrew
-</p>
-</blockquote>
-<div class="org-src-container">
-<pre class="src src-shell">/usr/bin/ruby -e "$(curl -fsSL https://cdn.jsdelivr.net/gh/ineo6/homebrew-install/install)"
-</pre>
-</div></li>
-
-<li><p>
-安装Homebrew 时, 卡在了Cloning into 环节
-</p>
-
-<blockquote>
-<p>
-解答: 按C-c 中断下载, 更新下载源
-</p>
-</blockquote>
-
-<div class="org-src-container">
-<pre class="src src-shell">cd "$(brew --repo)/Library/Taps/"
-mkdir homebrew &amp;&amp; cd homebrew
-git clone git://mirrors.ustc.edu.cn/homebrew-core.git
-
-</pre>
-</div></li>
-
-<li><p>
-安装成功后, 使用brew install 软件 速度超级慢
-</p>
-
-<blockquote>
-<p>
-解答: 继续更改软件包的下载源
-</p>
-</blockquote>
-<div class="org-src-container">
-<pre class="src src-shell"># 替换 brew.git：
-git -C "$(brew --repo)" remote set-url origin https://mirrors.ustc.edu.cn/brew.git
-
-# 替换 homebrew-core.git：
-git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
-
-# 替换 homebrew-cask.git：
-git -C "$(brew --repo homebrew/cask)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git
-
-# 替换homebrew-bottles：
-# 首先要先区分你的mac用哪种终端工具，如果是 bash，则执行：
-echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' &gt;&gt; ~/.bash_profile
-source ~/.bash_profile
-
-# 若是 zsh，则执行：
-echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' &gt;&gt; ~/.zshrc
-source ~/.zshrc
-
-</pre>
-</div></li>
-</ol>
-</div>
-</div>
-</div>
-
-    </div>
-</section>
-]]></description>
-      <pubDate>2021-02-26</pubDate>
-      <guid>http://lijigang.github.io/blog/2020/11/09/config-faq</guid>
     </item>
   </channel>
 </rss>
