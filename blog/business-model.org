@@ -10,7 +10,7 @@
 
 #+caption: 商业模式
 #+attr_org: :width 800px
-[[file:images/business-model.png]]
+[[file:~/lijigang/images/new-business-model.png][new-business-model]]
 
 #+begin_quote
 所谓的商业模式，就是利益相关者的交易结构。
