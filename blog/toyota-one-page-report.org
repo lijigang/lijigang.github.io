@@ -1,4 +1,4 @@
-#+TITLE:       阅读: 丰田一页纸极简思考法
+#+TITLE:       读书: 丰田一页纸极简思考法
 #+AUTHOR:      lijigang
 #+EMAIL:       i@lijigang.com
 #+DATE:        2020-08-04 Tue
