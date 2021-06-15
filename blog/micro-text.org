@@ -1,4 +1,4 @@
-#+TITLE:       读书: 微文案
+#+TITLE:       读书： 微文案
 #+AUTHOR:      lijigang
 #+EMAIL:       i@lijigang.com
 #+DATE:        2021-06-15 Tue
