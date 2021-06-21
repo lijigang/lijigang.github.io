@@ -70,81 +70,81 @@ Org mode 称为神器一点都不为过，如果你平时工作内容有和文�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org3b1aa2d">Beautify</a>
+<li><a href="#org833c7a7">Beautify</a>
 <ul>
-<li><a href="#orgec31341">如何隐藏 headlines 前面的一堆*符号？</a></li>
-<li><a href="#orgff3210c">如何将 headlines 的符号从*变成其它符号？</a></li>
-<li><a href="#orge10a80a">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <code>强调</code> 等样式？</a></li>
-<li><a href="#org2464f6e">如何设置 headline 的 TODO keywords？</a></li>
-<li><a href="#org66c7d2a">如何给 TODO keywords 增加前景色、背景色？</a></li>
+<li><a href="#org1bb5903">如何隐藏 headlines 前面的一堆*符号？</a></li>
+<li><a href="#org168eeb2">如何将 headlines 的符号从*变成其它符号？</a></li>
+<li><a href="#orgb6ccac8">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <code>强调</code> 等样式？</a></li>
+<li><a href="#orgd74444e">如何设置 headline 的 TODO keywords？</a></li>
+<li><a href="#orgf110191">如何给 TODO keywords 增加前景色、背景色？</a></li>
 </ul>
 </li>
-<li><a href="#org7e2210c">Capture-Refile-Archive</a>
+<li><a href="#org3dc4517">Capture-Refile-Archive</a>
 <ul>
-<li><a href="#org74363a6">如何快速记录一些内容到指定文件？</a></li>
-<li><a href="#orgc339e2c">如何设置不同的快速记录模板？</a></li>
-<li><a href="#orgbf7810b">如何快速移动 headline 到指定文件中？</a></li>
-<li><a href="#org91fbeb7">如何归档已完成事项到其它文件？</a></li>
+<li><a href="#orgc515b94">如何快速记录一些内容到指定文件？</a></li>
+<li><a href="#org251e1a6">如何设置不同的快速记录模板？</a></li>
+<li><a href="#orgec8bab5">如何快速移动 headline 到指定文件中？</a></li>
+<li><a href="#org15e2f51">如何归档已完成事项到其它文件？</a></li>
 </ul>
 </li>
-<li><a href="#org689e0f3">Tables</a>
+<li><a href="#org267d25d">Tables</a>
 <ul>
-<li><a href="#orgf0f0bba">如何像 Excel 一样，在表格中插入 <code>mini chart</code> ？</a></li>
+<li><a href="#org7959632">如何像 Excel 一样，在表格中插入 <code>mini chart</code> ？</a></li>
 </ul>
 </li>
-<li><a href="#org971a6a7">Agendas</a>
+<li><a href="#org46b730f">Agendas</a>
 <ul>
-<li><a href="#org2355808">如何将 Agenda 中不同时间长度的事项显示不同的大小？</a></li>
-<li><a href="#org4012b15">如何设置 agenda 中时间的显示格式？</a></li>
-<li><a href="#orgb89cc87">如何隐藏 agenda 中的分隔线？</a></li>
-<li><a href="#org2ccb2ce">如何在 agenda 中显示本地的日出日落时间？</a></li>
+<li><a href="#org66bc364">如何将 Agenda 中不同时间长度的事项显示不同的大小？</a></li>
+<li><a href="#org148548c">如何设置 agenda 中时间的显示格式？</a></li>
+<li><a href="#org1360875">如何隐藏 agenda 中的分隔线？</a></li>
+<li><a href="#org08ef8da">如何在 agenda 中显示本地的日出日落时间？</a></li>
 </ul>
 </li>
-<li><a href="#org307e2c1">Others</a>
+<li><a href="#org071aa85">Others</a>
 <ul>
-<li><a href="#org95d44b0">如何用 org 文件管理 RSS 订阅？</a></li>
-<li><a href="#orge8ba471">如何在 org 中使用 PlantUML？</a></li>
-<li><a href="#orgcb94c0e">如何将PDF转化成org？</a></li>
+<li><a href="#org07a5d25">如何用 org 文件管理 RSS 订阅？</a></li>
+<li><a href="#orgb675595">如何在 org 中使用 PlantUML？</a></li>
+<li><a href="#org9100f24">如何将PDF转化成org？</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org3b1aa2d" class="outline-2">
-<h2 id="org3b1aa2d">Beautify</h2>
-<div class="outline-text-2" id="text-org3b1aa2d">
+<div id="outline-container-org833c7a7" class="outline-2">
+<h2 id="org833c7a7">Beautify</h2>
+<div class="outline-text-2" id="text-org833c7a7">
 </div>
-<div id="outline-container-orgec31341" class="outline-3">
-<h3 id="orgec31341">如何隐藏 headlines 前面的一堆*符号？</h3>
-<div class="outline-text-3" id="text-orgec31341">
+<div id="outline-container-org1bb5903" class="outline-3">
+<h3 id="org1bb5903">如何隐藏 headlines 前面的一堆*符号？</h3>
+<div class="outline-text-3" id="text-org1bb5903">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-startup-indented t)
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-orgff3210c" class="outline-3">
-<h3 id="orgff3210c">如何将 headlines 的符号从*变成其它符号？</h3>
-<div class="outline-text-3" id="text-orgff3210c">
+<div id="outline-container-org168eeb2" class="outline-3">
+<h3 id="org168eeb2">如何将 headlines 的符号从*变成其它符号？</h3>
+<div class="outline-text-3" id="text-org168eeb2">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-bullets-bullet-list '("☰" "☷" "☯" "☭"))
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-orge10a80a" class="outline-3">
-<h3 id="orge10a80a">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <code>强调</code> 等样式？</h3>
-<div class="outline-text-3" id="text-orge10a80a">
+<div id="outline-container-orgb6ccac8" class="outline-3">
+<h3 id="orgb6ccac8">如何直接显示 <b>加粗</b> 、 <del>删除线</del> 、 <code>强调</code> 等样式？</h3>
+<div class="outline-text-3" id="text-orgb6ccac8">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-hide-emphasis-markers t)
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org2464f6e" class="outline-3">
-<h3 id="org2464f6e">如何设置 headline 的 TODO keywords？</h3>
-<div class="outline-text-3" id="text-org2464f6e">
+<div id="outline-container-orgd74444e" class="outline-3">
+<h3 id="orgd74444e">如何设置 headline 的 TODO keywords？</h3>
+<div class="outline-text-3" id="text-orgd74444e">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; "|"之前的为进行中的状态， 之后的为结束的状态
 (setq org-todo-keywords
@@ -153,9 +153,9 @@ Org mode 称为神器一点都不为过，如果你平时工作内容有和文�
 </div>
 </div>
 </div>
-<div id="outline-container-org66c7d2a" class="outline-3">
-<h3 id="org66c7d2a">如何给 TODO keywords 增加前景色、背景色？</h3>
-<div class="outline-text-3" id="text-org66c7d2a">
+<div id="outline-container-orgf110191" class="outline-3">
+<h3 id="orgf110191">如何给 TODO keywords 增加前景色、背景色？</h3>
+<div class="outline-text-3" id="text-orgf110191">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setf org-todo-keyword-faces
       '(("TODO" . (:foreground "white" :background "#95A5A6"   :weight bold))
@@ -174,13 +174,13 @@ Org mode 称为神器一点都不为过，如果你平时工作内容有和文�
 </div>
 </div>
 </div>
-<div id="outline-container-org7e2210c" class="outline-2">
-<h2 id="org7e2210c">Capture-Refile-Archive</h2>
-<div class="outline-text-2" id="text-org7e2210c">
+<div id="outline-container-org3dc4517" class="outline-2">
+<h2 id="org3dc4517">Capture-Refile-Archive</h2>
+<div class="outline-text-2" id="text-org3dc4517">
 </div>
-<div id="outline-container-org74363a6" class="outline-3">
-<h3 id="org74363a6">如何快速记录一些内容到指定文件？</h3>
-<div class="outline-text-3" id="text-org74363a6">
+<div id="outline-container-orgc515b94" class="outline-3">
+<h3 id="orgc515b94">如何快速记录一些内容到指定文件？</h3>
+<div class="outline-text-3" id="text-orgc515b94">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; 设置默认保存到哪个文件中
 (setq org-default-notes-file "path/to/your/notes")
@@ -191,9 +191,9 @@ Org mode 称为神器一点都不为过，如果你平时工作内容有和文�
 </div>
 </div>
 </div>
-<div id="outline-container-orgc339e2c" class="outline-3">
-<h3 id="orgc339e2c">如何设置不同的快速记录模板？</h3>
-<div class="outline-text-3" id="text-orgc339e2c">
+<div id="outline-container-org251e1a6" class="outline-3">
+<h3 id="org251e1a6">如何设置不同的快速记录模板？</h3>
+<div class="outline-text-3" id="text-org251e1a6">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-capture-templates
               '(("p"  ;;快捷键
@@ -222,9 +222,9 @@ Org mode 称为神器一点都不为过，如果你平时工作内容有和文�
 </div>
 </div>
 </div>
-<div id="outline-container-orgbf7810b" class="outline-3">
-<h3 id="orgbf7810b">如何快速移动 headline 到指定文件中？</h3>
-<div class="outline-text-3" id="text-orgbf7810b">
+<div id="outline-container-orgec8bab5" class="outline-3">
+<h3 id="orgec8bab5">如何快速移动 headline 到指定文件中？</h3>
+<div class="outline-text-3" id="text-orgec8bab5">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; 设置移动到的目标文件列表为 agenda-files
 (setq org-refile-targets '((org-agenda-files :maxlevel . 3)))
@@ -236,9 +236,9 @@ More info: <a href="https://blog.aaronbieber.com/2017/03/19/organizing-notes-wit
 </p>
 </div>
 </div>
-<div id="outline-container-org91fbeb7" class="outline-3">
-<h3 id="org91fbeb7">如何归档已完成事项到其它文件？</h3>
-<div class="outline-text-3" id="text-org91fbeb7">
+<div id="outline-container-org15e2f51" class="outline-3">
+<h3 id="org15e2f51">如何归档已完成事项到其它文件？</h3>
+<div class="outline-text-3" id="text-org15e2f51">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; this is the default: current file is a.org, archive in file a.org_archive
 (setq org-archive-location "%s_archive")
@@ -311,13 +311,13 @@ More info: <a href="https://blog.aaronbieber.com/2017/03/19/organizing-notes-wit
 </div>
 </div>
 </div>
-<div id="outline-container-org689e0f3" class="outline-2">
-<h2 id="org689e0f3">Tables</h2>
-<div class="outline-text-2" id="text-org689e0f3">
+<div id="outline-container-org267d25d" class="outline-2">
+<h2 id="org267d25d">Tables</h2>
+<div class="outline-text-2" id="text-org267d25d">
 </div>
-<div id="outline-container-orgf0f0bba" class="outline-3">
-<h3 id="orgf0f0bba">如何像 Excel 一样，在表格中插入 <code>mini chart</code> ？</h3>
-<div class="outline-text-3" id="text-orgf0f0bba">
+<div id="outline-container-org7959632" class="outline-3">
+<h3 id="org7959632">如何像 Excel 一样，在表格中插入 <code>mini chart</code> ？</h3>
+<div class="outline-text-3" id="text-org7959632">
 <pre class="example">
 ;; while the cursor is on a column,
 ;; this command will create a new column
@@ -370,13 +370,13 @@ M-x: orgtble-ascii-plot
 </div>
 </div>
 
-<div id="outline-container-org971a6a7" class="outline-2">
-<h2 id="org971a6a7">Agendas</h2>
-<div class="outline-text-2" id="text-org971a6a7">
+<div id="outline-container-org46b730f" class="outline-2">
+<h2 id="org46b730f">Agendas</h2>
+<div class="outline-text-2" id="text-org46b730f">
 </div>
-<div id="outline-container-org2355808" class="outline-3">
-<h3 id="org2355808">如何将 Agenda 中不同时间长度的事项显示不同的大小？</h3>
-<div class="outline-text-3" id="text-org2355808">
+<div id="outline-container-org66bc364" class="outline-3">
+<h3 id="org66bc364">如何将 Agenda 中不同时间长度的事项显示不同的大小？</h3>
+<div class="outline-text-3" id="text-org66bc364">
 <p>
 Dotfile Configuration 见 <a href="https://gist.github.com/lijigang/3c9326a2cf86b50f9041c20c74398bb1">gist</a>
 </p>
@@ -387,9 +387,9 @@ Dotfile Configuration 见 <a href="https://gist.github.com/lijigang/3c9326a2cf86
   />
 </div>
 </div>
-<div id="outline-container-org4012b15" class="outline-3">
-<h3 id="org4012b15">如何设置 agenda 中时间的显示格式？</h3>
-<div class="outline-text-3" id="text-org4012b15">
+<div id="outline-container-org148548c" class="outline-3">
+<h3 id="org148548c">如何设置 agenda 中时间的显示格式？</h3>
+<div class="outline-text-3" id="text-org148548c">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; if set it to t, 9:30am would become 09:30.
 (setq org-agenda-time-leading-zero t)
@@ -397,18 +397,18 @@ Dotfile Configuration 见 <a href="https://gist.github.com/lijigang/3c9326a2cf86
 </div>
 </div>
 </div>
-<div id="outline-container-orgb89cc87" class="outline-3">
-<h3 id="orgb89cc87">如何隐藏 agenda 中的分隔线？</h3>
-<div class="outline-text-3" id="text-orgb89cc87">
+<div id="outline-container-org1360875" class="outline-3">
+<h3 id="org1360875">如何隐藏 agenda 中的分隔线？</h3>
+<div class="outline-text-3" id="text-org1360875">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(setq org-agenda-use-time-grid nil)
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org2ccb2ce" class="outline-3">
-<h3 id="org2ccb2ce">如何在 agenda 中显示本地的日出日落时间？</h3>
-<div class="outline-text-3" id="text-org2ccb2ce">
+<div id="outline-container-org08ef8da" class="outline-3">
+<h3 id="org08ef8da">如何在 agenda 中显示本地的日出日落时间？</h3>
+<div class="outline-text-3" id="text-org08ef8da">
 <ol class="org-ol">
 <li>相关 Dotfile configuration 见 <a href="https://gist.github.com/lijigang/c865a2a4d075c75b4aeb61fe0f9102b6">gist</a></li>
 <li>在 standard-dairy 文件中写入下面内容</li>
@@ -426,7 +426,7 @@ Dotfile Configuration 见 <a href="https://gist.github.com/lijigang/3c9326a2cf86
 <p>
 设置后的效果如下：
 </p>
-<pre class="example" id="org6f23a1f">
+<pre class="example" id="org579aae9">
 Day-agenda (W17):
 Tuesday    21 April 2020
 05:29......  Sunrise
@@ -436,13 +436,13 @@ Tuesday    21 April 2020
 </div>
 </div>
 </div>
-<div id="outline-container-org307e2c1" class="outline-2">
-<h2 id="org307e2c1">Others</h2>
-<div class="outline-text-2" id="text-org307e2c1">
+<div id="outline-container-org071aa85" class="outline-2">
+<h2 id="org071aa85">Others</h2>
+<div class="outline-text-2" id="text-org071aa85">
 </div>
-<div id="outline-container-org95d44b0" class="outline-3">
-<h3 id="org95d44b0">如何用 org 文件管理 RSS 订阅？</h3>
-<div class="outline-text-3" id="text-org95d44b0">
+<div id="outline-container-org07a5d25" class="outline-3">
+<h3 id="org07a5d25">如何用 org 文件管理 RSS 订阅？</h3>
+<div class="outline-text-3" id="text-org07a5d25">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; use an org file to organise feeds
 (use-package elfeed-org
@@ -458,9 +458,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
 </p>
 </div>
 </div>
-<div id="outline-container-orge8ba471" class="outline-3">
-<h3 id="orge8ba471">如何在 org 中使用 PlantUML？</h3>
-<div class="outline-text-3" id="text-orge8ba471">
+<div id="outline-container-orgb675595" class="outline-3">
+<h3 id="orgb675595">如何在 org 中使用 PlantUML？</h3>
+<div class="outline-text-3" id="text-orgb675595">
 <ol class="org-ol">
 <li>下载编译好的 <a href="https://plantuml.com/zh/download">PlantUML jar file</a></li>
 <li>安装 Graphviz <code>brew install graphviz</code></li>
@@ -477,9 +477,9 @@ More info: <a href="http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs
   />
 </div>
 </div>
-<div id="outline-container-orgcb94c0e" class="outline-3">
-<h3 id="orgcb94c0e">如何将PDF转化成org？</h3>
-<div class="outline-text-3" id="text-orgcb94c0e">
+<div id="outline-container-org9100f24" class="outline-3">
+<h3 id="org9100f24">如何将PDF转化成org？</h3>
+<div class="outline-text-3" id="text-org9100f24">
 <div class="org-src-container">
 <pre class="src src-shell">brew install poppler
 </pre>
