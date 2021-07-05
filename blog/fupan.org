@@ -1,0 +1,59 @@
+#+TITLE:       方法: 如何复盘
+#+AUTHOR:      lijigang
+#+EMAIL:       i@lijigang.com
+#+DATE:        2021-07-05 Mon
+#+URI:         /blog/%y/%m/%d/how-to-fupan
+#+KEYWORDS:    <TODO: insert your keywords here>
+#+TAGS:        <TODO: insert your tags here>
+#+LANGUAGE:    en
+#+OPTIONS:     H:5 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: <TODO: insert your description here>
+
+最近总结了一个新的 *复盘* 方法, 简单又实用, 名为: TMD。
+
+#+attr_org: :width 600px
+[[../images/fupan.png]]
+
+#+begin_quote
+什么是问题?
+
+   设: T0 (你最开始设定的目标值) 和 T1 (你实现完成的真实值)。
+
+   当 T0 - T1 > 0 时, 即实际值小于目标值时, 我们通常说 *问题* 出现了。
+#+end_quote
+
+** 目标(Target)
+
+   T 对应的是 *目标* 。
+
+   复盘的第一步, 首先要问的就是 T0 目标值设定的是否合理。如果目标设定的
+   极其不合理, 不管你换什么人换什么方法来做, 都会出现目标实现不了的问题。
+
+   检验目标是否合理的方法, 可以通过 SMART 原则进行 Review, 也可以通过回顾
+   之前设定目标时的纪要文档, 找到严重不符的假设。
+
+** 方法(Method)
+
+   M 对应的是 *方法* 。
+
+   在目标确认没有太大的问题之后, 就可以回顾你实现目标的方法了。之前使用的
+
+     =发版 -> 分析数据 -> 调整新版=
+
+   的迭代方法, 下一个周期是不是可以试用下
+
+      =A/B 测试 -> 分析数据 -> 胜出方案保留 -> 下一轮A/B 测试=
+
+   的新方法?
+
+** 干扰(Disturb)
+
+D 对应的是 *干扰因素* 。
+
+目标设定的没什么问题, 方法也没什么问题, 但结果就是未达预期, 可以看下是不
+是有之前没有考虑到的 *场外干扰因素* 出现了。
+
+比如中间突然下发的一个政策文件, 影响了你所在的行业大盘。
+
+你需要在下一周期设定目标时, 把这次发现的干扰因素考虑在内。下次是否仍会出
+现? 出现的概率为多少?
