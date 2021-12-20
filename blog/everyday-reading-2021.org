@@ -1,9 +1,9 @@
 #+TITLE:       汇总: 优质文章每日精华选(2021 年)
-#+AUTHOR:      liji                               gan                       g
-#+EMAIL:       i@liji                             gan                       g.com
+#+AUTHOR:      lijigang
+#+EMAIL:       i@lijigang.com
 #+DATE:        2021-01-05 Tue
-#+URI:         /blo                               g/%y/%m/%d/everyday-reading-2021
-#+LAN                                             GUA                       GE:    en
+#+URI:         /blog/%y/%m/%d/everyday-reading-2021
+#+LANGUAGE:    en
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t
 
 微信公众号「卫夕聊广告」的作者组了一个微信群, 目的是每天挑选五篇当前最优
