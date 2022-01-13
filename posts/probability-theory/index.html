@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.91.2" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="lijigang" />
+  <meta property="og:url" content="https://www.lijigang.com/posts/probability-theory/" />
+  <link rel="canonical" href="https://www.lijigang.com/posts/probability-theory/" /><link rel="alternate" type="application/atom+xml" href="https://www.lijigang.com/index.xml" title="lijigang">
+
+  <script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/www.lijigang.com\/"
+      },
+      "articleSection" : "posts",
+      "name" : "学\u003c刘嘉:概率论22讲\u003e",
+      "headline" : "学\u003c刘嘉:概率论22讲\u003e",
+      "description" : "概率论解决随机问题的本质, 就是把局部的随机性转变为整体上的确定性. 一座城市, 婴儿会在哪一刻诞生是随机的, 但从整体上看, 这座城市的出生率却是大",
+      "inLanguage" : "en-US",
+      "author" : "lijigang",
+      "creator" : "lijigang",
+      "publisher": "lijigang",
+      "accountablePerson" : "lijigang",
+      "copyrightHolder" : "lijigang",
+      "copyrightYear" : "2020",
+      "datePublished": "2020-10-09 00:00:00 \u002b0800 CST",
+      "dateModified" : "2020-10-09 00:00:00 \u002b0800 CST",
+      "url" : "https:\/\/www.lijigang.com\/posts\/probability-theory\/",
+      "keywords" : [  ]
+  }
+</script>
+<title>学&lt;刘嘉:概率论22讲&gt;</title>
+  <meta property="og:title" content="学&lt;刘嘉:概率论22讲&gt;" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="概率论解决随机问题的本质, 就是把局部的随机性转变为整体上的确定性. 一座城市, 婴儿会在哪一刻诞生是随机的, 但从整体上看, 这座城市的出生率却是大" />
+  <meta name="description" content="概率论解决随机问题的本质, 就是把局部的随机性转变为整体上的确定性. 一座城市, 婴儿会在哪一刻诞生是随机的, 但从整体上看, 这座城市的出生率却是大" />
+  <meta property="og:locale" content="zh-CN" />
+
+  
+    <style>body{font-family:bree serif,sans-serif;-webkit-font-smoothing:antialiased;margin:0 20px}article{max-width:800px;margin-left:auto;margin-right:auto}a{color:#000;text-decoration:none}a:hover{font-weight:600;text-decoration:underline}.post-ads{margin:50px 0}.markdown-body{font-size:18px;max-width:100%}.markdown-body a{text-decoration:underline;text-decoration-color:#000}.markdown-body pre{padding:16px;overflow:auto;border-radius:10px}.markdown-body code{padding:.2em .4em;font-size:85%;background-color:#f6f8fa;border-radius:6px}.markdown-body pre>code{padding:0;font-size:100%;background-color:inherit;border:0}.Chinese .markdown-body{line-height:200%}.site-date-catalog{font-size:2rem}.header-title{font-size:2rem;font-weight:700;margin-top:32px;font-family:bungee shade,sans-serif}.header-title a{text-decoration:none}.header-subtitle{color:#666}.header-items{margin:10px 0}.header-item{margin:0 5px}.header-line{width:100%;border-width:2px;border-color:#482936;border-style:solid none none none}.lang-switch{font-weight:600}#posts-list{min-height:600px}.posts-line{font-size:1.2rem;margin:12px 0}.posts-categories{font-size:.8rem;margin:auto;text-align:center}.posts-category{padding:3px 0;border:#000 2px solid;border-radius:5px}.site-footer{margin-top:50px}.site-footer-item{margin-right:12px}.post-content img{max-width:100%;display:block;margin-right:auto;margin-top:12px}.post-header{margin-bottom:50px}.post-title{font-size:2rem;font-weight:600}.post-tags{display:inline;font-weight:600;padding:2px 5px;margin-right:6px;border:#000 2px solid;border-radius:5px}.post-date{font-weight:800;font-style:italic}.post-author{float:right;font-weight:600}.page-content{min-height:60%}.post-content{margin-bottom:50px}.post-content p{hyphens:auto;line-height:1.8;text-justify:ideographic;margin-bottom:1em}.related-content{border-width:3px;border-style:solid;border-color:#000;padding:0 10px;margin-bottom:50px;margin-top:100px}.related-content li{margin:5px 0}.taxonomy-term{font-size:3rem}.gallery-img{text-align:center}.gallery-img span{text-align:center}.gallery-img-desc{font-size:.8em;font-weight:800}#disqus_thread{position:relative}#disqus_thread:after{content:"";display:block;height:55px;width:100%;position:absolute;bottom:0;background:#fff}@media screen and (max-width:600px){.header-title,.header-subtitle,.header-items{text-align:center}.posts-line{font-size:16px}.markdown-body{font-size:16px}.post-title{font-size:2rem}.post-content p{letter-spacing:.05em}}@media screen and (max-width:48em){.posts-category{display:none}}</style>
+  
+  
+    <style>.container,.container-fluid{margin-right:auto;margin-left:auto}.container-fluid{padding-right:2rem;padding-left:2rem}.row{box-sizing:border-box;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:0;-ms-flex:0 1 auto;flex:initial;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-.5rem;margin-left:-.5rem}.row.reverse{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}.col.reverse{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}.col-xs,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-offset-0,.col-xs-offset-1,.col-xs-offset-10,.col-xs-offset-11,.col-xs-offset-12,.col-xs-offset-2,.col-xs-offset-3,.col-xs-offset-4,.col-xs-offset-5,.col-xs-offset-6,.col-xs-offset-7,.col-xs-offset-8,.col-xs-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-xs{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-xs-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-xs-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-xs-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-xs-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-xs-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-xs-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-xs-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-xs-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-xs-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-xs-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-xs-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-xs-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-xs-offset-0{margin-left:0}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-11{margin-left:91.66666667%}.start-xs{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-xs{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-xs{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-xs{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-xs{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-xs{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-xs{-ms-flex-pack:distribute;justify-content:space-around}.between-xs{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-xs{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-xs{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}@media only screen and (min-width:48em){.container{width:49rem}.col-sm,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-offset-0,.col-sm-offset-1,.col-sm-offset-10,.col-sm-offset-11,.col-sm-offset-12,.col-sm-offset-2,.col-sm-offset-3,.col-sm-offset-4,.col-sm-offset-5,.col-sm-offset-6,.col-sm-offset-7,.col-sm-offset-8,.col-sm-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-sm{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-sm-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-sm-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-sm-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-sm-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-sm-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-sm-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-sm-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-sm-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-sm-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-sm-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-sm-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-sm-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-sm-offset-0{margin-left:0}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-11{margin-left:91.66666667%}.start-sm{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-sm{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-sm{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-sm{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-sm{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-sm{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-sm{-ms-flex-pack:distribute;justify-content:space-around}.between-sm{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-sm{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-sm{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}@media only screen and (min-width:64em){.container{width:65rem}.col-md,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-offset-0,.col-md-offset-1,.col-md-offset-10,.col-md-offset-11,.col-md-offset-12,.col-md-offset-2,.col-md-offset-3,.col-md-offset-4,.col-md-offset-5,.col-md-offset-6,.col-md-offset-7,.col-md-offset-8,.col-md-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-md{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-md-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-md-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-md-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-md-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-md-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-md-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-md-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-md-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-md-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-md-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-md-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-md-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-md-offset-0{margin-left:0}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-3{margin-left:25%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-6{margin-left:50%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-9{margin-left:75%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-11{margin-left:91.66666667%}.start-md{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-md{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-md{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-md{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-md{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-md{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-md{-ms-flex-pack:distribute;justify-content:space-around}.between-md{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-md{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-md{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}@media only screen and (min-width:75em){.container{width:76rem}.col-lg,.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-offset-0,.col-lg-offset-1,.col-lg-offset-10,.col-lg-offset-11,.col-lg-offset-12,.col-lg-offset-2,.col-lg-offset-3,.col-lg-offset-4,.col-lg-offset-5,.col-lg-offset-6,.col-lg-offset-7,.col-lg-offset-8,.col-lg-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-lg{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-lg-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-lg-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-lg-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-lg-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-lg-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-lg-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-lg-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-lg-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-lg-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-lg-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-lg-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-lg-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-lg-offset-0{margin-left:0}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-11{margin-left:91.66666667%}.start-lg{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-lg{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-lg{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-lg{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-lg{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-lg{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-lg{-ms-flex-pack:distribute;justify-content:space-around}.between-lg{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-lg{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-lg{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}</style>
+  
+
+  
+
+  <link href="/index.xml" rel="alternate" type="application/rss+xml"
+    title="lijigang">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Bungee+Shade" rel="stylesheet">
+  
+  
+
+  
+  
+</head>
+
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="site-header">
+          
+<header>
+  <div class="header-title">
+    <a href="/"
+      >Ignoramus</a
+    >
+  </div>
+  <div class="header-subtitle">你要对这个世界有点意见</div>
+</header>
+<div class="row end-md center-xs header-items">
+  
+</div>
+<div class="row end-xs">
+   
+</div>
+<div class="header-line"></div>
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">学&lt;刘嘉:概率论22讲&gt;</h1>
+          
+          <div class="row post-desc">
+            <div class="col-xs-6">
+              
+              <time class="post-date" datetime="2020-10-09 00:00:00 CST">
+                09 Oct 2020
+              </time>
+              
+            </div>
+            <div class="col-xs-6">
+              
+              <div class="post-author">
+                <a target="_blank" href="https://www.lijigang.com/">@lijigang</a>
+              </div>
+              
+            </div>
+          </div>
+          
+        </header>
+
+        <div class="post-content markdown-body">
+          
+          <blockquote>
+<p>概率论解决随机问题的本质, 就是把局部的随机性转变为整体上的确定性.</p>
+<p>一座城市, 婴儿会在哪一刻诞生是随机的, 但从整体上看, 这座城市的出生率却是大致确定的.</p>
+<p>概率论不是帮你预测下一秒会发生什么, 而是为你刻画世界的整体确定性.</p>
+</blockquote>
+<h2 id="概率论的四块基石">概率论的四块基石</h2>
+<h3 id="基石一-随机">基石一: 随机</h3>
+<blockquote>
+<p>随机就是它发生的结果不能被预测.</p>
+</blockquote>
+<p>随机性是指结果集已知, 但不知下一次会出现哪个结果.</p>
+<p>不确定性是指结果集未知.</p>
+<p>概率论面对和处理的是随机性, 而不是不确定性.</p>
+<h3 id="基石二-概率">基石二: 概率</h3>
+<blockquote>
+<p>概率是随机事件发生可能性大小的定量描述.</p>
+</blockquote>
+<p>什么是随机事件?</p>
+<p>任何你关心的事情, 只要 <code>设定一个条件</code>, <code>从可能性的角度出发</code>, <code>对某一个发生结 果进行陈述</code>, 就可以转化成随机事件, 然后度量概率.</p>
+<ol>
+<li>
+<p>设定一个条件</p>
+<p>你不能计算 <strong>人类登上火星的概率</strong>, 但你加上时间限定后就可以计算, 比如计算
+<strong>人类在 2050 年登上火星的概率</strong>.</p>
+</li>
+<li>
+<p>从可能性的角度出发</p>
+<p>只要你还不确定结果, 就可以从可能性的视角提出问题, 比如计算 <strong>明天下雨的
+概率</strong>, 或者计算 <strong>你家地底下有石油的概率</strong>.</p>
+</li>
+<li>
+<p>对某一个发生结果的陈述</p>
+<p>陈述的必须是一个随机结果, 而不是不确定性.</p>
+</li>
+</ol>
+<p>如何计算随机事件发生的概率?</p>
+<p><strong>随机事件占样本空间的比率, 就是这个随机事件发生的概率.</strong></p>
+<p>扔骰子, 样本空间是 1,2,3,4,5,6 共六个结果, 扔到 1 点的概率, 就是 1/6.</p>
+<h3 id="基石三-独立性">基石三: 独立性</h3>
+<p>如果随机事件之间没有任何关联, 我们就说这些随机事件是相互独立的, 它们之间
+就具备独立性. 而这种具备独立性的随机事件, 被称为 <code>独立事件</code>.</p>
+<p>两个随机事件相互独立, 在概率论中说的就是, 一个随机事件的发生, 不影响另一
+个随机事件发生的概率.</p>
+<p>扔硬币看结果是正还是反面, 就是一个典型的独立事件.</p>
+<p>前三次连续扔的结果都是正面朝上, 第四次的结果和前三次无关, 正面朝上的概率
+仍为 1/2.</p>
+<h3 id="基石四-概率计算">基石四: 概率计算</h3>
+<p>再复杂的概率问题, 都是基于三个计算法则.</p>
+<ol>
+<li>
+<p>排列组合法则</p>
+<p>排列组合法则适用于结果有限，而且每种结果都是 <code>等可能性</code> 的情况.</p>
+<p>计算方式就是这个随机事件出现的次数除以所有可能的结果的个数.</p>
+<p>比如计算扔骰子扔到 2 的概率, 可能出现的结果是 1 到 6 共 6 个可能, 2
+是其中一个结果, 概率就是 1/6.</p>
+<p>再比如, 假设生男生女是等概率的, 朋友家有两个小孩, 问都是男孩的概率是多少?</p>
+<p>全部的结果是四种:男男、男女、女男、女女, 男男的概率是 1/4.</p>
+</li>
+<li>
+<p>加法法则</p>
+<p>排列组合法则是针对单个随机事件的概率计算, 加法法则针对的是多个随机事件.</p>
+<p>N 个随机事件是互斥的, 那么发生其一的概率, 等于这 N 个随机事件各自发生的概率的和.</p>
+<p>比如已知你得到冠军的概率为 10%, 得到亚军的概率为 30%. 得到冠军和亚军
+是互斥的, 只能为其一. 那么你进入决赛的概率为 10%+30% = 40%.</p>
+</li>
+</ol>
+<!-- raw HTML omitted -->
+<ol>
+<li>
+<p>乘法法则</p>
+<p>乘法法则也是针对多个随机事件的概率计算.</p>
+<p>N 个 <code>独立事件</code> 同时发生的概率, 即为将 N 个随机事件各自发生的概率相乘.</p>
+</li>
+</ol>
+<h3 id="三种度量概率方法">三种度量概率方法</h3>
+<p>常用的度量概率的方法有三种: 定义法、频率法、迭代法.</p>
+<p>定义法现在用的比较少了, 频率法和迭代法到现在还在大量使用.</p>
+<ol>
+<li>
+<p>定义法</p>
+<blockquote>
+<p>定义法就是直接定义, 直接认为某件事不同结果出现的可能性是相等的.</p>
+</blockquote>
+<p>比如定义法认为, 抛硬币正面朝上和反面朝上的概率, 都是 50%; 扔骰子每个
+点数向上的概率也相等, 都是 1/6.</p>
+<p>定义法虽然简单粗暴, 但在宏观尺度上, 它是一种对现实世界的合理简化, 有
+一定的科学性.</p>
+</li>
+<li>
+<p>频率法</p>
+<blockquote>
+<p>频率法是指, 只要数据量足够大, 一个随机事件发生的频率就会无限接近它发生的概率.</p>
+</blockquote>
+<p>也就是说, 虽然每次结果是随机的, 但只要重复的做这件事, 重复足够多次数,
+隐含的规律就会浮现出来.</p>
+</li>
+<li>
+<p>迭代法</p>
+<p>但如果没有办法获得大量数据, 或者根本就不能反复试验怎么办?</p>
+<blockquote>
+<p>迭代法是指, 先利用手头少量的数据做推测, 甚至是主观猜测一件事儿的概率,
+然后再通过收集新的数据, 不断调整对这件事概率的估算.</p>
+<p>最常用的方法就是 <code>贝叶斯</code>.</p>
+</blockquote>
+<p>比如, 虽然没办法反复试验来判断人类 2050 年登上火星的概率, 但是我可以
+先假设概率是 50%, 然后再根据各种新的信息(登陆计划的公开、核心计算的发
+展状态、经费变化等等), 来调整之前的预测.</p>
+</li>
+</ol>
+<p>定义法，是通过自然世界的对称性来定义概率；</p>
+<p>频率法，是用随机事件发生的频率来计算概率；</p>
+<p>而迭代法，是用一种动态发展的、考虑个人差异的角度来度量概率</p>
+<h2 id="频率法">频率法</h2>
+<blockquote>
+<p>只要重复的试验或者观测的数据 <code>足够多</code> ，随机事件发生的频率就会无限接近它的概率。</p>
+<p>这就是我们现在常说的“大数定律”.</p>
+</blockquote>
+<h3 id="接近">接近</h3>
+<p>大数定律告诉我们，数据或者试验越多，频率就会越接近概率。当然，只是接近，
+在真实概率上下浮动。这种浮动的范围就是“精度误差”。比如，前面那些数学家们
+抛硬币的结果，并不是刚好等于理想的 50%，这个和理想值之间的差距，就是精度
+误差。假如你抛出正面朝上的频率是在 47%-53%之间，那么精度误差就是+-3%.</p>
+<p>针对这+-3%的误差率，我做 100 组试验，或者统计学上叫 100 组样本，如果有 95 组样本算出来
+的频率，正好在这个精度误差的范围之内，我们就称之为 95%的“置信度”.</p>
+<p>通过精度误差和置信度的限定, 容忍一定错误的发生, 我们在用频率度量概率时, 可以大幅减少试验的次数或采集的数据量.</p>
+<h3 id="足够多">足够多</h3>
+<p>只有数据量足够多的时候，局部频率才会接近真实概率。</p>
+<p>当数据量很少的时候，一件事发生的频率可能和它的真实概率相差很大.</p>
+<blockquote>
+<p>均值回归是指，如果一个数据和它的正常状态偏差很大，那么它向正常状态回归的概率就会
+变大.</p>
+</blockquote>
+<p>比如一个学生的数学水平是 70 分, 这次超水平发挥考了 100 分, 下一次考试, 他大概率考不到 100 分, 但可能考 90 分, 可能考 80 分, 也可能考 70 分. 这些都比 100 分正常, 都更接近他的真实水平, 所以都是均值回归.</p>
+<p>而不会说, 这次考 100 分, 下次只能考 50 分来补偿上次的高分.</p>
+<p><strong>总之，大数定律不需要补偿，而是通过均值回归，通过产生大量的正常数据，削弱之前异常
+数据的影响</strong>.</p>
+<h3 id="数学期望-长期价值的数字化衡量">数学期望: 长期价值的数字化衡量</h3>
+<blockquote>
+<p>数学期望简称期望，计算方法很简单，就是对随机事件不同结果的概率加权求平均。</p>
+<p>用大白话说就是，先把每个结果各自发生的概率和带来的影响相乘，然后把算出来的数相加。
+最后算出来的结果就是数学期望.</p>
+</blockquote>
+<p>篮球有三种得分方式——篮下、中距离和三分球。篮下进攻和中距离投中都是 2 分，而三分球
+距离更远，投中得 3 分。当然，距离越远投篮命中率一般就会越低。总之，篮下投篮命中率
+高，但是得分低，三分投篮命中率低，但是得分高。哪种得分方式更有效率呢?</p>
+<p>更有效率，这是一个长期价值。而一旦判断一件事的长期价值，数学期望就派上用场了。每
+种得分方式的数学期望，可以用得分情况和平均命中率来计算。具体来说，篮下每命中一球
+得 2 分，如果平均命中率是 55%，那计算一下，篮下出手的数学期望就是 1.1 分.</p>
+<p>这 1.1 分是什么意思呢？它的意思是说，长期来看，平均每次篮下进攻可以得到 1.1 分。数学
+期望，就是用来衡量这种长期的平均价值的。</p>
+<p>类似的，中距离投篮也是 2 分，球员的平均命中率是 45%，那中距离投篮的数学期望就是 0.9
+分。三分球是 3 分，平均命中率是 35%，那三分球投篮的数学期望就是 1.05 分。</p>
+<p><strong>数学期望是衡量一件事的价值，判断一件事值不值得做的重要指标.</strong></p>
+<h3 id="方差-围绕数学期望波动程度的度量">方差: 围绕数学期望波动程度的度量</h3>
+<p>数学期望相同，并不代表两件事的价值就一样。</p>
+<p>随机结果的波动程度，同样对一件事的价值，对我们的决策影响巨大.</p>
+<blockquote>
+<p>方差描述的就是，随机结果围绕数学期望的波动范围。</p>
+</blockquote>
+<p>方差越大，说明这件事波动性越大。而风险，本质上指的就是波动性。</p>
+<p>所以， <code>方差的本质，就是对风险的度量.</code></p>
+<p>一个随机事件的方差越大，可能的结果离期望值越远，就说明它的风险越大.</p>
+<p>彩票就是一个方差极大的生意, 支付宝的集五福活动就是一个方差很小的活动.</p>
+<h3 id="概率分布-上帝视角看整体轮廓">概率分布: 上帝视角看整体轮廓</h3>
+<p>什么是随机变量呢？简单说，就是把随机事件可能的结果抽象成一个数字，每个数字对应一个概率。这个随机变化的数字，就是随机变量.</p>
+<p>有了随机变量，我们就把现实世界和数学世界打通了。要寻找一个随机事件的规律，直接分析随机变量这个具体数字的变化情况就好了.</p>
+<p>把随机变量所有的结果和它对应的概率全部统计出来后，我们就有了一个东西——概率分布。</p>
+<p><strong>概率分布模型是我们对现实规律的抽象.</strong></p>
+<p>现实世界里越来越多的随机变量的变化规律，被数学家发现。也就是说，我们的概
+率分布模型越来越多。有了这些模型，解决各种随机事件就简单多了，看看它适用
+于哪个模型，直接带入公式计算就好了.</p>
+<h3 id="正态分布">正态分布</h3>
+<p>在正态分布的曲线图里，横坐标代表随机变量的取值范围，越往右，随机变量的值
+就越大；纵坐标，则代表概率的大小，最底下的概率是 0，越往上概率越大。这样，
+从曲线上随便找一点，确定它的横坐标、纵坐标，我们就知道了这个值出现的概率
+是多少。</p>
+<p>正态分布有三个性质:</p>
+<ol>
+<li>均值就是期望</li>
+<li>极端值很少</li>
+<li>标准差决定胖瘦</li>
+</ol>
+<p>数学期望代表长期价值，而现在平均值又是数学期望。也就是说，在正态分布中，
+平均值就代表随机事件的价值. 在正态分布里，平均值才具有这样的意义。如果
+不是正态分布，均值可能就没啥意义了。比如说地震，谁也没听说过平均强度和
+平均损失这样的说法吧？</p>
+<p>为什么说正态分布简单？就是因为在正态分布中，平均值等于期望，决定这条曲线
+的最高点；方差决定胖瘦，决定曲线的弯曲度。简单两个数据，就确定了这条曲线
+的形状。</p>
+<p>只要是互联网用户, 一定会经常遇到这样的提示信息: “你的开机时间 23 秒，打
+败了全国 97%的用户”。 你有没有想过他是怎么知道你打败了多少用户的?</p>
+<p>把全国每台电脑的开机时间都收集起来做排序, 当然可以实现, 但这个太复杂了.</p>
+<p>电脑开机时间这事是符合正态分布的. 只要随机抽取一小部分用户的开机数据, 算
+出均值和标准差, 就可以确定这条正态分布曲线.</p>
+<p>有了这条曲线, 当你电脑开机的时候, 只需要比较你的开机时间和均值的差距, 就
+能知道你距离均值多少个标准差, 也就知道你的排名了.</p>
+<p>其他人总是用“刻意练习”“精准”等来评价专业和业余，但在数学家看来，这些词都
+太模糊。</p>
+<p>真正精确的标准只有两个——均值和标准差。</p>
+<p>专业就是均值更高，标准差更小，业余恰恰相反.</p>
+<h3 id="中心极限定理">中心极限定理</h3>
+<blockquote>
+<p>大量独立的随机变量相加，无论各个随机变量的分布是怎样的，它们相加的结果必
+定会趋向于正态分布.</p>
+</blockquote>
+<p>因为任何分布叠加最终都会形成正态分布，所以无论是对数分布还是幂律分布，无
+论是指数分布还是其他任何分布，只要自身不断演化，不断自己叠加自己，最终也
+一样会变成正态分布。</p>
+<p>或许我们可以这么说，所有的分布，不是正态分布，就是在变成正态分布的路上.</p>
+<p>在中心极限定理之后，信息论领域发现了“熵最大原理”。也就是说，在一个孤立系
+统中，熵总是在不断增大。</p>
+<p>而巧合的是，正态分布就是所有已知均值和方差的分布中，信息熵最大的一种分布。</p>
+<p>如果熵不断增长是孤立系统确定的演化方向，那熵的最大化，也就是正态分布，就是孤立系
+统演化的必然结果。</p>
+<h3 id="幂律分布">幂律分布</h3>
+<p>横坐标，代表随机变量的取值；纵坐标，代表发生的概率。而幂律分布就是一条向
+下的曲线，拖着一个长长的尾巴。它的含义也非常明确——在随机变量中，越小的数
+值，出现的概率越大；越大的数值，出现的概率则越小.</p>
+<p>幂律分布让原本不会发生的极端事件发生.在数学上，这个叫“长尾”，也叫肥尾、
+厚尾。简单说就是，虽然极端数据出现的概率很低，但这个概率永远不会趋近于 0，
+永远不会小到可以忽略不计。</p>
+<p>这也和正态分布不同。在正态分布里，数据非常集中，非常极端的数据几乎不可能
+出现，可以直接忽略不不计。而在幂律分布里，再极端的数据都有出现的可能.</p>
+<p>正态分布是一种均匀对称分布，大多数数据都集中在平均值附近，所以平均值非常有用，因
+为它代表大多数。而幂律分布呢？它的数据变化幅度非常大，平均值毫无意义。拿个人收入
+来说，有一贫如洗的穷人，也有挥金如土的富豪，把这两群人的资产平均，完全没有意义.</p>
+<h3 id="泊松分布">泊松分布</h3>
+<blockquote>
+<p>泊松分布是用来描述随机事件发生次数的概率的一种分布.</p>
+<p>计算公式就是: 随机事件发生 k 次的概率，等于 lambda 的 k 次方除以 k 的阶乘，再乘以自然底数 e 的负 lambda 次方.</p>
+</blockquote>
+<p>比如我们经常听到气象部门说, 遇到了 50 年一遇的大暴雨. 你想知道接下来 50
+年内, 发生 K 次这级别暴雨的概率, 可以把 K 值代入到公式计算.</p>
+<p>K=0, 1 次都不发生的概率, 是 37%.</p>
+<p>k=1, 发生 1 次的概率, 是 37%.</p>
+<p>k=2, 发生 2 次的概率, 是 18%.</p>
+<p>泊松分布具有两个重要特性:</p>
+<ol>
+<li>基础是正态分布</li>
+<li>随机事件的间隔是无记忆的</li>
+</ol>
+<h2 id="迭代法">迭代法</h2>
+<h3 id="条件概率">条件概率</h3>
+<blockquote>
+<p>所谓的条件概率，通俗来讲就是，如果一个随机事件的概率会因为某个条件而产生
+变化，那在这个条件发生的情况下，这个随机事件发生的概率就是条件概率.</p>
+</blockquote>
+<p>公式计算为: P(A│B) = P(AB)/P(B)</p>
+<p>其中，P(A│B)为条件概率，表示在 B 条件下 A 发生的概率；</p>
+<p>P(AB)为事件 A、B 同时发生的概率；</p>
+<p>P(B)为事件 B 发生的概率.</p>
+<p>很多条件概率是很隐蔽的. 现在中, 所有的概率本质上都是条件概率.</p>
+<p>条件概率量化了条件对随机事件的影响, 但它只表示统计意义上的相关性, 并不代
+表因果关系.</p>
+<h3 id="贝叶斯推理-概率是对信心的度量">贝叶斯推理: 概率是对信心的度量</h3>
+<blockquote>
+<p>根据新信息不断调整对一个随机事件发生概率的判断，这就是贝叶斯推理。</p>
+</blockquote>
+<p>在贝叶斯的世界里，概率本质上是对信心的度量，是我们对某个结果相信程度的一
+种定量化的表达.</p>
+<p>比如我们说明天下雨的概率是多少、这个客户我能拿下的概率是多少、凶手是某某
+某的概率是多少时，也都是在表达一种信心.</p>
+<p>贝叶斯推理这种思维方式有两大优势:</p>
+<ol>
+<li>起点不重要, 迭代很重要</li>
+<li>信息越充分, 结果越可靠</li>
+</ol>
+<h3 id="贝叶斯计算">贝叶斯计算</h3>
+<blockquote>
+<p>贝叶斯公式的数学表达是——</p>
+<p>P（A|B）= P（B|A）x P（A）/ P（B）</p>
+<p>翻译过来就是，现象 B 出现的情况下事件 A 发生的概率，等于事件 A 发生时现
+象 B 出现的概率，乘以事件 A 发生的概率，再除以现象 B 出现的概率.</p>
+</blockquote>
+<p>P(A)是先验概率, 你可以任性设置, 但最好遵循三点:</p>
+<ol>
+<li>相信历史数据</li>
+<li>参考专家意见</li>
+<li>平均设置概率</li>
+</ol>
+<p>P（B|A）和 P(B)这两个数一定是客观的，必须找到具体的客观值，而不能拍脑袋
+随便设定.</p>
+<p>贝叶斯计算难度不是在计算本身，而是寻找调整因子的客观数据.</p>
+<h2 id="概率思维">概率思维</h2>
+<p>频率学派和贝叶斯学派都是完全正确、完全有效的.</p>
+<p>频率法和贝叶斯最大的差异就是两个方法的假设不一样。</p>
+<p>频率法，更像是做题，必须有明确的、严格的前提约束，严格界定好所有的条件。
+它假设信息是全知的，每道题都有一个对所有人而言都正确的答案。所以会通过反
+复的试验，不断逼近最终那个客观概率。过程不重要，达到最终那个客观的结果才
+重要。</p>
+<p>而贝叶斯，是个动态的、反复的过程。每个新信息的加入都要重新进行一遍计算，
+获得一个新概率。贝叶斯没有什么限制条件，只是在这一次次获得新信息、重新计
+算的过程中迭代自己的判断。它甚至不认为现实的事儿都有正确答案，因为所谓答
+案，也是在不断变化的.</p>
+<p>除了掌握频率法和迭代法两大门派的武功招式以外, 还需要掌握一些内功心法才行.</p>
+<p>概率思维有三大黄金原则, 分别是:</p>
+<h3 id="原则一-对抗直觉-能算就算">原则一: 对抗直觉, 能算就算</h3>
+<p>很多概率相关的事情，不要相信自己的直觉，只要动笔简单算一算，就很容易得出
+结论.</p>
+<p>行为经济学、认知科学里有很多反直觉的套路。什么是反直觉？本质上就是直觉错
+判了一件事的概率。这个时候，我们要做的就是遏制直觉的冲动，去寻找数据、寻
+找证据，用概率公式计算一下。通过计算对抗直觉，你就拥有了一个概率专家的基
+本素养.</p>
+<h3 id="原则二-寻找条件-增大概率">原则二: 寻找条件, 增大概率</h3>
+<p>生活中，几乎所有涉及个体的决策都是如此。想要成功，就要找到对自己成功影响
+最大的那个条件概率。换句话说，想要成功，就是找到最大化概率的条件。</p>
+<p>对于创业来说，成功的平均概率可能只有 1%，但如果你拥有关键技术、找到了蓝
+海、采取了差异化竞争策略，你成功的概率就会大大增加。对于工作来说，想要搞
+定客户，就要寻找在什么条件下客户会最满意。还有，互联网行业的增长黑客，其
+实就是通过数据去寻找导致转化的各种条件，从而提高产品的转化率.</p>
+<h3 id="原则三-相信系统-长期主义">原则三: 相信系统, 长期主义</h3>
+<p>所谓的科学决策，其实是一个决策系统，只要决策系统有概率优势，我们就要长期
+坚持，相信系统，而不在乎单次决策的随机结果的好坏.</p>
+<p>你流的每一滴汗，读的每一本书，都会一点点的改变你的身体，改变你的认知。这
+些微小的改变，这些微小的概率提升，在时间的作用下都能被无限放大。</p>
+<p>站在当下，未来任何事都只是一个概率。所谓坚持，所谓努力，其实就是寻找一个
+大概率的方向，然后相信系统，相信长期主义。</p>
+<p>当然，你得坚持活着，等到长期的到来.</p>
+
+        </div>
+
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            
+          </div>
+        </div>
+        
+          <div class="row">
+            <div class="col-xs-12">
+              
+            </div>
+          </div>
+
+          
+
+
+
+          
+          
+          <div style="height: 50px;"></div>
+          
+        
+
+        <div class="site-footer">
+  
+  
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  
+
+<script>
+  
+  
+    
+    
+  
+</script>
+
+  
+
+</body>
+
+</html>

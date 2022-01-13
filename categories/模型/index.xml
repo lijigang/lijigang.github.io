@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>模型 on lijigang</title>
+    <link>https://www.lijigang.com/categories/%E6%A8%A1%E5%9E%8B/</link>
+    <description>Recent content in 模型 on lijigang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 16 Mar 2021 00:00:00 +0800</lastBuildDate><atom:link href="https://www.lijigang.com/categories/%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>云雨伞</title>
+      <link>https://www.lijigang.com/posts/cloud-rain-umbrella/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.lijigang.com/posts/cloud-rain-umbrella/</guid>
+      <description>沟通信息模型 我明明说的那么清楚了, 对方怎么就是听不明白? 我刚不是已经说过情况了吗? 怎么老板还问我 &amp;ldquo;所以呢?&amp;rdquo; 我只是给</description>
+    </item>
+    
+    <item>
+      <title>学&lt;刘嘉:概率论22讲&gt;</title>
+      <link>https://www.lijigang.com/posts/probability-theory/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.lijigang.com/posts/probability-theory/</guid>
+      <description>概率论解决随机问题的本质, 就是把局部的随机性转变为整体上的确定性. 一座城市, 婴儿会在哪一刻诞生是随机的, 但从整体上看, 这座城市的出生率却是大</description>
+    </item>
+    
+    <item>
+      <title>五分钟商学院</title>
+      <link>https://www.lijigang.com/posts/5-minutes-business/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.lijigang.com/posts/5-minutes-business/</guid>
+      <description>最近在学习 得到 上面 刘润 的五分钟商学院，很受启发，记录下学习总结。 生意的本质就是创造产品价值，然后把产品价值交换给有需要的人。 产品价值的创造过</description>
+    </item>
+    
+  </channel>
+</rss>
