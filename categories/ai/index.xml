@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on lijigang</title>
+    <link>https://www.lijigang.com/categories/ai/</link>
+    <description>Recent content in AI on lijigang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://www.lijigang.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPT: 一分钟了解开发概念</title>
+      <link>https://www.lijigang.com/posts/gpt-said/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.lijigang.com/posts/gpt-said/</guid>
+      <description>前言 一直以来都想写一个用通俗易懂语言讲解软件开发相关概念的文章, 但几次尝试均未能达到 预期效果. 直到最近 ChatGPT 的到来, 尝试着通过写 Prompt 来引导 AI 帮我完</description>
+    </item>
+    
+  </channel>
+</rss>

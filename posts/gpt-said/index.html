@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.113.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="lijigang" />
+  <meta property="og:url" content="https://www.lijigang.com/posts/gpt-said/" />
+  <link rel="canonical" href="https://www.lijigang.com/posts/gpt-said/" /><link rel="alternate" type="application/atom+xml" href="https://www.lijigang.com/index.xml" title="lijigang">
+
+  <script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/www.lijigang.com\/"
+      },
+      "articleSection" : "posts",
+      "name" : "GPT: 一分钟了解开发概念",
+      "headline" : "GPT: 一分钟了解开发概念",
+      "description" : "前言 一直以来都想写一个用通俗易懂语言讲解软件开发相关概念的文章, 但几次尝试均未能达到 预期效果. 直到最近 ChatGPT 的到来, 尝试着通过写 Prompt 来引导 AI 帮我完",
+      "inLanguage" : "en-US",
+      "author" : "lijigang",
+      "creator" : "lijigang",
+      "publisher": "lijigang",
+      "accountablePerson" : "lijigang",
+      "copyrightHolder" : "lijigang",
+      "copyrightYear" : "2023",
+      "datePublished": "2023-06-25 00:00:00 \u002b0800 CST",
+      "dateModified" : "2023-06-25 00:00:00 \u002b0800 CST",
+      "url" : "https:\/\/www.lijigang.com\/posts\/gpt-said\/",
+      "keywords" : [  ]
+  }
+</script>
+<title>GPT: 一分钟了解开发概念</title>
+  <meta property="og:title" content="GPT: 一分钟了解开发概念" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="前言 一直以来都想写一个用通俗易懂语言讲解软件开发相关概念的文章, 但几次尝试均未能达到 预期效果. 直到最近 ChatGPT 的到来, 尝试着通过写 Prompt 来引导 AI 帮我完" />
+  <meta name="description" content="前言 一直以来都想写一个用通俗易懂语言讲解软件开发相关概念的文章, 但几次尝试均未能达到 预期效果. 直到最近 ChatGPT 的到来, 尝试着通过写 Prompt 来引导 AI 帮我完" />
+  <meta property="og:locale" content="zh-CN" />
+
+  
+    <style>body{font-family:bree serif,sans-serif;-webkit-font-smoothing:antialiased;margin:0 20px}article{max-width:800px;margin-left:auto;margin-right:auto}a{color:#000;text-decoration:none}a:hover{font-weight:600;text-decoration:underline}.post-ads{margin:50px 0}.markdown-body{font-size:18px;max-width:100%}.markdown-body a{text-decoration:underline;text-decoration-color:#000}.markdown-body pre{padding:16px;overflow:auto;border-radius:10px}.markdown-body code{padding:.2em .4em;font-size:85%;background-color:#f6f8fa;border-radius:6px}.markdown-body pre>code{padding:0;font-size:100%;background-color:inherit;border:0}.Chinese .markdown-body{line-height:200%}.site-date-catalog{font-size:2rem}.header-title{font-size:2rem;font-weight:700;margin-top:32px;font-family:bungee shade,sans-serif}.header-title a{text-decoration:none}.header-subtitle{color:#666}.header-items{margin:10px 0}.header-item{margin:0 5px}.header-line{width:100%;border-width:2px;border-color:#482936;border-style:solid none none none}.lang-switch{font-weight:600}#posts-list{min-height:600px}.posts-line{font-size:1.2rem;margin:12px 0}.posts-categories{font-size:.8rem;margin:auto;text-align:center}.posts-category{padding:3px 0;border:#000 2px solid;border-radius:5px}.site-footer{margin-top:50px}.site-footer-item{margin-right:12px}.post-content img{max-width:100%;display:block;margin-right:auto;margin-top:12px}.post-header{margin-bottom:50px}.post-title{font-size:2rem;font-weight:600}.post-tags{display:inline;font-weight:600;padding:2px 5px;margin-right:6px;border:#000 2px solid;border-radius:5px}.post-date{font-weight:800;font-style:italic}.post-author{float:right;font-weight:600}.page-content{min-height:60%}.post-content{margin-bottom:50px}.post-content p{hyphens:auto;line-height:1.8;text-justify:ideographic;margin-bottom:1em}.related-content{border-width:3px;border-style:solid;border-color:#000;padding:0 10px;margin-bottom:50px;margin-top:100px}.related-content li{margin:5px 0}.taxonomy-term{font-size:3rem}.gallery-img{text-align:center}.gallery-img span{text-align:center}.gallery-img-desc{font-size:.8em;font-weight:800}#disqus_thread{position:relative}#disqus_thread:after{content:"";display:block;height:55px;width:100%;position:absolute;bottom:0;background:#fff}@media screen and (max-width:600px){.header-title,.header-subtitle,.header-items{text-align:center}.posts-line{font-size:16px}.markdown-body{font-size:16px}.post-title{font-size:2rem}.post-content p{letter-spacing:.05em}}@media screen and (max-width:48em){.posts-category{display:none}}</style>
+  
+  
+    <style>.container,.container-fluid{margin-right:auto;margin-left:auto}.container-fluid{padding-right:2rem;padding-left:2rem}.row{box-sizing:border-box;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:0;-ms-flex:0 1 auto;flex:initial;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-.5rem;margin-left:-.5rem}.row.reverse{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}.col.reverse{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}.col-xs,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-offset-0,.col-xs-offset-1,.col-xs-offset-10,.col-xs-offset-11,.col-xs-offset-12,.col-xs-offset-2,.col-xs-offset-3,.col-xs-offset-4,.col-xs-offset-5,.col-xs-offset-6,.col-xs-offset-7,.col-xs-offset-8,.col-xs-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-xs{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-xs-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-xs-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-xs-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-xs-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-xs-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-xs-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-xs-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-xs-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-xs-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-xs-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-xs-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-xs-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-xs-offset-0{margin-left:0}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-11{margin-left:91.66666667%}.start-xs{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-xs{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-xs{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-xs{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-xs{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-xs{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-xs{-ms-flex-pack:distribute;justify-content:space-around}.between-xs{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-xs{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-xs{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}@media only screen and (min-width:48em){.container{width:49rem}.col-sm,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-offset-0,.col-sm-offset-1,.col-sm-offset-10,.col-sm-offset-11,.col-sm-offset-12,.col-sm-offset-2,.col-sm-offset-3,.col-sm-offset-4,.col-sm-offset-5,.col-sm-offset-6,.col-sm-offset-7,.col-sm-offset-8,.col-sm-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-sm{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-sm-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-sm-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-sm-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-sm-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-sm-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-sm-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-sm-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-sm-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-sm-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-sm-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-sm-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-sm-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-sm-offset-0{margin-left:0}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-11{margin-left:91.66666667%}.start-sm{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-sm{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-sm{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-sm{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-sm{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-sm{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-sm{-ms-flex-pack:distribute;justify-content:space-around}.between-sm{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-sm{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-sm{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}@media only screen and (min-width:64em){.container{width:65rem}.col-md,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-offset-0,.col-md-offset-1,.col-md-offset-10,.col-md-offset-11,.col-md-offset-12,.col-md-offset-2,.col-md-offset-3,.col-md-offset-4,.col-md-offset-5,.col-md-offset-6,.col-md-offset-7,.col-md-offset-8,.col-md-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-md{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-md-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-md-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-md-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-md-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-md-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-md-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-md-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-md-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-md-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-md-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-md-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-md-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-md-offset-0{margin-left:0}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-3{margin-left:25%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-6{margin-left:50%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-9{margin-left:75%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-11{margin-left:91.66666667%}.start-md{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-md{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-md{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-md{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-md{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-md{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-md{-ms-flex-pack:distribute;justify-content:space-around}.between-md{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-md{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-md{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}@media only screen and (min-width:75em){.container{width:76rem}.col-lg,.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-offset-0,.col-lg-offset-1,.col-lg-offset-10,.col-lg-offset-11,.col-lg-offset-12,.col-lg-offset-2,.col-lg-offset-3,.col-lg-offset-4,.col-lg-offset-5,.col-lg-offset-6,.col-lg-offset-7,.col-lg-offset-8,.col-lg-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-lg{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-lg-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-lg-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-lg-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-lg-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-lg-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-lg-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-lg-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-lg-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-lg-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-lg-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-lg-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-lg-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-lg-offset-0{margin-left:0}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-11{margin-left:91.66666667%}.start-lg{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-lg{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-lg{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-lg{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-lg{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-lg{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-lg{-ms-flex-pack:distribute;justify-content:space-around}.between-lg{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-lg{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-lg{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}</style>
+  
+
+  
+
+  <link href="/index.xml" rel="alternate" type="application/rss+xml"
+    title="lijigang">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Bungee+Shade" rel="stylesheet">
+  
+  
+
+  
+  
+</head>
+
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="site-header">
+          
+<header>
+  <div class="header-title">
+    <a href="/"
+      >Ignoramus</a
+    >
+  </div>
+  <div class="header-subtitle">你要对这个世界有点意见</div>
+</header>
+<div class="row end-md center-xs header-items">
+  
+</div>
+<div class="row end-xs">
+   
+</div>
+<div class="header-line"></div>
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">GPT: 一分钟了解开发概念</h1>
+          
+          <div class="row post-desc">
+            <div class="col-xs-6">
+              
+              <time class="post-date" datetime="2023-06-25 00:00:00 CST">
+                25 Jun 2023
+              </time>
+              
+            </div>
+            <div class="col-xs-6">
+              
+              <div class="post-author">
+                <a target="_blank" href="https://www.lijigang.com/">@lijigang</a>
+              </div>
+              
+            </div>
+          </div>
+          
+        </header>
+
+        <div class="post-content markdown-body">
+          
+          <h2 id="前言">前言</h2>
+<p>一直以来都想写一个用通俗易懂语言讲解软件开发相关概念的文章, 但几次尝试均未能达到
+预期效果. 直到最近 ChatGPT 的到来, 尝试着通过写 Prompt 来引导 AI 帮我完成这个目的.
+本文就是基于这个理念, 使用 ChatGPT 4.0 生成.</p>
+<p>写作顺序为:</p>
+<ol>
+<li>写一个 Prompt 让 ChatGPT 输出本篇文章的名字(从五个结果中选择了现在这个)</li>
+<li>写一个 Prompt 让 ChatGPT 输出软件开发领域最重要的概念 List</li>
+<li>写一个 Prompt, 让 ChatGPT 输出每个概念的通俗解释(利用: 费曼技巧, Chain of
+thought, 反思技术等)</li>
+</ol>
+<p>\pagebreak</p>
+<h2 id="通用概念">通用概念</h2>
+<h3 id="编程语言--programming-languages">编程语言 (Programming Languages)</h3>
+<p>想象你正在向一个外国朋友解释你的生活习惯，但你们没有共通的语言，这时你们可能需要
+一种翻译工具或者通用的语言来交流，这就像计算机科学中的编程语言。</p>
+<p>编程语言就是一种给计算机下达指令的语言，它是计算机科学的基础。编程语言让我们可以
+与计算机进行交流，告诉计算机我们需要它完成什么任务。</p>
+<p>编程语言的核心属性在于其语法规则和语义。语法规定了如何组织代码，语义则定义了代码
+的含义。每种编程语言都有自己的语法和语义。</p>
+<p>现实中，就像人们使用不同的语言进行交流一样，程序员也会使用不同的编程语言来完成不
+同的任务。例如，你可能使用 JavaScript 来开发一个交互式网页，使用 Python 进行数据
+分析，或者使用 C++来开发一个高性能的游戏。每种语言都有自己的优点和特性，程序员会
+根据需求选择合适的编程语言。</p>
+<h3 id="算法--algorithms">算法 (Algorithms)</h3>
+<p>想象你在烹饪一道复杂的菜肴，你有一本详细的食谱指导你每一步的操作。这个食谱就像是
+计算机科学中的算法。</p>
+<p>算法是解决特定问题的一系列明确的计算步骤。它是计算机科学的核心，你可以把它看作是
+告诉计算机如何完成特定任务的食谱。</p>
+<p>算法的核心属性是有限性、确定性和有效性。有限性意味着算法总是在有限的步骤后结束，
+确定性意味着每一步的操作都是明确无误的，有效性则意味着算法能够解决问题。</p>
+<p>例如，你可能听说过谷歌的 PageRank 算法。当你在谷歌搜索一个关键词，PageRank 算法会根
+据网页的重要性来决定搜索结果的排名。这个算法就像是食谱，告诉计算机如何对网页进行
+排名，以便用户能够找到最相关的信息。</p>
+<h3 id="数据结构--data-structures">数据结构 (Data Structures)</h3>
+<p>想象你的房间里有各种各样的物品，书籍、衣物、餐具等。你可能会把书放在书架上，衣物
+放在衣柜里，餐具放在厨柜里。你使用的这种组织方式，就好比是计算机科学中的数据结构。</p>
+<p>数据结构是计算机中存储、组织数据的方式。它决定了数据的组织、存储、检索和更新的效
+率。你可以把它看作是数据的“容器”。</p>
+<p>数据结构的核心属性在于它的效率和灵活性。不同的数据结构适合于解决不同的问题。比如，
+数组适用于存储和访问大量数据，链表适用于频繁插入和删除数据，树和图则适用于表示数
+据之间的层次或网络关系。</p>
+<p>例如，当你在社交网络上查找朋友时，这个社交网络可能会使用图这种数据结构来表示用户
+之间的关系。这样，当你查找某个朋友的朋友时，就能很快地找到他们。</p>
+<h3 id="数据库--databases">数据库 (Databases)</h3>
+<p>想象你的书桌上有很多文件，你需要一个文件柜来整理和存储这些文件。当你需要某个文件
+时，你可以直接到文件柜里找到它。这个文件柜就像计算机科学中的数据库。</p>
+<p>数据库是用于存储和管理数据的系统。你可以把它看作是一个大型的文件柜，它可以让你有
+效地存储数据，并在需要时检索数据。</p>
+<p>数据库的核心属性在于它的结构化和查询能力。大多数数据库都是结构化的，这意味着数据
+被组织成特定的格式，比如表格。这种结构化的方式使得数据库能够高效地存储和检索数据。</p>
+<p>比如说，当你在网上购物时，你的订单信息就会被存储在数据库中。当你查看你的购物历史
+时，网站会查询数据库，然后显示你的订单信息。这就是数据库在现实生活中的一个例子。</p>
+<h3 id="前端开发--front-end-development">前端开发 (Front-end Development)</h3>
+<p>想象一下，你正在一家餐厅用餐，服务员的服务态度，菜单的设计，餐厅的装潢都会影响你
+的用餐体验，这就如同计算机世界里的前端开发。</p>
+<p>前端开发是指在互联网中创建或改变用户与网页或应用交互的过程。就像餐厅中服务员和菜
+单等为你提供的服务，前端开发为用户提供视觉和功能的体验，包括网页的设计，交互，动
+画等。</p>
+<p>前端开发的核心是为用户提供优质的使用体验。它需要理解用户的需求，设计美观易用的界
+面，并确保其在不同设备和浏览器上的兼容性和性能。</p>
+<p>举个例子，假设你在使用一个购物网站，你可以轻松地浏览商品，添加到购物车，并进行付
+款操作。这些看似简单的操作背后，实际上是前端开发者精心设计的结果，他们通过 HTML,
+CSS, JavaScript 等技术，创造出易于使用，符合用户期望的交互体验。</p>
+<h3 id="后端开发--back-end-development">后端开发 (Back-end Development)</h3>
+<p>设想一下你在餐厅用餐，你点了一份意大利面。这份意大利面怎么来的呢？在厨房，厨师按
+照食谱(<a href="#%E7%AE%97%E6%B3%95--algorithms">算法 (Algorithms)</a> )准备了食材，烹饪出了你桌上的这份意大利面。这个过程就像
+是计算机世界里的后端开发。</p>
+<p>后端开发是关于<a href="#%E6%9C%8D%E5%8A%A1%E5%99%A8">服务器</a>、<a href="#%E6%95%B0%E6%8D%AE%E5%BA%93--databases">数据库</a>以及应用程序如何工作的。它涉及到如何在服务器上存储信
+息，如何优化数据库查询，以及如何确保应用程序的性能和稳定性。它就像餐厅的厨房，负
+责处理用户的请求，然后返回相应的结果。</p>
+<p>后端开发的核心在于数据处理、业务逻辑实现以及系统稳定性的保证。在一个网页或应用中，
+用户提交的所有请求，比如购买商品，上传图片，都需要后端进行处理。</p>
+<p>举一个例子，当你在网上购物时，你添加商品到购物车，这时，后端需要处理你的请求，把
+商品添加到你的购物车中。当你结账时，后端需要计算总价格，处理支付，并更新数据库中
+的信息。这些都是后端开发的重要工作。
+\pagebreak</p>
+<h3 id="容器技术--containerization">容器技术 (Containerization)</h3>
+<p>想象一下，你准备去度假，你把你需要的衣物，洗漱用品，零食等等都打包在一个行李箱中。
+无论你去哪里，只要有这个行李箱，你就有了生活所需的一切。这个行李箱就像是计算机世
+界中的容器技术。</p>
+<p>容器技术是一种轻量级的虚拟化技术，它可以将应用程序及其依赖项打包在一起，形成一个
+独立的、可移植的容器。这个容器可以在任何支持容器技术的系统上运行，无论这个系统的
+环境如何，都不会影响容器中的应用程序。</p>
+<p>容器技术的核心属性是它的轻量级和独立性。因为容器包含了应用程序及其所有的依赖项，
+所以它可以在不同的系统环境中一致地运行。这大大简化了应用程序的部署和移植。</p>
+<p>比如，你的团队开发了一个应用程序，你在自己的电脑上测试通过了，但是当你把这个应用
+程序放到服务器上运行时，却发现出现了一些问题。这可能是因为你的电脑和服务器的系统
+环境不一样。如果你使用了容器技术，就不会出现这样的问题，因为容器内的应用程序运行
+环境总是一致的。</p>
+<h3 id="微服务--microservices">微服务 (Microservices)</h3>
+<p>想象一下，一家大公司由很多不同的部门组成，比如销售部门、财务部门、研发部门等等。
+这些部门各自有各自的任务，但是它们都为了公司的整体目标而工作。这就像计算机世界中
+的微服务。</p>
+<p>微服务是一种架构模式，它把一个大型的应用程序划分为一组小的服务，每个服务都能够独
+立地运行和部署，每个服务都有自己的特定职责，同时服务之间通过网络进行通信和协作。</p>
+<p>微服务的核心属性是其分散性和独立性。这种架构模式让你可以独立地开发、部署和扩展每
+一个服务，也让每一个服务都可以使用最适合它的技术和语言来开发。</p>
+<p>比如说，你正在运行一个电商网站，你可以将订单处理、用户管理、商品展示等功能分别设
+计为不同的微服务。当你需要升级订单处理功能时，你只需要升级对应的微服务，而不会影
+响到其他功能。这就是微服务架构在实际中的应用。
+\pagebreak</p>
+<h3 id="无服务器架构--serverless-architecture">无服务器架构 (Serverless Architecture)</h3>
+<p>设想一下，你在一个餐厅点了一杯咖啡。你并不需要亲自去烧水，磨咖啡豆，或者清理咖啡
+机，你只需要等待服务员送来咖啡就行。这个过程就像是计算机世界的无服务器架构。</p>
+<p>无服务器架构，不是真的没有服务器，而是用户不再需要关心服务器的运行和维护。开发者
+只需要关注他们的代码，将函数上传到云平台，然后平台会为函数提供运行环境，执行函数，
+并按实际执行时间计费。</p>
+<p>无服务器架构的核心属性是自动管理和弹性伸缩。云平台会自动管理服务器和运行环境，包
+括服务器的运行、维护、升级、安全等等，让开发者可以专注于代码的编写。而弹性伸缩则
+意味着当函数的调用量增加时，云平台会自动增加资源来满足需求；当调用量减少时，也会
+自动减少资源。</p>
+<p>比如说，你正在开发一个图片处理的应用，你可以把图片处理的函数上传到无服务器平台，
+然后每当有用户需要处理图片时，你的函数就会被调用。无论你的用户是一个还是一千个，
+无服务器平台都会自动调整资源来满足需求。这就是无服务器架构的魅力。
+\pagebreak</p>
+<h3 id="响应式设计--responsive-design">响应式设计 (Responsive Design)</h3>
+<p>想象一下，你有一块神奇的橡皮泥，无论你把它拉长、压扁或者扭曲，它都能保持完整，内
+容都不会丢失，只是形状和布局发生改变。这就像是计算机世界的响应式设计。</p>
+<p>响应式设计是一种设计和开发的方法，它使得网页能够对用户设备的屏幕尺寸、平台和方向
+进行响应并相应地调整布局。也就是说，无论用户是在台式电脑、笔记本、平板还是手机上
+查看网页，网页的内容都会以最适合的方式进行展示。</p>
+<p>响应式设计的核心属性就是它的弹性和适应性。弹性是指网页的布局能够随着屏幕尺寸的改
+变而改变，适应性则是指网页能够自动识别用户设备的特性，并进行适当的调整。</p>
+<p>比如说，你正在设计一个网站，你可以使用响应式设计的方法来编写代码，让网站的布局、
+图片和字体大小都能够随着用户设备屏幕尺寸的改变而自动调整。这样，无论用户是在电脑
+还是手机上浏览你的网站，都能获得最佳的浏览体验。
+\pagebreak</p>
+<h3 id="分布式系统--distributed-systems">分布式系统 (Distributed Systems)</h3>
+<p>设想一下，一家大型的跨国公司，它的员工分布在全球各地，分别在各地的办公室工作。尽
+管他们地理位置分散，但他们共同协作，共享资源，共同为公司目标努力。这就像是计算机
+世界中的分布式系统。</p>
+<p>分布式系统是指一组独立的计算机通过网络相互连接，协作完成任务，对外表现为一个单一
+的系统。在这种系统中，计算机节点不仅能够分享信息，还可以分享硬件和软件资源。</p>
+<p>分布式系统的核心属性是其可扩展性和容错性。可扩展性是指当系统的负载增加时，可以通
+过增加计算机节点来提高系统的处理能力。容错性是指即使部分计算机节点出现故障，系统
+也能继续正常运行。</p>
+<p>比如说，一个全球的在线零售商，可能会把用户数据存储在全球各地的数据中心。当用户访
+问网站时，会被自动引导到最近的数据中心，这样可以提供更快的响应速度。同时，如果某
+个数据中心出现故障，用户的请求可以被自动重定向到其他数据中心，保证服务的连续性。
+这就是分布式系统的一个典型应用。
+\pagebreak</p>
+<h3 id="系统架构--system-architecture">系统架构 (System Architecture)</h3>
+<p>想象一下，你正在建造一座城市。你需要精心规划，决定哪里建造住宅区，哪里建造商业区，
+哪里设置公园和学校。每个部分都有其特定的功能，而且必须协同工作以便城市的正常运转。
+这个过程就像是计算机世界中的系统架构。</p>
+<p>系统架构是一个系统各个部分的组织和相互关系的设计。这个设计规定了系统的组成部分，
+以及这些部分如何交互、如何协同工作以达到预期的目标。</p>
+<p>系统架构的核心属性是其模块化和适应性。模块化是指系统被划分为多个独立但协同工作的
+部分，这样可以提高系统的可理解性和可维护性。适应性则是指系统架构能够适应未来的需
+求变化和技术变化。</p>
+<p>比如说，一个在线购物网站的系统架构可能包括用户界面模块、订单处理模块、支付模块、
+商品展示模块等等。这些模块各自负责特定的功能，同时通过接口相互交互，共同提供购物
+服务。而当新的支付方式出现时，只需要修改或添加支付模块，而不会影响到其他模块。这
+就是系统架构的一个应用实例。
+\pagebreak</p>
+<h3 id="设计模式--design-patterns">设计模式 (Design Patterns)</h3>
+<p>设计模式就像是建筑师手中的工具箱。想象一下，当你需要建一扇窗，你可能会选择推拉窗
+的设计模式，它适合较小的空间且易于操作。当你需要在客厅设置一个大窗户，你可能会选
+择落地窗的设计模式，因为它可以引入更多的自然光。每种设计模式都是为了解决特定的问
+题。</p>
+<p>在软件工程中，设计模式是针对常见问题的通用、可重用的解决方案。设计模式并不是可以
+直接转化成代码的完成设计，而是对在某种特定环境下，如何解决一类问题的描述。</p>
+<p>设计模式的核心属性是它的可复用性和适应性。可复用性是指设计模式可以用于多种不同的
+情况，而适应性是指设计模式能够处理软件需求的变化和演化。</p>
+<p>举一个例子，&ldquo;观察者模式&quot;是一种常用的设计模式。在这个模式中，一个目标对象管理所有
+依赖于它的观察者对象，并在其自身状态改变时主动通知这些观察者。例如，你可能在一个
+电子商务网站上关注了一个商品，当该商品的价格发生变化时，你会收到一个通知。这就是
+观察者模式的一个应用实例。
+\pagebreak</p>
+<h3 id="网络协议--networking-protocols">网络协议 (Networking Protocols)</h3>
+<p>想象一下，你在家里写了一封信，你希望把它寄给远在另一个城市的朋友。你在信封上写上
+了朋友的地址，然后把信封投入邮筒，邮递员收走后，按照规定的流程，这封信就能准确地
+送到你朋友的手里。这整个过程中，从写信，寄信，到收信，都遵循了一套规定的步骤和规
+则，这就像是计算机网络中的网络协议。</p>
+<p>网络协议是计算机网络中的一种规则或者标准，它规定了计算机如何通过网络进行通信。协
+议定义了网络中的数据如何封装、地址、传输、路由和接收。它们确保了数据可以准确无误
+地从源头传到目的地。</p>
+<p>网络协议的核心属性是它的标准化和互操作性。标准化是指所有的设备和系统都遵循同样的
+规则进行通信，互操作性则是指不同的设备和系统可以通过协议进行交互。</p>
+<p>比如说，互联网上的网页通常使用 HTTP（超文本传输协议）进行传输。当你在浏览器中输
+入一个网址，浏览器会发送一个 HTTP 请求到服务器，服务器再返回相应的 HTTP 响应，这
+个响应就包含了你想要查看的网页内容。这就是网络协议在现实中的一个应用。</p>
+<p>\pagebreak</p>
+<h3 id="代码审查--code-review">代码审查 (Code Review)</h3>
+<p>想象一下，你是一位作家，你写了一部小说，然后把它交给了编辑。编辑仔细阅读你的作品，
+检查语法错误，提出改进的建议，确保你的故事连贯流畅。这个过程就像计算机编程中的代
+码审查。</p>
+<p>代码审查是一种软件质量保证活动，其中一个或多个人检查另一个人的代码，以检测错误、
+漏洞或其他可能的改进。它可以增强代码的可读性和可维护性，确保代码符合项目的规范和
+标准。</p>
+<p>代码审查的核心属性是其合作性和改进性。合作性是指代码审查是由团队中的其他成员进行
+的，这促进了知识分享和团队协作。改进性则是指代码审查的目标是提高代码质量和减少错
+误。</p>
+<p>例如，一个开发团队可能使用 GitHub 进行代码审查。当团队成员完成一段代码后，他会发起
+一个&quot;pull request&rdquo;，然后其他团队成员可以查看代码，提出建议或修改，然后才会将代码
+合并到主分支。这就是代码审查的一个实际应用。
+\pagebreak</p>
+<h3 id="框架--frameworks">框架 (Frameworks)</h3>
+<p>想象一下，你在拼装一款玩具车，这款玩具车的制造商提供了一个预先设计和制造好的金属
+框架。你只需要按照说明书，在框架上添加各种部件，比如车轮，座椅，发动机等，最后就
+能得到一款完成的玩具车。这就像计算机编程中的&quot;框架&quot;。</p>
+<p>在软件开发中，框架是一个抽象的设计，它提供了一个具有预定义的函数和结构的基础，开
+发者可以在此基础上构建自己的应用程序。框架帮助开发者处理常见的、重复的任务，让他
+们可以专注于编写与应用程序特定功能相关的代码。</p>
+<p>框架的核心属性是其支持性和约束性。支持性是指框架为开发者提供了一种方式来简化开发
+过程。约束性则是指框架规定了代码的组织方式和编程风格。</p>
+<p>比如，React.js 是一种常见的 JavaScript 框架，用于构建用户界面。它提供了组件化开发的
+模式，开发者可以创建复用的组件，然后像搭积木一样，组合这些组件来构建复杂的用户界
+面。这就是框架的一个应用实例。</p>
+<p>\pagebreak</p>
+<h3 id="web-服务--web-services">Web 服务 (Web Services)</h3>
+<p>想象你走进一家餐厅，你看了菜单后，向服务员点了一份披萨。服务员告诉厨师你的需求，
+厨师按照你的点单做出披萨，然后服务员将披萨端给你。在这个过程中，餐厅提供了一种
+“服务”，你只需要提出需求，就能得到你想要的东西。同样，Web 服务就像是网络上的一家
+餐厅，它可以按照用户的需求，返回用户想要的信息。</p>
+<p>在计算机科学中，Web 服务是一种服务导向架构（SOA）的技术，它允许不同的设备通过网络
+进行交互，共享数据和服务。你可以把它看作是网站或应用程序提供的一种服务，它接收用
+户（或其他应用程序）的请求，处理这些请求，然后返回相应的结果。</p>
+<p>Web 服务的核心属性在于它的互操作性和无状态性。互操作性意味着 Web 服务能够跨平台、跨
+语言工作，无论是 Windows、Linux，还是 Java、Python，只要遵循相同的协议，都能进行交
+互。无状态性意味着 Web 服务不会保存用户的任何信息，每个请求都是独立的。</p>
+<p>比如说，当你使用一个地图应用查找地点时，你输入地点的名称，地图应用将你的请求发送
+到服务器。服务器上的 Web 服务接收到请求后，处理请求，找到对应的地点，然后将信息返
+回给地图应用。你看到的地图和地点信息，就是 Web 服务的结果。</p>
+<h3 id="devops">DevOps</h3>
+<p>想象你正在看一场接力比赛。跑步的队员需要与接棒的队员无缝衔接，才能保持速度和效率。
+如果他们之间的配合出了问题，那么比赛的结果就可能会受到影响。在这个比喻中，接力比
+赛中的无缝衔接就像是 DevOps 的实践。</p>
+<p>DevOps 是一种软件开发的理念和实践，它强调开发（Dev）和运维（Ops）的紧密协作。目的
+是通过自动化和快速反馈循环，提高软件的交付和质量。</p>
+<p>DevOps 的核心属性是协作、自动化、持续集成/持续交付（CI/CD）和快速反馈。通过打破开
+发和运维的隔阂，DevOps 让整个软件开发生命周期变得更加流畅和高效。</p>
+<p>举一个真实的案例，Netflix 就是成功应用 DevOps 的例子。Netflix 使用一系列工具，如
+Jenkins（用于自动化构建和测试）、Spinnaker（用于持续交付）等，实现了从代码提交到
+线上部署的全自动化，大大提高了交付速度和软件质量。</p>
+<h3 id="api">API</h3>
+<p>想象一下，你在一个快餐店点餐。你不需要了解厨房里面的具体烹饪步骤，你只需要告诉店
+员你想要什么，然后他们就会为你准备好食物。这个过程中，店员就像是一个 API。</p>
+<p>API，全称为应用程序接口，是一种使软件应用互相交流和交换数据的机制。就像快餐店中
+的店员一样，API 为我们提供了一个清晰的接口，我们只需要通过这个接口发送我们的需求，
+就可以得到我们想要的结果，而不需要了解背后的具体实现过程。</p>
+<p>API 的核心属性是它的通信能力和隐蔽性。通信能力使得不同的软件应用可以通过 API 交流和
+交互，而隐蔽性则使得我们可以无需了解复杂的内部实现过程。</p>
+<p>举个例子，比如你使用一个天气预报 app，这个 app 可能通过一个 API 从天气服务器获取数据，
+然后将这些数据展示在你的屏幕上。你并不需要了解这个过程的具体细节，你只需要知道，
+当你打开 app 时，你能看到当前的天气信息。</p>
+<h3 id="log">Log</h3>
+<p>想象一下，你正在参观一个历史博物馆。每一件展品都有一个详细的说明牌，记录了它的历
+史、来历、在何时何地被发现等等。这些说明牌就像是计算机的日志系统。</p>
+<p>在计算机科学中，日志（log）是系统、网络或软件应用中发生的 <strong>事件的记录</strong> 。就像博物馆
+中的说明牌一样，日志提供了关于某个事件发生时间、发生地点、事件类型等详细的信息。</p>
+<p>日志的核心属性在于它能够提供系统的历史记录，有助于分析和理解系统的行为和性能。</p>
+<p>举个例子，比如一个网站服务器，它可能会记录所有访问者的 IP 地址、访问时间、访问的
+页面等信息。当服务器出现问题时，开发者可以通过查看这些日志来找出可能的原因。或者，
+当网站被恶意攻击时，日志可能会帮助找出攻击者。
+\pagebreak</p>
+<h3 id="json">JSON</h3>
+<p>想象你正在给朋友写一封信，你需要告诉他你的姓名、年龄、职业以及兴趣爱好。你可能会
+这样写：</p>
+<p>姓名：小明
+年龄：25
+职业：程序员
+兴趣爱好：阅读、旅游</p>
+<p>这种组织信息的方式就像是 JSON（JavaScript Object Notation）。</p>
+<p>在计算机科学中，JSON 是一种数据交换格式，它使用人类可读的文本来存储和传输数据对
+象。它由键值对组成，数据之间用逗号分隔，花括号用于保存对象，方括号用于保存数组。</p>
+<p>JSON 的核心属性在于它的简洁和灵活性。JSON 比 XML 更小、更快，更易解析。因为 JSON
+是语言无关的，这使得 JSON 成为 Web 服务和 API 最常用的数据交换格式。</p>
+<p>例如，当你在网上购物时，你的购物车可能就会以 JSON 格式存储。它可能看起来是这样的：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;购物车&#34;</span><span style="color:#f92672">:</span> [
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;产品&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;电子书&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;数量&#34;</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;产品&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;笔记本电脑&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;数量&#34;</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>这个 JSON 对象包含了你购物车的内容，商品名称和数量都清晰的记录下来了。</p>
+<h3 id="qps">QPS</h3>
+<p>试想一下，你是一家餐馆的老板，你的餐馆非常受欢迎。你发现，平均每秒钟都有新的客人
+走进餐馆，也就是说，你的餐馆每秒钟能服务一个客人。这就是你的餐馆的“QPS”。</p>
+<p>QPS，全称是每秒查询率（Queries Per Second），是衡量系统处理能力的一个重要指标。
+就像餐馆服务的客人数一样，QPS 描述的是一个系统在一秒钟内能够处理多少个请求或者查
+询。</p>
+<p>QPS 的本质是反映系统的处理能力。一个高 QPS 的系统意味着它能够在单位时间内处理更
+多的请求，也就是说，它的处理能力更强。</p>
+<p>比如，Google 的搜索引擎，它的 QPS 非常高，可以在一秒钟内处理数十万甚至数百万的搜
+索请求。这是因为 Google 有非常强大的服务器集群和优秀的算法，使得它能够在极短的时
+间内处理大量的请求。这就是高 QPS 的直观体验。</p>
+<h3 id="redis">Redis</h3>
+<p>想象一下，你的家里有一个超大的抽屉柜，你可以在里面存放各种各样的东西——钥匙、笔记、
+照片，甚至比萨饼的外卖菜单。无论你需要什么，只要打开相应的抽屉，你就可以迅速找到
+它。不管你什么时候需要，那些物品都在那里等着你。这个抽屉柜就像是 Redis。</p>
+<p>Redis 是一种在内存中存储数据的数据库，这意味着它能快速读写数据。它就像你的抽屉柜，
+你可以在里面存放各种各样的数据，包括字符串、列表、集合、散列、位图、超日志等等。
+你可以很容易地把数据存入 Redis，也可以随时从中取出数据。因为数据是存储在内存中的，
+所以访问速度非常快，就像打开抽屉一样迅速。</p>
+<p>Redis 的核心属性包括快速、灵活和可持久化。因为它把数据存储在内存中，所以速度快；
+因为它支持各种数据类型，所以使用灵活；而它也提供了数据持久化的功能，能把内存中的
+数据定期保存到磁盘上，防止数据丢失。</p>
+<p>举一个真实的案例：Twitter 使用 Redis 来实现他们的 Timeline 功能。当你在 Twitter
+上发表一条新的推文时，这条推文会被立刻存储到 Redis 中。当你的粉丝打开他们的
+Twitter 时，他们的 Timeline 就会从 Redis 中快速加载出来。这就是为什么 Twitter 能
+够在几秒钟内为全球数十亿用户提供实时更新。</p>
+<h3 id="迭代">迭代</h3>
+<p>设想你正在烘制一个蛋糕。你首先按照食谱制作出一个版本，尝试一下，发现它的味道还不
+够甜。然后，你对食谱做出一些调整，加入更多的糖，然后再次尝试。这个过程就是迭代的
+体现。</p>
+<p>在计算机科学和工程领域中，迭代是一种解决问题的方法，它通过反复的修改和优化来逐步
+接近或达到最终目标。你可以把它想象成一个循环的过程，在每个循环中，你都会基于上一
+次的结果进行改进。</p>
+<p>迭代的核心属性是反复和改进。无论你在解决什么问题，只要你反复进行尝试，并在每次尝
+试中根据结果进行改进，你就在进行迭代。</p>
+<p>在软件开发中，迭代开发是一种常见的开发方法。例如，开发团队会首先开发出一个基础版
+本的软件，然后根据用户反馈和测试结果进行改进，然后再发布一个新的版本。这个过程会
+不断重复，每个新的版本都是在上一个版本的基础上进行改进的，这就是迭代。</p>
+<h3 id="并发">并发</h3>
+<p>想象一下，你在参观一个繁忙的厨房，那里有很多厨师正在烹饪。一个厨师在切蔬菜，另一
+个厨师在炒菜，还有一个厨师在烘焙。虽然他们都在做不同的事情，但他们都在同一时间内
+进行，这就是并发的概念。</p>
+<p>并发，通常指的是在同一时间段内执行多个任务。这并不意味着这些任务一定是同时进行的，
+而是在同一时间段内，这些任务都在进行。这就像那个厨房，每个厨师都在做他们的任务，
+虽然他们可能不会在同一时刻完成，但他们都在同一时间段内工作。</p>
+<p>并发的核心属性在于它能提高效率。通过并发，可以让多个任务在同一时间段内进行，从而
+使得资源的利用率最大化，提高处理任务的速度。</p>
+<p>现实中的例子，比如在网站服务器上，为了处理大量的用户请求，通常会使用并发处理技术，
+让服务器可以在同一时间段内处理多个请求，从而提高处理速度，提升用户体验。</p>
+<h3 id="异步">异步</h3>
+<p>想象一下，你在一个忙碌的餐厅用餐，你向服务员点了一份餐，服务员记下了你的订单后立
+即离开去为其他客人服务，而不是在你那里等待直到你的餐做好。这种服务方式就像是“异
+步”的概念。</p>
+<p>异步是指两个任务的执行不需要相互等待。你可以开始一个任务，然后在它完成之前开始另
+一个任务。这就像你在餐厅点餐，你不需要等待你的餐做好就可以继续你的其他活动。</p>
+<p>异步的核心属性在于它的非阻塞性。异步操作允许任务在等待某个操作完成时继续执行其他
+任务，从而提高了系统的整体效率和响应性。</p>
+<h3 id="脚本">脚本</h3>
+<p>想象你正在观看一部戏剧，演员们按照剧本的指示，说出台词，做出动作，以此将故事展现
+出来。在这个比喻中，剧本就像计算机中的“脚本”。</p>
+<p>在计算机科学中，脚本是一种简单的程序，用于自动化执行一系列的任务。它就像一份指令
+清单，计算机或者软件可以按照脚本中的指示一步步地执行操作。</p>
+<p>脚本的核心属性在于它的自动化和灵活性。通过编写脚本，我们可以让计算机自动完成重复
+的任务，大大提高了效率。同时，由于脚本通常较为简单，易于编写和修改，所以它也非常
+灵活。</p>
+<p>比如说，你可能需要定期备份你的文件。你可以写一个脚本，让计算机每天在特定的时间自
+动将你的文件复制到另一个位置。这样，你就不用每天手动进行备份，大大节省了时间和精
+力。</p>
+<h3 id="宏">宏</h3>
+<p>想象你正在写一本书，你每次写完一章都需要做一些格式调整，比如设置标题的字体、大小
+和颜色，设置段落的间距等。这些步骤非常繁琐，所以你决定创建一个&quot;宏&quot;，这个&quot;宏&quot;可以
+一次性完成所有的格式调整。</p>
+<p>在计算机科学中，宏就是一组预定义的指令或者代码，它可以一次性执行一系列操作。它可
+以被看作是一种简化复杂任务的工具，只需要调用宏的名字，就可以执行宏中定义的所有操
+作。</p>
+<p>宏的核心属性在于它的自动化和高效性。宏可以帮助我们减少重复的工作，提高工作效率。
+一旦创建了宏，就可以在任何需要的地方调用它，非常方便。</p>
+<p>例如，在 Excel 中，如果你需要在很多单元格中进行相同的操作，比如数据排序、格式化等，
+你可以创建一个宏来完成这些操作。然后，每次需要进行这些操作时，只需要运行这个宏，
+就可以自动完成所有的操作。</p>
+<h3 id="服务器">服务器</h3>
+<p>想象一下，你正在参观一家巨大的图书馆。这个图书馆存储了无数的书籍，而图书馆的工作
+人员（图书馆管理员）会帮你找到你需要的书籍。在这个比喻中，图书馆就像是服务器，图
+书馆管理员就像是服务器的操作系统，而你就是客户端。</p>
+<p>服务器是一种计算机，它为其他计算机（称为客户端）提供服务，如数据存储、数据处理、
+网络服务等。你可以把它看作是一种强大的计算机，专门用来处理复杂的任务和大量的数据。</p>
+<p>服务器的核心属性在于提供服务。无论是网页浏览、电子邮件、在线游戏，还是云存储，背
+后都有服务器在工作。</p>
+<p>举个例子，当你在浏览器中输入一个网址并按下回车，你的计算机（客户端）就会发送一个
+请求到网站的服务器。服务器收到请求后，会找到并返回你需要的网页内容。这就是服务器
+的基本工作方式。
+\pagebreak</p>
+<h3 id="消息队列">消息队列</h3>
+<p>让我们想象一下，在一个繁忙的咖啡店，每个顾客都给咖啡师留下他们的订单，然后在一边
+等待。咖啡师按照订单的顺序，一个接一个地制作咖啡。这个订单列表就像是一个消息队列。</p>
+<p>消息队列是一种计算机科学中的数据结构，它以一种队列的方式存储要处理的消息。你可以
+把它想象成一个管道，消息在一端进入，然后在另一端被取出。</p>
+<p>消息队列的核心属性在于其先进先出（FIFO）的特性和异步处理能力。消息会按照到达的顺
+序进行处理，这就是 FIFO 的原则。而异步处理能力则意味着，发送者和接收者无需同时在线，
+只要把消息放进队列，接收者就能在合适的时候取出并处理。</p>
+<h3 id="进程和线程">进程和线程</h3>
+<p>想象你正在准备一顿丰盛的晚餐，你（即一台计算机）是厨师，而每道菜（每个程序）就好
+比是一个进程。现在你要同时烹饪三道菜：煮面条、烤鸡和切沙拉。你可能会分别分配时间，
+先煮面，然后烤鸡，最后切沙拉。这就好比单线程处理：在同一时间内，你只能做一件事情。
+但你也可以同时处理这三道菜，当面条在煮的时候，你可以烤鸡，然后在等鸡烤的时候切沙
+拉。这就好比多线程处理：在同一时间内，你可以处理多个任务。</p>
+<p>在计算机科学中，进程是运行中的程序的实例，拥有独立的内存空间。线程则是进程的一部
+分，共享进程的内存空间，但能并行处理任务。进程像是工厂中的工作线，线程则是工作线
+上的工人，能同时处理多个任务。</p>
+<p>进程的核心属性在于它是资源分配的最小单位，是程序执行的实体。而线程的核心属性在于
+它是 CPU 调度的最小单位，可以轻量级地共享和执行任务。</p>
+<p>比如，在操作系统中，每一个应用程序运行时，都会创建一个或多个进程，每个进程又可能
+包含一个或多个线程，这些线程并行地执行任务，提高了程序的执行效率。
+\pagebreak</p>
+<h2 id="ai-概念">AI 概念</h2>
+<h3 id="人工智能--artificial-intelligence">人工智能 (Artificial Intelligence)</h3>
+<p>试想一下，你正在看一部科幻电影，里面的机器人能像人一样思考、理解、学习，甚至能感
+知环境，对人类的情感做出回应。尽管电影中的机器人可能有些夸张，但这给我们展示了一
+种理想的人工智能（Artificial Intelligence, AI）的形象。</p>
+<p>在计算机科学中，人工智能是一种技术领域，它的目标是创建能模拟人类智能的系统。这些
+系统可以执行各种任务，比如识别图像、理解语言、解决问题等。简单来说，人工智能就是
+让机器像人一样&quot;思考&quot;。</p>
+<p>人工智能的核心属性是其尝试模拟和复制人类智能的能力，包括学习、理解、决策和适应等。
+人工智能可以是有意识的，也可以是无意识的，取决于它是被设计来完成特定的任务，还是
+具有更广泛的适应能力。</p>
+<p>以自动驾驶为例，自动驾驶车辆就是人工智能的一种应用。这些车辆使用了各种传感器来感
+知环境，然后使用人工智能算法来决定如何操作车辆。无人驾驶车辆可以识别交通信号、行
+人和其他车辆，然后在需要时自动刹车或转向，这些都是基于人工智能技术实现的。
+\pagebreak</p>
+<h3 id="机器学习--machine-learning">机器学习 (Machine Learning)</h3>
+<p>试想一下，你正在训练一只宠物狗。开始的时候，你把球扔出去，让狗狗去捡，但狗狗并不
+知道你想让它做什么。然后你用饼干作为奖励，每当狗狗捡回球来，你就给它一块饼干。经
+过反复的训练，狗狗最终学会了当你扔出球时，它就需要去捡球。这其实就是一种简单形式
+的机器学习。</p>
+<p>在计算机科学中，机器学习是一种人工智能(AI)的方法，它使用算法和统计模型让计算机系
+统基于输入数据进行预测或决策，而无需明确的编程指令。简单来说，机器学习让计算机有
+了&quot;学习&quot;的能力。</p>
+<p>机器学习的核心属性是其能力在处理新的、未知的数据时，继续学习和改进。它可以从输入
+数据中&quot;学习&quot;模式，并据此做出预测或决策。</p>
+<p>以电子邮件过滤为例，一个机器学习模型可能会被训练来识别垃圾邮件。开始时，你需要手
+动标记哪些邮件是垃圾邮件，然后模型就会&quot;学习&quot;这些垃圾邮件的特征。经过足够的训练后，
+这个模型就能够自动地识别新的垃圾邮件，你就不再需要手动进行标记了。
+\pagebreak</p>
+<h3 id="强化学习">强化学习</h3>
+<p>试想一下，你正在玩一个电子游戏，一个复杂的迷宫。开始时，你不知道迷宫的布局，只能
+通过试错来探索。每当你走错一个路口，你就要返回上一个节点，重新选择方向。然而，每
+当你走对一个路口，你就能得到一些分数作为奖励。经过一段时间，你逐渐学会了如何选择
+正确的路口，最终成功地走出了迷宫。这个过程就像强化学习。</p>
+<p>在机器学习的领域中，强化学习是一种让算法通过试错来学习最佳行为或决策的方法。强化
+学习算法不断尝试不同的解决方案，并根据结果的好坏来调整其策略。简单来说，强化学习
+就是让计算机通过与环境的交互来学习最优策略。</p>
+<p>强化学习的核心属性是其试错和自我改进的能力。它是一个动态的过程，强化学习算法通过
+不断与环境互动、尝试新的行为，并从结果中学习，以此来优化决策策略。</p>
+<p>例如，AlphaGo，是 Google DeepMind 开发的一款围棋 AI，它就使用了强化学习。AlphaGo 首
+先通过观看人类的围棋对局来学习围棋的基础知识。然后，它通过和自己对弈，反复试错，
+不断优化自己的策略，最终在 2016 年战胜了世界冠军李世石，这就是强化学习的一个真实案
+例。
+\pagebreak</p>
+<h3 id="深度学习">深度学习</h3>
+<p>试想一下，你在看一张从未见过的动物的图片。你看到它有四条腿，尾巴长长的，耳朵像是
+一朵喇叭花，毛发是金色的。你开始在脑海中浏览你所知道的所有动物，对比他们的特征。
+最终，你判断这是一只狮子，因为它具有狮子的所有特征。这种对比和学习的过程与深度学
+习有着异曲同工之妙。</p>
+<p>在机器学习的领域中，深度学习是一种使用神经网络进行学习的方法。这种神经网络受到人
+类大脑神经网络的启发，可以处理复杂的、高维度的数据。简单来说，深度学习就是让计算
+机模仿人脑的工作方式来&quot;学习&quot;。</p>
+<p>深度学习的核心属性是其能力通过一系列的层次结构，也就是&quot;深度&quot;，来识别数据中的模式。
+每一层都能学习数据中的某一部分特征，从最基础的形状和颜色，到更复杂的概念，比如面
+部特征。</p>
+<p>比如，人脸识别就是一个深度学习的应用实例。深度学习模型可以被训练来识别人脸的特征，
+比如眼睛、鼻子、嘴巴等。然后，它可以使用这些学习到的特征来识别新的人脸图片。这就
+像你能够从照片中识别出你的朋友一样，只是深度学习模型通过数百万的图像进行学习，而
+不仅仅是几个人脸。
+\pagebreak</p>
+<h3 id="神经网络">神经网络</h3>
+<p>想象一下，你正在看一场人海中的足球比赛，每个人都是球员，他们通过无数的传球和配合，
+最终将球踢入对方的球门。神经网络的运行就像这样一场精妙的团队协作。</p>
+<p>在计算机科学中，神经网络是一种模拟人脑神经元活动的算法模型，就像一支由无数个球员
+组成的队伍。每个&quot;球员&quot;（神经元）在接到&quot;球&quot;（数据）后，会根据自己的&quot;判断&quot;（权重和
+激活函数）来决定将&quot;球&quot;（处理过的数据）传给哪些队友（下一层的神经元）。这个过程从
+输入层开始，经过一个或多个隐藏层，最后到达输出层。</p>
+<p>神经网络的核心属性是其能够自我学习和改进。就像足球队通过反复的训练来提升配合水平
+一样，神经网络通过反复的学习来优化各个神经元的&quot;判断&quot;，以便更准确地完成任务。</p>
+<p>例如，识别手写数字是一个经典的神经网络应用。输入层接收手写数字的像素信息，经过一
+层层的处理，输出层给出这个数字可能的答案。然后，神经网络会与真实的答案进行对比，
+根据差距来调整每个神经元的&quot;判断&quot;，也就是权重和激活函数。经过大量的训练，神经网络
+就能准确地识别手写数字了。
+\pagebreak</p>
+<h3 id="激活函数">激活函数</h3>
+<p>想象一下你正在参加一个有多关卡的游戏。你不能随意地打开任何一扇门，而是必须满足一
+些条件或者解开某个谜团。只有当你达到这些条件时，门才会为你打开。激活函数在神经网
+络中的作用，就像这个打开门的条件一样。</p>
+<p>在神经网络中，激活函数决定了神经元是否应该被激活或输出。它是一个实值函数，用于映
+射得到的复杂值如何转化为一个更简单易于处理的值，比如一个 0 或 1。换言之，它是一
+个关卡，决定神经元是否有足够的证据来进行下一步。</p>
+<p>激活函数的核心属性是非线性。由于它可以帮助神经网络模拟更复杂的数据和功能，这使得
+神经网络不再仅仅是输入和输出之间的线性变换，从而可以处理更复杂的问题。</p>
+<p>以一个常见的激活函数 ReLU（Rectified Linear Unit）为例。它的规则非常简单：如果输
+入大于 0，那么就直接输出这个值；如果输入小于等于 0，那么就输出 0。这样的规则实际
+上就创建了一个“关卡”：只有当输入大于 0 时，神经元的输出才会被激活。这是一个简单
+但非常有效的非线性激活函数，被广泛应用于深度学习中。</p>
+<p>\pagebreak</p>
+<h3 id="监督学习">监督学习</h3>
+<p>试想一下，你正在学习如何骑自行车。你的父母或朋友作为你的教练，指导你，告诉你何时
+踩脚踏板，何时转动把手，何时刹车。在你的第一次尝试中，你可能会摔倒几次，但是在经
+过多次练习和指导后，你逐渐掌握了如何平衡，何时踩脚踏板，何时转动把手，何时刹车。
+这就是监督学习的原理。</p>
+<p>在机器学习的领域中，监督学习是一种学习方法，其中我们训练一个模型使用已知的输入和
+已知的响应来学习从输入预测输出。简单来说，监督学习就是在有老师的指导下进行的学习。</p>
+<p>监督学习的核心属性是使用已知的数据对模型进行训练，让模型学习从输入预测输出的映射
+关系。我们提供的训练数据包括输入数据和对应的正确输出，这些数据通常被称为训练样本。</p>
+<p>以邮件垃圾过滤器为例，一个邮件垃圾过滤器可以通过监督学习训练。我们提供一组邮件样
+本，每个样本都标记为&quot;垃圾邮件&quot;或&quot;非垃圾邮件&quot;。这个垃圾邮件过滤器学习这些样本，找
+到可以用来区分垃圾邮件和非垃圾邮件的特征，如特定的关键字或短语。一旦训练完成，过
+滤器就可以对新的邮件进行分类，预测它们是垃圾邮件还是非垃圾邮件。这就是一个典型的
+监督学习的例子。\pagebreak</p>
+<h3 id="特征工程">特征工程</h3>
+<p>想象一下，你正在一个繁忙的市场里选择水果。你会根据它们的颜色，大小，重量，甚至可
+能会闻一闻它们的气味来判断哪一个是最好的。这些都是你用来做出决策的&quot;特征&quot;。</p>
+<p>在机器学习中，特征工程是从原始数据中提取有用特征的过程，以此来训练机器学习模型。
+特征可以是色彩、形状、大小、重量等等，它们可以帮助模型更好地理解数据，并做出准确
+的预测。</p>
+<p>特征工程的核心在于找出那些最具代表性和信息量的特征。这些特征应当能够为模型提供尽
+可能多的有用信息，同时又不会引入太多的噪声。这需要数据科学家深入理解数据，发现数
+据的内在关系和模式。</p>
+<p>例如，假设我们要预测一个房子的价格。可能的特征包括房子的面积、房间的数量、位置、
+建造年份等等。通过对这些特征的选择和处理，我们可以创建一个更准确的预测模型。这就
+是特征工程在机器学习中的应用。</p>
+<p>\pagebreak</p>
+<h3 id="attention">Attention</h3>
+<p>想象你在一个繁忙的市场里，周围有各种各样的声音。你的朋友在远处呼唤你，虽然他的声
+音并不是最大的，但你仍然能够准确地识别出来。你的大脑自然地将注意力集中在你朋友的
+声音上，忽略了其他无关的声音。这就是注意力机制。</p>
+<p>在深度学习中，注意力机制用于模拟这种人类的注意力行为。它允许模型在处理输入数据时，
+给予不同部分不同的关注程度，而不是平等地对待所有部分。</p>
+<p>注意力机制的核心在于它的权重分配。它会根据输入数据的不同部分的重要性，给予不同的
+权重。重要的部分会得到较大的权重，而不重要的部分则得到较小的权重。</p>
+<p>例如，在机器翻译任务中，当模型翻译一个句子时，它可能需要更多地关注某些词语，而忽
+略其他词语。通过注意力机制，模型可以自动学习到这些权重，使得翻译结果更加准确。</p>
+<p>\pagebreak</p>
+<h3 id="self-attention">Self-Attention</h3>
+<p>让我们设想一下，你在阅读一本书。你可能会遇到一个你之前没见过的词。然后，你需要回
+头看书的前面，寻找那个词之前出现的上下文，才能理解它的含义。这个过程，就是你对自
+己的注意力，也就是自我注意力（Self-Attention）。</p>
+<p>在深度学习中，自我注意力机制让模型能够在处理一个序列的时候，考虑序列中的每个部分，
+然后生成一个新的改进版本。模型会给予每个部分不同的关注程度，取决于它对当前任务的
+重要性。</p>
+<p>自我注意力的核心在于它的自我参照。不像传统的注意力机制，自我注意力并不需要另一个
+并行的序列来决定注意力的分布。而是在同一个序列内部进行操作。</p>
+<p>比如在处理语言模型中，自我注意力可以让模型同时考虑到一个句子里的每个词，以及它们
+之间的相互关系。这使得模型在理解词义，特别是那些需要依赖其他词才能理解的词时，更
+为精确和灵活。例如，谷歌的 BERT 模型就使用了自我注意力机制，从而在各种 NLP 任务
+上取得了显著的效果。</p>
+<p>\pagebreak</p>
+<h3 id="encodr-和-decoder">Encodr 和 Decoder</h3>
+<p>让我们想象一下你正在进行国际旅行，你来到了一个使用不同语言的国家。为了理解和交流，
+你需要一个翻译器。这个翻译器需要理解你的语言（编码器的角色），然后将其转换成这个
+国家的语言（解码器的角色）。这个过程就像编码器和解码器在机器学习模型中的作用。</p>
+<p>在深度学习中，编码器和解码器是一种常见的模型结构，特别是在自然语言处理(NLP)和计
+算机视觉(CV)等领域。编码器的工作是理解和抽象输入数据，将原始的、可能非常复杂的数
+据，转化为一种更易于处理的形式，通常称为特征向量或隐藏状态。</p>
+<p>解码器则接收这个隐藏状态，并将其解析或&quot;解码&quot;成我们需要的输出格式。解码器要做的，
+就是从编码器提供的抽象表示中恢复出有意义的输出。</p>
+<p>以机器翻译为例，编码器首先接收输入语句，理解其语义，然后将其转化为一种抽象的表达
+形式。解码器接收这种表达，然后将其转化为目标语言的语句。在这个过程中，编码器和解
+码器需要协同工作，以确保语义的正确传递。</p>
+<p>\pagebreak</p>
+<h3 id="embedding">Embedding</h3>
+<p>让我们想象一下，你正在玩一个叫做&quot;猜词&quot;的游戏。你的目标是描述一个词，而你的朋友们
+要根据你的描述猜出这个词。你不能直接说出这个词，而是要用其他相关的词来描述它。例
+如，你可以用&quot;热&quot;、&ldquo;喝&rdquo;、&ldquo;早餐&quot;来描述&quot;咖啡&rdquo;。这种将一个词转化为其他相关词的过程，
+就很像计算机科学中的&quot;embedding&quot;。</p>
+<p>在计算机科学中，&ldquo;embedding&quot;是一种将对象（如词语、用户或商品）映射到数值向量的技
+术。这些向量捕捉了对象之间的相似性和关系，就像你在&quot;猜词&quot;游戏中使用相关词描述一个
+词一样。</p>
+<p>Embedding 的核心属性是把高维的，可能是非结构化的数据，转化为低维的，结构化的向量。
+这样做的目的是让机器可以理解和处理这些数据，从而进行有效的学习和预测。</p>
+<p>以推荐系统为例，如果我们想要推荐相似的商品给用户，我们可以用 embedding 技术把每
+个商品转化为一个向量。在这个向量空间中，相似的商品会有相似的向量。当一个用户喜欢
+某个商品时，我们就可以找到向量空间中最接近这个商品的其他商品，推荐给用户。这就是
+embedding 在现实生活中的一个应用。
+\pagebreak</p>
+<h3 id="向量数据库--vector-db">向量数据库(Vector DB)</h3>
+<p>想象一下你在一个巨大的书库里，每本书都代表一个独特的信息。如果你只能靠记住每本书
+的位置来找到你需要的信息，那将会非常困难。现在假设每本书都有一个特殊的标签，这个
+标签由一系列数字构成，描述了书的内容，那么你就可以通过这些数字来迅速找到你需要的
+书。这就像向量数据库（Vector DB）。</p>
+<p>向量数据库是一种专门设计来存储和查询向量数据的数据库。在这里，“向量”指的是可以用
+一组数值来表示的数据，就像书本标签上的数字一样。</p>
+<p>向量数据库的核心属性是它能高效地处理大规模的向量数据，并支持向量间的相似度查询。
+这是因为向量数据库通常采用一种叫做“最近邻搜索”的技术，能快速找出与给定向量最接近
+的向量。</p>
+<p>举个实例，假设你正在开发一个面部识别系统，每个人的面部特征可以被转换为一个向量并
+存储在数据库中。当有新的面部图像输入时，你可以将它转换为一个向量，然后在数据库中
+查找最接近的向量，以此来确定这个人的身份。这就是向量数据库在实际中的一个应用。</p>
+<p>\pagebreak</p>
+<h2 id="互联网广告相关概念">互联网广告相关概念</h2>
+<h3 id="roi">ROI</h3>
+<p>想象你在一个繁华的市场上，有无数个摊位出售各种商品。你有一笔钱，但你不能把钱花在
+所有摊位上，你需要决定在哪些摊位上投资，以期待获得最大的回报。这就是投资回报率
+（ROI）的概念。</p>
+<p>投资回报率（ROI）是一种用来衡量投资性能的工具，可以用来比较不同投资的效益。它的
+计算公式是： <code>(投资的净收益 / 投资的成本) * 100%</code> 。</p>
+<p>投资的净收益是指你从投资中获得的收益，扣除了投资的原始成本。投资的成本是指你投入
+的原始投资额。例如，如果你投资了 100 元，然后赚了 20 元，那么你的投资回报率就是
+（20/100）*100% = 20%。</p>
+<p>例如，如果你是一个企业主，你可能需要决定是否要在新的渠道进行广告投放。你可以计算
+如果投放新渠道将带来的额外收益，然后除以投放的成本，得出 ROI。如果 ROI 比其他投
+资机会高，那么在该渠道投放广告就是一个不错的主意.</p>
+<p>\pagebreak</p>
+<h3 id="ctr">CTR</h3>
+<p>想象一下你是一个街头艺人，你在人群中演奏你的音乐。每过一段时间，你会看一下有多少
+人停下来欣赏你的表演。你数了一下路过的人和停下来的人。你发现，每一百个路过的人中，
+有五个人会停下来。这个“百分之五”的比例，就像是点击通过率（CTR，Click Through
+Rate）。</p>
+<p>CTR 是广告效果的一个重要指标，它表示的是广告被展示和广告被点击之间的比例。计算公
+式通常是：点击次数除以展示次数。CTR 能够反映广告的吸引力和相关性。高的 CTR 表示
+广告能有效吸引用户的注意力，使他们愿意点击了解更多。</p>
+<p>比如，如果你的广告在网页上展示了 1000 次，有 50 次被点击，那么你的 CTR 就是 5%。
+这意味着每 20 次展示中，就有一次点击。CTR 是衡量广告投放效果的常用指标，能帮助广
+告主了解广告的表现，优化广告策略。</p>
+<p>\pagebreak</p>
+<h3 id="cvr">CVR</h3>
+<p>想象一下，你在街头设立了一个柠檬水摊位，每个经过的行人都是你的潜在客户。其中，有
+些人会被你的柠檬水吸引过来看看，也就是点击率（CTR）。而在这些被吸引过来的人中，
+有多少人实际上购买了柠檬水，这就是转化率（CVR, Conversion Rate）。</p>
+<p>CVR 是电子商务、网络广告等领域里的一个常用指标，用于衡量目标行为（例如注册、购买、
+下载等）的完成率。计算公式通常是：完成目标行为的用户数除以参与行为的总用户数。</p>
+<p>比如，你的柠檬水摊位共吸引了 100 人过来看，其中有 20 人实际上购买了柠檬水，那么你的
+CVR 就是 20%。CVR 能够帮助你了解产品或服务的吸引力，优化销售策略，提高销售效率。</p>
+<p>\pagebreak</p>
+<h3 id="pv-和-uv">PV 和 UV</h3>
+<p>想象一下你经营着一个小商店，每天都有顾客进出。你为了了解自己的生意状况，开始记录
+每个进入商店的顾客，这就像是页面访问量（PV，Page Views）。然后，你发现有些顾客不
+止来一次，他们可能在一天内多次光顾你的商店。于是你决定只记录每个独立的顾客，这就
+像是独立访客（UV，Unique Visitors）。</p>
+<p>PV 是一个网站、页面或者 APP 被访问或者查看的次数，比如一个网站在一天内被查看了 500
+次，那么这个网站的 PV 就是 500。</p>
+<p>UV 是指在一定时间内访问某个站点或者页面的独立个体数量。比如，如果一个网站在一天
+内有 100 个独立的访客，那么这个网站的 UV 就是 100。</p>
+<p>所以，PV 更侧重于衡量网站的活跃度，而 UV 则更侧重于衡量网站的受众规模。</p>
+<p>\pagebreak</p>
+<h3 id="cpm-和-ecpm">CPM 和 eCPM</h3>
+<p>想象你正在看一部电影，广告会在特定的时间点播放。如果你是广告商，你可能关心每一千
+次广告播放需要支付多少费用，这就是 CPM (Cost per Mille)。另一方面，如果你是电影
+放映者，你可能关心每一千次广告播放实际上能赚多少钱，这就是 eCPM (Effective Cost
+per Mille)。</p>
+<p>CPM，全称是 Cost Per Mille，也就是每千次展示的成本。*广告主* 用这个指标来衡量广告投
+放的成本。它的计算公式是：广告投放总成本/广告展示次数*1000。</p>
+<p>eCPM，全称是 Effective Cost Per Mille，也就是每千次展示的有效成本。这是一个用来
+计算广告收益的指标，通常由 <strong>媒体方</strong> （也就是网站或者 app 的运营者）使用。它的计算公
+式是：广告收益/广告展示次数*1000。</p>
+<p>这两个指标都是广告行业中常用的 KPI（关键绩效指标），用于衡量广告投放的成本效益和
+收益。不同的广告形式，比如点击付费（CPC）或者转化付费（CPA）等，虽然付费方式不同，
+但都可以转化为 CPM 和 eCPM 进行比较。</p>
+<p>\pagebreak</p>
+<h3 id="cpt">CPT</h3>
+<p>假设你是一个演唱会的主办者，你需要支付一笔费用来在某个特定时间段在电视上播放你的
+广告。无论广告被观看多少次，你都需要支付相同的费用。这就是时间段成本（CPT，Cost
+Per Time）的概念。</p>
+<p>CPT，也就是每次时间的成本，是一种广告计费模式，广告主需要为在特定时间段内展示他
+们的广告付费，而不管在这个时间段内广告被看到的次数。</p>
+<p>这种模式通常在电视或者广播广告中使用，因为这些媒体的广告通常是在特定的时间段播放，
+例如在热门电视剧的中场休息时间。</p>
+<p>CPT 的主要优点是它能够保证广告在特定的时间被播放，这对于那些需要在特定时间触达特
+定受众的广告主非常有用，例如在体育比赛的中场播放广告。然而，CPT 的缺点是它不能保
+证广告的观看次数，也就是说，如果在广告播放的时间段内，没有多少人观看电视，那么广
+告的效果就会大打折扣。</p>
+<p>\pagebreak</p>
+<h3 id="cpc">CPC</h3>
+<p>让我们想象一下，你正在玩一个免费的手机游戏，游戏中有许多广告。每当你点击一个广告，
+广告主需要支付一定的费用给游戏开发商。这就是每次点击成本（CPC，Cost per Click）
+的概念。</p>
+<p>CPC 是一种广告定价模式，广告主只需要为广告被点击付费。这个费用不是固定的，通常是
+基于竞价系统确定的。广告主可以设定他们愿意支付的最高点击费用，然后与其他广告主竞
+价，比如在搜索引擎的广告位上。</p>
+<p>CPC 广告的优点在于，广告主只需要为产生交互的广告付费，这可以帮助他们更有效地管理
+广告预算，并确保他们的投资对于引导用户交互是有价值的。</p>
+<p>\pagebreak</p>
+<h3 id="cpa-和-cps">CPA 和 CPS</h3>
+<p>想象一下你经营一个在线商店，你支付给广告平台的费用不是基于用户点击广告的次数，而
+是基于用户通过广告购买商品的次数。这就是每次动作成本（CPA，Cost per Action）和每
+次销售成本（CPS，Cost per Sale）的概念。</p>
+<p>CPA 是一种在线广告定价模式，其中广告主只需为指定的用户操作付费，如填写表单、下载
+应用程序或注册订阅。与 CPC（每次点击成本）相比，CPA 更侧重于用户完成的操作，而不仅
+仅是他们对广告的点击。</p>
+<p>另一方面，CPS 是一种特定类型的 CPA，其中广告主只需为实际销售付费。这就意味着如果用
+户点击了广告，但没有购买任何商品，那么广告主不需要支付任何费用。</p>
+<p>比如，你是一个电子书的出版商，你可以为每本通过广告链接销售的书支付给广告平台一定
+的费用。这样，你只需为实际的销售结果付费，而不是广告的展示或点击。这种模式有助于
+确保你的广告投资能直接转化为销售收入。</p>
+<p>\pagebreak</p>
+<h3 id="ocpc">oCPC</h3>
+<p>想象你正在举办一场音乐会，你希望尽可能多的人来参加。你决定投放一些广告，并为每次
+点击支付费用。但这并不意味着每次点击都能带来一个购票的观众。所以你想，如果我只支
+付那些最有可能购买门票的人的点击费用，那该多好。这就是优化每次点击成本（oCPC，
+Optimized Cost per Click）的出发点。</p>
+<p>oCPC 是一种更智能的广告出价策略，它基于预测算法来判断每次点击后续可能产生的转化
+（如购买、下载、注册等）的可能性。广告系统会根据每次点击的转化概率来动态调整每次
+点击的出价。</p>
+<p>比如，如果系统预测到某次点击有很高的可能性转化为购买行为，那么它可能会提高这次点
+击的出价，以增加广告被展示和点击的概率。反之，如果某次点击转化的可能性很低，系统
+可能就会降低出价。</p>
+<p>这种策略帮助广告主更精准地投放广告，节省广告预算，同时也提高了广告转化的概率。</p>
+<p>\pagebreak</p>
+<h3 id="gmv">GMV</h3>
+<p>假设你是一个集市的管理者，你要衡量集市的业绩。你统计了所有摊位的所有商品销售额，
+不论这些商品是否在打折。你得到的总和就是你的总商品交易额（GMV，Gross Merchandise
+Volume）。</p>
+<p>GMV 是衡量电商平台或市场业务规模的一种常用指标，它表示在一定时间段内（比如一天、
+一个月、一个季度或一年）通过平台进行的所有交易的总价值。</p>
+<p>这个指标能帮助你了解平台的交易活动水平和规模，但它并不能反映平台的净收入或利润，
+因为它并未扣除商品的成本、退货和取消的订单等因素。</p>
+<p>举个例子，如果你的集市在一天内卖出了价值 100 万的商品，那么这一天的 GMV 就是 100 万。
+但如果其中有价值 10 万的商品是退货，那么你的净收入就只有 90 万。所以，虽然 GMV 能够反
+映平台的交易规模，但并不能直接反映平台的盈利情况。</p>
+<p>\pagebreak</p>
+<h2 id="sp-行业概念">SP 行业概念</h2>
+<h3 id="短信签名">短信签名</h3>
+<p>设想你在写一封信，信的结尾，你总会留下你的名字，告诉收信人这封信是你写的。这个名
+字，就好比短信的“签名”。</p>
+<p>短信签名，是短信内容的一部分，通常在短信的开头，用来标明短信的发送者是谁。就像你
+在写信的时候，会在信的结尾签上你的名字一样。</p>
+<p>短信签名的核心属性是它提供了信息来源的标识，它告诉接收者这条短信是由谁发送的。</p>
+<p>一个真实的例子，假设你注册了一个新的应用，并请求发送验证码，你可能会收到一条这样
+的短信：“【Apple】你的验证码是 123456。” 这里的&rdquo;【Apple】&ldquo;就是短信签名，它告诉你
+这条短信是由 Apple 发送的。</p>
+<p>\pagebreak</p>
+<h3 id="短信模板">短信模板</h3>
+<p>设想一下，你正在为一个派对准备邀请函，你不会为每一个朋友单独写一份内容完全不同的
+邀请函，而是会创建一个基本的模板，然后将每个朋友的名字填到相应的位置。这个邀请函
+的模板，就相当于是短信的模板。</p>
+<p>短信模板是一种预设的、可复用的文本格式，它定义了短信的基本结构和内容，同时留有一
+些空白部分，供在实际发送时填入具体的信息。</p>
+<p>短信模板的核心属性在于其标准化和可复用性，它能让你在发送大量短信时保持一致的格式
+和节省时间。</p>
+<p>举个真实的例子，比如电商平台在给用户发送订单通知短信时，会使用类似这样的模板：
+“亲爱的{用户名}，您的订单{订单号}已经发货，预计将在{送达时间}送达。” 当发送短信
+时，系统会自动将具体的用户名、订单号和送达时间填入模板中的相应位置。
+\pagebreak</p>
+<h3 id="短信回执">短信回执</h3>
+<p>想象一下，你发送了一封重要的邮件，为了确认收件人已经收到并阅读了邮件，你可能会要
+求他们回复一条确认收到的信息。这条确认的信息，就像是短信的“回执”。</p>
+<p>短信回执是一个机制，当你发送短信后，移动网络运营商会在短信被接收时发送一个确认信
+息给你，这个确认信息就叫做短信回执。</p>
+<p>短信回执的核心属性在于其提供了信息传递的可靠性。通过回执，你可以知道你的短信是否
+已经成功送达到接收者。
+\pagebreak</p>
+<h3 id="短信回执超时时间">短信回执超时时间</h3>
+<p>设想一下，你向一个朋友发送了一封邮件，然后等待他的回复。但你并不会无限期地等待，
+可能你会给自己设定一个时间，比如一天，如果在这个时间内还没收到回复，你就会放弃这
+次联系。这个你设定的期待回复的时间，就像是短信中的“回执超时时间”。</p>
+<p>短信回执超时时间，是指从发送短信到等待回执的时间间隔。如果在这个时间内没有收到回
+执，那么就认为短信发送失败。</p>
+<p>回执超时时间的核心属性是它能够确保信息传递的及时性。通过设定一个合理的回执超时时
+间，既可以避免无效等待，又能保证有足够的时间让信息传递到目标。</p>
+<p>举一个真实的例子，很多短信服务提供商都会设定一个默认的回执超时时间，比如 3 分钟。
+如果在 3 分钟内没有收到回执，系统就会判断这条短信发送失败，然后采取相应的处理措施，
+比如重发短信等。
+\pagebreak</p>
+<h3 id="短信通道">短信通道</h3>
+<p>想象一下，你在一个大城市中，有很多条街道可以通向你的目的地，每条街道就好比是一个
+“短信通道”。</p>
+<p>短信通道，就像是城市中的街道，它是运营商用来发送和接收短信的一种路径。每个通道都
+有一个唯一的标识，就像街道的名字。</p>
+<p>短信通道的核心属性在于它为短信的发送和接收提供了路线。不同的通道可能有不同的特性，
+比如速度、稳定性等。</p>
+<p>以真实的案例为例，一家大的短信服务提供商可能会有多个短信通道，以应对不同的需求。
+比如，一些紧急或者重要的信息可能会通过更快、更稳定的通道发送，而一些不太重要的信
+息可能就会通过普通的通道发送。</p>
+<p>\pagebreak</p>
+
+        </div>
+
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            
+          </div>
+        </div>
+        
+          <div class="row">
+            <div class="col-xs-12">
+              
+            </div>
+          </div>
+
+          
+
+
+
+          
+          
+          <div style="height: 50px;"></div>
+          
+        
+
+        <div class="site-footer">
+  
+  
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  
+
+<script>
+  
+  
+    
+    
+  
+</script>
+
+  
+
+</body>
+
+</html>
