@@ -6,7 +6,16 @@
     <description>Recent content on lijigang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://www.lijigang.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://www.lijigang.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何写好Prompt: 结构化</title>
+      <link>https://www.lijigang.com/posts/chatgpt-prompt-structure/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.lijigang.com/posts/chatgpt-prompt-structure/</guid>
+      <description>背景 最早接触 Prompt engineering 时, 学到的 Prompt 技巧都是: 你是一个 XX 角色&amp;hellip; 你是一个有着 X 年经验的 XX 角色&amp;hellip; 你会 XX, 不要 YY.. 对于你不会的东西</description>
+    </item>
+    
     <item>
       <title>GPT: 一分钟了解开发概念</title>
       <link>https://www.lijigang.com/posts/gpt-said/</link>
