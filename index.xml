@@ -6,7 +6,16 @@
     <description>Recent content on lijigang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://www.lijigang.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jun 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://www.lijigang.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何写好Prompt: 迭代</title>
+      <link>https://www.lijigang.com/posts/chatgpt-prompt-iteration/</link>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.lijigang.com/posts/chatgpt-prompt-iteration/</guid>
+      <description>根据我有限的 Prompt 撰写经验，很少有第一次就能完美解决需求的情况。大部分情况下，都需要经过多次修改、观察效果差异以及不断迭代优化，直到达到满足需求</description>
+    </item>
+    
     <item>
       <title>如何写好Prompt: 结构化</title>
       <link>https://www.lijigang.com/posts/chatgpt-prompt-structure/</link>

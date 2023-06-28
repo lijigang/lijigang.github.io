@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="lijigang" />
-  <meta property="og:url" content="https://www.lijigang.com/categories/" />
-  <link rel="canonical" href="https://www.lijigang.com/categories/" /><link rel="alternate" type="application/atom+xml" href="https://www.lijigang.com/index.xml" title="lijigang">
+  <meta property="og:url" content="https://www.lijigang.com/posts/chatgpt-prompt-iteration/" />
+  <link rel="canonical" href="https://www.lijigang.com/posts/chatgpt-prompt-iteration/" /><link rel="alternate" type="application/atom+xml" href="https://www.lijigang.com/index.xml" title="lijigang">
 
   <script type="application/ld+json">
   {
@@ -18,10 +18,10 @@
            "@type": "WebPage",
            "@id": "https:\/\/www.lijigang.com\/"
       },
-      "articleSection" : "categories",
-      "name" : "Categories",
-      "headline" : "Categories",
-      "description" : "",
+      "articleSection" : "posts",
+      "name" : "如何写好Prompt: 迭代",
+      "headline" : "如何写好Prompt: 迭代",
+      "description" : "根据我有限的 Prompt 撰写经验，很少有第一次就能完美解决需求的情况。大部分情况下，都需要经过多次修改、观察效果差异以及不断迭代优化，直到达到满足需求",
       "inLanguage" : "en-US",
       "author" : "lijigang",
       "creator" : "lijigang",
@@ -31,15 +31,15 @@
       "copyrightYear" : "2023",
       "datePublished": "2023-06-28 00:00:00 \u002b0800 CST",
       "dateModified" : "2023-06-28 00:00:00 \u002b0800 CST",
-      "url" : "https:\/\/www.lijigang.com\/categories\/",
+      "url" : "https:\/\/www.lijigang.com\/posts\/chatgpt-prompt-iteration\/",
       "keywords" : [  ]
   }
 </script>
-<title>Categories</title>
-  <meta property="og:title" content="Categories" />
+<title>如何写好Prompt: 迭代</title>
+  <meta property="og:title" content="如何写好Prompt: 迭代" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="" />
-  <meta name="description" content="" />
+  <meta property="og:description" content="根据我有限的 Prompt 撰写经验，很少有第一次就能完美解决需求的情况。大部分情况下，都需要经过多次修改、观察效果差异以及不断迭代优化，直到达到满足需求" />
+  <meta name="description" content="根据我有限的 Prompt 撰写经验，很少有第一次就能完美解决需求的情况。大部分情况下，都需要经过多次修改、观察效果差异以及不断迭代优化，直到达到满足需求" />
   <meta property="og:locale" content="zh-CN" />
 
   
@@ -65,10 +65,11 @@
 
 
 <body>
-  <article class="posts">
+  <article class="post " id="article">
     <div class="row">
       <div class="col-xs-12">
-        
+        <div class="site-header">
+          
 <header>
   <div class="header-title">
     <a href="/"
@@ -85,11 +86,105 @@
 </div>
 <div class="header-line"></div>
 
-
-        <h1 class="taxonomy-term"></h1>
-        <div id="posts-list">
-          
         </div>
+        <header class="post-header">
+          <h1 class="post-title">如何写好Prompt: 迭代</h1>
+          
+          <div class="row post-desc">
+            <div class="col-xs-6">
+              
+              <time class="post-date" datetime="2023-06-28 00:00:00 CST">
+                28 Jun 2023
+              </time>
+              
+            </div>
+            <div class="col-xs-6">
+              
+              <div class="post-author">
+                <a target="_blank" href="https://www.lijigang.com/">@lijigang</a>
+              </div>
+              
+            </div>
+          </div>
+          
+        </header>
+
+        <div class="post-content markdown-body">
+          
+          <p>根据我有限的 Prompt 撰写经验，很少有第一次就能完美解决需求的情况。大部分情况下，都需要经过多次修改、观察效果差异以及不断迭代优化，直到达到满足需求的效果。</p>
+<p>本文总结了下我日常迭代 Prompt 的几个方法和技巧, 供大家参考.</p>
+<h2 id="技巧一-让-chatgpt-提建议">技巧一: 让 ChatGPT 提建议</h2>
+<p>我写了一个名为&quot;Prompt Judger&quot;的工具，可以将最新编写的 Prompt 输入其中，然后它会利用 GPT 模型对其进行评分，并给出优化建议和改进点。最终，它还会输出经过优化后的新版 Prompt。我可以基于这个新版本来决定是全部采纳还是部分采纳优化建议。</p>
+<!-- raw HTML omitted -->
+<p>[SYS]:</p>
+<ul>
+<li>author: Arthur</li>
+<li>version: 0.2</li>
+<li>language: 中文</li>
+<li>description: 我是一个 Prompt 分析器，通过对用户的 Prompt 进行评分和给出改进建议，帮助用户优化他们的输入。</li>
+</ul>
+<p>## Goals:</p>
+<ul>
+<li>对用户的 Prompt 进行评分，评分范围从 1 到 10 分，10 分为满分。</li>
+<li>提供具体的改进建议和改进原因，引导用户进行改进。</li>
+<li>输出经过改进的完整 Prompt。</li>
+</ul>
+<p>## Constrains:</p>
+<ul>
+<li>提供准确的评分和改进建议，避免胡编乱造的信息。</li>
+<li>在改进 Prompt 时，不会改变用户的意图和要求。</li>
+</ul>
+<p>## Skills:</p>
+<ul>
+<li>理解中文语义和用户意图。</li>
+<li>评估和打分文本质量。</li>
+<li>提供具体的改进建议和说明。</li>
+</ul>
+<p>## Workflows:</p>
+<ul>
+<li>用户输入 Prompt。</li>
+<li>我会根据具体的评分标准对 Prompt 进行评分，评分范围从 1 到 10 分，10 分为满分。</li>
+<li>我会输出具体的改进建议，并解释改进的原因和针对性。</li>
+<li>最后，我会输出经过改进的完整 Prompt，以供用户使用。</li>
+</ul>
+<p>[ME]:</p>
+<!-- raw HTML omitted -->
+<h2 id="技巧二-固定测试用例">技巧二: 固定测试用例</h2>
+<p>\[Respond = guess_next(prompt)\]</p>
+<p>对于迭代阶段的 Prompt, 建议选择三到五个 <strong>固定的测试输入用例</strong>, 方便对比迭代前后的效果. 这个比较关键, 因为 GPT 的输出本来就是统计概率计算的结果, 如果测试用例每次都不一样, 就会出现每个版本的 Prompt 都有一些输入的效果还不错的情况, 缺少了一致性的评判标准, 迭代改进也就无从谈起.</p>
+<p><a href="https://www.lijigang.com/posts/chatgpt-prompt-structure/">如何写好Prompt: 结构化</a> 中, Profile 模块包含的 version 字段, 用于记录迭代版本, 也有利于跟踪迭代情况.</p>
+<p><strong>Optional</strong>: 如果有可能, 最好是使用 API 来调试 Prompt, 比在网页端开新会话对比要方便很多.</p>
+<h2 id="技巧三-损有余而补不足">技巧三: 损有余而补不足</h2>
+<p>观察当前最新 Prompt 版本的输出结果, 哪些内容是你不希望看到的但出现了, 哪些内容是你想要出现但实际缺失的. 天之道, 损有余而补不足. 你需要做的就是一步一步地优化你的 Prompt:</p>
+<ul>
+<li>多余部分: 在 <code>constrains</code> 环节, 增加限制要求, 观察是否有效减少了多余信息</li>
+<li>缺失部分: 在 <code>skills</code> 和 <code>workflow</code> 环节, 增加技能点和流程细节描述, 观察是否有效增加了所需信息</li>
+</ul>
+<p>在这过程中, 尽量不要一次修改过多, 否则不好确定哪些是有效修改, 哪些是无效修改. &ldquo;Step by step&rdquo; 不止是对 ChatGPT 有效, 对人同样有效.</p>
+
+        </div>
+
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            
+          </div>
+        </div>
+        
+          <div class="row">
+            <div class="col-xs-12">
+              
+            </div>
+          </div>
+
+          
+
+
+
+          
+          
+          <div style="height: 50px;"></div>
+          
+        
 
         <div class="site-footer">
   
@@ -109,6 +204,8 @@
     
   
 </script>
+
+  
 
 </body>
 
