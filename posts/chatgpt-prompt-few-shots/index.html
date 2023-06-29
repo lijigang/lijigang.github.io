@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="lijigang" />
-  <meta property="og:url" content="https://www.lijigang.com/categories/" />
-  <link rel="canonical" href="https://www.lijigang.com/categories/" /><link rel="alternate" type="application/atom+xml" href="https://www.lijigang.com/index.xml" title="lijigang">
+  <meta property="og:url" content="https://www.lijigang.com/posts/chatgpt-prompt-few-shots/" />
+  <link rel="canonical" href="https://www.lijigang.com/posts/chatgpt-prompt-few-shots/" /><link rel="alternate" type="application/atom+xml" href="https://www.lijigang.com/index.xml" title="lijigang">
 
   <script type="application/ld+json">
   {
@@ -18,10 +18,10 @@
            "@type": "WebPage",
            "@id": "https:\/\/www.lijigang.com\/"
       },
-      "articleSection" : "categories",
-      "name" : "Categories",
-      "headline" : "Categories",
-      "description" : "",
+      "articleSection" : "posts",
+      "name" : "如何写好Prompt: Few-shots",
+      "headline" : "如何写好Prompt: Few-shots",
+      "description" : "是什么 \u0026ldquo;few-shots\u0026rdquo;，指的是训练机器学习模型时只使用极少量的标注样本。它的目标是使机器学习模型在只有少量标注",
       "inLanguage" : "en-US",
       "author" : "lijigang",
       "creator" : "lijigang",
@@ -31,15 +31,15 @@
       "copyrightYear" : "2023",
       "datePublished": "2023-06-29 00:00:00 \u002b0800 CST",
       "dateModified" : "2023-06-29 00:00:00 \u002b0800 CST",
-      "url" : "https:\/\/www.lijigang.com\/categories\/",
+      "url" : "https:\/\/www.lijigang.com\/posts\/chatgpt-prompt-few-shots\/",
       "keywords" : [  ]
   }
 </script>
-<title>Categories</title>
-  <meta property="og:title" content="Categories" />
+<title>如何写好Prompt: Few-shots</title>
+  <meta property="og:title" content="如何写好Prompt: Few-shots" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="" />
-  <meta name="description" content="" />
+  <meta property="og:description" content="是什么 &amp;ldquo;few-shots&amp;rdquo;，指的是训练机器学习模型时只使用极少量的标注样本。它的目标是使机器学习模型在只有少量标注" />
+  <meta name="description" content="是什么 &amp;ldquo;few-shots&amp;rdquo;，指的是训练机器学习模型时只使用极少量的标注样本。它的目标是使机器学习模型在只有少量标注" />
   <meta property="og:locale" content="zh-CN" />
 
   
@@ -65,10 +65,11 @@
 
 
 <body>
-  <article class="posts">
+  <article class="post " id="article">
     <div class="row">
       <div class="col-xs-12">
-        
+        <div class="site-header">
+          
 <header>
   <div class="header-title">
     <a href="/"
@@ -85,11 +86,118 @@
 </div>
 <div class="header-line"></div>
 
-
-        <h1 class="taxonomy-term"></h1>
-        <div id="posts-list">
-          
         </div>
+        <header class="post-header">
+          <h1 class="post-title">如何写好Prompt: Few-shots</h1>
+          
+          <div class="row post-desc">
+            <div class="col-xs-6">
+              
+              <time class="post-date" datetime="2023-06-29 00:00:00 CST">
+                29 Jun 2023
+              </time>
+              
+            </div>
+            <div class="col-xs-6">
+              
+              <div class="post-author">
+                <a target="_blank" href="https://www.lijigang.com/">@lijigang</a>
+              </div>
+              
+            </div>
+          </div>
+          
+        </header>
+
+        <div class="post-content markdown-body">
+          
+          <h2 id="是什么">是什么</h2>
+<blockquote>
+<p>&ldquo;few-shots&rdquo;，指的是训练机器学习模型时只使用极少量的标注样本。它的目标是使机器学习模型在只有少量标注样本的情况下也能达到良好的性能。</p>
+<p>&ndash; by GPT4</p>
+</blockquote>
+<p>在写 Prompt 时, 有一个非常实用的技巧就是利用 <code>Few-shots</code>, 通过提供少数(1-3 个)的 <strong>输入-&gt;输出</strong> 示例, 让 GPT 可以学到样本的共性, 从面提升下一个输出结果的质量.</p>
+<p>提升质量的效果对比, 可以阅读论文 : <a href="https://arxiv.org/abs/2005.14165">[2005.14165] Language Models are Few-Shot Learners</a> .</p>
+<h2 id="怎么用">怎么用</h2>
+<p>我们可以在<a href="https://www.lijigang.com/posts/chatgpt-prompt-structure/">如何写好Prompt: 结构化</a>的基础上, 增加一个结构块:  &ldquo;## Examples:&rdquo;, 在该结构块举 1-3 个示例, 从而进一步提升 Prompt 带来的输出结果提升.</p>
+<ul>
+<li>初始 Prompt</li>
+</ul>
+<!-- raw HTML omitted -->
+<p>[SYS]:
+你是一个优秀的翻译人员, 你会把我说的汉字翻译成英文和日语, 日语同时展示日语汉字和假名。输出结束后,增加一个横线&quot;━━━━━━━━━━━━━━━━━━&quot;。不要有任何额外的解释说明。</p>
+<p>━━━━━━━━━━━━━━━━━━
+<a href="%E6%97%A5%E8%AF%AD">ME</a>: 邻居</p>
+<p>隣人 (にんじん/Ninjin) (Japanese)
+━━━━━━━━━━━━━━━━━━
+<a href="%E6%97%A5%E8%AF%AD">ME</a>: 自行车</p>
+<p>自転車 (じてんしゃ/Jitensha) (Japanese)
+━━━━━━━━━━━━━━━━━━</p>
+<p><a href="%E6%97%A5%E8%AF%AD">ME</a>:</p>
+<!-- raw HTML omitted -->
+<ul>
+<li>使用 Few-shots 的 Prompt</li>
+</ul>
+<!-- raw HTML omitted -->
+<p>[SYS]:</p>
+<p>## Profile:</p>
+<ul>
+<li>author: Arthur</li>
+<li>version: 0.1</li>
+<li>language: 中文</li>
+<li>description: 我是一个优秀的翻译人员，可以将汉字翻译成英文和日语，并提供日语假名。输出结束后，会增加一个横线。</li>
+</ul>
+<p>## Goals:
+将用户输入的汉字翻译成英文和日语，并提供日语假名</p>
+<p>## Constrains:
+不提供任何额外解释说明</p>
+<p>## Skills:
+熟练掌握汉语、英语和日语，熟悉日语假名</p>
+<p>## Examples:
+━━━━━━━━━━━━━━━━━━
+<a href="%E6%97%A5%E8%AF%AD">ME</a>: 邻居</p>
+<p>隣人 (りんじん) (Japanese Kanji)
+となりびと (Japanese Hiragana)
+━━━━━━━━━━━━━━━━━━
+<a href="%E6%97%A5%E8%AF%AD">ME</a>: 自行车</p>
+<p>自転車 (じてんしゃ) (Japanese Kanji)
+じてんしゃ (Japanese Hiragana)
+━━━━━━━━━━━━━━━━━━</p>
+<p>## Workflows:</p>
+<ol>
+<li>欢迎用户，并介绍自己是一个翻译人员</li>
+<li>翻译用户输入的汉字</li>
+<li>输出翻译结果，并在末尾增加一个横线&quot;━━━━━━━━━━━━━━━━━━&quot;</li>
+</ol>
+<p>日本語 (にほんご) (Japanese Kanji)
+にほんご (Japanese Hiragana)
+━━━━━━━━━━━━━━━━━━</p>
+<p><a href="%E6%97%A5%E8%AF%AD">ME</a>:</p>
+<!-- raw HTML omitted -->
+
+        </div>
+
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            
+          </div>
+        </div>
+        
+          <div class="row">
+            <div class="col-xs-12">
+              
+            </div>
+          </div>
+
+          
+
+
+
+          
+          
+          <div style="height: 50px;"></div>
+          
+        
 
         <div class="site-footer">
   
@@ -109,6 +217,8 @@
     
   
 </script>
+
+  
 
 </body>
 
