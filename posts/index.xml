@@ -6,7 +6,16 @@
     <description>Recent content in Posts on lijigang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Jun 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://www.lijigang.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://www.lijigang.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何写好Prompt: Chain-of-Thought</title>
+      <link>https://www.lijigang.com/posts/chatgpt-prompt-chain-of-thought/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.lijigang.com/posts/chatgpt-prompt-chain-of-thought/</guid>
+      <description>是什么 在撰写 Prompt 时, 使用 CoT(Chain of Thought) 技巧是指让 GPT 输出一步步的中间状态, 最终完成目标. 在网上看到的各种 Prompt 小技巧, 很常见的一条就是 &amp;ldquo;let&amp;rsquo;s do it step by step&amp;rdquo; 之类的, 输</description>
+    </item>
+    
     <item>
       <title>如何写好Prompt: Few-shots</title>
       <link>https://www.lijigang.com/posts/chatgpt-prompt-few-shots/</link>

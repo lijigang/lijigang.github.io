@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.115.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="lijigang" />
+  <meta property="og:url" content="https://www.lijigang.com/posts/chatgpt-prompt-chain-of-thought/" />
+  <link rel="canonical" href="https://www.lijigang.com/posts/chatgpt-prompt-chain-of-thought/" /><link rel="alternate" type="application/atom+xml" href="https://www.lijigang.com/index.xml" title="lijigang">
+
+  <script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/www.lijigang.com\/"
+      },
+      "articleSection" : "posts",
+      "name" : "如何写好Prompt: Chain-of-Thought",
+      "headline" : "如何写好Prompt: Chain-of-Thought",
+      "description" : "是什么 在撰写 Prompt 时, 使用 CoT(Chain of Thought) 技巧是指让 GPT 输出一步步的中间状态, 最终完成目标. 在网上看到的各种 Prompt 小技巧, 很常见的一条就是 \u0026ldquo;let\u0026rsquo;s do it step by step\u0026rdquo; 之类的, 输",
+      "inLanguage" : "en-US",
+      "author" : "lijigang",
+      "creator" : "lijigang",
+      "publisher": "lijigang",
+      "accountablePerson" : "lijigang",
+      "copyrightHolder" : "lijigang",
+      "copyrightYear" : "2023",
+      "datePublished": "2023-06-30 00:00:00 \u002b0800 CST",
+      "dateModified" : "2023-06-30 00:00:00 \u002b0800 CST",
+      "url" : "https:\/\/www.lijigang.com\/posts\/chatgpt-prompt-chain-of-thought\/",
+      "keywords" : [  ]
+  }
+</script>
+<title>如何写好Prompt: Chain-of-Thought</title>
+  <meta property="og:title" content="如何写好Prompt: Chain-of-Thought" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="是什么 在撰写 Prompt 时, 使用 CoT(Chain of Thought) 技巧是指让 GPT 输出一步步的中间状态, 最终完成目标. 在网上看到的各种 Prompt 小技巧, 很常见的一条就是 &amp;ldquo;let&amp;rsquo;s do it step by step&amp;rdquo; 之类的, 输" />
+  <meta name="description" content="是什么 在撰写 Prompt 时, 使用 CoT(Chain of Thought) 技巧是指让 GPT 输出一步步的中间状态, 最终完成目标. 在网上看到的各种 Prompt 小技巧, 很常见的一条就是 &amp;ldquo;let&amp;rsquo;s do it step by step&amp;rdquo; 之类的, 输" />
+  <meta property="og:locale" content="zh-CN" />
+
+  
+    <style>body{font-family:bree serif,sans-serif;-webkit-font-smoothing:antialiased;margin:0 20px}article{max-width:800px;margin-left:auto;margin-right:auto}a{color:#000;text-decoration:none}a:hover{font-weight:600;text-decoration:underline}.post-ads{margin:50px 0}.markdown-body{font-size:18px;max-width:100%}.markdown-body a{text-decoration:underline;text-decoration-color:#000}.markdown-body pre{padding:16px;overflow:auto;border-radius:10px}.markdown-body code{padding:.2em .4em;font-size:85%;background-color:#f6f8fa;border-radius:6px}.markdown-body pre>code{padding:0;font-size:100%;background-color:inherit;border:0}.Chinese .markdown-body{line-height:200%}.site-date-catalog{font-size:2rem}.header-title{font-size:2rem;font-weight:700;margin-top:32px;font-family:bungee shade,sans-serif}.header-title a{text-decoration:none}.header-subtitle{color:#666}.header-items{margin:10px 0}.header-item{margin:0 5px}.header-line{width:100%;border-width:2px;border-color:#482936;border-style:solid none none none}.lang-switch{font-weight:600}#posts-list{min-height:600px}.posts-line{font-size:1.2rem;margin:12px 0}.posts-categories{font-size:.8rem;margin:auto;text-align:center}.posts-category{padding:3px 0;border:#000 2px solid;border-radius:5px}.site-footer{margin-top:50px}.site-footer-item{margin-right:12px}.post-content img{max-width:100%;display:block;margin-right:auto;margin-top:12px}.post-header{margin-bottom:50px}.post-title{font-size:2rem;font-weight:600}.post-tags{display:inline;font-weight:600;padding:2px 5px;margin-right:6px;border:#000 2px solid;border-radius:5px}.post-date{font-weight:800;font-style:italic}.post-author{float:right;font-weight:600}.page-content{min-height:60%}.post-content{margin-bottom:50px}.post-content p{hyphens:auto;line-height:1.8;text-justify:ideographic;margin-bottom:1em}.related-content{border-width:3px;border-style:solid;border-color:#000;padding:0 10px;margin-bottom:50px;margin-top:100px}.related-content li{margin:5px 0}.taxonomy-term{font-size:3rem}.gallery-img{text-align:center}.gallery-img span{text-align:center}.gallery-img-desc{font-size:.8em;font-weight:800}#disqus_thread{position:relative}#disqus_thread:after{content:"";display:block;height:55px;width:100%;position:absolute;bottom:0;background:#fff}@media screen and (max-width:600px){.header-title,.header-subtitle,.header-items{text-align:center}.posts-line{font-size:16px}.markdown-body{font-size:16px}.post-title{font-size:2rem}.post-content p{letter-spacing:.05em}}@media screen and (max-width:48em){.posts-category{display:none}}</style>
+  
+  
+    <style>.container,.container-fluid{margin-right:auto;margin-left:auto}.container-fluid{padding-right:2rem;padding-left:2rem}.row{box-sizing:border-box;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:0;-ms-flex:0 1 auto;flex:initial;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-.5rem;margin-left:-.5rem}.row.reverse{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}.col.reverse{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}.col-xs,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-offset-0,.col-xs-offset-1,.col-xs-offset-10,.col-xs-offset-11,.col-xs-offset-12,.col-xs-offset-2,.col-xs-offset-3,.col-xs-offset-4,.col-xs-offset-5,.col-xs-offset-6,.col-xs-offset-7,.col-xs-offset-8,.col-xs-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-xs{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-xs-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-xs-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-xs-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-xs-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-xs-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-xs-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-xs-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-xs-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-xs-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-xs-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-xs-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-xs-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-xs-offset-0{margin-left:0}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-11{margin-left:91.66666667%}.start-xs{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-xs{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-xs{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-xs{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-xs{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-xs{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-xs{-ms-flex-pack:distribute;justify-content:space-around}.between-xs{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-xs{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-xs{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}@media only screen and (min-width:48em){.container{width:49rem}.col-sm,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-offset-0,.col-sm-offset-1,.col-sm-offset-10,.col-sm-offset-11,.col-sm-offset-12,.col-sm-offset-2,.col-sm-offset-3,.col-sm-offset-4,.col-sm-offset-5,.col-sm-offset-6,.col-sm-offset-7,.col-sm-offset-8,.col-sm-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-sm{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-sm-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-sm-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-sm-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-sm-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-sm-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-sm-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-sm-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-sm-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-sm-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-sm-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-sm-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-sm-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-sm-offset-0{margin-left:0}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-11{margin-left:91.66666667%}.start-sm{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-sm{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-sm{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-sm{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-sm{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-sm{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-sm{-ms-flex-pack:distribute;justify-content:space-around}.between-sm{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-sm{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-sm{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}@media only screen and (min-width:64em){.container{width:65rem}.col-md,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-offset-0,.col-md-offset-1,.col-md-offset-10,.col-md-offset-11,.col-md-offset-12,.col-md-offset-2,.col-md-offset-3,.col-md-offset-4,.col-md-offset-5,.col-md-offset-6,.col-md-offset-7,.col-md-offset-8,.col-md-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-md{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-md-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-md-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-md-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-md-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-md-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-md-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-md-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-md-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-md-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-md-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-md-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-md-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-md-offset-0{margin-left:0}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-3{margin-left:25%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-6{margin-left:50%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-9{margin-left:75%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-11{margin-left:91.66666667%}.start-md{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-md{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-md{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-md{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-md{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-md{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-md{-ms-flex-pack:distribute;justify-content:space-around}.between-md{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-md{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-md{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}@media only screen and (min-width:75em){.container{width:76rem}.col-lg,.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-offset-0,.col-lg-offset-1,.col-lg-offset-10,.col-lg-offset-11,.col-lg-offset-12,.col-lg-offset-2,.col-lg-offset-3,.col-lg-offset-4,.col-lg-offset-5,.col-lg-offset-6,.col-lg-offset-7,.col-lg-offset-8,.col-lg-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-lg{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-lg-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-lg-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-lg-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-lg-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-lg-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-lg-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-lg-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-lg-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-lg-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-lg-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-lg-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-lg-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-lg-offset-0{margin-left:0}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-11{margin-left:91.66666667%}.start-lg{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-lg{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-lg{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-lg{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-lg{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-lg{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-lg{-ms-flex-pack:distribute;justify-content:space-around}.between-lg{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-lg{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-lg{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}</style>
+  
+
+  
+
+  <link href="/index.xml" rel="alternate" type="application/rss+xml"
+    title="lijigang">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Bungee+Shade" rel="stylesheet">
+  
+  
+
+  
+  
+</head>
+
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="site-header">
+          
+<header>
+  <div class="header-title">
+    <a href="/"
+      >Ignoramus</a
+    >
+  </div>
+  <div class="header-subtitle">你要对这个世界有点意见</div>
+</header>
+<div class="row end-md center-xs header-items">
+  
+</div>
+<div class="row end-xs">
+   
+</div>
+<div class="header-line"></div>
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">如何写好Prompt: Chain-of-Thought</h1>
+          
+          <div class="row post-desc">
+            <div class="col-xs-6">
+              
+              <time class="post-date" datetime="2023-06-30 00:00:00 CST">
+                30 Jun 2023
+              </time>
+              
+            </div>
+            <div class="col-xs-6">
+              
+              <div class="post-author">
+                <a target="_blank" href="https://www.lijigang.com/">@lijigang</a>
+              </div>
+              
+            </div>
+          </div>
+          
+        </header>
+
+        <div class="post-content markdown-body">
+          
+          <h2 id="是什么">是什么</h2>
+<blockquote>
+<p>在撰写 Prompt 时, 使用 CoT(Chain of Thought) 技巧是指让 GPT 输出一步步的中间状态, 最终完成目标.</p>
+</blockquote>
+<p>在网上看到的各种 Prompt 小技巧, 很常见的一条就是 <strong>&ldquo;let&rsquo;s do it step by step&rdquo;</strong> 之类的, 输出质量确实有明显的提升, 其原理以及量化的对比, 可以阅读论文 <a href="https://arxiv.org/abs/2201.11903">[2201.11903] Chain-of-Thought Prompting Elicits Reasoning in Large Language Models</a>.</p>
+<h2 id="怎么用">怎么用</h2>
+<p>在<a href="https://www.lijigang.com/posts/chatgpt-prompt-structure/">如何写好Prompt: 结构化</a> 的 <strong>## Workflow</strong> 模块, 我们除了写明交互工作流程以外, 还可以结合 CoT 技巧来明确其中关键环节的中间状态输出, 进一步提升 GPT 的输出质量.</p>
+<blockquote>
+<p>[SYS]:</p>
+<ul>
+<li>author: Arthur</li>
+<li>version: 0.1</li>
+<li>language: 中文</li>
+<li>description: 十年经验的 Python 开发专家, 擅长使用 PyQT6 开发图形软件。</li>
+</ul>
+<p>## Goals:
+通过 Python 代码实现用户提出的需求.</p>
+<p>## Constrains:</p>
+<ul>
+<li>仅限于在 macOS 系统下提供支持；</li>
+<li>专注于使用 PyQT6 进行图形软件的开发。</li>
+</ul>
+<p>## Skills:</p>
+<ul>
+<li>丰富的 Python 开发经验；</li>
+<li>熟练使用 PyQT6 开发图形软件；</li>
+<li>熟悉 macOS 系统的 Python 开发环境。</li>
+</ul>
+<p>## Workflows:</p>
+<ul>
+<li>
+<p>初始化：作为 Python 开发专家，使用中文与用户进行交流，友好地欢迎用户并介绍自己的角色和技能；</p>
+</li>
+<li>
+<p>理解需求：根据用户的需求和问题，拆分你的代码实现思路(拆分为五步)</p>
+</li>
+<li>
+<p>友好提示: 如有软件包依赖, 提示用户进行安装</p>
+</li>
+<li>
+<p>输出代码: 将上一步的代码思路使用 Python (结合 PyQT6) 实现</p>
+</li>
+</ul>
+<p>[ME]:</p>
+<ol>
+<li>有一个图形界面, 支持用户录入如下几个字段:
+<ul>
+<li>日期: &lt;默认当日, 支持编辑&gt;</li>
+<li>百度渠道: &lt;整数类型&gt;</li>
+<li>头条渠道: &lt;整数类型&gt;</li>
+<li>腾讯渠道: &lt;整数类型&gt;</li>
+</ul>
+</li>
+<li>在同一目录下已经有一个 Excel 文件 &ldquo;data.xlsx&rdquo;</li>
+<li>该界面有一个&quot;确定&quot;按钮, 点击后, 将录入的数据添加到该 Excel 文件中, 同时清空图形中的数据</li>
+<li>该界面有一个&quot;曲线&quot;按钮, 点击后, 将读取 Excel 文件中(&ldquo;data.xlsx&rdquo;), 并画出曲线图</li>
+</ol>
+</blockquote>
+<h2 id="示例">示例</h2>
+<p>ChatGPT 3.5 Respond:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env python3</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> PyQt6.QtWidgets <span style="color:#f92672">import</span> QApplication, QWidget, QLabel, QDateEdit, QLineEdit, QPushButton
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> PyQt6.QtCore <span style="color:#f92672">import</span> Qt, QDate
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> openpyxl <span style="color:#f92672">import</span> Workbook, load_workbook
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>rcParams[<span style="color:#e6db74">&#34;font.sans-serif&#34;</span>]<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;SimHei&#34;</span>] <span style="color:#75715e">#设置字体</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>rcParams[<span style="color:#e6db74">&#34;axes.unicode_minus&#34;</span>]<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span> <span style="color:#75715e">#该语句解决图像中的“-”负号的乱码问题</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">DataInputWidget</span>(QWidget):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self):
+</span></span><span style="display:flex;"><span>        super()<span style="color:#f92672">.</span>__init__()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 创建日期字段</span>
+</span></span><span style="display:flex;"><span>        date_label <span style="color:#f92672">=</span> QLabel(<span style="color:#e6db74">&#39;日期:&#39;</span>, self)
+</span></span><span style="display:flex;"><span>        date_label<span style="color:#f92672">.</span>move(<span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">20</span>)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>date_edit <span style="color:#f92672">=</span> QDateEdit(self)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>date_edit<span style="color:#f92672">.</span>move(<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">20</span>)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>date_edit<span style="color:#f92672">.</span>setDate(QDate<span style="color:#f92672">.</span>currentDate())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 创建百度渠道字段</span>
+</span></span><span style="display:flex;"><span>        baidu_label <span style="color:#f92672">=</span> QLabel(<span style="color:#e6db74">&#39;百度渠道:&#39;</span>, self)
+</span></span><span style="display:flex;"><span>        baidu_label<span style="color:#f92672">.</span>move(<span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">60</span>)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>baidu_edit <span style="color:#f92672">=</span> QLineEdit(self)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>baidu_edit<span style="color:#f92672">.</span>move(<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">60</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 创建头条渠道字段</span>
+</span></span><span style="display:flex;"><span>        toutiao_label <span style="color:#f92672">=</span> QLabel(<span style="color:#e6db74">&#39;头条渠道:&#39;</span>, self)
+</span></span><span style="display:flex;"><span>        toutiao_label<span style="color:#f92672">.</span>move(<span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">100</span>)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>toutiao_edit <span style="color:#f92672">=</span> QLineEdit(self)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>toutiao_edit<span style="color:#f92672">.</span>move(<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">100</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 创建腾讯渠道字段</span>
+</span></span><span style="display:flex;"><span>        tencent_label <span style="color:#f92672">=</span> QLabel(<span style="color:#e6db74">&#39;腾讯渠道:&#39;</span>, self)
+</span></span><span style="display:flex;"><span>        tencent_label<span style="color:#f92672">.</span>move(<span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">140</span>)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>tencent_edit <span style="color:#f92672">=</span> QLineEdit(self)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>tencent_edit<span style="color:#f92672">.</span>move(<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">140</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 创建确定按钮</span>
+</span></span><span style="display:flex;"><span>        confirm_button <span style="color:#f92672">=</span> QPushButton(<span style="color:#e6db74">&#39;确定&#39;</span>, self)
+</span></span><span style="display:flex;"><span>        confirm_button<span style="color:#f92672">.</span>move(<span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">180</span>)
+</span></span><span style="display:flex;"><span>        confirm_button<span style="color:#f92672">.</span>clicked<span style="color:#f92672">.</span>connect(self<span style="color:#f92672">.</span>add_data_to_excel)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 创建曲线按钮</span>
+</span></span><span style="display:flex;"><span>        curve_button <span style="color:#f92672">=</span> QPushButton(<span style="color:#e6db74">&#39;曲线&#39;</span>, self)
+</span></span><span style="display:flex;"><span>        curve_button<span style="color:#f92672">.</span>move(<span style="color:#ae81ff">120</span>, <span style="color:#ae81ff">180</span>)
+</span></span><span style="display:flex;"><span>        curve_button<span style="color:#f92672">.</span>clicked<span style="color:#f92672">.</span>connect(self<span style="color:#f92672">.</span>plot_curve)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>setGeometry(<span style="color:#ae81ff">300</span>, <span style="color:#ae81ff">300</span>, <span style="color:#ae81ff">300</span>, <span style="color:#ae81ff">220</span>)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>setWindowTitle(<span style="color:#e6db74">&#39;数据录入&#39;</span>)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>show()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add_data_to_excel</span>(self):
+</span></span><span style="display:flex;"><span>        date <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>date_edit<span style="color:#f92672">.</span>date()<span style="color:#f92672">.</span>toString(<span style="color:#e6db74">&#34;yyyy-MM-dd&#34;</span>)
+</span></span><span style="display:flex;"><span>        baidu <span style="color:#f92672">=</span> int(self<span style="color:#f92672">.</span>baidu_edit<span style="color:#f92672">.</span>text())
+</span></span><span style="display:flex;"><span>        toutiao <span style="color:#f92672">=</span> int(self<span style="color:#f92672">.</span>toutiao_edit<span style="color:#f92672">.</span>text())
+</span></span><span style="display:flex;"><span>        tencent <span style="color:#f92672">=</span> int(self<span style="color:#f92672">.</span>tencent_edit<span style="color:#f92672">.</span>text())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>            wb <span style="color:#f92672">=</span> load_workbook(<span style="color:#e6db74">&#39;data.xlsx&#39;</span>)
+</span></span><span style="display:flex;"><span>            sheet <span style="color:#f92672">=</span> wb<span style="color:#f92672">.</span>active
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">FileNotFoundError</span>:
+</span></span><span style="display:flex;"><span>            wb <span style="color:#f92672">=</span> Workbook()
+</span></span><span style="display:flex;"><span>            sheet <span style="color:#f92672">=</span> wb<span style="color:#f92672">.</span>active
+</span></span><span style="display:flex;"><span>            sheet<span style="color:#f92672">.</span>append([<span style="color:#e6db74">&#39;日期&#39;</span>, <span style="color:#e6db74">&#39;百度渠道&#39;</span>, <span style="color:#e6db74">&#39;头条渠道&#39;</span>, <span style="color:#e6db74">&#39;腾讯渠道&#39;</span>])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        row_data <span style="color:#f92672">=</span> [date, baidu, toutiao, tencent]
+</span></span><span style="display:flex;"><span>        sheet<span style="color:#f92672">.</span>append(row_data)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        wb<span style="color:#f92672">.</span>save(<span style="color:#e6db74">&#39;data.xlsx&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 清空数据</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>date_edit<span style="color:#f92672">.</span>setDate(QDate<span style="color:#f92672">.</span>currentDate())
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>baidu_edit<span style="color:#f92672">.</span>clear()
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>toutiao_edit<span style="color:#f92672">.</span>clear()
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>tencent_edit<span style="color:#f92672">.</span>clear()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">plot_curve</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>            wb <span style="color:#f92672">=</span> load_workbook(<span style="color:#e6db74">&#39;data.xlsx&#39;</span>)
+</span></span><span style="display:flex;"><span>            sheet <span style="color:#f92672">=</span> wb<span style="color:#f92672">.</span>active
+</span></span><span style="display:flex;"><span>            data <span style="color:#f92672">=</span> list(sheet<span style="color:#f92672">.</span>values)[<span style="color:#ae81ff">1</span>:]
+</span></span><span style="display:flex;"><span>            dates <span style="color:#f92672">=</span> [row[<span style="color:#ae81ff">0</span>] <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> data]
+</span></span><span style="display:flex;"><span>            baidu <span style="color:#f92672">=</span> [row[<span style="color:#ae81ff">1</span>] <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> data]
+</span></span><span style="display:flex;"><span>            toutiao <span style="color:#f92672">=</span> [row[<span style="color:#ae81ff">2</span>] <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> data]
+</span></span><span style="display:flex;"><span>            tencent <span style="color:#f92672">=</span> [row[<span style="color:#ae81ff">3</span>] <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> data]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            fig, ax <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots()
+</span></span><span style="display:flex;"><span>            ax<span style="color:#f92672">.</span>plot(dates, baidu, label<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;百度渠道&#39;</span>)
+</span></span><span style="display:flex;"><span>            ax<span style="color:#f92672">.</span>plot(dates, toutiao, label<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;头条渠道&#39;</span>)
+</span></span><span style="display:flex;"><span>            ax<span style="color:#f92672">.</span>plot(dates, tencent, label<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;腾讯渠道&#39;</span>)
+</span></span><span style="display:flex;"><span>            ax<span style="color:#f92672">.</span>set_xlabel(<span style="color:#e6db74">&#39;日期&#39;</span>)
+</span></span><span style="display:flex;"><span>            ax<span style="color:#f92672">.</span>set_ylabel(<span style="color:#e6db74">&#39;渠道&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># 将纵坐标范围设置为从零开始</span>
+</span></span><span style="display:flex;"><span>            ax<span style="color:#f92672">.</span>set_ylim(bottom<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            ax<span style="color:#f92672">.</span>legend()
+</span></span><span style="display:flex;"><span>            plt<span style="color:#f92672">.</span>show()
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">FileNotFoundError</span>:
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">&#39;Excel 文件不存在&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    app <span style="color:#f92672">=</span> QApplication(sys<span style="color:#f92672">.</span>argv)
+</span></span><span style="display:flex;"><span>    data_input <span style="color:#f92672">=</span> DataInputWidget()
+</span></span><span style="display:flex;"><span>    sys<span style="color:#f92672">.</span>exit(app<span style="color:#f92672">.</span>exec())
+</span></span></code></pre></div>
+        </div>
+
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            
+          </div>
+        </div>
+        
+          <div class="row">
+            <div class="col-xs-12">
+              
+            </div>
+          </div>
+
+          
+
+
+
+          
+          
+          <div style="height: 50px;"></div>
+          
+        
+
+        <div class="site-footer">
+  
+  
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  
+
+<script>
+  
+  
+    
+    
+  
+</script>
+
+  
+
+</body>
+
+</html>
