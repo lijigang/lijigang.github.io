@@ -125,7 +125,8 @@
 后, 发现大家都在上面这些技巧上打转. 直到有一天, 在 Github 上看到了
 <a href="https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor">JushBJJ/Mr.-Ranedeer-AI-Tutor</a> , 才发现原来 Prompt 还可以这样写: 原来可以在运行中
 调整各种变量并立即生效, 原来对话语言可以随时更改, 原来可以像编程一样, 提前预置好
-命令供用户调用&hellip;</p>
+命令供用户调用&hellip; 再之后发现了<a href="https://github.com/yzfly/LangGPT">GitHub - yzfly/LangGPT</a> , 这个项目提出的简版结构化
+Prompt, 非常易于学习和上手.</p>
 <p>看到了优秀的榜样, 剩下的就是拆解学习了, 从中学到的第一个 Prompt engineering 技巧
 就是: <!-- raw HTML omitted -->结构化 Prompt<!-- raw HTML omitted --> .</p>
 <h2 id="什么是结构化">什么是结构化?</h2>
@@ -137,12 +138,14 @@
 表述在设计好的框架结构中:</p>
 <ul>
 <li>
-<p>语法
-这个结构支持 Markdown 语法, 也支持 YAML 语法, 甚至纯文本手动敲空格和回车都可以.</p>
+<p>语法</p>
+<p>这个结构支持 <code>Markdown</code> 语法, 也支持 YAML 语法, 甚至纯文本手动敲空格和回车都可以.
+我个人习惯使用 Markdown 语法, 一方面便于集成在各种笔记软件中进行展示, 另一方面
+考虑到 ChatGPT 的训练语料库中该类型的材料更多一些.</p>
 </li>
 <li>
-<p>结构
-结构中的信息, 可以根据自己需要进行增减, 从中总结的常用模块包括:</p>
+<p>结构</p>
+<p>结构中的信息, 可以根据自己需要进行增减, 从中总结的常用模块包括:</p>
 <ul>
 <li>
 <p><strong># Role: &lt;name&gt;  :</strong> 指定角色会让 GPT 聚焦在对应领域进行信息输出</p>
