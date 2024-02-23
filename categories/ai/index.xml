@@ -6,51 +6,42 @@
     <description>Recent content in AI on lijigang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://www.lijigang.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jun 2023 18:54:16 +0800</lastBuildDate>
+    <atom:link href="https://www.lijigang.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何写好Prompt: Chain-of-Thought</title>
       <link>https://www.lijigang.com/posts/chatgpt-prompt-chain-of-thought/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/chatgpt-prompt-chain-of-thought/</guid>
       <description>是什么 在撰写 Prompt 时, 使用 CoT(Chain of Thought) 技巧是指让 GPT 输出一步步的中间状态, 最终完成目标. 在网上看到的各种 Prompt 小技巧, 很常见的一条就是 &amp;ldquo;let&amp;rsquo;s do it step by step&amp;rdquo; 之类的, 输</description>
     </item>
-    
     <item>
       <title>如何写好Prompt: Few-shots</title>
       <link>https://www.lijigang.com/posts/chatgpt-prompt-few-shots/</link>
       <pubDate>Thu, 29 Jun 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/chatgpt-prompt-few-shots/</guid>
       <description>是什么 &amp;ldquo;few-shots&amp;rdquo;，指的是训练机器学习模型时只使用极少量的标注样本。它的目标是使机器学习模型在只有少量标注</description>
     </item>
-    
     <item>
       <title>如何写好Prompt: 迭代</title>
       <link>https://www.lijigang.com/posts/chatgpt-prompt-iteration/</link>
       <pubDate>Wed, 28 Jun 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/chatgpt-prompt-iteration/</guid>
       <description>根据我有限的 Prompt 撰写经验，很少有第一次就能完美解决需求的情况。大部分情况下，都需要经过多次修改、观察效果差异以及不断迭代优化，直到达到满足需求</description>
     </item>
-    
     <item>
       <title>如何写好Prompt: 结构化</title>
       <link>https://www.lijigang.com/posts/chatgpt-prompt-structure/</link>
       <pubDate>Tue, 27 Jun 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/chatgpt-prompt-structure/</guid>
       <description>背景 最早接触 Prompt engineering 时, 学到的 Prompt 技巧都是: 你是一个 XX 角色&amp;hellip; 你是一个有着 X 年经验的 XX 角色&amp;hellip; 你会 XX, 不要 YY.. 对于你不会的东西</description>
     </item>
-    
     <item>
       <title>GPT: 一分钟了解开发概念</title>
       <link>https://www.lijigang.com/posts/gpt-said/</link>
       <pubDate>Sun, 25 Jun 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/gpt-said/</guid>
       <description>前言 一直以来都想写一个用通俗易懂语言讲解软件开发相关概念的文章, 但几次尝试均未能达到 预期效果. 直到最近 ChatGPT 的到来, 尝试着通过写 Prompt 来引导 AI 帮我完</description>
     </item>
-    
   </channel>
 </rss>

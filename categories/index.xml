@@ -6,60 +6,56 @@
     <description>Recent content in Categories on lijigang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://www.lijigang.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Feb 2024 17:40:58 +0800</lastBuildDate>
+    <atom:link href="https://www.lijigang.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>闲言</title>
+      <link>https://www.lijigang.com/categories/%E9%97%B2%E8%A8%80/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0800</pubDate>
+      <guid>https://www.lijigang.com/categories/%E9%97%B2%E8%A8%80/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://www.lijigang.com/categories/ai/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/categories/ai/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>武器库</title>
       <link>https://www.lijigang.com/categories/%E6%AD%A6%E5%99%A8%E5%BA%93/</link>
       <pubDate>Mon, 03 Apr 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/categories/%E6%AD%A6%E5%99%A8%E5%BA%93/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>读书</title>
       <link>https://www.lijigang.com/categories/%E8%AF%BB%E4%B9%A6/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/categories/%E8%AF%BB%E4%B9%A6/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>思考</title>
       <link>https://www.lijigang.com/categories/%E6%80%9D%E8%80%83/</link>
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/categories/%E6%80%9D%E8%80%83/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>文章</title>
       <link>https://www.lijigang.com/categories/%E6%96%87%E7%AB%A0/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/categories/%E6%96%87%E7%AB%A0/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>模型</title>
       <link>https://www.lijigang.com/categories/%E6%A8%A1%E5%9E%8B/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/categories/%E6%A8%A1%E5%9E%8B/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

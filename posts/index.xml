@@ -6,366 +6,294 @@
     <description>Recent content in Posts on lijigang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://www.lijigang.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Feb 2024 17:40:58 +0800</lastBuildDate>
+    <atom:link href="https://www.lijigang.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>人人都在盲人摸象</title>
+      <link>https://www.lijigang.com/posts/everybody-is-blind/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0800</pubDate>
+      <guid>https://www.lijigang.com/posts/everybody-is-blind/</guid>
+      <description>道可道，非常道。 名可名，非常名。 ━━━━━━━━━━━━━━ &amp;ndash;《道德经》 在盲人摸象的故事中, 人们嘲笑摸象的盲人认知之片面, 是因为</description>
+    </item>
     <item>
       <title>如何写好Prompt: Chain-of-Thought</title>
       <link>https://www.lijigang.com/posts/chatgpt-prompt-chain-of-thought/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/chatgpt-prompt-chain-of-thought/</guid>
       <description>是什么 在撰写 Prompt 时, 使用 CoT(Chain of Thought) 技巧是指让 GPT 输出一步步的中间状态, 最终完成目标. 在网上看到的各种 Prompt 小技巧, 很常见的一条就是 &amp;ldquo;let&amp;rsquo;s do it step by step&amp;rdquo; 之类的, 输</description>
     </item>
-    
     <item>
       <title>如何写好Prompt: Few-shots</title>
       <link>https://www.lijigang.com/posts/chatgpt-prompt-few-shots/</link>
       <pubDate>Thu, 29 Jun 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/chatgpt-prompt-few-shots/</guid>
       <description>是什么 &amp;ldquo;few-shots&amp;rdquo;，指的是训练机器学习模型时只使用极少量的标注样本。它的目标是使机器学习模型在只有少量标注</description>
     </item>
-    
     <item>
       <title>如何写好Prompt: 迭代</title>
       <link>https://www.lijigang.com/posts/chatgpt-prompt-iteration/</link>
       <pubDate>Wed, 28 Jun 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/chatgpt-prompt-iteration/</guid>
       <description>根据我有限的 Prompt 撰写经验，很少有第一次就能完美解决需求的情况。大部分情况下，都需要经过多次修改、观察效果差异以及不断迭代优化，直到达到满足需求</description>
     </item>
-    
     <item>
       <title>如何写好Prompt: 结构化</title>
       <link>https://www.lijigang.com/posts/chatgpt-prompt-structure/</link>
       <pubDate>Tue, 27 Jun 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/chatgpt-prompt-structure/</guid>
       <description>背景 最早接触 Prompt engineering 时, 学到的 Prompt 技巧都是: 你是一个 XX 角色&amp;hellip; 你是一个有着 X 年经验的 XX 角色&amp;hellip; 你会 XX, 不要 YY.. 对于你不会的东西</description>
     </item>
-    
     <item>
       <title>GPT: 一分钟了解开发概念</title>
       <link>https://www.lijigang.com/posts/gpt-said/</link>
       <pubDate>Sun, 25 Jun 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/gpt-said/</guid>
       <description>前言 一直以来都想写一个用通俗易懂语言讲解软件开发相关概念的文章, 但几次尝试均未能达到 预期效果. 直到最近 ChatGPT 的到来, 尝试着通过写 Prompt 来引导 AI 帮我完</description>
     </item>
-    
     <item>
       <title>伞: 云雨伞模型</title>
       <link>https://www.lijigang.com/posts/cloud-rain-umbrella/</link>
       <pubDate>Mon, 03 Apr 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/cloud-rain-umbrella/</guid>
       <description>沟通信息模型 我明明说的那么清楚了, 对方怎么就是听不明白呢? 我刚不是已经说过情况了吗? 怎么老板还问我 &amp;ldquo;所以呢?&amp;rdquo; 我只是</description>
     </item>
-    
     <item>
       <title>十字斩: 二轴思考</title>
       <link>https://www.lijigang.com/posts/two-dimensions/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/two-dimensions/</guid>
       <description>所谓二轴思维, 拿出一张纸, 一横一竖两条线, 交叉形成的结构, 即为二轴思维。 金字塔原理是在解决杂乱信息如何结构化组织的问题, 二轴思维是在解决复杂</description>
     </item>
-    
     <item>
       <title>矛: 批判性思维</title>
       <link>https://www.lijigang.com/posts/critical-thinking/</link>
       <pubDate>Mon, 27 Mar 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/critical-thinking/</guid>
       <description>这世人有两种人, 一种是盲从者; 一种是独行者。 盲从者以接收更多信息为乐; 独行者以独立思考批判信息为乐。 盲从者和独行者的原始区别只有一个: 是否具</description>
     </item>
-    
     <item>
       <title>刀: 奥卡姆剃刀定律</title>
       <link>https://www.lijigang.com/posts/occam-razor/</link>
       <pubDate>Fri, 24 Mar 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/occam-razor/</guid>
       <description>丈夫回家晚了，你会担心他是不是出车祸了；儿子比去年少长高了一厘米，你会担心他的身体是不是出问题了；你的脚趾疼痛，你会担心自己是不是得了骨癌。</description>
     </item>
-    
     <item>
       <title>读&lt;商业模式新生代&gt;</title>
       <link>https://www.lijigang.com/posts/business-model/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/business-model/</guid>
       <description>这是一本水作，也是一本神作。 水的地方在于作者拿很多粗浅的例子和套话在讲解框架中的元素，而这些内容用一篇文章就可以说完的事，硬是凑成了一本书。</description>
     </item>
-    
     <item>
       <title>思 &#34;复盘&#34;</title>
       <link>https://www.lijigang.com/posts/fupan/</link>
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/fupan/</guid>
       <description>什么是复盘 复盘这个名字的来源是围棋里的术语，本意是对弈者下完一盘棋之后，重新在棋盘上把过程再摆一遍，看看哪些地方下得好，哪些地方下得不好，哪</description>
     </item>
-    
     <item>
       <title>思 &#34;热力学第二定律&#34;</title>
       <link>https://www.lijigang.com/posts/always-change/</link>
       <pubDate>Tue, 07 Jun 2022 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/always-change/</guid>
       <description>热力学第二定律：孤立系統的熵状态永远只会增加，不会减少。 用 熵 的视角来看待公司, 公司就像是处于一部向地狱而行的自动扶梯, 通往无序和死亡。公司从</description>
     </item>
-    
     <item>
       <title>思 &#34;知止而后有定&#34;</title>
       <link>https://www.lijigang.com/posts/something-bigger-than-yourself/</link>
       <pubDate>Mon, 06 Jun 2022 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/something-bigger-than-yourself/</guid>
       <description>当你面对你自己的时候, 你觉得你就是一切。如果你不在了, 一切也就都没有了意义, 所以天地之间, 你最重要。 当你面对整个宇宙的时候, 你又觉得自己是微</description>
     </item>
-    
     <item>
       <title>思 &#34;多视角看问题&#34;</title>
       <link>https://www.lijigang.com/posts/change-visions/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/change-visions/</guid>
       <description>要理解一个概念，有三种很重要的视角： 一种是 显微镜 ，这个事情的本质是什么？细分细分细分再细分； 一种是 平面镜 ，真正如实地反映当前现实； 一种是 望远</description>
     </item>
-    
     <item>
       <title>读&lt;品牌22律&gt;</title>
       <link>https://www.lijigang.com/posts/22-principles-of-brand/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/22-principles-of-brand/</guid>
       <description>品牌是什么？ 它是你在潜在顾客的心智中所拥有的独特概念或认知。 定位定律 任何一个品牌，都需选一个&amp;quot;词汇&amp;quot;, 用于占据潜在用户看</description>
     </item>
-    
     <item>
       <title>读&lt;管理的12个问题&gt;</title>
       <link>https://www.lijigang.com/posts/12-questions-of-administration/</link>
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/12-questions-of-administration/</guid>
       <description>管理就是一定组织中的管理者，通过实施计划、组织、领导和控制职能，协调他人 的活动，带领人们既有效果又有效率地实现组织目标的过程。 MBA 是一个英文缩</description>
     </item>
-    
     <item>
       <title>读&lt;金字塔原理&gt;</title>
       <link>https://www.lijigang.com/posts/the-pyramid-principle/</link>
       <pubDate>Thu, 06 Jan 2022 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/the-pyramid-principle/</guid>
       <description>“这人脑子不清楚，表达没有逻辑” 什么是表达逻辑? 如何练习提升自己的表达逻辑? 如果只能选一本书, 那一定非《金字塔原理》莫属了。 《金字塔原理》 一</description>
     </item>
-    
     <item>
       <title>优质文章每日精华选(2022年)</title>
       <link>https://www.lijigang.com/posts/everyday-reading-2022/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/everyday-reading-2022/</guid>
       <description>微信公众号「卫夕聊广告」的作者组了一个微信群, 目的是每天挑选五篇当前最优质文章,帮小伙伴们提升信息获取的效率和质量. 因每日发完文章列表后, 群</description>
     </item>
-    
     <item>
       <title>读&lt;用的上的资本论&gt;</title>
       <link>https://www.lijigang.com/posts/useful-capital/</link>
       <pubDate>Mon, 18 Oct 2021 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/useful-capital/</guid>
       <description>读&amp;lt;资本论&amp;gt;几次都没读进去, 一直认为缘分未到。阅读这本书的过程, 就像是你身 边的一个学识渊博的朋友, 用现代语言体系, 对你讲了一遍马</description>
     </item>
-    
     <item>
       <title>读&lt;如何解决复杂问题&gt;</title>
       <link>https://www.lijigang.com/posts/life-finds-a-way/</link>
       <pubDate>Wed, 13 Oct 2021 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/life-finds-a-way/</guid>
       <description>进化, 是指种群里的基因频率的改变。 &amp;lt;如何解决复杂问题&amp;gt; 这书主要介绍了生物进化历程中的三大决定性力量: 自然选 择(基因突变), 基因漂</description>
     </item>
-    
     <item>
       <title>读&lt;商业的本质和互联网&gt;</title>
       <link>https://www.lijigang.com/posts/essence-of-bussiness/</link>
       <pubDate>Mon, 13 Sep 2021 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/essence-of-bussiness/</guid>
       <description>商业的本质与互联网, 许小年的这本书, 详细分析了互联网成长速度如此之快的理 论基础&amp;ndash;网络效应, 新颖之处在于, 强调了网络节点之间, 不同</description>
     </item>
-    
     <item>
       <title>读&lt;微文案&gt;</title>
       <link>https://www.lijigang.com/posts/micro-text/</link>
       <pubDate>Tue, 15 Jun 2021 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/micro-text/</guid>
       <description>如何提炼卖点? 两个原则: 绝对领先: 人无我有 纯净水: 27层净化 农夫山泉有点甜 相对领先：人有我精 抽油烟机: 吸力超强 如何给自己做定位? 你在 什么领域</description>
     </item>
-    
     <item>
       <title>读&lt;产品经理数据修炼30问&gt;</title>
       <link>https://www.lijigang.com/posts/pm-data-30-questions/</link>
       <pubDate>Thu, 10 Jun 2021 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/pm-data-30-questions/</guid>
       <description>当你作为产品经理入职一家新的公司, 接触新的产品线, 怎么才能快速上手了解整 体情况? 这本书是想让产品经理通过数据分析的角度来完成该目标。 书中列了</description>
     </item>
-    
     <item>
       <title>读&lt;投资至简&gt;</title>
       <link>https://www.lijigang.com/posts/investment-is-simple/</link>
       <pubDate>Tue, 09 Mar 2021 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/investment-is-simple/</guid>
       <description>投资体系 投资体系是投资者关于投资的认知和行为的集合，包含了投资者对投资目的和投资意义的选 择，包含了投资者的资产观、市场观和风险观，也包含了投</description>
     </item>
-    
     <item>
       <title>优质文章每日精华选(2021年)</title>
       <link>https://www.lijigang.com/posts/everyday-reading-2021/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/everyday-reading-2021/</guid>
       <description>微信公众号「卫夕聊广告」的作者组了一个微信群, 目的是每天挑选五篇当前最优 质文章,帮小伙伴们提升信息获取的效率和质量. 因每日发完文章列表后, 群</description>
     </item>
-    
     <item>
       <title>思&#34;如何开会&#34;</title>
       <link>https://www.lijigang.com/posts/meetings/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/meetings/</guid>
       <description>工作中每天要花大量的时间在开会讨论上面, 为什么要开会? 开会核心是解决 认知一致 的问题。针对一件具体待讨论的议题, 参会人员提供自己了解的信息和看</description>
     </item>
-    
     <item>
       <title>学&lt;刘嘉:概率论22讲&gt;</title>
       <link>https://www.lijigang.com/posts/probability-theory/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/probability-theory/</guid>
       <description>概率论解决随机问题的本质, 就是把局部的随机性转变为整体上的确定性. 一座城市, 婴儿会在哪一刻诞生是随机的, 但从整体上看, 这座城市的出生率却是大</description>
     </item>
-    
     <item>
       <title>学&lt;商业通识&gt;</title>
       <link>https://www.lijigang.com/posts/learn-business-common-sense/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/learn-business-common-sense/</guid>
       <description>最近学习完了 刘润 在 得到 上面的商业通识课程, 收获颇丰, 记录于此. 交易成本 商业的本质, 是 交易. 更先进的商业, 就是更高效率的交易. 劳动创造财富, 交</description>
     </item>
-    
     <item>
       <title>读 &lt;远见&gt;</title>
       <link>https://www.lijigang.com/posts/career-path/</link>
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/career-path/</guid>
       <description>在这本书中, 作者把职业生涯分成三个主要阶段，每一阶段都持续大约 15 年，且各有各的 主导策略。 职业阶段 第一阶段：寻找短板, 加添燃料 整个第一阶段往往</description>
     </item>
-    
     <item>
       <title>优质文章每日精华选(2020年)</title>
       <link>https://www.lijigang.com/posts/everyday-reading-2020/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/everyday-reading-2020/</guid>
       <description>微信公众号「卫夕聊广告」的作者组了一个微信群, 目的是每天挑选五篇当前最优 质文章,帮小伙伴们提升信息获取的效率和质量. 因每日发完文章列表后, 群</description>
     </item>
-    
     <item>
       <title>读&lt;人类简史&gt;</title>
       <link>https://www.lijigang.com/posts/humankind-history/</link>
       <pubDate>Fri, 12 Apr 2019 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/humankind-history/</guid>
       <description>站在今天回看昨天, 没什么太大的不同; 设想明天, 好像也不会有太多的惊喜. 但 当你像这本书作者一样, 把视野提升的足够高, 以一种历史哲学的眼光回顾人</description>
     </item>
-    
     <item>
       <title>读&lt;未来简史&gt;</title>
       <link>https://www.lijigang.com/posts/tomorrow-history/</link>
       <pubDate>Fri, 12 Apr 2019 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/tomorrow-history/</guid>
       <description>宗教统治世界 宗教给世界带来了秩序, 也为社会带来了意义. 原始宗教: 泛灵论认为万物有灵, 一切物品都有灵魂, 并且它们之间, 乃至它们与 人类都可以进行</description>
     </item>
-    
     <item>
       <title>优质文章每日精华选(2019年)</title>
       <link>https://www.lijigang.com/posts/everyday-reading-2019/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/everyday-reading-2019/</guid>
       <description>微信公众号「卫夕聊广告」的作者组了一个微信群, 目的是每天挑选五篇当前最优 质文章,帮小伙伴们提升信息获取的效率和质量. 因每日发完文章列表后, 群</description>
     </item>
-    
     <item>
       <title>读&lt;网络是怎样连接的&gt;</title>
       <link>https://www.lijigang.com/posts/how-web-works/</link>
       <pubDate>Wed, 12 Dec 2018 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/how-web-works/</guid>
       <description>之前读过 Github 上面的关于从浏览器输入 google.com 到浏览器加载出 google 首页, 整个技术细节流程的介绍. 最近又在出差的路上读完了 网络是怎样连接的 这本书, 对输入网址或</description>
     </item>
-    
     <item>
       <title>读&lt;有限与无限的游戏&gt;</title>
       <link>https://www.lijigang.com/posts/finite-and-infinite-game/</link>
       <pubDate>Tue, 06 Nov 2018 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/finite-and-infinite-game/</guid>
       <description>世上至少有两种游戏。 一种可称为有限游戏，另一种称为无限游戏。 有限游戏以取胜为目的，而无限游戏以延续游戏为目的。 Kevin Kelly 曾说「有限与无限的游戏 改变</description>
     </item>
-    
     <item>
       <title>读&lt;哲学了没&gt;</title>
       <link>https://www.lijigang.com/posts/philosophy/</link>
       <pubDate>Sat, 03 Nov 2018 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/philosophy/</guid>
       <description>人们出于对智慧的热爱所探究的问题, 可被视为「哲学问题」 与其将哲学视为一门「学科」，不如说哲学是一门教导我们如何运用理性来思考的 「方法」。理性</description>
     </item>
-    
     <item>
       <title>读&lt;计算广告&gt;</title>
       <link>https://www.lijigang.com/posts/review-computational-advertising/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/review-computational-advertising/</guid>
       <description>如果你只有时间看一本互联网广告相关的书, 就读 计算广告 吧. 个人一直很喜欢读「通史」或「简史」类的书籍, 因为可以通过历史发展演化的角 度来看待研究</description>
     </item>
-    
     <item>
       <title>读&lt;规模&gt;</title>
       <link>https://www.lijigang.com/posts/scale/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/scale/</guid>
       <description>人类从出生到成长为成人，只用了很短的时间，但余生这么久的时间确没有再在形 体上成长，为什么会这样？ 人类为什么不会像一颗大树一样， 长个几十米高？</description>
     </item>
-    
     <item>
       <title>学&lt;五分钟商学院&gt;</title>
       <link>https://www.lijigang.com/posts/5-minutes-business/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/5-minutes-business/</guid>
       <description>最近在学习 得到 上面 刘润 的五分钟商学院，很受启发，记录下学习总结。 生意的本质就是创造产品价值，然后把产品价值交换给有需要的人。 产品价值的创造过</description>
     </item>
-    
     <item>
       <title>优质文章每日精华选(2018年)</title>
       <link>https://www.lijigang.com/posts/everyday-reading-2018/</link>
       <pubDate>Sat, 07 Apr 2018 19:10:00 +0800</pubDate>
-      
       <guid>https://www.lijigang.com/posts/everyday-reading-2018/</guid>
       <description>微信公众号「卫夕聊广告」的作者组了一个微信群, 目的是每天挑选五篇当前最优 质文章,帮小伙伴们提升信息获取的效率和质量. 因每日发完文章列表后, 群</description>
     </item>
-    
   </channel>
 </rss>
